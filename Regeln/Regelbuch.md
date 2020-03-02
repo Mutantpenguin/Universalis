@@ -386,6 +386,125 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
 ## Bewegung
 
+Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann das Modell entsprechend bewegt werden.
+
+Bei Reaktion kann auf jede Bewegungsaktion einzeln reagiert werden.
+
+Daher können mehrere Bewegungsaktionen zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
+
+Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
+
+Jede Bewegung bis auf die Angriffsbewegung darf im Voraus ausgemessen werden.
+
+### Bewegungstest
+
+In bestimmten Situationen muss ein Bewegungstest ausgeführt werden.
+Dies ist ein normaler Erfolgswurf auf AFG der mit dem Basis-W12 durchgeführt wird.
+
+### Aktionen
+
+!!! danger Drehen - 0 ⊙
+
+    Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
+
+!!! danger Normale Bewegung - 1-2 ⊙
+
+    Das Modell bewegt sich entsprechend seiner BW in cm. Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es liegt.
+
+!!! danger Hinlegen - 1 ⊙
+
+    Das Modell gilt als liegend.
+
+!!! danger Aufstehen - 1 ⊙
+
+    Das Modell gilt als stehend.
+
+!!! danger Angriffsbewegung - WK ⊙
+
+    Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe.
+    
+    Die eigentliche Bewegung ist somit kostenlos.
+    
+    Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem Nahkampf.
+
+!!! danger Springen - 2 ⊙
+
+    Das Modell springt entsprechend seiner BW in cm weit wenn es gestanden hat.
+    
+    Falls es unmittelbar vorher mindestens eine volle Bewegung gemacht hat, darf es die doppelte Reichweite springen.
+    
+    Ein Modell kann nicht springen, wenn es liegt.
+
+!!! danger Interagieren - 1 ⊙
+
+    Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
+
+### Reaktionen
+
+!!! warning Beschuss Ausweichen - 1 ⊙
+
+    !!! note ""
+
+        Bedingung:
+        
+        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor das schießende Modell seinen Fernkampfwurf durchführt.
+        
+        Nicht bei liegenden Modellen.
+    
+    Der Schütze erhält -1 auf seinen
+Fernkampfwurf.
+
+!!! warning Hinwerfen - 2 ⊙
+
+    !!! note ""
+
+        Bedingung:
+
+        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor das schießende Modell seinen Fernkampfwurf durchführt.
+        
+        Nicht bei liegenden Modellen.
+    
+    Das Modell wirft sich zu Boden und gilt als liegend.
+
+### Schnelle Bewegungen
+
+Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 20cm bewegt, gilt es als in schneller Bewegung.
+Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
+
+Sie wird am Modell mit folgendem Marker dargestellt:
+
+TODO Icon
+
+Zum Beginn der Initiativephase eines Modells, wird der Marker entfernt.
+
+Sie kommt unter anderem beim Fernkampf zur Anwendung (siehe Seite TODO).
+
+### Liegende Modelle
+
+Liegende Modelle gelten als „klein“ (siehe Seite TODO).
+
+Das Sichtfeld liegender Modelle ist um eine Stufe verschlechtert (siehe Seite TODO).
+
+### Passierbarkeit
+
+Passierbarkeit ist eine Eigenschaft von Geländeräumen (siehe Seite TODO) und wird mit einer Stufe von 0 bis 2 angegeben.
+
+Die Kosten jeder Bewegungsaktion innerhalb eines Geländeraumes werden um die entsprechende Stufe erhöht.
+
+Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Kosten um 1⊙ verringert.
+Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
+
+### Bewegungsarten
+
+|Icon|Name|Bedeutung|
+|--|--|--|
+|TODO|Antigrav| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
+|TODO|Beine|TODO|
+|TODO|Flug|TODO Führt in jeder Runde als erste Aktion immer eine volle Bewegung in Blickrichtung aus.|
+|TODO|Kette|TODO Bewegungstests für Passierbarkeit dürfen wiederholt werden.|
+|TODO|Rad|TODO Schneller auf Straßen|
+|TODO|Stationär|TODO Ist halt stationär|
+
 ## Gelände
 
 ## Schaden & Verteidigung
