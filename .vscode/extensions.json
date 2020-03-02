@@ -6,7 +6,8 @@
 	"recommendations": [
 		"yzane.markdown-pdf",
 		"davidanson.vscode-markdownlint",
-		"yzhang.markdown-all-in-one"
+		"yzhang.markdown-all-in-one",
+		"jebbs.markdown-extended"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [

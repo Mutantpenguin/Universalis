@@ -1,0 +1,7 @@
+{
+    "markdown.styles": [
+        "markdown.css"
+    ],
+    "markdownExtended.puppeteerExecutable": "/usr/bin/chromium",
+    "markdownExtended.tocLevels": [2,3]
+}
