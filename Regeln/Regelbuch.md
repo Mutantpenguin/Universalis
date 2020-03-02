@@ -398,8 +398,7 @@ Jede Bewegung bis auf die Angriffsbewegung darf im Voraus ausgemessen werden.
 
 ### Bewegungstest
 
-In bestimmten Situationen muss ein Bewegungstest ausgeführt werden.
-Dies ist ein normaler Erfolgswurf auf AFG der mit dem Basis-W12 durchgeführt wird.
+Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen durchgeführt werden.
 
 ### Aktionen
 
@@ -539,7 +538,7 @@ Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
 TODO
 
-Auf Hitze basierende Waffen verlieren 1 Punkt ihres Potentials und 1 Reichweitenband bis zu einem Minimum von 1.
+Auf Hitze basierende Waffen verlieren 1 Punkt ihrer Stärke und 1 Reichweitenband bis zu einem Minimum von 1.
 
 Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
 
@@ -547,7 +546,7 @@ Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
 
 TODO
 
-AFG wird bei Tests um 1 erhöht.
+WN wird bei Tests um 1 erhöht.
 Nicht der Wahrnehmungsbereich.
 
 #### Mond
@@ -579,7 +578,7 @@ Waffen mit ballistischer Flugbahn habe Probleme.
 #### Wüste
 
 TODO
-AFG wird bei Tests um 1 erhöht. Nicht der
+WN wird bei Tests um 1 erhöht. Nicht der
 Wahrnehmungsbereich.
 Jede landgestüzte Bewegung ist erschwert.
 
@@ -615,7 +614,7 @@ Wahrnehmungsbereich wird halbiert.
 
 Passierbarkeit 1
 
-AFG wird um 1 verringert.
+WN wird bei Tests um 1 verringert.
 
 #### Gebäude
 
@@ -643,13 +642,13 @@ Um Schaden abzuwehren gibt es verschiedene Möglichkeiten wie bspw. Rüstung, Sc
 
 ### Schadensprofil
 
-Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), das Potential, den Substanzverlust und eventuellen Effekten angegeben.
+Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), die Stärke, den Schaden und eventuellen Effekten angegeben.
 
 TODO Bild
 
 ### Verteidigungsprofil
 
-Verteidigung wird immer durch ein oder mehrere Verteidigungstypen (z.B. Stich), das Potential und eventuellen Effekten angegeben.
+Verteidigung wird immer durch ein oder mehrere Verteidigungstypen (z.B. Stich), den Schutz und eventuellen Effekten angegeben.
 
 TODO Bild
 
@@ -680,9 +679,9 @@ Diese Symbole sind auf der Einheitenkarte zu finden.
 
 |Icon|Name|Bedeutung|
 |--|--|--|
-|TODO|Substanzverlust|Es stellt den effektiven Verlust an Substanzpunkten am Modell dar.|
-|TODO|Potential|Es stellt die effektive Wirkungshöhe des Ausrüstungsgegenstandes dar.|
-|TODO|TODO|TODO|
+|TODO|Schaden|Es stellt den effektiven Verlust an Trefferpunkten am Modell dar.|
+|TODO|Stärke|Es stellt die effektive Wirkungshöhe des Ausrüstungsgegenstandes dar.|
+|TODO|Schutz|TODO|
 
 ### Schadens- / Verteidigungswurf
 
@@ -699,25 +698,25 @@ Nun werden die Erfolge gezählt und folgende Tabelle konsultiert:
 |--|--|
 |Verteidiger|Nichts passiert.|
 |Gleichstand|Der Verteidiger erleidet einen Schock. Ein Gleichstand wird auch erreicht, wenn beide Seiten keine Erfolge haben.|
-|Angreifer|Der Substanzverlust des Schadensprofils wird angewendet. Für jeden Erfolg nach dem Ersten, den der Angreifer mehr hat als der Verteidiger, wird der Substanzverlust um 1 erhöht.|
+|Angreifer|Der Schaden des Schadensprofils wird angewendet. Für jeden Erfolg nach dem Ersten, den der Angreifer mehr hat als der Verteidiger, wird der Schaden um 1 erhöht.|
 
-### Substanzverlust
+### Schaden
 
-Wenn der Substanzverlust zur Anwendung kommt, wird er von der aktuellen Substanz des Verteidigers abgezogen.
+Wenn der Schaden zur Anwendung kommt, wird er von den aktuellen Trefferpunkten des Verteidigers abgezogen.
 
-Falls seine Substanz auf genau 0 sinkt gilt er als ausgeschaltet und wird an Ort und Stelle auf die Seite gelegt, verbleibt somit jedoch im Spiel und kann wiederbelebt bzw. repariert werden.
-Solange er über genau 0 Punkte Substanz verfügt, kann er weder Aktionen noch Reaktionen ausführen.
+Falls seine Trefferpunkte auf genau 0 sinken gilt er als ausgeschaltet und wird an Ort und Stelle auf die Seite gelegt, verbleibt somit jedoch im Spiel und kann wiederbelebt bzw. repariert werden.
+Solange er über genau 0 Trefferpunkte verfügt, kann er weder Aktionen noch Reaktionen ausführen.
 
 Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nicht mehr möglich ist.
 
-Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Substanz besitzt erleidet er einen **Schock**.
-Wenn er weniger als die Hälfte seiner maximalen Substanz besitzt verfällt er in einen **kritischen Zustand**.
+Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Trefferpunkte besitzt erleidet er einen **Schock**.
+Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen **kritischen Zustand**.
 
-Auf der Einheitenkarte ist dies daran zu erkennen, dass das erste orange Substanzkästchen markiert ist (siehe Seite TODO).
+Auf der Einheitenkarte ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist (siehe Seite TODO).
 
 ### Schock
 
-Wenn ein Modell einen Schock erleidet muss es einen KK-Wurf ablegen.
+Wenn ein Modell einen Schock erleidet muss es einen KO-Wurf ablegen.
 Misslingt dieser verliert es sofort 1 AP.
 Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 
