@@ -636,6 +636,113 @@ Bei liegender Fortbewegung gibt es keine Nachteile.
 
 ## Schaden & Verteidigung
 
+Verschiedene Spielmechaniken erzeugen Schaden.
+Dies kann ein Modell sein das ein anderes Modell beschießt oder im Nahkampf angreift oder auch Effekte die im Spiel auftreten.
+
+Um Schaden abzuwehren gibt es verschiedene Möglichkeiten wie bspw. Rüstung, Schilde oder Felder.
+
+### Schadensprofil
+
+Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), das Potential, den Substanzverlust und eventuellen Effekten angegeben.
+
+TODO Bild
+
+### Verteidigungsprofil
+
+Verteidigung wird immer durch ein oder mehrere Verteidigungstypen (z.B. Stich), das Potential und eventuellen Effekten angegeben.
+
+TODO Bild
+
+### Schadens- / Verteidigungstypen
+
+Schadens- und Verteidigungstypen haben eine minimale Stufe von 1 und eine maximal Stufe von 3.
+Jede Stufe wird durch ein „+“ rechts vom eigentlichen Symbol für den Typen dargestellt.
+Schadenssymbole werden dabei immer in rot, und Verteidigungssymbole immer in grün dargestellt.
+
+TODO Bild
+
+### Schadens- / Verteidigungseffekte
+
+Ein Schadens- oder Verteidigungsprofil kann über keine oder mehrere Effekte verfügen.
+
+Beim Schadenswurf werden alle Effekte des Schadensprofils angewendet.
+Sollte im Verteidigungsprofil der entsprechende Effekt aufgelistet sein, wird er nicht angewendet.
+
+!!! example Beispiel
+
+    Ein Modell wird mit einer Pistole mit dem Effekt „Explosiv“ beschossen.
+    Der Angreifer dürfte nun normalerweise seine Würfel einmal neu würfeln.
+    Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
+
+### Symbolerläuterung
+
+Diese Symbole sind auf der Einheitenkarte zu finden.
+
+|Icon|Name|Bedeutung|
+|--|--|--|
+|TODO|Substanzverlust|Es stellt den effektiven Verlust an Substanzpunkten am Modell dar.|
+|TODO|Potential|Es stellt die effektive Wirkungshöhe des Ausrüstungsgegenstandes dar.|
+|TODO|TODO|TODO|
+
+### Schadens- / Verteidigungswurf
+
+Beide Spieler würfeln nun einen vergleichenden Erfolgswurf auf ihr jeweiliges Potential. Hierbei müssen auch alle Effekte angewendet werden.
+
+Der Spieler der den Schaden austeilt nimmt den Basis-W12 plus eine Anzahl an W12 die der Stufe seines Schadenstyps entsprechend.
+
+Der Spieler der sich gegen den Schaden verteidigt nimmt den Basis-W12, prüft ob der Schadenstyp in seinem Verteidigungsprofil vorhanden ist und addiert eine Anzahl an W12 die der Stufe seines Verteidigungstyps entsprechend.
+Ohne entsprechenden Verteidigungstyp nimmt er nur den Basis- W12.
+
+Nun werden die Erfolge gezählt und folgende Tabelle konsultiert:
+
+|Mehr Erfolge|Auswirkungen|
+|--|--|
+|Verteidiger|Nichts passiert.|
+|Gleichstand|Der Verteidiger erleidet einen Schock. Ein Gleichstand wird auch erreicht, wenn beide Seiten keine Erfolge haben.|
+|Angreifer|Der Substanzverlust des Schadensprofils wird angewendet. Für jeden Erfolg nach dem Ersten, den der Angreifer mehr hat als der Verteidiger, wird der Substanzverlust um 1 erhöht.|
+
+### Substanzverlust
+
+Wenn der Substanzverlust zur Anwendung kommt, wird er von der aktuellen Substanz des Verteidigers abgezogen.
+
+Falls seine Substanz auf genau 0 sinkt gilt er als ausgeschaltet und wird an Ort und Stelle auf die Seite gelegt, verbleibt somit jedoch im Spiel und kann wiederbelebt bzw. repariert werden.
+Solange er über genau 0 Punkte Substanz verfügt, kann er weder Aktionen noch Reaktionen ausführen.
+
+Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nicht mehr möglich ist.
+
+Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Substanz besitzt erleidet er einen **Schock**.
+Wenn er weniger als die Hälfte seiner maximalen Substanz besitzt verfällt er in einen **kritischen Zustand**.
+
+Auf der Einheitenkarte ist dies daran zu erkennen, dass das erste orange Substanzkästchen markiert ist (siehe Seite TODO).
+
+### Schock
+
+Wenn ein Modell einen Schock erleidet muss es einen KK-Wurf ablegen.
+Misslingt dieser verliert es sofort 1 AP.
+Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
+
+Ein Modell mit Schock-Markern verliert zum Beginn einer Runde automatisch 1 AP pro Marker woraufhin diese Marker entfernt werden.
+Sollten noch Schock-Marker übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Marker bis zur nächsten Runde um dann abgezogen zu werden.
+
+### Kritischer Zustand
+
+Er wird automatisch angewendet, es wird kein Test dafür abgelegt.
+
+Ein Modell kann nur einmal in den kritischen Zustand verfallen.
+Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
+
+Bei kritischem Zustand verliert das Modell sofort 1 AP, erhält einen Malus von -1 auf alle seine Attribute und halbiert den Wahrnehmungsbereich (aufgerundet).
+
+Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
+
+### Schadenstypen
+
+TODO
+
+### Schadens- / Verteidigungseffekte
+
+TODO
+
 ## Waffen
 
 ## Verteidigung
