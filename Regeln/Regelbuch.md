@@ -316,6 +316,56 @@ Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine 
 
 ## Aktionen und Reaktionen
 
+Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
+
+Der Einsatz einer Aktion oder Reaktion verbraucht Aktionspunkte.
+
+Ein Modell kann in jeder Runde nur so viele Aktionen und Reaktionen ausführen, bis seine Aktionspunkte verbraucht sind.
+Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten angegeben.
+
+Sie können von jedem Modell durchgeführt werden, vorausgesetzt es verfügt über die nötigen Voraussetzungen (bspw. „Hände“ um eine Waffe abzufeuern etc.).
+Hier ist der gesunde Menschenverstand gefragt!
+
+### Aktionen
+
+Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiative-Phase befindet.
+Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
+
+### Reaktionen
+
+Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiative-Phase geschehen.
+Sie sind teilweise an Bedingungen geknüpft.
+
+Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen!
+Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiative-Phase hatte, oder diese noch stattfindet.
+Um auf Aktionen zu reagieren, die nach der eigenen Initiative- Phase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden!
+
+#### Aktionen durch Reaktionen unterbrechen
+
+Damit auf eine Aktion reagiert werden kann, muss diese im Wahrnehmungsbereich (siehe Seite TODO) stattfinden.
+
+Es kann versucht werden eine Aktion zu unterbrechen bevor sie durchgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
+
+Damit dieser Versuch erfolgreich ist, muss das reagierende Modell einen vergleichenden AGI-Erfolgswurf gegen das aktuelle Modell gewinnen.
+Das Modell dessen Initiative-Phase gerade läuft erhält dabei einen Bonus von 1W12 auf seinen Basis-W12, das andere Modell würfelt nur mit seinem Basis-W12.
+Bei einem Gleichstand gewinnt dieses Modell.
+
+Der Gewinner führt als Erster seine Aktion/Reaktion durch, der Verlierer danach seine.
+
+Wenn sich dadurch, bspw. durch einen Treffer, negative Auswirkungen ergeben kommen sie auch sofort zur Anwendung.
+Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
+
+### Übersicht Aktionen und Reaktionen
+
+|Typ|Seite|
+|--|--|
+|Bewegen|TODO|
+|Fernkampf|TODO|
+|Nahkampf|TODO|
+|Aufklären|TODO|
+|Ausrüstung verwenden|TODO|
+|TSE-Einsatz|TODO|
+
 ## Eigenschaften
 
 ## Bewegung
