@@ -120,7 +120,7 @@ Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen best
 !!! example Beispiel normaler Mensch
 
     | AGI | BW | KK | HAK | AFG | SH |
-    |--|--|--|--|--|--|
+    |:--:|:--:|:--:|:--:|:--:|:--:|
     | 4 | 4 | 3 | 2 | 3 | 3 |
 
 ### Substanz
