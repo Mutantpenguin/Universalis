@@ -211,6 +211,30 @@ Einzelne Regeln können davon abweichen und weisen im entsprechenden Fall eindeu
 
 ## Würfelwürfe
 
+Es werden nur W12 verwendet.
+
+Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
+
+### Attributs-Wurf
+
+Attributs-Würfe werden in der Form [Attributskürzel]-Wurf angegeben. So wird für einen Attributs-Wurf auf Konstitution nur „KO-Wurf“ geschrieben.
+
+Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
+Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
+
+Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
+
+Der Wurf wird mit 1W12 durchgeführt. Sofern das Ergebnis unter/gleich dem Wert liegt is es ein Erfolg, ansonsten ein Misserfolg.
+
+### Vergleichender Wurf
+
+Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
+
+Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
+Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addieren Wert je nach Situation noch zusätzlich variieren.
+
+Die Differenz der gewürfelten Ergebnisse gibt in Abhängigkeit von der Situation an was passiert.
+
 ## Ablauf des Spiels
 
 ## Aktionen und Reaktionen
