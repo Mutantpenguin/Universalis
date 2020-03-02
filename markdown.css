@@ -9,6 +9,7 @@ h2
     page-break-before: always;
 }
 
-table {
+table
+{
     width:100%;
 }
