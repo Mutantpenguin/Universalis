@@ -743,11 +743,44 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 
 ### Schadenstypen
 
-TODO
+|Icon|Name|Erläuterung|
+|--|--|--|
+|![kinetisch](Grafiken/Schadenstypen/typ_kinetik.png){width=40pt}|Kinetik|TODO|
+|![schlag](Grafiken/Schadenstypen/typ_schlag.png){width=40pt}|Schlag|TODO|
+|![schnitt](Grafiken/Schadenstypen/typ_schnitt.png){width=40pt}|Schnitt|TODO|
+|![strahl](Grafiken/Schadenstypen/typ_strahl.png){width=40pt}|Strahl|TODO|
 
 ### Übersicht der Schadens- und Verteidigungseffekte
 
-TODO
+|Icon|Name|Auswirkungen|
+|--|--|--|
+|![desintegrator](Grafiken/Effekte/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird für den aktuellen Schadenswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
+|![durchschlag](Grafiken/Effekte/effekt_durchschlag.png){width=40pt}|Durchschlag|TODO Wenn der Angreifer doppelt so viele Erfolge hat wie der Verteidiger, durchschlägt der Schuss das Ziel (in gerade Linie) und kann ein Weiteres treffen. Dieser Effekt wird so oft angewendet, bis ein Ziel nicht durchschlagen wird.|
+|![elektro](Grafiken/Effekte/effekt_elektro.png){width=40pt}|Elektro|Wenn die Waffe keinen Schaden verursacht erleidet das Modell dennoch einen Schock. Wird durch jedes Feld aufgehalten. TODO Wortwahl|
+|![emp](Grafiken/Effekte/effekt_emp.png){width=40pt}|EMP|TODO|
+|![explosiv](Grafiken/Effekte/effekt_explosiv.png){width=40pt}|Explosiv|Der Angreifer darf beim Schadenswurf einmal neu würfeln. Das neue Wurfergebnis muss verwendet werden.|
+|![hitze](Grafiken/Effekte/effekt_hitze.png){width=40pt}|Hitze|TODO Beim Schadenswurf kann jeder Erfolg genau einmal erneut gewürfelt werden. Am Ende wird die Gesamtanzahl aller Erfolge gezählt.|
+|![kälte](Grafiken/Effekte/effekt_kälte.png){width=40pt}|Kälte|TODO|
+|![mikrowelle](Grafiken/Effekte/effekt_mikrowelle.png){width=40pt}|Mikrowelle|Das getroffene Modell erleidet, zusätzlich zu allen anderen Auswirkungen des Treffers, einen Schock, auch wenn der Schadenswurf nicht erfolgreich war. Schilde halten diesen Effekt nicht auf.|
+|![monomolekular](Grafiken/Effekte/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
+|![panzerbrechend](Grafiken/Effekte/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|TODO Die Anzahl der W12 für den Verteidigungswurf wird um 1 verringert (bis zu einem Minimum von 1).|
+|![paralyse](Grafiken/Effekte/effekt_paralyse.png){width=40pt}|Paralyse|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
+|![rail](Grafiken/Effekte/effekt_rail.png){width=40pt}|Rail|TODO Beim Schadenswurf zählt jeder Erfolg doppelt, nicht jedoch für eine eventuelle Erhöhung des Substanzverlustes.|
+|TODO|Schrapnell|TODO Bonus-W12 auf den Verteidigungswurf (die durch Deckung oder Tarnung zustande kommen) werden nicht angewendet.|
+|![vibro](Grafiken/Effekte/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwemdet werden muss.|
+
+### Schadenseffekte
+
+|Icon|Name|Auswirkungen|
+|--|--|--|
+|![struktur](Grafiken/Effekte/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkung“ nur den halbierten (abgerundeten) Schaden zu.|
+
+### Verteidigungseffekte
+
+|Icon|Name|Auswirkungen|
+|--|--|--|
+|![struktur](Grafiken/Effekte/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
+|![komposit](Grafiken/Effekte/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf einmal neu würfeln, wobei das neue Wurfergebnis genommen werden muss.|
 
 ## Waffen
 
