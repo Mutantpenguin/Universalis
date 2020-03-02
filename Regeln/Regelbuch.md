@@ -507,6 +507,133 @@ Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nich
 
 ## Gelände
 
+TODO
+
+Geländearten
+
+Boni und Mali
+
+### Geländekategorien
+
+Gilt für das gesamte Spielfeld
+
+TODO
+
+#### Urban / Industrie
+
+TODO
+
+Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
+
+#### Ländlich
+
+TODO
+
+#### Wildnis
+
+TODO
+
+Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
+
+#### Arktisch
+
+TODO
+
+Auf Hitze basierende Waffen verlieren 1 Punkt ihres Potentials und 1 Reichweitenband bis zu einem Minimum von 1.
+
+Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
+
+#### Tundra
+
+TODO
+
+AFG wird bei Tests um 1 erhöht.
+Nicht der Wahrnehmungsbereich.
+
+#### Mond
+
+TODO
+
+Projektilwaffen erhalten ein weiteres Reichweitenband.
+
+#### Innenraum (OHK) NOCH UMBENENNEN
+
+TODO
+
+Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
+
+#### Küste
+
+TODO
+
+#### Raumkampf (Schwerelosigkeit)
+
+TODO
+
+Nicht rückstoßgedämpfte Waffen machen Probleme.
+
+Projektilwaffen erhalten ein weiteres Reichweitenband.
+
+Waffen mit ballistischer Flugbahn habe Probleme.
+
+#### Wüste
+
+TODO
+AFG wird bei Tests um 1 erhöht. Nicht der
+Wahrnehmungsbereich.
+Jede landgestüzte Bewegung ist erschwert.
+
+### Geländeräume
+
+Räumlich begrenzte Abschnitte in einer Geländekategorie welche Sonderregeln unterliegen.
+
+#### Sumpf
+
+Passierbarkeit 2
+
+#### Krater
+
+Passierbarkeit 2
+
+Bietet immer Deckung I gegen Beschuss von außerhalb.
+
+#### Wald
+
+Passierbarkeit 1
+
+#### Dichter Wald
+
+Passierbarkeit 2
+
+Bietet immer Deckung I.
+
+Bietet immer Deckung II gegen Beschuss von außerhalb.
+
+Wahrnehmungsbereich wird halbiert.
+
+#### Dickicht
+
+Passierbarkeit 1
+
+AFG wird um 1 verringert.
+
+#### Gebäude
+
+Passierbarkeit 1
+
+Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
+
+#### Ruine
+
+Passierbarkeit 2
+
+Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
+
+Bewegungstest muss durchgeführt werden!
+
+Bei Misslingen fällt das Modell und gilt als liegend.
+Bei liegender Fortbewegung gibt es keine Nachteile.
+
 ## Schaden & Verteidigung
 
 ## Waffen
