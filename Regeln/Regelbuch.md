@@ -112,22 +112,22 @@ Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen best
 |--|--|--|
 |AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. Nahkampf (Seite TODO) und Reaktionen (Seite TODO).|
 |BW|Bewegung|Gibt an, wie weit sich ein Modell bewegen kann. Siehe Bewegung (Seite TODO).|
-|KK|Körperkraft|Drückt nicht nur aus wir stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. Schock (Seite TODO) und Tragkraft (Seite TODO).|
-|HAK|Hand-Augen-Koordination|Stellt die Fernkampffähigkeit des Modells dar. Siehe Fernkampf (Seite TODO).|
-|AFG|Auffassungsgabe|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. Wahrnehmungsbereich (Seite TODO), Tarnung (Seite TODO) und Bewegungstests (Seite TODO).|
+|KO|Konstitution|Drückt nicht nur aus wir stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. Schock (Seite TODO) und Tragkraft (Seite TODO).|
+|FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe Fernkampf (Seite TODO).|
+|WN|Warnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. Wahrnehmungsbereich (Seite TODO), Tarnung (Seite TODO) und Bewegungstests (Seite TODO).|
 |SH|Standhaftigkeit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. Gefahrenbereich (Seite TODO).|
 
 !!! example Beispiel normaler Mensch
 
-    | AGI | BW | KK | HAK | AFG | SH |
+    | AGI | BW | KO | FK | WN | SH |
     |:--:|:--:|:--:|:--:|:--:|:--:|
     | 4 | 4 | 3 | 2 | 3 | 3 |
 
-### Substanz
+### Trefferpunkte
 
-Sie steht für die Menge an Substanzverlust, die ein Modells einstecken kann, bevor es aus dem Spiel entfernt wird.
+Sie steht für die Menge an Schaden, die ein Modells einstecken kann, bevor es aus dem Spiel entfernt wird.
 
-Die maximale Menge an Substanz, über die ein Modell verfügen kann, liegt bei 20.
+Die maximale Menge an Trefferpunkten, über die ein Modell verfügen kann, liegt bei 20.
 
 ### Größe
 
@@ -151,13 +151,13 @@ Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
 
 Jedes Modell kann eine gewisse Menge an Ausrüstung tragen, ohne, dass davon Agilität und Bewegung negativ beeinflusst werden.
 
-Diese Tragkraft errechnet sich für Infanterie über die Körperkraft (KK) im Quadrat (in Kilogramm):
+Diese Tragkraft errechnet sich für Infanterie über die Konstitution (KO) im Quadrat (in Kilogramm):
 
-Tragkraft in kg = KK²{align="center"}
+Tragkraft in kg = KO²{align="center"}
 
-Bei MIKe wird die Körperkraft (KK) vor der Quadrierung verdoppelt (in Kilogramm):
+Bei MIKe wird die Konstitution (KO) vor der Quadrierung verdoppelt (in Kilogramm):
 
-Tragkraft in kg = (KK*2)²{align="center"}
+Tragkraft in kg = (KO*2)²{align="center"}
 
 Bis zu diesem Wert erleidet das Modell keine negativen Auswirkung, wird er überschritten werden Agilität (AGI) und Bewegung (BW) jeweils um 1 verringert.
 Wird er um das doppelte überschritten, werden beide Attribute um jeweils 2 verringert usw.
@@ -166,7 +166,7 @@ Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 
 !!! example Beispiel
 
-    Ein Modell hat eine KK von 5 und damit eine Tragkraft von 25kg.
+    Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
     
     Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw
 
@@ -187,7 +187,7 @@ TODO Icon einfügen
 
 Der Wahrnehmungsbereich umfasst alles im Sichtfeld des Modells bis zu einer Distanz die wie folgt berechnet wird:
 
-Distanz = AFG * 5cm
+Distanz = WN * 5cm
 
 TODO Bild einfügen
 
