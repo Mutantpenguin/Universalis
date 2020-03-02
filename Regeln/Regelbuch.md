@@ -187,7 +187,7 @@ TODO Icon einfügen
 
 Der Wahrnehmungsbereich umfasst alles im Sichtfeld des Modells bis zu einer Distanz die wie folgt berechnet wird:
 
-Distanz = WN * 5cm
+Distanz = WN * 5cm{align="center"}
 
 TODO Bild einfügen
 
