@@ -237,6 +237,83 @@ Die Differenz der gewürfelten Ergebnisse gibt in Abhängigkeit von der Situatio
 
 ## Ablauf des Spiels
 
+Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
+
+1. Missionsauswahl
+2. Aufbau des Spielfelds
+3. Aufstellen der Modelle
+4. Runden
+    - Initiativephasen
+5. Bestimmung des Gewinners
+
+Das Spiel ist in Runden und Initiative-Phasen unterteilt.
+
+### Missionsauswahl
+
+Die Spieler einigen sich auf eine zu spielende Mission (siehe Seite TODO).
+
+Sie hat unter anderem Auswirkungen auf den Aufbau des Spielfeldes, das Aufstellen der Modelle und die Siegesbedingungen.
+
+### Aufbau des Spielfeldes
+
+Das Spielfeld wird entsprechend der ausgewählten Mission aufgebaut und die Aufstellungszonen markiert.
+
+### Aufstellen der Modelle
+
+Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
+
+#### Reihenfolge beim Aufstellen
+
+TODO
+
+### Runden
+
+Innerhalb einer Runde hat jedes Modell seine Initiative-Phase. Die Runde ist erst dann beendet, wenn jedes Modell seine Initiative-Phase durchgeführt hat.
+
+#### Rundenbeginn
+
+Zu Beginn jeder Runde werden die AP jedes Modells wieder auf 6⊙ aufgefüllt.
+Nicht verbrauchte AP aus der Vorrunde werden halbiert (abgerundet) und addiert (siehe Seite TODO).
+
+Modelle mit Schock-Markern verlieren danach automatisch pro Marker 1 AP (siehe Seite TODO).
+
+#### Reihenfolge innerhalb der Runde
+
+TODO
+
+#### Optional Expertenregeln (@Reihenfolge)
+
+Nach dem Ermitteln der Reihenfolge innerhalb einer Runde kann jedes Modell seine AGI um 1 erhöhen oder senken, indem es 1AP dafür ausgibt.
+
+Hier kann auch die Eigenschaft eines Gruppenführers zum Einsatz kommen. Die Modifizierungen sind kumulativ.
+
+#### Rundenende
+
+Am Ende einer Runde werden die nicht verbrauchten AP halbiert (abgerundet) und mit in die nächste Runde übernommen.
+
+### Initiative-Phase
+
+Eine Initiative-Phase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktionen ausführen kann.
+
+Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiative-Phase hatten oder nicht, unter bestimmten Voraussetzungen Reaktionen durchführen.
+
+Zum Beginn der Initiativephase eines Modells, wird ein eventueller Marker für schnelle Bewegung entfernt (siehe Seite TODO).
+
+#### Direkter Kontrahent im Gefahrenbereich
+
+Wenn es im Gefahrenbereich eines Modells einen direkten Kontrahenten gibt stellt er eine potenzielle und direkte Bedrohung für Leib und Leben dar welche normalerweise ausgeschaltet werden muss.
+Möchte das Modell diese Bedrohung ignorieren, muss es dafür einen SH-Test bestehen.
+Misslingt dieser Test muss ein Angriff gegen den direkten Kontrahenten erfolgen.
+
+### Optionale Reihenfolge
+
+Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
+
+Für beide Modelle wird jeweils 1W12 gewürfelt und die AGI addiert.
+Das Modell mit dem höheren Ergebnis ist zuerst dran, danach direkt das andere.
+
+Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modell in beliebiger Reihenfolge.
+
 ## Aktionen und Reaktionen
 
 ## Eigenschaften
