@@ -368,6 +368,22 @@ Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 
 ## Eigenschaften
 
+Eigenschaften beschreiben alles Erlernte oder Angeborene das über einfache Attribute hinausgeht.
+
+### Aufbau einer Eigenschaft
+
+Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
+
+Weiterhin kann eine Eigenschaft über eine Stufe verfügen.
+
+Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
+
+!!! example Beispiel
+
+    Ein normaler Mensch erhält die Eigenschaft „Fernkampf II“.
+    
+    In ihr ist beschrieben, dass das Modell beim Fernkampf 2 Bonus-W12 erhält und somit den Erfolgswurf mit 3W12 durchführt.
+
 ## Bewegung
 
 ## Gelände
