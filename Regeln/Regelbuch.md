@@ -115,11 +115,11 @@ Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen best
 |KO|Konstitution|Drückt nicht nur aus wir stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. Schock (Seite TODO) und Tragkraft (Seite TODO).|
 |FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe Fernkampf (Seite TODO).|
 |WN|Warnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. Wahrnehmungsbereich (Seite TODO), Tarnung (Seite TODO) und Bewegungstests (Seite TODO).|
-|SH|Standhaftigkeit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. Gefahrenbereich (Seite TODO).|
+|EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. Gefahrenbereich (Seite TODO).|
 
 !!! example Beispiel normaler Mensch
 
-    | AGI | BW | KO | FK | WN | SH |
+    | AGI | BW | KO | FK | WN | EH |
     |:--:|:--:|:--:|:--:|:--:|:--:|
     | 4 | 4 | 3 | 2 | 3 | 3 |
 
@@ -173,9 +173,9 @@ Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 ### Gefahrenbereich
 
 Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren muss.
-Der Radius in Zentimetern berechnet sich indem die Standhaftigkeit von 12 abgezogen wird:
+Der Radius in Zentimetern berechnet sich indem die Entschlossenheit von 12 abgezogen wird:
 
-Radius in cm = 12 - SH{align="center"}
+Radius in cm = 12 - EH{align="center"}
 
 Das gegnerische Modell, das sich innerhalb dieses Bereichs am nächsten zum eigenen Modell aufhält, wird „Direkter Kontrahent“ genannt. Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Kontrahenten.
 
@@ -302,7 +302,7 @@ Zum Beginn der Initiativephase eines Modells, wird ein eventueller Marker für s
 #### Direkter Kontrahent im Gefahrenbereich
 
 Wenn es im Gefahrenbereich eines Modells einen direkten Kontrahenten gibt stellt er eine potenzielle und direkte Bedrohung für Leib und Leben dar welche normalerweise ausgeschaltet werden muss.
-Möchte das Modell diese Bedrohung ignorieren, muss es dafür einen SH-Test bestehen.
+Möchte das Modell diese Bedrohung ignorieren, muss es dafür einen EH-Test bestehen.
 Misslingt dieser Test muss ein Angriff gegen den direkten Kontrahenten erfolgen.
 
 ### Optionale Reihenfolge
@@ -658,7 +658,12 @@ Schadens- und Verteidigungstypen haben eine minimale Stufe von 1 und eine maxima
 Jede Stufe wird durch ein „+“ rechts vom eigentlichen Symbol für den Typen dargestellt.
 Schadenssymbole werden dabei immer in rot, und Verteidigungssymbole immer in grün dargestellt.
 
-TODO Bild
+!!! example Beispiel
+
+    |Typ|Stufe 1|Stufe 2|Stufe 3|
+    |--|--|--|--|
+    |Schaden kinetisch|TODO|TODO|TODO|
+    |Verteidigung Schnitt|TODO|TODO|TODO|
 
 ### Schadens- / Verteidigungseffekte
 
@@ -680,27 +685,29 @@ Diese Symbole sind auf der Einheitenkarte zu finden.
 |Icon|Name|Bedeutung|
 |--|--|--|
 |TODO|Schaden|Es stellt den effektiven Verlust an Trefferpunkten am Modell dar.|
-|TODO|Stärke|Es stellt die effektive Wirkungshöhe des Ausrüstungsgegenstandes dar.|
-|TODO|Schutz|TODO|
-
-### Schadens- / Verteidigungswurf
-
-Beide Spieler würfeln nun einen vergleichenden Erfolgswurf auf ihr jeweiliges Potential. Hierbei müssen auch alle Effekte angewendet werden.
-
-Der Spieler der den Schaden austeilt nimmt den Basis-W12 plus eine Anzahl an W12 die der Stufe seines Schadenstyps entsprechend.
-
-Der Spieler der sich gegen den Schaden verteidigt nimmt den Basis-W12, prüft ob der Schadenstyp in seinem Verteidigungsprofil vorhanden ist und addiert eine Anzahl an W12 die der Stufe seines Verteidigungstyps entsprechend.
-Ohne entsprechenden Verteidigungstyp nimmt er nur den Basis- W12.
-
-Nun werden die Erfolge gezählt und folgende Tabelle konsultiert:
-
-|Mehr Erfolge|Auswirkungen|
-|--|--|
-|Verteidiger|Nichts passiert.|
-|Gleichstand|Der Verteidiger erleidet einen Schock. Ein Gleichstand wird auch erreicht, wenn beide Seiten keine Erfolge haben.|
-|Angreifer|Der Schaden des Schadensprofils wird angewendet. Für jeden Erfolg nach dem Ersten, den der Angreifer mehr hat als der Verteidiger, wird der Schaden um 1 erhöht.|
+|TODO|Stärke|Es stellt die effektive Wirkungshöhe der Waffe dar.|
+|TODO|Schutz|Es stellt die effektive Wirkungshöhe der Rüstung dar.|
 
 ### Schaden
+
+Beide Spieler führen einen vergleichenden Wurf durch.
+Der Angreifer mit der Stärke seiner Waffe, der Verteider mit dem Schutz seiner Rüstung.
+Hierbei müssen auch alle Effekte angewendet werden.
+
+Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
+
+Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Verteidigungsprofil vorhanden ist und addiert dessen Stufe.
+Ohne entsprechenden Verteidigungstyp bekommt er keinen Bonus.
+
+Nun wird die folgende Tabelle konsultiert:
+
+|Höheres Ergebnis|Auswirkungen|
+|--|--|
+|Verteidiger|Nichts passiert.|
+|Gleichstand|Der Verteidiger erleidet einen Schock.|
+|Angreifer|Der Schaden des Schadensprofils wird angewendet. TODO Spielt die Differenz eine Rolle?|
+
+### Schadensanwendung
 
 Wenn der Schaden zur Anwendung kommt, wird er von den aktuellen Trefferpunkten des Verteidigers abgezogen.
 
@@ -730,7 +737,7 @@ Er wird automatisch angewendet, es wird kein Test dafür abgelegt.
 Ein Modell kann nur einmal in den kritischen Zustand verfallen.
 Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
 
-Bei kritischem Zustand verliert das Modell sofort 1 AP, erhält einen Malus von -1 auf alle seine Attribute und halbiert den Wahrnehmungsbereich (aufgerundet).
+Bei kritischem Zustand verliert das Modell sofort 2 AP, erhält einen Malus von -1 auf alle seine Attribute und halbiert den Wahrnehmungsbereich (aufgerundet).
 
 Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 
@@ -738,7 +745,7 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 
 TODO
 
-### Schadens- / Verteidigungseffekte
+### Übersicht der Schadens- und Verteidigungseffekte
 
 TODO
 
