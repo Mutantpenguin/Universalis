@@ -133,11 +133,11 @@ Die maximale Menge an Trefferpunkten, über die ein Modell verfügen kann, liegt
 
 Modelle werden in 3 verschiedene Größen gegliedert:
 
-| Symbol | Kürzel | Beschreibung |
-|--|--|--|
-| ![klein](Grafiken/Größen/klein.jpg) | klein | Alles kleiner als einschließlich 1m |
-| ![mittel](Grafiken/Größen/mittel.jpg) | mittel | Alles zwischen 1m und 3m. |
-| ![groß](Grafiken/Größen/groß.jpg) | groß | Alles höher als einschließlich 3m. |
+| Symbol | Name | Beschreibung | Im Spiel |
+|--|--|--|--|
+| ![klein](Grafiken/Größen/klein.jpg) | klein | Alles kleiner als einschließlich 1m | 25mm Base und 3cm hoch. |
+| ![mittel](Grafiken/Größen/mittel.jpg) | mittel | Alles zwischen 1m und 3m. | 25mm Base und 6cm hoch |
+| ![groß](Grafiken/Größen/groß.jpg) | groß | Alles höher als einschließlich 3m. | 40mm Base und 8cm hoch |
 
 ### Sichtfeld
 
