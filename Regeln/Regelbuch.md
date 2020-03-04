@@ -1086,7 +1086,7 @@ Aktiv getarnte Modelle erhalten immer einen Bonus von +1W12 auf ihren Verteidigu
 
 Um ein getarntes Modell aufzuklären muss die Aktion/Reaktion „Aufklären“ ausgeführt werden.
 
-!!! Aufklären - 1 ⊙
+!!! danger Aufklären - 1 ⊙
 
     Aufklären bezieht sich immer auf ein konkretes getarntes Modell.
 
@@ -1101,7 +1101,7 @@ Pro zusätzlich eingesetztem AP kann der AFG-Test um 1 erleichtert werden.
 
 ### Reaktion
 
-!!! Aufklärungsunterstützung - 2 ⊙
+!!! warning Aufklärungsunterstützung - 2 ⊙
 
     Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
 
@@ -1135,6 +1135,40 @@ Ist dadurch sichtbar und kann normal beschossen oder im Nahkampf angegriffen wer
 Das Modell wird nicht sichtbar, kann aber dennoch beschossen oder im Nahkampf angegriffen werden.
 
 ## Ausrüstung
+
+Jedes Modell kann über weitere Ausrüstung verfügen.
+
+TODO
+
+TODO Kann Regeln haben
+
+### Aktion
+
+!!! danger Ausrüstung verwenden - X ⊙
+
+    Das Modell verwendet einen Ausrüstungsgegenstand.
+    
+    Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
+
+### Attributsverbesserungen
+
+#### Permanent
+
+TODO
+
+#### Temporär
+
+TODO
+
+### AP-Kosten
+
+TODO
+
+### Einmalnutzung
+
+TODO
+
+TODO Bild einfügen
 
 ## MIKe
 
