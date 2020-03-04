@@ -690,7 +690,9 @@ Diese Symbole sind auf der Einheitenkarte zu finden.
 ### Schaden
 
 Beide Spieler führen einen vergleichenden Wurf durch.
-Der Angreifer mit der Stärke seiner Waffe, der Verteider mit dem Schutz seiner Rüstung.
+Der Angreifer addiert die Stärke seiner Waffe, dies wird auch Schadenswurf genannt.
+Der Verteider addiert den Schutz seiner Rüstung, dies wird auch Verteidigungswurf genannt.
+
 Hierbei müssen auch alle Effekte angewendet werden.
 
 !!! todo
