@@ -904,13 +904,38 @@ Wenn das Ziel eine MIKe ist, muss mit 1W12 die getroffene Strukturzone ausgewür
 
     Das Modell erhält -2 bei seinem Fernkampfwurf.
 
-!!! danger Feuerbereitschaft - 2 ⊙
+!!! danger Feuerbereitschaft - 1 ⊙
 
     !!! note ""
 
-        TODO
+        Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
+        Jede weitere Aktion beendet die Feuerbereitschaft automatisch.
 
-    TODO
+    Das Modell befindet sich maximal bis zu seiner nächsten Initiativephase in Feuerbereitschaft.
+
+### Reaktionen: Fernkampf
+
+!!! warning Reaktionsfeuer - WK+1 ⊙
+
+    !!! note ""
+
+        Bedingung:
+        
+        Nur mit Schusswaffen der WK I und II.
+
+        Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiative-Phase durchgeführt werden.
+        
+        Der Beschuss darf nur auf das Modell dessen Initiativephase gerade gilt gerichtet sein.
+
+        Das Modell muss sich in Feuerbereitschaft befinden.
+    
+    Das Modell führt einen normalen Fernkampfwurf aus.
+    
+    Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen Fernkampfwurf.
+    
+    Wenn ein Ziel aus Deckung auftaucht oder sich in den Wahrnehmungsbereich hinein bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen Fernkampfwurf.
+
+    Das Modell verliert danach automatisch seine Feuerbereitschaft.
 
 ### Auswahl eines Ziels
 
