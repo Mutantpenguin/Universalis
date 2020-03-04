@@ -807,15 +807,14 @@ Wenn das Ziel eine MIKe ist, muss mit 1W12 die getroffene Strukturzone ausgewür
 
 !!! danger Gezielter Schuss - WK+2 ⊙
 
-    Das Modell erhält +1W12 für seinen Fernkampfwurf.
+    Das Modell erhält +1 für seinen Fernkampfwurf.
     Außerdem werden für diesen Schuss die Reichweitenbänder verdoppelt.
     
     Er ist nicht in Kombination mit Autofeuer einsetzbar.
 
 !!! danger Schnellchuss - WK ⊙
 
-    Das Modell verliert 1W12 bei seinem Fernkampfwurf.
-    Sollte es dadurch keine W12 mehr zur Verfügung haben, kann es nicht schießen.
+    Das Modell erhält -2 bei seinem Fernkampfwurf.
 
 !!! danger Feuerbereitschaft - 2 ⊙
 
@@ -947,7 +946,7 @@ Sollte das schießende Modell den neuen Ort nicht einsehen können, muss von ihm
 Der Trefferpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
 
 Wenn die Trefferschablone die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
-Ist nur eine teilweise Überlappung vorhanden, wird der Substanzverlust halbiert (aufgerundet).
+Ist nur eine teilweise Überlappung vorhanden, wird der Verlust der Trefferpunktet halbiert (aufgerundet).
 
 Wenn das getroffene Modell Deckung der Stufe II berührt, kommt diese voll zur Geltung.
 
