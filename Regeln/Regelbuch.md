@@ -1172,4 +1172,63 @@ TODO Bild einfügen
 
 ## MIKe
 
+„MIKe“ steht für „**M**echanisierte **I**nfanterie **K**ampf**e**inheit“.
+
+Es sind moderne Hybridwaffensysteme mit der Beweglichkeit eines servounterstützten Panzeranzugs und dem Schutz, sowie Feuerkraft, eines Panzers.
+In der Regel haben MIKe eine Größe von 4 bis 6 Meter und fangen bei einem Gewicht von 1,5 Tonnen an.
+
+Große Kreaturen werden regeltechnisch wie MIKe behandelt.
+
+### Geländeausnutzung
+
+Durch ihre enorme Beweglichkeit profitieren sie ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
+
+Aufgrund ihrer Größe können MIKe allerdings keine normal großen Türen benutzen und Gebäude normal betreten, sowie Fahrzeuge wie Infanterie benutzen.
+
+### Strukturzonen
+
+MIKe werden in die Strukturzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
+
+Welche Strukturzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
+Es können auch Strukturzonen getroffen werden, die nicht direkt sichtbar sind da.
+
+TODO Bild einfügen
+
+Jede Strukturzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
+
+Trefferpunkte werden nur für den Rumpf festgelegt.
+Für Beine und Arme berechnet sich der Wert automatisch mit 2/3 des Rumpfes (aufgerundet).
+
+#### Kritischer Zustand
+
+|Zone|Auswirkung|
+|---|---|
+|Rumpf|Wie bei Infanterie.|
+|Arme|Im Fernkampf -1 auf den Fernkampfwurf für die Waffe im entsprechenden Arm. Im Nahkampf -1 auf den Nahkampfwurf für jeden Arm im kritischen Zustand.|
+|Beine|Halbierte BW. Wird vor dem eventuellen kritischen Zustand des Rumpfes angewendet.|
+
+#### Verlust aller Trefferpunkte
+
+|Zone|Auswirkung|
+|---|---|
+|Rumpf|Bei einem misslungenen KO-Wurf detoniert er (siehe weiter unten), ansonsten sinkt er in sich zusammen und gilt als zerstört und irreparabel.|
+|Arme|Der Arm wird zerstört und die eingebaute Waffe kann nicht mehr verwendet werden. Außerdem wird die AGI um 1 verringert.|
+|Beine|TODO|
+
+### Detonation
+
+Sobald eine MIKe detoniert entsteht automatisch an diesem Ort eine Explosion die eine Fläche mit einem Radius in Höhe der KO umfasst.
+
+Der Schadenstyp ist dabei immer Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
+
+Der Schaden liegt bei KO geteilt durch 2 (gerundet).
+
+Zusätzlich wirkt der Schadenseffekt „Explosiv“.
+
+!!! example Beispiel
+
+    Für eine MIKe mit einer KO von 6.
+
+    TODO Bild einfügen
+
 ## Drohnen
