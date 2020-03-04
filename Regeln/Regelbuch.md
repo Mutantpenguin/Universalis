@@ -789,6 +789,76 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 
 ## Waffen
 
+Waffen verfügen über ein Schadensprofil.
+
+### Fernkampfwaffen
+
+Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines Reichweitenbandes (siehe Seite 25) und einer Angabe für eventuelles Autofeuer (siehe Seite TODO).
+
+### Nahkampfwaffen
+
+Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt eingesetzt werden können.
+
+### Waffenklassen
+
+Durch Waffenklassen wird unterschieden wie groß und damit unhandlich eine Waffe bzw. wie komplex sie zu bedienen ist.
+Je größer/komplexer desto höher die WK.
+
+Waffenklassen werden mit „WK“ abgekürzt.
+WK I steht somit für Waffen der Klasse 1.
+
+### Einmalnutzung
+
+TODO
+
+### Beispiele
+
+### WK I
+
+TODO
+
+Pistolen
+
+Maschinenpistolen
+
+Messer
+
+#### WK II
+
+TODO
+
+Gewehre
+
+Schwerter
+
+#### WK III
+
+TODO
+
+Maschinengewehr
+
+Vorschlaghammer
+
+Axt
+
+#### WK IV
+
+TODO
+
+Panzerfaust
+
+Kettensäge
+
+### WK V
+
+TODO
+
+Panzerkanone
+
+Lafettengeschütz
+
+Alles was sich definitiv nicht mehr von einem Menschen tragen lässt
+
 ## Verteidigung
 
 ## Fernkampf
