@@ -880,7 +880,7 @@ Wenn das beschossene Modell die Deckung berührt, erhält es einen Bonus von +2 
 
 Es können nur aufgeklärte getarnte Modelle beschossen werden (siehe Seite TODO).
 
-#### Aktive Tarnung
+#### Aktive Tarnung des Ziels
 
 Bei Beschuss erhält der Schütze einen Malus von -1 auf seinen Fernkampfwurf.
 
@@ -901,7 +901,7 @@ Sie erhalten bei Beschuss von Infanterie (mittlere/kleine Ziele und liegende Mod
 
 Liegende Schützen erhalten +1 auf den Fernkampfwurf.
 
-#### Schnelle Bewegungen
+#### Schnelle Bewegungen des Ziels
 
 Auf Ziele die sich in schneller Bewegung befinden, gibt es einen Malus von -1 auf den Fernkampfwurf (siehe Seite 16).
 
@@ -959,8 +959,91 @@ blah blah yadda yadda
 
 Um einen Nahkampf auszuführen, muss die Base des Modells die Base des anzugreifenden Modells berühren.
 
-TODO TODO TODO
-    "Gegenschlag" als Reaktion, nur als Antwort auf einen Angriff
+### Nahkampfwurf
+
+Beide Spieler führen einen vergleichenden Wurf durch wobei jeweils die AGI addiert wird.
+
+Sollte eines der Modelle über eine AGI von 0 verfügen gewinnt automatisch das Andere.
+
+Nun wird die folgende Tabelle konsultiert:
+
+|Höheres Ergebnis|Auswirkungen|
+|--|--|
+|Verteidiger|Angriff abgewehrt, nichts passiert.|
+|Gleichstand|TODO|
+|Angreifer|Der Angreifer landet einen Treffer. TODO Spielt die Differenz eine Rolle?|
+
+Wenn das getroffene Modell eine MIKe ist, muss mit 1W12 die getroffenen Strukturzone ausgewürfelt werden (siehe Seite TODO).
+
+### Erlaubte Waffen
+
+Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwendet werden.
+
+### Aktionen: Nahkampf
+
+!!! danger Nahkampf - WK ⊙
+
+    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+
+!!! danger Abwehrhaltung - 2 ⊙
+
+    !!! note ""
+
+        TODO
+
+    TODO
+
+### Reaktionen: Nahkampf
+
+!!! warning Gegenschlag - WK ⊙
+
+    !!! note ""
+
+        Bedingung:
+        
+        Kann nur unmittelbar nach einem Nahkampf durch ein anderes Modell durchgeführt werden und muss gegen dieses gerichtet sein.
+    
+    Siehe Aktion Nahkampf.
+
+### Bonus für den Angreifer
+
+Wenn der Angreifer den Angriff durch eine Angriffsbewegung (siehe Seite TODO) einleitet, erhält er Bonus von +1 auf den Nahkampfwurf.
+
+Sollte der Angriff von außerhalb des Sichtfeldes (siehe Seite TODO) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
+
+### Multiple Gegner
+
+Für jedes befreundete Modell, welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den Nahkampfwurf.
+
+### Größenunterschiede
+
+Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen Nahkampfwurf.
+
+### Nahkampf mit getarnten Modellen
+
+Es können nur aufgeklärte getarnte Modelle angegriffen werden (siehe Seite TODO).
+
+Wenn ein getarntes Modell den Angriff einleitet wird es automatisch aufgeklärt und erhält für die erste Runde einen Bonus von +1 auf seinen Nahkampfwurf.
+
+#### Aktive Tarnung des Nahkampfgegners
+
+Im Nahkampf erhält der Gegner zusätzlich einen Malus von -1 auf seinen Nahkampfwurf.
+
+### Waffenloser Nahkampf
+
+Infanterie und MIKe können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
+
+Der Schadenstyp ist dabei immer Schlag (Stufe 1 bei Infanterie und Stufe 2 bei MIKe) und die Stärke entspricht der Konstitution.
+
+Der Substanzverlust liegt bei KO geteilt durch 3 (gerundet).
+
+Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei MIKe als Klasse II.
+
+!!! example Beispiel
+
+    Für einen Infanteristen mit einer KO von 6.
+
+    TODO Bild einfügen
 
 ## Tarnung
 
