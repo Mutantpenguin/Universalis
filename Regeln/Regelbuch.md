@@ -694,10 +694,12 @@ Beide Spieler führen einen vergleichenden Wurf durch.
 Der Angreifer mit der Stärke seiner Waffe, der Verteider mit dem Schutz seiner Rüstung.
 Hierbei müssen auch alle Effekte angewendet werden.
 
-Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
+!!! todo
 
-Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Verteidigungsprofil vorhanden ist und addiert dessen Stufe.
-Ohne entsprechenden Verteidigungstyp bekommt er keinen Bonus.
+    Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
+
+    Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Verteidigungsprofil vorhanden ist und addiert dessen Stufe.
+    Ohne entsprechenden Verteidigungstyp bekommt er keinen Bonus.
 
 Nun wird die folgende Tabelle konsultiert:
 
@@ -789,6 +791,14 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 ## Fernkampf
 
 ## Nahkampf
+
+TODO Kleiner Einleitungstext was Nahkampf ist
+blah blah yadda yadda
+
+Um einen Nahkampf auszuführen, muss die Base des Modells die Base des anzugreifenden Modells berühren.
+
+TODO TODO TODO
+    "Gegenschlag" als Reaktion, nur als Antwort auf einen Angriff
 
 ## Tarnung
 
