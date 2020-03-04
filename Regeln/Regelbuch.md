@@ -254,6 +254,8 @@ Die Spieler einigen sich auf eine zu spielende Mission (siehe Seite TODO).
 
 Sie hat unter anderem Auswirkungen auf den Aufbau des Spielfeldes, das Aufstellen der Modelle und die Siegesbedingungen.
 
+Das Spiel endet immer, wenn einer der Spieler aufgibt.
+
 ### Aufbau des Spielfeldes
 
 Das Spielfeld wird entsprechend der ausgewählten Mission aufgebaut und die Aufstellungszonen markiert.
