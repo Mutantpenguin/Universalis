@@ -790,6 +790,168 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 
 ## Fernkampf
 
+TODO
+Kleiner Einleitungstext was Fernkampf ist
+blah blah yadda yadda
+
+### Fernkampfwurf
+
+Dies ist ein normaler FK-Wurf. Bei Erfolg wurde das Ziel getroffen.
+
+Wenn das Ziel eine MIKe ist, muss mit 1W12 die getroffene Strukturzone ausgewürfelt werden (siehe Seite TODO).
+
+### Aktionen: Fernkampf
+
+!!! danger Normaler Schuss - WK+1 ⊙
+
+    Das Modell führt einen normalen Fernkampfwurf aus.
+
+!!! danger Gezielter Schuss - WK+2 ⊙
+
+    Das Modell erhält +1W12 für seinen Fernkampfwurf.
+    Außerdem werden für diesen Schuss die Reichweitenbänder verdoppelt.
+    
+    Er ist nicht in Kombination mit Autofeuer einsetzbar.
+
+!!! danger Schnellchuss - WK ⊙
+
+    Das Modell verliert 1W12 bei seinem Fernkampfwurf.
+    Sollte es dadurch keine W12 mehr zur Verfügung haben, kann es nicht schießen.
+
+!!! danger Feuerbereitschaft - 2 ⊙
+
+    !!! note ""
+
+        TODO
+
+    TODO
+
+### Auswahl eines Ziels
+
+Damit ein Ziel beschossen werden kann, muss es sich im Sichtfeld des Modells befinden und mindestens eine Extremität vollständig sichtbar sein.
+Befreundete Modelle behindern dabei nicht die Sichtlinie.
+
+Sollte sich im Gefahrenbereich kein direkter Kontrahent befinden, welcher bekämpft werden muss, kann das Ziel frei gewählt werden (siehe Seite TODO).
+
+### Reichweite
+
+Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
+X gibt dabei an, wie groß die Reichweitenbänder sind, Y wie oft diese anwendbar sind.
+
+Auf der Einheitenkarte wird dies unter folgendem Symbol ausgewiesen:
+
+TODO Icon
+
+Pro vollständig ausgenutztem Reichweitenband erhält ein schießendes Modell einen Malus von -1 auf seinen Fernkampfwurf.
+
+Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
+
+!!! example Beispiel
+
+    Eine Pistole verfügt über den Wert 20/3.
+    Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 60cm
+    
+    Der Fernkampfwurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+
+### Deckung
+
+Ein Gelände-Objekt kann als Deckung verwendet werden wenn es das Modell mindestens zur Hälfte verdeckt.
+
+Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
+
+#### Stufe I Deckung
+
+Besteht aus Holz, Plastik, Blech oder auch einer Ziegelmauer.
+Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
+
+Dazu zählen auch befreundete größere Modelle.
+
+Das schießende Modell erhält einen Malus von -1 auf seinen Fernkampfwurf.
+
+#### Stufe II Deckung
+
+Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zu direkten Abwehr von Beschuss geeignet.
+
+Das schießende Modell erhält einen Malus von -2 auf seinen Fernkampfwurf.
+
+Wenn das beschossene Modell die Deckung berührt, erhält es einen Bonus von +2 auf seinen Verteidigungswurf.
+
+### Beschuss von getarnten Modellen
+
+Es können nur aufgeklärte getarnte Modelle beschossen werden (siehe Seite TODO).
+
+#### Aktive Tarnung
+
+Bei Beschuss erhält der Schütze einen Malus von -1 auf seinen Fernkampfwurf.
+
+### Fernkampf-Modifikatoren
+
+#### Größe des Ziels
+
+|Typ|Modifikator|
+|--|--|
+|kleines Ziel|-1|
+|großes Ziel|+1|
+
+#### Schwerfällige Waffen
+
+Sie erhalten bei Beschuss von Infanterie (mittlere/kleine Ziele und liegende Modelle) einen Malus von -2 auf den Fernkampfwurf.
+
+#### Liegender Schütze
+
+Liegende Schützen erhalten +1 auf den Fernkampfwurf.
+
+#### Schnelle Bewegungen
+
+Auf Ziele die sich in schneller Bewegung befinden, gibt es einen Malus von -1 auf den Fernkampfwurf (siehe Seite 16).
+
+### Autofeuer
+
+Waffen verfügen über den Wert „Autofeuer“ (AF) der im Bereich 0-4 liegt.
+Jeder Punkt AF wird als 1 zusätzlicher Schuss behandelt.
+
+Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei jede Patrone für eine Stufe Autofeuer steht.
+
+TODO Icon
+
+Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
+Für jedes Ziel nach dem Ersten gibt es einen Malus von -1 auf den Fernkampfwurf.
+
+Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den Fernkampfwurf und +1 beim Schadenswurf.
+Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
+
+!!! example Beispiel
+
+    Eine Maschinenpistole hat AF 3 und wird von einem Modell mit FK 5 abgefeuert.
+
+    Entweder
+    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seine FK für den Fernkampfwurf und +3 auf den anschließenden Schadenswurf.
+    
+    oder
+    - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seine FK (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
+    Der Bonus von +1 für den Schadenswurf gilt jedoch für beide Ziele.
+
+### Flächenwaffen
+
+Flächenwaffen erzeugen an ihrem Trefferpunkt eine Flächenwirkung die im jeweiligen Waffenprofil in cm angegeben ist und eine kreisrunde Fläche mit diesem Radius in cm beschreibt.
+
+Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius angibt.
+
+TODO Icon
+
+Wenn bei einer Flächenwaffe der Fernkampfwurf misslingt, wird der W12 mit dem kleinsten Wert genommen und mit dem zu erreichenden Wert verglichen.
+Die Differenz * 3cm gibt an, wie weit der Trefferpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
+Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
+
+Sollte das schießende Modell den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
+
+Der Trefferpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
+
+Wenn die Trefferschablone die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
+Ist nur eine teilweise Überlappung vorhanden, wird der Substanzverlust halbiert (aufgerundet).
+
+Wenn das getroffene Modell Deckung der Stufe II berührt, kommt diese voll zur Geltung.
+
 ## Nahkampf
 
 TODO Kleiner Einleitungstext was Nahkampf ist
