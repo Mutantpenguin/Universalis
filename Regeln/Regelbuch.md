@@ -670,8 +670,8 @@ Schadenssymbole werden dabei immer in rot, und Verteidigungssymbole immer in gr�
 
 Ein Schadens- oder Verteidigungsprofil kann über keine oder mehrere Effekte verfügen.
 
-Beim Schadenswurf werden alle Effekte des Schadensprofils angewendet.
-Sollte im Verteidigungsprofil der entsprechende Effekt aufgelistet sein, wird er nicht angewendet.
+Beim Schadenswurf und Verteidigungswurf werden alle zutreffenden Effekte des Schadensprofils und Verteidigungsprofils angewendet.
+Ein im Verteidigungsprofil enthaltener Schadenseffekt neutralisiert diesen und er kommt nicht zur Anwendung.
 
 !!! example Beispiel
 
