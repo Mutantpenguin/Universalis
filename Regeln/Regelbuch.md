@@ -400,7 +400,7 @@ Jede Bewegung bis auf die Angriffsbewegung darf im Voraus ausgemessen werden.
 
 Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen durchgeführt werden.
 
-### Aktionen
+### Aktionen: Bewegung
 
 !!! danger Drehen - 0 ⊙
 
@@ -438,7 +438,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
     Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
 
-### Reaktionen
+### Reaktionen: Bewegung
 
 !!! warning Beschuss Ausweichen - 1 ⊙
 
