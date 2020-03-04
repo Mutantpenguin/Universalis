@@ -450,8 +450,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
         
         Nicht bei liegenden Modellen.
     
-    Der Schütze erhält -1 auf seinen
-Fernkampfwurf.
+    Der Schütze erhält -1 auf seinen Fernkampfwurf.
 
 !!! warning Hinwerfen - 2 ⊙
 
