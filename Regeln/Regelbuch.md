@@ -1100,21 +1100,26 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
     !!! note ""
 
-        TODO
+        Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
+        Jede weitere Aktion beendet die Abwehrhaltung automatisch.
 
-    TODO
+    Das Modell befindet sich maximal bis zu seiner nächsten Initiativephase in Abwehrhaltung.
+
+    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung. Das Modell verliert danach automatisch seine Abwehrhaltung.
 
 ### Reaktionen: Nahkampf
 
-!!! warning Gegenschlag - WK ⊙
+!!! warning Riposte - WK ⊙
 
     !!! note ""
 
         Bedingung:
         
         Kann nur unmittelbar nach einem Nahkampf durch ein anderes Modell durchgeführt werden und muss gegen dieses gerichtet sein.
+
+        Nur wenn der Angriff erfolgreich abgewehrt wurde.
     
-    Siehe Aktion Nahkampf.
+    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
 ### Bonus für den Angreifer
 
