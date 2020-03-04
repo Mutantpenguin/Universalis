@@ -861,6 +861,20 @@ Alles was sich definitiv nicht mehr von einem Menschen tragen lässt
 
 ## Verteidigung
 
+### Rüstung
+
+Rüstungen verfügen über ein Verteidigungsprofil.
+
+### Schilde
+
+Unter Schilden versteht man alle Arten von „Platten“ die zur Verteidigung getragen werden.
+
+Schilde geben dem Träger +1W12 beim Verteidigungswurf im Nahkampf und gegen jeden Beschuss der das Modell aus einem 180° Bereich von vorne trifft.
+
+!!! TODO Stattdessen Verteidigungswurf wiederholen?
+
+!!! TODO Modell hat nur noch eine Hand frei?
+
 ## Fernkampf
 
 TODO
