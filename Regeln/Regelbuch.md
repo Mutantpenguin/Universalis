@@ -62,10 +62,10 @@ Modelle werden dabei in Infanterie, MIKe, Drohnen und Fahrzeuge unterschieden.
 
 | Symbol | Name | Beschreibung | [Größe](#größe) |
 |--|--|--|--|
-| ![Infanterie](Grafiken/Modelle/Infanterie.svg){width="40pt"} | Infantrie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis mittel |
-| ![MIKe](Grafiken/Modelle/MIKe.svg){width="40pt"} | MIKe | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß |
-| ![Drohne](Grafiken/Modelle/Drohne.svg){width="40pt"} | Drohne | TODO | klein bis mittel |
-| ![Fahrzeug](Grafiken/Modelle/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO | mittel bis groß |
+| ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infantrie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis mittel |
+| ![MIKe](Grafiken/Modell/MIKe.svg){width="40pt"} | MIKe | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß |
+| ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | Drohne | TODO | klein bis mittel |
+| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO | mittel bis groß |
 
 ### Einsatzgruppen
 
@@ -135,9 +135,9 @@ Modelle werden in 3 verschiedene Größen gegliedert:
 
 | Symbol | Name | Beschreibung | Im Spiel |
 |--|--|--|--|
-| ![klein](Grafiken/Größen/klein.jpg) | klein | Alles kleiner als einschließlich 1m | 25mm Base und 3cm hoch. |
-| ![mittel](Grafiken/Größen/mittel.jpg) | mittel | Alles zwischen 1m und 3m. | 25mm Base und 6cm hoch |
-| ![groß](Grafiken/Größen/groß.jpg) | groß | Alles höher als einschließlich 3m. | 40mm Base und 8cm hoch |
+| ![klein](Grafiken/Größe/klein.jpg) | klein | Alles kleiner als einschließlich 1m | 25mm Base und 3cm hoch. |
+| ![mittel](Grafiken/Größe/mittel.jpg) | mittel | Alles zwischen 1m und 3m. | 25mm Base und 6cm hoch |
+| ![groß](Grafiken/Größe/groß.jpg) | groß | Alles höher als einschließlich 3m. | 40mm Base und 8cm hoch |
 
 ### Sichtfeld
 
@@ -181,7 +181,7 @@ Das gegnerische Modell, das sich innerhalb dieses Bereichs am nächsten zum eige
 
 Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 
-TODO Icon einfügen
+![reichweite](Grafiken/Modell/gefahrenbereich.png){width="40pt"} {align="center"}
 
 ### Warnehmungsbereich
 
@@ -195,7 +195,7 @@ Im Kritischen Zustand wird die Reichweite des Wahrnehmungsbereichs halbiert (auf
 
 Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
 
-TODO Icon einfügen
+![reichweite](Grafiken/Modell/wahrnehmungsbereich.png){width="40pt"} {align="center"}
 
 ### Entfernungen messen
 
@@ -473,7 +473,7 @@ Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
 Sie wird am Modell mit folgendem Marker dargestellt:
 
-TODO Icon
+![reichweite](Grafiken/Bewegung/schnell.png){width="40pt"} {align="center"}
 
 Zum Beginn der Initiativephase eines Modells, wird der Marker entfernt.
 
@@ -496,14 +496,14 @@ Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nich
 
 ### Bewegungsarten
 
-|Icon|Name|Bedeutung|
-|--|--|--|
-|TODO|Antigrav| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
-|TODO|Beine|TODO|
-|TODO|Flug|TODO Führt in jeder Runde als erste Aktion immer eine volle Bewegung in Blickrichtung aus.|
-|TODO|Kette|TODO Bewegungstests für Passierbarkeit dürfen wiederholt werden.|
-|TODO|Rad|TODO Schneller auf Straßen|
-|TODO|Stationär|TODO Ist halt stationär|
+|Symbol|Name|Bedeutung|
+|:--:|--|--|
+|![reichweite](Grafiken/Bewegung/antigrav.png){width="40pt"}|Antigrav| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
+|![reichweite](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|TODO|
+|![reichweite](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|TODO Führt in jeder Runde als erste Aktion immer eine volle Bewegung in Blickrichtung aus.|
+|![reichweite](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|TODO Bewegungstests für Passierbarkeit dürfen wiederholt werden.|
+|![reichweite](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|TODO Schneller auf Straßen|
+|![reichweite](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|TODO Ist halt stationär|
 
 ## Gelände
 
@@ -683,11 +683,11 @@ Ein im Verteidigungsprofil enthaltener Schadenseffekt neutralisiert diesen und e
 
 Diese Symbole sind auf der Einheitenkarte zu finden.
 
-|Icon|Name|Bedeutung|
-|--|--|--|
-|TODO|Schaden|Es stellt den effektiven Verlust an Trefferpunkten am Modell dar.|
-|TODO|Stärke|Es stellt die effektive Wirkungshöhe der Waffe dar.|
-|TODO|Schutz|Es stellt die effektive Wirkungshöhe der Rüstung dar.|
+|Symbol|Name|Bedeutung|
+|:--:|--|--|
+|![schaden](Grafiken/Waffe/schaden.png){width="40pt"}|Schaden|Es stellt den effektiven Verlust an Trefferpunkten am Modell dar.|
+|![stärke](Grafiken/Waffe/stärke.png){width="40pt"}|Stärke|Es stellt die effektive Wirkungshöhe der Waffe dar.|
+|![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|Es stellt die effektive Wirkungshöhe der Rüstung dar.|
 
 ### Schaden
 
@@ -748,43 +748,43 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 
 ### Schadenstypen
 
-|Icon|Name|Erläuterung|
+|Symbol|Name|Erläuterung|
 |--|--|--|
-|![kinetisch](Grafiken/Schadenstypen/typ_kinetik.png){width=40pt}|Kinetik|TODO|
-|![schlag](Grafiken/Schadenstypen/typ_schlag.png){width=40pt}|Schlag|TODO|
-|![schnitt](Grafiken/Schadenstypen/typ_schnitt.png){width=40pt}|Schnitt|TODO|
-|![strahl](Grafiken/Schadenstypen/typ_strahl.png){width=40pt}|Strahl|TODO|
+|![kinetisch](Grafiken/Schadenstyp/typ_kinetik.png){width=40pt}|Kinetik|TODO|
+|![schlag](Grafiken/Schadenstyp/typ_schlag.png){width=40pt}|Schlag|TODO|
+|![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|TODO|
+|![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|TODO|
 
 ### Übersicht der Schadens- und Verteidigungseffekte
 
-|Icon|Name|Auswirkungen|
+|Symbol|Name|Auswirkungen|
 |--|--|--|
-|![desintegrator](Grafiken/Effekte/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird für den aktuellen Schadenswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
-|![elektro](Grafiken/Effekte/effekt_elektro.png){width=40pt}|Elektro|Wenn die Waffe keinen Schaden verursacht erleidet das Modell dennoch einen Schock. Wird durch jedes Feld aufgehalten. TODO Wortwahl|
-|![emp](Grafiken/Effekte/effekt_emp.png){width=40pt}|EMP|TODO|
-|![explosiv](Grafiken/Effekte/effekt_explosiv.png){width=40pt}|Explosiv|Der Angreifer darf beim Schadenswurf einmal neu würfeln. Das neue Wurfergebnis muss verwendet werden.|
-|![hitze](Grafiken/Effekte/effekt_hitze.png){width=40pt}|Hitze|TODO Beim Schadenswurf kann jeder Erfolg genau einmal erneut gewürfelt werden. Am Ende wird die Gesamtanzahl aller Erfolge gezählt.|
-|![kälte](Grafiken/Effekte/effekt_kälte.png){width=40pt}|Kälte|TODO|
-|![mikrowelle](Grafiken/Effekte/effekt_mikrowelle.png){width=40pt}|Mikrowelle|Das getroffene Modell erleidet, zusätzlich zu allen anderen Auswirkungen des Treffers, einen Schock, auch wenn der Schadenswurf nicht erfolgreich war. Schilde halten diesen Effekt nicht auf.|
-|![monomolekular](Grafiken/Effekte/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
-|![panzerbrechend](Grafiken/Effekte/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|TODO Die Anzahl der W12 für den Verteidigungswurf wird um 1 verringert (bis zu einem Minimum von 1).|
-|![paralyse](Grafiken/Effekte/effekt_paralyse.png){width=40pt}|Paralyse|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
-|![rail](Grafiken/Effekte/effekt_rail.png){width=40pt}|Rail|TODO Beim Schadenswurf zählt jeder Erfolg doppelt, nicht jedoch für eine eventuelle Erhöhung des Substanzverlustes.|
+|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird für den aktuellen Schadenswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
+|![elektro](Grafiken/Effekt/effekt_elektro.png){width=40pt}|Elektro|Wenn die Waffe keinen Schaden verursacht erleidet das Modell dennoch einen Schock. Wird durch jedes Feld aufgehalten. TODO Wortwahl|
+|![emp](Grafiken/Effekt/effekt_emp.png){width=40pt}|EMP|TODO|
+|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Angreifer darf beim Schadenswurf einmal neu würfeln. Das neue Wurfergebnis muss verwendet werden.|
+|![hitze](Grafiken/Effekt/effekt_hitze.png){width=40pt}|Hitze|TODO Beim Schadenswurf kann jeder Erfolg genau einmal erneut gewürfelt werden. Am Ende wird die Gesamtanzahl aller Erfolge gezählt.|
+|![kälte](Grafiken/Effekt/effekt_kälte.png){width=40pt}|Kälte|TODO|
+|![mikrowelle](Grafiken/Effekt/effekt_mikrowelle.png){width=40pt}|Mikrowelle|Das getroffene Modell erleidet, zusätzlich zu allen anderen Auswirkungen des Treffers, einen Schock, auch wenn der Schadenswurf nicht erfolgreich war. Schilde halten diesen Effekt nicht auf.|
+|![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
+|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|TODO Die Anzahl der W12 für den Verteidigungswurf wird um 1 verringert (bis zu einem Minimum von 1).|
+|![paralyse](Grafiken/Effekt/effekt_paralyse.png){width=40pt}|Paralyse|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
+|![rail](Grafiken/Effekt/effekt_rail.png){width=40pt}|Rail|TODO Beim Schadenswurf zählt jeder Erfolg doppelt, nicht jedoch für eine eventuelle Erhöhung des Substanzverlustes.|
 |TODO|Schrapnell|TODO Bonus-W12 auf den Verteidigungswurf (die durch Deckung oder Tarnung zustande kommen) werden nicht angewendet.|
-|![vibro](Grafiken/Effekte/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwemdet werden muss.|
+|![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwemdet werden muss.|
 
 ### Schadenseffekte
 
-|Icon|Name|Auswirkungen|
+|Symbol|Name|Auswirkungen|
 |--|--|--|
-|![struktur](Grafiken/Effekte/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkung“ nur den halbierten (abgerundeten) Schaden zu.|
+|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkung“ nur den halbierten (abgerundeten) Schaden zu.|
 
 ### Verteidigungseffekte
 
-|Icon|Name|Auswirkungen|
+|Symbol|Name|Auswirkungen|
 |--|--|--|
-|![struktur](Grafiken/Effekte/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
-|![komposit](Grafiken/Effekte/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf einmal neu würfeln, wobei das neue Wurfergebnis genommen werden muss.|
+|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
+|![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf einmal neu würfeln, wobei das neue Wurfergebnis genommen werden muss.|
 
 ## Waffen
 
@@ -950,7 +950,7 @@ X gibt dabei an, wie groß die Reichweitenbänder sind, Y wie oft diese anwendba
 
 Auf der Einheitenkarte wird dies unter folgendem Symbol ausgewiesen:
 
-TODO Icon
+![reichweite](Grafiken/Waffe/reichweite.png){width="40pt"} {align="center"}
 
 Pro vollständig ausgenutztem Reichweitenband erhält ein schießendes Modell einen Malus von -1 auf seinen Fernkampfwurf.
 
@@ -1022,7 +1022,7 @@ Jeder Punkt AF wird als 1 zusätzlicher Schuss behandelt.
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei jede Patrone für eine Stufe Autofeuer steht.
 
-TODO Icon
+![reichweite](Grafiken/Waffe/patrone.png){height="40pt"} {align="center"}
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
 Für jedes Ziel nach dem Ersten gibt es einen Malus von -1 auf den Fernkampfwurf.
@@ -1047,7 +1047,7 @@ Flächenwaffen erzeugen an ihrem Trefferpunkt eine Flächenwirkung die im jeweil
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius angibt.
 
-TODO Icon
+TODO Symbol
 
 Wenn bei einer Flächenwaffe der Fernkampfwurf misslingt, wird der W12 mit dem kleinsten Wert genommen und mit dem zu erreichenden Wert verglichen.
 Die Differenz * 3cm gibt an, wie weit der Trefferpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
@@ -1166,7 +1166,9 @@ TODO Gesamtes Kapitel auf neue Systematik umstellen
 
 Tarnung wird in passive und aktive Tarnung unterschieden, je nachdem was damit möglich ist.
 
-TODO Icons
+|Passiv|Aktiv|
+|:--:|:--:|
+|![reichweite](Grafiken/Tarnung/passiv.png){width="40pt"}|![reichweite](Grafiken/Tarnung/aktiv.png){width="40pt"}|
 
 Passive Tarnung Aktive Tarnung Getarnte Modelle beginnen das Spiel automatisch als getarnt, sofern alle Voraussetzungen erfüllt sind.
 
