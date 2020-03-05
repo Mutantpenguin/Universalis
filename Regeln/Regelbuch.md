@@ -919,15 +919,15 @@ Wenn das Ziel eine MIKe ist, muss mit 1W12 die getroffene Strukturzone ausgewür
 
     !!! note ""
 
-        Bedingung:
+        Bedingungen:
+
+        Das Modell muss sich in Feuerbereitschaft befinden.
         
         Nur mit Schusswaffen der WK I und II.
 
         Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiative-Phase durchgeführt werden.
         
         Der Beschuss darf nur auf das Modell dessen Initiativephase gerade gilt gerichtet sein.
-
-        Das Modell muss sich in Feuerbereitschaft befinden.
     
     Das Modell führt einen normalen Fernkampfwurf aus.
     
@@ -1092,7 +1092,7 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
 ### Aktionen: Nahkampf
 
-!!! danger Nahkampf - WK ⊙
+!!! danger Angriff - WK ⊙
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
@@ -1113,7 +1113,7 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
     !!! note ""
 
-        Bedingung:
+        Bedingungen:
         
         Kann nur unmittelbar nach einem Nahkampf durch ein anderes Modell durchgeführt werden und muss gegen dieses gerichtet sein.
 
