@@ -760,7 +760,6 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
 |Icon|Name|Auswirkungen|
 |--|--|--|
 |![desintegrator](Grafiken/Effekte/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird für den aktuellen Schadenswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
-|![durchschlag](Grafiken/Effekte/effekt_durchschlag.png){width=40pt}|Durchschlag|TODO Wenn der Angreifer doppelt so viele Erfolge hat wie der Verteidiger, durchschlägt der Schuss das Ziel (in gerade Linie) und kann ein Weiteres treffen. Dieser Effekt wird so oft angewendet, bis ein Ziel nicht durchschlagen wird.|
 |![elektro](Grafiken/Effekte/effekt_elektro.png){width=40pt}|Elektro|Wenn die Waffe keinen Schaden verursacht erleidet das Modell dennoch einen Schock. Wird durch jedes Feld aufgehalten. TODO Wortwahl|
 |![emp](Grafiken/Effekte/effekt_emp.png){width=40pt}|EMP|TODO|
 |![explosiv](Grafiken/Effekte/effekt_explosiv.png){width=40pt}|Explosiv|Der Angreifer darf beim Schadenswurf einmal neu würfeln. Das neue Wurfergebnis muss verwendet werden.|
