@@ -40,14 +40,12 @@ Ein Maßband mit Markierungen in cm.
 
 ![Maßband](Grafiken/Abbildungen/maßband.svg){width="200pt""} {align="center"}
 
-Pro Miniatur jeweils einen weißen und einen
-roten W6 und mehrere beliebig farbige W12.
+Einen W12 und pro Miniatur jeweils einen weißen und einen roten W6.
 
 ![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"}![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
 Des weiteren werden einfarbige Tokens
-benötigt (es können auch anders farbige W6
-sein).
+benötigt.
 
 ### Fraktion
 
@@ -96,7 +94,8 @@ Jedes Modell verfügt über 6 Aktionspunkte pro Runde, die in verschiedenen Phas
 
 Die Kosten in Aktionspunkten werden immer mit diesem Zeichen angegeben: ⊙
 
-Es bietet sich an neben jedes Modell einen W6 zu legen der die aktuell noch verfügbaren Aktionspunkte anzeigt.
+Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
+Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer_zustand) verfällt.
 
 ### Attribute
 
@@ -721,8 +720,8 @@ Solange er über genau 0 Trefferpunkte verfügt, kann er weder Aktionen noch Rea
 
 Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nicht mehr möglich ist.
 
-Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Trefferpunkte besitzt erleidet er einen **Schock**.
-Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen **kritischen Zustand**.
+Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Trefferpunkte besitzt erleidet er einen [Schock](#schock).
+Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen [kritischen Zustand](#kritischer_zustand).
 
 Auf der Einheitenkarte ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist (siehe Seite TODO).
 
@@ -737,14 +736,16 @@ Sollten noch Schock-Marker übrig sein obwohl alle AP verbraucht sind, verbleibe
 
 ### Kritischer Zustand
 
-Er wird automatisch angewendet, es wird kein Test dafür abgelegt.
+Der kritische Zustand wird automatisch angewendet.
 
 Ein Modell kann nur einmal in den kritischen Zustand verfallen.
 Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
 
-Bei kritischem Zustand verliert das Modell sofort 2 AP, erhält einen Malus von -1 auf alle seine Attribute und halbiert den Wahrnehmungsbereich (aufgerundet).
+Der weiße W6 für die Anzeige der Aktionspunkte wird für das Modell gegen einen roten W6 ausgetauscht.
 
-Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
+Das Modell verliert sofort 2 AP, erhält einen Malus von -1 auf alle seine Attribute und halbiert den Wahrnehmungsbereich (aufgerundet).
+
+Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 
 ### Schadenstypen
 
