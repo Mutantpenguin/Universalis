@@ -448,7 +448,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
         Bedingung:
         
-        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
+        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
         
         Nicht bei liegenden Modellen.
     
@@ -460,7 +460,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
         Bedingung:
 
-        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
+        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
         
         Nicht bei liegenden Modellen.
     
@@ -1115,7 +1115,7 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
         Bedingungen:
         
-        Kann nur unmittelbar nach einem Nahkampf durch ein anderes Modell durchgeführt werden und muss gegen dieses gerichtet sein.
+        Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
 
         Nur wenn der Angriff erfolgreich abgewehrt wurde.
     
