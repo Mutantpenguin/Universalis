@@ -181,7 +181,7 @@ Das gegnerische Modell, das sich innerhalb dieses Bereichs am nächsten zum eige
 
 Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 
-![reichweite](Grafiken/Modell/gefahrenbereich.png){width="40pt"} {align="center"}
+![gefahrenbereich](Grafiken/Modell/gefahrenbereich.png){width="40pt"} {align="center"}
 
 ### Warnehmungsbereich
 
@@ -195,7 +195,7 @@ Im Kritischen Zustand wird die Reichweite des Wahrnehmungsbereichs halbiert (auf
 
 Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
 
-![reichweite](Grafiken/Modell/wahrnehmungsbereich.png){width="40pt"} {align="center"}
+![wahrnehmungsbereich](Grafiken/Modell/wahrnehmungsbereich.png){width="40pt"} {align="center"}
 
 ### Entfernungen messen
 
@@ -473,7 +473,7 @@ Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
 Sie wird am Modell mit folgendem Marker dargestellt:
 
-![reichweite](Grafiken/Bewegung/schnell.png){width="40pt"} {align="center"}
+![schnell](Grafiken/Bewegung/schnell.png){width="40pt"} {align="center"}
 
 Zum Beginn der Initiativephase eines Modells, wird der Marker entfernt.
 
@@ -498,12 +498,12 @@ Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nich
 
 |Symbol|Name|Bedeutung|
 |:--:|--|--|
-|![reichweite](Grafiken/Bewegung/antigrav.png){width="40pt"}|Antigrav| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
-|![reichweite](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|TODO|
-|![reichweite](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|TODO Führt in jeder Runde als erste Aktion immer eine volle Bewegung in Blickrichtung aus.|
-|![reichweite](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|TODO Bewegungstests für Passierbarkeit dürfen wiederholt werden.|
-|![reichweite](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|TODO Schneller auf Straßen|
-|![reichweite](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|TODO Ist halt stationär|
+|![antigrav](Grafiken/Bewegung/antigrav.png){width="40pt"}|Antigrav| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
+|![fuss](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|TODO|
+|![flug](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|TODO Führt in jeder Runde als erste Aktion immer eine volle Bewegung in Blickrichtung aus.|
+|![kette](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|TODO Bewegungstests für Passierbarkeit dürfen wiederholt werden.|
+|![rad](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|TODO Schneller auf Straßen|
+|![stationär](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|TODO Ist halt stationär|
 
 ## Gelände
 
@@ -1022,7 +1022,7 @@ Jeder Punkt AF wird als 1 zusätzlicher Schuss behandelt.
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei jede Patrone für eine Stufe Autofeuer steht.
 
-![reichweite](Grafiken/Waffe/patrone.png){height="40pt"} {align="center"}
+![patrone](Grafiken/Waffe/patrone.png){height="40pt"} {align="center"}
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
 Für jedes Ziel nach dem Ersten gibt es einen Malus von -1 auf den Fernkampfwurf.
@@ -1168,7 +1168,7 @@ Tarnung wird in passive und aktive Tarnung unterschieden, je nachdem was damit m
 
 |Passiv|Aktiv|
 |:--:|:--:|
-|![reichweite](Grafiken/Tarnung/passiv.png){width="40pt"}|![reichweite](Grafiken/Tarnung/aktiv.png){width="40pt"}|
+|![passiv](Grafiken/Tarnung/passiv.png){width="40pt"}|![aktiv](Grafiken/Tarnung/aktiv.png){width="40pt"}|
 
 Passive Tarnung Aktive Tarnung Getarnte Modelle beginnen das Spiel automatisch als getarnt, sofern alle Voraussetzungen erfüllt sind.
 
