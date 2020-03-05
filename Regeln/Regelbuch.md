@@ -38,12 +38,12 @@ TODO
 
 Ein Maßband mit Markierungen in cm.
 
-![Maßband](Grafiken/Maßband.svg){width="200pt""} {align="center"}
+![Maßband](Grafiken/Abbildungen/maßband.svg){width="200pt""} {align="center"}
 
 Pro Miniatur jeweils einen weißen und einen
 roten W6 und mehrere beliebig farbige W12.
 
-![W6 weiß](Grafiken/W6_weiß.svg){width="50pt"}![W6 rot](Grafiken/W6_rot.svg){width="50pt"} {align="center"}
+![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"}![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
 Des weiteren werden einfarbige Tokens
 benötigt (es können auch anders farbige W6
@@ -86,7 +86,7 @@ Jede Fraktion hat ihre eigene Stellvertreterregelung.
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
 Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten Ausrüstung (siehe Seite TODO) und Eigenschaften (siehe Seite TODO).
 
-TODO Bild einfügen
+![einheitenkarte](Grafiken/Abbildungen/einheitenkarte.jpg) {align="center"}
 
 Eine detailliertere Beschreibung der Einheitenkarte ist auf Seite TODO zu finden.
 
@@ -143,7 +143,7 @@ Modelle werden in 3 verschiedene Größen gegliedert:
 
 Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
 
-![Sichtfeld](Grafiken/Sichtfeld.svg) {align="center"}
+![Sichtfeld](Grafiken/Abbildungen/sichtfeld.svg) {align="center"}
 
 "Übersicht der 4 verschiedenen Sichtfelder (der Pfeilstellt die Blickrichtung des Modells dar)"{align="center"}
 
@@ -183,13 +183,13 @@ Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 
 ![gefahrenbereich](Grafiken/Modell/gefahrenbereich.png){width="40pt"} {align="center"}
 
-### Warnehmungsbereich
+### Wahrnehmungsbereich
 
 Der Wahrnehmungsbereich umfasst alles im Sichtfeld des Modells bis zu einer Distanz die wie folgt berechnet wird:
 
 Distanz = WN * 5cm{align="center"}
 
-TODO Bild einfügen
+![wahrnehmungsbereich](Grafiken/Abbildungen/wahrnehmungsbereich.svg) {align="center"}
 
 Im Kritischen Zustand wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet, siehe Seite TODO).
 
@@ -201,7 +201,7 @@ Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
 
 Entfernungen zwischen Modellen werden immer von den Rändern der Bases gemessen.
 
-TODO Bild einfügen
+![entfernungen messen](Grafiken/Abbildungen/entfernungen_messen.svg) {align="center"}
 
 Entfernungen dürfen nie im Voraus gemessen werden, sondern immer nur wenn die entsprechende Aktion bereits festgelegt wurde.
 
@@ -645,13 +645,13 @@ Um Schaden abzuwehren gibt es verschiedene Möglichkeiten wie bspw. Rüstung, Sc
 
 Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), die Stärke, den Schaden und eventuellen Effekten angegeben.
 
-TODO Bild
+![schadensprofil](Grafiken/Abbildungen/schadensprofil.png)
 
 ### Verteidigungsprofil
 
 Verteidigung wird immer durch ein oder mehrere Verteidigungstypen (z.B. Stich), den Schutz und eventuellen Effekten angegeben.
 
-TODO Bild
+![verteidigungsprofil](Grafiken/Abbildungen/verteidigungsprofil.png)
 
 ### Schadens- / Verteidigungstypen
 
@@ -1047,7 +1047,7 @@ Flächenwaffen erzeugen an ihrem Trefferpunkt eine Flächenwirkung die im jeweil
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius angibt.
 
-TODO Symbol
+![radius](Grafiken/Waffe/radius.svg){width="40pt"} {align="center"}
 
 Wenn bei einer Flächenwaffe der Fernkampfwurf misslingt, wird der W12 mit dem kleinsten Wert genommen und mit dem zu erreichenden Wert verglichen.
 Die Differenz * 3cm gibt an, wie weit der Trefferpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
@@ -1158,7 +1158,7 @@ Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei MIKe als Klasse I
 
     Für einen Infanteristen mit einer KO von 6.
 
-    TODO Bild einfügen
+    ![unbewaffnet](Grafiken/Abbildungen/unbewaffnet.png)
 
 ## Tarnung
 
@@ -1309,7 +1309,7 @@ MIKe werden in die Strukturzonen Rumpf, linker Arm, rechter Arm und Beine untert
 Welche Strukturzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
 Es können auch Strukturzonen getroffen werden, die nicht direkt sichtbar sind da.
 
-TODO Bild einfügen
+![strukturzonen](Grafiken/Abbildungen/strukturzonen.svg) {align="center"}
 
 Jede Strukturzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
 
@@ -1346,6 +1346,6 @@ Zusätzlich wirkt der Schadenseffekt „Explosiv“.
 
     Für eine MIKe mit einer KO von 6.
 
-    TODO Bild einfügen
+    ![detonation](Grafiken/Abbildungen/detonation.png)
 
 ## Drohnen
