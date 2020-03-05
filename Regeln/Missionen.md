@@ -29,7 +29,7 @@ Missionen Version 0.0.1
 
 Dies ist die Standardmission, die immer gespielt werden kann.
 
-#### Aufbau
+### Aufbau
 
 Das Spielfeld kann beliebig aufgebaut werden.
 

@@ -448,7 +448,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
         Bedingung:
         
-        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor das schießende Modell seinen Fernkampfwurf durchführt.
+        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
         
         Nicht bei liegenden Modellen.
     
@@ -460,7 +460,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
         Bedingung:
 
-        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor das schießende Modell seinen Fernkampfwurf durchführt.
+        Kann nur bei Beschuss auf das Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
         
         Nicht bei liegenden Modellen.
     
@@ -977,13 +977,13 @@ Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
 
 Dazu zählen auch befreundete größere Modelle.
 
-Das schießende Modell erhält einen Malus von -1 auf seinen Fernkampfwurf.
+Der Schütze erhält einen Malus von -1 auf seinen Fernkampfwurf.
 
 #### Stufe II Deckung
 
 Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zu direkten Abwehr von Beschuss geeignet.
 
-Das schießende Modell erhält einen Malus von -2 auf seinen Fernkampfwurf.
+Der Schütze erhält einen Malus von -2 auf seinen Fernkampfwurf.
 
 Wenn das beschossene Modell die Deckung berührt, erhält es einen Bonus von +2 auf seinen Verteidigungswurf.
 
@@ -1054,7 +1054,7 @@ Wenn bei einer Flächenwaffe der Fernkampfwurf misslingt, wird der W12 mit dem k
 Die Differenz * 3cm gibt an, wie weit der Trefferpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
-Sollte das schießende Modell den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
+Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
 
 Der Trefferpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
 
