@@ -109,7 +109,7 @@ Im Kritischen Zustand werden die Attribute um 1 verringert (siehe Seite TODO).
 Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen besteht:
 
 | Kürzel | Name | Beschreibung |
-|--|--|--|
+|:--:|--|--|
 |AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. Nahkampf (Seite TODO) und Reaktionen (Seite TODO).|
 |BW|Bewegung|Gibt an, wie weit sich ein Modell bewegen kann. Siehe Bewegung (Seite TODO).|
 |KO|Konstitution|Drückt nicht nur aus wir stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. Schock (Seite TODO) und Tragkraft (Seite TODO).|
