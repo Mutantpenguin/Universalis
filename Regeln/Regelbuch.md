@@ -56,13 +56,12 @@ freiwillig, zu grundverschiedenen Bündnissen zusammengeschlossen.
 
 Jedes Modell verfügt über eine [Einheitenkarte](#einheitenkarte) und ist immer in einer [Einsatzgruppe](#einsatzgruppen) organisiert.
 
-Modelle werden dabei in Infanterie, MIKe, Drohnen und Fahrzeuge unterschieden.
+Modelle werden dabei in Infanterie, MIKe und Fahrzeuge unterschieden.
 
 | Symbol | Name | Beschreibung | [Größe](#größe) |
 |--|--|--|--|
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infantrie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis mittel |
 | ![MIKe](Grafiken/Modell/MIKe.svg){width="40pt"} | MIKe | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß |
-| ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | Drohne | TODO | klein bis mittel |
 | ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO | mittel bis groß |
 
 ### Einsatzgruppen
