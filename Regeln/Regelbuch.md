@@ -892,7 +892,7 @@ blah blah yadda yadda
 
 Dies ist ein normaler FK-Wurf. Bei Erfolg wurde das Ziel getroffen.
 
-Wenn das Ziel eine MIKe ist, muss mit 1W12 die getroffene Strukturzone ausgewürfelt werden (siehe Seite TODO).
+Wenn das Ziel eine MIKe ist, muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden (siehe Seite TODO).
 
 ### Aktionen: Fernkampf
 
@@ -1091,7 +1091,7 @@ Nun wird die folgende Tabelle konsultiert:
 |Gleichstand|TODO|
 |Angreifer|Der Angreifer landet einen Treffer. TODO Spielt die Differenz eine Rolle?|
 
-Wenn das getroffene Modell eine MIKe ist, muss mit 1W12 die getroffenen Strukturzone ausgewürfelt werden (siehe Seite TODO).
+Wenn das getroffene Modell eine MIKe ist, muss mit 1W12 die getroffenen Trefferzone ausgewürfelt werden (siehe Seite TODO).
 
 ### Erlaubte Waffen
 
@@ -1310,18 +1310,18 @@ Durch ihre enorme Beweglichkeit profitieren sie ganz normal von Deckung, da sie 
 
 Aufgrund ihrer Größe können MIKe allerdings keine normal großen Türen benutzen und Gebäude normal betreten, sowie Fahrzeuge wie Infanterie benutzen.
 
-### Strukturzonen
+### Trefferzonen
 
-MIKe werden in die Strukturzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
+MIKe werden in die Trefferzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
 
-Welche Strukturzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
-Es können auch Strukturzonen getroffen werden, die nicht direkt sichtbar sind da.
+Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
+Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind da.
 
-![strukturzonen](Grafiken/Abbildungen/strukturzonen.svg){.img_border} {align="center"}
+![trefferzone](Grafiken/Abbildungen/trefferzonen.svg){.img_border} {align="center"}
 
 *Trefferzonen MIKe* {align="center"}
 
-Jede Strukturzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
+Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
 
 Trefferpunkte werden nur für den Rumpf festgelegt.
 Für Beine und Arme berechnet sich der Wert automatisch mit 2/3 des Rumpfes (aufgerundet).
