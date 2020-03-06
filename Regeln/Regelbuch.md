@@ -56,12 +56,13 @@ freiwillig, zu grundverschiedenen Bündnissen zusammengeschlossen.
 
 Jedes Modell verfügt über eine [Einheitenkarte](#einheitenkarte) und ist immer in einer [Einsatzgruppe](#einsatzgruppen) organisiert.
 
-Modelle werden dabei in Infanterie, MIKe und Fahrzeuge unterschieden.
+Modelle werden dabei in Infanterie, MIKe, Koloss und Fahrzeuge unterschieden.
 
 | Symbol | Name | Beschreibung | [Größe](#größe) |
 |--|--|--|--|
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infantrie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis mittel |
 | ![MIKe](Grafiken/Modell/MIKe.svg){width="40pt"} | MIKe | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß |
+| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | TODO | groß |
 | ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO | mittel bis groß |
 
 ### Einsatzgruppen
@@ -155,7 +156,7 @@ Diese Tragkraft errechnet sich für Infanterie über die Konstitution (KO) im Qu
 
 Tragkraft in kg = KO²{align="center"}
 
-Bei MIKe wird die Konstitution (KO) vor der Quadrierung verdoppelt (in Kilogramm):
+Bei MIKe und Kolossen wird die Konstitution (KO) vor der Quadrierung verdoppelt (in Kilogramm):
 
 Tragkraft in kg = (KO*2)²{align="center"}
 
@@ -891,7 +892,7 @@ blah blah yadda yadda
 
 Dies ist ein normaler FK-Wurf. Bei Erfolg wurde das Ziel getroffen.
 
-Wenn das Ziel eine MIKe ist, muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden (siehe Seite TODO).
+Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden (siehe Seite TODO).
 
 ### Aktionen: Fernkampf
 
@@ -1090,7 +1091,7 @@ Nun wird die folgende Tabelle konsultiert:
 |Gleichstand|TODO|
 |Angreifer|Der Angreifer landet einen Treffer. TODO Spielt die Differenz eine Rolle?|
 
-Wenn das getroffene Modell eine MIKe ist, muss mit 1W12 die getroffenen Trefferzone ausgewürfelt werden (siehe Seite TODO).
+Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffenen Trefferzone ausgewürfelt werden (siehe Seite TODO).
 
 ### Erlaubte Waffen
 
@@ -1101,6 +1102,8 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 !!! danger Angriff - WK ⊙
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+
+    !!! TODO Beim Angriff ausserhalb des Sichtfeldes Trefferzone aussuchen?
 
 !!! danger Abwehrhaltung - 2 ⊙
 
@@ -1153,13 +1156,17 @@ Im Nahkampf erhält der Gegner zusätzlich einen Malus von -1 auf seinen Nahkamp
 
 ### Waffenloser Nahkampf
 
-Infanterie und MIKe können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
+Infanterie, MIKe und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
-Der Schadenstyp ist dabei immer Schlag (Stufe 1 bei Infanterie und Stufe 2 bei MIKe) und die Stärke entspricht der Konstitution.
+Der Schadenstyp ist dabei immer Schlag (Stufe 1 bei Infanterie und Stufe 2 bei MIKe und Kolossen) und die Stärke entspricht der Konstitution.
+
+!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer Stufe 1, groß immer Stufe 2?
 
 Der Substanzverlust liegt bei KO geteilt durch 3 (gerundet).
 
-Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei MIKe als Klasse II.
+Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei MIKe und Kolossen als Klasse II.
+
+!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer WK1, groß immer WK2?
 
 !!! example Beispiel
 
@@ -1183,7 +1190,7 @@ Jede Tarnung verfügt über eine Stufe, welche die Effektivität der Tarnung wid
 
 ### Voraussetzungen für Tarnung
 
-#### Passive Tarnung:
+#### Passive Tarnung
 
 Ein Model mit passivem Tarnsystem kann seine Tarnung nur aktivieren, wenn es sich in Basekontakt mit einem Geländeraum oder einem Geländeteil (welches mindestens über die gleichen Ausmaße wie das Modell verfügt) befindet.
 Ist dies möglich, so befindet sich das Modell im PTM (Passiv-Tarn-Modus).
