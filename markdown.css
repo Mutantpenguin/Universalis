@@ -11,5 +11,11 @@ h2
 
 table
 {
-    width:100%;
+    width: 100%;
 }
+
+.img_border
+{
+    padding: 15px;
+    border: 1px solid;
+ }
