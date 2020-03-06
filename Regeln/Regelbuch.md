@@ -1357,5 +1357,3 @@ Zusätzlich wirkt der Schadenseffekt „Explosiv“.
     Für eine MIKe mit einer KO von 6.
 
     ![detonation](Grafiken/Abbildungen/detonation.png)
-
-## Drohnen
