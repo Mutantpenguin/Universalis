@@ -1146,13 +1146,7 @@ Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält 
 
 ### Nahkampf mit getarnten Modellen
 
-Es können nur aufgeklärte getarnte Modelle angegriffen werden (siehe Seite TODO).
-
-Wenn ein getarntes Modell den Angriff einleitet wird es automatisch aufgeklärt und erhält für die erste Runde einen Bonus von +1 auf seinen Nahkampfwurf.
-
-#### Aktive Tarnung des Nahkampfgegners
-
-Im Nahkampf erhält der Gegner zusätzlich einen Malus von -1 auf seinen Nahkampfwurf.
+Es können nur aufgeklärte Modelle angegriffen werden (siehe Seite TODO).
 
 ### Waffenloser Nahkampf
 
@@ -1176,15 +1170,13 @@ Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei MIKe und Kolossen
 
 ## Tarnung
 
-TODO Gesamtes Kapitel auf neue Systematik umstellen
-
 Tarnung wird in passive und aktive Tarnung unterschieden, je nachdem was damit möglich ist.
 
 |Passiv|Aktiv|
 |:--:|:--:|
 |![passiv](Grafiken/Tarnung/passiv.png){width="40pt"}|![aktiv](Grafiken/Tarnung/aktiv.png){width="40pt"}|
 
-Passive Tarnung Aktive Tarnung Getarnte Modelle beginnen das Spiel automatisch als getarnt, sofern alle Voraussetzungen erfüllt sind.
+Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.
 
 Jede Tarnung verfügt über eine Stufe, welche die Effektivität der Tarnung widerspiegelt.
 
@@ -1193,25 +1185,21 @@ Jede Tarnung verfügt über eine Stufe, welche die Effektivität der Tarnung wid
 #### Passive Tarnung
 
 Ein Model mit passivem Tarnsystem kann seine Tarnung nur aktivieren, wenn es sich in Basekontakt mit einem Geländeraum oder einem Geländeteil (welches mindestens über die gleichen Ausmaße wie das Modell verfügt) befindet.
-Ist dies möglich, so befindet sich das Modell im PTM (Passiv-Tarn-Modus).
 
 #### Aktive Tarnung
 
 Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich in einem Geländeteil befinden oder nicht.
 
-### Vorteile
+### Vorteile von Tarnung
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
-
 Damit das möglich ist, müssen sie zuerst aufgeklärt werden.
 
-Wenn ein getarntes Modell von einer Flächenwaffe getroffen wurde, werden bei dem Verteidigungswurf alle Würfel verdoppelt.
+Außerdem können sie nicht durch Flächenwaffen getroffen werden.
 
-#### Aktive Tarnung
+#### Besondere Vorteile von aktiver Tarnung
 
-TODO
-
-Aktiv getarnte Modelle erhalten immer einen Bonus von +1W12 auf ihren Verteidigungswurf, egal ob sie aufgeklärt sind oder nicht.
+Aktiv getarnte Modelle erhalten immer einen Bonus von +1 auf ihren Verteidigungswurf, egal ob sie aufgeklärt sind oder nicht.
 
 ### Aktion/Reaktion
 
@@ -1225,10 +1213,9 @@ Pro Initiativephase darf pro getarntem Modell nur einmal für Aufklärung getest
 
 Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden.
 Dazu muss ein Aufklärungstest durchgeführt werden, welcher um die Stufe der Tarnung erschwert ist.
-Dies ist ein normaler Erfolgswurf auf AFG der mit dem Basis-W12 durchgeführt wird.
-Bei mindestens 1 Erfolg ist das getarnte Modell aufgeklärt.
+Dies ist ein normaler WN-Wurf. Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
-Pro zusätzlich eingesetztem AP kann der AFG-Test um 1 erleichtert werden.
+Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werden.
 
 ### Reaktion
 
@@ -1236,34 +1223,26 @@ Pro zusätzlich eingesetztem AP kann der AFG-Test um 1 erleichtert werden.
 
     Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
 
-Für das Modell, welches bei der Aufklärung unterstützen möchte, muss sich das aufzuklärende Modell ebenso in seinem Wahrnehmungsbereich befinden.
+Für das Modell, welches bei der Aufklärung unterstützen soll, muss sich das aufzuklärende Modell ebenso in seinem Wahrnehmungsbereich befinden.
 
-Das unterstützte Modell erhält +1W12 auf seinen Aufklärungstest.
+Das unterstützte Modell erhält +1 auf seinen Aufklärungstest.
 
-### Fernkampf
+### Fernkampf durch getarntes Modell
 
 Wenn ein getarntes Modell eine Fernkampfwaffe abfeuert, wird es automatisch aufgeklärt.
 
-### Nahkampf
+### Nahkampf durch getarntes Modell
 
-Wenn ein getarntes Modell den Angriff einleitet wird es automatisch aufgeklärt und erhält für die erste Runde einen Bonus von +1 auf seinen Nahkampfwurf. Siehe auch Seite 28.
+Wenn ein getarntes Modell den Angriff einleitet wird es automatisch aufgeklärt und erhält für die erste Runde einen Bonus von +1 auf seinen Nahkampfwurf. Siehe auch Seite TODO.
 
-#### Aktiv
-
-Im Nahkampf erhält der Gegner zusätzlich einen Malus von -1 auf seinen Nahkampfwurf.
+Sofern es über aktive Tarnung verfügt erhält es einen zusätzlichen Bonus von +1 auf seinen Nahkampfwurf.
 
 ### Aufgeklärte Modelle
 
 Ein aufgeklärtes Modell gilt solange als aufgeklärt bis es eine volle Bewegungsaktion durchgeführt hat.
-Danach wird seine Tarnung automatisch wiederhergestellt, wenn die Voraussetzungen dafür erfüllt sind.
+Danach wird seine Tarnung automatisch wiederhergestellt sofern die Voraussetzungen dafür erfüllt sind.
 
-#### Passiv:
-
-Ist dadurch sichtbar und kann normal beschossen oder im Nahkampf angegriffen werden.
-
-#### Aktiv:
-
-Das Modell wird nicht sichtbar, kann aber dennoch beschossen oder im Nahkampf angegriffen werden.
+Es kann normal beschossen oder im Nahkampf angegriffen werden.
 
 ## Ausrüstung
 
