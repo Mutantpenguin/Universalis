@@ -60,10 +60,10 @@ Modelle werden dabei in Infanterie, MIKe, Koloss und Fahrzeuge unterschieden.
 
 | Symbol | Name | Beschreibung | [Größe](#größe) |
 |--|--|--|--|
-| ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infantrie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis mittel |
-| ![MIKe](Grafiken/Modell/MIKe.svg){width="40pt"} | MIKe | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß |
-| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | TODO | groß |
-| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO | mittel bis groß |
+| ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infantrie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
+| ![MIKe](Grafiken/Modell/MIKe.svg){width="40pt"} | MIKe | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß bis riesig |
+| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | TODO | groß bis riesig |
+| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO | mittel bis riesig |
 
 ### Einsatzgruppen
 
@@ -134,11 +134,17 @@ Die maximale Menge an Trefferpunkten, über die ein Modell verfügen kann, liegt
 
 Modelle werden in 3 verschiedene Größen gegliedert:
 
-| Symbol | Name | Beschreibung | Im Spiel |
-|--|--|--|--|
-| ![klein](Grafiken/Größe/klein.jpg) | klein | Alles kleiner als einschließlich 1m | 25mm Base und 3cm hoch. |
-| ![mittel](Grafiken/Größe/mittel.jpg) | mittel | Alles zwischen 1m und 3m. | 25mm Base und 6cm hoch |
-| ![groß](Grafiken/Größe/groß.jpg) | groß | Alles höher als einschließlich 3m. | 40mm Base und 8cm hoch |
+| Symbol | Name | Beschreibung | Base | Höhe |
+|--|--|--|--|--|
+| ![klein](Grafiken/Größe/klein.svg){width=40pt} | klein | Alles kleiner als einschließlich 1m | 25mm | 2,5cm |
+| ![mittel](Grafiken/Größe/mittel.svg){width=40pt} | mittel | Alles zwischen 1m und 2,5m. | 25mm | 4cm |
+| ![groß](Grafiken/Größe/groß.svg){width=40pt} | groß | Alles zwischen 2,5m und 3,5m. | 40mm | 6cm |
+| ![riesig](Grafiken/Größe/riesig.svg){width=40pt} | riesig | Alles höher als einschließlich 3,5m. | 50mm | 8cm |
+
+Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
+Dieses *Größenprofil* eines Modell ist somit eher abstrakt.
+
+Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Gliedmassen etc. für bspw. Sichtlinien keine Rolle mehr spielen.
 
 ### Sichtfeld
 
@@ -147,6 +153,12 @@ Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
 ![Sichtfeld](Grafiken/Abbildungen/sichtfeld.svg){.img_border} {align="center"}
 
 *Übersicht der 4 verschiedenen Sichtfelder (der Pfeil stellt die Blickrichtung des Modells dar)* {align="center"}
+
+### Sichtlinie
+
+Eine Sichtlinie ist immer dann gegeben wenn sich das andere Modell im Sichtfeld befindet und zusätzlich ein Teil seines Größenprofils sichtbar ist.
+
+Befreundete Modelle behindern nicht die Sichtlinie.
 
 ### Tragkraft
 
@@ -946,8 +958,7 @@ Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffene Trefferzone ausgewü
 
 ### Auswahl eines Ziels
 
-Damit ein Ziel beschossen werden kann, muss es sich im Sichtfeld des Modells befinden und mindestens eine Extremität vollständig sichtbar sein.
-Befreundete Modelle behindern dabei nicht die Sichtlinie.
+Damit ein Ziel beschossen werden kann muss eine Sichtlinie zu ihm gezogen werden können.
 
 Sollte sich im Gefahrenbereich kein direkter Kontrahent befinden, welcher bekämpft werden muss, kann das Ziel frei gewählt werden (siehe Seite TODO).
 
@@ -1010,6 +1021,7 @@ Bei Beschuss erhält der Schütze einen Malus von -1 auf seinen Fernkampfwurf.
 |--|--|
 |kleines Ziel|-1|
 |großes Ziel|+1|
+|riesiges Ziel|+2|
 
 #### Schwerfällige Waffen
 
@@ -1154,13 +1166,13 @@ Infanterie, MIKe und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf k�
 
 Der Schadenstyp ist dabei immer Schlag (Stufe 1 bei Infanterie und Stufe 2 bei MIKe und Kolossen) und die Stärke entspricht der Konstitution.
 
-!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer Stufe 1, groß immer Stufe 2?
+!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer Stufe 1, groß immer Stufe 2, riesig immer Stufe 3?
 
 Der Substanzverlust liegt bei KO geteilt durch 3 (gerundet).
 
 Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei MIKe und Kolossen als Klasse II.
 
-!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer WK1, groß immer WK2?
+!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer WK1, groß immer WK2, riesig immer WK3?
 
 !!! example Beispiel
 
@@ -1282,12 +1294,16 @@ TODO Bild einfügen
 
 ## MIKe
 
+TODO Kolosse und MIKe unter einen Hut bringen
+TODO MIKe ziehen bei Schusswaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
+TODO Kolosse ziehen bei Nahkampfwaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
+
 „MIKe“ steht für „**M**echanisierte **I**nfanterie **K**ampf**e**inheit“.
 
 Es sind moderne Hybridwaffensysteme mit der Beweglichkeit eines servounterstützten Panzeranzugs und dem Schutz, sowie Feuerkraft, eines Panzers.
 In der Regel haben MIKe eine Größe von 4 bis 6 Meter und fangen bei einem Gewicht von 1,5 Tonnen an.
 
-Große Kreaturen werden regeltechnisch wie MIKe behandelt.
+TODO Große Kreaturen werden regeltechnisch wie MIKe behandelt.
 
 ### Geländeausnutzung
 
