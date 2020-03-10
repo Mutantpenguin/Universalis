@@ -12,6 +12,7 @@ h2
 table
 {
     width: 100%;
+    page-break-inside:avoid;
 }
 
 .img_border
