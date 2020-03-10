@@ -67,13 +67,13 @@ Modelle werden dabei in Infanterie, MIKe, Koloss und Fahrzeuge unterschieden.
 
 ### Einsatzgruppen
 
-Eine Einsatzgruppe wird immer für genau eine Fraktion  ufgestellt und besteht aus 2 oder mehr Modellen.
+Eine Einsatzgruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr Modellen.
 
-Jeder Spieler verfügt über maximal 1 Einsatzgruppe, wobei jede  Einsatzgruppe über genau 1 Gruppenführer verfügen muss.
+Jeder Spieler verfügt über genau 1 Einsatzgruppe die genau 1 Gruppenführer beinhalten muss.
 
 ### Gruppenführer
 
-Ein Modell jeder Gruppe muss der Gruppenführer sein.
+Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
 
 Der Gruppenführer einer Einsatzgruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und Reihenfolge innerhalb einer Runde zu bestimmen (siehe Seite TODO).
 
@@ -300,12 +300,6 @@ Modelle mit Schock-Markern verlieren danach automatisch pro Marker 1 AP (siehe S
 #### Reihenfolge innerhalb der Runde
 
 TODO
-
-#### Optional Expertenregeln (@Reihenfolge)
-
-Nach dem Ermitteln der Reihenfolge innerhalb einer Runde kann jedes Modell seine AGI um 1 erhöhen oder senken, indem es 1AP dafür ausgibt.
-
-Hier kann auch die Eigenschaft eines Gruppenführers zum Einsatz kommen. Die Modifizierungen sind kumulativ.
 
 #### Rundenende
 
