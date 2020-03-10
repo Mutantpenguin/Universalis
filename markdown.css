@@ -20,3 +20,8 @@ table
     padding: 15px;
     border: 1px solid;
  }
+
+ .admonition
+ {
+    page-break-inside:avoid;
+ }
