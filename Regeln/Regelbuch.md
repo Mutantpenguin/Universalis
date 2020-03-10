@@ -73,11 +73,11 @@ Jeder Spieler verfügt über maximal 1 Einsatzgruppe, wobei jede  Einsatzgruppe 
 
 ### Gruppenführer
 
-Ein Modell wird zu einem Gruppenführer, sobald es die Eigenschaft „Gruppenführer“ erhält.
+Ein Modell jeder Gruppe muss der Gruppenführer sein.
 
-Der Gruppenführer einer Einsatzgruppe wird unter anderem dafür benötigt die Zugreihenfolge innerhalb einer Runde zu bestimmen (siehe Seite TODO).
+Der Gruppenführer einer Einsatzgruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und Reihenfolge innerhalb einer Runde zu bestimmen (siehe Seite TODO).
 
-Jede Fraktion hat ihre eigene Stellvertreterregelung.
+Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie ein Stellvertreter bestimmt wird.
 
 ### Einheitenkarte
 
