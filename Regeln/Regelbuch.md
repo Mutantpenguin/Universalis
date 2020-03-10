@@ -1325,23 +1325,40 @@ Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind 
 Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
 
 Trefferpunkte werden nur für den Rumpf festgelegt.
-Für Beine und Arme berechnet sich der Wert automatisch mit 2/3 des Rumpfes (aufgerundet).
+Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
 
 #### Kritischer Zustand
 
-|Zone|Auswirkung|
-|---|---|
-|Rumpf|Wie bei Infanterie.|
-|Arme|Im Fernkampf -1 auf den Fernkampfwurf für die Waffe im entsprechenden Arm. Im Nahkampf -1 auf den Nahkampfwurf für jeden Arm im kritischen Zustand.|
-|Beine|Halbierte BW. Wird vor dem eventuellen kritischen Zustand des Rumpfes angewendet.|
+- **Rumpf**
+
+    Wie bei Infanterie. Siehe Seite TODO.
+
+- **Arme**
+
+    Im Fernkampf -1 auf den Fernkampfwurf für die Waffe im entsprechenden Arm.
+    Im Nahkampf -1 auf den Nahkampfwurf für jeden Arm im kritischen Zustand.
+
+- **Beine**
+
+    Halbierte BW. Wird vor dem eventuellen kritischen Zustand des Rumpfes angewendet.
 
 #### Verlust aller Trefferpunkte
 
-|Zone|Auswirkung|
-|---|---|
-|Rumpf|Bei einem misslungenen KO-Wurf detoniert er (siehe weiter unten), ansonsten sinkt er in sich zusammen und gilt als zerstört und irreparabel.|
-|Arme|Der Arm wird zerstört und die eingebaute Waffe kann nicht mehr verwendet werden. Außerdem wird die AGI um 1 verringert.|
-|Beine|TODO|
+- **Rumpf**
+
+    Bei einem misslungenen KO-Wurf detoniert er (siehe weiter unten), ansonsten sinkt er in sich zusammen und gilt als zerstört und irreparabel.
+
+- **Arme**
+
+    Der Arm wird zerstört und die eingebaute Waffe kann nicht mehr verwendet werden. Außerdem wird die AGI um 1 verringert.
+
+- **Beine**
+
+    |W12|Auswirkung|
+    |--|--|
+    |1-6|Sie bleibt auf der Stelle stehen und kann sich noch drehen.|
+    |7-11|Sie bleibt auf der Stelle stehen und kann sich nicht mehr drehen.|
+    |12|Fällt um und gilt als ausgeschalten.|
 
 ### Detonation
 
