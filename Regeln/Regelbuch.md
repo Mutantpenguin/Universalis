@@ -36,16 +36,21 @@ TODO
 
 ### Was braucht man
 
+Ein Tisch mit einer Größe von mindestens 90cm * 90cm.
+
 Ein Maßband mit Markierungen in cm.
 
 ![Maßband](Grafiken/Abbildungen/maßband.svg){width="200pt"} {align="center"}
 
-Einen W12 und pro Miniatur jeweils einen weißen und einen roten W6.
+Einen W12 und pro Modell jeweils einen weißen und einen roten W6.
 
 ![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"}![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
-Des weiteren werden einfarbige Tokens
-benötigt.
+Des weiteren werden Tokens für die folgenden Status benötigt:
+
+|Symbol|Bedeutung|
+|--|--|
+|TODO|TODO|
 
 ### Fraktion
 
@@ -249,16 +254,16 @@ Der Wurf wird mit 1W12 durchgeführt. Sofern das Ergebnis unter/gleich dem Wert 
 Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
 
 Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
-Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addieren Wert je nach Situation noch zusätzlich variieren.
+Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
 
-Die Differenz der gewürfelten Ergebnisse gibt in Abhängigkeit von der Situation an was passiert.
+Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
 ## Ablauf des Spiels
 
 Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
-1. Missionsauswahl
-2. Aufbau des Spielfelds
+1. Aufbau des Spielfelds
+2. Missionsauswahl
 3. Aufstellen der Modelle
 4. Runden
     - Initiativephasen
@@ -266,29 +271,28 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
 Das Spiel ist in Runden und Initiative-Phasen unterteilt.
 
-### Missionsauswahl
-
-Die Spieler einigen sich auf eine zu spielende Mission (siehe Seite TODO).
-
-Sie hat unter anderem Auswirkungen auf den Aufbau des Spielfeldes, das Aufstellen der Modelle und die Siegesbedingungen.
-
-Das Spiel endet immer, wenn einer der Spieler aufgibt.
-
 ### Aufbau des Spielfeldes
 
-Das Spielfeld wird entsprechend der ausgewählten Mission aufgebaut und die Aufstellungszonen markiert.
+Beide Spieler bauen gemeinsam das Spielfeld auf bis sie damit einverstanden sind.
+
+### Missionsauswahl
+
+Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus. Danach teilen sie sie sich gegenseitig mit.
+
+Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenommen.
 
 ### Aufstellen der Modelle
 
+Beide Spieler führen einen vergleichenden Wurf durch wobei jeweils die AGI des Grupenführers addiert wird.
+
+Der Gewinner markiert entsprechend seiner Mission seine Aufstellungszone, danach ist der andere Spieler damit dran.
+Danach stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
+
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
-
-#### Reihenfolge beim Aufstellen
-
-TODO
 
 ### Runden
 
-Innerhalb einer Runde hat jedes Modell seine Initiative-Phase. Die Runde ist erst dann beendet, wenn jedes Modell seine Initiative-Phase durchgeführt hat.
+Innerhalb einer Runde hat jedes Modell eine Initiative-Phase. Die Runde ist erst dann beendet, wenn jedes Modell seine Initiative-Phase durchgeführt hat.
 
 #### Rundenbeginn
 
@@ -299,11 +303,12 @@ Modelle mit Schock-Markern verlieren danach automatisch pro Marker 1 AP (siehe S
 
 #### Reihenfolge innerhalb der Runde
 
-TODO
+Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
 
-#### Rundenende
+Beide Modelle führen einen vergleichenden Wurf durch wobei jeweils die AGI addiert wird.
+Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
 
-Am Ende einer Runde werden die nicht verbrauchten AP halbiert (abgerundet) und mit in die nächste Runde übernommen.
+Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modelle in beliebiger Reihenfolge.
 
 ### Initiative-Phase
 
@@ -313,20 +318,19 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiative-Phase ha
 
 Zum Beginn der Initiativephase eines Modells, wird ein eventueller Marker für schnelle Bewegung entfernt (siehe Seite TODO).
 
+### Rundenende
+
+TODO Die Siegesbedingungen der Missionen werden überprüft.
+
+TODO Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür. Das Spiel endet dann.
+
+Am Ende einer Runde werden die nicht verbrauchten AP halbiert (abgerundet) und mit in die nächste Runde übernommen.
+
 #### Direkter Kontrahent im Gefahrenbereich
 
 Wenn es im Gefahrenbereich eines Modells einen direkten Kontrahenten gibt stellt er eine potenzielle und direkte Bedrohung für Leib und Leben dar welche normalerweise ausgeschaltet werden muss.
 Möchte das Modell diese Bedrohung ignorieren, muss es dafür einen EH-Test bestehen.
 Misslingt dieser Test muss ein Angriff gegen den direkten Kontrahenten erfolgen.
-
-### Optionale Reihenfolge
-
-Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
-
-Für beide Modelle wird jeweils 1W12 gewürfelt und die AGI addiert.
-Das Modell mit dem höheren Ergebnis ist zuerst dran, danach direkt das andere.
-
-Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modell in beliebiger Reihenfolge.
 
 ## Aktionen und Reaktionen
 
