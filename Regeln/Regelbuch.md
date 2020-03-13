@@ -503,7 +503,8 @@ Sie kommt unter anderem beim Fernkampf zur Anwendung (siehe Seite TODO).
 
 ### Liegende Modelle
 
-Liegende Modelle gelten als „klein“ (siehe Seite TODO).
+Liegende Modelle gelten als eine Größenstufe kleiner als sie sind.
+Kleine Modelle werden dadurch nicht noch kleiner.
 
 Das Sichtfeld liegender Modelle ist um eine Stufe verschlechtert (siehe Seite TODO).
 
@@ -1015,23 +1016,26 @@ Wenn das beschossene Modell die Deckung berührt, erhält es einen Bonus von +2 
 
 Es können nur aufgeklärte getarnte Modelle beschossen werden (siehe Seite TODO).
 
-#### Aktive Tarnung des Ziels
-
-Bei Beschuss erhält der Schütze einen Malus von -1 auf seinen Fernkampfwurf.
-
 ### Fernkampf-Modifikatoren
 
 #### Größe des Ziels
 
 |Typ|Modifikator|
-|--|--|
+|:--:|:--:|
 |kleines Ziel|-1|
 |großes Ziel|+1|
 |riesiges Ziel|+2|
 
+#### Deckung
+
+|Stufe|Modifikator|
+|:--:|:--:|
+|I|-1|
+|II|-2|
+
 #### Schwerfällige Waffen
 
-Sie erhalten bei Beschuss von Infanterie (mittlere/kleine Ziele und liegende Modelle) einen Malus von -2 auf den Fernkampfwurf.
+Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -2 auf den Fernkampfwurf.
 
 #### Liegender Schütze
 
