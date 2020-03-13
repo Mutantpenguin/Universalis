@@ -627,54 +627,70 @@ Jede landgestüzte Bewegung ist erschwert.
 
 ### Geländeräume
 
-Räumlich begrenzte Abschnitte in einer Geländekategorie welche Sonderregeln unterliegen.
+Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche Sonderregeln unterliegen.
 
-#### Sumpf
+So brauchen bspw. keine einzelnen Bäume (mit allen ihren Nachteilen) als Wald aufgestellt werden. Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
 
-Passierbarkeit 2
+!!! summary Sumpf
 
-#### Krater
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|-|
 
-Passierbarkeit 2
+!!! summary Krater
 
-Bietet immer Deckung I gegen Beschuss von außerhalb.
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|Stufe I gegen Beschuss von außerhalb|
 
-#### Wald
+!!! summary Wald
 
-Passierbarkeit 1
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |1|Stufe I|
 
-#### Dichter Wald
+!!! summary Dichter Wald
 
-Passierbarkeit 2
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|Stufe II|
 
-Bietet immer Deckung I.
+    Der Wahrnehmungsbereich aller Modelle wird halbiert.
 
-Bietet immer Deckung II gegen Beschuss von außerhalb.
+!!! summary Dickicht
 
-Wahrnehmungsbereich wird halbiert.
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |1|-|
 
-#### Dickicht
+!!! summary Gebäude
 
-Passierbarkeit 1
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |-|Stufe I|
 
-WN wird bei Tests um 1 verringert.
+!!! summary Ruine
 
-#### Gebäude
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |1|Stufe I|
 
-Passierbarkeit 1
-
-Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
-
-#### Ruine
-
-Passierbarkeit 2
-
-Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
-
-Bewegungstest muss durchgeführt werden!
-
-Bei Misslingen fällt das Modell und gilt als liegend.
-Bei liegender Fortbewegung gibt es keine Nachteile.
+    Wenn ein stehendes Modell sich bewegt muss ein Bewegungstest durchgeführt werden.
+    Bei Misslingen stürzt das Modell und gilt als liegend.
 
 ## Schaden & Verteidigung
 
