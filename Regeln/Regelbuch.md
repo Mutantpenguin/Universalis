@@ -49,9 +49,12 @@ Einen W12 und pro Modell jeweils einen weißen und einen roten W6.
 Des weiteren werden Marker für die folgenden Status benötigt:
 
 |Symbol|Bedeutung|
-|--|--|
+|:--:|--|
 |![schnell](Grafiken/Marker/schnell.png){width="40pt"}|[Schnelle Bewegung](#schnelle%20bewegungen)|
 |![schock](Grafiken/Marker/schock.png){width="40pt"}|[Schock](#schock)|
+|![liegen](Grafiken/Marker/liegen.png){width="40pt"}|[Liegen](#liegende%20modelle)|
+|![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.png){width="40pt"}|[Feuerbereitschaft](#feuerbereitschaft)|
+|![abwehrhaltung](Grafiken/Marker/abwehrhaltung.png){width="40pt"}|[Abwehrhaltung](#abwehrhaltung)|
 
 ### Fraktion
 
