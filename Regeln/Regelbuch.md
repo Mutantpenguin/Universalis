@@ -760,6 +760,8 @@ Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
 
 Der weiße W6 für die Anzeige der Aktionspunkte wird für das Modell gegen einen roten W6 ausgetauscht.
 
+TODO KO-Wurf um AP-Verlust zu verhindern?
+
 Das Modell verliert sofort 2 AP, erhält einen Malus von -1 auf alle seine Attribute und halbiert den Wahrnehmungsbereich (aufgerundet).
 
 Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
@@ -1085,7 +1087,7 @@ Wenn das getroffene Modell Deckung der Stufe II berührt, kommt diese voll zur G
 TODO Kleiner Einleitungstext was Nahkampf ist
 blah blah yadda yadda
 
-Um einen Nahkampf auszuführen, muss die Base des Modells die Base des anzugreifenden Modells berühren.
+Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
 ### Nahkampfwurf
 
