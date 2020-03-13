@@ -536,9 +536,28 @@ Geländearten
 
 Boni und Mali
 
+### Deckung
+
+Jedes Objekt kann als Deckung verwendet werden wenn es das Modell mindestens zur Hälfte verdeckt.
+
+Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
+
+#### Stufe I Deckung
+
+Besteht aus Holz, Plastik, Blech oder auch einer Ziegelmauer.
+Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
+
+Dazu zählen auch befreundete größere Modelle.
+
+#### Stufe II Deckung
+
+Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
+
+Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Verteidigungswürfe bei Fernkampf.
+
 ### Geländekategorien
 
-Gilt für das gesamte Spielfeld
+Gelten für das gesamte Spielfeld
 
 TODO
 
@@ -988,29 +1007,6 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
     Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 60cm
     
     Der Fernkampfwurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
-
-### Deckung
-
-Ein Gelände-Objekt kann als Deckung verwendet werden wenn es das Modell mindestens zur Hälfte verdeckt.
-
-Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
-
-#### Stufe I Deckung
-
-Besteht aus Holz, Plastik, Blech oder auch einer Ziegelmauer.
-Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
-
-Dazu zählen auch befreundete größere Modelle.
-
-Der Schütze erhält einen Malus von -1 auf seinen Fernkampfwurf.
-
-#### Stufe II Deckung
-
-Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zu direkten Abwehr von Beschuss geeignet.
-
-Der Schütze erhält einen Malus von -2 auf seinen Fernkampfwurf.
-
-Wenn das beschossene Modell die Deckung berührt, erhält es einen Bonus von +2 auf seinen Verteidigungswurf.
 
 ### Beschuss von getarnten Modellen
 
