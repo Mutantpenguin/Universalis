@@ -46,11 +46,12 @@ Einen W12 und pro Modell jeweils einen weißen und einen roten W6.
 
 ![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"}![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
-Des weiteren werden Tokens für die folgenden Status benötigt:
+Des weiteren werden Marker für die folgenden Status benötigt:
 
 |Symbol|Bedeutung|
 |--|--|
-|TODO|TODO|
+|![schnell](Grafiken/Marker/schnell.png){width="40pt"}|[Schnelle Bewegung](#schnelle%20bewegungen)|
+|![schock](Grafiken/Marker/schock.png){width="40pt"}|[Schock](#schock)|
 
 ### Fraktion
 
@@ -487,11 +488,9 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 20cm bewegt, gilt es als in schneller Bewegung.
 Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
-Sie wird am Modell mit folgendem Marker dargestellt:
+Sie wird am Modell mit dem Schnell-Marker dargestellt.
 
-![schnell](Grafiken/Bewegung/schnell.png){width="40pt"} {align="center"}
-
-Zum Beginn der Initiativephase eines Modells, wird der Marker entfernt.
+Zum Beginn der nächsten Initiativephase eines Modells wird der Marker wieder entfernt.
 
 Sie kommt unter anderem beim Fernkampf zur Anwendung (siehe Seite TODO).
 
