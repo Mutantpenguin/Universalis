@@ -310,7 +310,7 @@ Modelle mit Schock-Markern verlieren danach automatisch pro Marker 1 AP (siehe S
 
 Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
 
-Beide Modelle führen einen vergleichenden Wurf durch wobei jeweils die AGI addiert wird.
+Beide Modelle führen einen vergleichenden Wurf auf AGI durch.
 Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
 
 Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modelle in beliebiger Reihenfolge.
@@ -341,13 +341,17 @@ Misslingt dieser Test muss ein Angriff gegen den direkten Kontrahenten erfolgen.
 
 Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
 
-Der Einsatz einer Aktion oder Reaktion verbraucht Aktionspunkte.
-
 Ein Modell kann in jeder Runde nur so viele Aktionen und Reaktionen ausführen, bis seine Aktionspunkte verbraucht sind.
 Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten angegeben.
 
-Sie können von jedem Modell durchgeführt werden, vorausgesetzt es verfügt über die nötigen Voraussetzungen (bspw. „Hände“ um eine Waffe abzufeuern etc.).
+### Typen
+
+Es wird hierbei zwischen *normalen* und *komplexen* Aktionen und Reaktionen unterschieden.
+
+*Normale* können von jedem Modell durchgeführt werden, vorausgesetzt es verfügt über die nötigen Voraussetzungen (bspw. „Hände“ um eine Waffe abzufeuern etc.).
 Hier ist der gesunde Menschenverstand gefragt!
+
+*Komplexe* müssen erlernt werden und können bspw. durch Ausrüstung oder Eigenschaften ermöglicht werden.
 
 ### Aktionen
 
@@ -369,9 +373,8 @@ Damit auf eine Aktion reagiert werden kann, muss diese im Wahrnehmungsbereich (s
 
 Es kann versucht werden eine Aktion zu unterbrechen bevor sie durchgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
 
-Damit dieser Versuch erfolgreich ist, muss das reagierende Modell einen vergleichenden AGI-Erfolgswurf gegen das aktuelle Modell gewinnen.
-Das Modell dessen Initiative-Phase gerade läuft erhält dabei einen Bonus von 1W12 auf seinen Basis-W12, das andere Modell würfelt nur mit seinem Basis-W12.
-Bei einem Gleichstand gewinnt dieses Modell.
+Damit dieser Versuch erfolgreich ist, muss das reagierende Modell einen vergleichenden Wurf auf AGI gegen das aktuelle Modell gewinnen.
+Bei einem Gleichstand gewinnt das Modell dessen Initiative-Phase gerade läuft.
 
 Der Gewinner führt als Erster seine Aktion/Reaktion durch, der Verlierer danach seine.
 
@@ -387,7 +390,7 @@ Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 |Nahkampf|TODO|
 |Aufklären|TODO|
 |Ausrüstung verwenden|TODO|
-|TSE-Einsatz|TODO|
+|Tarnung|TODO|
 
 ## Eigenschaften
 
@@ -405,7 +408,7 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
     Ein normaler Mensch erhält die Eigenschaft „Fernkampf II“.
     
-    In ihr ist beschrieben, dass das Modell beim Fernkampf 2 Bonus-W12 erhält und somit den Erfolgswurf mit 3W12 durchführt.
+    TODO In ihr ist beschrieben, dass das Modell beim Fernkampf 2 Bonus-W12 erhält und somit den Erfolgswurf mit 3W12 durchführt.
 
 ## Bewegung
 
@@ -463,18 +466,6 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
 ### Reaktionen: Bewegung
 
-!!! warning Beschuss Ausweichen - 1 ⊙
-
-    !!! note ""
-
-        Bedingung:
-        
-        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
-        
-        Nicht bei liegenden Modellen.
-    
-    Der Schütze erhält -1 auf seinen Fernkampfwurf.
-
 !!! warning Hinwerfen - 2 ⊙
 
     !!! note ""
@@ -486,6 +477,18 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
         Nicht bei liegenden Modellen.
     
     Das Modell wirft sich zu Boden und gilt als liegend.
+
+!!! warning Komplex: Beschuss Ausweichen - 1 ⊙
+
+    !!! note ""
+
+        Bedingung:
+        
+        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
+        
+        Nicht bei liegenden Modellen.
+    
+    Der Schütze erhält -1 auf seinen Fernkampfwurf.
 
 ### Schnelle Bewegungen
 
@@ -711,8 +714,8 @@ Diese Symbole sind auf der Einheitenkarte zu finden.
 ### Schaden
 
 Beide Spieler führen einen vergleichenden Wurf durch.
-Der Angreifer addiert die Stärke seiner Waffe, dies wird auch Schadenswurf genannt.
-Der Verteider addiert den Schutz seiner Rüstung, dies wird auch Verteidigungswurf genannt.
+Der Angreifer addiert die Stärke seiner Waffe, dies wird auch *Schadenswurf* genannt.
+Der Verteider addiert den Schutz seiner Rüstung, dies wird auch *Verteidigungswurf* genannt.
 
 Hierbei müssen auch alle Effekte angewendet werden.
 
@@ -915,17 +918,6 @@ Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffene Trefferzone ausgewü
 
     Das Modell führt einen normalen Fernkampfwurf aus.
 
-!!! danger Gezielter Schuss - WK+2 ⊙
-
-    Das Modell erhält +1 für seinen Fernkampfwurf.
-    Außerdem werden für diesen Schuss die Reichweitenbänder verdoppelt.
-    
-    Er ist nicht in Kombination mit Autofeuer einsetzbar.
-
-!!! danger Schnellchuss - WK ⊙
-
-    Das Modell erhält -2 bei seinem Fernkampfwurf.
-
 !!! danger Feuerbereitschaft - 1 ⊙
 
     !!! note ""
@@ -933,7 +925,18 @@ Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffene Trefferzone ausgewü
         Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
         Jede weitere Aktion beendet die Feuerbereitschaft automatisch.
 
-    Das Modell befindet sich maximal bis zu seiner nächsten Initiativephase in Feuerbereitschaft.
+    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft. Es verliert sie dann automatisch.
+
+!!! danger Komplex: Gezielter Schuss - WK+2 ⊙
+
+    Das Modell erhält +1 für seinen Fernkampfwurf.
+    Außerdem werden für diesen Schuss die Reichweitenbänder verdoppelt.
+    
+    Er ist nicht in Kombination mit Autofeuer einsetzbar.
+
+!!! danger Komplex: Schnellschuss - WK ⊙
+
+    Das Modell erhält -2 bei seinem Fernkampfwurf.
 
 ### Reaktionen: Fernkampf
 
@@ -1094,7 +1097,7 @@ Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base 
 
 ### Nahkampfwurf
 
-Beide Spieler führen einen vergleichenden Wurf durch wobei jeweils die AGI addiert wird.
+Beide Spieler führen einen vergleichenden Wurf auf AGI durch.
 
 Sollte eines der Modelle über eine AGI von 0 verfügen gewinnt automatisch das Andere.
 
@@ -1120,20 +1123,20 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
     !!! TODO Beim Angriff ausserhalb des Sichtfeldes Trefferzone aussuchen?
 
-!!! danger Abwehrhaltung - 2 ⊙
+!!! danger Komplex: Abwehrhaltung - 2 ⊙
 
     !!! note ""
 
         Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
         Jede weitere Aktion beendet die Abwehrhaltung automatisch.
 
-    Das Modell befindet sich maximal bis zu seiner nächsten Initiativephase in Abwehrhaltung.
+    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Abwehrhaltung. Es verliert sie dann automatisch.
 
     Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung. Das Modell verliert danach automatisch seine Abwehrhaltung.
 
 ### Reaktionen: Nahkampf
 
-!!! warning Riposte - WK ⊙
+!!! warning Komplex: Riposte - WK ⊙
 
     !!! note ""
 
@@ -1147,7 +1150,7 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
 ### Bonus für den Angreifer
 
-Wenn der Angreifer den Angriff durch eine Angriffsbewegung (siehe Seite TODO) einleitet, erhält er Bonus von +1 auf den Nahkampfwurf.
+Wenn der Angreifer den Angriff durch eine Angriffsbewegung (siehe Seite TODO) einleitet, erhält er Bonus von +1 auf den Nahkampfwurf. Dies gilt nur wenn der Verteidiger sich nicht in der Abwehrhaltung befindet.
 
 Sollte der Angriff von außerhalb des Sichtfeldes (siehe Seite TODO) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 
@@ -1243,7 +1246,7 @@ Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werde
 
 ### Reaktion
 
-!!! warning Aufklärungsunterstützung - 2 ⊙
+!!! warning Komplex: Aufklärungsunterstützung - 2 ⊙
 
     Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
 
