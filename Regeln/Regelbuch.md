@@ -637,75 +637,67 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
     |:--:|:--:|
     |2|-|
 
-### Geländekategorien
+### Umgebungsbedingungen
 
-Gelten für das gesamte Spielfeld
+Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländeteilen unnötig zu erhöhen.
 
-TODO
+So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden. Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländertyp befindet.
 
-#### Urban / Industrie
+Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländetypen.
 
-TODO
+!!! summary Arktisch
 
-Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
+    TODO
 
-#### Ländlich
+    Auf Hitze basierende Waffen verlieren 1 Punkt ihrer Stärke und 1 Reichweitenband bis zu einem Minimum von 1.
 
-TODO
+    Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
 
-#### Wildnis
+!!! summary Gebäude
 
-TODO
+    Das gesamte Spielfeld ist der Innenraum eines Gebäudes.
 
-Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |0|Stufe I|
 
-#### Arktisch
+!!! summary Ländlich
 
-TODO
+    TODO
 
-Auf Hitze basierende Waffen verlieren 1 Punkt ihrer Stärke und 1 Reichweitenband bis zu einem Minimum von 1.
+!!! summary Mond
 
-Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
+    Projektilwaffen erhalten ein weiteres Reichweitenband.
 
-#### Tundra
+!!! summary Schwerelosigkeit
 
-TODO
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|-|
 
-WN wird bei Tests um 1 erhöht.
-Nicht der Wahrnehmungsbereich.
+    Projektilwaffen erhalten ein weiteres Reichweitenband.
 
-#### Mond
+!!! summary Urban
 
-TODO
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |0|Stufe I|
 
-Projektilwaffen erhalten ein weiteres Reichweitenband.
+    Der Zwischenraum zwischen Gebäuden wird regeltechnisch als vom Geländetyp Straße angesehen.
 
-#### Innenraum (OHK) NOCH UMBENENNEN
+!!! summary Wildnis
 
-TODO
+    TODO
 
-Alle Modelle haben an jedem Ort mindestens Deckung Stufe I.
+    Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
-#### Küste
+!!! summary Wüste
 
-TODO
+    TODO
 
-#### Raumkampf (Schwerelosigkeit)
+    WN wird bei Tests um 1 erhöht. Nicht der Wahrnehmungsbereich.
 
-TODO
-
-Nicht rückstoßgedämpfte Waffen machen Probleme.
-
-Projektilwaffen erhalten ein weiteres Reichweitenband.
-
-Waffen mit ballistischer Flugbahn habe Probleme.
-
-#### Wüste
-
-TODO
-WN wird bei Tests um 1 erhöht. Nicht der
-Wahrnehmungsbereich.
-Jede landgestüzte Bewegung ist erschwert.
+    Jede landgestüzte Bewegung ist erschwert.
 
 ## Schaden & Verteidigung
 
@@ -1042,6 +1034,10 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
 ### Beschuss von getarnten Modellen
 
 Es können nur aufgeklärte getarnte Modelle beschossen werden (siehe Seite TODO).
+
+### Indirektes Feuer
+
+TODO
 
 ### Fernkampf-Modifikatoren
 
