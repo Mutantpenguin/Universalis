@@ -345,9 +345,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="205.35158"
-     inkscape:cy="718.21833"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="289.50291"
+     inkscape:cy="721.69541"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2612,7 +2612,7 @@
     </g>
     <g
        id="g4669"
-       transform="translate(-438.22846,-108.92459)"
+       transform="translate(-438.22846,-86.42459)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2636,7 +2636,7 @@
     </g>
     <g
        id="g4734"
-       transform="translate(0,2.4266086)"
+       transform="translate(0,24.926609)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -4407,7 +4407,7 @@
     </g>
     <g
        id="g1682"
-       transform="translate(-129.65926,17.755405)"
+       transform="translate(-129.65926,40.255405)"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Marker\tarnung.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4435,16 +4435,9 @@
            id="tspan1565"
            sodipodi:role="line">?</tspan></text>
     </g>
-    <rect
-       y="384.30313"
-       x="323.28348"
-       height="35.433071"
-       width="35.433071"
-       id="rect1557-7"
-       style="fill:none" />
     <g
        id="g1689"
-       transform="translate(-78.488868,-17.67767)">
+       transform="translate(-78.488868,4.8223302)">
       <rect
          y="420.44684"
          x="277.75107"
@@ -4499,5 +4492,37 @@
        width="35.433071"
        id="rect1635"
        style="fill:none" />
+    <g
+       id="g1594"
+       transform="translate(1.2374369,2.1213204)"
+       inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Bewegung\stationär.png"
+       inkscape:export-xdpi="406.3996"
+       inkscape:export-ydpi="406.3996">
+      <rect
+         style="fill:none"
+         id="rect1558"
+         width="35.433071"
+         height="35.433071"
+         x="277.36801"
+         y="365.12524" />
+      <g
+         style="stroke-width:0.91977078"
+         transform="matrix(1.0872274,0,0,1.0872274,-25.739461,-33.394295)"
+         id="g1588">
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.54981375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1580"
+           cx="295.08453"
+           cy="382.84174"
+           r="14.18633" />
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.54981375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1584"
+           width="22.534903"
+           height="3.2703688"
+           x="283.81708"
+           y="381.20654" />
+      </g>
+    </g>
   </g>
 </svg>

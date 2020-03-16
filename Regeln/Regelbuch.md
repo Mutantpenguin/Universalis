@@ -510,9 +510,9 @@ Das Sichtfeld liegender Modelle ist um eine Stufe verschlechtert (siehe Seite TO
 
 ### Passierbarkeit
 
-Passierbarkeit ist eine Eigenschaft von Geländeräumen (siehe Seite TODO) und wird mit einer Stufe von 0 bis 2 angegeben.
+Passierbarkeit ist eine Eigenschaft von Geländetypen (siehe Seite TODO) und wird mit einer Stufe von 0 bis 2 angegeben.
 
-Die Kosten jeder Bewegungsaktion innerhalb eines Geländeraumes werden um die entsprechende Stufe erhöht.
+Die Kosten jeder Bewegungsaktion innerhalb eines Geländetyps werden um die entsprechende Stufe erhöht.
 
 Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Kosten um 1⊙ verringert.
 Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
@@ -522,11 +522,11 @@ Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nich
 |Symbol|Name|Bedeutung|
 |:--:|--|--|
 |![antigrav](Grafiken/Bewegung/antigrav.png){width="40pt"}|Antigrav| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
-|![fuss](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|TODO|
-|![flug](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|TODO Führt in jeder Runde als erste Aktion immer eine volle Bewegung in Blickrichtung aus.|
-|![kette](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|TODO Bewegungstests für Passierbarkeit dürfen wiederholt werden.|
-|![rad](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|TODO Schneller auf Straßen|
-|![stationär](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|TODO Ist halt stationär|
+|![fuss](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.|
+|![flug](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.|
+|![kette](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|Bewegungstests für Passierbarkeit dürfen einmal wiederholt werden.|
+|![rad](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
+|![stationär](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|Kann nicht bewegt werden.|
 
 ## Gelände
 
@@ -547,13 +547,95 @@ Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 Besteht aus Holz, Plastik, Blech oder auch einer Ziegelmauer.
 Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
 
-Dazu zählen auch befreundete größere Modelle.
+Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
 #### Stufe II Deckung
 
 Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
 
 Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Verteidigungswürfe bei Fernkampf.
+
+### Geländeteil
+
+Alle Objekte auf dem Spielfeld die kein Modell sind werden als Geländeteil bezeichnet.
+
+Ein Geländeteil kann dabei für sich allein stehen, oder fällt unter einen der nachfolgend genannten Geländetypen.
+
+### Geländetyp
+
+Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche Sonderregeln unterliegen.
+
+So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
+Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
+
+Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet. Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
+
+Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp befindet.
+
+!!! summary Dickicht
+
+    TODO Prosa
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |1|Stufe I|
+
+!!! summary Gebäude
+
+    Alle intakten Gebäude fallen unter diesen Geländetyp.
+
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |0|Stufe I|
+
+!!! summary Krater
+
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|Stufe I|
+
+    Die Deckung wikt nur gegen Beschuss außerhalb.
+
+!!! summary Ruine
+
+    Alle teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
+    
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |1|Stufe I|
+
+    Wenn ein stehendes Modell sich bewegt muss ein Bewegungstest durchgeführt werden.
+    Bei Misslingen stürzt das Modell und gilt als liegend.
+
+!!! summary Straße
+
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |0|-|
+
+!!! summary Sumpf
+
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|-|
+
+!!! summary Unpassierbar
+
+    Hier kann sich nichts am Boden darüber bewegen.
+
+!!! summary Wald
+
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|Stufe II|
+
+    Der Wahrnehmungsbereich aller Modelle wird halbiert.
+
+!!! summary Wasser
+
+    |Passierbarkeit|Deckung|
+    |:--:|:--:|
+    |2|-|
 
 ### Geländekategorien
 
@@ -624,73 +706,6 @@ TODO
 WN wird bei Tests um 1 erhöht. Nicht der
 Wahrnehmungsbereich.
 Jede landgestüzte Bewegung ist erschwert.
-
-### Geländeräume
-
-Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche Sonderregeln unterliegen.
-
-So brauchen bspw. keine einzelnen Bäume (mit allen ihren Nachteilen) als Wald aufgestellt werden. Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
-
-!!! summary Sumpf
-
-    TODO Prosa
-    
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|-|
-
-!!! summary Krater
-
-    TODO Prosa
-    
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|Stufe I gegen Beschuss von außerhalb|
-
-!!! summary Wald
-
-    TODO Prosa
-    
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |1|Stufe I|
-
-!!! summary Dichter Wald
-
-    TODO Prosa
-    
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|Stufe II|
-
-    Der Wahrnehmungsbereich aller Modelle wird halbiert.
-
-!!! summary Dickicht
-
-    TODO Prosa
-    
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |1|-|
-
-!!! summary Gebäude
-
-    TODO Prosa
-    
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |-|Stufe I|
-
-!!! summary Ruine
-
-    TODO Prosa
-    
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |1|Stufe I|
-
-    Wenn ein stehendes Modell sich bewegt muss ein Bewegungstest durchgeführt werden.
-    Bei Misslingen stürzt das Modell und gilt als liegend.
 
 ## Schaden & Verteidigung
 
@@ -1217,8 +1232,8 @@ Jede Tarnung verfügt über eine Stufe, welche die Effektivität der Tarnung wid
 
 |Typ|Voraussetzung|
 |:--:|--|
-|passiv|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem Geländeraum oder einem Geländeteil (welches mindestens über die gleichen Ausmaße wie das Modell verfügt) befindet.|
-|aktiv|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich in einem Geländeteil befinden oder nicht.|
+|passiv|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem Geländetyp oder einem Geländeteil (welches mindestens über die gleichen Ausmaße wie das Modell verfügt) befindet.|
+|aktiv|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem Geländeteil befinden oder nicht.|
 
 ### Vorteile von Tarnung
 
