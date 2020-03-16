@@ -11,15 +11,9 @@ puppeteer:
             left: 1cm
 ---
 
-# Realms - Regelbuch
+# Universalis - Regelbuch
 
 Regelbuch Version 0.0.1
-
-!!! info
-
-    © 2020 Markus Lobedann
-    
-    (soweit nicht ausdrücklich anders gekennzeichnet)
 
 ## Inhaltsverzeichnis
 
