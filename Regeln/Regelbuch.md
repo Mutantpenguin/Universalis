@@ -408,7 +408,7 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
     Ein normaler Mensch erhält die Eigenschaft „Fernkampf II“.
     
-    TODO In ihr ist beschrieben, dass das Modell beim Fernkampf 2 Bonus-W12 erhält und somit den Erfolgswurf mit 3W12 durchführt.
+    In ihr ist beschrieben, dass das Modell den Fernkampfwurf bis zu 2 mal wiederholen darf.
 
 ## Bewegung
 
