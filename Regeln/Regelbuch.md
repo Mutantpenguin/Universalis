@@ -117,7 +117,7 @@ Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen best
 |:--:|--|--|
 |AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. Nahkampf (Seite TODO) und Reaktionen (Seite TODO).|
 |BW|Bewegung|Gibt an, wie weit sich ein Modell bewegen kann. Siehe Bewegung (Seite TODO).|
-|KO|Konstitution|Drückt nicht nur aus wir stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. Schock (Seite TODO) und Tragkraft (Seite TODO).|
+|KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. Schock (Seite TODO) und Tragkraft (Seite TODO).|
 |FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe Fernkampf (Seite TODO).|
 |WN|Wahrnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. Wahrnehmungsbereich (Seite TODO), Tarnung (Seite TODO) und Bewegungstests (Seite TODO).|
 |EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. Gefahrenbereich (Seite TODO).|

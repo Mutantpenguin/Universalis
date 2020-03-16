@@ -1,7 +1,33 @@
 h1, h2, h3, h4
 {
-    font-weight: bold;
     font-family: "Nova Round";
+}
+
+h1
+{
+    color: white;
+    background-color: black;
+    padding-left:5pt;
+    padding-top:5pt;
+    padding-bottom:5pt;
+}
+
+h2
+{
+    color: white;
+    background-color: black;
+    padding-left:5pt;
+    padding-top:5pt;
+    padding-bottom:5pt;
+}
+
+h3
+{
+    color: white;
+    background-color: darkslategrey;
+    padding-left:5pt;
+    padding-top:5pt;
+    padding-bottom:5pt;
 }
 
 h2
