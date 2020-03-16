@@ -60,12 +60,12 @@ freiwillig, zu grundverschiedenen Bündnissen zusammengeschlossen.
 
 Jedes Modell verfügt über eine [Einheitenkarte](#einheitenkarte) und ist immer in einer [Einsatzgruppe](#einsatzgruppen) organisiert.
 
-Modelle werden dabei in Infanterie, MIKe, Koloss und Fahrzeuge unterschieden.
+Modelle werden dabei in Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
 
 | Symbol | Name | Beschreibung | [Größe](#größe) |
 |--|--|--|--|
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
-| ![MIKe](Grafiken/Modell/MIKe.svg){width="40pt"} | MIKe | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß bis riesig |
+| ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | Mech | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung sowie große Kreaturen. | groß bis riesig |
 | ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | TODO | groß bis riesig |
 | ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO | mittel bis riesig |
 
@@ -172,7 +172,7 @@ Diese Tragkraft errechnet sich für Infanterie über die Konstitution (KO) im Qu
 
 Tragkraft in kg = KO²{align="center"}
 
-Bei MIKe und Kolossen wird die Konstitution (KO) vor der Quadrierung verdoppelt (in Kilogramm):
+Bei Mechs und Kolossen wird die Konstitution (KO) vor der Quadrierung verdoppelt (in Kilogramm):
 
 Tragkraft in kg = (KO*2)²{align="center"}
 
@@ -1189,15 +1189,15 @@ Es können nur aufgeklärte Modelle angegriffen werden (siehe Seite TODO).
 
 ### Waffenloser Nahkampf
 
-Infanterie, MIKe und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
+Infanterie, Mechs und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
-Der Schadenstyp ist dabei immer Schlag (Stufe 1 bei Infanterie und Stufe 2 bei MIKe und Kolossen) und die Stärke entspricht der Konstitution.
+Der Schadenstyp ist dabei immer Schlag (Stufe 1 bei Infanterie und Stufe 2 bei Mechs und Kolossen) und die Stärke entspricht der Konstitution.
 
 !!! TODO stattdessen abhängig von der Größe? Klein und mittel immer Stufe 1, groß immer Stufe 2, riesig immer Stufe 3?
 
 Der Substanzverlust liegt bei KO geteilt durch 3 (gerundet).
 
-Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei MIKe und Kolossen als Klasse II.
+Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei Mechs und Kolossen als Klasse II.
 
 !!! TODO stattdessen abhängig von der Größe? Klein und mittel immer WK1, groß immer WK2, riesig immer WK3?
 
@@ -1311,35 +1311,33 @@ TODO
 
 TODO Bild einfügen
 
-## MIKe
+## Mechs
 
-TODO Kolosse und MIKe unter einen Hut bringen
-TODO MIKe ziehen bei Schusswaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
+TODO Kolosse und Mechs unter einen Hut bringen
+TODO Mechs ziehen bei Schusswaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
 TODO Kolosse ziehen bei Nahkampfwaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
 
-„MIKe“ steht für „**M**echanisierte **I**nfanterie **K**ampf**e**inheit“.
-
 Es sind moderne Hybridwaffensysteme mit der Beweglichkeit eines servounterstützten Panzeranzugs und dem Schutz, sowie Feuerkraft, eines Panzers.
-In der Regel haben MIKe eine Größe von 4 bis 6 Meter und fangen bei einem Gewicht von 1,5 Tonnen an.
+In der Regel haben Mechs eine Größe von 4 bis 6 Meter und fangen bei einem Gewicht von 1,5 Tonnen an.
 
-TODO Große Kreaturen werden regeltechnisch wie MIKe behandelt.
+TODO Große Kreaturen werden regeltechnisch wie Mechs behandelt.
 
 ### Geländeausnutzung
 
 Durch ihre enorme Beweglichkeit profitieren sie ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
 
-Aufgrund ihrer Größe können MIKe allerdings keine normal großen Türen benutzen und Gebäude normal betreten, sowie Fahrzeuge wie Infanterie benutzen.
+Aufgrund ihrer Größe können Mechs allerdings keine normal großen Türen benutzen und Gebäude normal betreten, sowie Fahrzeuge wie Infanterie benutzen.
 
 ### Trefferzonen
 
-MIKe werden in die Trefferzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
+Mechs werden in die Trefferzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
 
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
 Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind da.
 
 ![trefferzone](Grafiken/Abbildungen/trefferzonen.svg){.img_border} {align="center"}
 
-*Trefferzonen MIKe* {align="center"}
+*Trefferzonen Mechs* {align="center"}
 
 Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
 
@@ -1381,7 +1379,7 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 
 ### Detonation
 
-Sobald eine MIKe detoniert entsteht automatisch an diesem Ort eine Explosion die eine Fläche mit einem Radius in Höhe der KO umfasst.
+Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion die eine Fläche mit einem Radius in Höhe der KO umfasst.
 
 Der Schadenstyp ist dabei immer Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
 
@@ -1391,6 +1389,6 @@ Zusätzlich wirkt der Schadenseffekt „Explosiv“.
 
 !!! example Beispiel
 
-    Für eine MIKe mit einer KO von 6.
+    Für einen Mech mit einer KO von 6.
 
     ![detonation](Grafiken/Abbildungen/detonation.png)
