@@ -1191,15 +1191,15 @@ Es können nur aufgeklärte Modelle angegriffen werden (siehe Seite TODO).
 
 Infanterie, Mechs und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
-Der Schadenstyp ist dabei immer Schlag (Stufe 1 bei Infanterie und Stufe 2 bei Mechs und Kolossen) und die Stärke entspricht der Konstitution.
+Der Schadenstyp ist dabei immer Schlag und die Stärke entspricht der Konstitution.
+Der Verlust an Trefferpunkten berechnet sich durch die KO geteilt durch 3 (gerundet).
+Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe des Modells.
 
-!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer Stufe 1, groß immer Stufe 2, riesig immer Stufe 3?
-
-Der Substanzverlust liegt bei KO geteilt durch 3 (gerundet).
-
-Bei Infanterie wird dies als Waffe der Klasse I behandelt, bei Mechs und Kolossen als Klasse II.
-
-!!! TODO stattdessen abhängig von der Größe? Klein und mittel immer WK1, groß immer WK2, riesig immer WK3?
+|Größe des Modells|Stufe des Schadenstyp|Waffenklasse|
+|:--:|:--:|:--:|
+|klein bis mittel|1|I|
+|groß|2|II|
+|riesig|3|III|
 
 !!! example Beispiel
 
