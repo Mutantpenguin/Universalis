@@ -58,7 +58,7 @@ freiwillig, zu grundverschiedenen Bündnissen zusammengeschlossen.
 
 ### Modelle
 
-Jedes Modell verfügt über eine [Einheitenkarte](#einheitenkarte) und ist immer in einer [Einsatzgruppe](#einsatzgruppen) organisiert.
+Jedes Modell verfügt über eine [Einheitenkarte](#einheitenkarte) und ist immer in einer [Gruppe](#gruppen) organisiert.
 
 Modelle werden dabei in Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
 
@@ -69,17 +69,17 @@ Modelle werden dabei in Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
 | ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
 | ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
 
-### Einsatzgruppen
+### Gruppen
 
-Eine Einsatzgruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr Modellen.
+Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr Modellen.
 
-Jeder Spieler verfügt über genau 1 Einsatzgruppe die genau 1 Gruppenführer beinhalten muss.
+Jeder Spieler verfügt über genau 1 Gruppe die genau 1 Gruppenführer beinhalten muss.
 
 ### Gruppenführer
 
 Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
 
-Der Gruppenführer einer Einsatzgruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und Reihenfolge innerhalb einer Runde zu bestimmen (siehe Seite TODO).
+Der Gruppenführer einer Gruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und Reihenfolge innerhalb einer Runde zu bestimmen (siehe Seite TODO).
 
 Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie ein Stellvertreter bestimmt wird.
 
