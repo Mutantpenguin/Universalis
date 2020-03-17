@@ -239,6 +239,27 @@ Einzelne Regeln können davon abweichen und weisen im entsprechenden Fall eindeu
 
 ## Aufbau der Einheitenkarte
 
+![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg){.img_border} {align="center"}
+
+*Abbildung 5: Aufbau der Einheitenkarte* {align="center"}
+
+1. Fraktion (siehe Seite TODO)
+2. Trefferpunkte (siehe Seite TODO)
+3. Name des Modells
+4. Typ des Modells (siehe Seite TODO)
+5. Attribute (siehe Seite TODO)
+6. Outfit, also Ausstattungsvariante
+7. Punkte
+8. Gefahrenbereich (siehe Seite TODO)
+9. Warnehmungsbereich (siehe Seite TODO)
+10. Größe (siehe Seite TODO)
+11. Bewegungsart (siehe Seite TODO)
+12. Gesamtgewicht
+13. Schadenstypen (siehe Seite TODO)
+14. Verteidigungstypen (siehe Seite TODO)
+15. Schadenseffekte (siehe Seite TODO)
+16. Verteidigungseffekte (siehe Seite TODO)
+
 ## Würfelwürfe
 
 Es werden nur W12 verwendet.
