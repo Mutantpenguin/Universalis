@@ -832,7 +832,7 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 |![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|TODO Die Anzahl der W12 für den Verteidigungswurf wird um 1 verringert (bis zu einem Minimum von 1).|
 |![paralyse](Grafiken/Effekt/effekt_paralyse.png){width=40pt}|Paralyse|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
-|![rail](Grafiken/Effekt/effekt_rail.png){width=40pt}|Rail|TODO Beim Schadenswurf zählt jeder Erfolg doppelt, nicht jedoch für eine eventuelle Erhöhung des Substanzverlustes.|
+|![rail](Grafiken/Effekt/effekt_rail.png){width=40pt}|Rail|TODO Beim Schadenswurf zählt jeder Erfolg doppelt, nicht jedoch für eine eventuelle Erhöhung des Verlusts an Trefferpunkten.|
 |TODO|Schrapnell|TODO Bonus-W12 auf den Verteidigungswurf (die durch Deckung oder Tarnung zustande kommen) werden nicht angewendet.|
 |![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwemdet werden muss.|
 
