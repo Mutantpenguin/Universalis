@@ -189,16 +189,24 @@ Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 
 ### Gefahrenbereich
 
-Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren muss.
+Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren **muss**.
 Der Radius in Zentimetern berechnet sich indem die Entschlossenheit von 12 abgezogen wird:
 
 Radius in cm = 12 - EH{align="center"}
 
-Das gegnerische Modell, das sich innerhalb dieses Bereichs am nächsten zum eigenen Modell aufhält, wird „Direkter Kontrahent“ genannt. Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Kontrahenten.
-
 Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 
 ![gefahrenbereich](Grafiken/Modell/gefahrenbereich.png){width="40pt"} {align="center"}
+
+#### Direkte Bedrohung
+
+Ein gegnerische Modell, das sich innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „direkte Bedrohung" genannt.
+Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
+
+Sie können nicht einfach ignoriert und müssen stattdessen angegriffen werden.
+
+Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen EH-Test bestehen.
+Misslingt dieser Test muss ein Angriff gegen die direkten Bedrohung erfolgen.
 
 ### Wahrnehmungsbereich
 
@@ -324,12 +332,6 @@ TODO Die Siegesbedingungen der Missionen werden überprüft.
 TODO Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür. Das Spiel endet dann.
 
 Am Ende einer Runde werden die nicht verbrauchten AP halbiert (abgerundet) und mit in die nächste Runde übernommen.
-
-#### Direkter Kontrahent im Gefahrenbereich
-
-Wenn es im Gefahrenbereich eines Modells einen direkten Kontrahenten gibt stellt er eine potenzielle und direkte Bedrohung für Leib und Leben dar welche normalerweise ausgeschaltet werden muss.
-Möchte das Modell diese Bedrohung ignorieren, muss es dafür einen EH-Test bestehen.
-Misslingt dieser Test muss ein Angriff gegen den direkten Kontrahenten erfolgen.
 
 ## Aktionen und Reaktionen
 
@@ -1003,7 +1005,7 @@ Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffene Trefferzone ausgewü
 
 Damit ein Ziel beschossen werden kann muss eine Sichtlinie zu ihm gezogen werden können.
 
-Sollte sich im Gefahrenbereich kein direkter Kontrahent befinden, welcher bekämpft werden muss, kann das Ziel frei gewählt werden (siehe Seite TODO).
+Sollte sich im Gefahrenbereich keine direkte Bedrohung befinden, welche bekämpft werden muss, kann das Ziel frei gewählt werden (siehe Seite TODO).
 
 ### Reichweite
 
