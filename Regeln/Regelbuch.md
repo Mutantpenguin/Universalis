@@ -233,9 +233,7 @@ Entfernungen zwischen Modellen werden immer von den Rändern der Bases gemessen.
 
 *Entfernung zwischen 2 Modellen* {align="center"}
 
-Entfernungen dürfen nie im Voraus gemessen werden, sondern immer nur wenn die entsprechende Aktion bereits festgelegt wurde.
-
-Einzelne Regeln können davon abweichen und weisen im entsprechenden Fall eindeutig darauf hin.
+Entfernungen dürfen immer gemessen werden.
 
 ## Aufbau der Einheitenkarte
 
@@ -431,13 +429,11 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
 Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann das Modell entsprechend bewegt werden.
 
-Bei Reaktion kann auf jede Bewegungsaktion einzeln reagiert werden.
+Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden.
 
-Daher können mehrere Bewegungsaktionen zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
+Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
 
 Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
-
-Jede Bewegung bis auf die Angriffsbewegung darf im Voraus ausgemessen werden.
 
 ### Bewegungstest
 
@@ -506,6 +502,14 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
         Nicht bei liegenden Modellen.
     
     Der Schütze erhält -1 auf seinen Fernkampfwurf.
+
+### Fallen
+
+TODO
+
+## Klettern
+
+TODO
 
 ### Schnelle Bewegungen
 
