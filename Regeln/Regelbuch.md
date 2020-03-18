@@ -295,24 +295,23 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
     - Initiativephasen
 5. Bestimmung des Gewinners
 
-Das Spiel ist in Runden und Initiative-Phasen unterteilt.
-
 ### Aufbau des Spielfeldes
 
 Beide Spieler bauen gemeinsam das Spielfeld auf bis sie damit einverstanden sind.
 
 ### Missionsauswahl
 
-Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus. Danach teilen sie sie sich gegenseitig mit.
+Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus. Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
 
 Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenommen.
+Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftlich gelöst werden.
 
 ### Aufstellen der Modelle
 
 Beide Spieler führen einen vergleichenden Wurf durch wobei jeweils die AGI des Grupenführers addiert wird.
 
-Der Gewinner markiert entsprechend seiner Mission seine Aufstellungszone, danach ist der andere Spieler damit dran.
-Jetzt stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
+Der Gewinner des Wurfs markiert entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
+Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
 
@@ -346,11 +345,12 @@ Zum Beginn der Initiativephase eines Modells, wird ein eventueller Marker für [
 
 ### Rundenende
 
-TODO Die Siegesbedingungen der Missionen werden überprüft.
+Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür.
+Das Spiel endet dann automatisch sofort und der Spieler der aufgegeben hat hat verloren.
 
-TODO Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür. Das Spiel endet dann.
+Für jede Mission werden die Siegesbedingungen überprüft und das Spiel gegebenenfalls beendet.
 
-Am Ende einer Runde werden die nicht verbrauchten AP halbiert (abgerundet) und mit in die nächste Runde übernommen.
+Sollte es weitergehen werden die nicht verbrauchten AP jedes Modells halbiert (abgerundet) und mit in die nächste Runde übernommen.
 
 ## Aktionen und Reaktionen
 
