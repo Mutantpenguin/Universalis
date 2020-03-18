@@ -1334,81 +1334,88 @@ TODO
 
 TODO Bild einfügen
 
-## Mechs
+## Mechs & Kolosse
 
 TODO Kolosse und Mechs unter einen Hut bringen
 TODO Mechs ziehen bei Schusswaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
 TODO Kolosse ziehen bei Nahkampfwaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
 
+TODO werden nicht aus dem Spiel entfernt
+
+### Mech
+
 Es sind moderne Hybridwaffensysteme mit der Beweglichkeit eines servounterstützten Panzeranzugs und dem Schutz, sowie Feuerkraft, eines Panzers.
 In der Regel haben Mechs eine Größe von 4 bis 6 Meter und fangen bei einem Gewicht von 1,5 Tonnen an.
 
-TODO Große Kreaturen werden regeltechnisch wie Mechs behandelt.
+### Koloss
+
+Kolosse sind das Equivalent von Mechs im Bereich der Lebewesen.
+Große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
 
 ### Geländeausnutzung
 
-Durch ihre enorme Beweglichkeit profitieren sie ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
+Durch ihre enorme Beweglichkeit profitieren Mechs & Kolosse ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
 
-Aufgrund ihrer Größe können Mechs allerdings keine normal großen Türen benutzen und Gebäude normal betreten, sowie Fahrzeuge wie Infanterie benutzen.
+Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen und Gebäude normal betreten, sowie Fahrzeuge wie Infanterie benutzen.
 
 ### Trefferzonen
 
-Mechs werden in die Trefferzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
+Mechs & Kolosse werden in die Trefferzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
 
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
 Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind da.
 
 ![trefferzone](Grafiken/Abbildungen/trefferzonen.svg){.img_border} {align="center"}
 
-*Trefferzonen Mechs* {align="center"}
+*Trefferzonen Mechs & Kolosse* {align="center"}
 
 Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
 
 Trefferpunkte werden nur für den Rumpf festgelegt.
 Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
 
-#### Kritischer Zustand
+#### Kritischer Zustand bei Mechs & Kolossen
 
 - **Rumpf**
 
-    Wie bei Infanterie. Siehe Seite TODO.
+    Wie bei Infanterie. Siehe [Kritischer Zustand](#kritischer-zustand).
 
 - **Arme**
 
-    Im Fernkampf -1 auf den Fernkampfwurf für die Waffe im entsprechenden Arm.
-    Im Nahkampf -1 auf den Nahkampfwurf für jeden Arm im kritischen Zustand.
+    Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jeden Arm im kritischen Zustand.
 
 - **Beine**
 
-    Halbierte BW. Wird vor dem eventuellen kritischen Zustand des Rumpfes angewendet.
+    Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.
 
 #### Verlust aller Trefferpunkte
 
 - **Rumpf**
 
-    Bei einem misslungenen KO-Wurf detoniert er (siehe weiter unten), ansonsten sinkt er in sich zusammen und gilt als zerstört und irreparabel.
+    Sinkt in sich zusammen und gilt als ausgeschalten.
+
+    Für Mechs muss nun ein KO-Wurf durchgeführt werden. Falls er misslingt [detoniert](#detonation) er.
 
 - **Arme**
 
-    Der Arm wird zerstört und die eingebaute Waffe kann nicht mehr verwendet werden. Außerdem wird die AGI um 1 verringert.
+    Der Arm wird zerstört und die Waffe kann nicht mehr verwendet werden. Außerdem wird die AGI um 1 verringert.
 
 - **Beine**
 
     |W12|Auswirkung|
     |--|--|
-    |1-6|Sie bleibt auf der Stelle stehen und kann sich noch drehen.|
-    |7-11|Sie bleibt auf der Stelle stehen und kann sich nicht mehr drehen.|
+    |1-6|Bleibt auf der Stelle stehen und kann sich noch drehen.|
+    |7-11|Bleibt auf der Stelle stehen und kann sich **nicht** mehr drehen.|
     |12|Fällt um und gilt als ausgeschalten.|
 
 ### Detonation
 
-Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion die eine Fläche mit einem Radius in Höhe der KO umfasst.
+Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion welche eine Fläche mit einem Radius in Höhe der KO umfasst.
 
 Der Schadenstyp ist dabei immer Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
+Der Schaden liegt bei KO geteilt durch 2 (gerundet). Zusätzlich wirkt der Schadenseffekt „Explosiv“.
 
-Der Schaden liegt bei KO geteilt durch 2 (gerundet).
-
-Zusätzlich wirkt der Schadenseffekt „Explosiv“.
+Nach der Detonation wird das Modell vom Spielfeld entfernt.
 
 !!! example Beispiel
 
