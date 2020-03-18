@@ -1091,17 +1091,15 @@ Auf Ziele die sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt 
 
 ### Autofeuer
 
-!!! TODO Wirklich mehrere Schüsse auf eine Ziel über einen Bonus erledigen? Nicht lieber jeden Schuss einzeln behandeln?
-
-Waffen verfügen über den Wert „Autofeuer“ (AF) der im Bereich 0-4 liegt.
-Jeder Punkt AF wird als 1 zusätzlicher Schuss behandelt.
+Waffen können über den Wert „Autofeuer“ (AF) verfügen der im Bereich 1-4 liegt.
+Jeder Punkt AF wird hierdurch als 1 zusätzlicher Schuss behandelt.
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei jede Patrone für eine Stufe Autofeuer steht.
 
 ![patrone](Grafiken/Waffe/patrone.png){height="40pt"} {align="center"}
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
-Für jedes Ziel nach dem Ersten gibt es einen Malus von -1 auf den Fernkampfwurf.
+Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den Fernkampfwurf.
 
 Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den Fernkampfwurf und +1 beim Schadenswurf.
 Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
@@ -1111,10 +1109,10 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
     Eine Maschinenpistole hat AF 3 und wird von einem Modell mit FK 5 abgefeuert.
 
     Entweder
-    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seine FK für den Fernkampfwurf und +3 auf den anschließenden Schadenswurf.
+    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen Fernkampfwurf und +3 auf den anschließenden Schadenswurf.
     
     oder
-    - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seine FK (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
+    - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen Fernkampfwurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
     Der Bonus von +1 für den Schadenswurf gilt jedoch für beide Ziele.
 
 ### Flächenwaffen
