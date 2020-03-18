@@ -398,14 +398,13 @@ Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 
 ### Übersicht Aktionen und Reaktionen
 
-|Typ|Seite|
-|--|--|
-|Bewegen|TODO|
-|Fernkampf|TODO|
-|Nahkampf|TODO|
-|Aufklären|TODO|
-|Ausrüstung verwenden|TODO|
-|Tarnung|TODO|
+|Typ|
+|--|
+|[Bewegen](#aktionen:-bewegung)|
+|[Fernkampf](#aktionen:-fernkampf)|
+|[Nahkampf](#aktionen:-nahkampf)|
+|[Aufklären](#aktionen:-tarnung)|
+|[Ausrüstung](#ausrüstung)|
 
 ## Eigenschaften
 
@@ -594,9 +593,7 @@ Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp 
 Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp befindet.
 
 !!! summary Dickicht
-
-    TODO Prosa
-    
+   
     |Passierbarkeit|Deckung|
     |:--:|:--:|
     |1|Stufe I|
@@ -1275,7 +1272,7 @@ Es kann normal beschossen oder im Nahkampf angegriffen werden.
 
 Wenn ein getarntes Modell einen Angriff einleitet oder eine Fernkampfwaffe abfeuert wird es automatisch aufgeklärt.
 
-### Aktion/Reaktion
+### Aktionen: Tarnung
 
 Um ein getarntes Modell gezielt aufzuklären muss die Aktion/Reaktion „Aufklären“ ausgeführt werden.
 
@@ -1291,7 +1288,7 @@ Dies ist ein normaler WN-Wurf. Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
 Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werden.
 
-### Reaktion
+### Reaktionen: Tarnung
 
 !!! warning Komplex: Aufklärungsunterstützung - 2 ⊙
 
@@ -1309,7 +1306,7 @@ TODO
 
 TODO Kann Regeln haben
 
-### Aktion
+### Aktionen: Ausrüstung
 
 !!! danger Ausrüstung verwenden - X ⊙
 
