@@ -13,7 +13,7 @@ puppeteer:
 
 # Universalis - Regelbuch
 
-Regelbuch Version 0.0.1
+Regelbuch Version 0.1.0
 
 ## Inhaltsverzeichnis
 
