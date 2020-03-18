@@ -44,9 +44,9 @@ Des weiteren werden Marker für die folgenden Status benötigt:
 
 |Symbol|Bedeutung|
 |:--:|--|
-|![schnell](Grafiken/Marker/schnell.png){width="40pt"}|[Schnelle Bewegung](#schnelle%20bewegungen)|
+|![schnell](Grafiken/Marker/schnell.png){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
 |![schock](Grafiken/Marker/schock.png){width="40pt"}|[Schock](#schock)|
-|![liegen](Grafiken/Marker/liegen.png){width="40pt"}|[Liegen](#liegende%20modelle)|
+|![liegen](Grafiken/Marker/liegen.png){width="40pt"}|[Liegen](#liegende-modelle)|
 |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.png){width="40pt"}|[Feuerbereitschaft](#feuerbereitschaft)|
 |![abwehrhaltung](Grafiken/Marker/abwehrhaltung.png){width="40pt"}|[Abwehrhaltung](#abwehrhaltung)|
 |![tarnung](Grafiken/Marker/tarnung.png){width="40pt"}|[Tarnung](#tarnung)|
@@ -101,7 +101,7 @@ Jedes Modell verfügt über 6 Aktionspunkte pro Runde, die in verschiedenen Phas
 Die Kosten in Aktionspunkten werden immer mit diesem Zeichen angegeben: ⊙
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
-Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer_zustand) verfällt.
+Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer-zustand) verfällt.
 
 ### Attribute
 
@@ -314,7 +314,7 @@ Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenom
 Beide Spieler führen einen vergleichenden Wurf durch wobei jeweils die AGI des Grupenführers addiert wird.
 
 Der Gewinner markiert entsprechend seiner Mission seine Aufstellungszone, danach ist der andere Spieler damit dran.
-Danach stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
+Jetzt stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
 
@@ -804,7 +804,7 @@ Solange er über genau 0 Trefferpunkte verfügt, kann er weder Aktionen noch Rea
 Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nicht mehr möglich ist.
 
 Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Trefferpunkte besitzt erleidet er einen [Schock](#schock).
-Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen [kritischen Zustand](#kritischer_zustand).
+Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen [kritischen Zustand](#kritischer-zustand).
 
 Auf der Einheitenkarte ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist (siehe Seite TODO).
 
