@@ -38,7 +38,7 @@ Ein Maßband mit Markierungen in cm.
 
 Einen W12 und pro Modell jeweils einen weißen und einen roten W6.
 
-![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"}![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
+![W12 weiß](Grafiken/Abbildungen/w12_weiß.svg){width="50pt"} ![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"} ![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
 Des weiteren werden Marker für die folgenden Status benötigt:
 
