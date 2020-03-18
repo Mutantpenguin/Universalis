@@ -79,14 +79,14 @@ Jeder Spieler verfügt über genau 1 Gruppe die genau 1 Gruppenführer beinhalte
 
 Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
 
-Der Gruppenführer einer Gruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und Reihenfolge innerhalb einer Runde zu bestimmen (siehe Seite TODO).
+Der Gruppenführer einer Gruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und [Reihenfolge innerhalb einer Runde](#reihenfolge-innerhalb-der-runde) zu bestimmen.
 
 Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie ein Stellvertreter bestimmt wird.
 
 ### Einheitenkarte
 
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
-Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten Ausrüstung (siehe Seite TODO) und Eigenschaften (siehe Seite TODO).
+Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten [Ausrüstung](#ausrüstung) und [Eigenschaften](#eigenschaften).
 
 ![einheitenkarte](Grafiken/Abbildungen/einheitenkarte.jpg){width="400pt"} {align="center"}
 
@@ -107,7 +107,7 @@ Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Z
 
 Attribute sind die Werte eines Modells, die sich auf seine körperlichen  Eigenschaften beziehen. Diese können sowohl angeboren als auch antrainiert sein.
 
-Im Kritischen Zustand werden die Attribute um 1 verringert (siehe Seite TODO).
+Im [Kritischen Zustand](#kritischen-zustand) werden die Attribute um 1 verringert.
 
 ### Profile
 
@@ -219,7 +219,7 @@ Distanz = WN * 5cm{align="center"}
 *Beispiel mit einem Sichtfeld von 90° (der Pfeil stellt
 die Blickrichtung des Modells dar)* {align="center"}
 
-Im Kritischen Zustand wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet, siehe Seite TODO).
+Im [Kritischen Zustand](#kritischer-zustand) wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
 
 Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
 
@@ -243,22 +243,22 @@ Einzelne Regeln können davon abweichen und weisen im entsprechenden Fall eindeu
 
 *Abbildung 5: Aufbau der Einheitenkarte* {align="center"}
 
-1. Fraktion (siehe Seite TODO)
-2. Trefferpunkte (siehe Seite TODO)
+1. [Fraktion](#fraktion)
+2. [Trefferpunkte](#trefferpunkte)
 3. Name des Modells
-4. Typ des Modells (siehe Seite TODO)
-5. Attribute (siehe Seite TODO)
+4. [Typ des Modells](#modelle)
+5. [Attribute](#attribute)
 6. Outfit, also Ausstattungsvariante
 7. Punkte
-8. Gefahrenbereich (siehe Seite TODO)
-9. Warnehmungsbereich (siehe Seite TODO)
-10. Größe (siehe Seite TODO)
-11. Bewegungsart (siehe Seite TODO)
+8. [Gefahrenbereich](#gefahrenbereich)
+9. [Wahrnehmungsbereich](#wahrnehmungsbereich)
+10. [Größe](#größe)
+11. [Bewegungsart](#bewegungsart)
 12. Gesamtgewicht
-13. Schadenstypen (siehe Seite TODO)
-14. Verteidigungstypen (siehe Seite TODO)
-15. Schadenseffekte (siehe Seite TODO)
-16. Verteidigungseffekte (siehe Seite TODO)
+13. [Schadenstypen](#schadens--und-verteidigungstypen)
+14. [Verteidigungstypen](#schadens--und-verteidigungstypen)
+15. [Schadenseffekte](#übersicht-der-schadens--und-verteidigungseffekte)
+16. [Verteidigungseffekte](#übersicht-der-schadens--und-verteidigungseffekte)
 
 ## Würfelwürfe
 
@@ -325,9 +325,9 @@ Innerhalb einer Runde hat jedes Modell eine Initiative-Phase. Die Runde ist erst
 #### Rundenbeginn
 
 Zu Beginn jeder Runde werden die AP jedes Modells wieder auf 6⊙ aufgefüllt.
-Nicht verbrauchte AP aus der Vorrunde werden halbiert (abgerundet) und addiert (siehe Seite TODO).
+Nicht verbrauchte AP aus der Vorrunde werden halbiert (abgerundet) und addiert.
 
-Modelle mit Schock-Markern verlieren danach automatisch pro Marker 1 AP (siehe Seite TODO).
+Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 1 AP.
 
 #### Reihenfolge innerhalb der Runde
 
@@ -344,7 +344,7 @@ Eine Initiative-Phase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktione
 
 Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiative-Phase hatten oder nicht, unter bestimmten Voraussetzungen Reaktionen durchführen.
 
-Zum Beginn der Initiativephase eines Modells, wird ein eventueller Marker für schnelle Bewegung entfernt (siehe Seite TODO).
+Zum Beginn der Initiativephase eines Modells, wird ein eventueller Marker für [schnelle Bewegung](#schnelle-bewegungen) entfernt.
 
 ### Rundenende
 
@@ -386,7 +386,7 @@ Um auf Aktionen zu reagieren, die nach der eigenen Initiative- Phase der aktuell
 
 #### Aktionen durch Reaktionen unterbrechen
 
-Damit auf eine Aktion reagiert werden kann, muss diese im Wahrnehmungsbereich (siehe Seite TODO) stattfinden.
+Damit auf eine Aktion reagiert werden kann, muss diese im [Wahrnehmungsbereich](#wahrnehmungsbereich) stattfinden.
 
 Es kann versucht werden eine Aktion zu unterbrechen bevor sie durchgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
 
@@ -516,25 +516,25 @@ Sie wird am Modell mit dem Schnell-Marker dargestellt.
 
 Zum Beginn der nächsten Initiativephase eines Modells wird der Marker wieder entfernt.
 
-Sie kommt unter anderem beim Fernkampf zur Anwendung (siehe Seite TODO).
+Sie kommt unter anderem beim [Fernkampf](#schnelle-bewegungen-des-ziels) zur Anwendung.
 
 ### Liegende Modelle
 
 Liegende Modelle gelten als eine Größenstufe kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
 
-Das Sichtfeld liegender Modelle ist um eine Stufe verschlechtert (siehe Seite TODO).
+Das [Sichtfeld](#sichtfeld) liegender Modelle ist um eine Stufe verschlechtert.
 
 ### Passierbarkeit
 
-Passierbarkeit ist eine Eigenschaft von Geländetypen (siehe Seite TODO) und wird mit einer Stufe von 0 bis 2 angegeben.
+Passierbarkeit ist eine Eigenschaft von [Gelände](#gelände) und wird mit einer Stufe von 0 bis 2 angegeben.
 
 Die Kosten jeder Bewegungsaktion innerhalb eines Geländetyps werden um die entsprechende Stufe erhöht.
 
 Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Kosten um 1⊙ verringert.
 Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
 
-### Bewegungsarten
+### Bewegungsart
 
 |Symbol|Name|Bedeutung|
 |:--:|--|--|
@@ -806,7 +806,7 @@ Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nich
 Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Trefferpunkte besitzt erleidet er einen [Schock](#schock).
 Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen [kritischen Zustand](#kritischer-zustand).
 
-Auf der Einheitenkarte ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist (siehe Seite TODO).
+Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
 
 ### Schock
 
@@ -832,7 +832,7 @@ Das Modell verliert sofort 2 AP, erhält einen Malus von -1 auf alle seine Attri
 
 Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 
-### Schadenstypen
+### Schadens- und Verteidigungstypen
 
 |Symbol|Name|Erläuterung|
 |--|--|--|
@@ -878,7 +878,7 @@ Waffen verfügen über ein Schadensprofil.
 
 ### Fernkampfwaffen
 
-Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines Reichweitenbandes (siehe Seite 25) und einer Angabe für eventuelles Autofeuer (siehe Seite TODO).
+Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines [Reichweitenbandes](#reichweite) und einer Angabe für eventuelles [Autofeuer](#autofeuer).
 
 ### Nahkampfwaffen
 
@@ -970,7 +970,7 @@ blah blah yadda yadda
 
 Dies ist ein normaler FK-Wurf. Bei Erfolg wurde das Ziel getroffen.
 
-Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden (siehe Seite TODO).
+Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
 
 ### Aktionen: Fernkampf
 
@@ -1026,7 +1026,7 @@ Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffene Trefferzone ausgewü
 
 Damit ein Ziel beschossen werden kann muss eine Sichtlinie zu ihm gezogen werden können.
 
-Sollte sich im Gefahrenbereich keine direkte Bedrohung befinden, welche bekämpft werden muss, kann das Ziel frei gewählt werden (siehe Seite TODO).
+Sollte sich im Gefahrenbereich keine [direkte Bedrohung](#direkte-bedrohung) befinden, welche bekämpft werden muss, kann das Ziel frei gewählt werden.
 
 ### Reichweite
 
@@ -1050,7 +1050,7 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
 
 ### Beschuss von getarnten Modellen
 
-Es können nur aufgeklärte getarnte Modelle beschossen werden (siehe Seite TODO).
+Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 
 ### Indirektes Feuer
 
@@ -1083,7 +1083,7 @@ Liegende Schützen erhalten +1 auf den Fernkampfwurf.
 
 #### Schnelle Bewegungen des Ziels
 
-Auf Ziele die sich in schneller Bewegung befinden, gibt es einen Malus von -1 auf den Fernkampfwurf (siehe Seite 16).
+Auf Ziele die sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -1 auf den Fernkampfwurf.
 
 ### Autofeuer
 
@@ -1153,7 +1153,7 @@ Nun wird die folgende Tabelle konsultiert:
 |Gleichstand|TODO|
 |Angreifer|Der Angreifer landet einen Treffer. TODO Spielt die Differenz eine Rolle?|
 
-Wenn das Ziel Trefferzonen hat muss mit 1W12 die getroffenen Trefferzone ausgewürfelt werden (siehe Seite TODO).
+Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffenen Trefferzone ausgewürfelt werden.
 
 ### Erlaubte Waffen
 
@@ -1194,9 +1194,9 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
 ### Bonus für den Angreifer
 
-Wenn der Angreifer den Angriff durch eine Angriffsbewegung (siehe Seite TODO) einleitet, erhält er Bonus von +1 auf den Nahkampfwurf. Dies gilt nur wenn der Verteidiger sich nicht in der Abwehrhaltung befindet.
+Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er Bonus von +1 auf den Nahkampfwurf. Dies gilt nur wenn der Verteidiger sich nicht in der Abwehrhaltung befindet.
 
-Sollte der Angriff von außerhalb des Sichtfeldes (siehe Seite TODO) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
+Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 
 ### Multiple Gegner
 
@@ -1208,7 +1208,7 @@ Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält 
 
 ### Nahkampf mit getarnten Modellen
 
-Es können nur aufgeklärte Modelle angegriffen werden (siehe Seite TODO).
+Es können nur [aufgeklärte](#aufklärung) Modelle angegriffen werden.
 
 ### Waffenloser Nahkampf
 
