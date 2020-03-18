@@ -593,7 +593,7 @@ Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp 
 Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp befindet.
 
 !!! summary Dickicht
-   
+
     |Passierbarkeit|Deckung|
     |:--:|:--:|
     |1|Stufe I|
@@ -892,7 +892,7 @@ Je größer/komplexer desto höher die WK.
 Waffenklassen werden mit „WK“ abgekürzt.
 WK I steht somit für Waffen der Klasse 1.
 
-### Einmalnutzung
+### Einmalnutzung von Waffen
 
 TODO
 
@@ -1066,7 +1066,7 @@ TODO
 |großes Ziel|+1|
 |riesiges Ziel|+2|
 
-#### Deckung
+#### Deckung des Ziels
 
 |Stufe|Modifikator|
 |:--:|:--:|
@@ -1328,7 +1328,7 @@ TODO
 
 TODO
 
-### Einmalnutzung
+### Einmalnutzung von Ausrüstung
 
 TODO
 
