@@ -826,10 +826,9 @@ Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
 
 Der weiße W6 für die Anzeige der Aktionspunkte wird für das Modell gegen einen roten W6 ausgetauscht.
 
-TODO KO-Wurf um AP-Verlust zu verhindern?
+!!! TODO KO-Wurf um AP-Verlust zu verhindern?
 
-Das Modell verliert sofort 2 AP, erhält einen Malus von -1 auf alle seine Attribute und halbiert den Wahrnehmungsbereich (aufgerundet).
-
+Das Modell verliert sofort 2 AP und erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
 Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 
 ### Schadens- und Verteidigungstypen
