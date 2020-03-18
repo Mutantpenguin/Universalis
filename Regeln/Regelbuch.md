@@ -1335,21 +1335,23 @@ TODO Bild einfügen
 
 ## Mechs & Kolosse
 
-TODO Kolosse und Mechs unter einen Hut bringen
-TODO Mechs ziehen bei Schusswaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
-TODO Kolosse ziehen bei Nahkampfwaffen für den AP-Verbrauch einen Punkt von der Waffenklasse ab wenn WK4+5
-
-TODO werden nicht aus dem Spiel entfernt
-
 ### Mech
 
 Es sind moderne Hybridwaffensysteme mit der Beweglichkeit eines servounterstützten Panzeranzugs und dem Schutz, sowie Feuerkraft, eines Panzers.
 In der Regel haben Mechs eine Größe von 4 bis 6 Meter und fangen bei einem Gewicht von 1,5 Tonnen an.
 
+#### Mechs im Fernkampf
+
+Im Fernkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
+
 ### Koloss
 
 Kolosse sind das Equivalent von Mechs im Bereich der Lebewesen.
 Große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
+
+#### Kolosse im Nahkampf
+
+Im Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
 
 ### Geländeausnutzung
 
@@ -1392,6 +1394,7 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 - **Rumpf**
 
     Sinkt in sich zusammen und gilt als ausgeschalten.
+    Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.
 
     Für Mechs muss nun ein KO-Wurf durchgeführt werden. Falls er misslingt [detoniert](#detonation) er.
 
@@ -1405,7 +1408,7 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
     |--|--|
     |1-6|Bleibt auf der Stelle stehen und kann sich noch drehen.|
     |7-11|Bleibt auf der Stelle stehen und kann sich **nicht** mehr drehen.|
-    |12|Fällt um und gilt als ausgeschalten.|
+    |12|Fällt um und gilt als ausgeschalten. Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.|
 
 ### Detonation
 
