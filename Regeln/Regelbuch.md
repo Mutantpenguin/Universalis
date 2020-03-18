@@ -92,7 +92,7 @@ Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwende
 
 *Beispiel einer Einheitenkarte* {align="center"}
 
-Eine detailliertere Beschreibung der Einheitenkarte ist auf Seite TODO zu finden.
+Der [Aufbau der Einheitenkarte](#aufbau-der-einheitenkarte) geht näher auf die einzelnen Elemente ein.
 
 ### Aktionspunkte
 
@@ -115,12 +115,12 @@ Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen best
 
 | Kürzel | Name | Beschreibung |
 |:--:|--|--|
-|AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. Nahkampf (Seite TODO) und Reaktionen (Seite TODO).|
-|BW|Bewegung|Gibt an, wie weit sich ein Modell bewegen kann. Siehe Bewegung (Seite TODO).|
-|KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. Schock (Seite TODO) und Tragkraft (Seite TODO).|
-|FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe Fernkampf (Seite TODO).|
-|WN|Wahrnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. Wahrnehmungsbereich (Seite TODO), Tarnung (Seite TODO) und Bewegungstests (Seite TODO).|
-|EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. Gefahrenbereich (Seite TODO).|
+|AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. [Nahkampf](#nahkampf) und [Reaktionen](#reaktionen).|
+|BW|Bewegung|Gibt an, wie weit sich ein Modell bewegen kann. Siehe [Bewegung](#bewegung).|
+|KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. [Schock](#schock) und [Tragkraft](#tragkraft).|
+|FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe [Fernkampf](#fernkampf).|
+|WN|Wahrnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. [Wahrnehmungsbereich](#wahrnehmungsbereich), [Tarnung](#tarnung) und [Bewegungstests](#bewegungstest).|
+|EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. [Gefahrenbereich](#gefahrenbereich).|
 
 !!! example Beispiel normaler Mensch
 
