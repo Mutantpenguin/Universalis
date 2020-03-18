@@ -749,9 +749,9 @@ Symbole für Schadenstypen werden dabei immer in rot, und Verteidigungstypen imm
 !!! example Beispiel
 
     |Typ|Stufe 1|Stufe 2|Stufe 3|
-    |--|--|--|--|
-    |Schaden kinetisch|TODO|TODO|TODO|
-    |Verteidigung chnitt|TODO|TODO|TODO|
+    |--|:--:|:--:|:--:|
+    |Schaden kinetisch|![verteidigungsprofil](Grafiken/Schadenstyp/Schaden_1.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Schaden_2.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Schaden_3.png){width=40pt}|
+    |Verteidigung schnitt|![verteidigungsprofil](Grafiken/Schadenstyp/Verteidigung_1.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Verteidigung_2.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Verteidigung_3.png){width=40pt}|
 
 ### Schadens- / Verteidigungseffekte
 
