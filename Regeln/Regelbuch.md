@@ -1067,9 +1067,11 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
 
 Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 
-### Indirektes Feuer
+### Indirekter Fernkampf
 
 TODO
+
+![indirekt](Grafiken/Waffe/indirekt.png){width="40pt"} {align="center"}
 
 ### Fernkampf-Modifikatoren
 
