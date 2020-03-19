@@ -94,6 +94,8 @@ Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwende
 
 Der [Aufbau der Einheitenkarte](#aufbau-der-einheitenkarte) geht näher auf die einzelnen Elemente ein.
 
+Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen. So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
+
 ### Aktionspunkte
 
 Jedes Modell verfügt über 6 Aktionspunkte pro Runde, die in verschiedenen Phasen des Spiels für Aktionen und Reaktionen ausgegeben werden können.
