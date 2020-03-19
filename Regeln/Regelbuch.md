@@ -430,9 +430,7 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
 Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann das Modell entsprechend bewegt werden.
 
-Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden.
-
-Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
+Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden. Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
 
 Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
 
@@ -464,7 +462,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
     
     Die eigentliche Bewegung ist somit kostenlos.
     
-    Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem Nahkampf.
+    Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem [Angriff](#aktionen:-nahkampf).
 
 !!! danger Springen - 2 ⊙
 
@@ -512,9 +510,14 @@ Ein fallendes Modell erleidet automatisch einen Treffer mit folgendem Schadenspr
 |:--:|:--:|:--:|
 |Schlag|TODO|TODO
 
-## Klettern
+### Vertikale Bewegung
 
-TODO
+Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen. Die Distanze wird ganz normal wie jede andere Bewegung gemessen.
+
+### Klettern
+
+Jedes Modell kann ohne spezielle Ausrüstung über Hindernisse bis zu seinem doppelten [Größenprofil](#größe) klettern.
+Die vertikale Distanz wird dafür aber doppelt berechnet.
 
 ### Schnelle Bewegungen
 
