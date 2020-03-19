@@ -1315,11 +1315,7 @@ Das unterstützte Modell erhält +1 auf seinen Aufklärungstest.
 
 ## Ausrüstung
 
-Jedes Modell kann über weitere Ausrüstung verfügen.
-
-TODO
-
-TODO Kann Regeln haben
+Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe oder Rüstung passt.
 
 ### Aktionen: Ausrüstung
 
@@ -1329,19 +1325,29 @@ TODO Kann Regeln haben
     
     Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
 
+### Regeln
+
+Jede Ausrüstung kann Regeln beinhalten.
+Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
+
 ### Attributsverbesserungen
 
 #### Permanent
 
-TODO
+Manche Ausrüstung bringt permanente Attributsverbesserungen mit sich.
+Diese werden auf der Einheitenkarte direkt in die Attribute mit eingerechnet.
 
 #### Temporär
 
-TODO
+Temporäre Attributsverbesserungen sind auf der Einheitenkarte nicht in den Attributen mit eingerechnet.
+Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 ### AP-Kosten
 
-TODO
+Bei manchen Ausrüstungsgegenständen ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
+Um sie zu benutzen muss die Aktion "Ausrüstung verwenden" ausgeführt werden.
+
+Sofern keine AP angegeben sind ist auch keine Aktion für die Verwendung notwendig.
 
 ### Einmalnutzung von Ausrüstung
 
@@ -1357,8 +1363,6 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
     Für ein medizinisches Spray das 3x verwendet werden kann.
 
     ![detonation](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg)
-
-TODO Bild einfügen
 
 ## Mechs & Kolosse
 
