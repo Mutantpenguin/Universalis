@@ -838,12 +838,12 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 
 ### Schadens- und Verteidigungstypen
 
-|Symbol|Name|Erläuterung|
+|Symbol|Name|Bedeutung|
 |--|--|--|
-|![kinetisch](Grafiken/Schadenstyp/typ_kinetik.png){width=40pt}|Kinetik|TODO|
-|![schlag](Grafiken/Schadenstyp/typ_schlag.png){width=40pt}|Schlag|TODO|
-|![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|TODO|
-|![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|TODO|
+|![kinetisch](Grafiken/Schadenstyp/typ_kinetik.png){width=40pt}|Kinetik|Alles das irgendwie als Projektil bezeichnet werden kann.|
+|![schlag](Grafiken/Schadenstyp/typ_schlag.png){width=40pt}|Schlag|Jede stumpfe Gewalteinwirkung.|
+|![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
+|![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
 
 ### Übersicht der Schadens- und Verteidigungseffekte
 
