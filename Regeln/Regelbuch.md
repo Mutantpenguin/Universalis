@@ -1174,7 +1174,7 @@ Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffenen Tr
 
 ### Erlaubte Waffen
 
-Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwendet werden.
+Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf).
 
 ### Aktionen: Nahkampf
 
@@ -1182,7 +1182,11 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) oder WK1 verwen
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
-    !!! TODO Beim Angriff ausserhalb des Sichtfeldes Trefferzone aussuchen?
+!!! danger Komplex: Brachialer Angriff - WK+1 ⊙
+
+    Das Modell erhält +1 auf seinen Nahkampfwurf.
+    
+    Sollte es den Nahkampfwurf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
 
 !!! danger Komplex: Abwehrhaltung - 2 ⊙
 
