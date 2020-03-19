@@ -898,7 +898,18 @@ WK I steht somit für Waffen der Klasse 1.
 
 ### Einmalnutzung von Waffen
 
-TODO
+Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
+
+Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
+
+Bei jeder Verwendung **muss** ein Marker gestrichen werden.
+
+!!! example Beispiel
+
+    Für eine Schockgranate die 2x verwendet werden kann.
+
+    ![detonation](Grafiken/Abbildungen/einmalnutzung_waffe.jpg)
 
 ### Beispiele
 
@@ -1334,7 +1345,18 @@ TODO
 
 ### Einmalnutzung von Ausrüstung
 
-TODO
+Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
+
+Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet werden kann.
+
+Bei jeder Verwendung **muss** ein Marker gestrichen werden.
+
+!!! example Beispiel
+
+    Für ein medizinisches Spray das 3x verwendet werden kann.
+
+    ![detonation](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg)
 
 TODO Bild einfügen
 
