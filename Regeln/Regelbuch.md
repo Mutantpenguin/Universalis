@@ -109,7 +109,7 @@ Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Z
 
 Attribute sind die Werte eines Modells, die sich auf seine körperlichen  Eigenschaften beziehen. Diese können sowohl angeboren als auch antrainiert sein.
 
-Im [Kritischen Zustand](#kritischen-zustand) werden die Attribute um 1 verringert.
+Im [Kritischen Zustand](#kritischer-zustand) werden die Attribute um 1 verringert.
 
 ### Profile
 
