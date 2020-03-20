@@ -965,6 +965,10 @@ Alles was sich definitiv nicht mehr von einem Menschen tragen lässt
 
 Rüstungen verfügen über ein Verteidigungsprofil.
 
+#### Selbsttragend
+
+TODO
+
 ### Schilde
 
 Unter Schilden versteht man alle Arten von „Platten“ die zur Verteidigung getragen werden.
