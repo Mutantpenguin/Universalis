@@ -896,13 +896,13 @@ Je größer/komplexer desto höher die WK.
 Waffenklassen werden mit „WK“ abgekürzt.
 WK I steht somit für Waffen der Klasse 1.
 
-### Schwerfällige Waffen im Fernkampf
+### Schwerfällige Waffen
 
-Manche Waffen sind schwerfällig und verhalten sich dadurch im Fernkampf und Nahkampf etwas anders.
+Manche Waffen sind schwerfällig können dadurch im [Fernkampf](#schwerfällige-waffen-im-fernkampf) und [Nahkampf](#schwerfällige-waffen-im-nahkampf) nur mit Einschränkungen verwendet werden.
 
-Auf der Einheitenkarte wird dies folgendermaßen ausgewiesen:
+Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
 
-!!! todo Bild einfügen
+![unhandlich](Grafiken/Waffe/unhandlich.png){width=40pt} {align=center}
 
 ### Einmalnutzung von Waffen
 
@@ -1102,7 +1102,7 @@ TODO
 |I|-1|
 |II|-2|
 
-#### Schwerfällige Waffen
+#### Schwerfällige Waffen im Fernkampf
 
 Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den Fernkampfwurf.
 
