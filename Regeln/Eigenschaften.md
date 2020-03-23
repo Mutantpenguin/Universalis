@@ -34,6 +34,10 @@ TODO
 
     Das Modell darf X mal seinen Nahkampfwurf neu würfeln.
 
+!!! check Flink
+
+    Kann im Nahkampf nicht durch schwerfällige Waffen getroffen werden.
+
 !!! check David gegen Goliath
 
     Wenn das Modell als Angreifer von ausserhalb des Sichtfeldes angreift und über ein kleineres Größenprofil verfügt darf es sich bei Mechs und Kolossen die Trefferzone aussuchen.
