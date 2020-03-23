@@ -896,6 +896,14 @@ Je größer/komplexer desto höher die WK.
 Waffenklassen werden mit „WK“ abgekürzt.
 WK I steht somit für Waffen der Klasse 1.
 
+### Schwerfällige Waffen im Fernkampf
+
+Manche Waffen sind schwerfällig und verhalten sich dadurch im Fernkampf und Nahkampf etwas anders.
+
+Auf der Einheitenkarte wird dies folgendermaßen ausgewiesen:
+
+!!! todo Bild einfügen
+
 ### Einmalnutzung von Waffen
 
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
@@ -1096,7 +1104,7 @@ TODO
 
 #### Schwerfällige Waffen
 
-Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -2 auf den Fernkampfwurf.
+Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den Fernkampfwurf.
 
 #### Liegender Schütze
 
@@ -1226,6 +1234,10 @@ Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffene
 ### Multiple Gegner
 
 Für jedes befreundete Modell, welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den Nahkampfwurf.
+
+### Schwerfällige Waffen im Nahkampf
+
+Sie erhalten beim Verteidigungswurf einen Malus von -2.
 
 ### Größenunterschiede
 
