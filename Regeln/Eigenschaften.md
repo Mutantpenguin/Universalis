@@ -82,6 +82,10 @@ TODO
 
 ## Schaden & Verteidigung
 
+!!! check Abgehärtet
+
+    Im kritischen Zustand erhalten die Attributswürfe **keinen** Malus von -1.
+
 !!! fail Bluter
 
     Jeder erlittene Schaden wird um 1 erhöht.
