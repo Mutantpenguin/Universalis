@@ -1088,6 +1088,7 @@ TODO
 |Typ|Modifikator|
 |:--:|:--:|
 |kleines Ziel|-1|
+|mittleres Ziel|±0|
 |großes Ziel|+1|
 |riesiges Ziel|+2|
 
