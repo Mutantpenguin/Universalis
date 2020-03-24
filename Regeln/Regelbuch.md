@@ -967,11 +967,13 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 ### Rüstung
 
+TODO
+
 Rüstungen verfügen über ein Verteidigungsprofil.
 
 #### Selbsttragend
 
-TODO
+Das Gewicht von selbsttragenden Rüstungen wird für die [Tragkraft](#tragkraft) eines Modells ignoriert.
 
 ### Schilde
 
