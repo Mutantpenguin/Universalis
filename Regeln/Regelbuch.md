@@ -921,51 +921,47 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 ### Beispiele
 
-### WK I
+#### WK I {align=center}
 
-TODO
+|Nahkampf|Fernkampf|
+|:--:|:--:|
+|Knüppel|Maschinenpistole|
+|Messer|Pistole|
+| |Schleuder|
+| |Wurfstern|
 
-Pistolen
+#### WK II {align=center}
 
-Maschinenpistolen
+|Nahkampf|Fernkampf|
+|:--:|:--:|
+|Morgenstern|Armbrust|
+|Schwert|Bogen|
+|Speer|Gewehr|
+| |Speer|
 
-Messer
+#### WK III {align=center}
 
-#### WK II
+|Nahkampf|Fernkampf|
+|:--:|:--:|
+|Axt|Granatwerfer|
+|Hellebarde|Maschinengewehr|
+|Vorschlaghammer| |
+|Zweihänder| |
 
-TODO
+#### WK IV {align=center}
 
-Gewehre
+|Nahkampf|Fernkampf|
+|:--:|:--:|
+|Kettensäge|Panzerfaust|
+| |Scharfschützengewehr|
 
-Schwerter
+#### WK V {align=center}
 
-#### WK III
-
-TODO
-
-Maschinengewehr
-
-Vorschlaghammer
-
-Axt
-
-#### WK IV
-
-TODO
-
-Panzerfaust
-
-Kettensäge
-
-### WK V
-
-TODO
-
-Panzerkanone
-
-Lafettengeschütz
-
-Alles was sich definitiv nicht mehr von einem Menschen tragen lässt
+|Nahkampf|Fernkampf|
+|:--:|:--:|
+|Abrissbirne|Arbalest|
+| |Lafettengeschütz|
+| |Panzerkanone|
 
 ## Verteidigung
 
