@@ -1291,7 +1291,7 @@ Damit das möglich ist, müssen sie zuerst aufgeklärt werden.
 
 Sie können nicht durch Flächenwaffen getroffen werden.
 
-Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +1 auf seinen Nahkampfwurf. Siehe auch Seite TODO.
+Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +1 auf seinen Nahkampfwurf.
 
 #### Besondere Vorteile von aktiver Tarnung
 
