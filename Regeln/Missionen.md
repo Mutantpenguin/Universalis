@@ -6,9 +6,24 @@ puppeteer:
         landscape: false
         margin:
             top: 1cm
-            right: 1cm
-            bottom: 1cm
-            left: 1cm
+            right: 0cm
+            bottom: 2cm
+            left: 0cm
+        headerTemplate: '   <section></section>'
+        footerTemplate: '   <style>
+                                section
+                                {
+                                    margin: 0 auto;
+                                    font-family: Nova Round;
+                                    font-size: 10px;
+                                    width: 100%;
+                                }
+                            </style>
+                            <section>
+                                <div style="border-top: 1px solid black; text-align: center; padding-top: 0.3cm">
+                                    - <span class="pageNumber"></span> -
+                                </div>
+                            </section>'
 ---
 
 # Realms - Missionen
