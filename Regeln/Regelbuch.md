@@ -316,6 +316,8 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
 Beide Spieler bauen gemeinsam das Spielfeld auf bis sie damit einverstanden sind.
 
+Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
+
 ### Missionsauswahl
 
 Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus. Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
@@ -683,7 +685,7 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
 
 Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländeteilen unnötig zu erhöhen.
 
-So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden. Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländertyp befindet.
+So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden. Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
 
 Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländetypen.
 
