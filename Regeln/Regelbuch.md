@@ -36,8 +36,7 @@ Regelbuch Version 0.1.0
 
 ## Vorwort
 
-Dies ist kein Turniersystem und der Spaß
-steht im Vordergrund!
+Dies ist kein Turniersystem und der Spaß steht im Vordergrund.
 
 TODO
 
@@ -383,7 +382,7 @@ Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten a
 Es wird hierbei zwischen *normalen* und *komplexen* Aktionen und Reaktionen unterschieden.
 
 *Normale* können von jedem Modell durchgeführt werden, vorausgesetzt es verfügt über die nötigen Voraussetzungen (bspw. „Hände“ um eine Waffe abzufeuern etc.).
-Hier ist der gesunde Menschenverstand gefragt!
+Hier ist der gesunde Menschenverstand gefragt.
 
 *Komplexe* müssen erlernt werden und können bspw. durch Ausrüstung oder Eigenschaften ermöglicht werden.
 
@@ -397,9 +396,9 @@ Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombin
 Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiative-Phase geschehen.
 Sie sind teilweise an Bedingungen geknüpft.
 
-Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen!
+Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
 Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiative-Phase hatte, oder diese noch stattfindet.
-Um auf Aktionen zu reagieren, die nach der eigenen Initiative- Phase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden!
+Um auf Aktionen zu reagieren, die nach der eigenen Initiative- Phase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
 
 #### Aktionen durch Reaktionen unterbrechen
 
