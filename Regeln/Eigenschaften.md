@@ -133,3 +133,7 @@ TODO
 !!! check Glück
 
     Kann pro Runde einmal einen beliebigen eigenen Würfelwurf neu durchführen.
+
+!!! fail Pech
+
+    Kann pro Runde einmal vom Gegner gezwungen werden einen beliebigen eigenen Würfelwurf neu durchführen.
