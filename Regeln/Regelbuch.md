@@ -528,7 +528,7 @@ Ein fallendes Modell erleidet automatisch einen Treffer mit folgendem Schadenspr
 
 ### Vertikale Bewegung
 
-Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen. Die Distanze wird ganz normal wie jede andere Bewegung gemessen.
+Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen. Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 
 ### Klettern
 
