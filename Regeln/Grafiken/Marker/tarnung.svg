@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 10 10"
+   version="1.1"
+   id="svg8138"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="tarnung.svg">
+  <defs
+     id="defs8132" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="-18.894056"
+     inkscape:cy="18.928174"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata8135">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-165.31852,-138.69041)">
+    <g
+       transform="matrix(0.27729677,0,0,0.27729677,11.004793,-133.75716)"
+       id="g1619"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\tarnung.png"
+       inkscape:export-xdpi="399.30743"
+       inkscape:export-ydpi="399.30743">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle1426"
+         cx="574.52429"
+         cy="1000.5438"
+         r="18.031223" />
+      <g
+         transform="matrix(0.91611069,0,0,0.91611069,48.196446,83.934931)"
+         id="g1612">
+        <path
+           sodipodi:nodetypes="cccccccccccccscscscscs"
+           id="path1597"
+           d="m 557.6662,1000.5438 c 0.13171,-1.09753 0.85608,-2.32677 2.17312,-3.68771 1.75605,-1.79995 3.7316,-3.24869 5.92667,-4.34622 2.89748,-1.36094 5.81691,-2.04141 8.7583,-2.04141 3.07309,0.0439 5.99252,0.7244 8.7583,2.04141 2.32677,1.18533 4.30233,2.63407 5.92667,4.34622 1.44875,1.62435 2.17312,2.85358 2.17312,3.68771 -0.13171,1.0975 -0.85608,2.3268 -2.17312,3.6877 -1.75605,1.8 -3.7316,3.2487 -5.92667,4.3462 -2.89748,1.361 -5.81691,2.0415 -8.7583,2.0415 -3.07309,-0.044 -5.99252,-0.7244 -8.7583,-2.0415 -2.32677,-1.1853 -4.30233,-2.634 -5.92667,-4.3462 -1.44875,-1.6243 -2.17312,-2.8536 -2.17312,-3.6877 z m 8.89001,0 c 0,2.1073 0.77925,3.8962 2.33776,5.3669 1.55851,1.4707 3.43529,2.206 5.63035,2.206 2.19507,0 4.07185,-0.7353 5.63036,-2.206 1.55851,-1.4707 2.33776,-3.2596 2.33776,-5.3669 0,-2.10726 -0.77925,-3.89623 -2.33776,-5.36691 -1.55851,-1.47069 -3.43529,-2.20603 -5.63036,-2.20603 -2.19506,0 -4.07184,0.73534 -5.63035,2.20603 -1.55851,1.47068 -2.33776,3.25965 -2.33776,5.36691 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <text
+           id="text1601"
+           y="1006.6988"
+           x="569.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.69574547px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
+           xml:space="preserve"><tspan
+             style="fill:#ffffff;stroke-width:1"
+             y="1006.6988"
+             x="569.22534"
+             id="tspan1599"
+             sodipodi:role="line">?</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

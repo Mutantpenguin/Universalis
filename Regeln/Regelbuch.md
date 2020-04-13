@@ -58,12 +58,12 @@ Des weiteren werden Marker für die folgenden Status benötigt:
 
 |Symbol|Bedeutung|
 |:--:|--|
-|![schnell](Grafiken/Marker/schnell.png){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
-|![schock](Grafiken/Marker/schock.png){width="40pt"}|[Schock](#schock)|
-|![liegen](Grafiken/Marker/liegen.png){width="40pt"}|[Liegen](#liegende-modelle)|
-|![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.png){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
-|![abwehrhaltung](Grafiken/Marker/abwehrhaltung.png){width="40pt"}|[Abwehrhaltung](#aktionen:-nahkampf)|
-|![tarnung](Grafiken/Marker/tarnung.png){width="40pt"}|[Tarnung](#tarnung)|
+|![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
+|![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
+|![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
+|![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
+|![abwehrhaltung](Grafiken/Marker/abwehrhaltung.svg){width="40pt"}|[Abwehrhaltung](#aktionen:-nahkampf)|
+|![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
 
 ### Fraktion
 
