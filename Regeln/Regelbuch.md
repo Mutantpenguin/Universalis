@@ -61,8 +61,8 @@ Des weiteren werden Marker für die folgenden Status benötigt:
 |![schnell](Grafiken/Marker/schnell.png){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
 |![schock](Grafiken/Marker/schock.png){width="40pt"}|[Schock](#schock)|
 |![liegen](Grafiken/Marker/liegen.png){width="40pt"}|[Liegen](#liegende-modelle)|
-|![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.png){width="40pt"}|[Feuerbereitschaft](#feuerbereitschaft)|
-|![abwehrhaltung](Grafiken/Marker/abwehrhaltung.png){width="40pt"}|[Abwehrhaltung](#abwehrhaltung)|
+|![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.png){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
+|![abwehrhaltung](Grafiken/Marker/abwehrhaltung.png){width="40pt"}|[Abwehrhaltung](#aktionen:-nahkampf)|
 |![tarnung](Grafiken/Marker/tarnung.png){width="40pt"}|[Tarnung](#tarnung)|
 
 ### Fraktion

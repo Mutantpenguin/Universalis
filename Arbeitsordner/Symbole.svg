@@ -14,7 +14,7 @@
    height="297mm"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="Symbole.svg"
    inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\typ_level_iii.png"
    inkscape:export-xdpi="381"
@@ -345,9 +345,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="637.29056"
-     inkscape:cy="829.04303"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="273.27824"
+     inkscape:cy="431.60424"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3130,25 +3130,6 @@
       </g>
     </g>
     <g
-       id="g1586"
-       transform="translate(-35.532116,69.923728)"
-       inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Marker\liegen.png"
-       inkscape:export-xdpi="406.39999"
-       inkscape:export-ydpi="406.39999">
-      <rect
-         style="fill:none"
-         id="rect1501"
-         width="35.433071"
-         height="35.433071"
-         x="82.8694"
-         y="554.16138" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path1576"
-         d="m 103.88328,556.32397 v 10.89199 h 6.91904 l -10.21638,12.1697 -10.216391,-12.1697 h 6.917253 v -10.88124 a 15.733055,15.733055 0 0 0 -12.433135,15.3649 15.733055,15.733055 0 0 0 15.732273,15.73227 15.733055,15.733055 0 0 0 15.73227,-15.73227 15.733055,15.733055 0 0 0 -12.43493,-15.37565 z"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.37289381;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
        id="g1636"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Marker\feuerbereitschaft.png"
        inkscape:export-xdpi="406.39999"
@@ -3572,6 +3553,316 @@
                  sodipodi:nodetypes="cccc" />
             </g>
           </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g1491"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\schnell.png"
+       inkscape:export-xdpi="399.30743"
+       inkscape:export-ydpi="399.30743">
+      <circle
+         r="18.031223"
+         cy="1000.5438"
+         cx="336.22928"
+         id="path1416"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         style="fill:#ffffff"
+         id="g1434"
+         transform="matrix(0.87629529,0,0,0.87629529,-75.848619,541.81447)">
+        <path
+           sodipodi:nodetypes="cccc"
+           inkscape:connector-curvature="0"
+           id="path1430"
+           d="m 457.00005,514.61218 13.25,8.875 -13.25,8.875 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.39999998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 470.25005,514.61218 13.25,8.875 -13.25,8.875 z"
+           id="path1432"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+      </g>
+    </g>
+    <g
+       id="g1666"
+       transform="translate(1.1186218,1)"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\schock.png"
+       inkscape:export-xdpi="399.30743"
+       inkscape:export-ydpi="399.30743">
+      <circle
+         r="18.031223"
+         cy="999.54382"
+         cx="382.76965"
+         id="circle1418"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         id="g1474"
+         transform="matrix(0.84586728,0,0,0.84586728,-153.56689,787.25406)"
+         style="fill:#ffffff">
+        <circle
+           r="10.874998"
+           cy="258.17001"
+           cx="634.20551"
+           id="circle1444"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.41873622;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           r="1.9445436"
+           cy="255.42999"
+           cx="630.20892"
+           id="circle1446"
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.76598406;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.23215485;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle1448"
+           cx="637.72192"
+           cy="255.42999"
+           r="3.3587573" />
+        <path
+           inkscape:transform-center-y="-0.15895233"
+           inkscape:transform-center-x="0.3900269"
+           d="m 628.74639,247.15659 -3.65169,-0.97289 -2.87164,2.45664 -0.20317,-3.77361 -3.22378,-1.97195 3.52613,-1.35933 0.87923,-3.67537 2.38243,2.9335 3.76718,-0.29955 -2.0537,3.17232 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="false"
+           sodipodi:arg2="1.3471485"
+           sodipodi:arg1="0.71883"
+           sodipodi:r2="2.8454049"
+           sodipodi:r1="5.6908097"
+           sodipodi:cy="243.40916"
+           sodipodi:cx="624.46362"
+           sodipodi:sides="5"
+           id="path1450"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="star" />
+        <path
+           transform="matrix(0.4578894,0.4578894,-0.4578894,0.4578894,461.57112,-160.20206)"
+           sodipodi:type="star"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1452"
+           sodipodi:sides="5"
+           sodipodi:cx="646.20715"
+           sodipodi:cy="243.9395"
+           sodipodi:r1="5.6908097"
+           sodipodi:r2="2.8454049"
+           sodipodi:arg1="0.71883"
+           sodipodi:arg2="1.3471485"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 650.48992,247.68692 -3.65169,-0.97288 -2.87164,2.45663 -0.20317,-3.7736 -3.22378,-1.97195 3.52613,-1.35933 0.87923,-3.67537 2.38243,2.93349 3.76718,-0.29955 -2.0537,3.17233 z"
+           inkscape:transform-center-x="-0.075750747"
+           inkscape:transform-center-y="0.27908251" />
+        <path
+           inkscape:transform-center-y="-0.27396173"
+           inkscape:transform-center-x="-0.45644892"
+           d="m 650.48992,247.68692 -3.65169,-0.97288 -2.87164,2.45663 -0.20317,-3.7736 -3.22378,-1.97195 3.52613,-1.35933 0.87923,-3.67537 2.38243,2.93349 3.76718,-0.29955 -2.0537,3.17233 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="false"
+           sodipodi:arg2="1.3471485"
+           sodipodi:arg1="0.71883"
+           sodipodi:r2="2.8454049"
+           sodipodi:r1="5.6908097"
+           sodipodi:cy="243.9395"
+           sodipodi:cx="646.20715"
+           sodipodi:sides="5"
+           id="path1454"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="star"
+           transform="matrix(-0.14071003,1.3210697,-1.3210697,-0.14071003,1050.5573,-579.04437)" />
+      </g>
+    </g>
+    <g
+       id="g1531"
+       transform="translate(48.2247)"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\feuerbereitschaft.png"
+       inkscape:export-xdpi="399.30743"
+       inkscape:export-ydpi="399.30743">
+      <circle
+         r="18.031223"
+         cy="1000.5438"
+         cx="430.9816"
+         id="circle1420"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         id="g1509"
+         transform="matrix(0.84511785,0,0,0.84511785,375.46792,483.79042)"
+         style="stroke:#ffffff;stroke-width:1.13793099">
+        <circle
+           r="5.4759464"
+           cy="611.45721"
+           cx="65.6875"
+           id="circle1495"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.55172396;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           style="stroke:#ffffff;stroke-width:1.19402003"
+           transform="matrix(1,0,0,0.90825688,0,55.869959)"
+           id="g1501">
+          <path
+             style="fill:none;stroke:#ffffff;stroke-width:4.77608013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 65.6875,591.26968 v 14.875"
+             id="path1497"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1499"
+             d="m 65.6875,617.26968 v 14.875"
+             style="fill:none;stroke:#ffffff;stroke-width:4.77608013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           id="g1507"
+           transform="matrix(0,1,-0.90825688,0,621.27475,545.76971)"
+           style="stroke:#ffffff;stroke-width:1.19402003">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1503"
+             d="m 65.6875,591.26968 v 14.875"
+             style="fill:none;stroke:#ffffff;stroke-width:4.77608013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:none;stroke:#ffffff;stroke-width:4.77608013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 65.6875,617.26968 v 14.875"
+             id="path1505"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g1593"
+       transform="translate(-0.28283691)"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\abwehrhaltung.png"
+       inkscape:export-xdpi="399.30743"
+       inkscape:export-ydpi="399.30743">
+      <circle
+         r="18.031223"
+         cy="1000.5438"
+         cx="527.14813"
+         id="circle1424"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         style="stroke-width:1.89913619"
+         transform="matrix(0.72651078,0,0,0.72651078,340.38363,512.34789)"
+         id="g1555">
+        <g
+           transform="matrix(-0.77815071,-0.6280776,-0.6280776,0.77815071,791.06869,319.67569)"
+           id="g1545"
+           style="fill:#ffffff;stroke-width:1.89913619">
+          <path
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 192.06256,596.64471 h 4.6875 v 28.125 l -2.34375,7.375 -2.34375,-7.375 z"
+             id="path1537"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccc" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1540"
+             width="11.8125"
+             height="2.5"
+             x="188.50006"
+             y="594.51971" />
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1542"
+             width="2.7588835"
+             height="6.5"
+             x="193.02687"
+             y="588.26971" />
+        </g>
+        <g
+           id="g1553"
+           transform="rotate(-38.908433,314.05314,551.84287)"
+           style="fill:#ffffff;stroke-width:1.89913619">
+          <path
+             sodipodi:nodetypes="cccccc"
+             inkscape:connector-curvature="0"
+             id="path1547"
+             d="m 192.06256,596.64471 h 4.6875 v 28.125 l -2.34375,7.375 -2.34375,-7.375 z"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             y="594.51971"
+             x="188.50006"
+             height="2.5"
+             width="11.8125"
+             id="rect1549"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             y="588.26971"
+             x="193.02687"
+             height="6.5"
+             width="2.7588835"
+             id="rect1551"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g1619"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\tarnung.png"
+       inkscape:export-xdpi="399.30743"
+       inkscape:export-ydpi="399.30743">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle1426"
+         cx="574.52429"
+         cy="1000.5438"
+         r="18.031223" />
+      <g
+         transform="matrix(0.91611069,0,0,0.91611069,48.196446,83.934931)"
+         id="g1612">
+        <path
+           sodipodi:nodetypes="cccccccccccccscscscscs"
+           id="path1597"
+           d="m 557.6662,1000.5438 c 0.13171,-1.09753 0.85608,-2.32677 2.17312,-3.68771 1.75605,-1.79995 3.7316,-3.24869 5.92667,-4.34622 2.89748,-1.36094 5.81691,-2.04141 8.7583,-2.04141 3.07309,0.0439 5.99252,0.7244 8.7583,2.04141 2.32677,1.18533 4.30233,2.63407 5.92667,4.34622 1.44875,1.62435 2.17312,2.85358 2.17312,3.68771 -0.13171,1.0975 -0.85608,2.3268 -2.17312,3.6877 -1.75605,1.8 -3.7316,3.2487 -5.92667,4.3462 -2.89748,1.361 -5.81691,2.0415 -8.7583,2.0415 -3.07309,-0.044 -5.99252,-0.7244 -8.7583,-2.0415 -2.32677,-1.1853 -4.30233,-2.634 -5.92667,-4.3462 -1.44875,-1.6243 -2.17312,-2.8536 -2.17312,-3.6877 z m 8.89001,0 c 0,2.1073 0.77925,3.8962 2.33776,5.3669 1.55851,1.4707 3.43529,2.206 5.63035,2.206 2.19507,0 4.07185,-0.7353 5.63036,-2.206 1.55851,-1.4707 2.33776,-3.2596 2.33776,-5.3669 0,-2.10726 -0.77925,-3.89623 -2.33776,-5.36691 -1.55851,-1.47069 -3.43529,-2.20603 -5.63036,-2.20603 -2.19506,0 -4.07184,0.73534 -5.63035,2.20603 -1.55851,1.47068 -2.33776,3.25965 -2.33776,5.36691 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+        <text
+           id="text1601"
+           y="1006.6988"
+           x="569.22534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.69574547px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1"
+           xml:space="preserve"><tspan
+             style="fill:#ffffff;stroke-width:1"
+             y="1006.6988"
+             x="569.22534"
+             id="tspan1599"
+             sodipodi:role="line">?</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1770"
+       transform="translate(-3.6033936,2.874939)"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\liegen.png"
+       inkscape:export-xdpi="399.30743"
+       inkscape:export-ydpi="399.30743">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none"
+         id="circle1422"
+         cx="435.1507"
+         cy="997.66888"
+         r="18.031223" />
+      <g
+         transform="matrix(1.1426322,0,0,1.1426322,-62.066495,-142.2997)"
+         id="g1762">
+        <path
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.49880427"
+           d="m 424.63413,1004.7321 h 21.03312 v 2.1667 h -21.03312 z"
+           id="path1670"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g1756"
+           transform="matrix(1.3546463,0,0,1.4269571,-154.32451,-427.75858)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1678"
+             d="m 435.15064,992.45979 v 7.78991"
+             style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.50025249;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="cccc"
+             inkscape:connector-curvature="0"
+             id="path1680"
+             d="m 430.56861,998.41905 h 9.16406 l -4.58203,5.45875 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6251052" />
         </g>
       </g>
     </g>
