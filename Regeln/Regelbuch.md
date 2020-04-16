@@ -1211,7 +1211,7 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf).
 
 !!! danger Komplex: Brachialer Angriff - WK+1 ⊙
 
-    Das Modell erhält +1 auf seinen Nahkampfwurf.
+    Das Modell erhält +2 auf seinen Nahkampfwurf.
     
     Sollte es den Nahkampfwurf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
 
