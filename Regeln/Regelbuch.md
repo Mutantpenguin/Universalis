@@ -81,7 +81,8 @@ Modelle werden dabei in Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
 | ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | Mech | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
 | ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
-| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
+| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
+| ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | Drohne | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis groß |
 
 ### Gruppen
 
@@ -1492,6 +1493,22 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
     Für einen Mech mit einer KO von 6.
 
     ![detonation](Grafiken/Abbildungen/detonation.png)
+
+## Drohnen
+
+!!! TODO
+
+    Haben keine AP.
+
+    Sind exakt einem "Kontroller" zugeordnet und verwenden dessen AP.
+
+    Was ist mit "Schocks"? Haben die dann eine Auswirkung?
+        
+        JA! Die bleiben so lange auf einer Drohne liegen und legen sie lahm, bis der Kontroller AP dafür ausgibt sie zu entfernen.
+
+    Neue Eigenschaft: Gibt extra AP nur für den Einsatz von Drohnen.
+
+    Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann.    
 
 ## Thaumaturgie
 
