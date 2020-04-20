@@ -52,6 +52,10 @@ TODO
 
     Das Modell darf X mal seinen Bewegungstest neu würfeln.
 
+!!! check Gecko
+
+    Kann sich auch vertikal an Geländeteilen entlang bewegen.
+
 !!! check TODO
 
     Kann die Reaktion "Beschuss Ausweichen" anwenden.
