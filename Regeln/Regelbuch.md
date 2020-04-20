@@ -438,7 +438,7 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
 !!! example Beispiel
 
-    Ein normaler Mensch erhält die Eigenschaft „Fernkampf II“.
+    Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
     
     In ihr ist beschrieben, dass das Modell den Fernkampfwurf bis zu 2 mal wiederholen darf.
 
