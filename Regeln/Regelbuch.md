@@ -82,7 +82,7 @@ Modelle werden dabei in Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
 | ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | Mech | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
 | ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
 | ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
-| ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | Drohne | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis groß |
+| ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | Drohne | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis mittel |
 
 ### Gruppen
 
@@ -1501,6 +1501,8 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
     Haben keine AP.
 
     Sind exakt einem "Kontroller" zugeordnet und verwenden dessen AP.
+    Sie werden daher gleichzeitig mit ihm in seiner Initiativephase aktiv.
+    Sie verwenden seine AGI, FK und EH.
 
     Was ist mit "Schocks"? Haben die dann eine Auswirkung?
         
