@@ -1492,3 +1492,9 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
     Für einen Mech mit einer KO von 6.
 
     ![detonation](Grafiken/Abbildungen/detonation.png)
+
+## Thaumaturgie
+
+!!! TODO
+
+    PSI und Magie ist alles Thaumaturgie
