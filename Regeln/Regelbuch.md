@@ -187,11 +187,11 @@ Jedes Modell kann eine gewisse Menge an Ausrüstung tragen, ohne, dass davon Agi
 
 Diese Tragkraft errechnet sich für Infanterie über die Konstitution (KO) im Quadrat (in Kilogramm):
 
-Tragkraft in kg = KO²{align="center"}
+    Tragkraft in kg = KO²
 
 Bei Mechs und Kolossen wird die Konstitution (KO) vor der Quadrierung verdoppelt (in Kilogramm):
 
-Tragkraft in kg = (KO*2)²{align="center"}
+    Tragkraft in kg = (KO*2)²
 
 Bis zu diesem Wert erleidet das Modell keine negativen Auswirkung, wird er überschritten werden Agilität (AGI) und Bewegung (BW) jeweils um 1 verringert.
 Wird er um das doppelte überschritten, werden beide Attribute um jeweils 2 verringert usw.
@@ -209,7 +209,7 @@ Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren **muss**.
 Der Radius in Zentimetern berechnet sich indem die Entschlossenheit von 12 abgezogen wird:
 
-Radius in cm = 12 - EH{align="center"}
+    Radius in cm = 12 - EH
 
 Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 
@@ -229,7 +229,7 @@ Misslingt dieser Test muss ein Angriff gegen die direkten Bedrohung erfolgen.
 
 Der Wahrnehmungsbereich umfasst alles im Sichtfeld des Modells bis zu einer Distanz die wie folgt berechnet wird:
 
-Distanz = WN * 5cm{align="center"}
+    Distanz = WN * 5cm
 
 ![wahrnehmungsbereich](Grafiken/Abbildungen/wahrnehmungsbereich.svg){.img_border} {align="center"}
 
@@ -250,7 +250,7 @@ Entfernungen zwischen Modellen werden immer von den Rändern der Bases gemessen.
 
 *Entfernung zwischen 2 Modellen* {align="center"}
 
-Entfernungen dürfen immer gemessen werden.
+Entfernungen zwischen Modellen dürfen immer gemessen werden.
 
 ## Aufbau der Einheitenkarte
 
@@ -908,7 +908,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 ### Waffenklassen
 
 Durch Waffenklassen wird unterschieden wie groß und damit unhandlich eine Waffe bzw. wie komplex sie zu bedienen ist.
-Je größer/komplexer desto höher die WK.
+Je größer/komplexer desto höher die Waffenklasse.
 
 Waffenklassen werden mit „WK“ abgekürzt.
 WK I steht somit für Waffen der Klasse 1.
