@@ -1512,6 +1512,8 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
 
     Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann.    
 
+    Nutzen nicht die Eigenschaften des Kontrollers, es seih denn seine Eigenschaften drücken das explizit aus.
+
 ## Thaumaturgie
 
 !!! TODO
