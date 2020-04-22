@@ -1510,9 +1510,11 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
 
     Neue Eigenschaft: Gibt extra AP nur für den Einsatz von Drohnen.
 
-    Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann.    
+    Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann.  Außerhalb tun sie nichts.   
 
     Nutzen nicht die Eigenschaften des Kontrollers, es seih denn seine Eigenschaften drücken das explizit aus.
+
+    Haben keinen eigenen Gefahrenbereich, sondern nutzen den des Kontrolleurs.
 
 ## Thaumaturgie
 
