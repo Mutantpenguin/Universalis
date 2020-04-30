@@ -1516,6 +1516,8 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
 
     Haben keinen eigenen Gefahrenbereich, sondern nutzen den des Kontrolleurs.
 
+    Werden sie zerstört gibt es eine Rückkopplung auf den Kontroller die irgendwie Schaden verursacht.
+
 ## Thaumaturgie
 
 !!! TODO
