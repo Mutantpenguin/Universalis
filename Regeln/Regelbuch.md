@@ -1497,29 +1497,77 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
 ## Drohnen
 
 Unter Drohnen wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
-Es hat keinen Willen und die Kontrolle erfolgt ausschließlich durch den "Kontrolleur".
+Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch den [Kontroller](#kontroller).
+
+Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln können und somit nicht als Drohnen funktionieren.
+
+### Kontroller
+
+Unter Kontroller versteht man alle Modelle denen eine Drohne zugeordnet ist.
+Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
+Dies geschieht vor dem Spiel und kann währenddessen nicht geändert werden.
+
+Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
+
+Seine Eigenschaften werden nur auf ihn selber angewendet, es seih denn eine Eigenschaft sagt explizit etwas anderes aus.
+
+Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
+
+!!! example Beispiele
+
+    Ein Modell verfügt über eine EH von 5.
+    Ihm kann also nur 1 Drohne zugeordnet werden.
+
+    Mit einer EH von 6 könnten ihm 2 Drohnen zugeordnet werden.
+
+### Drohnen ohne Kontroller
+
+Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder ausgeschaltet ist versuchen das Spielfeld so schnell es geht zu verlassen.
+
+Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
+
+Während jeder Aktivierung benutzen sie alle ihre AP um sich zur nächst gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
+
+Da sie dabei einem sehr rudimentärem Programm folgen ignorieren sie Bedrohungen, nutzen aber das Gelände entsprechend ihrer [Bewegungsart](#bewegungsart) korrekt aus.
+Das heist, sie springen bei ihrer Flucht nicht sinnlos von Gebäuden etc.
+
+Sobald der zugeordnete Kontroller wieder am Spielgeschehen teilnimmt funktionieren sie wieder wie gewohnt
+
+### AP von Drohnen
+
+Jede Drohne verfügt über 2 AP.
+Für sie können weitere AP verwendet werden indem die AP des zugeordneten Kontrolllers ausgegeben werden.
+
+### Attribute von Drohnen
+
+Drohnen verfügen nicht über die Attribute AGI, FK und EH.
+Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Kontrollers.
+
+### Gefahrenbereich von Drohnen
+
+Da sie über keine EH verfügen haben sie auch keinen eigenen Gefahrenbereich.
+Daraus ergibt sich, dass eine [direkte Bedrohung](#direkte-bedrohung) für sie nicht existiert.
+Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Kontrollers aktiv zu werden.
+
+### Schocks bei Drohnen
+
+[Schocks](#schock) funktionieren grundsätzlich wie bei allen anderen Modellen.
+
+Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Marker von seinen ihm zugeordneten Drohnen zu entfernen.
+
+### Zerstörung einer Drohne
+
+Sobald eine Drohne als ausgeschalten gilt kann es zu einer Rückkopplung auf den Kontroller kommen die ihm Schaden zufügt.
+
+Der Kontroller muss einen EH-Test ablegen. Misslingt dieser verliert er automatisch 1 Trefferpunkt.
+
+### Drohnen TODO
 
 !!! TODO
 
-    Haben keine AP.
-
-    Sind exakt einem "Kontroller" zugeordnet und verwenden dessen AP.
-    Sie werden daher gleichzeitig mit ihm in seiner Initiativephase aktiv.
-    Sie verwenden seine AGI, FK und EH.
-
-    Was ist mit "Schocks"? Haben die dann eine Auswirkung?
-        
-        JA! Die bleiben so lange auf einer Drohne liegen und legen sie lahm, bis der Kontroller AP dafür ausgibt sie zu entfernen.
-
     Neue Eigenschaft: Gibt extra AP nur für den Einsatz von Drohnen.
 
-    Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann.  Außerhalb tun sie nichts.   
-
-    Nutzen nicht die Eigenschaften des Kontrollers, es seih denn seine Eigenschaften drücken das explizit aus.
-
-    Haben keinen eigenen Gefahrenbereich, sondern nutzen den des Kontrolleurs.
-
-    Werden sie zerstört gibt es eine Rückkopplung auf den Kontroller die irgendwie Schaden verursacht.
+    Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann?  Außerhalb tun sie nichts?
 
 ## Thaumaturgie
 
