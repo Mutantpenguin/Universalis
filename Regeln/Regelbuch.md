@@ -1496,6 +1496,9 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
 
 ## Drohnen
 
+Unter Drohnen wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
+Es hat keinen Willen und die Kontrolle erfolgt ausschließlich durch den "Kontrolleur".
+
 !!! TODO
 
     Haben keine AP.
