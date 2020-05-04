@@ -233,8 +233,7 @@ Der Wahrnehmungsbereich umfasst alles im Sichtfeld des Modells bis zu einer Dist
 
 ![wahrnehmungsbereich](Grafiken/Abbildungen/wahrnehmungsbereich.svg){.img_border} {align="center"}
 
-*Beispiel mit einem Sichtfeld von 90° (der Pfeil stellt
-die Blickrichtung des Modells dar)* {align="center"}
+*Beispiel mit einem Sichtfeld von 90° (der Pfeil stellt die Blickrichtung des Modells dar)* {align="center"}
 
 Im [Kritischen Zustand](#kritischer-zustand) wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
 
@@ -1097,6 +1096,15 @@ Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 ### Indirekter Fernkampf
 
 TODO
+
+Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
+Er muss sich aber im [Sichtfeld](#sichtfeld) befinden.
+
+TODO anderes Modell kann den Punkt einsehen ist einfacher
+TODO getroffene Modelle immer Deckung Stufe II
+TODO Stufe I wenn durch anderes Modell einsehbar?
+
+Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
 
 ![indirekt](Grafiken/Waffe/indirekt.png){width="40pt"} {align="center"}
 
