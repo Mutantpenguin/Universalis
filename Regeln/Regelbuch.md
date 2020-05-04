@@ -1545,7 +1545,7 @@ Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordn
 
 ### Gefahrenbereich von Drohnen
 
-Da sie über keine EH verfügen haben sie auch keinen eigenen Gefahrenbereich.
+Da sie über keine EH verfügen haben sie auch keinen eigenen [Gefahrenbereich](#gefahrenbereich).
 Daraus ergibt sich, dass eine [direkte Bedrohung](#direkte-bedrohung) für sie nicht existiert.
 Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Kontrollers aktiv zu werden.
 
