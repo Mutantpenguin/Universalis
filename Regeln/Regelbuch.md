@@ -518,13 +518,20 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
     
     Der Schütze erhält -1 auf seinen Fernkampfwurf.
 
-### Fallen
+### Herunterfallen
 
-Ein fallendes Modell erleidet automatisch einen Treffer mit folgendem Schadensprofil:
+Ein Modell welches fällt kann unter Umständen Schaden erleiden.
 
-|Typ|Stärke|Schaden|
+Bis zu einer Fallhöhe in Höhe seines [Größenprofils](#größe) passiert nichts.
+Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
+Darüber hinaus erleidet er automatisch einen Treffer.
+
+Der Treffer hat eine Stärke in Höhe der KO des gefallenen Modells.
+
+|Fallhöhe|Schadenstyp|Schaden|
 |:--:|:--:|:--:|
-|Schlag|TODO|TODO
+| **bis einschliesslich** doppeltem Größenprofil | Schlag I | 2 |
+| **größer als** doppeltes Größenprofil | Schlag II | 4 |
 
 ### Vertikale Bewegung
 
@@ -532,8 +539,9 @@ Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen.
 
 ### Klettern
 
-Jedes Modell kann ohne spezielle Ausrüstung über Hindernisse bis zu seinem doppelten [Größenprofil](#größe) klettern.
-Die vertikale Distanz wird dafür aber doppelt berechnet.
+Jedes Modell kann ohne spezielle Ausrüstung auf oder herunter von Hindernissen bis zu seinem doppelten [Größenprofil](#größe) klettern.
+
+Die vertikale Distanz wird dafür doppelt berechnet.
 
 ### Schnelle Bewegungen
 
