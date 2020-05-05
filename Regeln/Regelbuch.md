@@ -147,7 +147,7 @@ Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen best
 
 ### Trefferpunkte
 
-Sie steht für die Menge an Schaden, die ein Modells einstecken kann, bevor es aus dem Spiel entfernt wird.
+Sie steht für die Menge an [Schaden](#schadensanwendung), die ein Modells einstecken kann, bevor es aus dem Spiel entfernt wird.
 
 Die maximale Menge an Trefferpunkten, über die ein Modell verfügen kann, liegt bei 20.
 
