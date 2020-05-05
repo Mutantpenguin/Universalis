@@ -1499,7 +1499,8 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion welche eine Fläche mit einem Radius in Höhe der KO umfasst.
 
 Der Schadenstyp ist dabei immer Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
-Der Schaden liegt bei KO geteilt durch 2 (gerundet). Zusätzlich wirkt der Schadenseffekt „Explosiv“.
+Der Schaden liegt bei KO geteilt durch 2 (gerundet).
+Zusätzlich wirkt der Schadenseffekt „Explosiv“.
 
 Nach der Detonation wird das Modell vom Spielfeld entfernt.
 
