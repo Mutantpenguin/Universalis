@@ -933,7 +933,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
     Für eine Schockgranate die 2x verwendet werden kann.
 
-    ![detonation](Grafiken/Abbildungen/einmalnutzung_waffe.jpg)
+    ![Einmalnutzung Waffe](Grafiken/Abbildungen/einmalnutzung_waffe.jpg)
 
 ### Beispiele
 
@@ -1407,7 +1407,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
     Für ein medizinisches Spray das 3x verwendet werden kann.
 
-    ![detonation](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg)
+    ![Einmalnutzung Ausrüstung](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg)
 
 ## Mechs & Kolosse
 
