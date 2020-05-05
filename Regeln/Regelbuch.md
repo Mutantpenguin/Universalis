@@ -1217,7 +1217,7 @@ Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffenen Tr
 
 ### Erlaubte Waffen
 
-Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf).
+Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
 
 ### Aktionen: Nahkampf
 
