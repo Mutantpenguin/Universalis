@@ -1095,14 +1095,13 @@ Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 
 ### Indirekter Fernkampf
 
-TODO
-
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 Er muss sich aber im [Sichtfeld](#sichtfeld) befinden.
 
-TODO anderes Modell kann den Punkt einsehen ist einfacher
-TODO getroffene Modelle immer Deckung Stufe II
-TODO Stufe I wenn durch anderes Modell einsehbar?
+Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -4.
+Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -2 angewendet.
+
+Dadurch getroffene Modelle werden immer so behandelt als ob sie sich in Deckung Stufe II befinden.
 
 Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
 
