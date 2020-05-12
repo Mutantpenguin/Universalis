@@ -450,6 +450,19 @@ Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden. Mehrere au
 
 Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
 
+### Bewegungsart
+
+Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
+
+|Symbol|Name|Bedeutung|
+|:--:|--|--|
+|![antigrav](Grafiken/Bewegung/antigrav.png){width="40pt"}|Schweben| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
+|![fuss](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.|
+|![flug](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden. TODO Beschränkung bei Drehungen?|
+|![kette](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|Bewegungstests für Passierbarkeit dürfen einmal wiederholt werden.|
+|![rad](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
+|![stationär](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|Kann nicht bewegt werden.|
+
 ### Bewegungstest
 
 Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen durchgeführt werden.
@@ -569,17 +582,6 @@ Die Kosten jeder Bewegungsaktion innerhalb eines Geländetyps werden um die ents
 
 Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Kosten um 1⊙ verringert.
 Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
-
-### Bewegungsart
-
-|Symbol|Name|Bedeutung|
-|:--:|--|--|
-|![antigrav](Grafiken/Bewegung/antigrav.png){width="40pt"}|Antigrav| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
-|![fuss](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.|
-|![flug](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.|
-|![kette](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|Bewegungstests für Passierbarkeit dürfen einmal wiederholt werden.|
-|![rad](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
-|![stationär](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|Kann nicht bewegt werden.|
 
 ## Gelände
 
