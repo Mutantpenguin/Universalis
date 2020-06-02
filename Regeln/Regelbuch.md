@@ -924,7 +924,7 @@ WK I steht somit für Waffen der Klasse 1.
 
 ### Schwerfällige Waffen
 
-Manche Waffen sind schwerfällig können dadurch im [Fernkampf](#schwerfällige-waffen-im-fernkampf) und [Nahkampf](#schwerfällige-waffen-im-nahkampf) nur mit Einschränkungen verwendet werden.
+Manche Waffen sind schwerfällig und können dadurch im [Fernkampf](#schwerfällige-waffen-im-fernkampf) und [Nahkampf](#schwerfällige-waffen-im-nahkampf) nur mit Einschränkungen verwendet werden.
 
 Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
 
