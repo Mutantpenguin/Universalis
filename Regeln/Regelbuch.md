@@ -1275,7 +1275,8 @@ Sie erhalten beim Nahkampfwurf einen Malus von -3, es seih denn der Gegner verwe
 
 ### Größenunterschiede
 
-Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen Nahkampfwurf.
+Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen Nahkampfwurf für jede Stufe des Unterschieds.
+Siehe auch [Größenprofil](#größe).
 
 ### Nahkampf mit getarnten Modellen
 
