@@ -44,7 +44,7 @@ TODO
 
 ### Was braucht man
 
-Ein Tisch mit einer Größe von mindestens 90cm * 90cm.
+Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
 
 Ein Maßband mit Markierungen in cm.
 
