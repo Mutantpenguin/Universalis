@@ -1260,7 +1260,8 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
 ### Bonus für den Angreifer
 
-Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er Bonus von +1 auf den Nahkampfwurf. Dies gilt nur wenn der Verteidiger sich nicht in der Abwehrhaltung befindet.
+Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf den Nahkampfwurf.
+Dies gilt nur wenn der Verteidiger sich nicht in Abwehrhaltung befindet.
 
 Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 
