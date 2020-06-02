@@ -94,6 +94,10 @@ TODO
 
     Kann die Aktion "Brachialer Angriff" anwenden.
 
+!!! check TODO
+
+    Ignoriert die Nachteile von schwerfälligen Nahkampfwaffen.
+
 ## Fernkampf
 
 !!! check Adlerauge
