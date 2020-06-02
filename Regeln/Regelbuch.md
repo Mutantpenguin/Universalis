@@ -1258,6 +1258,10 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
     
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
+!!! warning Komplex: Entwaffnen - WK ⊙
+
+    !!! todo
+
 ### Bonus für den Angreifer
 
 Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf den Nahkampfwurf.
