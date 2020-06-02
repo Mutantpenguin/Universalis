@@ -76,7 +76,7 @@ Jedes Modell verfügt über eine [Einheitenkarte](#einheitenkarte) und ist immer
 
 Modelle werden dabei in Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
 
-| Symbol | Name | Beschreibung | [Größe](#größe) |
+| Symbol | Name | Beschreibung | [Größenprofil](#größenprofil) |
 |--|--|--|--|
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
 | ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | Mech | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
@@ -151,9 +151,9 @@ Sie steht für die Menge an [Schaden](#schadensanwendung), die ein Modells einst
 
 Die maximale Menge an Trefferpunkten, über die ein Modell verfügen kann, liegt bei 20.
 
-### Größe
+### Größenprofil
 
-Modelle werden in 3 verschiedene Größen gegliedert:
+Modelle werden in 4 verschiedene Größenprofile gegliedert:
 
 | Symbol | Name | Beschreibung | Base | Höhe |
 |--|--|--|--|--|
@@ -163,7 +163,7 @@ Modelle werden in 3 verschiedene Größen gegliedert:
 | ![riesig](Grafiken/Größe/riesig.svg){width=40pt} | riesig | Alles höher als einschließlich 3,5m. | 50mm | 8cm |
 
 Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
-Dieses *Größenprofil* eines Modell ist somit eher abstrakt.
+Das Größenprofil eines Modell ist somit also abstrakt und entspricht nicht dem tatsächlichen Modell.
 
 Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Gliedmassen etc. für bspw. Sichtlinien keine Rolle mehr spielen.
 
@@ -266,7 +266,7 @@ Entfernungen zwischen Modellen dürfen immer gemessen werden.
 7. Punkte
 8. [Gefahrenbereich](#gefahrenbereich)
 9. [Wahrnehmungsbereich](#wahrnehmungsbereich)
-10. [Größe](#größe)
+10. [Größenprofil](#größenprofil)
 11. [Bewegungsart](#bewegungsart)
 12. Gesamtgewicht
 13. [Schadenstypen](#schadens--und-verteidigungstypen)
@@ -535,7 +535,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
 Ein Modell welches fällt kann unter Umständen Schaden erleiden.
 
-Bis zu einer Fallhöhe in Höhe seines [Größenprofils](#größe) passiert nichts.
+Bis zu einer Fallhöhe in Höhe seines [Größenprofils](#größenprofil) passiert nichts.
 Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
 Darüber hinaus erleidet er automatisch einen Treffer.
 
@@ -552,7 +552,7 @@ Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen.
 
 ### Klettern
 
-Jedes Modell kann ohne spezielle Ausrüstung auf oder herunter von Hindernissen bis zu seinem doppelten [Größenprofil](#größe) klettern.
+Jedes Modell kann ohne spezielle Ausrüstung auf oder herunter von Hindernissen bis zu seinem doppelten [Größenprofil](#größenprofil) klettern.
 
 Die vertikale Distanz wird dafür doppelt berechnet.
 
@@ -1276,7 +1276,7 @@ Sie erhalten beim Nahkampfwurf einen Malus von -3, es seih denn der Gegner verwe
 ### Größenunterschiede
 
 Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen Nahkampfwurf für jede Stufe des Unterschieds.
-Siehe auch [Größenprofil](#größe).
+Siehe auch [Größenprofil](#größenprofil).
 
 ### Nahkampf mit getarnten Modellen
 
