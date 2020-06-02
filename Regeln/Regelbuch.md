@@ -1270,7 +1270,7 @@ Für jedes befreundete Modell, welches die Base des gegnerischen Modells berühr
 
 ### Schwerfällige Waffen im Nahkampf
 
-Sie erhalten beim Verteidigungswurf einen Malus von -2.
+Sie erhalten beim Angriffs- und Verteidigungswurf einen Malus von -3, es seih denn der Gegner verwendet auch eine schwerfällige Waffe.
 
 ### Größenunterschiede
 
