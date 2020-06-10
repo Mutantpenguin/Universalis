@@ -1593,6 +1593,8 @@ Der Kontroller muss einen EH-Test ablegen. Misslingt dieser verliert er automati
 
     Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann?  Außerhalb tun sie nichts?
 
+    AGI, FK und EH als "Bonus" auf die Werte des Kontrollers benutzen?
+
 ## Thaumaturgie
 
 !!! TODO
