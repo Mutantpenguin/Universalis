@@ -1227,7 +1227,7 @@ Nun wird die folgende Tabelle konsultiert:
 |Gleichstand|TODO|
 |Angreifer|Der Angreifer landet einen Treffer. TODO Spielt die Differenz eine Rolle?|
 
-Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffenen Trefferzone ausgewürfelt werden.
+Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
 
 ### Erlaubte Waffen
 
