@@ -1181,12 +1181,11 @@ Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die
 
 ![radius](Grafiken/Waffe/radius.svg){width="40pt"} {align="center"}
 
-Wenn bei einer Flächenwaffe der Fernkampfwurf misslingt, wird der W12 mit dem kleinsten Wert genommen und mit dem zu erreichenden Wert verglichen.
+Wenn bei einer Flächenwaffe der Fernkampfwurf misslingt, wird der gewürfelte Wert mit dem zu erreichenden verglichen.
 Die Differenz * 3cm gibt an, wie weit der Trefferpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
 Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
-
 Der Trefferpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
 
 Wenn die Trefferschablone die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
