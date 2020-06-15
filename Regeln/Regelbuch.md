@@ -109,7 +109,8 @@ Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwende
 
 Der [Aufbau der Einheitenkarte](#aufbau-der-einheitenkarte) geht näher auf die einzelnen Elemente ein.
 
-Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen. So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
+Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
+So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
 
 ### Aktionspunkte
 
@@ -122,7 +123,8 @@ Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Z
 
 ### Attribute
 
-Attribute sind die Werte eines Modells, die sich auf seine körperlichen  Eigenschaften beziehen. Diese können sowohl angeboren als auch antrainiert sein.
+Attribute sind die Werte eines Modells, die sich auf seine körperlichen  Eigenschaften beziehen.
+Diese können sowohl angeboren als auch antrainiert sein.
 
 Im [Kritischen Zustand](#kritischer-zustand) werden die Attribute um 1 verringert.
 
@@ -282,14 +284,16 @@ Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
 
 ### Attributs-Wurf
 
-Attributs-Würfe werden in der Form [Attributskürzel]-Wurf angegeben. So wird für einen Attributs-Wurf auf Konstitution nur „KO-Wurf“ geschrieben.
+Attributs-Würfe werden in der Form [Attributskürzel]-Wurf angegeben.
+So wird bspw. für einen Attributs-Wurf auf Konstitution nur „KO-Wurf“ geschrieben.
 
 Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
 Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
 
 Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
 
-Der Wurf wird mit 1W12 durchgeführt. Sofern das Ergebnis unter/gleich dem Wert liegt is es ein Erfolg, ansonsten ein Misserfolg.
+Der Wurf wird mit 1W12 durchgeführt.
+Sofern das Ergebnis unter/gleich dem Wert liegt is es ein Erfolg, ansonsten ein Misserfolg.
 
 ### Vergleichender Wurf
 
@@ -319,7 +323,8 @@ Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
 
 ### Missionsauswahl
 
-Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus. Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
+Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus.
+Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
 
 Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenommen.
 Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftlich gelöst werden.
@@ -335,7 +340,8 @@ Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an geg
 
 ### Runden
 
-Innerhalb einer Runde hat jedes Modell eine Initiative-Phase. Die Runde ist erst dann beendet, wenn jedes Modell seine Initiative-Phase durchgeführt hat.
+Innerhalb einer Runde hat jedes Modell eine Initiative-Phase.
+Die Runde ist erst dann beendet, wenn jedes Modell seine Initiative-Phase durchgeführt hat.
 
 #### Rundenbeginn
 
@@ -446,7 +452,8 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
 Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann das Modell entsprechend bewegt werden.
 
-Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden. Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
+Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden.
+Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
 
 Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
 
@@ -475,7 +482,8 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
 !!! danger Normale Bewegung - 1-2 ⊙
 
-    Das Modell bewegt sich entsprechend seiner BW in cm. Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es liegt.
+    Das Modell bewegt sich entsprechend seiner BW in cm.
+    Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es liegt.
 
 !!! danger Hinlegen - 1 ⊙
 
@@ -548,7 +556,8 @@ Der Treffer hat eine Stärke in Höhe der KO des gefallenen Modells.
 
 ### Vertikale Bewegung
 
-Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen. Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
+Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen.
+Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 
 ### Klettern
 
@@ -623,7 +632,8 @@ Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche So
 So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
 Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
 
-Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet. Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
+Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet.
+Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
 
 Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp befindet.
 
@@ -694,7 +704,8 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
 
 Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländeteilen unnötig zu erhöhen.
 
-So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden. Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
+So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden.
+Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
 
 Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländetypen.
 
@@ -1019,7 +1030,8 @@ blah blah yadda yadda
 
 ### Fernkampfwurf
 
-Dies ist ein normaler FK-Wurf. Bei Erfolg wurde das Ziel getroffen.
+Dies ist ein normaler FK-Wurf.
+Bei Erfolg wurde das Ziel getroffen.
 
 Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
 
@@ -1036,7 +1048,8 @@ Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Tre
         Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
         Jede weitere Aktion beendet die Feuerbereitschaft automatisch.
 
-    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft. Es verliert sie dann automatisch.
+    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
+    Es verliert sie dann automatisch.
 
 !!! danger Komplex: Gezielter Schuss - WK+2 ⊙
 
@@ -1239,9 +1252,11 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
         Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
         Jede weitere Aktion beendet die Abwehrhaltung automatisch.
 
-    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Abwehrhaltung. Es verliert sie dann automatisch.
+    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Abwehrhaltung.
+    Es verliert sie dann automatisch.
 
-    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung. Das Modell verliert danach automatisch seine Abwehrhaltung.
+    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
+    Das Modell verliert danach automatisch seine Abwehrhaltung.
 
 ### Reaktionen: Nahkampf
 
@@ -1359,7 +1374,8 @@ Pro Initiativephase darf pro getarntem Modell nur einmal für Aufklärung getest
 
 Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden.
 Zusätzlich muss ein Aufklärungstest durchgeführt werden, welcher um die Stufe der Tarnung erschwert ist.
-Dies ist ein normaler WN-Wurf. Bei Erfolg wurde das getarnte Modell aufgeklärt.
+Dies ist ein normaler WN-Wurf.
+Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
 Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werden.
 
@@ -1470,7 +1486,8 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 
 - **Rumpf**
 
-    Wie bei Infanterie. Siehe [Kritischer Zustand](#kritischer-zustand).
+    Wie bei Infanterie.
+    Siehe [Kritischer Zustand](#kritischer-zustand).
 
 - **Arme**
 
@@ -1487,11 +1504,13 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
     Sinkt in sich zusammen und gilt als ausgeschalten.
     Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.
 
-    Für Mechs muss nun ein KO-Wurf durchgeführt werden. Falls er misslingt [detoniert](#detonation) er.
+    Für Mechs muss nun ein KO-Wurf durchgeführt werden.
+    Falls er misslingt [detoniert](#detonation) er.
 
 - **Arme**
 
-    Der Arm wird zerstört und die Waffe kann nicht mehr verwendet werden. Außerdem wird die AGI um 1 verringert.
+    Der Arm wird zerstört und die Waffe kann nicht mehr verwendet werden.
+    Außerdem wird die AGI um 1 verringert.
 
 - **Beine**
 
@@ -1582,7 +1601,8 @@ Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Run
 
 Sobald eine Drohne als ausgeschalten gilt kann es zu einer Rückkopplung auf den Kontroller kommen die ihm Schaden zufügt.
 
-Der Kontroller muss einen EH-Test ablegen. Misslingt dieser verliert er automatisch 1 Trefferpunkt.
+Der Kontroller muss einen EH-Test ablegen.
+Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
 ### Drohnen TODO
 
@@ -1591,6 +1611,8 @@ Der Kontroller muss einen EH-Test ablegen. Misslingt dieser verliert er automati
     Neue Eigenschaft: Gibt extra AP nur für den Einsatz von Drohnen.
 
     Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann?  Außerhalb tun sie nichts?
+
+    AGI, FK und EH als "Bonus" auf die Werte des Kontrollers benutzen?
 
 ## Thaumaturgie
 
