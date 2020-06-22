@@ -1260,6 +1260,16 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
 ### Reaktionen: Nahkampf
 
+!!! warning TODO - WK-1 ⊙
+
+    !!! note ""
+
+        Bedingungen:
+
+        Kann durchgeführt werden, wenn das Modell in Basekontakt sich weg bewegt.
+    
+    TODO ein freier Schlag?
+
 !!! warning Komplex: Riposte - WK ⊙
 
     !!! note ""
