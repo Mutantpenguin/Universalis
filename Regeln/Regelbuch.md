@@ -1299,7 +1299,7 @@ Für jedes befreundete Modell, welches die Base des gegnerischen Modells berühr
 
 ### Schwerfällige Waffen im Nahkampf
 
-Ein Angreifer erhält beim Nahkampfwurf einen Malus von -3, es seih denn der Gegner verwendet auch eine schwerfällige Waffe.
+Wenn ein Modell eine oder mehrere schwerfällige Waffen trägt, erleidet es im Nahkampf einen Malus von -3.
 
 ### Größenunterschiede
 
