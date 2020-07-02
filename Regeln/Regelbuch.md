@@ -1041,7 +1041,7 @@ Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Tre
 
     Das Modell führt einen normalen Fernkampfwurf aus.
 
-!!! danger Feuerbereitschaft - 1 ⊙
+!!! danger Feuerbereitschaft - 2 ⊙
 
     !!! note ""
 
@@ -1064,7 +1064,7 @@ Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Tre
 
 ### Reaktionen: Fernkampf
 
-!!! warning Reaktionsfeuer - WK+1 ⊙
+!!! warning Reaktionsfeuer - WK ⊙
 
     !!! note ""
 
