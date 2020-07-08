@@ -123,7 +123,7 @@ Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Z
 
 ### Attribute
 
-Attribute sind die Werte eines Modells, die sich auf seine körperlichen  Eigenschaften beziehen.
+Attribute sind die Werte eines Modells, die sich auf seine körperlichen Eigenschaften beziehen.
 Diese können sowohl angeboren als auch antrainiert sein.
 
 Im [Kritischen Zustand](#kritischer-zustand) werden die Attribute um 1 verringert.
