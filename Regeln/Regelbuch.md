@@ -1224,8 +1224,8 @@ Nun wird die folgende Tabelle konsultiert:
 |Höheres Ergebnis|Auswirkungen|
 |--|--|
 |Verteidiger|Angriff abgewehrt, nichts passiert.|
-|Gleichstand|TODO|
-|Angreifer|Der Angreifer landet einen Treffer. TODO Spielt die Differenz eine Rolle?|
+|Gleichstand|Das Modell mit der höheren AGI gewinnt|
+|Angreifer|Der Angreifer landet einen Treffer.|
 
 Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
 
