@@ -1221,11 +1221,11 @@ Sollte eines der Modelle über eine AGI von 0 verfügen gewinnt automatisch das 
 
 Nun wird die folgende Tabelle konsultiert:
 
-|Höheres Ergebnis|Auswirkungen|
-|--|--|
-|Verteidiger|Angriff abgewehrt, nichts passiert.|
-|Gleichstand|Das Modell mit der höheren AGI gewinnt|
-|Angreifer|Der Angreifer landet einen Treffer.|
+| Höheres Ergebnis | Auswirkungen                           |
+| ---------------- | -------------------------------------- |
+| Verteidiger      | Angriff abgewehrt, nichts passiert.    |
+| Gleichstand      | Das Modell mit der höheren AGI gewinnt |
+| Angreifer        | Der Angreifer landet einen Treffer.    |
 
 Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
 
@@ -1318,11 +1318,11 @@ Der Schadenstyp ist dabei immer Schlag und die Stärke entspricht der Konstituti
 Der Schaden berechnet sich durch die KO geteilt durch 3 (gerundet).
 Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe des Modells.
 
-|Größe des Modells|Stufe des Schadenstyp|Waffenklasse|
-|:--:|:--:|:--:|
-|klein bis mittel|1|I|
-|groß|2|II|
-|riesig|3|III|
+| Größe des Modells | Stufe des Schadenstyp | Waffenklasse |
+| :---------------: | :-------------------: | :----------: |
+| klein bis mittel  |           1           |      I       |
+|       groß        |           2           |      II      |
+|      riesig       |           3           |     III      |
 
 !!! example Beispiel
 
