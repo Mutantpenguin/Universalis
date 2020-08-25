@@ -960,45 +960,45 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 #### WK I {align=center}
 
-|Nahkampf|Fernkampf|
-|:--:|:--:|
-|Knüppel|Maschinenpistole|
-|Messer|Pistole|
-| |Schleuder|
-| |Wurfstern|
+| Nahkampf |    Fernkampf     |
+| :------: | :--------------: |
+| Knüppel  | Maschinenpistole |
+|  Messer  |     Pistole      |
+|          |    Schleuder     |
+|          |    Wurfstern     |
 
 #### WK II {align=center}
 
-|Nahkampf|Fernkampf|
-|:--:|:--:|
-|Morgenstern|Armbrust|
-|Schwert|Bogen|
-|Speer|Gewehr|
-| |Speer|
+|  Nahkampf   | Fernkampf |
+| :---------: | :-------: |
+| Morgenstern | Armbrust  |
+|   Schwert   |   Bogen   |
+|    Speer    |  Gewehr   |
+|             |   Speer   |
 
 #### WK III {align=center}
 
-|Nahkampf|Fernkampf|
-|:--:|:--:|
-|Axt|Granatwerfer|
-|Hellebarde|Maschinengewehr|
-|Vorschlaghammer| |
-|Zweihänder| |
+|    Nahkampf     |    Fernkampf    |
+| :-------------: | :-------------: |
+|       Axt       |  Granatwerfer   |
+|   Hellebarde    | Maschinengewehr |
+| Vorschlaghammer |                 |
+|   Zweihänder    |                 |
 
 #### WK IV {align=center}
 
-|Nahkampf|Fernkampf|
-|:--:|:--:|
-|Kettensäge|Panzerfaust|
-| |Scharfschützengewehr|
+|  Nahkampf  |      Fernkampf       |
+| :--------: | :------------------: |
+| Kettensäge |     Panzerfaust      |
+|            | Scharfschützengewehr |
 
 #### WK V {align=center}
 
-|Nahkampf|Fernkampf|
-|:--:|:--:|
-|Abrissbirne|Arbalest|
-| |Lafettengeschütz|
-| |Panzerkanone|
+|  Nahkampf   |    Fernkampf     |
+| :---------: | :--------------: |
+| Abrissbirne |     Arbalest     |
+|             | Lafettengeschütz |
+|             |   Panzerkanone   |
 
 ## Verteidigung
 
