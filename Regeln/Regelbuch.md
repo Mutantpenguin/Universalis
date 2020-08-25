@@ -1134,19 +1134,19 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 #### Größe des Ziels
 
-|Typ|Modifikator|
-|:--:|:--:|
-|kleines Ziel|-1|
-|mittleres Ziel|±0|
-|großes Ziel|+1|
-|riesiges Ziel|+2|
+|      Typ       | Modifikator |
+| :------------: | :---------: |
+|  kleines Ziel  |     -1      |
+| mittleres Ziel |     ±0      |
+|  großes Ziel   |     +1      |
+| riesiges Ziel  |     +2      |
 
 #### Deckung des Ziels
 
-|Stufe|Modifikator|
-|:--:|:--:|
-|I|-1|
-|II|-2|
+| Stufe | Modifikator |
+| :---: | :---------: |
+|   I   |     -1      |
+|  II   |     -2      |
 
 #### Schwerfällige Waffen im Fernkampf
 
