@@ -225,7 +225,7 @@ Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst vo
 Sie können nicht einfach ignoriert und müssen stattdessen angegriffen werden.
 
 Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen EH-Test bestehen.
-Misslingt dieser Test muss ein Angriff gegen die direkten Bedrohung erfolgen.
+Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen.
 
 ### Wahrnehmungsbereich
 
