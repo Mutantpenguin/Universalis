@@ -639,23 +639,23 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
 
 !!! summary Dickicht
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |1|Stufe I|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       1        | Stufe I |
 
 !!! summary Gebäude
 
     Alle intakten Gebäude fallen unter diesen Geländetyp.
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |0|Stufe I|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       0        | Stufe I |
 
 !!! summary Krater
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|Stufe I|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       2        | Stufe I |
 
     Die Deckung wikt nur gegen Beschuss außerhalb.
 
@@ -663,24 +663,24 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
 
     Alle teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
     
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |1|Stufe I|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       1        | Stufe I |
 
     Wenn ein stehendes Modell sich bewegt muss ein Bewegungstest durchgeführt werden.
     Bei Misslingen stürzt das Modell und gilt als liegend.
 
 !!! summary Straße
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |0|-|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       0        |    -    |
 
 !!! summary Sumpf
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|-|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       2        |    -    |
 
 !!! summary Unpassierbar
 
@@ -688,17 +688,17 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
 
 !!! summary Wald
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|Stufe II|
+    | Passierbarkeit | Deckung  |
+    | :------------: | :------: |
+    |       2        | Stufe II |
 
     Der Wahrnehmungsbereich aller Modelle wird halbiert.
 
 !!! summary Wasser
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|-|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       2        |    -    |
 
 ### Umgebungsbedingungen
 
