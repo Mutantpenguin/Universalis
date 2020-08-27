@@ -667,9 +667,6 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
     | :------------: | :-----: |
     |       1        | Stufe I |
 
-    Wenn ein stehendes Modell sich bewegt muss ein Bewegungstest durchgeführt werden.
-    Bei Misslingen stürzt das Modell und gilt als liegend.
-
 !!! summary Straße
 
     | Passierbarkeit | Deckung |
