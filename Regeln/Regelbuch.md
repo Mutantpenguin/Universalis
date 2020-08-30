@@ -331,7 +331,7 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 
 ### Aufstellen der Modelle
 
-Beide Spieler führen einen vergleichenden Wurf durch wobei jeweils die AGI des Grupenführers addiert wird.
+Beide Spieler führen einen vergleichenden Wurf auf die AGI des jeweiligen Gruppenführers durch.
 
 Der Gewinner des Wurfs markiert entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
 Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
