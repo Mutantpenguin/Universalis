@@ -134,18 +134,19 @@ Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen best
 
 | Kürzel | Name | Beschreibung |
 |:--:|--|--|
-|AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. [Nahkampf](#nahkampf) und [Reaktionen](#reaktionen).|
+|AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. [Reaktionen](#reaktionen).|
 |BW|Bewegung|Gibt an, wie weit sich ein Modell bewegen kann. Siehe [Bewegung](#bewegung).|
 |KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. [Schock](#schock) und [Tragkraft](#tragkraft).|
+|NK|Nahkampf|Stellt die Nahkampffähigkeit des Modells dar. Siehe [Nahkampf](#nahkampf).|
 |FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe [Fernkampf](#fernkampf).|
 |WN|Wahrnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. [Wahrnehmungsbereich](#wahrnehmungsbereich), [Tarnung](#tarnung) und [Bewegungstests](#bewegungstest).|
 |EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. [Gefahrenbereich](#gefahrenbereich).|
 
 !!! example Beispiel normaler Mensch
 
-    | AGI | BW | KO | FK | WN | EH |
-    |:--:|:--:|:--:|:--:|:--:|:--:|
-    | 4 | 4 | 3 | 2 | 3 | 3 |
+    | AGI | BW | KO | NK | FK | WN | EH |
+    |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+    | 4 | 4 | 3 | 2 | 2 | 3 | 3 |
 
 ### Trefferpunkte
 
@@ -331,7 +332,7 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 
 ### Aufstellen der Modelle
 
-Beide Spieler führen einen vergleichenden Wurf auf die AGI des jeweiligen Gruppenführers durch.
+Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
 
 Der Gewinner des Wurfs markiert entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
 Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
@@ -1212,9 +1213,9 @@ Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base 
 
 ### Nahkampfwurf
 
-Beide Spieler führen einen vergleichenden Wurf auf AGI durch.
+Beide Spieler führen einen vergleichenden Wurf auf NK durch.
 
-Sollte eines der Modelle über eine AGI von 0 verfügen gewinnt automatisch das Andere.
+Sollte eines der Modelle über NK von 0 verfügen gewinnt automatisch das Andere.
 
 Nun wird die folgende Tabelle konsultiert:
 
@@ -1517,7 +1518,7 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 - **Arme**
 
     Der Arm wird zerstört und die Waffe kann nicht mehr verwendet werden.
-    Außerdem wird die AGI um 1 verringert.
+    Außerdem werden AGI und NK um 1 verringert.
 
 - **Beine**
 
@@ -1589,7 +1590,7 @@ Für sie können weitere AP verwendet werden indem die AP des zugeordneten Kontr
 
 ### Attribute von Drohnen
 
-Drohnen verfügen nicht über die Attribute AGI, FK und EH.
+Drohnen verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Kontrollers.
 
 ### Gefahrenbereich von Drohnen
@@ -1619,7 +1620,7 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
     Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann?  Außerhalb tun sie nichts?
 
-    AGI, FK und EH als "Bonus" auf die Werte des Kontrollers benutzen?
+    AGI, NK, FK und EH als "Bonus" auf die Werte des Kontrollers benutzen?
 
 ## Thaumaturgie
 
