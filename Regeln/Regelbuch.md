@@ -900,7 +900,7 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkung“ nur den halbierten (abgerundeten) Schaden zu.|
+|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ nur den halbierten (abgerundeten) Schaden zu.|
 
 ### Verteidigungseffekte
 
