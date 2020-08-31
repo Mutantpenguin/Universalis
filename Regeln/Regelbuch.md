@@ -116,10 +116,14 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 Jedes Modell verfügt über 6 Aktionspunkte pro Runde, die in verschiedenen Phasen des Spiels für Aktionen und Reaktionen ausgegeben werden können.
 
-Die Kosten in Aktionspunkten werden immer mit diesem Zeichen angegeben: ⊙
+Sie werden in der Regel als "AP" abgekürzt.
+
+Die Kosten in Aktionspunkten werden immer mit dem Zeichen ⊙ angegeben.
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer-zustand) verfällt.
+
+**Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.**
 
 ### Attribute
 
@@ -377,6 +381,8 @@ Für jede Mission werden die Siegesbedingungen überprüft und das Spiel gegeben
 
 Sollte es weitergehen werden die nicht verbrauchten AP jedes Modells halbiert (abgerundet) und mit in die nächste Runde übernommen.
 Hier bietet es sich an einen W6 in der korrekten Farbe (siehe [Kritischer Zustand](#kritischer-zustand)) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
+Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
+Siehe dazu auch [Aktionspunkte](#aktionspunkte).
 
 ## Aktionen und Reaktionen
 
