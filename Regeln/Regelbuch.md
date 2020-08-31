@@ -782,6 +782,19 @@ Rüstungen werden immer durch ein oder mehrere Rüstungstypen (z.B. Stich), den 
 
 ### Schadens- / Rüstungstypen
 
+Schadens- und Rüstungstypen beschreiben, welche Art von Schaden verursacht wird bzw. abgewehrt werden kann.
+
+Es gibt die folgenden Typen:
+
+|Symbol|Name|Bedeutung|
+|--|--|--|
+|![kinetisch](Grafiken/Schadenstyp/typ_kinetik.png){width=40pt}|Kinetik|Alles das irgendwie als Projektil bezeichnet werden kann.|
+|![schlag](Grafiken/Schadenstyp/typ_schlag.png){width=40pt}|Schlag|Jede stumpfe Gewalteinwirkung.|
+|![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
+|![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
+
+### Stufen der Schadens- / Rüstungstypen
+
 Schadens- und Rüstungstypen haben eine minimale Stufe von 1 und eine maximal Stufe von 3.
 Jede Stufe wird durch ein „+“ rechts vom eigentlichen Symbol für den Typen dargestellt.
 Symbole für Schadenstypen werden dabei immer in rot, und Rüstungstypen immer in grün dargestellt.
@@ -793,12 +806,22 @@ Symbole für Schadenstypen werden dabei immer in rot, und Rüstungstypen immer i
     |Schaden kinetisch|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_3.png){width=40pt}|
     |Rüstung schnitt|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_3.png){width=40pt}|
 
+### Schaden / Stärke / Schutz
+
+Sie werden mit den folgenden Symbolen ausgewiesen:
+
+|Symbol|Name|Bedeutung|
+|:--:|--|--|
+|![stärke](Grafiken/Waffe/stärke.png){width="40pt"}|Stärke|Es stellt die effektive Wirkungshöhe von Schaden dar.|
+|![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|Es stellt die effektive Wirkungshöhe der Rüstung dar.|
+|![schaden](Grafiken/Waffe/schaden.png){width="40pt"}|Schaden|Es stellt den effektiven Verlust an Trefferpunkten am Modell dar.|
+
 ### Schadens- / Rüstungseffekte
 
-Ein Schadens- oder Rüstungsprofil kann über keine oder mehrere Effekte verfügen.
+Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 
 Beim Schadenswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
-Ein im Rüstungsprofil enthaltener Schadenseffekt neutralisiert diesen und er kommt nicht zur Anwendung.
+Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im Schadensprofil vorkommenden Effekt, so dass dieser nicht zur Anwendung kommt.
 
 !!! example Beispiel
 
@@ -806,15 +829,31 @@ Ein im Rüstungsprofil enthaltener Schadenseffekt neutralisiert diesen und er ko
     Der Angreifer dürfte nun normalerweise seine Würfel einmal neu würfeln.
     Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
 
-### Symbolerläuterung
+### Übersicht der Schadens- und Rüstungseffekte
 
-Diese Symbole sind auf der Einheitenkarte zu finden.
+|Symbol|Name|Auswirkungen|
+|--|--|--|
+|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach gewonnenem Schadenswurf permanent um 2 gesenkt.|
+|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Schadenswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
+|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
+|![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
+|![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch Deckung oder Tarnung zustande kommen werden nicht angewendet.|
+|![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwendet werden muss.|
 
-|Symbol|Name|Bedeutung|
-|:--:|--|--|
-|![schaden](Grafiken/Waffe/schaden.png){width="40pt"}|Schaden|Es stellt den effektiven Verlust an Trefferpunkten am Modell dar.|
-|![stärke](Grafiken/Waffe/stärke.png){width="40pt"}|Stärke|Es stellt die effektive Wirkungshöhe der Waffe dar.|
-|![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|Es stellt die effektive Wirkungshöhe der Rüstung dar.|
+### Übersicht der reinen Schadenseffekte
+
+|Symbol|Name|Auswirkungen|
+|--|--|--|
+|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ nur den halbierten (abgerundeten) Schaden zu.|
+
+### Übersicht der reinen Rüstungseffekte
+
+|Symbol|Name|Auswirkungen|
+|--|--|--|
+|![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf einmal neu würfeln, wobei das neue Wurfergebnis genommen werden muss.|
+|TODO|Schockabsorbierend|TODO|
+|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Schadens- und Rüstungswurf
 
@@ -851,65 +890,31 @@ Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nich
 Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Trefferpunkte besitzt erleidet er einen [Schock](#schock).
 Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen [kritischen Zustand](#kritischer-zustand).
 
-Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
-
 ### Schock
 
 Wenn ein Modell einen Schock erleidet muss es einen KO-Wurf ablegen.
 Misslingt dieser verliert es sofort 1 AP.
-Wenn es über keine AP mehr verfügt erhält es stattdessen einen Schock-Marker.
+Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Marker.
 
 Ein Modell mit Schock-Markern verliert zum Beginn einer Runde automatisch 1 AP pro Marker woraufhin diese Marker entfernt werden.
 Sollten noch Schock-Marker übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Marker bis zur nächsten Runde um dann abgezogen zu werden.
 
 ### Kritischer Zustand
 
-Der kritische Zustand wird automatisch angewendet.
+Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als die Hälfte seiner maximalen Trefferpunkte besitzt.
+
+Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
 
 Ein Modell kann nur einmal in den kritischen Zustand verfallen.
 Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
 
-Der weiße W6 für die Anzeige der Aktionspunkte wird für das Modell gegen einen roten W6 ausgetauscht.
+Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
 
-!!! TODO KO-Wurf um AP-Verlust zu verhindern?
+Das Modell erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
 
-Das Modell verliert sofort 2 AP und erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
-Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
-
-### Schadens- und Rüstungstypen
-
-|Symbol|Name|Bedeutung|
-|--|--|--|
-|![kinetisch](Grafiken/Schadenstyp/typ_kinetik.png){width=40pt}|Kinetik|Alles das irgendwie als Projektil bezeichnet werden kann.|
-|![schlag](Grafiken/Schadenstyp/typ_schlag.png){width=40pt}|Schlag|Jede stumpfe Gewalteinwirkung.|
-|![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
-|![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
-
-### Übersicht der Schadens- und Rüstungseffekte
-
-|Symbol|Name|Auswirkungen|
-|--|--|--|
-|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach gewonnenem Schadenswurf permanent um 2 gesenkt.|
-|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Schadenswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
-|![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
-|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
-|![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
-|![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch Deckung oder Tarnung zustande kommen werden nicht angewendet.|
-|![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwendet werden muss.|
-
-### Schadenseffekte
-
-|Symbol|Name|Auswirkungen|
-|--|--|--|
-|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ nur den halbierten (abgerundeten) Schaden zu.|
-
-### Rüstungseffekte
-
-|Symbol|Name|Auswirkungen|
-|--|--|--|
-|![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf einmal neu würfeln, wobei das neue Wurfergebnis genommen werden muss.|
-|TODO|Schockabsorbierend|TODO|
-|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
+Es muss außerdem muss einen KO-Wurf ablegen.
+Misslingt dieser verliert es sofort 2 AP.
+Wenn es über keine oder zu wenige AP mehr verfügt erhält es stattdessen Schock-Marker in der jeweiligen Menge.
 
 ## Waffen
 
