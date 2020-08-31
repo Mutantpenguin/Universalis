@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,37 +7,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="10mm"
-   height="10mm"
-   viewBox="0 0 10 10"
-   version="1.1"
+   sodipodi:docname="liegen.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg2663"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="liegen.svg">
+   version="1.1"
+   viewBox="0 0 10 10"
+   height="10mm"
+   width="10mm">
   <defs
      id="defs2657" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="17.551416"
-     inkscape:cy="12.710568"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="-8"
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="-8"
+     inkscape:window-height="1057"
+     inkscape:window-width="1920"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="16.748448"
+     inkscape:cx="31.305534"
+     inkscape:zoom="5.6"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata2660">
     <rdf:RDF>
@@ -48,49 +47,45 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Ebene 1"
-     inkscape:groupmode="layer"
+     transform="translate(-84.431619,-144.73803)"
      id="layer1"
-     transform="translate(-84.431619,-144.73803)">
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
     <g
-       id="g1770"
-       transform="matrix(0.27729677,0,0,0.27729677,-31.234263,-126.91233)"
-       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\liegen.png"
-       inkscape:export-xdpi="399.30743"
-       inkscape:export-ydpi="399.30743">
+       id="g849">
       <circle
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none"
+         r="5"
+         cy="149.73802"
+         cx="89.431618"
          id="circle1422"
-         cx="435.1507"
-         cy="997.66888"
-         r="18.031223" />
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.314416;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
-         transform="matrix(1.1426322,0,0,1.1426322,-62.066495,-142.2997)"
-         id="g1762">
+         id="g1762"
+         transform="matrix(0.31684822,0,0,0.31684822,-48.445102,-166.90075)">
         <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.49880427"
-           d="m 424.63413,1004.7321 h 21.03312 v 2.1667 h -21.03312 z"
+           inkscape:connector-curvature="0"
            id="path1670"
-           inkscape:connector-curvature="0" />
+           d="m 424.63413,1004.7321 h 21.03312 v 2.1667 h -21.03312 z"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.498804" />
         <g
-           id="g1756"
-           transform="matrix(1.3546463,0,0,1.4269571,-154.32451,-427.75858)">
+           transform="matrix(1.3546463,0,0,1.4269571,-154.32451,-427.75858)"
+           id="g1756">
           <path
-             inkscape:connector-curvature="0"
-             id="path1678"
+             style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.50025;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="m 435.15064,992.45979 v 7.78991"
-             style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.50025249;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+             id="path1678"
+             inkscape:connector-curvature="0" />
           <path
-             sodipodi:nodetypes="cccc"
-             inkscape:connector-curvature="0"
-             id="path1680"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.625105"
              d="m 430.56861,998.41905 h 9.16406 l -4.58203,5.45875 z"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6251052" />
+             id="path1680"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccc" />
         </g>
       </g>
     </g>
