@@ -918,7 +918,7 @@ Wenn es über keine oder zu wenige AP mehr verfügt erhält es stattdessen Schoc
 
 ## Waffen
 
-Waffen verfügen über ein Schadensprofil.
+Waffen verfügen über ein [Schadensprofil](#schadensprofil).
 
 ### Fernkampfwaffen
 
@@ -1007,7 +1007,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 TODO
 
-Rüstungen verfügen über ein Rüstungsprofil.
+Rüstungen verfügen über ein [Rüstungsprofil](#rüstungsprofil).
 
 ### Selbsttragend
 
