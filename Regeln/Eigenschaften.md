@@ -76,7 +76,7 @@ TODO
 
 !!! check Defensive Haltung
 
-    Kann die Aktion "Abwehrhaltung" anwenden.
+    Kann die Aktion "Verteidigungshaltung" anwenden.
 
 !!! check Gegenangriff
 

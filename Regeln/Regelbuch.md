@@ -62,7 +62,7 @@ Des weiteren werden Marker für die folgenden Status benötigt:
 |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
 |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
 |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
-|![abwehrhaltung](Grafiken/Marker/abwehrhaltung.svg){width="40pt"}|[Abwehrhaltung](#aktionen:-nahkampf)|
+|![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
 |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
 
 ### Fraktion
@@ -1241,18 +1241,18 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
     
     Sollte es den Nahkampfwurf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
 
-!!! danger Komplex: Abwehrhaltung - 2 ⊙
+!!! danger Komplex: Verteidigungshaltung - 2 ⊙
 
     !!! note ""
 
         Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
-        Jede weitere Aktion beendet die Abwehrhaltung automatisch.
+        Jede weitere Aktion beendet die Verteidigungshaltung automatisch.
 
-    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Abwehrhaltung.
+    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigungshaltung.
     Es verliert sie dann automatisch.
 
     Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
-    Das Modell verliert danach automatisch seine Abwehrhaltung.
+    Das Modell verliert danach automatisch seine Verteidigungshaltung.
 
 ### Reaktionen: Nahkampf
 
@@ -1285,7 +1285,7 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 ### Bonus für den Angreifer
 
 Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf den Nahkampfwurf.
-Dies gilt nur wenn der Verteidiger sich nicht in Abwehrhaltung befindet.
+Dies gilt nur wenn der Verteidiger sich nicht in Verteidigungshaltung befindet.
 
 Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 
