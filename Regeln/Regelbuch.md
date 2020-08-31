@@ -272,10 +272,10 @@ Entfernungen zwischen Modellen dürfen immer gemessen werden.
 10. [Größenprofil](#größenprofil)
 11. [Bewegungsart](#bewegungsart)
 12. Gesamtgewicht
-13. [Schadenstypen](#schadens--und-verteidigungstypen)
-14. [Verteidigungstypen](#schadens--und-verteidigungstypen)
-15. [Schadenseffekte](#übersicht-der-schadens--und-verteidigungseffekte)
-16. [Verteidigungseffekte](#übersicht-der-schadens--und-verteidigungseffekte)
+13. [Schadenstypen](#schadens--und-rüstungstypen)
+14. [Rüstungstypen](#schadens--und-rüstungstypen)
+15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte)
+16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte)
 
 ## Würfelwürfe
 
@@ -618,7 +618,7 @@ Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
 Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
 
-Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Verteidigungswürfe bei Fernkampf.
+Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe bei Fernkampf.
 
 ### Geländeteil
 
@@ -761,7 +761,7 @@ Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländety
 
     Jede landgestüzte Bewegung ist erschwert.
 
-## Schadens- & Verteidigungsprofile
+## Schadens- & Rüstungsprofile
 
 Verschiedene Spielmechaniken erzeugen Schaden.
 Dies kann ein Modell sein das ein anderes Modell beschießt oder im Nahkampf angreift oder auch Effekte die im Spiel auftreten.
@@ -774,31 +774,31 @@ Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), die 
 
 ![schadensprofil](Grafiken/Abbildungen/schadensprofil.png)
 
-### Verteidigungsprofil
+### Rüstungsprofil
 
-Verteidigung wird immer durch ein oder mehrere Verteidigungstypen (z.B. Stich), den Schutz und eventuellen Effekten angegeben.
+Rüstungen werden immer durch ein oder mehrere Rüstungstypen (z.B. Stich), den Schutz und eventuellen Effekten angegeben.
 
-![verteidigungsprofil](Grafiken/Abbildungen/verteidigungsprofil.png)
+![rüstungsprofil](Grafiken/Abbildungen/rüstungsprofil.png)
 
-### Schadens- / Verteidigungstypen
+### Schadens- / Rüstungstypen
 
-Schadens- und Verteidigungstypen haben eine minimale Stufe von 1 und eine maximal Stufe von 3.
+Schadens- und Rüstungstypen haben eine minimale Stufe von 1 und eine maximal Stufe von 3.
 Jede Stufe wird durch ein „+“ rechts vom eigentlichen Symbol für den Typen dargestellt.
-Symbole für Schadenstypen werden dabei immer in rot, und Verteidigungstypen immer in grün dargestellt.
+Symbole für Schadenstypen werden dabei immer in rot, und Rüstungstypen immer in grün dargestellt.
 
 !!! example Beispiel
 
     |Typ|Stufe 1|Stufe 2|Stufe 3|
     |--|:--:|:--:|:--:|
-    |Schaden kinetisch|![verteidigungsprofil](Grafiken/Schadenstyp/Schaden_1.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Schaden_2.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Schaden_3.png){width=40pt}|
-    |Verteidigung schnitt|![verteidigungsprofil](Grafiken/Schadenstyp/Verteidigung_1.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Verteidigung_2.png){width=40pt}|![verteidigungsprofil](Grafiken/Schadenstyp/Verteidigung_3.png){width=40pt}|
+    |Schaden kinetisch|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_3.png){width=40pt}|
+    |Rüstung schnitt|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_3.png){width=40pt}|
 
-### Schadens- / Verteidigungseffekte
+### Schadens- / Rüstungseffekte
 
-Ein Schadens- oder Verteidigungsprofil kann über keine oder mehrere Effekte verfügen.
+Ein Schadens- oder Rüstungsprofil kann über keine oder mehrere Effekte verfügen.
 
-Beim Schadenswurf und Verteidigungswurf werden alle zutreffenden Effekte des Schadensprofils und Verteidigungsprofils angewendet.
-Ein im Verteidigungsprofil enthaltener Schadenseffekt neutralisiert diesen und er kommt nicht zur Anwendung.
+Beim Schadenswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
+Ein im Rüstungsprofil enthaltener Schadenseffekt neutralisiert diesen und er kommt nicht zur Anwendung.
 
 !!! example Beispiel
 
@@ -816,11 +816,11 @@ Diese Symbole sind auf der Einheitenkarte zu finden.
 |![stärke](Grafiken/Waffe/stärke.png){width="40pt"}|Stärke|Es stellt die effektive Wirkungshöhe der Waffe dar.|
 |![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|Es stellt die effektive Wirkungshöhe der Rüstung dar.|
 
-### Schadens- und Verteidigungswurf
+### Schadens- und Rüstungswurf
 
 Beide Spieler führen einen vergleichenden Wurf durch.
 Der Angreifer addiert die Stärke seiner Waffe, dies wird auch *Schadenswurf* genannt.
-Der Verteider addiert den Schutz seiner Rüstung, dies wird auch *Verteidigungswurf* genannt.
+Der Verteider addiert den Schutz seiner Rüstung, dies wird auch *Rüstungswurf* genannt.
 
 Hierbei müssen auch alle Effekte angewendet werden.
 
@@ -828,8 +828,8 @@ Hierbei müssen auch alle Effekte angewendet werden.
 
     Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
 
-    Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Verteidigungsprofil vorhanden ist und addiert dessen Stufe.
-    Ohne entsprechenden Verteidigungstyp bekommt er keinen Bonus.
+    Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Rüstungsprofil vorhanden ist und addiert dessen Stufe.
+    Ohne entsprechenden Rüstungstyp bekommt er keinen Bonus.
 
 Nun wird die folgende Tabelle konsultiert:
 
@@ -876,7 +876,7 @@ Der weiße W6 für die Anzeige der Aktionspunkte wird für das Modell gegen eine
 Das Modell verliert sofort 2 AP und erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
 Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 
-### Schadens- und Verteidigungstypen
+### Schadens- und Rüstungstypen
 
 |Symbol|Name|Bedeutung|
 |--|--|--|
@@ -885,16 +885,16 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 |![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
 |![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
 
-### Übersicht der Schadens- und Verteidigungseffekte
+### Übersicht der Schadens- und Rüstungseffekte
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
 |![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach gewonnenem Schadenswurf permanent um 2 gesenkt.|
 |![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Schadenswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
 |![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
-|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Verteidigungswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
+|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
 |![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
-|![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Verteidigungswurf die durch Deckung oder Tarnung zustande kommen werden nicht angewendet.|
+|![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch Deckung oder Tarnung zustande kommen werden nicht angewendet.|
 |![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwendet werden muss.|
 
 ### Schadenseffekte
@@ -903,7 +903,7 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen Schock-Marker.
 |--|--|--|
 |![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ nur den halbierten (abgerundeten) Schaden zu.|
 
-### Verteidigungseffekte
+### Rüstungseffekte
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
@@ -998,15 +998,13 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 |             | Lafettengeschütz |
 |             |   Panzerkanone   |
 
-## Verteidigung
-
-### Rüstung
+## Rüstung
 
 TODO
 
-Rüstungen verfügen über ein Verteidigungsprofil.
+Rüstungen verfügen über ein Rüstungsprofil.
 
-#### Selbsttragend
+### Selbsttragend
 
 Das Gewicht von selbsttragenden Rüstungen wird für die [Tragkraft](#tragkraft) eines Modells ignoriert.
 
@@ -1014,9 +1012,9 @@ Das Gewicht von selbsttragenden Rüstungen wird für die [Tragkraft](#tragkraft)
 
 Unter Schilden versteht man alle Arten von „Platten“ die zur Verteidigung getragen werden.
 
-Schilde geben dem Träger +1W12 beim Verteidigungswurf im Nahkampf und gegen jeden Beschuss der das Modell aus einem 180° Bereich von vorne trifft.
+Schilde geben dem Träger +1W12 beim Rüstungswurf im Nahkampf und gegen jeden Beschuss der das Modell aus einem 180° Bereich von vorne trifft.
 
-!!! TODO Stattdessen Verteidigungswurf wiederholen?
+!!! TODO Stattdessen Rüstungswurf wiederholen?
 
 !!! TODO Modell hat nur noch eine Hand frei?
 
@@ -1357,7 +1355,7 @@ Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Rund
 
 #### Besondere Vorteile von aktiver Tarnung
 
-Aktiv getarnte Modelle erhalten immer einen Bonus von +1 auf ihren Verteidigungswurf, egal ob sie aufgeklärt sind oder nicht.
+Aktiv getarnte Modelle erhalten immer einen Bonus von +1 auf ihren Rüstungswurf, egal ob sie aufgeklärt sind oder nicht.
 
 Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren Nahkampfwurf.
 
