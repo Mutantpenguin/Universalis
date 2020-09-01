@@ -114,7 +114,7 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 ### Aktionspunkte
 
-Jedes Modell verfügt über 6 Aktionspunkte pro Runde, die in verschiedenen Phasen des Spiels für Aktionen und Reaktionen ausgegeben werden können.
+Modelle verfügen über Aktionspunkte, die in verschiedenen Phasen des Spiels für Aktionen und Reaktionen ausgegeben werden können.
 
 Sie werden in der Regel als "AP" abgekürzt.
 
@@ -122,6 +122,8 @@ Die Kosten in Aktionspunkten werden immer mit dem Zeichen ⊙ angegeben.
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer-zustand) verfällt.
+
+Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 AP.
 
 **Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.**
 
@@ -350,7 +352,7 @@ Die Runde ist erst dann beendet, wenn jedes Modell seine Initiative-Phase durchg
 
 #### Rundenbeginn
 
-Zu Beginn jeder Runde werden die AP jedes Modells wieder auf 6⊙ aufgefüllt.
+Zu Beginn jeder Runde werden die AP jedes Modells wieder aufgefüllt.
 Nicht verbrauchte AP aus der Vorrunde werden halbiert (abgerundet) und addiert.
 
 Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 1 AP.
