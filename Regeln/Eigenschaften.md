@@ -60,6 +60,24 @@ TODO
 
     Kann die Reaktion "Beschuss Ausweichen" anwenden.
 
+## Fernkampf
+
+!!! check Adlerauge
+
+    Kann die Aktion "Gezielter Schuss" anwenden.
+
+!!! check Aus der Hüfte
+
+    Kann die Aktion "Schnellschuss" anwenden.
+
+!!! check Bewährter Fernkämpfer | 1 - 3
+
+    Das Modell darf X mal seinen Fernkampfwurf neu würfeln.
+
+!!! check Revolverheld
+
+    Kann mit einer Aktion gleichzeitig 2 Waffen der Klasse I abfeuern.
+
 ## Nahkampf
 
 !!! check Bewährter Nahkämpfer | 1 - 3
@@ -98,24 +116,6 @@ TODO
 
     Ignoriert die Nachteile von schwerfälligen Nahkampfwaffen.
 
-## Fernkampf
-
-!!! check Adlerauge
-
-    Kann die Aktion "Gezielter Schuss" anwenden.
-
-!!! check Aus der Hüfte
-
-    Kann die Aktion "Schnellschuss" anwenden.
-
-!!! check Bewährter Fernkämpfer | 1 - 3
-
-    Das Modell darf X mal seinen Fernkampfwurf neu würfeln.
-
-!!! check Revolverheld
-
-    Kann mit einer Aktion gleichzeitig 2 Waffen der Klasse I abfeuern.
-
 ## Schaden & Verteidigung
 
 !!! check Abgehärtet
@@ -130,12 +130,6 @@ TODO
 
     Jeder erlittene Schaden wird um 1 verringert.
 
-## Tarnung
-
-!!! check TODO
-
-    Kann die Aktion "Aufklärungsunterstützung" anwenden.
-
 ## Sonstiges
 
 !!! check Glück
@@ -145,3 +139,9 @@ TODO
 !!! fail Pech
 
     Kann pro Runde einmal vom Gegner gezwungen werden einen beliebigen eigenen Würfelwurf neu durchführen.
+
+## Tarnung
+
+!!! check TODO
+
+    Kann die Aktion "Aufklärungsunterstützung" anwenden.
