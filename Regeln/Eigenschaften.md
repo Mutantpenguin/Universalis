@@ -60,6 +60,12 @@ TODO
 
     Kann die Reaktion "Beschuss Ausweichen" anwenden.
 
+## Drohnen
+
+!!! check Multitasking | 1 - 3
+
+    Das Modell hat X zusätzliche AP, die es aber nur für seine Drohnen ausgeben darf.
+
 ## Fernkampf
 
 !!! check Adlerauge

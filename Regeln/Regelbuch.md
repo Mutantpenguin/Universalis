@@ -1628,10 +1628,6 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
 !!! TODO
 
-    Neue Eigenschaft: Gibt extra AP nur für den Einsatz von Drohnen.
-
-    Kontroller hat eine Reichweite, in der er seine Drohnen steuern kann?  Außerhalb tun sie nichts?
-
     AGI, NK, FK und EH als "Bonus" auf die Werte des Kontrollers benutzen?
 
 ## Thaumaturgie
