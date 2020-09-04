@@ -278,8 +278,8 @@ Entfernungen zwischen Modellen dürfen immer gemessen werden.
 10. [Größenprofil](#größenprofil)
 11. [Bewegungsart](#bewegungsart)
 12. Gesamtgewicht
-13. [Schadenstypen](#schadens--und-rüstungstypen)
-14. [Rüstungstypen](#schadens--und-rüstungstypen)
+13. [Schadenstypen](#schadens--/-rüstungstypen)
+14. [Rüstungstypen](#schadens--/-rüstungstypen)
 15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte)
 16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte)
 
