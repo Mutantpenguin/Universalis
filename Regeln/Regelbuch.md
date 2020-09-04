@@ -815,7 +815,7 @@ Symbole für Schadenstypen werden dabei immer in rot, und Rüstungstypen immer i
     |Schaden kinetisch|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_3.png){width=40pt}|
     |Rüstung schnitt|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_3.png){width=40pt}|
 
-### Schaden / Stärke / Schutz
+### Stärke / Schutz / Schaden
 
 Sie werden mit den folgenden Symbolen ausgewiesen:
 
