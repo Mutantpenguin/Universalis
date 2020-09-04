@@ -40,53 +40,48 @@ Dies ist kein Turniersystem und der Spaß steht im Vordergrund.
 
 TODO
 
-## Das Spiel
+* Alle Modelle erlaubt.
+* WYSIWYG ist zwar toll, aber es geht ja nicht immer alles.
 
-### Was braucht man
+## Was braucht man
 
-Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
+* Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
 
-Ein Maßband mit Markierungen in cm.
+* Ausreichend [Geländeteile](#geländeteil) um die Fläche gut zu füllen.
+
+* Ein Maßband mit Markierungen in Zentimetern.
 
 ![Maßband](Grafiken/Abbildungen/maßband.svg){width="200pt"} {align="center"}
 
-Einen W12 und pro Modell jeweils einen weißen und einen roten W6.
+* Für jeden Spieler mindestens 2 [Modelle](#modelle) und dazugehörige [Einheitenkarten](#einheitenkarte).
+
+* Mindestens einen W12 und pro Modell jeweils mindestens einen weißen und einen roten W6.
+Mehr Würfel schaden nie.
 
 ![W12 weiß](Grafiken/Abbildungen/w12_weiß.svg){width="50pt"} ![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"} ![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
-Des weiteren werden Marker für die folgenden Status benötigt:
+* Des weiteren werden Marker für die folgenden Status benötigt:
 
-|Symbol|Bedeutung|
-|:--:|--|
-|![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
-|![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
-|![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
-|![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
-|![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
-|![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
+    |Symbol|Bedeutung|
+    |:--:|--|
+    |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
+    |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
+    |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
+    |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
+    |![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
+    |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
 
-### Fraktion
+    Die einzelnen Status werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
-Die verschiedenen Länder der bekannten Erde haben sich, mehr oder weniger
-freiwillig, zu grundverschiedenen Bündnissen zusammengeschlossen.
+## Das Spiel
 
-### Modelle
+### Fraktionen
 
-Jedes Modell verfügt über eine [Einheitenkarte](#einheitenkarte) und ist immer in einer [Gruppe](#gruppen) organisiert.
-
-Modelle werden dabei in Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
-
-| Symbol | Name | Beschreibung | [Größenprofil](#größenprofil) |
-|--|--|--|--|
-| ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
-| ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | Mech | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
-| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | Koloss | Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
-| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
-| ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | Drohne | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis mittel |
+Jeder Spieler entscheidet sich für eine Fraktion, mit deren Einheiten er eine Gruppe aufbauen möchte.
 
 ### Gruppen
 
-Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr Modellen.
+Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr [Modellen](#modelle).
 
 Jeder Spieler verfügt über genau 1 Gruppe die genau 1 Gruppenführer beinhalten muss.
 
@@ -96,63 +91,93 @@ Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
 
 Der Gruppenführer einer Gruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und [Reihenfolge innerhalb einer Runde](#reihenfolge-innerhalb-der-runde) zu bestimmen.
 
-Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie ein Stellvertreter bestimmt wird.
+Jede Fraktion hat dazu ihre eigene Regelung wer der Gruppenführer ist und wie ein Stellvertreter bestimmt wird.
 
 ### Einheitenkarte
 
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
 Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten [Ausrüstung](#ausrüstung) und [Eigenschaften](#eigenschaften).
 
-![einheitenkarte](Grafiken/Abbildungen/einheitenkarte.jpg){width="400pt"} {align="center"}
-
-*Beispiel einer Einheitenkarte* {align="center"}
-
-Der [Aufbau der Einheitenkarte](#aufbau-der-einheitenkarte) geht näher auf die einzelnen Elemente ein.
-
 Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
 So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
 
-### Aktionspunkte
+#### Aufbau der Einheitenkarte
 
-Modelle verfügen über Aktionspunkte, die in verschiedenen Phasen des Spiels für Aktionen und Reaktionen ausgegeben werden können.
+![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg){.img_border} {align="center"}
 
-Sie werden in der Regel als "AP" abgekürzt.
+1. [Fraktion](#fraktion)
+2. [Trefferpunkte](#trefferpunkte)
+3. Name des Modells
+4. [Typ des Modells](#modelle)
+5. [Attribute](#attribute)
+6. Outfit, also Ausstattungsvariante
+7. Punkte
+8. [Gefahrenbereich](#gefahrenbereich)
+9. [Wahrnehmungsbereich](#wahrnehmungsbereich)
+10. [Größenprofil](#größenprofil)
+11. [Bewegungsart](#bewegungsart)
+12. Gesamtgewicht
+13. [Schadenstypen](#schadens--/-rüstungstypen)
+14. [Rüstungstypen](#schadens--/-rüstungstypen)
+15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte)
+16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte)
 
-Die Kosten in Aktionspunkten werden immer mit dem Zeichen ⊙ angegeben.
+## Modelle
 
-Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
-Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer-zustand) verfällt.
-
-Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 AP.
-
-**Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.**
-
-### Attribute
-
-Attribute sind die Werte eines Modells, die sich auf seine körperlichen Eigenschaften beziehen.
-Diese können sowohl angeboren als auch antrainiert sein.
-
-Im [Kritischen Zustand](#kritischer-zustand) werden die Attribute um 1 verringert.
+Alle im Spiel vorhandenen Einheiten die auch über eine [Einheitenkarte](#einheitenkarte) verfügen benötigen ein Modell, welches sie auf dem Spielfeld repräsentiert.
 
 ### Profile
 
-Jedes Modell verfügt über ein Profil welches aus den folgenden Attributen besteht:
+Im Profil sind alle Werte eines Modells beschrieben, die sich auf seine körperlichen Eigenschaften beziehen.
+Diese können sowohl angeboren als auch antrainiert sein.
+
+Dazu gehören:
+
+* [Typ](#typ)
+* [Attribute](#attribute)
+* [Geschwindigkeit](#geschwindigkeit)
+* [Trefferpunkte](#trefferpunkte)
+* [Größenprofil](#größenprofil)
+* [Sichtfeld](#sichtfeld)
+
+### Typ
+
+Modelle werden in die Typen Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
+Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
+
+| Symbol | Name | Beschreibung | [Größenprofil](#größenprofil) |
+|--|--|--|--|
+| ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
+| ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | [Mech](#mechs-&-kolosse) | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
+| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | [Koloss](#mechs-&-kolosse) | Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
+| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
+| ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | [Drohne](#drohnen) | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis mittel |
+
+### Attribute
+
+Jedes Modell verfügt über einen festen Satz an Attributen.
 
 | Kürzel | Name | Beschreibung |
 |:--:|--|--|
-|AGI|Agilität|Steht für die Geschwindigkeit und das Reaktionsvermögen des Modells. Siehe z.B. [Reaktionen](#reaktionen).|
-|BW|Bewegung|Gibt an, wie weit sich ein Modell bewegen kann. Siehe [Bewegung](#bewegung).|
-|KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. [Schock](#schock) und [Tragkraft](#tragkraft).|
+|AGI|Agilität|Steht für das Reaktionsvermögen des Modells. Siehe z.B. [Reaktionen](#reaktionen).|
 |NK|Nahkampf|Stellt die Nahkampffähigkeit des Modells dar. Siehe [Nahkampf](#nahkampf).|
 |FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe [Fernkampf](#fernkampf).|
+|KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. [Schock](#schock) und [Tragkraft](#tragkraft).|
 |WN|Wahrnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. [Wahrnehmungsbereich](#wahrnehmungsbereich), [Tarnung](#tarnung) und [Bewegungstests](#bewegungstest).|
 |EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. [Gefahrenbereich](#gefahrenbereich).|
 
 !!! example Beispiel normaler Mensch
 
-    | AGI | BW | KO | NK | FK | WN | EH |
-    |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-    | 4 | 4 | 3 | 2 | 2 | 3 | 3 |
+    | AGI | NK | FK | KO | WN | EH |
+    |:---:|:--:|:--:|:--:|:--:|:--:|
+    |  4  |  2 |  2 |  3 |  3 |  3 |
+
+### Geschwindigkeit
+
+Gibt an, wie weit sich ein Modell mit einer Aktion in Zentimetern bewegen kann.
+Wird in der Regel mit GK abgekürzt.
+
+Siehe [Bewegung](#bewegung).|
 
 ### Trefferpunkte
 
@@ -184,6 +209,23 @@ Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
 
 *Übersicht der 4 verschiedenen Sichtfelder (der Pfeil stellt die Blickrichtung des Modells dar)* {align="center"}
 
+## Grundregeln
+
+### Aktionspunkte
+
+Modelle verfügen über Aktionspunkte, die in verschiedenen Phasen des Spiels für Aktionen und Reaktionen ausgegeben werden können.
+
+Sie werden in der Regel als "AP" abgekürzt.
+
+Die Kosten in Aktionspunkten werden immer mit dem Zeichen ⊙ angegeben.
+
+Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
+Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer-zustand) verfällt.
+
+Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 AP.
+
+**Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.**
+
 ### Sichtlinie
 
 Eine Sichtlinie ist immer dann gegeben wenn sich das andere Modell im Sichtfeld befindet und zusätzlich ein Teil seines Größenprofils sichtbar ist.
@@ -202,7 +244,7 @@ Bei Mechs und Kolossen wird die Konstitution (KO) vor der Quadrierung verdoppelt
 
     Tragkraft in kg = (KO*2)²
 
-Bis zu diesem Wert erleidet das Modell keine negativen Auswirkung, wird er überschritten werden Agilität (AGI) und Bewegung (BW) jeweils um 1 verringert.
+Bis zu diesem Wert erleidet das Modell keine negativen Auswirkung, wird er überschritten werden Agilität (AGI) und Geschwindigkeit (GK) jeweils um 1 verringert.
 Wird er um das doppelte überschritten, werden beide Attribute um jeweils 2 verringert usw.
 
 Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
@@ -260,36 +302,13 @@ Entfernungen zwischen Modellen werden immer von den Rändern der Bases gemessen.
 
 Entfernungen zwischen Modellen dürfen immer gemessen werden.
 
-## Aufbau der Einheitenkarte
-
-![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg){.img_border} {align="center"}
-
-*Abbildung 5: Aufbau der Einheitenkarte* {align="center"}
-
-1. [Fraktion](#fraktion)
-2. [Trefferpunkte](#trefferpunkte)
-3. Name des Modells
-4. [Typ des Modells](#modelle)
-5. [Attribute](#attribute)
-6. Outfit, also Ausstattungsvariante
-7. Punkte
-8. [Gefahrenbereich](#gefahrenbereich)
-9. [Wahrnehmungsbereich](#wahrnehmungsbereich)
-10. [Größenprofil](#größenprofil)
-11. [Bewegungsart](#bewegungsart)
-12. Gesamtgewicht
-13. [Schadenstypen](#schadens--/-rüstungstypen)
-14. [Rüstungstypen](#schadens--/-rüstungstypen)
-15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte)
-16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte)
-
-## Würfelwürfe
+### Würfelwürfe
 
 Es werden nur W12 verwendet.
 
 Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
 
-### Attributs-Wurf
+#### Attributs-Wurf
 
 Attributs-Würfe werden in der Form [Attributskürzel]-Wurf angegeben.
 So wird bspw. für einen Attributs-Wurf auf Konstitution nur „KO-Wurf“ geschrieben.
@@ -302,7 +321,7 @@ Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gi
 Der Wurf wird mit 1W12 durchgeführt.
 Sofern das Ergebnis unter/gleich dem Wert liegt is es ein Erfolg, ansonsten ein Misserfolg.
 
-### Vergleichender Wurf
+#### Vergleichender Wurf
 
 Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
 
@@ -319,12 +338,12 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 2. Missionsauswahl
 3. Aufstellen der Modelle
 4. Runden
-    - Initiativephasen
+    * Initiativephasen
 5. Bestimmung des Gewinners
 
 ### Aufbau des Spielfeldes
 
-Beide Spieler bauen gemeinsam das Spielfeld auf bis sie damit einverstanden sind.
+Beide Spieler bauen gemeinsam das Spielfeld mit [Geländeteilen](#geländeteil) auf bis sie damit einverstanden sind.
 
 Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
 
@@ -340,7 +359,7 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 
 Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
 
-Der Gewinner des Wurfs markiert entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
+Der Gewinner des Wurfs markiert zuerst entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
 Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
@@ -460,7 +479,7 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
 ## Bewegung
 
-Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann das Modell entsprechend bewegt werden.
+Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann ein Modell entsprechend bewegt werden.
 
 Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden.
 Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
@@ -492,7 +511,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
 !!! danger Normale Bewegung - 1-2 ⊙
 
-    Das Modell bewegt sich entsprechend seiner BW in cm.
+    Das Modell bewegt sich entsprechend seiner GK in cm.
     Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es liegt.
 
 !!! danger Hinlegen - 1 ⊙
@@ -513,7 +532,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
 !!! danger Springen - 2 ⊙
 
-    Das Modell springt entsprechend seiner BW in cm weit wenn es gestanden hat.
+    Das Modell springt entsprechend seiner GK in cm weit wenn es gestanden hat.
     
     Falls es unmittelbar vorher mindestens eine volle Bewegung gemacht hat, darf es die doppelte Reichweite springen.
     
@@ -1504,22 +1523,22 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 
 #### Kritischer Zustand bei Mechs & Kolossen
 
-- **Rumpf**
+* **Rumpf**
 
     Wie bei Infanterie.
     Siehe [Kritischer Zustand](#kritischer-zustand).
 
-- **Arme**
+* **Arme**
 
     Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jeden Arm im kritischen Zustand.
 
-- **Beine**
+* **Beine**
 
     Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.
 
 #### Verlust aller Trefferpunkte
 
-- **Rumpf**
+* **Rumpf**
 
     Sinkt in sich zusammen und gilt als ausgeschalten.
     Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.
@@ -1527,12 +1546,12 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
     Für Mechs muss nun ein KO-Wurf durchgeführt werden.
     Falls er misslingt [detoniert](#detonation) er.
 
-- **Arme**
+* **Arme**
 
     Der Arm wird zerstört und die Waffe kann nicht mehr verwendet werden.
     Außerdem werden AGI und NK um 1 verringert.
 
-- **Beine**
+* **Beine**
 
     |W12|Auswirkung|
     |--|--|
