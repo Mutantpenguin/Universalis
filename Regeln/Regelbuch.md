@@ -828,21 +828,21 @@ Symbole für Schadenstypen werden dabei immer in rot, und Rüstungstypen immer i
     |Schaden kinetisch|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_3.png){width=40pt}|
     |Rüstung schnitt|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_3.png){width=40pt}|
 
-### Stärke / Schutz / Schaden
+### Stärke / Schaden / Schutz
 
 Sie werden mit den folgenden Symbolen ausgewiesen:
 
 |Symbol|Name|Bedeutung|
 |:--:|--|--|
-|![stärke](Grafiken/Waffe/stärke.png){width="40pt"}|Stärke|Es stellt die effektive Wirkungshöhe von Schaden dar.|
-|![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|Es stellt die effektive Wirkungshöhe der Rüstung dar.|
-|![schaden](Grafiken/Waffe/schaden.png){width="40pt"}|Schaden|Es stellt den effektiven Verlust an Trefferpunkten am Modell dar.|
+|![stärke](Grafiken/Waffe/stärke.png){width="40pt"}|Stärke|erhöht die Chance beim [Verletzungswurf](#verletzungs--und-rüstungswurf)|
+|![schaden](Grafiken/Waffe/schaden.png){width="40pt"}|Schaden|zugefügter Verlust an Trefferpunkten|
+|![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|erhöht die Chance beim [Rüstungswurf](#verletzungs--und-rüstungswurf)|
 
 ### Schadens- / Rüstungseffekte
 
 Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 
-Beim Schadenswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
+Beim Verletzungswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
 Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im Schadensprofil vorkommenden Effekt, so dass dieser nicht zur Anwendung kommt.
 
 !!! example Beispiel
@@ -855,8 +855,8 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach gewonnenem Schadenswurf permanent um 2 gesenkt.|
-|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Schadenswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach gewonnenem Verletzungswurf permanent um 2 gesenkt.|
+|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
 |![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
 |![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
@@ -877,11 +877,12 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |TODO|Schockabsorbierend|TODO|
 |![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
 
-### Schadens- und Rüstungswurf
+### Verletzungs- und Rüstungswurf
 
 Beide Spieler führen einen vergleichenden Wurf durch.
-Der Angreifer addiert die Stärke seiner Waffe, dies wird auch *Schadenswurf* genannt.
+Der Angreifer addiert die Stärke seiner Waffe, dies wird auch *Verletzungswurf* genannt.
 Der Verteider addiert den Schutz seiner Rüstung, dies wird auch *Rüstungswurf* genannt.
+Sofern er über keine Rüstung verfügt wird nur seine KO verwendet.
 
 Hierbei müssen auch alle Effekte angewendet werden.
 
@@ -958,6 +959,11 @@ Je größer/komplexer desto höher die Waffenklasse.
 Waffenklassen werden mit „WK“ abgekürzt.
 WK I steht somit für Waffen der Klasse 1.
 
+### Additive Stärke
+
+Manche Waffen verfügen nicht über einen eigenen Stärkewert, sondern sind additiv.
+Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
+
 ### Schwerfällige Waffen
 
 Manche Waffen sind schwerfällig und können dadurch im [Fernkampf](#schwerfällige-waffen-im-fernkampf) und [Nahkampf](#schwerfällige-waffen-im-nahkampf) nur mit Einschränkungen verwendet werden.
@@ -1030,6 +1036,13 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 TODO
 
 Rüstungen verfügen über ein [Rüstungsprofil](#rüstungsprofil).
+
+### Schutz
+
+Der Schutzwert einer Rüstung wird auf die KO des Modells aufaddiert.
+Der sich so ergebende tatsächliche Schutz wird auf der Einheitenkarte bei der Rüstung ausgewiesen.
+
+Wenn ein Modell keine Rüstung trägt gilt somit automatisch nur die KO des Modells für den Rüstungswurf.
 
 ### Selbsttragend
 
@@ -1195,7 +1208,7 @@ Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei jed
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
 Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den Fernkampfwurf.
 
-Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den Fernkampfwurf und +1 beim Schadenswurf.
+Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den Fernkampfwurf und +1 beim Verletzungswurf.
 Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 
 !!! example Beispiel
@@ -1203,11 +1216,11 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
     Eine Maschinenpistole hat AF 3 und wird von einem Modell mit FK 5 abgefeuert.
 
     Entweder
-    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen Fernkampfwurf und +3 auf den anschließenden Schadenswurf.
+    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen Fernkampfwurf und +3 auf den anschließenden Verletzungswurf.
     
     oder
     - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen Fernkampfwurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
-    Der Bonus von +1 für den Schadenswurf gilt jedoch für beide Ziele.
+    Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 
 ### Flächenwaffen
 
