@@ -101,26 +101,20 @@ Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwende
 Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
 So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
 
-#### Aufbau der Einheitenkarte
+### Aufbau der Einheitenkarte
 
-![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg){.img_border} {align="center"}
+![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg) {align="center"}
 
-1. [Fraktion](#fraktion)
-2. [Trefferpunkte](#trefferpunkte)
-3. Name des Modells
-4. [Typ des Modells](#modelle)
-5. [Attribute](#attribute)
-6. Outfit, also Ausstattungsvariante
-7. Punkte
-8. [Gefahrenbereich](#gefahrenbereich)
-9. [Wahrnehmungsbereich](#wahrnehmungsbereich)
-10. [Größenprofil](#größenprofil)
-11. [Bewegungsart](#bewegungsart)
-12. Gesamtgewicht
-13. [Schadenstypen](#schadens--/-rüstungstypen)
-14. [Rüstungstypen](#schadens--/-rüstungstypen)
-15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte)
-16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte)
+| | |
+| - | - |
+| 1. [Fraktion](#fraktion) | 9. [Wahrnehmungsbereich](#wahrnehmungsbereich) |
+| 2. [Trefferpunkte](#trefferpunkte) | 10. [Größenprofil](#größenprofil) |
+| 3. Name des Modells | 11. [Bewegungsart](#bewegungsart) |
+| 4. [Typ des Modells](#modelle) | 12. Gesamtgewicht |
+| 5. [Attribute](#attribute) | 13. [Schadenstypen](#schadens--/-rüstungstypen) |
+| 6. Outfit, also Ausstattungsvariante | 14. [Rüstungstypen](#schadens--/-rüstungstypen) |
+| 7. Punkte | 15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
+| 8. [Gefahrenbereich](#gefahrenbereich) | 16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
 
 ## Modelle
 
