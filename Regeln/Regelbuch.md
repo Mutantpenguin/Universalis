@@ -173,6 +173,10 @@ Wird in der Regel mit GK abgekürzt.
 
 Siehe [Bewegung](#bewegung).
 
+!!! TODO Bewegungsarten
+
+    Hier aufführen, bei Bewegung im Detail erklären.
+
 ### Trefferpunkte
 
 Sie steht für die Menge an [Schaden](#schadensanwendung), die ein Modells einstecken kann, bevor es aus dem Spiel entfernt wird.
