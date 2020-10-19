@@ -171,7 +171,7 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 Gibt an, wie weit sich ein Modell mit einer Aktion in Zentimetern bewegen kann.
 Wird in der Regel mit GK abgekürzt.
 
-Siehe [Bewegung](#bewegung).|
+Siehe [Bewegung](#bewegung).
 
 ### Trefferpunkte
 
