@@ -1041,12 +1041,10 @@ TODO
 
 Rüstungen verfügen über ein [Rüstungsprofil](#rüstungsprofil).
 
-### Schutz
+### Additiver Schutz
 
-Der Schutzwert einer Rüstung wird auf die KO des Modells aufaddiert.
-Der sich so ergebende tatsächliche Schutz wird auf der Einheitenkarte bei der Rüstung ausgewiesen.
-
-Wenn ein Modell keine Rüstung trägt gilt somit automatisch nur die KO des Modells für den Rüstungswurf.
+Manche Rüstungen verfügen nicht über einen eigenen Schutzwert, sondern sind additiv.
+Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
 ### Selbsttragend
 
