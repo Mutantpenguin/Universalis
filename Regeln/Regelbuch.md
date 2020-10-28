@@ -490,12 +490,12 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 |Symbol|Name|Bedeutung|
 |:--:|--|--|
-|![antigrav](Grafiken/Bewegung/antigrav.png){width="40pt"}|Schweben| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
-|![fuss](Grafiken/Bewegung/fuss.png){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.|
-|![flug](Grafiken/Bewegung/flug.png){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden. TODO Beschränkung bei Drehungen?|
-|![kette](Grafiken/Bewegung/kette.png){width="40pt"}|Kette|Bewegungstests für Passierbarkeit dürfen einmal wiederholt werden.|
-|![rad](Grafiken/Bewegung/rad.png){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
-|![stationär](Grafiken/Bewegung/stationär.png){width="40pt"}|Stationär|Kann nicht bewegt werden.|
+|![beine](Grafiken/Bewegung/beine.svg){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.|
+|![flug](Grafiken/Bewegung/flug.svg){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden. TODO Beschränkung bei Drehungen?|
+|![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|Kette|Bewegungstests für Passierbarkeit dürfen einmal wiederholt werden.|
+|![rad](Grafiken/Bewegung/rad.svg){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
+|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|Schweben| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
+|![stationär](Grafiken/Bewegung/stationär.svg){width="40pt"}|Stationär|Kann nicht bewegt werden.|
 
 ### Bewegungstest
 
