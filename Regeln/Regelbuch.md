@@ -905,7 +905,7 @@ Nun wird die folgende Tabelle konsultiert:
 |--|--|
 |Verteidiger|Nichts passiert.|
 |Gleichstand|Der Verteidiger erleidet einen Schock.|
-|Angreifer|Der Schaden wird angewendet. TODO Spielt die Differenz eine Rolle?|
+|Angreifer|Der Schaden wird angewendet.|
 
 ### Schadensanwendung
 
