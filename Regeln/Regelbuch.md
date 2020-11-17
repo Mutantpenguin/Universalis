@@ -64,13 +64,13 @@ Mehr Würfel schaden nie.
 
     |Symbol|Bedeutung|
     |:--:|--|
+    |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
+    |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#übersicht-der-schadens--und-rüstungseffekte)|
+    |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
     |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
-    |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
-    |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#übersicht-der-schadens--und-rüstungseffekte)|
-    |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
-    |![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
     |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
+    |![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
 
     Die einzelnen Status werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
