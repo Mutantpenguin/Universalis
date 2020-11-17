@@ -67,6 +67,7 @@ Mehr Würfel schaden nie.
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
     |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
     |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
+    |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#übersicht-der-schadens--und-rüstungseffekte)|
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
     |![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
     |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
@@ -861,6 +862,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |--|--|--|
 |![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach gewonnenem Verletzungswurf permanent um 2 gesenkt.|
 |![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|TODO Giftmarker, die in den nächsten Runden automatisch Schaden verursachen wenn KO Test misslingt|
 |![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
 |![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erhält das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
