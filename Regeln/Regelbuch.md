@@ -200,7 +200,11 @@ Modelle werden in 4 verschiedene Größenprofile gegliedert:
 Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
 Das Größenprofil eines Modell ist somit also abstrakt und entspricht nicht dem tatsächlichen Modell.
 
-Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Gliedmassen etc. für bspw. Sichtlinien keine Rolle mehr spielen.
+![Größenprofil](Grafiken/Abbildungen/größenprofil.svg){width="100pt"}{.img_border} {align="center"}
+
+*Der graue Zylinder veranschaulicht das Größenprofil* {align="center"}
+
+Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Gliedmassen etc. für bspw. [Sichtlinien](#sichtlinie) keine Rolle mehr spielen.
 
 ### Sichtfeld
 
@@ -229,7 +233,12 @@ Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 A
 
 ### Sichtlinie
 
-Eine Sichtlinie ist immer dann gegeben wenn sich das andere Modell im Sichtfeld befindet und zusätzlich ein Teil seines Größenprofils sichtbar ist.
+Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn es sich im Sichtfeld befindet und zusätzlich ein Teil seines Größenprofils sichtbar ist.
+Dies bedeutet, dass es möglich sein muss eine gerade Linie zu ziehen die sein Größenprofil *trifft*.
+
+![Größenprofil](Grafiken/Abbildungen/sichtlinie.svg){width="200pt"}{.img_border} {align="center"}
+
+TODO {align="center"}
 
 Befreundete Modelle behindern nicht die Sichtlinie.
 
