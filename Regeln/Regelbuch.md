@@ -170,13 +170,15 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 ### Geschwindigkeit
 
 Gibt an, wie weit sich ein Modell mit einer Aktion in Zentimetern bewegen kann.
-Wird in der Regel mit GK abgekürzt.
+Sie wird in der Regel mit GK abgekürzt.
 
-Siehe [Bewegung](#bewegung).
+Die folgenden Bewegungsarten stehen dabei zur Verfügung:
 
-!!! TODO Bewegungsarten
+|Beine|Flug|Kette|Schweben|Rad|Stationär|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|![beine](Grafiken/Bewegung/beine.svg){width="40pt"}|![flug](Grafiken/Bewegung/flug.svg){width="40pt"}|![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|![rad](Grafiken/Bewegung/rad.svg){width="40pt"}|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|![stationär](Grafiken/Bewegung/stationär.svg){width="40pt"}|{table-layout="fixed"}
 
-    Hier aufführen, bei Bewegung im Detail erklären.
+Siehe auch [Bewegung](#bewegung).
 
 ### Trefferpunkte
 
