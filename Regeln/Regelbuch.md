@@ -1196,33 +1196,33 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 ### Modifikatoren im Fernkampf
 
-#### Größe des Ziels
+* #### Größe des Ziels
 
-|      Typ       | Modifikator |
-| :------------: | :---------: |
-|  kleines Ziel  |     -1      |
-| mittleres Ziel |     ±0      |
-|  großes Ziel   |     +1      |
-| riesiges Ziel  |     +2      |
+  |      Typ       | Modifikator |
+  | :------------: | :---------: |
+  |  kleines Ziel  |     -1      |
+  | mittleres Ziel |     ±0      |
+  |  großes Ziel   |     +1      |
+  | riesiges Ziel  |     +2      |
 
-#### Deckung des Ziels
+* #### Deckung des Ziels
 
-| Stufe | Modifikator |
-| :---: | :---------: |
-|   I   |     -1      |
-|  II   |     -2      |
+  | Stufe | Modifikator |
+  | :---: | :---------: |
+  |   I   |     -1      |
+  |  II   |     -2      |
 
-#### Schwerfällige Waffen im Fernkampf
+* #### Schwerfällige Waffen im Fernkampf
 
-Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
+  Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
 
-#### Liegender Schütze
+* #### Liegender Schütze
 
-Liegende Schützen erhalten +1 auf den FK-Wurf.
+  Liegende Schützen erhalten +1 auf den FK-Wurf.
 
-#### Schnelle Bewegungen des Ziels
+* #### Schnelle Bewegungen des Ziels
 
-Auf Ziele, welche sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -1 auf den FK-Wurf.
+  Auf Ziele, welche sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -1 auf den FK-Wurf.
 
 ### Autofeuer
 
