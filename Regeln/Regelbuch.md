@@ -1148,8 +1148,7 @@ Im Fernkampf dürfen nur Waffen mit einem [Reichweitenband](#reichweite), nicht 
 
 ### Trefferzonen im Fernkampf
 
-Wenn das Ziel über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
-Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
+Wenn das Ziel über [Trefferzonen](#trefferzonen) verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 ### Auswahl eines Ziels
 
@@ -1352,7 +1351,7 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
 ### Trefferzonen im Nahkampf
 
-Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
+Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 ### Modifikatoren im Nahkampf
 
@@ -1551,7 +1550,7 @@ Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutz
 Mechs & Kolosse werden in die Trefferzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
 
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
-Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind da.
+Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind.
 
 ![trefferzone](Grafiken/Abbildungen/trefferzonen.svg){.img_border} {align="center"}
 
