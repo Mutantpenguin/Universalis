@@ -198,13 +198,13 @@ Modelle werden in 4 verschiedene Größenprofile gegliedert:
 | ![riesig](Grafiken/Größe/riesig.svg){width=40pt} | riesig | Alles höher als einschließlich 3,5m. | 50mm | 8cm |
 
 Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
-Das Größenprofil eines Modell ist somit also abstrakt und entspricht nicht dem tatsächlichen Modell.
+Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht dem tatsächlichen Modell.
 
-![Größenprofil](Grafiken/Abbildungen/größenprofil.svg){width="100pt"}{.img_border} {align="center"}
+![Größenprofil](Grafiken/Abbildungen/größenprofil.svg){height="150pt"}{.img_border} {align="center"}
 
 *Der graue Zylinder veranschaulicht das Größenprofil* {align="center"}
 
-Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Gliedmassen etc. für bspw. [Sichtlinien](#sichtlinie) keine Rolle mehr spielen.
+Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. [Sichtlinien](#sichtlinie) keine Rolle mehr spielen.
 
 ### Sichtfeld
 
