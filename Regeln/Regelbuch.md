@@ -1355,25 +1355,25 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getro
 
 ### Modifikatoren im Nahkampf
 
-#### Bonus für den Angreifer
+* #### Bonus für den Angreifer
 
-Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
-Dies gilt nur wenn der Verteidiger sich nicht in Verteidigungshaltung befindet.
+  Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
+  Dies gilt nur wenn der Verteidiger sich nicht in Verteidigungshaltung befindet.
 
-Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
+  Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 
-#### Multiple Gegner
+* #### Multiple Gegner
 
-Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den eigenen NK-Wurf.
+  Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den eigenen NK-Wurf.
 
-#### Schwerfällige Waffen im Nahkampf
+* #### Schwerfällige Waffen im Nahkampf
 
-Wenn ein Modell eine oder mehrere schwerfällige Waffen trägt, erleidet es im Nahkampf einen Malus von -3.
+  Wenn ein Modell eine oder mehrere schwerfällige Waffen trägt, erleidet es im Nahkampf einen Malus von -3.
 
-#### Größenunterschiede
+* #### Größenunterschiede
 
-Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
-Siehe auch [Größenprofil](#größenprofil).
+  Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
+  Siehe auch [Größenprofil](#größenprofil).
 
 ### Nahkampf mit getarnten Modellen
 
