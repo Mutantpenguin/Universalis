@@ -233,12 +233,15 @@ Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 A
 
 ### Sichtlinie
 
-Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn es sich im Sichtfeld befindet und zusätzlich ein Teil seines Größenprofils sichtbar ist.
+Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn es sich im Sichtfeld befindet und zusätzlich ein Teil seines [Größenprofils](#größenprofil) sichtbar ist.
+
 Dies bedeutet, dass es möglich sein muss eine gerade Linie zu ziehen die sein Größenprofil *trifft*.
 
-![Größenprofil](Grafiken/Abbildungen/sichtlinie.svg){width="200pt"}{.img_border} {align="center"}
+![Größenprofil](Grafiken/Abbildungen/sichtlinie.svg){width="300pt"}{.img_border} {align="center"}
 
-TODO {align="center"}
+*Die Linie trifft nicht das Modell selbst, aber sein Größenprofil.* {align="center"}
+
+*Es kann somit eine Sichtlinie zu ihm gezogen werden* {align="center"}
 
 Befreundete Modelle behindern nicht die Sichtlinie.
 
@@ -1150,7 +1153,7 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 
 
 ### Auswahl eines Ziels
 
-Damit ein Ziel beschossen werden kann muss eine Sichtlinie zu ihm gezogen werden können.
+Damit ein Ziel beschossen werden kann muss eine [Sichtlinie](#sichtlinie) zu ihm gezogen werden können.
 
 Sollte sich im Gefahrenbereich keine [direkte Bedrohung](#direkte-bedrohung) befinden, welche bekämpft werden muss, kann das Ziel frei gewählt werden.
 
