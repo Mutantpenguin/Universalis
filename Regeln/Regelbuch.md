@@ -485,7 +485,7 @@ Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regel
 
     Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
     
-    In ihr ist beschrieben, dass das Modell den Fernkampfwurf bis zu 2 mal wiederholen darf.
+    In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
 
 ## Bewegung
 
@@ -560,7 +560,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
         Bedingung:
 
-        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
+        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
         
         Nicht bei liegenden Modellen.
     
@@ -572,11 +572,11 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
         Bedingung:
         
-        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen Fernkampfwurf durchführt.
+        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
         
         Nicht bei liegenden Modellen.
     
-    Der Schütze erhält -1 auf seinen Fernkampfwurf.
+    Der Schütze erhält -1 auf seinen FK-Wurf.
 
 ### Herunterfallen
 
@@ -1079,18 +1079,20 @@ TODO
 Kleiner Einleitungstext was Fernkampf ist
 blah blah yadda yadda
 
-### Fernkampfwurf
+### Durchführung des Fernkampfs
 
-Dies ist ein normaler FK-Wurf.
+TODO alle Schritte erklären
+
+Um einen Fernkampf durchzuführen muss ein FK-Wurf für das Modell gemacht werden.
 Bei Erfolg wurde das Ziel getroffen.
 
-Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
+Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf) zur Anwendung.
 
 ### Aktionen: Fernkampf
 
 !!! danger Normaler Schuss - WK+1 ⊙
 
-    Das Modell führt einen normalen Fernkampfwurf aus.
+    Das Modell führt einen Fernkampf durch.
 
 !!! danger Feuerbereitschaft - 2 ⊙
 
@@ -1104,14 +1106,14 @@ Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Tre
 
 !!! danger Komplex: Gezielter Schuss - WK+2 ⊙
 
-    Das Modell erhält +1 für seinen Fernkampfwurf.
-    Außerdem werden für diesen Schuss die Reichweitenbänder verdoppelt.
+    Das Modell führt einen Fernkampf durch und erhält +1 auf seinen FK-Wurf.
+    Die Reichweitenbänder werden hierbei verdoppelt.
     
     Er ist nicht in Kombination mit Autofeuer einsetzbar.
 
 !!! danger Komplex: Schnellschuss - WK ⊙
 
-    Das Modell erhält -2 bei seinem Fernkampfwurf.
+    Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
 
 ### Reaktionen: Fernkampf
 
@@ -1129,13 +1131,22 @@ Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Tre
         
         Der Beschuss darf nur auf das Modell dessen Initiativephase gerade gilt gerichtet sein.
     
-    Das Modell führt einen normalen Fernkampfwurf aus.
+    Das Modell führt einen Fernkampf durch.
     
-    Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen Fernkampfwurf.
+    Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
     
-    Wenn ein Ziel aus Deckung auftaucht oder sich in den Wahrnehmungsbereich hinein bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen Fernkampfwurf.
+    Wenn ein Ziel aus Deckung auftaucht oder sich in den Wahrnehmungsbereich hinein bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen FK-Wurf.
 
     Das Modell verliert danach automatisch seine Feuerbereitschaft.
+
+### Erlaubte Waffen
+
+Im Fernkampf dürfen nur Waffen mit einem [Reichweitenband](#reichweite), nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
+
+### Trefferzonen im Fernkampf
+
+Wenn das Ziel über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
+Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
 
 ### Auswahl eines Ziels
 
@@ -1152,7 +1163,7 @@ Auf der Einheitenkarte wird dies unter folgendem Symbol ausgewiesen:
 
 ![reichweite](Grafiken/Waffe/reichweite.png){width="40pt"} {align="center"}
 
-Pro vollständig ausgenutztem Reichweitenband erhält ein schießendes Modell einen Malus von -1 auf seinen Fernkampfwurf.
+Pro vollständig ausgenutztem Reichweitenband erhält ein schießendes Modell einen Malus von -1 auf seinen FK-Wurf.
 
 Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
 
@@ -1161,7 +1172,7 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
     Eine Pistole verfügt über den Wert 20/3.
     Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 60cm
     
-    Der Fernkampfwurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+    Der FK-Wurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
 
 ### Beschuss von getarnten Modellen
 
@@ -1181,7 +1192,7 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 ![indirekt](Grafiken/Waffe/indirekt.png){width="40pt"} {align="center"}
 
-### Fernkampf-Modifikatoren
+### Modifikatoren im Fernkampf
 
 #### Größe des Ziels
 
@@ -1201,15 +1212,15 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 #### Schwerfällige Waffen im Fernkampf
 
-Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den Fernkampfwurf.
+Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
 
 #### Liegender Schütze
 
-Liegende Schützen erhalten +1 auf den Fernkampfwurf.
+Liegende Schützen erhalten +1 auf den FK-Wurf.
 
 #### Schnelle Bewegungen des Ziels
 
-Auf Ziele die sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -1 auf den Fernkampfwurf.
+Auf Ziele, welche sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -1 auf den FK-Wurf.
 
 ### Autofeuer
 
@@ -1221,9 +1232,9 @@ Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei jed
 ![patrone](Grafiken/Waffe/patrone.png){height="40pt"} {align="center"}
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
-Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den Fernkampfwurf.
+Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf.
 
-Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den Fernkampfwurf und +1 beim Verletzungswurf.
+Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den FK-Wurf und +1 beim Verletzungswurf.
 Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 
 !!! example Beispiel
@@ -1231,10 +1242,10 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
     Eine Maschinenpistole hat AF 3 und wird von einem Modell mit FK 5 abgefeuert.
 
     Entweder
-    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen Fernkampfwurf und +3 auf den anschließenden Verletzungswurf.
+    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
     
     oder
-    - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen Fernkampfwurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
+    - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen FK-Wurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
     Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 
 ### Flächenwaffen
@@ -1245,7 +1256,7 @@ Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die
 
 ![radius](Grafiken/Waffe/radius.svg){width="40pt"} {align="center"}
 
-Wenn bei einer Flächenwaffe der Fernkampfwurf misslingt, wird der gewürfelte Wert mit dem zu erreichenden verglichen.
+Wenn bei einer Flächenwaffe der FK-Wurf misslingt, wird der gewürfelte Wert mit dem zu erreichenden verglichen.
 Die Differenz * 3cm gibt an, wie weit der Trefferpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
@@ -1262,7 +1273,7 @@ Wenn das getroffene Modell Deckung der Stufe II berührt, kommt diese voll zur G
 TODO Kleiner Einleitungstext was Nahkampf ist
 blah blah yadda yadda
 
-### Durchführung
+### Durchführung des Nahkampfes
 
 Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
@@ -1330,7 +1341,7 @@ Sollte eines der Modelle über NK von 0 verfügen verliert es automatisch den ve
 
     !!! todo
 
-### Erlaubte Waffen
+### Im Nahkampf erlaubte Waffen
 
 Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
 
