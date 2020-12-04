@@ -1262,27 +1262,17 @@ Wenn das getroffene Modell Deckung der Stufe II berührt, kommt diese voll zur G
 TODO Kleiner Einleitungstext was Nahkampf ist
 blah blah yadda yadda
 
+### Durchführung
+
 Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
-### Nahkampfwurf
+Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt und wiefolgt vorgegangen:
 
-Beide Spieler führen einen vergleichenden Wurf auf NK durch.
+1. Wenn das angreifende Modell gewinnt landet es einen Treffer mit einer beliebigen Nahkampfwaffe.
+2. Wenn das angegriffene Modell gewinnt verteidigt es sich erfolgreich und nichts passiert.
+3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
-Sollte eines der Modelle über NK von 0 verfügen gewinnt automatisch das Andere.
-
-Nun wird die folgende Tabelle konsultiert:
-
-| Höheres Ergebnis | Auswirkungen                           |
-| ---------------- | -------------------------------------- |
-| Verteidiger      | Angriff abgewehrt, nichts passiert.    |
-| Gleichstand      | Das Modell mit der höheren AGI gewinnt |
-| Angreifer        | Der Angreifer landet einen Treffer.    |
-
-Wenn das Ziel [Trefferzonen](#trefferzonen) hat muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
-
-### Erlaubte Waffen
-
-Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
+Sollte eines der Modelle über NK von 0 verfügen verliert es automatisch den vergleichenden Wurf..
 
 ### Aktionen: Nahkampf
 
@@ -1292,9 +1282,10 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
 !!! danger Komplex: Brachialer Angriff - WK+1 ⊙
 
-    Das Modell erhält +2 auf seinen Nahkampfwurf.
+    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+    Es erhält +2 auf seinen NK-Wurf.
     
-    Sollte es den Nahkampfwurf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
+    Sollte es den Nahkampf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
 
 !!! danger Komplex: Verteidigungshaltung - 2 ⊙
 
@@ -1305,6 +1296,8 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
     Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigungshaltung.
     Es verliert sie dann automatisch.
+
+    Sie wird am Modell mit dem Verteidigungshaltungs-Marker dargestellt.
 
     Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
     Das Modell verliert danach automatisch seine Verteidigungshaltung.
@@ -1337,16 +1330,24 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
     !!! todo
 
+### Erlaubte Waffen
+
+Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
+
+### Trefferzonen im Nahkampf
+
+Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
+
 ### Bonus für den Angreifer
 
-Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf den Nahkampfwurf.
+Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigungshaltung befindet.
 
 Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 
 ### Multiple Gegner
 
-Für jedes befreundete Modell, welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den Nahkampfwurf.
+Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den eigenen NK-Wurf.
 
 ### Schwerfällige Waffen im Nahkampf
 
@@ -1354,7 +1355,7 @@ Wenn ein Modell eine oder mehrere schwerfällige Waffen trägt, erleidet es im N
 
 ### Größenunterschiede
 
-Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen Nahkampfwurf für jede Stufe des Unterschieds.
+Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 Siehe auch [Größenprofil](#größenprofil).
 
 ### Nahkampf mit getarnten Modellen
@@ -1406,13 +1407,13 @@ Damit das möglich ist, müssen sie zuerst aufgeklärt werden.
 
 Sie können nicht durch Flächenwaffen getroffen werden.
 
-Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +1 auf seinen Nahkampfwurf.
+Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +1 auf seinen NK-Wurf.
 
 #### Besondere Vorteile von aktiver Tarnung
 
 Aktiv getarnte Modelle erhalten immer einen Bonus von +1 auf ihren Rüstungswurf, egal ob sie aufgeklärt sind oder nicht.
 
-Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren Nahkampfwurf.
+Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 
 ### Aufklärung
 
