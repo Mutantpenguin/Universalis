@@ -1283,7 +1283,9 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt und wie
 2. Wenn das angegriffene Modell gewinnt verteidigt es sich erfolgreich und nichts passiert.
 3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
-Sollte eines der Modelle über NK von 0 verfügen verliert es automatisch den vergleichenden Wurf..
+Sollte eines der Modelle über NK von 0 verfügen verliert es automatisch den vergleichenden Wurf.
+
+Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) zur Anwendung.
 
 ### Aktionen: Nahkampf
 
@@ -1349,22 +1351,24 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
 Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss mit 1W12 die getroffene Trefferzone ausgewürfelt werden.
 
-### Bonus für den Angreifer
+### Modifikatoren im Nahkampf
+
+#### Bonus für den Angreifer
 
 Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigungshaltung befindet.
 
 Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 
-### Multiple Gegner
+#### Multiple Gegner
 
 Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den eigenen NK-Wurf.
 
-### Schwerfällige Waffen im Nahkampf
+#### Schwerfällige Waffen im Nahkampf
 
 Wenn ein Modell eine oder mehrere schwerfällige Waffen trägt, erleidet es im Nahkampf einen Malus von -3.
 
-### Größenunterschiede
+#### Größenunterschiede
 
 Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 Siehe auch [Größenprofil](#größenprofil).
