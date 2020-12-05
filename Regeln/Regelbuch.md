@@ -955,7 +955,7 @@ Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen 
 
 Das Modell erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
 
-Es muss außerdem muss einen KO-Wurf ablegen.
+Es muss außerdem einen KO-Wurf ablegen.
 Misslingt dieser verliert es sofort 2 AP.
 Wenn es über keine oder zu wenige AP mehr verfügt erhält es stattdessen Schock-Marker in der jeweiligen Menge.
 
