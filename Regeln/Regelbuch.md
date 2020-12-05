@@ -1007,49 +1007,27 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
     ![Einmalnutzung Waffe](Grafiken/Abbildungen/einmalnutzung_waffe.jpg)
 
-### Beispiele
+### Beispiele für Waffenklassen
 
-#### WK I {align=center}
-
-| Nahkampf |    Fernkampf     |
-| :------: | :--------------: |
-| Knüppel  | Maschinenpistole |
-|  Messer  |     Pistole      |
-|          |    Schleuder     |
-|          |    Wurfstern     |
-
-#### WK II {align=center}
-
-|  Nahkampf   | Fernkampf |
-| :---------: | :-------: |
-| Morgenstern | Armbrust  |
-|   Schwert   |   Bogen   |
-|    Speer    |  Gewehr   |
-|             |   Speer   |
-
-#### WK III {align=center}
-
-|    Nahkampf     |    Fernkampf    |
-| :-------------: | :-------------: |
-|       Axt       |  Granatwerfer   |
-|   Hellebarde    | Maschinengewehr |
-| Vorschlaghammer |                 |
-|   Zweihänder    |                 |
-
-#### WK IV {align=center}
-
-|  Nahkampf  |      Fernkampf       |
-| :--------: | :------------------: |
-| Kettensäge |     Panzerfaust      |
-|            | Scharfschützengewehr |
-
-#### WK V {align=center}
-
-|  Nahkampf   |    Fernkampf     |
-| :---------: | :--------------: |
-| Abrissbirne |     Arbalest     |
-|             | Lafettengeschütz |
-|             |   Panzerkanone   |
+| Klasse | Nahkampf        | Fernkampf            |
+| :----: | --------------- | -------------------- |
+|   I    | Knüppel         | Maschinenpistole     |
+|   ^^   | Messer          | Pistole              |
+|   ^^   | Schlagring      | Schleuder            |
+|   ^^   |                 | Wurfstern            |
+|   II   | Morgenstern     | Armbrust             |
+|   ^^   | Schwert         | Bogen                |
+|   ^^   | Speer           | Gewehr               |
+|   ^^   |                 | Speer                |
+|  III   | Axt             | Granatwerfer         |
+|   ^^   | Hellebarde      | Maschinengewehr      |
+|   ^^   | Vorschlaghammer |                      |
+|   ^^   | Zweihänder      |                      |
+|   IV   | Kettensäge      | Panzerfaust          |
+|   ^^   |                 | Scharfschützengewehr |
+|   V    | kleiner Baum    | Arbalest             |
+|   ^^   |                 | Lafettengeschütz     |
+|   ^^   |                 | Panzerkanone         |
 
 ## Rüstung
 
