@@ -309,7 +309,7 @@ Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
 
 Entfernungen zwischen Modellen werden immer von den Rändern der Bases gemessen.
 
-![entfernungen messen](Grafiken/Abbildungen/entfernungen_messen.svg){.img_border} {align="center"}
+![entfernungen messen](Grafiken/Abbildungen/entfernungen_messen.svg){width=400}{.img_border} {align="center"}
 
 *Entfernung zwischen 2 Modellen* {align="center"}
 
