@@ -26,7 +26,7 @@ puppeteer:
                             </section>'
 ---
 
-# Realms - Missionen
+# Universalis - Missionen
 
 Missionen Version 0.0.1
 
@@ -57,4 +57,3 @@ TODO Bild einfügen
 ### Siegesbedingungen
 
 Das Spiel endet, sobald ein Spieler keine Modelle mehr auf dem Spielfeld besitzt.
-
