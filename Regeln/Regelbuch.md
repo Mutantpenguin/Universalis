@@ -919,7 +919,7 @@ Nun wird die folgende Tabelle konsultiert:
 |--|--|
 |Verteidiger|Nichts passiert.|
 |Gleichstand|Der Verteidiger erleidet einen Schock.|
-|Angreifer|Der Schaden wird angewendet.|
+|Angreifer|Der Schaden kommt zur Anwendung.|
 
 ### Schadensanwendung
 
