@@ -1330,6 +1330,10 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
     Das Modell verliert danach automatisch seine Verteidigungshaltung.
 
+    Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
+    Misslingt dieser verliert es die Verteidigungshaltung.
+    Es muss dafür nicht getroffen werden.
+
 ### Reaktionen: Nahkampf
 
 !!! warning TODO - WK-1 ⊙
