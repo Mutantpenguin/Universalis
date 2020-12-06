@@ -1116,6 +1116,10 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
     Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
     Es verliert sie dann automatisch.
 
+    Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
+    Misslingt dieser verliert es die Feuerbereitschaft.
+    Es muss dafür nicht getroffen werden.
+
 !!! danger Komplex: Gezielter Schuss - WK+2 ⊙
 
     Das Modell führt einen Fernkampf durch und erhält +1 auf seinen FK-Wurf.
