@@ -407,7 +407,7 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiative-Phase ha
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-* ein eventueller Marker für [schnelle Bewegung](#schnelle-bewegungen) wird entfernt
+* eventueller Marker für [schnelle Bewegung](#schnelle-bewegungen), [Verteidigungshaltung](#aktionen:-nahkampf) oder [Feuerbereitschaft](#aktionen:-fernkampf) werden entfernt
 * eventuelle [Vergiftung](#vergiftung) kommt zur Anwendung
 * eventuelles [Brennen](#brennen) kommt zur Anwendung
 
