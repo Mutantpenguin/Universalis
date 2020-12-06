@@ -380,8 +380,8 @@ Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an geg
 
 ### Runden
 
-Innerhalb einer Runde hat jedes Modell eine Initiative-Phase.
-Die Runde ist erst dann beendet, wenn jedes Modell seine Initiative-Phase durchgeführt hat.
+Innerhalb einer Runde hat jedes Modell eine Initiativephase.
+Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchgeführt hat.
 
 #### Rundenbeginn
 
@@ -399,11 +399,11 @@ Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
 
 Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modelle in beliebiger Reihenfolge.
 
-### Initiative-Phase
+### Initiativephase
 
-Eine Initiative-Phase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktionen ausführen kann.
+Eine Initiativephase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktionen ausführen kann.
 
-Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiative-Phase hatten oder nicht, unter bestimmten Voraussetzungen Reaktionen durchführen.
+Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hatten oder nicht, unter bestimmten Voraussetzungen Reaktionen durchführen.
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
@@ -441,17 +441,17 @@ Hier ist der gesunde Menschenverstand gefragt.
 
 ### Aktionen
 
-Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiative-Phase befindet.
+Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
 Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
 
 ### Reaktionen
 
-Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiative-Phase geschehen.
+Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
 Sie sind teilweise an Bedingungen geknüpft.
 
 Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
-Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiative-Phase hatte, oder diese noch stattfindet.
-Um auf Aktionen zu reagieren, die nach der eigenen Initiative- Phase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
+Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
+Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
 
 #### Aktionen durch Reaktionen unterbrechen
 
@@ -460,7 +460,7 @@ Damit auf eine Aktion reagiert werden kann, muss diese im [Wahrnehmungsbereich](
 Es kann versucht werden eine Aktion zu unterbrechen bevor sie durchgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
 
 Damit dieser Versuch erfolgreich ist, muss das reagierende Modell einen vergleichenden Wurf auf AGI gegen das aktuelle Modell gewinnen.
-Bei einem Gleichstand gewinnt das Modell dessen Initiative-Phase gerade läuft.
+Bei einem Gleichstand gewinnt das Modell dessen Initiativephase gerade läuft.
 
 Der Gewinner führt als Erster seine Aktion/Reaktion durch, der Verlierer danach seine.
 
@@ -1143,7 +1143,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
         
         Nur mit Schusswaffen der WK I und II.
 
-        Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiative-Phase durchgeführt werden.
+        Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiativephase durchgeführt werden.
         
         Der Beschuss darf nur auf das Modell dessen Initiativephase gerade gilt gerichtet sein.
     
