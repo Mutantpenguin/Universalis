@@ -915,11 +915,11 @@ Hierbei müssen auch alle Effekte angewendet werden.
 
 Nun wird die folgende Tabelle konsultiert:
 
-|Höheres Ergebnis|Auswirkungen|
-|--|--|
-|Verteidiger|Nichts passiert.|
-|Gleichstand|Der Verteidiger erleidet einen Schock.|
-|Angreifer|Der Schaden kommt zur Anwendung.|
+| Höheres Ergebnis | Auswirkungen                           |
+| ---------------- | -------------------------------------- |
+| Verteidiger      | Nichts passiert.                       |
+| Gleichstand      | Der Verteidiger erleidet einen Schock. |
+| Angreifer        | Der Schaden kommt zur Anwendung.       |
 
 ### Schadensanwendung
 
