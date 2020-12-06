@@ -973,7 +973,22 @@ Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und verlieren
 
 ### Brennen
 
-TODO: ähnlich wie in 40K
+Modelle mit einem Brandmarker gelten als *brennend*.
+
+Sie können keine Aktionen und Reaktionen ausführen.
+
+Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Brandmarker und testen mit 1W12 auf der folgenden Tabelle:
+
+!!! TODO
+
+    verlieren automatisch 1 TP
+    automatisch einen Treffer
+
+    |Ergebnis|Auswirkung|
+    |:--:|--|
+    |1-3|Das Modell hört auf zu brennen und verliert 2 AP. Sollte es nicht über genügend AP verfügen bekommt es stattdessen Schockmarker.
+    |4-9|Das Modell brennt weiter und erleidet automatisch einen Treffer. Falls es dies überlebt bewegt es sich für 3 AP in eine zufällige Richtung.|
+    |10-12|TODO|
 
 ## Waffen
 
