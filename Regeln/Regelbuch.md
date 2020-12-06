@@ -836,7 +836,7 @@ Es gibt die folgenden Typen:
 
 ### Stufen der Schadens- / Rüstungstypen
 
-Schadens- und Rüstungstypen haben eine minimale Stufe von 1 und eine maximal Stufe von 3.
+Schadens- und Rüstungstypen haben eine minimale Stufe von 1 und eine maximale Stufe von 3.
 Jede Stufe wird durch ein „+“ rechts vom eigentlichen Symbol für den Typen dargestellt.
 Symbole für Schadenstypen werden dabei immer in rot, und Rüstungstypen immer in grün dargestellt.
 
@@ -874,14 +874,14 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach gewonnenem Verletzungswurf permanent um 2 gesenkt.|
+|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 |![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
 |![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|TODO Giftmarker, die in den nächsten Runden automatisch Schaden verursachen wenn KO Test misslingt|
 |![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
-|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet). Wird durch jedes Feld aufgehalten.|
+|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
 |![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch Deckung oder Tarnung zustande kommen werden nicht angewendet.|
-|![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen neu zu würfeln, wobei das neue Wurfergebnis verwendet werden muss.|
+|![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|Der Angreifer darf den Verteidiger zwingen eine beliebige Anzahl an Würfeln neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
 
 ### Übersicht der reinen Schadenseffekte
 
@@ -893,15 +893,15 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf einmal neu würfeln, wobei das neue Wurfergebnis genommen werden muss.|
+|![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf eine beliebige Anzahl an Würfeln neu werfen, wobei das neue Wurfergebnis genommen werden muss.|
 |TODO|Schockabsorbierend|TODO|
 |![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Verletzungs- und Rüstungswurf
 
 Beide Spieler führen einen vergleichenden Wurf durch.
-Der Angreifer addiert die Stärke seiner Waffe, dies wird auch *Verletzungswurf* genannt.
-Der Verteider addiert den Schutz seiner Rüstung, dies wird auch *Rüstungswurf* genannt.
+Der Angreifer addiert die Stärke seiner Waffe, dies wird *Verletzungswurf* genannt.
+Der Verteider addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* genannt.
 Sofern er über keine Rüstung verfügt wird nur seine KO verwendet.
 
 Hierbei müssen auch alle Effekte angewendet werden.
