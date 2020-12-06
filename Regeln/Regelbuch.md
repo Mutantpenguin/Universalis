@@ -64,6 +64,7 @@ Mehr Würfel schaden nie.
 
     |Symbol|Bedeutung|
     |:--:|--|
+    |![brennen](Grafiken/Marker/brennen.svg){width="40pt"}|[Brennen](#übersicht-der-schadens--und-rüstungseffekte)|
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
     |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#übersicht-der-schadens--und-rüstungseffekte)|
     |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
@@ -404,7 +405,11 @@ Eine Initiative-Phase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktione
 
 Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiative-Phase hatten oder nicht, unter bestimmten Voraussetzungen Reaktionen durchführen.
 
-Zum Beginn der Initiativephase eines Modells, wird ein eventueller Marker für [schnelle Bewegung](#schnelle-bewegungen) entfernt.
+Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
+
+* ein eventueller Marker für [schnelle Bewegung](#schnelle-bewegungen) wird entfernt
+* eventuelle [Vergiftung](#vergiftung) kommt zur Anwendung
+* eventuelles [Brennen](#brennen) kommt zur Anwendung
 
 ### Rundenende
 
@@ -874,9 +879,10 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
+|![brennen](Grafiken/Effekt/effekt_brennen.png){width=40pt}|Brennen|Wenn das Modell überlebt brennt es nun. Siehe [brennen](#brennen).|
 |![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 |![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
-|![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|Das Modell erhält Giftmarker in Höhe der Differenz beim Verletzungs- und Rüstungswurf. Zum Beginn jeder Initiativephase des Modells wird 1 Giftmarker entfernt und es verliert automatisch 1 TP.|
+|![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der Differenz beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
 |![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
@@ -958,6 +964,16 @@ Das Modell erhält für den Rest des Spiels einen Malus von -1 auf alle seine At
 Es muss außerdem einen KO-Wurf ablegen.
 Misslingt dieser verliert es sofort 2 AP.
 Wenn es über keine oder zu wenige AP mehr verfügt erhält es stattdessen Schock-Marker in der jeweiligen Menge.
+
+### Vergiftung
+
+Modelle mit Giftmarkern zählen als *vergiftet*.
+
+Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und verlieren automatisch 1 TP.
+
+### Brennen
+
+TODO: ähnlich wie in 40K
 
 ## Waffen
 
