@@ -936,8 +936,8 @@ Solange er über genau 0 Trefferpunkte verfügt, kann er weder Aktionen noch Rea
 
 Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nicht mehr möglich ist.
 
-Falls der Verteidiger überlebt und jetzt noch mindestens die Hälfte (abgerundet) seiner maximalen Trefferpunkte besitzt erleidet er einen [Schock](#schock).
-Wenn er weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er in einen [kritischen Zustand](#kritischer-zustand).
+Falls der Verteidiger überlebt erleidet er einen [Schock](#schock).
+Wenn er ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er nun in einen [kritischen Zustand](#kritischer-zustand).
 
 ### Schock
 
@@ -954,16 +954,12 @@ Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als
 
 Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
 
-Ein Modell kann nur einmal in den kritischen Zustand verfallen.
-Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
+Das Modell erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
 
 Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
 
-Das Modell erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
-
-Es muss außerdem einen KO-Wurf ablegen.
-Misslingt dieser verliert es sofort 2 AP.
-Wenn es über keine oder zu wenige AP mehr verfügt erhält es stattdessen Schock-Marker in der jeweiligen Menge.
+Ein Modell kann nur einmal in den kritischen Zustand verfallen.
+Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
 
 ### Vergiftung
 
