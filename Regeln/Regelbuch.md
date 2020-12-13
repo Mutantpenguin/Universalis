@@ -348,12 +348,13 @@ Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
 Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
-1. Aufbau des Spielfelds
-2. Missionsauswahl
-3. Aufstellen der Modelle
-4. Runden
-    * Initiativephasen
-5. Bestimmung des Gewinners
+1. [Aufbau des Spielfeldes](#aufbau-des-spielfeldes)
+2. [Missionsauswahl](#missionsauswahl)
+3. [Aufstellen der Modelle](#aufstellen-der-modelle)
+4. [Runden](#runden)
+    * [Initiativephasen](#initiativephasen)
+    * [Rundenende](#rundenende)
+5. Spielende
 
 ### Aufbau des Spielfeldes
 
@@ -399,7 +400,7 @@ Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
 
 Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modelle in beliebiger Reihenfolge.
 
-### Initiativephase
+### Initiativephasen
 
 Eine Initiativephase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktionen ausführen kann.
 
