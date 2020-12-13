@@ -503,9 +503,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.0000002"
-     inkscape:cx="461.15034"
-     inkscape:cy="960.72917"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="306.66398"
+     inkscape:cy="169.40525"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -529,11 +529,6 @@
        orientation="0,1"
        position="389.47442,1021.7222"
        id="guide3006"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="91.413328,898.89773"
-       id="guide4280"
        inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
@@ -1228,43 +1223,6 @@
              d="m 157.90697,215.18175 -3.04629,0.60012"
              style="fill:none;stroke:#000000;stroke-width:2.50604;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         </g>
-      </g>
-    </g>
-    <g
-       id="g3998"
-       transform="translate(72.653656,-45.42018)"
-       inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_panzerbrechend.png"
-       inkscape:export-xdpi="381"
-       inkscape:export-ydpi="381">
-      <rect
-         y="219.97853"
-         x="182.02422"
-         height="35.433071"
-         width="35.433071"
-         id="rect3996"
-         style="fill:none" />
-      <g
-         inkscape:export-ydpi="299.89261"
-         inkscape:export-xdpi="299.89261"
-         inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Schadenssymbole/panzerbrechend.png"
-         transform="matrix(0.8545245,0,0,0.8545245,-45.357779,70.561341)"
-         id="g4254">
-        <path
-           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1"
-           d="m 300.52964,196.9763 -3.22658,-0.97079 -3.59565,3.55021 -3.13432,-2.17024 -2.58073,2.90435 -3.78018,-0.97079 -2.85752,2.62756 -4.5183,-0.60173 -3.59564,-0.32493 c -1.39163,5.19365 9.63681,12.93494 9.63681,12.93494 0,0 13.42156,-1.18993 14.81319,-6.38358 z"
-           id="path4242"
-           inkscape:connector-curvature="0"
-           inkscape:transform-center-x="-13.711021"
-           inkscape:transform-center-y="4.981215"
-           sodipodi:nodetypes="ccccccccccsc" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1"
-           d="m 273.375,177.21875 v 23.75 l 3.34859,-2.20148 3.0718,0.10515 2.51821,-5.3385 2.61047,3.24216 2.97953,-4.23131 5.19389,1.8582 1.5033,-3.49321 L 298.6875,190 v -12.78125 z"
-           id="path4237"
-           inkscape:connector-curvature="0"
-           inkscape:transform-center-x="-12.787326"
-           inkscape:transform-center-y="-11.61298"
-           sodipodi:nodetypes="cccccccccccc" />
       </g>
     </g>
     <g
@@ -4868,6 +4826,29 @@
          style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.62;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 481.17701,951.05182 c 0,1.62711 -6.95326,2.94615 -15.53053,2.94615 -8.57727,0 -15.53052,-1.31904 -15.53052,-2.94615"
          sodipodi:nodetypes="csc" />
+    </g>
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1.55609px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 274.79489,213.55742 -2.68825,16.11372 h 7.22542 l -3.02255,14.02894 10.98234,-18.75114 -8.596,-0.49105 5.01155,-11.67 z"
+       id="path1693"
+       sodipodi:nodetypes="cccccccc" />
+    <g
+       id="g1718"
+       transform="translate(-47.866684,-40.830031)"
+       inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_panzerbrechend.png"
+       inkscape:export-xdpi="406.39999"
+       inkscape:export-ydpi="406.39999">
+      <rect
+         y="215.38838"
+         x="302.54456"
+         height="35.433071"
+         width="35.433071"
+         id="rect1701"
+         style="fill:none" />
+      <path
+         id="path1705"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3847;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 307.91797,217.73438 v 20.99023 c 2e-5,5.24349 12.34375,9.75195 12.34375,9.75195 0,0 12.34181,-4.50844 12.3418,-9.75195 v -20.99023 h -3.65235 l -2.66211,2.32421 1.57227,3.61914 -4.26953,2.5586 0.93554,3.17383 -4.0039,1.52539 0.54687,3.26562 -2.55078,1.81641 0.36133,2.19336 -4.57227,4.37109 3.30274,-4.56836 -0.6543,-2.62695 1.73047,-2.41602 -0.11523,-3.11132 2.4707,-2.33594 -1.45899,-1.85938 3.38868,-3.13672 -2.16993,-3.33203 2.26563,-1.46093 z" />
     </g>
   </g>
 </svg>
