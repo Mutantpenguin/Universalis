@@ -386,7 +386,7 @@ Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchge
 #### Rundenbeginn
 
 Zu Beginn jeder Runde werden die AP jedes Modells wieder aufgefüllt.
-Nicht verbrauchte AP aus der Vorrunde werden halbiert (abgerundet) und addiert.
+Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
 
 Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 1 AP.
 
@@ -407,7 +407,7 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hat
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-* eventueller Marker für [schnelle Bewegung](#schnelle-bewegungen), [Verteidigungshaltung](#aktionen:-nahkampf) oder [Feuerbereitschaft](#aktionen:-fernkampf) werden entfernt
+* eventuelle Marker für [schnelle Bewegung](#schnelle-bewegungen), [Verteidigungshaltung](#aktionen:-nahkampf) oder [Feuerbereitschaft](#aktionen:-fernkampf) werden entfernt
 * eventuelle [Vergiftung](#vergiftung) kommt zur Anwendung
 * eventuelles [Brennen](#brennen) kommt zur Anwendung
 
