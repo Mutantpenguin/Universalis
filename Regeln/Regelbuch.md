@@ -881,7 +881,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |--|--|--|
 |![brennen](Grafiken/Effekt/effekt_brennen.png){width=40pt}|Brennen|Wenn das Modell überlebt erhält es zusätzlich Brandmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [brennen](#brennen).|
 |![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
-|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|TODO Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
 |![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
 |![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
