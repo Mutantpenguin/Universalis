@@ -504,8 +504,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="306.66398"
-     inkscape:cy="169.40525"
+     inkscape:cx="612.96452"
+     inkscape:cy="247.20128"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -525,16 +525,6 @@
      inkscape:snap-nodes="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:document-rotation="0">
-    <sodipodi:guide
-       orientation="0,1"
-       position="389.47442,1021.7222"
-       id="guide3006"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="425.76375,984.00148"
-       id="guide3305"
-       inkscape:locked="false" />
     <inkscape:grid
        type="xygrid"
        id="grid3268"
@@ -542,47 +532,6 @@
        originy="0"
        spacingx="1"
        spacingy="1" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="249.32179,936.75227"
-       id="guide3160"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="244.03712,780.8506"
-       id="guide4346"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="292.06663,368.46663"
-       orientation="0.15643447,-0.98768834"
-       id="guide4772"
-       inkscape:label=""
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="284.06663,372.99997"
-       orientation="0.15643447,-0.98768834"
-       id="guide4778"
-       inkscape:label=""
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="285.79997,384.7333"
-       orientation="0.15643447,-0.98768834"
-       id="guide4780"
-       inkscape:label=""
-       inkscape:color="rgb(0,0,255)"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="302.3333,387.73329"
-       orientation="0.97528765,-0.22093891"
-       id="guide4782"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="305.39997,376.3333"
-       orientation="0.89398752,-0.44809187"
-       id="guide4784"
-       inkscape:locked="false" />
     <sodipodi:guide
        id="guide1706"
        orientation="1,0"
@@ -880,7 +829,7 @@
     </g>
     <g
        id="g3152"
-       transform="translate(-167.67393,141.15772)"
+       transform="translate(-169.18603,141.15772)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_emp.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1059,7 +1008,7 @@
          style="font-size:16px;line-height:1.25">Effekte</tspan></text>
     <g
        id="g3164"
-       transform="translate(-3.3384094,-44.276778)"
+       transform="translate(-6.3626098,-44.276778)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_explosiv.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1082,7 +1031,7 @@
     </g>
     <g
        id="g3170"
-       transform="translate(20.418182,-43.435546)"
+       transform="translate(15.881897,-43.435546)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_rail.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1132,7 +1081,7 @@
     </g>
     <g
        id="g3182"
-       transform="translate(5.9859103,1.3780895)"
+       transform="translate(-0.06247532,1.3780895)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_durchschlag.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1227,7 +1176,7 @@
     </g>
     <g
        id="g4006"
-       transform="translate(101.28278,-45.807799)"
+       transform="translate(92.210209,-45.807799)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_vibro.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1284,7 +1233,7 @@
     </g>
     <g
        id="g4018"
-       transform="translate(-5.9494324,-43.869689)"
+       transform="translate(-16.534088,-43.869689)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_fusion.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1404,7 +1353,7 @@
     </g>
     <g
        id="g4078"
-       transform="translate(43.576843,-46.113219)"
+       transform="translate(31.480102,-46.113219)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_hitze.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1424,7 +1373,7 @@
     </g>
     <g
        id="g4084"
-       transform="translate(78.783875,-61.265517)"
+       transform="translate(65.175049,-61.265517)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_kälte.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1443,7 +1392,7 @@
     </g>
     <g
        id="g4090"
-       transform="translate(125.60764,-53.436828)"
+       transform="translate(110.48667,-53.436828)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_elektro.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1466,7 +1415,7 @@
     </g>
     <g
        id="g4097"
-       transform="translate(173.18903,-57.224898)"
+       transform="translate(156.55597,-57.224898)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_mikrowelle.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1564,7 +1513,7 @@
          style="font-size:16px;line-height:1.25">Sonstiges</tspan></text>
     <g
        id="g4853"
-       transform="translate(57.776855,-83.263427)"
+       transform="translate(39.631713,-83.263427)"
        inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Symbole/effekt_monomolekular.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1830,7 +1779,7 @@
        inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Symbole/effekt_paralyse.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
-       transform="translate(127.4231,-128.8035)">
+       transform="translate(107.76593,-128.8035)">
       <rect
          y="303.36185"
          x="449.31696"
@@ -2582,7 +2531,7 @@
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\effekte\effekt_komposit.png"
-       transform="translate(2.3066406,0.38133324)">
+       transform="translate(-18.862671,0.38133324)">
       <rect
          style="fill:none"
          id="rect7012"
@@ -2738,7 +2687,7 @@
     </g>
     <g
        id="g7073"
-       transform="translate(39.035278,-266.72824)"
+       transform="translate(16.353943,-266.72824)"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\effekte\effekt_struktur.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -3556,7 +3505,7 @@
     </g>
     <g
        id="g1599"
-       transform="matrix(0.45246764,0,0,0.45246764,365.19045,229.25074)"
+       transform="matrix(0.45246764,0,0,0.45246764,340.99709,229.25074)"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\universalis\Regeln\Grafiken\Effekt\effekt_schrapnell.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4727,7 +4676,7 @@
     </g>
     <g
        id="g1772"
-       transform="translate(660.82328,-646.20111)"
+       transform="translate(635.11777,-646.20111)"
        inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Effekt\effekt_gift.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4834,7 +4783,7 @@
        sodipodi:nodetypes="cccccccc" />
     <g
        id="g1718"
-       transform="translate(-47.866684,-40.830031)"
+       transform="translate(-55.42717,-40.830031)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_panzerbrechend.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4849,6 +4798,59 @@
          id="path1705"
          style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3847;stroke-miterlimit:4;stroke-opacity:1"
          d="m 307.91797,217.73438 v 20.99023 c 2e-5,5.24349 12.34375,9.75195 12.34375,9.75195 0,0 12.34181,-4.50844 12.3418,-9.75195 v -20.99023 h -3.65235 l -2.66211,2.32421 1.57227,3.61914 -4.26953,2.5586 0.93554,3.17383 -4.0039,1.52539 0.54687,3.26562 -2.55078,1.81641 0.36133,2.19336 -4.57227,4.37109 3.30274,-4.56836 -0.6543,-2.62695 1.73047,-2.41602 -0.11523,-3.11132 2.4707,-2.33594 -1.45899,-1.85938 3.38868,-3.13672 -2.16993,-3.33203 2.26563,-1.46093 z" />
+    </g>
+    <g
+       id="g1980"
+       transform="translate(110.23544,-292.26785)"
+       inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_robust.png"
+       inkscape:export-xdpi="406.39999"
+       inkscape:export-ydpi="406.39999">
+      <rect
+         y="466.8262"
+         x="640.57587"
+         height="35.433071"
+         width="35.433071"
+         id="rect1970"
+         style="fill:none" />
+      <g
+         id="g1968"
+         transform="matrix(0.31537331,0,0,0.31537331,459.51632,359.1325)">
+        <g
+           id="g1865"
+           transform="matrix(0.55261909,-0.31905477,0.31905477,0.55261909,137.67577,436.771)">
+          <path
+             style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.56713px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 628.22267,293.00846 141.5698,81.73537 -8.52286,14.76204 c -32.46191,-18.7419 -62.28658,-5.56206 -39.80112,27.18932 l -8.35577,14.47263 -80.44636,-46.44572 8.35577,-14.47264 c 18.95165,10.94174 47.44942,-10.65106 27.09857,-22.40063 -13.37156,-7.72007 -39.01922,-23.25726 -39.89803,-54.84037 z"
+             id="path1941"
+             sodipodi:nodetypes="cccccccsc" />
+        </g>
+        <g
+           inkscape:export-ydpi="307"
+           inkscape:export-xdpi="307"
+           inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Schadenssymbole/schlag.png"
+           id="g1953"
+           transform="matrix(1.3449867,2.3295851,2.3295851,-1.3449867,210.01384,283.43807)">
+          <g
+             id="g1951"
+             transform="rotate(30,108.62037,123.50647)">
+            <rect
+               transform="rotate(-29.999997)"
+               style="fill:#000000;stroke-width:0.123786;stroke-miterlimit:4;stroke-dasharray:none"
+               id="rect1947"
+               width="3.9143412"
+               height="24.930616"
+               x="30.357588"
+               y="150.10312"
+               ry="0" />
+            <path
+               style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.814566;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               d="m 108.95218,111.96465 2.81403,4.87403 -11.72984,6.77223 -1.284658,-2.22509 1.686608,-4.5057 z"
+               id="path1949"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+          </g>
+        </g>
+      </g>
     </g>
   </g>
 </svg>
