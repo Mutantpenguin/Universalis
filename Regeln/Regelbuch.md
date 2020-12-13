@@ -354,7 +354,6 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 4. [Runden](#runden)
     * [Initiativephasen](#initiativephasen)
     * [Rundenende](#rundenende)
-5. Spielende
 
 ### Aufbau des Spielfeldes
 
