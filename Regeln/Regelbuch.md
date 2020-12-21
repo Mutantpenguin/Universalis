@@ -1426,14 +1426,12 @@ Sie wird am Modell mit dem Tarnungs-Marker dargestellt.
 
 Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.
 
-Jede Tarnung verfügt über eine Stufe, welche die Effektivität der Tarnung widerspiegelt.
-
 ### Voraussetzungen für Tarnung
 
 |Typ|Voraussetzung|
 |:--:|--|
-|passiv|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem Geländetyp oder einem Geländeteil (welches mindestens über die gleichen Ausmaße wie das Modell verfügt) befindet.|
-|aktiv|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem Geländeteil befinden oder nicht.|
+|passiv|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem [Geländeteil](#geländeteil) (welches mindestens über die gleichen Ausmaße wie das [Größenprofil](#größenprofil) des Modell verfügt) befindet.|
+|aktiv|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem [Geländeteil](#geländeteil) befinden oder nicht.|
 
 ### Vorteile von Tarnung
 
@@ -1459,22 +1457,20 @@ Es kann normal beschossen oder im Nahkampf angegriffen werden.
 
 Wenn ein getarntes Modell einen Angriff einleitet oder eine Fernkampfwaffe abfeuert wird es automatisch aufgeklärt.
 
-### Aktionen: Tarnung
+Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ ausgeführt werden.
 
-Um ein getarntes Modell gezielt aufzuklären muss die Aktion/Reaktion „Aufklären“ ausgeführt werden.
+### Aktionen: Tarnung
 
 !!! danger Aufklären - 1 ⊙
 
     Aufklären bezieht sich immer auf ein konkretes getarntes Modell.
 
-Pro Initiativephase darf pro getarntem Modell nur einmal für Aufklärung getestet werden.
+    Pro Initiativephase darf mit jedem Modell pro getarntem Modell nur einmal für Aufklärung getestet werden.
 
-Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden.
-Zusätzlich muss ein Aufklärungstest durchgeführt werden, welcher um die Stufe der Tarnung erschwert ist.
-Dies ist ein normaler WN-Wurf.
-Bei Erfolg wurde das getarnte Modell aufgeklärt.
+    Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
+    Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
-Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werden.
+    Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werden.
 
 ### Reaktionen: Tarnung
 
@@ -1482,9 +1478,9 @@ Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werde
 
     Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
 
-Für das Modell, welches bei der Aufklärung unterstützen soll, muss sich das aufzuklärende Modell ebenso in seinem Wahrnehmungsbereich befinden.
+    Für das Modell, welches bei der Aufklärung unterstützen soll, muss sich das aufzuklärende Modell ebenso in seinem Wahrnehmungsbereich befinden.
 
-Das unterstützte Modell erhält +1 auf seinen Aufklärungstest.
+    Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
 
 ## Ausrüstung
 
