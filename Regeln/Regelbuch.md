@@ -1113,7 +1113,9 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
         Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
         Jede weitere Aktion beendet die Feuerbereitschaft automatisch.
 
-    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
+        Nur mit Schusswaffen der WK I, II und III.
+
+    Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
     Es verliert sie dann automatisch.
 
     Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
@@ -1141,17 +1143,15 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
 
         Das Modell muss sich in Feuerbereitschaft befinden.
         
-        Nur mit Schusswaffen der WK I und II.
-
         Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiativephase durchgeführt werden.
         
         Der Beschuss darf nur auf das Modell dessen Initiativephase gerade gilt gerichtet sein.
     
-    Das Modell führt einen Fernkampf durch.
+    Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch.
     
     Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
     
-    Wenn ein Ziel aus Deckung auftaucht oder sich in den Wahrnehmungsbereich hinein bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen FK-Wurf.
+    Wenn sich das Ziel in den Wahrnehmungsbereich hinein oder hinaus bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen FK-Wurf.
 
     Das Modell verliert danach automatisch seine Feuerbereitschaft.
 
