@@ -638,9 +638,15 @@ Geländearten
 
 Boni und Mali
 
+### Geländeteil
+
+Alle Objekte auf dem Spielfeld die kein Modell sind werden als Geländeteil bezeichnet.
+
+Ein Geländeteil kann dabei für sich allein stehen, oder fällt unter einen der weiter unten genannten [Geländetypen](#geländetyp).
+
 ### Deckung
 
-Jedes Objekt kann als Deckung verwendet werden wenn es das Modell mindestens zur Hälfte verdeckt.
+Jedes Geländeteil kann als Deckung verwendet werden wenn es das [Größenprofil](#größenprofil) eines Modell mindestens zur Hälfte verdeckt.
 
 Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
@@ -668,12 +674,6 @@ Dadurch werden auch Bewegungen in einen solchen Bereich hinein unmöglich.
 Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Verringerung der GK um 1 vermindert.
 Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
 
-### Geländeteil
-
-Alle Objekte auf dem Spielfeld die kein Modell sind werden als Geländeteil bezeichnet.
-
-Ein Geländeteil kann dabei für sich allein stehen, oder fällt unter einen der nachfolgend genannten Geländetypen.
-
 ### Geländetyp
 
 Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche Sonderregeln unterliegen.
@@ -684,7 +684,7 @@ Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderrege
 Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet.
 Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
 
-Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp befindet.
+Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" einem Geländetyp befindet.
 
 !!! summary Dickicht
 
