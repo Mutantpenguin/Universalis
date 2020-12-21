@@ -1355,6 +1355,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
         Nur wenn der Angriff erfolgreich abgewehrt wurde.
     
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+    Es erhält +2 auf seinen NK-Wurf.
 
 !!! warning Komplex: Entwaffnen - WK ⊙
 
