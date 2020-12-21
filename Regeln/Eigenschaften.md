@@ -56,6 +56,11 @@ TODO
 
     Kann sich auch vertikal an Geländeteilen entlang bewegen.
 
+!!! check Geländegängigkeit | 1 - 3
+
+    Die Passierbarkeit jedes Geländes wird um X verbessert.
+    Sie kann dabei nicht besser als 0 werden.
+
 !!! check TODO
 
     Kann die Reaktion "Beschuss Ausweichen" anwenden.
