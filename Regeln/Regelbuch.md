@@ -248,7 +248,7 @@ Befreundete Modelle behindern nicht die Sichtlinie.
 
 ### Tragkraft
 
-Jedes Modell kann eine gewisse Menge an Ausrüstung tragen, ohne, dass davon Agilität und Bewegung negativ beeinflusst werden.
+Jedes Modell kann eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
 
 Diese Tragkraft errechnet sich für Infanterie über die Konstitution (KO) im Quadrat (in Kilogramm):
 
@@ -258,8 +258,8 @@ Bei Mechs und Kolossen wird die Konstitution (KO) vor der Quadrierung verdoppelt
 
     Tragkraft in kg = (KO*2)²
 
-Bis zu diesem Wert erleidet das Modell keine negativen Auswirkung, wird er überschritten werden Agilität (AGI) und Geschwindigkeit (GK) jeweils um 1 verringert.
-Wird er um das doppelte überschritten, werden beide Attribute um jeweils 2 verringert usw.
+Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen, wird er überschritten werden AGI und GK jeweils um 1 verringert.
+Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw.
 
 Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 
