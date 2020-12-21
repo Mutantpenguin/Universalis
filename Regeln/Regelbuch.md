@@ -66,9 +66,9 @@ Mehr Würfel schaden nie.
 
     |Symbol|Bedeutung|
     |:--:|--|
-    |![brennen](Grafiken/Marker/brennen.svg){width="40pt"}|[Brennen](#übersicht-der-schadens--und-rüstungseffekte)|
+    |![brennen](Grafiken/Marker/brennen.svg){width="40pt"}|[Brennen](#brennen)|
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
-    |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#übersicht-der-schadens--und-rüstungseffekte)|
+    |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
     |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
     |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
