@@ -1,34 +1,41 @@
 h1, h2, h3, h4
 {
     font-family: "Nova Round";
-    page-break-inside:avoid;
+    page-break-inside: avoid;
 }
 
 h1
 {
     color: white;
-    background-color: black;
-    padding-left:10pt;
-    padding-top:5pt;
-    padding-bottom:5pt;
+    font-weight: bold;
+    background-color: #495664;
+    padding-left: 10pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
 }
 
 h2
 {
     color: white;
-    background-color: black;
-    padding-left:10pt;
-    padding-top:5pt;
-    padding-bottom:5pt;
+    font-weight: bold;
+    background-color: #495664;
+    padding-left: 10pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
 }
 
 h3
 {
     color: white;
-    background-color: darkslategrey;
-    padding-left:10pt;
-    padding-top:5pt;
-    padding-bottom:5pt;
+    background-color: #5f7082;
+    padding-left: 10pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+h4
+{
+    font-weight: bold;
 }
 
 h2
@@ -39,7 +46,7 @@ h2
 table
 {
     width: 100%;
-    page-break-inside:avoid;
+    page-break-inside: avoid;
 }
 
 .img_border
@@ -50,5 +57,5 @@ table
 
  .admonition
  {
-    page-break-inside:avoid;
+    page-break-inside: avoid;
  }
