@@ -28,7 +28,9 @@ puppeteer:
 
 # Universalis - Regelbuch
 
-Regelbuch Version 0.1.0
+![logo](../Grafiken/logo.svg){width="400pt"} {align="center"}
+
+Version 0.1.0 {align="center"}
 
 ## Inhaltsverzeichnis
 
