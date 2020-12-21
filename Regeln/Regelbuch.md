@@ -617,7 +617,9 @@ Die vertikale Distanz wird dafür doppelt berechnet.
 Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 20cm bewegt, gilt es als in schneller Bewegung.
 Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
-Sie wird am Modell mit dem Schnell-Marker dargestellt.
+Sie wird am Modell mit dem Schnell-Marker dargestellt:
+
+![schnell](Grafiken/Marker/schnell.svg){width="40pt"} {align="center"}
 
 Zum Beginn der nächsten Initiativephase eines Modells wird der Marker wieder entfernt.
 
@@ -627,6 +629,10 @@ Sie kommt unter anderem beim [Fernkampf](#schnelle-bewegungen-des-ziels) zur Anw
 
 Liegende Modelle gelten als eine Größenstufe kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
+
+Liegen wird am Modell mit dem Liegend-Marker dargestellt:
+
+![liegen](Grafiken/Marker/liegen.svg){width="40pt"} {align="center"}
 
 Das [Sichtfeld](#sichtfeld) liegender Modelle ist um eine Stufe verschlechtert.
 
@@ -946,7 +952,9 @@ Wenn er ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt
 
 Wenn ein Modell einen Schock erleidet muss es einen KO-Wurf ablegen.
 Misslingt dieser verliert es sofort 1 AP.
-Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Marker.
+Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Marker:
+
+![schock](Grafiken/Marker/schock.svg){width="40pt"} {align="center"}
 
 Ein Modell mit Schock-Markern verliert zum Beginn einer Runde automatisch 1 AP pro Marker woraufhin diese Marker entfernt werden.
 Sollten noch Schock-Marker übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Marker bis zur nächsten Runde um dann abgezogen zu werden.
@@ -966,13 +974,17 @@ Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
 
 ### Vergiftung
 
-Modelle mit Giftmarkern zählen als *vergiftet*.
+Modelle mit Giftmarkern zählen als *vergiftet*:
+
+![gift](Grafiken/Marker/gift.svg){width="40pt"} {align="center"}
 
 Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und verlieren automatisch 1 TP.
 
 ### Brennen
 
-Modelle mit einem Brandmarker gelten als *brennend*.
+Modelle mit einem Brandmarker gelten als *brennend*:
+
+![brennen](Grafiken/Marker/brennen.svg){width="40pt"} {align="center"}
 
 Sie können keine Aktionen und Reaktionen ausführen.
 
@@ -1117,6 +1129,10 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
 
     Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
     Es verliert sie dann automatisch.
+
+    Sie wird am Modell mit dem Feuerbereitschafts-Marker dargestellt:
+
+    ![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"} {align="center"}
 
     Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
     Misslingt dieser verliert es die Feuerbereitschaft.
@@ -1325,7 +1341,9 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigungshaltung.
     Es verliert sie dann automatisch.
 
-    Sie wird am Modell mit dem Verteidigungshaltungs-Marker dargestellt.
+    Sie wird am Modell mit dem Verteidigungshaltungs-Marker dargestellt:
+
+    ![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"} {align="center"}
 
     Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
     Das Modell verliert danach automatisch seine Verteidigungshaltung.
@@ -1422,7 +1440,9 @@ Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe d
 Tarnung wird in passive und aktive Tarnung unterschieden, je nachdem was damit möglich ist.
 Weiterhin verfügt sie immer über eine Stufe um die Effektivität der Tarnung auszudrücken.
 
-Sie wird am Modell mit dem Tarnungs-Marker dargestellt.
+Sie wird am Modell mit dem Tarnungs-Marker dargestellt:
+
+![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"} {align="center"}
 
 Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.
 
