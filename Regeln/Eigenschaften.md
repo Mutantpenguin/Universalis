@@ -46,11 +46,18 @@ TODO
 
     asdasd
 
+### Stufen
+
+Manche Eigenschaften verfügen über Stufen wobei die möglichen Stufen im Titel der Eigenschaft angegeben sind.
+
+In der Beschreibung der Eigenschaft wird auf die Stufe mit `[Stufe]` verwiesen.
+Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das Modell verfügt) ausgetauscht werden muss.
+
 ## Bewegung
 
 !!! check Bodenhaftung | 1 - 3
 
-    Das Modell darf X mal seinen Bewegungstest neu würfeln.
+    Das Modell darf `[Stufe]` mal seinen Bewegungstest neu würfeln.
 
 !!! check Gecko
 
@@ -58,7 +65,7 @@ TODO
 
 !!! check Geländegängigkeit | 1 - 3
 
-    Die Passierbarkeit jedes Geländes wird um X verbessert.
+    Die Passierbarkeit jedes Geländes wird um `[Stufe]` verbessert.
     Sie kann dabei nicht besser als 0 werden.
 
 !!! check TODO
@@ -69,7 +76,7 @@ TODO
 
 !!! check Multitasking | 1 - 3
 
-    Das Modell hat X zusätzliche AP, die es aber nur für seine Drohnen ausgeben darf.
+    Das Modell hat `[Stufe]` zusätzliche AP, die es aber nur für seine Drohnen ausgeben darf.
 
 ## Fernkampf
 
@@ -83,7 +90,7 @@ TODO
 
 !!! check Bewährter Fernkämpfer | 1 - 3
 
-    Das Modell darf X mal seinen Fernkampfwurf neu würfeln.
+    Das Modell darf `[Stufe]` mal seinen Fernkampfwurf neu würfeln.
 
 !!! check Revolverheld
 
@@ -93,7 +100,7 @@ TODO
 
 !!! check Bewährter Nahkämpfer | 1 - 3
 
-    Das Modell darf X mal seinen Nahkampfwurf neu würfeln.
+    Das Modell darf `[Stufe]` mal seinen Nahkampfwurf neu würfeln.
 
 !!! check Flink
 
@@ -117,7 +124,7 @@ TODO
 
 !!! check Nahkampfspezialist | 1 - 3
 
-    Der Nahkampfgegner kann X mal dazu gezwungen werden seinen Nahkampfwurf neu zu würfeln.
+    Der Nahkampfgegner kann `[Stufe]` mal dazu gezwungen werden seinen Nahkampfwurf neu zu würfeln.
 
 !!! check Ohne Rücksicht auf Verluste
 
