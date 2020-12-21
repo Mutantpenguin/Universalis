@@ -512,9 +512,9 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 |:--:|--|--|
 |![beine](Grafiken/Bewegung/beine.svg){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.|
 |![flug](Grafiken/Bewegung/flug.svg){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden. TODO Beschränkung bei Drehungen?|
-|![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|Kette|Bewegungstests für Passierbarkeit dürfen einmal wiederholt werden.|
+|![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|Kette|Bewegungstests für [Passierbarkeit](#passierbarkeit) dürfen einmal wiederholt werden.|
 |![rad](Grafiken/Bewegung/rad.svg){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
-|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|Schweben| TODO Ignoriert Passierbarkeit. maximale Höhe? Träge Bewegung/Drehung? |
+|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|Schweben| TODO Ignoriert [Passierbarkeit](#passierbarkeit). maximale Höhe? Träge Bewegung/Drehung? |
 |![stationär](Grafiken/Bewegung/stationär.svg){width="40pt"}|Stationär|Kann nicht bewegt werden.|
 
 ### Bewegungstest
@@ -630,15 +630,6 @@ Kleine Modelle werden dadurch nicht noch kleiner.
 
 Das [Sichtfeld](#sichtfeld) liegender Modelle ist um eine Stufe verschlechtert.
 
-### Passierbarkeit
-
-Passierbarkeit ist eine Eigenschaft von [Gelände](#gelände) und wird mit einer Stufe von 0 bis 2 angegeben.
-
-Die Kosten jeder Bewegungsaktion innerhalb eines Geländetyps werden um die entsprechende Stufe erhöht.
-
-Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Kosten um 1⊙ verringert.
-Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
-
 ## Gelände
 
 TODO
@@ -665,6 +656,17 @@ Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
 
 Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe bei Fernkampf.
+
+### Passierbarkeit
+
+Passierbarkeit ist eine Eigenschaft von Gelände und wird mit einer Stufe angegeben.
+
+Die Stufe wird dabei von der GK eines Modells abgezogen, wenn sich in einem Bereich mit einer Passierbarkeit größer als 0 befindet.
+Wenn die GK eines Modells dadurch auf 0 sinkt kann es sich in dem entsprechenden Bereich nicht bewegen.
+Dadurch werden auch Bewegungen in einen solchen Bereich hinein unmöglich.
+
+Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Verringerung der GK um 1 vermindert.
+Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
 
 ### Geländeteil
 
@@ -724,7 +726,7 @@ Die angegebene Deckung gilt auch wenn sich ein Modell "hinter" einem Geländetyp
 
     | Passierbarkeit | Deckung |
     | :------------: | :-----: |
-    |       2        |    -    |
+    |       3        |    -    |
 
 !!! summary Unpassierbar
 
@@ -765,9 +767,9 @@ Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländety
 
     Das gesamte Spielfeld ist der Innenraum eines Gebäudes.
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |0|Stufe I|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       0        | Stufe I |
 
 !!! summary Ländlich
 
@@ -779,17 +781,17 @@ Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländety
 
 !!! summary Schwerelosigkeit
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |2|-|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       2        |    -    |
 
     Projektilwaffen erhalten ein weiteres Reichweitenband.
 
 !!! summary Urban
 
-    |Passierbarkeit|Deckung|
-    |:--:|:--:|
-    |0|Stufe I|
+    | Passierbarkeit | Deckung |
+    | :------------: | :-----: |
+    |       0        | Stufe I |
 
     Der Zwischenraum zwischen Gebäuden wird regeltechnisch als vom Geländetyp Straße angesehen.
 
