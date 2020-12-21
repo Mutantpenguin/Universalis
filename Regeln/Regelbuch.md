@@ -627,10 +627,10 @@ Sie kommt unter anderem beim [Fernkampf](#schnelle-bewegungen-des-ziels) zur Anw
 
 ### Liegende Modelle
 
-Liegende Modelle gelten als eine Größenstufe kleiner als sie sind.
+Liegende Modelle gelten als ein [Größenprofil](#größenprofil) kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
 
-Liegen wird am Modell mit dem Liegend-Marker dargestellt:
+Dies wird am Modell mit dem Liegend-Marker dargestellt:
 
 ![liegen](Grafiken/Marker/liegen.svg){width="40pt"} {align="center"}
 
