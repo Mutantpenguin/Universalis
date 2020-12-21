@@ -138,6 +138,10 @@ TODO
 
 ## Sonstiges
 
+!!! check 7. Sinn
+
+    Der Wahrnehmungsbereich wird verdoppelt um eine Aktion durch eine Reaktion zu unterbrechen.
+
 !!! check Glück
 
     Kann pro Runde einmal einen beliebigen eigenen Würfelwurf neu durchführen.
