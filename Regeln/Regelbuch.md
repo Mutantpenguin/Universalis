@@ -1292,7 +1292,7 @@ Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base 
 
 Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt und wiefolgt vorgegangen:
 
-1. Wenn das angreifende Modell gewinnt landet es einen Treffer mit einer beliebigen Nahkampfwaffe.
+1. Wenn das angreifende Modell gewinnt landet es einen Treffer mit der zuvor ausgewählten Nahkampfwaffe.
 2. Wenn das angegriffene Modell gewinnt verteidigt es sich erfolgreich und nichts passiert.
 3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
