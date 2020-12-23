@@ -1433,7 +1433,7 @@ Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe d
 
 !!! example Beispiel
 
-    Für einen Infanteristen mit einer KO von 6.
+    Für einen Infanteristen mit einer KO von 5.
 
     ![unbewaffnet](Grafiken/Abbildungen/unbewaffnet.png)
 
