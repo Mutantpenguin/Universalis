@@ -1422,7 +1422,7 @@ Es können nur [aufgeklärte](#aufklärung) Modelle angegriffen werden.
 Infanterie, Mechs und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
 Der Schadenstyp ist dabei immer Schlag und die Stärke entspricht der Konstitution.
-Der Schaden berechnet sich durch die KO geteilt durch 3 (gerundet).
+Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
 Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe des Modells.
 
 | Größe des Modells | Stufe des Schadenstyp | Waffenklasse |
@@ -1640,7 +1640,7 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion welche eine Fläche mit einem Radius in Höhe der KO umfasst.
 
 Der Schadenstyp ist dabei immer Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
-Der Schaden liegt bei KO geteilt durch 2 (gerundet).
+Der Schaden liegt bei KO geteilt durch 2 (abgerundet).
 Zusätzlich wirkt der Schadenseffekt „Explosiv“.
 
 Nach der Detonation wird das Modell vom Spielfeld entfernt.
