@@ -109,16 +109,18 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 ![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg) {align="center"}
 
-|                                        |                                                                     |
-| -------------------------------------- | ------------------------------------------------------------------- |
-| 1. [Fraktion](#fraktion)               | 9. [Wahrnehmungsbereich](#wahrnehmungsbereich)                      |
-| 2. [Trefferpunkte](#trefferpunkte)     | 10. [Größenprofil](#größenprofil)                                   |
-| 3. Name des Modells                    | 11. [Bewegungsart](#bewegungsart)                                   |
-| 4. [Typ des Modells](#modelle)         | 12. Gesamtgewicht                                                   |
-| 5. [Attribute](#attribute)             | 13. [Schadenstypen](#schadens--/-rüstungstypen)                     |
-| 6. Outfit, also Ausstattungsvariante   | 14. [Rüstungstypen](#schadens--/-rüstungstypen)                     |
-| 7. Punkte                              | 15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
-| 8. [Gefahrenbereich](#gefahrenbereich) | 16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
+|                                                |                                                                     |
+| ---------------------------------------------- | ------------------------------------------------------------------- |
+| 1. [Fraktion](#fraktion)                       | 11. [Bewegungsart](#bewegungsart)                                   |
+| 2. [Trefferpunkte](#trefferpunkte)             | 12. Gesamtgewicht                                                   |
+| 3. Name des Modells                            | 13. [Schadenstypen](#schadens--/-rüstungstypen)                     |
+| 4. [Attribute](#attribute)                     | 14. [Rüstungstypen](#schadens--/-rüstungstypen)                     |
+| 5. [Wahrnehmungsbereich](#wahrnehmungsbereich) | 15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
+| 6. [Gefahrenbereich](#gefahrenbereich)         | 16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
+| 7. Outfit, also Ausstattungsvariante           | 17. [Eigenschaften](#eigenschaften)                                 |
+| 8. Punkte                                      | 18. [Waffen](#waffen)                                               |
+| 9. [Typ des Modells](#modelle)                 | 19. [Rüstung](#rüstung)                                             |
+| 10. [Größenprofil](#größenprofil)              | 20. [Ausrüstung](#ausrüstung)                                       |
 
 ## Modelle
 
