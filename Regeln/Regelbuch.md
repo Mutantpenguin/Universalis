@@ -830,13 +830,13 @@ Um Schaden abzuwehren gibt es verschiedene Möglichkeiten wie bspw. Rüstung, Sc
 
 Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), die Stärke, den Schaden und eventuellen Effekten angegeben.
 
-![schadensprofil](Grafiken/Abbildungen/schadensprofil.png)
+![schadensprofil](Grafiken/Abbildungen/schadensprofil.png){width="500pt"}
 
 ### Rüstungsprofil
 
 Rüstungen werden immer durch ein oder mehrere Rüstungstypen (z.B. Stich), den Schutz und eventuellen Effekten angegeben.
 
-![rüstungsprofil](Grafiken/Abbildungen/rüstungsprofil.png)
+![rüstungsprofil](Grafiken/Abbildungen/rüstungsprofil.png){width="500pt"}
 
 ### Schadens- / Rüstungstypen
 
@@ -1027,7 +1027,7 @@ Die Anzahl an Bändern ist dabei immer 4.
 
     Für einen Menschen mit KO von 5:
 
-    ![Wurfwaffe](Grafiken/Abbildungen/wurfwaffe.jpg)
+    ![Wurfwaffe](Grafiken/Abbildungen/wurfwaffe.jpg){width="500pt"}
 
 ### Waffenklassen
 
@@ -1063,7 +1063,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
     Für eine Schockgranate die 2x verwendet werden kann.
 
-    ![Einmalnutzung Waffe](Grafiken/Abbildungen/einmalnutzung_waffe.jpg)
+    ![Einmalnutzung Waffe](Grafiken/Abbildungen/einmalnutzung_waffe.jpg){width="500pt"}
 
 ### Beispiele für Waffenklassen
 
@@ -1448,7 +1448,7 @@ Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe d
 
     Für einen Infanteristen mit einer KO von 5.
 
-    ![unbewaffnet](Grafiken/Abbildungen/unbewaffnet.png)
+    ![unbewaffnet](Grafiken/Abbildungen/unbewaffnet.png){width="500pt"}
 
 ## Tarnung
 
@@ -1566,7 +1566,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
     Für ein medizinisches Spray das 3x verwendet werden kann.
 
-    ![Einmalnutzung Ausrüstung](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg)
+    ![Einmalnutzung Ausrüstung](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg){width="500pt"}
 
 ## Mechs & Kolosse
 
@@ -1662,7 +1662,7 @@ Nach der Detonation wird das Modell vom Spielfeld entfernt.
 
     Für einen Mech mit einer KO von 6.
 
-    ![detonation](Grafiken/Abbildungen/detonation.png)
+    ![detonation](Grafiken/Abbildungen/detonation.png){width="500pt"}
 
 ## Drohnen
 
