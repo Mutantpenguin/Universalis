@@ -1018,6 +1018,17 @@ Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines [Reich
 
 Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt eingesetzt werden können.
 
+### Wurfwaffen
+
+Ihre Reichweite wird berechnet, wobei die KO des Modells das Reichweitenband angibt.
+Die Anzahl an Bändern ist dabei immer 4.
+
+!!! example Beispiel
+
+    Für einen Menschen mit KO von 5:
+
+    ![Wurfwaffe](Grafiken/Abbildungen/wurfwaffe.jpg)
+
 ### Waffenklassen
 
 Durch Waffenklassen wird unterschieden wie groß und damit unhandlich eine Waffe bzw. wie komplex sie zu bedienen ist.
