@@ -254,15 +254,15 @@ Befreundete Modelle behindern nicht die Sichtlinie.
 
 Jedes Modell kann eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
 
-Diese Tragkraft errechnet sich für Infanterie über die Konstitution (KO) im Quadrat (in Kilogramm):
+Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
-    Tragkraft in kg = KO²
+| Typ               | Tragkraft in kg |
+| ----------------- | :-------------: |
+| Infanterie        |      `KO²`      |
+| Mechs und Kolosse |  `( KO * 2 )²`  |
 
-Bei Mechs und Kolossen wird die Konstitution (KO) vor der Quadrierung verdoppelt (in Kilogramm):
-
-    Tragkraft in kg = (KO*2)²
-
-Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen, wird er überschritten werden AGI und GK jeweils um 1 verringert.
+Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
+Wird er jedoch überschritten werden AGI und GK jeweils um 1 verringert.
 Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw.
 
 Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
@@ -271,7 +271,7 @@ Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 
     Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
     
-    Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw
+    Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
 
 ### Gefahrenbereich
 
