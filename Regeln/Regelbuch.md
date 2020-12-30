@@ -115,8 +115,8 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 | 2. [Trefferpunkte](#trefferpunkte)             | 12. Gesamtgewicht                                                   |
 | 3. Name des Modells                            | 13. [Schadenstypen](#schadenstypen)                     |
 | 4. [Attribute](#attribute)                     | 14. [Schadenstypen](#schadenstypen)                     |
-| 5. [Wahrnehmungsbereich](#wahrnehmungsbereich) | 15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
-| 6. [Gefahrenbereich](#gefahrenbereich)         | 16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
+| 5. [Wahrnehmungsbereich](#wahrnehmungsbereich) | 15. [Schadenseffekte](#übersicht-der-schadenseffekte) |
+| 6. [Gefahrenbereich](#gefahrenbereich)         | 16. [Schadenseffekte](#übersicht-der-schadenseffekte) |
 | 7. Outfit, also Ausstattungsvariante           | 17. [Eigenschaften](#eigenschaften)                                 |
 | 8. Punkte                                      | 18. [Waffen](#waffen)                                               |
 | 9. [Typ des Modells](#modelle)                 | 19. [Rüstung](#rüstung)                                             |
@@ -876,7 +876,7 @@ Sie werden mit den folgenden Symbolen ausgewiesen:
 |![schaden](Grafiken/Waffe/schaden.png){width="40pt"}|Schaden|zugefügter Verlust an Trefferpunkten|
 |![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|erhöht die Chance beim [Rüstungswurf](#verletzungs--und-rüstungswurf)|
 
-### Schadens- / Rüstungseffekte
+### Schadenseffekte
 
 Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 
@@ -889,7 +889,9 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
     Der Angreifer dürfte nun normalerweise seine Würfel einmal neu würfeln.
     Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
 
-### Übersicht der Schadens- und Rüstungseffekte
+### Übersicht der Schadenseffekte
+
+#### Allgemein
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
@@ -904,13 +906,13 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
 |![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|TODO Der Angreifer darf den Verteidiger zwingen eine beliebige Anzahl an Würfeln neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
 
-### Übersicht der reinen Schadenseffekte
+#### Nur für Schadensprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
 |![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ nur den halbierten (abgerundeten) Schaden zu.|
 
-### Übersicht der reinen Rüstungseffekte
+#### Nur für Rüstungsprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
