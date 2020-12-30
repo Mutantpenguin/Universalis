@@ -893,7 +893,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![brennen](Grafiken/Effekt/effekt_brennen.png){width=40pt}|Brennen|Wenn das Modell überlebt erhält es zusätzlich Brandmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [brennen](#brennen).|
+|![brennen](Grafiken/Effekt/effekt_brennen.png){width=40pt}|Brennen|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
 |![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 |![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|TODO Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
 |![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
@@ -994,19 +994,18 @@ Modelle mit einem Brandmarker gelten als *brennend*:
 
 Sie können keine Aktionen und Reaktionen ausführen.
 
-Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Brandmarker und testen mit 1W12 auf der folgenden Tabelle:
+Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Tabelle:
+
+|Ergebnis|Auswirkung|
+|:--:|--|
+|1-6|Das Modell erleidet einen automatischen Treffer. Falls es ihn überlebt bewegt es sich für 3 AP in jeweils eine zufällige Richtung.|
+|7-8|Das Modell erleidet einen automatischen Treffer. Falls es ihn überlebt bewegt es sich für *alle* AP in jeweils eine zufällige Richtung.|
+|9-11|Der Brandmarker wird vom Modell entfernt und es verliert 2 AP. Sollte es nicht über genügend AP verfügen bekommt es stattdessen Schockmarker.
+|12|Der Brandmarker wird entfernt.|
 
 !!! TODO
 
-    verlieren automatisch 1 TP
-    automatisch einen Treffer
-
-    |Ergebnis|Auswirkung|
-    |:--:|--|
-    |1-3|Das Modell hört auf zu brennen und verliert 2 AP. Sollte es nicht über genügend AP verfügen bekommt es stattdessen Schockmarker.
-    |4-9|Das Modell brennt weiter und erleidet automatisch einen Treffer. Falls es dies überlebt bewegt es sich für 3 AP in eine zufällige Richtung.|
-    |10-11|Das Modell brennt weiter und erleidet automatisch einen Treffer. Falls es dies überlebt bewegt es sich für *alle* AP in eine zufällige Richtung.|
-    |12|Das Feuer erlischt und alle Brandmarker werden vom Modell entfernt.|
+    Andere Modelle können helfen!
 
 ## Waffen
 
