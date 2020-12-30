@@ -113,8 +113,8 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 | ---------------------------------------------- | ------------------------------------------------------------------- |
 | 1. [Fraktion](#fraktion)                       | 11. [Bewegungsart](#bewegungsart)                                   |
 | 2. [Trefferpunkte](#trefferpunkte)             | 12. Gesamtgewicht                                                   |
-| 3. Name des Modells                            | 13. [Schadenstypen](#schadens--/-rüstungstypen)                     |
-| 4. [Attribute](#attribute)                     | 14. [Rüstungstypen](#schadens--/-rüstungstypen)                     |
+| 3. Name des Modells                            | 13. [Schadenstypen](#schadenstypen)                     |
+| 4. [Attribute](#attribute)                     | 14. [Schadenstypen](#schadenstypen)                     |
 | 5. [Wahrnehmungsbereich](#wahrnehmungsbereich) | 15. [Schadenseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
 | 6. [Gefahrenbereich](#gefahrenbereich)         | 16. [Rüstungseffekte](#übersicht-der-schadens--und-rüstungseffekte) |
 | 7. Outfit, also Ausstattungsvariante           | 17. [Eigenschaften](#eigenschaften)                                 |
@@ -836,13 +836,13 @@ Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), die 
 
 ### Rüstungsprofil
 
-Rüstungen werden immer durch ein oder mehrere Rüstungstypen (z.B. Stich), den Schutz und eventuellen Effekten angegeben.
+Rüstungen werden immer mit ein oder mehreren Schadenstypen, ihrem Schutz und eventuellen Effekten angegeben.
 
 ![rüstungsprofil](Grafiken/Abbildungen/rüstungsprofil.png){width="500pt"}
 
-### Schadens- / Rüstungstypen
+### Schadenstypen
 
-Schadens- und Rüstungstypen beschreiben, welche Art von Schaden verursacht wird bzw. abgewehrt werden kann.
+Schadenstypen beschreiben, welche Art von Schaden verursacht wird bzw. abgewehrt werden kann.
 
 Es gibt die folgenden Typen:
 
@@ -853,11 +853,11 @@ Es gibt die folgenden Typen:
 |![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
 |![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
 
-### Stufen der Schadens- / Rüstungstypen
+### Stufen der Schadenstypen
 
-Schadens- und Rüstungstypen haben eine minimale Stufe von 1 und eine maximale Stufe von 3.
+Schadenstypen haben eine minimale Stufe von 1 und eine maximale Stufe von 3.
 Jede Stufe wird durch ein „+“ rechts vom eigentlichen Symbol für den Typen dargestellt.
-Symbole für Schadenstypen werden dabei immer in rot, und Rüstungstypen immer in grün dargestellt.
+Symbole für Schadenstypen werden bei Waffen immer in rot, und bei Rüstungen immer in grün dargestellt.
 
 !!! example Beispiel
 
@@ -933,7 +933,7 @@ Hierbei müssen auch alle Effekte angewendet werden.
     Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
 
     Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Rüstungsprofil vorhanden ist und addiert dessen Stufe.
-    Ohne entsprechenden Rüstungstyp bekommt er keinen Bonus.
+    Ohne entsprechenden Schadenstyp bekommt er keinen Bonus.
 
 Nun wird die folgende Tabelle konsultiert:
 
