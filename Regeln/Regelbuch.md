@@ -328,25 +328,27 @@ Es werden nur W12 verwendet.
 
 Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
 
-#### Attributs-Wurf
+Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 
-Attributs-Würfe werden in der Form [Attributskürzel]-Wurf angegeben.
-So wird bspw. für einen Attributs-Wurf auf Konstitution nur „KO-Wurf“ geschrieben.
+* #### Attributs-Wurf
 
-Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
-Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
+  Attributs-Würfe werden in der Form [Attributskürzel]-Wurf angegeben.
+  So wird bspw. für einen Attributs-Wurf auf Konstitution nur „KO-Wurf“ geschrieben.
 
-Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
+  Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
+  Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
 
-Der Wurf wird mit 1W12 durchgeführt.
-Sofern das Ergebnis unter/gleich dem Wert liegt is es ein Erfolg, ansonsten ein Misserfolg.
+  Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
 
-#### Vergleichender Wurf
+  Der Wurf wird mit 1W12 durchgeführt.
+  Sofern das Ergebnis unter/gleich dem Wert liegt is es ein Erfolg, ansonsten ein Misserfolg.
 
-Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
+* #### Vergleichender Wurf
 
-Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
-Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
+  Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
+
+  Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
+  Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
 
 Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
@@ -662,18 +664,18 @@ Jedes Geländeteil kann als Deckung verwendet werden wenn es das [Größenprofil
 
 Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
-#### Stufe I Deckung
+* #### Stufe I Deckung
 
-Besteht aus Holz, Plastik, Blech oder auch einer Ziegelmauer.
-Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
+  Besteht aus Holz, Plastik, Blech oder auch einer Ziegelmauer.
+  Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
 
-Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
+  Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-#### Stufe II Deckung
+* #### Stufe II Deckung
 
-Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
+  Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
 
-Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe bei Fernkampf.
+  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe bei Fernkampf.
 
 ### Passierbarkeit
 
@@ -1540,15 +1542,17 @@ Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
 
 ### Attributsverbesserungen
 
-#### Permanent
+Diese können permanent oder temporär sein:
 
-Manche Ausrüstung bringt permanente Attributsverbesserungen mit sich.
-Diese werden auf der Einheitenkarte direkt in die Attribute mit eingerechnet.
+* #### Permanent
 
-#### Temporär
+  Manche Ausrüstung bringt permanente Attributsverbesserungen mit sich.
+  Diese werden auf der Einheitenkarte direkt in die Attribute mit eingerechnet.
 
-Temporäre Attributsverbesserungen sind auf der Einheitenkarte nicht in den Attributen mit eingerechnet.
-Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
+* #### Temporär
+
+  Temporäre Attributsverbesserungen sind auf der Einheitenkarte nicht in den Attributen mit eingerechnet.
+  Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 ### AP-Kosten
 
