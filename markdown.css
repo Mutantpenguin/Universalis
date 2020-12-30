@@ -16,6 +16,7 @@ h1
 
 h2
 {
+    page-break-before: always;
     color: white;
     font-weight: bold;
     padding-left: 5pt;
@@ -45,11 +46,6 @@ h3
 h4
 {
     font-weight: bold;
-}
-
-h2
-{
-    page-break-before: always;
 }
 
 table
