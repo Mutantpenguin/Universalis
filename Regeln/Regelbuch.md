@@ -300,6 +300,8 @@ Der Wahrnehmungsbereich umfasst alles im Sichtfeld des Modells bis zu einer Dist
 
     Distanz = WN * 5cm
 
+Zusätzlich gelten alle Modelle im Basekontakt als im Wahrnehmungsbereich.
+
 ![wahrnehmungsbereich](Grafiken/Abbildungen/wahrnehmungsbereich.svg){.img_border} {align="center"}
 
 *Beispiel mit einem Sichtfeld von 90° (der Pfeil stellt die Blickrichtung des Modells dar)* {align="center"}
