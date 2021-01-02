@@ -341,7 +341,7 @@ Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
   Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
 
   Der Wurf wird mit 1W12 durchgeführt.
-  Sofern das Ergebnis unter/gleich dem Wert liegt is es ein Erfolg, ansonsten ein Misserfolg.
+  Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
 
 * #### Vergleichender Wurf
 
@@ -350,7 +350,7 @@ Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
   Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
   Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
 
-Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
+  Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
 ## Ablauf des Spiels
 
