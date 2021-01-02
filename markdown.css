@@ -32,7 +32,7 @@ h2
 }
 
 h2:before {
-    content: "⊙";
+    content: "❱";
     margin-right: 5pt;
 }
 
