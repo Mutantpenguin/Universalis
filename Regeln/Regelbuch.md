@@ -976,7 +976,7 @@ Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als
 
 Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
 
-Das Modell erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributswürfe.
+Das Modell erhält für den Rest des Spiels einen Malus von -1 auf alle seine Attributs- und Vergleichenden Würfe.
 
 Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
 
