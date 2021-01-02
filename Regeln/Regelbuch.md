@@ -330,10 +330,10 @@ Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
 
 Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 
-* #### Attributs-Wurf
+* #### Attributswurf
 
-  Attributs-Würfe werden in der Form [Attributskürzel]-Wurf angegeben.
-  So wird bspw. für einen Attributs-Wurf auf Konstitution nur „KO-Wurf“ geschrieben.
+  Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
+  So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
 
   Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
   Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
