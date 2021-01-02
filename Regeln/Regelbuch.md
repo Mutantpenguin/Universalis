@@ -181,7 +181,7 @@ Die folgenden Bewegungsarten stehen dabei zur Verfügung:
 
 |Beine|Flug|Kette|Rad|Schweben|Stationär|
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|![beine](Grafiken/Bewegung/beine.svg){width="40pt"}|![flug](Grafiken/Bewegung/flug.svg){width="40pt"}|![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|![rad](Grafiken/Bewegung/rad.svg){width="40pt"}|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|![stationär](Grafiken/Bewegung/stationär.svg){width="40pt"}|{table-layout="fixed"}
+|![beine](Grafiken/Bewegung/beine.svg){width="40pt"}|![flug](Grafiken/Bewegung/flug.svg){width="40pt"}|![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|![rad](Grafiken/Bewegung/rad.svg){width="40pt"}|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|![stationär](Grafiken/Bewegung/stationär.svg){width="40pt"}|
 
 Siehe auch [Bewegung](#bewegung).
 
