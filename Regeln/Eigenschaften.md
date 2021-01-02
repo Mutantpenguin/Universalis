@@ -152,7 +152,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check 7. Sinn
 
-    Der Wahrnehmungsbereich wird verdoppelt um eine Aktion durch eine Reaktion zu unterbrechen.
+    Um eine Aktion durch eine Reaktion zu unterbrechen wird die Reichweite des Wahrnehmungsbereichs verdoppelt.
 
 !!! check Glück
 
