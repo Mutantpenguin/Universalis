@@ -893,7 +893,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 ### Übersicht der Schadenseffekte
 
-#### Allgemein
+#### Für Schadens- und Rüstungsprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
