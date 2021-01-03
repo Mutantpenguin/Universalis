@@ -28,7 +28,9 @@ puppeteer:
 
 # Universalis - Missionen
 
-Missionen Version 0.0.1
+![logo](../Grafiken/logo.svg){width="300pt"} {align="center"}
+
+Version 0.1.0 {align="center"}
 
 !!! info
 
