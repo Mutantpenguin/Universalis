@@ -48,6 +48,9 @@ Die im folgenden beschriebenen Missionen beziehen sich immer auf eine Spielfeldg
 
 ![spielfeld](Grafiken/Abbildungen/spielfeld.svg){width="300pt"} {align="center"}
 
+Die Aufstellungszone ist jeweile der grün schraffierte Bereich.
+Sollte zusätzlich eine Fluchtzone existieren ist diese in rot schraffiert.
+
 ## 01 Standard A
 
 Dies ist die Standardmission, die immer gespielt werden kann.
@@ -56,12 +59,32 @@ Dies ist die Standardmission, die immer gespielt werden kann.
 
 Das Spielfeld kann beliebig aufgebaut werden.
 
-#### Aufstellen der Modelle
+### Aufstellungszone
 
-Der Abstand zwischen den Aufstellungszonen beträgt genau 60cm.
-
-TODO Bild einfügen
+![logo](Grafiken/Missionen/01.svg){width="300pt"}  {align="center"}
 
 ### Siegesbedingungen
 
-Das Spiel endet, sobald ein Spieler keine Modelle mehr auf dem Spielfeld besitzt.
+Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom Spielfeld entfernt worden sind.
+
+## 02 Standard B
+
+### Aufstellungszone
+
+![logo](Grafiken/Missionen/02.svg){width="300pt"}  {align="center"}
+
+### Siegesbedingungen
+
+Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom Spielfeld entfernt worden sind.
+
+## 03 TODO
+
+### Aufstellungszone
+
+![logo](Grafiken/Missionen/03.svg){width="300pt"}  {align="center"}
+
+## 04 TODO
+
+### Aufstellungszone
+
+![logo](Grafiken/Missionen/04.svg){width="300pt"}  {align="center"}
