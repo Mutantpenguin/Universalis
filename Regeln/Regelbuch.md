@@ -219,6 +219,23 @@ Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
 
 *Übersicht der 4 verschiedenen Sichtfelder (der Pfeil stellt die Blickrichtung des Modells dar)* {align="center"}
 
+### Eigenschaften
+
+Eigenschaften beschreiben alles Erlernte oder Angeborene das über einfache Attribute hinausgeht.
+
+#### Aufbau einer Eigenschaft
+
+Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
+Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
+
+Was die Eigenschaft für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
+
+!!! example Beispiel
+
+    Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
+    
+    In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
+
 ## Grundregeln
 
 ### Aktionspunkte
@@ -484,24 +501,6 @@ Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 |[Nahkampf](#aktionen:-nahkampf)|
 |[Aufklären](#aktionen:-tarnung)|
 |[Ausrüstung](#ausrüstung)|
-
-## Eigenschaften
-
-Eigenschaften beschreiben alles Erlernte oder Angeborene das über einfache Attribute hinausgeht.
-
-### Aufbau einer Eigenschaft
-
-Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
-
-Weiterhin kann eine Eigenschaft über eine Stufe verfügen.
-
-Was sie für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
-
-!!! example Beispiel
-
-    Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
-    
-    In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
 
 ## Bewegung
 
