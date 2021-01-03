@@ -42,7 +42,13 @@ Version 0.1.0 {align="center"}
 
 [[toc]]
 
-## 01 Standard
+## Spielfeldgröße
+
+Die im folgenden beschriebenen Missionen beziehen sich immer auf eine Spielfeldgröße von 90cm * 90cm.
+
+![spielfeld](Grafiken/Abbildungen/spielfeld.svg){width="300pt"} {align="center"}
+
+## 01 Standard A
 
 Dies ist die Standardmission, die immer gespielt werden kann.
 

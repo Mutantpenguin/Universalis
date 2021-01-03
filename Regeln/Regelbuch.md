@@ -49,6 +49,8 @@ TODO
 
 * Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
 
+![spielfeld](Grafiken/Abbildungen/spielfeld.svg){width="300pt"} {align="center"}
+
 * Ausreichend [Geländeteile](#geländeteil) um die Fläche gut zu füllen.
 
 * Ein Maßband mit Markierungen in Zentimetern.
