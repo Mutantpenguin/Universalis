@@ -78,6 +78,10 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Das Modell hat `[Stufe]` zusätzliche AP, die es aber nur für seine Drohnen ausgeben darf.
 
+!!! check TODO | 1 - 3
+
+    Dem Modell können (unabhängig von seiner EH) `[Stufe]` zusätzliche Drohnen zugeordnet werden.
+
 ## Fernkampf
 
 !!! check Adlerauge
