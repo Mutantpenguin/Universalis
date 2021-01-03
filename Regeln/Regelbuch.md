@@ -1424,7 +1424,7 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getro
 
 * #### Schwerfällige Waffen im Nahkampf
 
-  Wenn ein Modell eine oder mehrere schwerfällige Waffen trägt, erleidet es im Nahkampf einen Malus von -3.
+  Wenn ein Modell mindestens eine schwerfällige Waffe trägt, erleidet es im Nahkampf einen Malus von -3.
 
 * #### Größenunterschiede
 
