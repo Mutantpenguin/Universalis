@@ -144,9 +144,23 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Im kritischen Zustand erhalten die Attributswürfe **keinen** Malus von -1.
 
+!!! check Absolute Regeneration
+
+    Zum Beginn jeder Initiativephase des Modells werden seine Trefferpunkte wieder voll aufgefüllt.
+
 !!! fail Bluter
 
     Jeder erlittene Schaden wird um 1 erhöht.
+
+!!! check Regeneration
+
+    Zum Beginn jeder Initiativephase des Modells werden seine Trefferpunkte wieder um `[Stufe]` Punkte aufgefüllt.
+    
+    Greift nur wenn das Modell noch über mindestens 1 Substanzpunkt verfügt.
+
+!!! check Selbstverzehrung
+
+    Pro ausgegebenem Trefferpunkt erhält das Modell 1 AP.
 
 !!! check Zäh
 
