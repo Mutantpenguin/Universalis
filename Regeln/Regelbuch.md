@@ -111,7 +111,7 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 |                                                |                                                                     |
 | ---------------------------------------------- | ------------------------------------------------------------------- |
-| 1. [Fraktion](#fraktion)                       | 11. [Bewegungsart](#bewegungsart)                                   |
+| 1. [Fraktion](#fraktionen)                       | 11. [Bewegungsart](#bewegungsart)                                   |
 | 2. [Trefferpunkte](#trefferpunkte)             | 12. Gesamtgewicht                                                   |
 | 3. Name des Modells                            | 13. [Schadenstypen](#schadenstypen)                     |
 | 4. [Attribute](#attribute)                     | 14. [Schadenstypen](#schadenstypen)                     |
