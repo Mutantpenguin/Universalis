@@ -49,7 +49,8 @@ Die im folgenden beschriebenen Missionen beziehen sich immer auf eine Spielfeldg
 ![spielfeld](Grafiken/Abbildungen/spielfeld.svg){width="300pt"} {align="center"}
 
 Die Aufstellungszone ist jeweile der grün schraffierte Bereich.
-Sollte zusätzlich eine Fluchtzone existieren ist diese in rot schraffiert.
+
+Sofern eine Mission weitere Zonen benötigt werden diese ebenfalls schraffiert, aber in anderen Farben dargestellt.
 
 ## 01 Standard A
 
@@ -59,7 +60,7 @@ Dies ist die Standardmission, die immer gespielt werden kann.
 
 Das Spielfeld kann beliebig aufgebaut werden.
 
-### Aufstellungszone
+### Zonen
 
 ![logo](Grafiken/Missionen/01.svg){width="300pt"}  {align="center"}
 
@@ -69,7 +70,7 @@ Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom S
 
 ## 02 Standard B
 
-### Aufstellungszone
+### Zonen
 
 ![logo](Grafiken/Missionen/02.svg){width="300pt"}  {align="center"}
 
@@ -79,12 +80,18 @@ Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom S
 
 ## 03 TODO
 
-### Aufstellungszone
+### Zonen
 
 ![logo](Grafiken/Missionen/03.svg){width="300pt"}  {align="center"}
 
 ## 04 TODO
 
-### Aufstellungszone
+### Zonen
 
 ![logo](Grafiken/Missionen/04.svg){width="300pt"}  {align="center"}
+
+## 05 TODO
+
+### Zonen
+
+![logo](Grafiken/Missionen/05.svg){width="300pt"}  {align="center"}

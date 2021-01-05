@@ -30,7 +30,7 @@
        inkscape:collect="always"
        xlink:href="#pattern5598-5"
        id="pattern5602-1"
-       patternTransform="matrix(1.6109025,1.4861966,-2.4534523,2.2635214,339.39978,454.83344)" />
+       patternTransform="matrix(1.6706363,1.418719,-2.3583281,2.3624649,274.61538,304.83138)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Strips1_1-2"
@@ -88,9 +88,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8812395"
-     inkscape:cx="210.41099"
-     inkscape:cy="162.34701"
+     inkscape:zoom="1.3302372"
+     inkscape:cx="142.46617"
+     inkscape:cy="179.88061"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -127,24 +127,24 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="408.14563"
+       x="407.88055"
        y="554.83807"
        id="text3002"><tspan
          sodipodi:role="line"
          id="tspan3000"
-         x="408.14563"
+         x="407.88055"
          y="554.83807"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">45cm</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="-481.10522"
+       x="-480.70303"
        y="523.99957"
        id="text3262"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan3260"
-         x="-481.10522"
+         x="-480.70303"
          y="523.99957"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">45cm</tspan></text>
     <rect
@@ -157,59 +157,35 @@
     <path
        id="rect5600"
        style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:url(#pattern5602-6);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.310633;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
-       d="M 455.80616,380.10787 V 486.67892 H 349.7771 v 52.93031 h 159.23036 v -52.93031 h -0.27101 V 380.10787 Z" />
+       d="m 349.7771,539.02498 h 158.91943 v -52.73643 h -0.27048 V 380.10787 Z"
+       sodipodi:nodetypes="cccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="-532.00739"
-       y="346.97668"
-       id="text3266"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan3264"
-         x="-532.00739"
-         y="346.97668"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">15cm</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="462.59912"
-       y="376.83395"
-       id="text3270"><tspan
-         sodipodi:role="line"
-         id="tspan3268"
-         x="462.59912"
-         y="376.83395"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">15cm</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="-266.78961"
+       x="-296.9306"
        y="187.51784"
        id="text986"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan984"
-         x="-266.78961"
+         x="-296.9306"
          y="187.51784"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">15cm</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">30cm</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="197.40048"
+       x="220.59587"
        y="218.1196"
        id="text990"><tspan
          sodipodi:role="line"
          id="tspan988"
-         x="197.40048"
+         x="220.59587"
          y="218.1196"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">15cm</tspan></text>
-    <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#pattern5602-1);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.310633;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">30cm</tspan></text>
+    <path
        id="rect5600-4"
-       width="52.83897"
-       height="52.83897"
-       x="190.37468"
-       y="220.97644" />
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#pattern5602-1);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.310632;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       d="M 190.37469,220.97649 H 296.14361 L 190.37469,327.11885 Z"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>
