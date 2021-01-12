@@ -62,7 +62,7 @@ Das Spielfeld kann beliebig aufgebaut werden.
 
 ### Zonen
 
-![logo](Grafiken/Missionen/01.svg){width="300pt"}  {align="center"}
+![logo](Grafiken/Missionen/01.svg){width="300pt"} {align="center"}
 
 ### Siegesbedingungen
 
@@ -72,7 +72,7 @@ Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom S
 
 ### Zonen
 
-![logo](Grafiken/Missionen/02.svg){width="300pt"}  {align="center"}
+![logo](Grafiken/Missionen/02.svg){width="300pt"} {align="center"}
 
 ### Siegesbedingungen
 
@@ -82,7 +82,7 @@ Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom S
 
 ### Zonen
 
-![logo](Grafiken/Missionen/03.svg){width="300pt"}  {align="center"}
+![logo](Grafiken/Missionen/03.svg){width="300pt"} {align="center"}
 
 ### Siegesbedingungen
 
@@ -91,7 +91,7 @@ Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens 3 `
 
 ### Zonen
 
-![logo](Grafiken/Missionen/04.svg){width="300pt"}  {align="center"}
+![logo](Grafiken/Missionen/04.svg){width="300pt"} {align="center"}
 
 ### Siegesbedingungen
 
@@ -100,4 +100,4 @@ Das Spiel ist gewonnen, sobald am Ende einer Initiativephase mindestens die Häl
 
 ### Zonen
 
-![logo](Grafiken/Missionen/05.svg){width="300pt"}  {align="center"}
+![logo](Grafiken/Missionen/05.svg){width="300pt"} {align="center"}
