@@ -52,7 +52,7 @@ Die Aufstellungszone ist jeweile der grün schraffierte Bereich.
 
 Sofern eine Mission weitere Zonen benötigt werden diese ebenfalls schraffiert, aber in anderen Farben dargestellt.
 
-## 01 Standard A
+## 01 . Standard A
 
 Dies ist die Standardmission, die immer gespielt werden kann.
 
@@ -68,7 +68,7 @@ Das Spielfeld kann beliebig aufgebaut werden.
 
 Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom Spielfeld entfernt worden sind.
 
-## 02 Standard B
+## 02 . Standard B
 
 ### Zonen
 
@@ -78,19 +78,25 @@ Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom S
 
 Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom Spielfeld entfernt worden sind.
 
-## 03 TODO
+## 03 . TODO
 
 ### Zonen
 
 ![logo](Grafiken/Missionen/03.svg){width="300pt"}  {align="center"}
 
-## 04 TODO
+### Siegesbedingungen
+
+Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens 3 `[Objekte]` in der eigenen Aufstellungszone befinden.
+## 04 . Extraktion
 
 ### Zonen
 
 ![logo](Grafiken/Missionen/04.svg){width="300pt"}  {align="center"}
 
-## 05 TODO
+### Siegesbedingungen
+
+Das Spiel ist gewonnen, sobald am Ende einer Initiativephase mindestens die Hälfte aller eigenen Modelle die Extraktionszone erreicht haben.
+## 05 . TODO
 
 ### Zonen
 
