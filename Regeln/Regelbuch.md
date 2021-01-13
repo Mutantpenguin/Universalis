@@ -967,6 +967,8 @@ Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nich
 Falls der Verteidiger überlebt erleidet er einen [Schock](#schock).
 Wenn er ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er nun in einen [kritischen Zustand](#kritischer-zustand).
 
+## Zustände
+
 ### Schock
 
 Wenn ein Modell einen Schock erleidet muss es einen KO-Wurf ablegen.
