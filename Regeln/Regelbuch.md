@@ -894,6 +894,14 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 ### Übersicht der Schadenseffekte
 
+!!! TODO Überarbeiten/Umbenennen
+
+    Desintegrator       -> TODO
+    Monomolekular       -> Scharf?
+    Vibro               -> TODO
+    Kompositpanzerung   -> TODO vielleicht Robust?
+    Robust              -> TODO ist fast das gleiche wie Kompositpanzerung
+
 #### Für Schadens- und Rüstungsprofile
 
 |Symbol|Name|Auswirkungen|
