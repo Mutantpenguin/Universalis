@@ -64,7 +64,7 @@ Mehr Würfel schaden nie.
 
 ![W12 weiß](Grafiken/Abbildungen/w12_weiß.svg){width="50pt"} ![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"} ![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
-* Des weiteren werden Marker für die folgenden Status benötigt:
+* Des weiteren werden Marker für die folgenden Zustände benötigt:
 
     |Symbol|Bedeutung|
     |:--:|--|
@@ -77,7 +77,7 @@ Mehr Würfel schaden nie.
     |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
     |![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
 
-    Die einzelnen Status werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
+    Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
 ## Das Spiel
 
