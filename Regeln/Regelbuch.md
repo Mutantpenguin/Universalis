@@ -1347,8 +1347,6 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt und wie
 2. Wenn das angegriffene Modell gewinnt verteidigt es sich erfolgreich und nichts passiert.
 3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
-Sollte eines der Modelle über NK von 0 verfügen verliert es automatisch den vergleichenden Wurf.
-
 Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) zur Anwendung.
 
 ### Aktionen: Nahkampf
@@ -1393,9 +1391,10 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
         Bedingungen:
 
-        Kann durchgeführt werden, wenn das Modell in Basekontakt sich weg bewegt.
+        Kann durchgeführt werden, wenn ein gegnerisches Modell in Basekontakt sich weg bewegt.
     
-    TODO ein freier Schlag?
+    Das Modell führt mit dem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+    Das andere Modell kämpft mit NK von 0.
 
 !!! warning Komplex: Riposte - WK ⊙
 
