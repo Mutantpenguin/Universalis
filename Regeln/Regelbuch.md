@@ -1002,11 +1002,7 @@ Modelle mit Giftmarkern zählen als *vergiftet*:
 
 ![gift](Grafiken/Marker/gift.svg){width="40pt"} {align="center"}
 
-Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und verlieren automatisch 1 TP.
-
-!!! TODO
-
-    Schaden wie Waffe
+Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und erleiden automatischen Schaden wie bei der Waffe welche die Vergiftung verursacht hat angegeben.
 
 ### Brennen
 
