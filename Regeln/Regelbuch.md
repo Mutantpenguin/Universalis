@@ -164,7 +164,7 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 |AGI|Agilität|Steht für das Reaktionsvermögen des Modells. Siehe z.B. [Reaktionen](#reaktionen).|
 |NK|Nahkampf|Stellt die Nahkampffähigkeit des Modells dar. Siehe [Nahkampf](#nahkampf).|
 |FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe [Fernkampf](#fernkampf).|
-|KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. [Schock](#schock) und [Tragkraft](#tragkraft).|
+|KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. [Tragkraft](#tragkraft).|
 |WN|Wahrnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. [Wahrnehmungsbereich](#wahrnehmungsbereich), [Tarnung](#tarnung) und [Bewegungstests](#bewegungstest).|
 |EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. [Gefahrenbereich](#gefahrenbereich).|
 
@@ -415,7 +415,11 @@ Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchge
 Zu Beginn jeder Runde werden die AP jedes Modells wieder aufgefüllt.
 Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
 
-Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 1 AP.
+Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 2 AP.
+
+!!! TODO
+
+    Gift und Brandmarker? ähnlich wie rundenende aufschreiben?
 
 #### Reihenfolge innerhalb der Runde
 
@@ -928,7 +932,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |--|--|--|
 |![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf eine beliebige Anzahl an Würfeln neu werfen, wobei das neue Wurfergebnis genommen werden muss.|
 |![robust](Grafiken/Effekt/effekt_robust.png){width=40pt}|Robust|TODO Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
-|TODO|Schockabsorbierend|TODO|
+|TODO|Schockabsorbierend|Für jeden erlittenen Schock muss ein KO-Wurf abgelegt werden. Wenn er gelingt hat der Schock keinen Effekt.|
 |![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Verletzungs- und Rüstungswurf
@@ -971,13 +975,12 @@ Wenn er ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt
 
 ### Schock
 
-Wenn ein Modell einen Schock erleidet muss es einen KO-Wurf ablegen.
-Misslingt dieser verliert es sofort 1 AP.
+Wenn ein Modell einen Schock erleidet verliert es sofort 2 AP.
 Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Marker:
 
 ![schock](Grafiken/Marker/schock.svg){width="40pt"} {align="center"}
 
-Ein Modell mit Schock-Markern verliert zum Beginn einer Runde automatisch 1 AP pro Marker woraufhin diese Marker entfernt werden.
+Ein Modell mit Schock-Markern verliert zum Beginn einer Runde automatisch 2 AP pro Marker woraufhin diese Marker entfernt werden.
 Sollten noch Schock-Marker übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Marker bis zur nächsten Runde um dann abgezogen zu werden.
 
 ### Kritischer Zustand
@@ -991,7 +994,7 @@ Das Modell erhält für den Rest des Spiels einen Malus von -2 auf alle seine At
 Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
 
 Ein Modell kann nur einmal in den kritischen Zustand verfallen.
-Würde dies ein weiteres mal passieren, wird dies wie normaler Schock behandelt.
+Würde dies ein weiteres mal passieren erleidet es stattdessen 1 [Schock](#schock).
 
 ### Vergiftung
 
@@ -1000,6 +1003,10 @@ Modelle mit Giftmarkern zählen als *vergiftet*:
 ![gift](Grafiken/Marker/gift.svg){width="40pt"} {align="center"}
 
 Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und verlieren automatisch 1 TP.
+
+!!! TODO
+
+    Schaden wie Waffe
 
 ### Brennen
 
@@ -1015,7 +1022,7 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 |:--:|--|
 |1-6|Das Modell erleidet einen automatischen Treffer. Falls es ihn überlebt bewegt es sich für 3 AP in jeweils eine zufällige Richtung.|
 |7-8|Das Modell erleidet einen automatischen Treffer. Falls es ihn überlebt bewegt es sich für *alle* AP in jeweils eine zufällige Richtung.|
-|9-11|Der Brandmarker wird vom Modell entfernt und es verliert 2 AP. Sollte es nicht über genügend AP verfügen bekommt es stattdessen Schockmarker.
+|9-11|Der Brandmarker wird vom Modell entfernt und es erleidet 1 Schock.
 |12|Der Brandmarker wird entfernt.|
 
 !!! TODO
