@@ -1020,8 +1020,7 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 
 |Ergebnis|Auswirkung|
 |:--:|--|
-|1-6|Das Modell erleidet einen automatischen Treffer. Falls es ihn überlebt bewegt es sich für 3 AP in jeweils eine zufällige Richtung.|
-|7-8|Das Modell erleidet einen automatischen Treffer. Falls es ihn überlebt bewegt es sich für *alle* AP in jeweils eine zufällige Richtung.|
+|1-8|Das Modell erleidet einen automatischen Treffer mit den Werten der Waffe die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.|
 |9-11|Der Brandmarker wird vom Modell entfernt und es erleidet 1 Schock.
 |12|Der Brandmarker wird entfernt.|
 
