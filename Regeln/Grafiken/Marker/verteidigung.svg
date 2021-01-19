@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,37 +7,38 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="10mm"
-   height="10mm"
-   viewBox="0 0 10 10"
-   version="1.1"
+   sodipodi:docname="verteidigung.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg7547"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="abwehrhaltung.svg">
+   version="1.1"
+   viewBox="0 0 10 10"
+   height="10mm"
+   width="10mm">
   <defs
      id="defs7541" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="53.237799"
-     inkscape:cy="-11.187685"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="-8"
+     inkscape:document-rotation="0"
+     inkscape:window-maximized="1"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="-8"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="12.484738"
+     inkscape:cx="43.898162"
+     inkscape:zoom="5.6"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata7544">
     <rdf:RDF>
@@ -53,77 +52,35 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Ebene 1"
-     inkscape:groupmode="layer"
+     transform="translate(218.70529,132.31852)"
      id="layer1"
-     transform="translate(218.70529,132.31852)">
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
     <g
-       id="g1593"
-       transform="matrix(0.27729677,0,0,0.27729677,-359.88176,-404.76609)"
-       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\abwehrhaltung.png"
-       inkscape:export-xdpi="399.30743"
-       inkscape:export-ydpi="399.30743">
+       transform="translate(-47.622908)"
+       id="g912">
       <circle
-         r="18.031223"
-         cy="1000.5438"
-         cx="527.14813"
-         id="circle1424"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none" />
-      <g
-         style="stroke-width:1.89913619"
-         transform="matrix(0.72651078,0,0,0.72651078,340.38363,512.34789)"
-         id="g1555">
-        <g
-           transform="matrix(-0.77815071,-0.6280776,-0.6280776,0.77815071,791.06869,319.67569)"
-           id="g1545"
-           style="fill:#ffffff;stroke-width:1.89913619">
-          <path
-             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 192.06256,596.64471 h 4.6875 v 28.125 l -2.34375,7.375 -2.34375,-7.375 z"
-             id="path1537"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="cccccc" />
-          <rect
-             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect1540"
-             width="11.8125"
-             height="2.5"
-             x="188.50006"
-             y="594.51971" />
-          <rect
-             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="rect1542"
-             width="2.7588835"
-             height="6.5"
-             x="193.02687"
-             y="588.26971" />
-        </g>
-        <g
-           id="g1553"
-           transform="rotate(-38.908433,314.05314,551.84287)"
-           style="fill:#ffffff;stroke-width:1.89913619">
-          <path
-             sodipodi:nodetypes="cccccc"
-             inkscape:connector-curvature="0"
-             id="path1547"
-             d="m 192.06256,596.64471 h 4.6875 v 28.125 l -2.34375,7.375 -2.34375,-7.375 z"
-             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <rect
-             y="594.51971"
-             x="188.50006"
-             height="2.5"
-             width="11.8125"
-             id="rect1549"
-             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <rect
-             y="588.26971"
-             x="193.02687"
-             height="6.5"
-             width="2.7588835"
-             id="rect1551"
-             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.59654474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        </g>
-      </g>
+         r="5"
+         cy="-127.31852"
+         cx="-166.08238"
+         id="circle882"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.314416;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path884"
+         d="m -163.01726,-130.50104 -6.13027,-2e-5 v 5.21279 c 1e-5,1.30218 3.06514,2.42183 3.06514,2.42183 0,0 3.06514,-1.11964 3.06513,-2.42183 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34388;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         d="m -169.84088,-128.76643 3.75848,1.05833 3.75848,-1.05833 v 0.70695 l -3.75848,1.05833 -3.75848,-1.05833 z"
+         style="fill:#000000;stroke:none;stroke-width:0.0876676;paint-order:stroke fill markers;stop-color:#000000"
+         id="path886" />
+      <path
+         id="path888"
+         style="fill:#000000;stroke:none;stroke-width:0.0876676;paint-order:stroke fill markers;stop-color:#000000"
+         d="m -169.84088,-127.70809 3.75848,1.05833 3.75848,-1.05833 v 0.70695 l -3.75848,1.05833 -3.75848,-1.05833 z"
+         sodipodi:nodetypes="ccccccc" />
     </g>
   </g>
 </svg>
