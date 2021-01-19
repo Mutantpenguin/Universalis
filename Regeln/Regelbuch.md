@@ -75,7 +75,7 @@ Mehr Würfel schaden nie.
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
     |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
     |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
-    |![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"}|[Verteidigungshaltung](#aktionen:-nahkampf)|
+    |![verteidigung](Grafiken/Marker/verteidigung.svg){width="40pt"}|[Verteidigung](#aktionen:-nahkampf)|
 
     Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
@@ -438,7 +438,7 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hat
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-* eventuelle Marker für [schnelle Bewegung](#schnelle-bewegungen), [Verteidigungshaltung](#aktionen:-nahkampf) oder [Feuerbereitschaft](#aktionen:-fernkampf) werden entfernt
+* eventuelle Marker für [schnelle Bewegung](#schnelle-bewegungen), [Verteidigung](#aktionen:-nahkampf) oder [Feuerbereitschaft](#aktionen:-fernkampf) werden entfernt
 * eventuelle [Vergiftung](#vergiftung) kommt zur Anwendung
 * eventuelles [Brennen](#brennen) kommt zur Anwendung
 
@@ -1122,7 +1122,7 @@ Das Gewicht von selbsttragenden Rüstungen wird für die [Tragkraft](#tragkraft)
 
 ### Schilde
 
-Unter Schilden versteht man alle Arten von „Platten“ die zur Verteidigung getragen werden.
+Unter Schilden versteht man alle Arten von „Platten“ die zur Abwehr von Schaden getragen werden.
 
 Schilde geben dem Träger +1W12 beim Rüstungswurf im Nahkampf und gegen jeden Beschuss der das Modell aus einem 180° Bereich von vorne trifft.
 
@@ -1355,33 +1355,33 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
+!!! danger Verteidigung - 2 ⊙
+
+    !!! note ""
+
+        Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
+        Jede weitere Aktion beendet die Verteidigung automatisch.
+
+    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
+    Es verliert sie dann automatisch.
+
+    Sie wird am Modell mit dem Verteidigungs-Marker dargestellt:
+
+    ![verteidigung](Grafiken/Marker/verteidigung.svg){width="40pt"} {align="center"}
+
+    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
+    Das Modell verliert danach automatisch seine Verteidigung.
+
+    Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
+    Misslingt dieser verliert es die Verteidigung.
+    Es muss dafür nicht getroffen werden.
+
 !!! danger Komplex: Brachialer Angriff - WK+1 ⊙
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
     Es erhält +2 auf seinen NK-Wurf.
     
     Sollte es den Nahkampf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
-
-!!! danger Komplex: Verteidigungshaltung - 2 ⊙
-
-    !!! note ""
-
-        Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
-        Jede weitere Aktion beendet die Verteidigungshaltung automatisch.
-
-    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigungshaltung.
-    Es verliert sie dann automatisch.
-
-    Sie wird am Modell mit dem Verteidigungshaltungs-Marker dargestellt:
-
-    ![verteidigungshaltung](Grafiken/Marker/verteidigungshaltung.svg){width="40pt"} {align="center"}
-
-    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
-    Das Modell verliert danach automatisch seine Verteidigungshaltung.
-
-    Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
-    Misslingt dieser verliert es die Verteidigungshaltung.
-    Es muss dafür nicht getroffen werden.
 
 ### Reaktionen: Nahkampf
 
@@ -1426,7 +1426,7 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getro
 * #### Bonus für den Angreifer
 
   Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
-  Dies gilt nur wenn der Verteidiger sich nicht in Verteidigungshaltung befindet.
+  Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
   Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
 

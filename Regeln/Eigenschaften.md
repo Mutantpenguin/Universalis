@@ -118,10 +118,6 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Wenn das Modell als Angreifer von ausserhalb des Sichtfeldes angreift und über ein kleineres Größenprofil verfügt darf es sich bei Mechs und Kolossen die Trefferzone aussuchen.
 
-!!! check Defensive Haltung
-
-    Kann die Aktion "Verteidigungshaltung" anwenden.
-
 !!! check Gegenangriff
 
     Kann die Reaktion "Riposte" anwenden.
