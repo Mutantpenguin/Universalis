@@ -1385,7 +1385,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
 ### Reaktionen: Nahkampf
 
-!!! warning TODO - WK-1 ⊙
+!!! warning Gelegenheitsangriff - WK-1 ⊙
 
     !!! note ""
 
