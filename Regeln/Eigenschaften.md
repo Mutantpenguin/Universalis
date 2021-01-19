@@ -112,7 +112,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check Flink
 
-    Kann im Nahkampf nicht durch schwerfällige Waffen getroffen werden.
+    Kann im Nahkampf nicht durch unhandliche Waffen getroffen werden.
 
 !!! check David gegen Goliath
 
@@ -136,7 +136,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check TODO
 
-    Ignoriert die Nachteile von schwerfälligen Nahkampfwaffen.
+    Ignoriert die Nachteile von unhandlich Waffen und Ausrüstungsgegenständen im Nahkampf.
 
 ## Schaden & Verteidigung
 

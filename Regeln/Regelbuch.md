@@ -1060,9 +1060,9 @@ WK I steht somit für Waffen der Klasse 1.
 Manche Waffen verfügen nicht über einen eigenen Stärkewert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
-### Schwerfällige Waffen
+### Unhandlich Waffen
 
-Manche Waffen sind schwerfällig und können dadurch im [Fernkampf](#schwerfällige-waffen-im-fernkampf) und [Nahkampf](#schwerfällige-waffen-im-nahkampf) nur mit Einschränkungen verwendet werden.
+Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
 
 Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
 
@@ -1274,7 +1274,7 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
   |   I   |     -1      |
   |  II   |     -2      |
 
-* #### Schwerfällige Waffen im Fernkampf
+* #### Unhandliche Waffen im Fernkampf
 
   Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
 
@@ -1434,9 +1434,9 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getro
 
   Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den eigenen NK-Wurf.
 
-* #### Schwerfällige Waffen im Nahkampf
+* #### Unhandliche Waffen und Ausrüstung im Nahkampf
 
-  Wenn ein Modell mindestens eine schwerfällige Waffe trägt, erleidet es im Nahkampf einen Malus von -3.
+  Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
 
 * #### Größenunterschiede
 
@@ -1586,6 +1586,14 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
     Für ein medizinisches Spray das 3x verwendet werden kann.
 
     ![Einmalnutzung Ausrüstung](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg){width="500pt"}
+
+### Unhandliche Ausrüstung
+
+Bestimmte Ausrüstungsgegenstände sind enhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
+
+!!! todo
+
+    Wie sieht das auf der Einheitenkarte aus?
 
 ## Mechs & Kolosse
 
