@@ -1429,6 +1429,7 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getro
   Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
   Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
+  Dies gilt auch wenn der Verteidiger sich in Verteidigung befindet.
 
 * #### Multiple Gegner
 
