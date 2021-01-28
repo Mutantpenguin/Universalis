@@ -1204,7 +1204,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
 
     Das Modell verliert danach automatisch seine Feuerbereitschaft.
 
-### Erlaubte Waffen
+### Erlaubte Waffen im Fernkampf
 
 Im Fernkampf dürfen nur Waffen mit einem [Reichweitenband](#reichweite), nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
 
@@ -1413,7 +1413,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
     !!! todo
 
-### Im Nahkampf erlaubte Waffen
+### Erlaubte Waffen im Nahkampf
 
 Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
 
