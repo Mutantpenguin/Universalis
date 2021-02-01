@@ -1140,6 +1140,8 @@ blah blah yadda yadda
 
 TODO alle Schritte erklären
 
+TODO nicht wenn man im Nahkampf ist, also wenn ein gegnerisches Modell die eigene Base berührt
+
 Um einen Fernkampf durchzuführen muss ein FK-Wurf für das Modell gemacht werden.
 Bei Erfolg wurde das Ziel getroffen.
 
