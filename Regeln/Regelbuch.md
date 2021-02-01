@@ -1435,7 +1435,7 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getro
 
 * #### Multiple Gegner
 
-  Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +1 auf den eigenen NK-Wurf.
+  Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
 * #### Unhandliche Waffen und Ausrüstung im Nahkampf
 
