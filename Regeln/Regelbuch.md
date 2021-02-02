@@ -308,10 +308,8 @@ Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 Ein gegnerische Modell, das sich innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „direkte Bedrohung" genannt.
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
 
-Sie können nicht einfach ignoriert und müssen stattdessen angegriffen werden.
-
 Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen EH-Test bestehen.
-Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen.
+Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per [Nahkampf](#nahkampf) oder [Fernkampf](#fernkampf).
 
 ### Wahrnehmungsbereich
 
