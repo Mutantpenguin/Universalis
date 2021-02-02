@@ -559,6 +559,12 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
     
     Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem [Angriff](#aktionen:-nahkampf).
 
+!!! danger Flucht - 2 ⊙
+
+    TODO
+    Aus Nahkampf entfernen. Vorher EH-Test.
+    Ist gleichzeitig der Test für direkte Bedrohung.
+
 !!! danger Springen - 2 ⊙
 
     Das Modell springt entsprechend seiner GK in cm weit wenn es gestanden hat.
