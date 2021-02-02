@@ -305,11 +305,13 @@ Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 
 #### Direkte Bedrohung
 
-Ein gegnerische Modell, das sich innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „direkte Bedrohung" genannt.
+Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „direkte Bedrohung" genannt.
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
 
-Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen EH-Test bestehen.
+Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
 Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per [Nahkampf](#nahkampf) oder [Fernkampf](#fernkampf).
+
+Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
 ### Wahrnehmungsbereich
 
@@ -543,14 +545,6 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
     Das Modell bewegt sich entsprechend seiner GK in cm.
     Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es liegt.
 
-!!! danger Hinlegen - 1 ⊙
-
-    Das Modell gilt als liegend.
-
-!!! danger Aufstehen - 1 ⊙
-
-    Das Modell gilt als stehend.
-
 !!! danger Angriffsbewegung - WK ⊙
 
     Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe.
@@ -559,11 +553,21 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
     
     Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem [Angriff](#aktionen:-nahkampf).
 
-!!! danger Flucht - 2 ⊙
+!!! danger Flucht - 2-3 ⊙
+    
+    Mit dieser Aktion kann sich ein Modell aus einem [Nahkampf](#nahkampf) entfernen, zunächst muss es aber den Test für eine [Direkte Bedrohung](#direkte-bedrohung) durchführen.
 
-    TODO
-    Aus Nahkampf entfernen. Vorher EH-Test.
-    Ist gleichzeitig der Test für direkte Bedrohung.
+    Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
+
+    Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
+
+!!! danger Hinlegen - 1 ⊙
+
+    Das Modell gilt als liegend.
+
+!!! danger Aufstehen - 1 ⊙
+
+    Das Modell gilt als stehend.
 
 !!! danger Springen - 2 ⊙
 
@@ -1345,6 +1349,9 @@ blah blah yadda yadda
 
 ### Durchführung des Nahkampfes
 
+TODO klarstellen, dass Basekontakt mit gegnerischem Modell immer Nahkampf bedeutet
+TODO Hinweis, dass während eines Nahkampfes nicht andere Aktionen durchgeführt werden können. Auflisten, welche erlaubt sind
+
 Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
 Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt und wiefolgt vorgegangen:
@@ -1375,7 +1382,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
     ![verteidigung](Grafiken/Marker/verteidigung.svg){width="40pt"} {align="center"}
 
-    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine Angriffsbewegung.
+    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine [Angriffsbewegung](#aktionen:-bewegung).
     Das Modell verliert danach automatisch seine Verteidigung.
 
     Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
