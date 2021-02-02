@@ -910,7 +910,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
     Desintegrator       -> TODO
     Monomolekular       -> Scharf?
-    Vibro               -> TODO
+    Vibro               -> TODO Erschütterung
     Kompositpanzerung   -> TODO vielleicht Robust?
     Robust              -> TODO ist fast das gleiche wie Kompositpanzerung
 
