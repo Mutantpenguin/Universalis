@@ -1393,10 +1393,10 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
         Bedingungen:
 
-        Kann durchgeführt werden, wenn ein gegnerisches Modell in Basekontakt sich weg bewegt.
+        Kann durchgeführt werden, wenn ein gegnerisches Modell in Basekontakt sich entfernt.
     
-    Das Modell führt mit dem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
-    Das andere Modell kämpft mit NK von 0.
+    Das Modell führt mit dem sich entfernenden Modell einen Nahkampf durch und gilt als der Angreifer.
+    Das sich entfernende Modell kämpft mit NK von 0.
 
 !!! warning Komplex: Riposte - WK ⊙
 
