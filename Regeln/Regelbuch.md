@@ -498,6 +498,8 @@ Der Gewinner führt als Erster seine Aktion/Reaktion durch, der Verlierer danach
 Wenn sich dadurch, bspw. durch einen Treffer, negative Auswirkungen ergeben kommen sie auch sofort zur Anwendung.
 Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 
+!!! todo TODO AGI-Test optional und von der konkreten Reaktion abhängig
+
 ### Übersicht Aktionen und Reaktionen
 
 |Typ|
