@@ -910,31 +910,31 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 !!! TODO Überarbeiten/Umbenennen
 
-    Desintegrator       -> TODO
-    Monomolekular       -> Scharf?
-    Vibro               -> TODO Erschütterung
-    Kompositpanzerung   -> TODO vielleicht Robust?
-    Robust              -> TODO ist fast das gleiche wie Kompositpanzerung
+    * Vibro               -> TODO Erschütterung
+    * Kompositpanzerung   -> TODO vielleicht Robust?
+    * Robust              -> TODO ist fast das gleiche wie  Kompositpanzerung
+    * Strukturverstärkt	 -> Beständig? Gestählt? Unverwüstlich? Robust?
+    * Strukturschädigend -> ???
 
 #### Für Schadens- und Rüstungsprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
 |![brennen](Grafiken/Effekt/effekt_brennen.png){width=40pt}|Brennen|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
-|![desintegrator](Grafiken/Effekt/effekt_desintegrator.png){width=40pt}|Desintegrator|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 |![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
 |![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
-|![monomolekular](Grafiken/Effekt/effekt_monomolekular.png){width=40pt}|Monomolekular|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
 |![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|TODO Der Angreifer darf den Verteidiger zwingen eine beliebige Anzahl an Würfeln neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
+|![zerreißen](Grafiken/Effekt/effekt_zerreißen.png){width=40pt}|Zerreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
+|![zersetzen](Grafiken/Effekt/effekt_zersetzen.png){width=40pt}|Zersetzen|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 
 #### Nur für Schadensprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
 |![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
-|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturschädigend|Waffen ohne diesen Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ nur den halbierten (abgerundeten) Schaden zu.|
+|![struktur](Grafiken/Effekt/effekt_strukturschädigend.png){width=40pt}|Strukturschädigend|Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.|
 
 #### Nur für Rüstungsprofile
 
@@ -943,7 +943,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf eine beliebige Anzahl an Würfeln neu werfen, wobei das neue Wurfergebnis genommen werden muss.|
 |![robust](Grafiken/Effekt/effekt_robust.png){width=40pt}|Robust|TODO Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
 |TODO|Schockabsorbierend|Für jeden erlittenen Schock muss ein KO-Wurf abgelegt werden. Wenn er gelingt hat der Schock keinen Effekt.|
-|![struktur](Grafiken/Effekt/effekt_struktur.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen ohne den Effekt „Strukturschädigend“ immer nur den halbierten (abgerundeten) Schaden.|
+|![struktur](Grafiken/Effekt/effekt_strukturverstärkt.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Verletzungs- und Rüstungswurf
 
