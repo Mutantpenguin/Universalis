@@ -417,10 +417,6 @@ Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert
 
 Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 2 AP.
 
-!!! TODO
-
-    Gift und Brandmarker? ähnlich wie rundenende aufschreiben?
-
 #### Reihenfolge innerhalb der Runde
 
 Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
