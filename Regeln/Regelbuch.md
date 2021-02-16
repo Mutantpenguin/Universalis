@@ -1028,11 +1028,11 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 |:--:|--|
 |1-8|Das Modell erleidet einen automatischen Treffer mit den Werten der Waffe die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.|
 |9-11|Der Brandmarker wird vom Modell entfernt und es erleidet 1 Schock.
-|12|Der Brandmarker wird entfernt.|
+|12+|Der Brandmarker wird entfernt.|
 
-!!! TODO
+#### Hilfe durch befreundete Modelle
 
-    Andere Modelle können helfen!
+Jedes befreundete Modell in Basekontakt gibt einen Bonus von +2 auf den Wurf.
 
 ## Waffen
 
