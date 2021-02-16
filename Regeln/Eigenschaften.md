@@ -59,6 +59,10 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 ## Bewegung
 
+!!! check 7. Sinn
+
+    Kann die Reaktion "Beschuss Ausweichen" anwenden.
+
 !!! check Bodenhaftung | 1 - 3
 
     Das Modell darf `[Stufe]` mal seinen Bewegungstest neu würfeln.
@@ -72,17 +76,13 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
     Die Passierbarkeit jedes Geländes wird um `[Stufe]` verbessert.
     Sie kann dabei nicht besser als 0 werden.
 
-!!! check TODO
-
-    Kann die Reaktion "Beschuss Ausweichen" anwenden.
-
 ## Drohnen
 
-!!! check Multitasking | 1 - 3
+!!! check TODO | 1 - 3
 
     Das Modell hat `[Stufe]` zusätzliche AP, die es aber nur für seine Drohnen ausgeben darf.
 
-!!! check TODO | 1 - 3
+!!! check Multitasking | 1 - 3
 
     Dem Modell können (unabhängig von seiner EH) `[Stufe]` zusätzliche Drohnen zugeordnet werden.
 
@@ -105,6 +105,10 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
     Kann mit einer Aktion gleichzeitig 2 Waffen der Klasse I abfeuern.
 
 ## Nahkampf
+
+!!! check Agil
+
+    Ignoriert die Nachteile von unhandlich Waffen und Ausrüstungsgegenständen im Nahkampf.
 
 !!! check Bewährter Nahkämpfer | 1 - 3
 
@@ -133,10 +137,6 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 !!! check Ohne Rücksicht auf Verluste
 
     Kann die Aktion "Brachialer Angriff" anwenden.
-
-!!! check TODO
-
-    Ignoriert die Nachteile von unhandlich Waffen und Ausrüstungsgegenständen im Nahkampf.
 
 ## Schaden & Verteidigung
 
@@ -168,7 +168,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 ## Sonstiges
 
-!!! check 7. Sinn
+!!! check TODO
 
     Um eine Aktion durch eine Reaktion zu unterbrechen wird die Reichweite des Wahrnehmungsbereichs verdoppelt.
 
