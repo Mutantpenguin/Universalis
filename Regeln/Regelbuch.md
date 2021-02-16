@@ -1775,12 +1775,6 @@ Sobald eine Drohne als ausgeschalten gilt kann es zu einer Rückkopplung auf den
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
-### Drohnen TODO
-
-!!! TODO
-
-    AGI, NK, FK und EH als "Bonus" auf die Werte des Kontrollers benutzen?
-
 ## Thaumaturgie
 
 !!! TODO
