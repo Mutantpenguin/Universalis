@@ -916,29 +916,29 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![brennen](Grafiken/Effekt/effekt_brennen.png){width=40pt}|Brennen|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
-|![explosiv](Grafiken/Effekt/effekt_explosiv.png){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
-|![gift](Grafiken/Effekt/effekt_gift.png){width=40pt}|Gift|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
-|![panzerbrechend](Grafiken/Effekt/effekt_panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
-|![schrapnell](Grafiken/Effekt/effekt_schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
-|![vibro](Grafiken/Effekt/effekt_vibro.png){width=40pt}|Vibro|TODO Der Angreifer darf den Verteidiger zwingen eine beliebige Anzahl an Würfeln neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
-|![zerreißen](Grafiken/Effekt/effekt_zerreißen.png){width=40pt}|Zerreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
-|![zersetzen](Grafiken/Effekt/effekt_zersetzen.png){width=40pt}|Zersetzen|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
+|![brand](Grafiken/Effekt/brand.png){width=40pt}|Brand|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
+|![explosiv](Grafiken/Effekt/explosiv.png){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
+|![gift](Grafiken/Effekt/gift.png){width=40pt}|Gift|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
+|![panzerbrechend](Grafiken/Effekt/panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
+|![schrapnell](Grafiken/Effekt/schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
+|![vibro](Grafiken/Effekt/vibro.png){width=40pt}|Vibro|TODO Der Angreifer darf den Verteidiger zwingen eine beliebige Anzahl an Würfeln neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
+|![zerreißen](Grafiken/Effekt/zerreißen.png){width=40pt}|Zerreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
+|![zersetzen](Grafiken/Effekt/zersetzen.png){width=40pt}|Zersetzen|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 
 #### Nur für Schadensprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![trauma](Grafiken/Effekt/effekt_trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
-|![struktur](Grafiken/Effekt/effekt_strukturschädigend.png){width=40pt}|Strukturschädigend|Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.|
+|![trauma](Grafiken/Effekt/trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
+|![struktur](Grafiken/Effekt/strukturschädigend.png){width=40pt}|Strukturschädigend|Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.|
 
 #### Nur für Rüstungsprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![komposit](Grafiken/Effekt/effekt_komposit.png){width=40pt}|Kompositpanzerung|Der Verteidiger darf eine beliebige Anzahl an Würfeln neu werfen, wobei das neue Wurfergebnis genommen werden muss.|
-|![robust](Grafiken/Effekt/effekt_robust.png){width=40pt}|Robust|TODO Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
-|![struktur](Grafiken/Effekt/effekt_strukturverstärkt.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.|
+|![komposit](Grafiken/Effekt/komposit.png){width=40pt}|Kompositpanzerung|TODO Der Verteidiger darf eine beliebige Anzahl an Würfeln neu werfen, wobei das neue Wurfergebnis genommen werden muss.|
+|![robust](Grafiken/Effekt/robust.png){width=40pt}|Robust|TODO Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![struktur](Grafiken/Effekt/strukturverstärkt.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Verletzungs- und Rüstungswurf
 
