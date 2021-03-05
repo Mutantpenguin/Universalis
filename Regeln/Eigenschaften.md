@@ -162,6 +162,11 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Pro ausgegebenem Trefferpunkt erhält das Modell 1 AP.
 
+!!! check Stabil
+
+    Für jeden erlittenen Schock muss ein KO-Wurf abgelegt werden.
+    Wenn er gelingt hat der Schock keinen Effekt.
+
 !!! check Zäh
 
     Jeder erlittene Schaden wird um 1 verringert.
