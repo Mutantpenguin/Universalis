@@ -923,7 +923,6 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |![panzerbrechend](Grafiken/Effekt/panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![schrapnell](Grafiken/Effekt/schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
 |![vibro](Grafiken/Effekt/vibro.png){width=40pt}|Vibro|TODO Der Angreifer darf den Verteidiger zwingen eine beliebige Anzahl an Würfeln neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
-|![zersetzen](Grafiken/Effekt/zersetzen.png){width=40pt}|Zersetzen|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 
 #### Nur für Schadensprofile
 
