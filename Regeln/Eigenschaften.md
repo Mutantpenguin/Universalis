@@ -167,9 +167,9 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
     Für jeden erlittenen Schock muss ein KO-Wurf abgelegt werden.
     Wenn er gelingt hat der Schock keinen Effekt.
 
-!!! check Zäh
+!!! check Zäh | 1 - 3
 
-    Jeder erlittene Schaden wird um 1 verringert.
+    Jeder erlittene Schaden wird um `[Stufe]` verringert.
 
 ## Sonstiges
 
