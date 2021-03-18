@@ -906,11 +906,12 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 !!! TODO Überarbeiten/Umbenennen
 
-    * Vibro               -> TODO Erschütterung
-    * Kompositpanzerung   -> TODO vielleicht Robust?
-    * Robust              -> TODO ist fast das gleiche wie  Kompositpanzerung
-    * Strukturverstärkt	 -> Beständig? Gestählt? Unverwüstlich? Robust?
-    * Strukturschädigend -> ???
+    * Vibro
+        * TODO Erschütterung
+    * Kompositpanzerung
+        * TODO vielleicht Robust?
+    * Robust
+        * TODO ist fast das gleiche wie  Kompositpanzerung
 
 #### Für Schadens- und Rüstungsprofile
 
