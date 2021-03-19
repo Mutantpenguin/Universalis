@@ -731,7 +731,7 @@ Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" eine
     | :------------: | :-----: |
     |       2        | Stufe I |
 
-    Die Deckung wikt nur gegen Beschuss außerhalb.
+    Die Deckung wikt nur gegen Beschuss von außerhalb.
 
 !!! summary Ruine
 
@@ -764,6 +764,10 @@ Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" eine
     |       2        | Stufe II |
 
     Der Wahrnehmungsbereich aller Modelle wird halbiert.
+    
+    Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
+
+    Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
 !!! summary Wasser
 
@@ -778,61 +782,7 @@ Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfind
 So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden.
 Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
 
-Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländetypen.
-
-!!! summary Arktisch
-
-    TODO
-
-    Auf Hitze basierende Waffen verlieren 1 Punkt ihrer Stärke und 1 Reichweitenband bis zu einem Minimum von 1.
-
-    Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
-
-!!! summary Gebäude
-
-    Das gesamte Spielfeld ist der Innenraum eines Gebäudes.
-
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        | Stufe I |
-
-!!! summary Ländlich
-
-    TODO
-
-!!! summary Mond
-
-    Projektilwaffen erhalten ein weiteres Reichweitenband.
-
-!!! summary Schwerelosigkeit
-
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       2        |    -    |
-
-    Projektilwaffen erhalten ein weiteres Reichweitenband.
-
-!!! summary Urban
-
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        | Stufe I |
-
-    Der Zwischenraum zwischen Gebäuden wird regeltechnisch als vom Geländetyp Straße angesehen.
-
-!!! summary Wildnis
-
-    TODO
-
-    Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
-
-!!! summary Wüste
-
-    TODO
-
-    WN wird bei Tests um 1 erhöht. Nicht der Wahrnehmungsbereich.
-
-    Jede landgestüzte Bewegung ist erschwert.
+Um dies zu umgehen kann einfach das gesamte Spieldfeld als ein spezifischer Geländetyp deklariert werden. Er gilt dann für das gesamte Spielfeld.
 
 ## Schadens- & Rüstungsprofile
 
