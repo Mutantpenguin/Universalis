@@ -1640,6 +1640,14 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
 
 ### Detonation
 
+!!! TODO
+
+    Eine "neutrale" Eigenschaft draus machen?
+    
+    -> Mechanisch
+    
+    Gibt irgendeinen Vorteil (Immun gegen psychologiscge Effekte), kann aber detonieren.
+
 Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion welche eine Fläche mit einem Radius in Höhe der KO umfasst.
 
 Der Schadenstyp ist dabei immer Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
