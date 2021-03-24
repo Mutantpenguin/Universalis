@@ -692,7 +692,7 @@ Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
 Passierbarkeit ist eine Eigenschaft von Gelände und wird mit einer Stufe angegeben.
 
-Die Stufe wird dabei von der GK eines Modells abgezogen, wenn sich in einem Bereich mit einer Passierbarkeit größer als 0 befindet.
+Die Stufe wird dabei von der GK eines Modells abgezogen, wenn es sich in einem Bereich mit einer Passierbarkeit größer als 0 befindet.
 Wenn die GK eines Modells dadurch auf 0 sinkt kann es sich in dem entsprechenden Bereich nicht bewegen.
 Dadurch werden auch Bewegungen in einen solchen Bereich hinein unmöglich.
 
@@ -731,7 +731,7 @@ Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" eine
     | :------------: | :-----: |
     |       2        | Stufe I |
 
-    Die Deckung wikt nur gegen Beschuss von außerhalb.
+    Die Deckung wirkt nur gegen Beschuss von außerhalb.
 
 !!! summary Ruine
 
