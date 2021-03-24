@@ -699,6 +699,14 @@ Dadurch werden auch Bewegungen in einen solchen Bereich hinein unmöglich.
 Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Verringerung der GK um 1 vermindert.
 Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
 
+### Sichtweite
+
+TODO In bestimmtem Gelände ist die Sichweite durch 
+
+TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
+
+TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
+
 ### Geländetyp
 
 Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche Sonderregeln unterliegen.
@@ -713,45 +721,45 @@ Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" eine
 
 !!! summary Dickicht
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       1        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       1        |    I    |     1      |
 
 !!! summary Gebäude
 
     Alle intakten Gebäude fallen unter diesen Geländetyp.
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       0        |    I    |     1      |
 
 !!! summary Krater
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       2        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       2        |    I    |     1      |
 
     Die Deckung wirkt nur gegen Beschuss von außerhalb.
 
 !!! summary Ruine
 
-    Alle teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
+    Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
     
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       1        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       1        |    I    |     2      |
 
 !!! summary Straße
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        |    -    |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       0        |    -    |     -      |
 
 !!! summary Sumpf
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       3        |    -    |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       3        |    -    |     1      |
 
 !!! summary Unpassierbar
 
@@ -759,21 +767,15 @@ Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" eine
 
 !!! summary Wald
 
-    | Passierbarkeit | Deckung  |
-    | :------------: | :------: |
-    |       2        | Stufe II |
-
-    Der Wahrnehmungsbereich aller Modelle wird halbiert.
-    
-    Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
-
-    Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       2        |   II    |     2      |
 
 !!! summary Wasser
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       2        |    -    |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       2        |    -    |     -      |
 
 ### Umgebungsbedingungen
 
