@@ -1030,6 +1030,10 @@ Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen
 
 !!! TODO Manche Waffen brauchen das
 
+Waffen die nachladen müssen besitzen das folgende Symbol.
+
+![indirekt](Grafiken/Waffe/nachladen.png){width="40pt"} {align="center"}
+
 ### Einmalnutzung von Waffen
 
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
