@@ -1456,7 +1456,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 ### Vorteile von Tarnung
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
-Damit das möglich ist, müssen sie zuerst aufgeklärt werden.
+Damit das möglich ist, müssen sie zuerst [aufgeklärt](#aufklärung) werden.
 
 Sie können nicht durch Flächenwaffen getroffen werden.
 
@@ -1470,10 +1470,10 @@ Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 
 ### Aufklärung
 
-Ein aufgeklärtes Modell gilt solange als aufgeklärt bis es eine volle Bewegungsaktion durchgeführt hat.
-Danach wird seine Tarnung automatisch wiederhergestellt sofern die Voraussetzungen dafür erfüllt sind.
+Aufgeklärte Modelle können normal beschossen oder im Nahkampf angegriffen werden.
 
-Es kann normal beschossen oder im Nahkampf angegriffen werden.
+Sie gelten solange als aufgeklärt bis sie 2 volle Bewegungsaktionen durchgeführt haben.
+Danach wird ihre Tarnung automatisch wiederhergestellt sofern die Voraussetzungen dafür erfüllt sind.
 
 Wenn ein getarntes Modell einen Angriff einleitet oder eine Fernkampfwaffe abfeuert wird es automatisch aufgeklärt.
 
