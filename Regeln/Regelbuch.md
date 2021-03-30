@@ -1006,7 +1006,7 @@ Die Anzahl an Bändern ist dabei immer 4.
 
 ### Waffenklassen
 
-Durch Waffenklassen wird unterschieden wie groß und damit unhandlich eine Waffe bzw. wie komplex sie zu bedienen ist.
+Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
 Je größer/komplexer desto höher die Waffenklasse.
 
 Waffenklassen werden mit „WK“ abgekürzt.
@@ -1552,7 +1552,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 ### Unhandliche Ausrüstung
 
-Bestimmte Ausrüstungsgegenstände sind enhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
+Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
 
 !!! todo
 
