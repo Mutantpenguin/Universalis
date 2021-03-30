@@ -1023,6 +1023,8 @@ Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im [Fernka
 
 Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
 
+!!! TODO neue Art der Ausweisung "»"
+
 ![unhandlich](Grafiken/Waffe/unhandlich.png){width=40pt} {align=center}
 
 ### Einmalnutzung von Waffen
@@ -1554,9 +1556,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
 
-!!! todo
-
-    Wie sieht das auf der Einheitenkarte aus?
+!!! TODO neue Art der Ausweisung "»"
 
 ## Mechs & Kolosse
 
