@@ -1725,7 +1725,7 @@ Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Run
 
 ### Zerstörung einer Drohne
 
-Sobald eine Drohne als ausgeschalten gilt kann es zu einer Rückkopplung auf den Kontroller kommen die ihm Schaden zufügt.
+Sobald eine Drohne als ausgeschalten gilt kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.
