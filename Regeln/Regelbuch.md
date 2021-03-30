@@ -1027,6 +1027,10 @@ Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen
 
 ![unhandlich](Grafiken/Waffe/unhandlich.png){width=40pt} {align=center}
 
+### Nachladen
+
+!!! TODO Manche Waffen brauchen das
+
 ### Einmalnutzung von Waffen
 
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
