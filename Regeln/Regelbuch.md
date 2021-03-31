@@ -72,6 +72,7 @@ Mehr Würfel schaden nie.
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
     |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
     |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
+    |![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"}|[Nachladen](#nachladen)|
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
     |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
     |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
@@ -1030,9 +1031,9 @@ Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen
 
 !!! TODO Manche Waffen brauchen das
 
-Waffen die nachladen müssen besitzen das folgende Symbol.
+Waffen die nachladen müssen besitzen das folgende Symbol bzw. Marker.
 
-![indirekt](Grafiken/Waffe/nachladen.png){width="40pt"} {align="center"}
+![nachladen](Grafiken/Waffe/nachladen.png){width="40pt"} ![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"} {align="center"}
 
 ### Einmalnutzung von Waffen
 
