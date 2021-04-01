@@ -1029,7 +1029,11 @@ Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen
 
 ### Nachladen
 
-!!! TODO Manche Waffen brauchen das
+!!! TODO
+
+    * Manche Waffen brauchen das
+    * Kosten wie WK? Oder doppelte WK?
+    * Aktion dafür definieren!
 
 Waffen die nachladen müssen besitzen das folgende Symbol bzw. Marker.
 
