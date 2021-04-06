@@ -152,8 +152,7 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 | Symbol | Name | Beschreibung | [Größenprofil](#größenprofil) |
 |--|--|--|--|
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
-| ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | [Mech](#mechs-&-kolosse) | TODO Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
-| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | [Koloss](#mechs-&-kolosse) | TODO Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
+| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | [Koloss](#mechs-&-kolosse) | TODO Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. TODO Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
 | ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | [Drohne](#drohnen) | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis riesig |
 
 ### Attribute
