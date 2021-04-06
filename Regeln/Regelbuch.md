@@ -72,6 +72,7 @@ Mehr Würfel schaden nie.
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
     |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
     |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
+    |![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"}|[Nachladen](#nachladen)|
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
     |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
     |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
@@ -144,7 +145,8 @@ Dazu gehören:
 
 ### Typ
 
-Modelle werden in die Typen Infanterie, Koloss und Fahrzeuge unterschieden.
+Modelle werden in die Typen Infanterie, Koloss und Drohne unterschieden.
+
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
 | Symbol | Name | Beschreibung | [Größenprofil](#größenprofil) |
@@ -152,7 +154,6 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
 | ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | [Mech](#mechs-&-kolosse) | TODO Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
 | ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | [Koloss](#mechs-&-kolosse) | TODO Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
-| ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
 | ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | [Drohne](#drohnen) | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis riesig |
 
 ### Attribute
@@ -692,12 +693,20 @@ Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
 Passierbarkeit ist eine Eigenschaft von Gelände und wird mit einer Stufe angegeben.
 
-Die Stufe wird dabei von der GK eines Modells abgezogen, wenn sich in einem Bereich mit einer Passierbarkeit größer als 0 befindet.
+Die Stufe wird dabei von der GK eines Modells abgezogen, wenn es sich in einem Bereich mit einer Passierbarkeit größer als 0 befindet.
 Wenn die GK eines Modells dadurch auf 0 sinkt kann es sich in dem entsprechenden Bereich nicht bewegen.
 Dadurch werden auch Bewegungen in einen solchen Bereich hinein unmöglich.
 
 Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Verringerung der GK um 1 vermindert.
 Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
+
+### Sichtweite
+
+TODO In bestimmtem Gelände ist die Sichweite durch 
+
+TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
+
+TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
 ### Geländetyp
 
@@ -713,45 +722,45 @@ Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" eine
 
 !!! summary Dickicht
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       1        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       1        |    I    |     1      |
 
 !!! summary Gebäude
 
     Alle intakten Gebäude fallen unter diesen Geländetyp.
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       0        |    I    |     1      |
 
 !!! summary Krater
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       2        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       2        |    I    |     1      |
 
-    Die Deckung wikt nur gegen Beschuss außerhalb.
+    Die Deckung wirkt nur gegen Beschuss von außerhalb.
 
 !!! summary Ruine
 
-    Alle teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
+    Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
     
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       1        | Stufe I |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       1        |    I    |     2      |
 
 !!! summary Straße
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        |    -    |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       0        |    -    |     -      |
 
 !!! summary Sumpf
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       3        |    -    |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       3        |    -    |     1      |
 
 !!! summary Unpassierbar
 
@@ -759,17 +768,15 @@ Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" eine
 
 !!! summary Wald
 
-    | Passierbarkeit | Deckung  |
-    | :------------: | :------: |
-    |       2        | Stufe II |
-
-    Der Wahrnehmungsbereich aller Modelle wird halbiert.
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       2        |   II    |     2      |
 
 !!! summary Wasser
 
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       2        |    -    |
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       2        |    -    |     -      |
 
 ### Umgebungsbedingungen
 
@@ -778,61 +785,7 @@ Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfind
 So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden.
 Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
 
-Sie gelten immer für das gesamte Spielfeld und wirken zusätzlich zu Geländetypen.
-
-!!! summary Arktisch
-
-    TODO
-
-    Auf Hitze basierende Waffen verlieren 1 Punkt ihrer Stärke und 1 Reichweitenband bis zu einem Minimum von 1.
-
-    Der Sichtfeld aller Modelle ist um eine Stufe verschlechtert.
-
-!!! summary Gebäude
-
-    Das gesamte Spielfeld ist der Innenraum eines Gebäudes.
-
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        | Stufe I |
-
-!!! summary Ländlich
-
-    TODO
-
-!!! summary Mond
-
-    Projektilwaffen erhalten ein weiteres Reichweitenband.
-
-!!! summary Schwerelosigkeit
-
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       2        |    -    |
-
-    Projektilwaffen erhalten ein weiteres Reichweitenband.
-
-!!! summary Urban
-
-    | Passierbarkeit | Deckung |
-    | :------------: | :-----: |
-    |       0        | Stufe I |
-
-    Der Zwischenraum zwischen Gebäuden wird regeltechnisch als vom Geländetyp Straße angesehen.
-
-!!! summary Wildnis
-
-    TODO
-
-    Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
-
-!!! summary Wüste
-
-    TODO
-
-    WN wird bei Tests um 1 erhöht. Nicht der Wahrnehmungsbereich.
-
-    Jede landgestüzte Bewegung ist erschwert.
+Um dies zu umgehen kann einfach das gesamte Spieldfeld als ein spezifischer Geländetyp deklariert werden. Er gilt dann für das gesamte Spielfeld.
 
 ## Schadens- & Rüstungsprofile
 
@@ -906,24 +859,24 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 !!! TODO Überarbeiten/Umbenennen
 
-    * Vibro               -> TODO Erschütterung
-    * Kompositpanzerung   -> TODO vielleicht Robust?
-    * Robust              -> TODO ist fast das gleiche wie  Kompositpanzerung
-    * Strukturverstärkt	 -> Beständig? Gestählt? Unverwüstlich? Robust?
-    * Strukturschädigend -> ???
+    * Vibro
+        * TODO Erschütterung
+    * Kompositpanzerung
+        * TODO vielleicht Robust?
+    * Robust
+        * TODO ist fast das gleiche wie  Kompositpanzerung
 
 #### Für Schadens- und Rüstungsprofile
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
+|![aufreißen](Grafiken/Effekt/aufreißen.png){width=40pt}|Aufreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![brand](Grafiken/Effekt/brand.png){width=40pt}|Brand|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
 |![explosiv](Grafiken/Effekt/explosiv.png){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
-|![gift](Grafiken/Effekt/gift.png){width=40pt}|Gift|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
+|![giftig](Grafiken/Effekt/giftig.png){width=40pt}|Giftig|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung)|
 |![panzerbrechend](Grafiken/Effekt/panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![schrapnell](Grafiken/Effekt/schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
 |![vibro](Grafiken/Effekt/vibro.png){width=40pt}|Vibro|TODO Der Angreifer darf den Verteidiger zwingen eine beliebige Anzahl an Würfeln neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
-|![zerreißen](Grafiken/Effekt/zerreißen.png){width=40pt}|Zerreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
-|![zersetzen](Grafiken/Effekt/zersetzen.png){width=40pt}|Zersetzen|Der Schutz der Rüstung wird nach erfolgreichem Rüstungswurf permanent um 2 gesenkt.|
 
 #### Nur für Schadensprofile
 
@@ -1054,7 +1007,7 @@ Die Anzahl an Bändern ist dabei immer 4.
 
 ### Waffenklassen
 
-Durch Waffenklassen wird unterschieden wie groß und damit unhandlich eine Waffe bzw. wie komplex sie zu bedienen ist.
+Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
 Je größer/komplexer desto höher die Waffenklasse.
 
 Waffenklassen werden mit „WK“ abgekürzt.
@@ -1071,7 +1024,21 @@ Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im [Fernka
 
 Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
 
+!!! TODO neue Art der Ausweisung "»"
+
 ![unhandlich](Grafiken/Waffe/unhandlich.png){width=40pt} {align=center}
+
+### Nachladen
+
+!!! TODO
+
+    * Manche Waffen brauchen das
+    * Kosten wie WK? Oder doppelte WK?
+    * Aktion dafür definieren!
+
+Waffen die nachladen müssen besitzen das folgende Symbol bzw. Marker.
+
+![nachladen](Grafiken/Waffe/nachladen.png){width="40pt"} ![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"} {align="center"}
 
 ### Einmalnutzung von Waffen
 
@@ -1499,7 +1466,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 ### Vorteile von Tarnung
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
-Damit das möglich ist, müssen sie zuerst aufgeklärt werden.
+Damit das möglich ist, müssen sie zuerst [aufgeklärt](#aufklärung) werden.
 
 Sie können nicht durch Flächenwaffen getroffen werden.
 
@@ -1513,10 +1480,10 @@ Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 
 ### Aufklärung
 
-Ein aufgeklärtes Modell gilt solange als aufgeklärt bis es eine volle Bewegungsaktion durchgeführt hat.
-Danach wird seine Tarnung automatisch wiederhergestellt sofern die Voraussetzungen dafür erfüllt sind.
+Aufgeklärte Modelle können normal beschossen oder im Nahkampf angegriffen werden.
 
-Es kann normal beschossen oder im Nahkampf angegriffen werden.
+Sie gelten solange als aufgeklärt bis sie 2 volle Bewegungsaktionen durchgeführt haben.
+Danach wird ihre Tarnung automatisch wiederhergestellt sofern die Voraussetzungen dafür erfüllt sind.
 
 Wenn ein getarntes Modell einen Angriff einleitet oder eine Fernkampfwaffe abfeuert wird es automatisch aufgeklärt.
 
@@ -1600,11 +1567,9 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 ### Unhandliche Ausrüstung
 
-Bestimmte Ausrüstungsgegenstände sind enhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
+Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
 
-!!! todo
-
-    Wie sieht das auf der Einheitenkarte aus?
+!!! TODO neue Art der Ausweisung "»"
 
 ## Kolosse
 
@@ -1678,7 +1643,13 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 ### Detonation
 
-TODO
+!!! TODO
+
+    Eine "neutrale" Eigenschaft draus machen?
+    
+    -> Mechanisch
+    
+    Gibt irgendeinen Vorteil (Immun gegen psychologiscge Effekte), kann aber detonieren.
 
 Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion welche eine Fläche mit einem Radius in Höhe der KO umfasst.
 
@@ -1757,7 +1728,7 @@ Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Run
 
 ### Zerstörung einer Drohne
 
-Sobald eine Drohne als ausgeschalten gilt kann es zu einer Rückkopplung auf den Kontroller kommen die ihm Schaden zufügt.
+Sobald eine Drohne als ausgeschalten gilt kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.
