@@ -144,14 +144,14 @@ Dazu gehören:
 
 ### Typ
 
-Modelle werden in die Typen Infanterie, Mech, Koloss und Fahrzeuge unterschieden.
+Modelle werden in die Typen Infanterie, Koloss und Fahrzeuge unterschieden.
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
 | Symbol | Name | Beschreibung | [Größenprofil](#größenprofil) |
 |--|--|--|--|
 | ![Infanterie](Grafiken/Modell/Infanterie.svg){width="40pt"} | Infanterie | Sie umfasst alles von normalen Soldaten bis hin zu Panzeranzügen. | klein bis groß |
-| ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | [Mech](#mechs-&-kolosse) | Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
-| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | [Koloss](#mechs-&-kolosse) | Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
+| ![Mech](Grafiken/Modell/Mech.svg){width="40pt"} | [Mech](#mechs-&-kolosse) | TODO Sie umfassen unter Anderem große servounterstützte Panzeranzüge mit meist schwerster Bewaffnung. | groß bis riesig |
+| ![Koloss](Grafiken/Modell/Koloss.svg){width="40pt"} | [Koloss](#mechs-&-kolosse) | TODO Große biologische Kreaturen werden als Kolosse bezeichnet. | groß bis riesig |
 | ![Fahrzeug](Grafiken/Modell/Fahrzeug.svg){width="40pt"} | Fahrzeug | TODO Beinhaltet alles was von einem Modell welches sich darin befindet gesteuert wird. | mittel bis riesig |
 | ![Drohne](Grafiken/Modell/Drohne.svg){width="40pt"} | [Drohne](#drohnen) | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden. | klein bis riesig |
 
@@ -275,10 +275,10 @@ Jedes Modell kann eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI
 
 Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
-| Typ               | Tragkraft in kg |
-| ----------------- | :-------------: |
-| Infanterie        |      `KO²`      |
-| Mechs und Kolosse |  `( KO * 2 )²`  |
+| Typ         | Tragkraft in kg |
+| ----------- | :-------------: |
+| Infanterie  |      `KO²`      |
+| Koloss      |  `( KO * 2 )²`  |
 
 Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
 Wird er jedoch überschritten werden AGI und GK jeweils um 1 verringert.
@@ -1460,7 +1460,7 @@ Es können nur [aufgeklärte](#aufklärung) Modelle angegriffen werden.
 
 ### Waffenloser Nahkampf
 
-Infanterie, Mechs und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
+Infanterie und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
 Der Schadenstyp ist dabei immer Schlag und die Stärke entspricht der Konstitution.
 Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
@@ -1606,60 +1606,50 @@ Bestimmte Ausrüstungsgegenstände sind enhandlich und haben dadurch negative Au
 
     Wie sieht das auf der Einheitenkarte aus?
 
-## Mechs & Kolosse
+## Kolosse
 
-### Mech
+Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 6 Meter haben und deren Gewicht bei 1,5 Tonnen erst anfängt.
 
-Es sind moderne Hybridwaffensysteme mit der Beweglichkeit eines servounterstützten Panzeranzugs und dem Schutz, sowie Feuerkraft, eines Panzers.
-In der Regel haben Mechs eine Größe von 4 bis 6 Meter und fangen bei einem Gewicht von 1,5 Tonnen an.
+Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
 
-#### Mechs im Fernkampf
+### Kolosse im Fern- und Nahkampf
 
-Im Fernkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
-
-### Koloss
-
-Kolosse sind das Equivalent von Mechs im Bereich der Lebewesen.
-Große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
-
-#### Kolosse im Nahkampf
-
-Im Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
+Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
 
 ### Geländeausnutzung
 
-Durch ihre enorme Beweglichkeit profitieren Mechs & Kolosse ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
+Durch ihre enorme Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
 
-Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen und Gebäude normal betreten, sowie Fahrzeuge wie Infanterie benutzen.
+Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
 
 ### Trefferzonen
 
-Mechs & Kolosse werden in die Trefferzonen Rumpf, linker Arm, rechter Arm und Beine unterteilt.
+Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung unterteilt.
 
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
 Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind.
 
 ![trefferzone](Grafiken/Abbildungen/trefferzonen.svg){.img_border} {align="center"}
 
-*Trefferzonen Mechs & Kolosse* {align="center"}
+*Trefferzonen Kolosse* {align="center"}
 
 Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
 
 Trefferpunkte werden nur für den Rumpf festgelegt.
-Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
+Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
 
-#### Kritischer Zustand bei Mechs & Kolossen
+#### Kritischer Zustand bei Kolossen
 
 * **Rumpf**
 
     Wie bei Infanterie.
     Siehe [Kritischer Zustand](#kritischer-zustand).
 
-* **Arme**
+* **Linke/Rechte Seite**
 
-    Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jeden Arm im kritischen Zustand.
+    Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.
 
-* **Beine**
+* **Bewegung**
 
     Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.
 
@@ -1670,15 +1660,15 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
     Sinkt in sich zusammen und gilt als ausgeschalten.
     Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.
 
-    Für Mechs muss nun ein KO-Wurf durchgeführt werden.
+    TODO Für Mechs muss nun ein KO-Wurf durchgeführt werden.
     Falls er misslingt [detoniert](#detonation) er.
 
-* **Arme**
+* **Linke/Rechte Seite**
 
-    Der Arm wird zerstört und die Waffe kann nicht mehr verwendet werden.
+    Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
     Außerdem werden AGI und NK um 1 verringert.
 
-* **Beine**
+* **Bewegung**
 
     |W12|Auswirkung|
     |--|--|
@@ -1687,6 +1677,8 @@ Für Beine und Arme berechnet sich der Wert jeweils automatisch mit 2/3 des Rump
     |12|Fällt um und gilt als ausgeschalten. Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.|
 
 ### Detonation
+
+TODO
 
 Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion welche eine Fläche mit einem Radius in Höhe der KO umfasst.
 
