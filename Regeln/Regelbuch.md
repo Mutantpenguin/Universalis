@@ -1073,7 +1073,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 |   IV   | Kettensäge      | Panzerfaust          |
 |   ^^   |                 | Scharfschützengewehr |
 |   V    | kleiner Baum    | Arbalest             |
-|   ^^   |                 | Lafettengeschütz     |
+|   ^^   | Straßenschild   | Lafettengeschütz     |
 |   ^^   |                 | Panzerkanone         |
 
 ## Rüstung
