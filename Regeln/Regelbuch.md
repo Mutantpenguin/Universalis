@@ -551,7 +551,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
     
     Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem [Angriff](#aktionen:-nahkampf).
 
-!!! danger Flucht - 2-3 ⊙
+!!! danger Aus Nahkampf lösen - 2-3 ⊙
 
     !!! note ""
 
@@ -559,7 +559,7 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
         Befindet sich im Nahkampf.
 
-    Mit dieser Aktion kann sich ein Modell aus einem [Nahkampf](#nahkampf) entfernen, zunächst muss es aber den Test für eine [Direkte Bedrohung](#direkte-bedrohung) durchführen.
+    Mit dieser Aktion kann sich ein Modell aus einem [Nahkampf](#nahkampf) lösen, zunächst muss es aber den Test für eine [Direkte Bedrohung](#direkte-bedrohung) durchführen.
 
     Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
 
