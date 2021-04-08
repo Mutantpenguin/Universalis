@@ -553,6 +553,12 @@ Der Bewegungstest besteht aus einem WN-Wurf und muss in bestimmten Situationen d
 
 !!! danger Flucht - 2-3 ⊙
 
+    !!! note ""
+
+        Bedingung:
+
+        Befindet sich im Nahkampf.
+
     Mit dieser Aktion kann sich ein Modell aus einem [Nahkampf](#nahkampf) entfernen, zunächst muss es aber den Test für eine [Direkte Bedrohung](#direkte-bedrohung) durchführen.
 
     Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
