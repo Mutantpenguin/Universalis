@@ -120,7 +120,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check David gegen Goliath
 
-    Wenn das Modell als Angreifer von ausserhalb des Sichtfeldes angreift und über ein kleineres Größenprofil verfügt darf es sich bei Mechs und Kolossen die Trefferzone aussuchen.
+    Wenn das Modell als Angreifer von ausserhalb des Sichtfeldes angreift und über ein kleineres Größenprofil verfügt darf es sich bei Kolossen die Trefferzone aussuchen.
 
 !!! check Gegenangriff
 
