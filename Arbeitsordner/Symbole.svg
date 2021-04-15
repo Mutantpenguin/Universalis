@@ -12,7 +12,7 @@
    height="297mm"
    id="svg2"
    version="1.1"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
    sodipodi:docname="Symbole.svg"
    inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\typ_level_iii.png"
    inkscape:export-xdpi="381"
@@ -522,15 +522,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710683"
-     inkscape:cx="395.52587"
-     inkscape:cy="553.00982"
+     inkscape:zoom="1.0000001"
+     inkscape:cx="486.46696"
+     inkscape:cy="427.87885"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
@@ -556,14 +556,6 @@
        originy="0"
        spacingx="1"
        spacingy="1" />
-    <sodipodi:guide
-       id="guide1706"
-       orientation="1,0"
-       position="501.60385,-297.74841" />
-    <sodipodi:guide
-       position="849.2656,575.56657"
-       orientation="0,-1"
-       id="guide1790" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -584,7 +576,7 @@
     <ellipse
        style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.661571;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1695"
-       cx="375.88232"
+       cx="71.882347"
        cy="995.16791"
        rx="16.571838"
        ry="3.1436882" />
@@ -852,7 +844,7 @@
     </g>
     <g
        id="g3152"
-       transform="translate(-166.94398,141.15772)"
+       transform="translate(463.79523,819.98018)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_emp.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -898,7 +890,7 @@
     </g>
     <g
        id="g3162"
-       transform="translate(-203.62843,137.29523)"
+       transform="translate(412.96864,811.87505)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_desintegrator.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1040,7 +1032,7 @@
          style="font-size:16px;line-height:1.25">Effekte</tspan></text>
     <g
        id="g3164"
-       transform="translate(-1.8784943,-44.276782)"
+       transform="translate(-84.724796,-45.690995)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_explosiv.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1063,7 +1055,7 @@
     </g>
     <g
        id="g3170"
-       transform="translate(22.608063,-43.43555)"
+       transform="translate(627.89143,636.80113)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_rail.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1113,7 +1105,7 @@
     </g>
     <g
        id="g3182"
-       transform="translate(8.9057558,1.3780856)"
+       transform="translate(614.18912,681.61476)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_durchschlag.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1208,7 +1200,7 @@
     </g>
     <g
        id="g4006"
-       transform="translate(64.674805,-45.807803)"
+       transform="translate(-102.14709,-47.222016)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_vibro.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1265,7 +1257,7 @@
     </g>
     <g
        id="g4018"
-       transform="translate(-41.827454,-43.869693)"
+       transform="translate(629.92394,576.97002)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_fusion.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1385,7 +1377,7 @@
     </g>
     <g
        id="g4078"
-       transform="translate(8.428772,-46.113223)"
+       transform="translate(-201.38095,-47.527436)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_hitze.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1405,7 +1397,7 @@
     </g>
     <g
        id="g4084"
-       transform="translate(44.365753,-61.265521)"
+       transform="translate(544.99732,556.74576)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_kälte.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1424,7 +1416,7 @@
     </g>
     <g
        id="g4090"
-       transform="translate(91.919464,-53.436832)"
+       transform="translate(592.55103,564.57445)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_elektro.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1447,7 +1439,7 @@
     </g>
     <g
        id="g4097"
-       transform="translate(140.2308,-57.224902)"
+       transform="translate(495.19838,563.61481)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_mikrowelle.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1545,7 +1537,7 @@
          style="font-size:16px;line-height:1.25">Sonstiges</tspan></text>
     <g
        id="g4853"
-       transform="translate(25.548615,-83.263431)"
+       transform="translate(291.42075,541.81892)"
        inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Symbole/effekt_monomolekular.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1811,7 +1803,7 @@
        inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Symbole/effekt_paralyse.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
-       transform="translate(95.924866,-128.8035)">
+       transform="translate(272.70155,495.57174)">
       <rect
          y="303.36185"
          x="449.31696"
@@ -1876,7 +1868,7 @@
          style="font-size:16px;line-height:1.25">Bewegungsarten</tspan></text>
     <g
        id="g3364"
-       transform="translate(-226.20784,-66.360743)"
+       transform="translate(503.52631,555.89318)"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\bewegung_fuss.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1895,7 +1887,7 @@
     </g>
     <g
        id="g3452"
-       transform="translate(-154.66116,-61.303462)"
+       transform="translate(575.07299,560.95046)"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\bewegung_rad.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1914,7 +1906,7 @@
     </g>
     <g
        id="g4255"
-       transform="translate(-99.808823,-61.765772)"
+       transform="translate(629.92532,560.48815)"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\bewegung_kette.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -1958,7 +1950,7 @@
     </g>
     <g
        id="g4342"
-       transform="translate(-159.34709,-53.665583)"
+       transform="translate(570.38706,568.58834)"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\bewegung_flug.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -2041,7 +2033,7 @@
     </g>
     <g
        id="g7412"
-       transform="translate(1.3102722,301.07135)"
+       transform="translate(526.31024,750.07132)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2072,7 +2064,7 @@
     </g>
     <g
        id="g7427"
-       transform="translate(-16.541916,300.20425)"
+       transform="translate(508.45805,749.20422)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2091,7 +2083,7 @@
     </g>
     <g
        id="g4523"
-       transform="translate(-29.880585,-49.245143)"
+       transform="translate(699.85356,573.00878)"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\bewegung\bewegung_antigrav.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -2142,7 +2134,7 @@
     </g>
     <g
        id="g4571"
-       transform="translate(-84.276764,-29.532374)"
+       transform="translate(645.45738,592.72155)"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\bewegung\bewegung_stationär.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -2348,7 +2340,7 @@
     </g>
     <g
        id="g4748"
-       transform="translate(-186.59512,7.146739)">
+       transform="translate(237.66892,499.29302)">
       <rect
          y="512.53333"
          x="527.16089"
@@ -2401,7 +2393,7 @@
     </g>
     <g
        id="g4775"
-       transform="translate(-252.58516,33.907601)"
+       transform="translate(240.8332,534.39703)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2435,7 +2427,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.38396898,0,0,0.38396898,359.06389,652.69822)"
+       transform="matrix(0.38396898,0,0,0.38396898,908.40491,863.05355)"
        id="g4760">
       <g
          transform="matrix(2.4839386,0,0,2.4839386,-635.22353,-608.47663)"
@@ -2563,7 +2555,7 @@
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\effekte\effekt_komposit.png"
-       transform="translate(-28.461609,0.38132939)">
+       transform="translate(-406.22247,-1.0328834)">
       <rect
          style="fill:none"
          id="rect7012"
@@ -2719,7 +2711,7 @@
     </g>
     <g
        id="g7073"
-       transform="translate(8.9970093,-266.72824)"
+       transform="translate(-370.76395,-268.14246)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_strukturverstärkt.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -2748,7 +2740,7 @@
     </g>
     <g
        id="g5551"
-       transform="translate(-354.2605,71.514719)"
+       transform="translate(-291.2605,13.514723)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2777,7 +2769,7 @@
     </g>
     <g
        id="g5159"
-       transform="translate(-359.08775,65.150083)">
+       transform="translate(531.91219,505.15005)">
       <rect
          y="509.72241"
          x="406.49878"
@@ -2846,7 +2838,7 @@
     </g>
     <g
        id="g4776"
-       transform="translate(-412.95035,109.69848)">
+       transform="translate(112.04961,558.69845)">
       <rect
          style="fill:none"
          id="rect4749"
@@ -3045,7 +3037,7 @@
     </g>
     <g
        id="g1730"
-       transform="translate(1,-47)"
+       transform="translate(-401.65939,-109.69464)"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Effekt\effekt_paralyse.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -3111,7 +3103,8 @@
        id="g1754"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Modell\schock.png"
        inkscape:export-xdpi="406.39999"
-       inkscape:export-ydpi="406.39999">
+       inkscape:export-ydpi="406.39999"
+       transform="translate(-183.84775,183.84775)">
       <rect
          y="233.25636"
          x="616.35046"
@@ -3200,7 +3193,7 @@
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Marker\feuerbereitschaft.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999"
-       transform="translate(0,80)">
+       transform="translate(623.66814,203.03657)">
       <rect
          y="593.74066"
          x="47.970959"
@@ -3251,32 +3244,8 @@
       </g>
     </g>
     <g
-       id="g1544"
-       transform="translate(29.168155,79.292893)">
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="rect1534"
-         d="m 192.06256,596.64471 h 4.6875 v 28.125 l -2.34375,7.375 -2.34375,-7.375 z"
-         style="opacity:1;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         y="594.51971"
-         x="188.50006"
-         height="2.5"
-         width="11.8125"
-         id="rect1537"
-         style="opacity:1;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         y="588.26971"
-         x="193.02687"
-         height="6.5"
-         width="2.7588835"
-         id="rect1539"
-         style="opacity:1;fill:#00000c;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
        id="g1767"
-       transform="translate(67,22)">
+       transform="translate(629.99996,78.999996)">
       <g
          transform="translate(-0.07623219)"
          id="g1755">
@@ -3341,7 +3310,7 @@
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Marker\abwehrhaltung.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999"
-       transform="translate(0,80)">
+       transform="translate(562.99996,137)">
       <rect
          style="fill:none"
          id="rect1515"
@@ -3505,7 +3474,7 @@
        style="fill:none" />
     <g
        id="g1594"
-       transform="translate(1.2374369,2.1213204)"
+       transform="translate(730.97158,624.37524)"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Bewegung\stationär.png"
        inkscape:export-xdpi="406.3996"
        inkscape:export-ydpi="406.3996">
@@ -3537,7 +3506,7 @@
     </g>
     <g
        id="g1599"
-       transform="matrix(0.45246764,0,0,0.45246764,378.92043,288.92336)"
+       transform="matrix(0.45246764,0,0,0.45246764,640.54992,918.24835)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/schrapnell.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -3627,7 +3596,8 @@
        inkscape:export-xdpi="381"
        inkscape:export-filename="C:\Users\Charon\Downloads\g2115.png"
        style="opacity:0.996"
-       id="g2115">
+       id="g2115"
+       transform="translate(67.62532,-220.2914)">
       <g
          transform="translate(23.77414,-9.1536522)"
          id="g2090">
@@ -3815,29 +3785,6 @@
            style="fill:#000000;stroke-width:0.900861"
            id="path2465" />
       </g>
-    </g>
-    <g
-       id="g1882">
-      <path
-         id="path2721"
-         style="fill:#000000;stroke:none;stroke-width:1.20465px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 674.38086,1608.1816 c 1.7875,8.6115 6.1707,16.64 17.19922,20.8809 25.38737,9.7624 75.12748,28.8892 75.12748,28.8892 1.65423,0.6362 2.43655,1.8301 2.8608,3.8432 l 3.36794,15.98 5.20097,0.9751 -4.10407,-17.9805 c -1.41068,-6.1804 -3.37967,-7.7248 -5.09765,-8.5254 z"
-         sodipodi:nodetypes="csssccssc" />
-      <path
-         sodipodi:nodetypes="cccsc"
-         id="path2723"
-         d="m 684.27282,1628.1591 83.5541,32.1077 1.08231,5.1564 -65.78672,-20.4931 c -14.6587,-4.5663 -18.00153,-12.0653 -18.84969,-16.771 z"
-         style="fill:#000000;stroke:none;stroke-width:1.20465px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         style="fill:#000000;stroke:none;stroke-width:1.20465px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 691.71255,1643.1842 77.57762,24.1187 0.84508,4.0636 -59.91833,-14.7353 c -14.94429,-3.6752 -18.00632,-9.4791 -18.50437,-13.447 z"
-         id="path2725"
-         sodipodi:nodetypes="cccsc" />
-      <path
-         sodipodi:nodetypes="cccsc"
-         id="path2727"
-         d="m 697.78018,1655.5307 72.77888,17.8737 0.84932,4.084 -55.6766,-10.441 c -12.95041,-2.4286 -16.2812,-7.2376 -17.9516,-11.5167 z"
-         style="fill:#000000;stroke:none;stroke-width:1.20465px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <g
        id="g4826"
@@ -4191,7 +4138,8 @@
       </g>
     </g>
     <g
-       id="g1876">
+       id="g1876"
+       transform="translate(-505.16058,-1067.8489)">
       <rect
          y="1386.4448"
          x="559.90167"
@@ -4247,7 +4195,8 @@
        inkscape:export-ydpi="406.39999"
        inkscape:export-xdpi="406.39999"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\UniversalisSoftware\CardPainter\Resources\bewegung_rad.png"
-       id="g1864">
+       id="g1864"
+       transform="translate(-466.76062,-1108.8489)">
       <rect
          style="fill:none"
          id="rect1755"
@@ -4310,7 +4259,8 @@
        inkscape:export-ydpi="406.39999"
        inkscape:export-xdpi="406.39999"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\UniversalisSoftware\CardPainter\Resources\bewegung_kette.png"
-       id="g1851">
+       id="g1851"
+       transform="translate(-428.36065,-1153.8489)">
       <rect
          y="1472.4448"
          x="559.90167"
@@ -4399,7 +4349,8 @@
        inkscape:export-ydpi="406.39999"
        inkscape:export-xdpi="406.39999"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\UniversalisSoftware\CardPainter\Resources\bewegung_flug.png"
-       id="g1831">
+       id="g1831"
+       transform="translate(-389.96069,-1197.5989)">
       <rect
          style="fill:none"
          id="rect1759"
@@ -4494,7 +4445,8 @@
        inkscape:export-ydpi="406.39999"
        inkscape:export-xdpi="406.39999"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\UniversalisSoftware\CardPainter\Resources\bewegung_antigrav.png"
-       id="g1811">
+       id="g1811"
+       transform="translate(-351.56073,-1244.0989)">
       <rect
          y="1562.6948"
          x="559.90167"
@@ -4626,7 +4578,8 @@
        inkscape:export-ydpi="406.39999"
        inkscape:export-xdpi="406.39999"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\UniversalisSoftware\CardPainter\Resources\bewegung_stationär.png"
-       id="g1781">
+       id="g1781"
+       transform="translate(-313.16076,-1291.5989)">
       <rect
          style="fill:none"
          id="rect1763"
@@ -4708,7 +4661,7 @@
     </g>
     <g
        id="g1772"
-       transform="translate(673.2327,-646.20111)"
+       transform="translate(287.47147,-647.61533)"
        inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Effekt\effekt_gift.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4749,39 +4702,40 @@
     <ellipse
        style="color:#000000;overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.62;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1691"
-       cx="375.88232"
+       cx="71.882347"
        cy="991.18726"
        rx="15.530521"
        ry="2.9461496" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.255928;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 375.88231,956.0217 a 3.5760264,3.5760264 0 0 0 -3.57609,3.57609 3.5760264,3.5760264 0 0 0 3.57609,3.5761 3.5760264,3.5760264 0 0 0 3.5761,-3.5761 3.5760264,3.5760264 0 0 0 -3.5761,-3.57609 z m -4.75267,8.3351 v 0.032 c -1.4035,0.20731 -2.47385,1.41081 -2.47385,2.87373 v 9.83405 c 0,1.46294 1.07035,2.66614 2.47385,2.87344 v 11.505 h 9.50535 v -11.505 c 1.4035,-0.2073 2.47385,-1.4105 2.47385,-2.87344 v -9.83406 c 0,-1.46292 -1.07035,-2.66642 -2.47385,-2.87373 v -0.032 h -0.43157 -8.64221 z"
+       d="m 71.882331,956.0217 a 3.5760264,3.5760264 0 0 0 -3.57609,3.57609 3.5760264,3.5760264 0 0 0 3.57609,3.5761 3.5760264,3.5760264 0 0 0 3.5761,-3.5761 3.5760264,3.5760264 0 0 0 -3.5761,-3.57609 z m -4.75267,8.3351 v 0.032 c -1.4035,0.20731 -2.47385,1.41081 -2.47385,2.87373 v 9.83405 c 0,1.46294 1.07035,2.66614 2.47385,2.87344 v 11.505 h 9.50535 v -11.505 c 1.4035,-0.2073 2.47385,-1.4105 2.47385,-2.87344 v -9.83406 c 0,-1.46292 -1.07035,-2.66642 -2.47385,-2.87373 v -0.032 h -0.43157 -8.64221 z"
        id="path4136-7"
        inkscape:connector-curvature="0" />
     <path
        id="ellipse1697"
        style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.661571;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 437.21094,991.1875 c 0,-1.62711 -6.95398,-2.94727 -15.53125,-2.94727 -8.57727,0 -15.53125,1.32016 -15.53125,2.94727 l -1.04102,3.98047 c -10e-6,1.73621 7.41989,3.14453 16.57227,3.14453 9.15238,0 16.57227,-1.40832 16.57226,-3.14453 z"
+       d="m 133.21096,991.1875 c 0,-1.62711 -6.95398,-2.94727 -15.53125,-2.94727 -8.57727,0 -15.53125,1.32016 -15.53125,2.94727 l -1.04102,3.98047 c -1e-5,1.73621 7.41989,3.14453 16.57227,3.14453 9.15238,0 16.57227,-1.40832 16.57226,-3.14453 z"
        sodipodi:nodetypes="csccscc" />
     <path
        id="ellipse1699"
        style="color:#000000;overflow:visible;fill:#ffffff;stroke:#000000;stroke-width:0.62;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 437.21036,991.18726 c 0,1.62711 -6.95325,2.94615 -15.53052,2.94615 -8.57727,0 -15.53052,-1.31904 -15.53052,-2.94615"
+       d="m 133.21038,991.18726 c 0,1.62711 -6.95325,2.94615 -15.53052,2.94615 -8.57727,0 -15.53052,-1.31904 -15.53052,-2.94615"
        sodipodi:nodetypes="csc" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.255928;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 421.67982,956.0217 a 3.5760264,3.5760264 0 0 0 -3.57609,3.57609 3.5760264,3.5760264 0 0 0 3.57609,3.5761 3.5760264,3.5760264 0 0 0 3.5761,-3.5761 3.5760264,3.5760264 0 0 0 -3.5761,-3.57609 z m -4.75267,8.3351 v 0.032 c -1.4035,0.20731 -2.47385,1.41081 -2.47385,2.87373 v 9.83405 c 0,1.46294 1.07035,2.66614 2.47385,2.87344 v 11.505 h 9.50535 v -11.505 c 1.4035,-0.2073 2.47385,-1.4105 2.47385,-2.87344 v -9.83406 c 0,-1.46292 -1.07035,-2.66642 -2.47385,-2.87373 v -0.032 h -0.43157 -8.64221 z"
+       d="m 117.67984,956.0217 a 3.5760264,3.5760264 0 0 0 -3.57609,3.57609 3.5760264,3.5760264 0 0 0 3.57609,3.5761 3.5760264,3.5760264 0 0 0 3.5761,-3.5761 3.5760264,3.5760264 0 0 0 -3.5761,-3.57609 z m -4.75267,8.3351 v 0.032 c -1.4035,0.20731 -2.47385,1.41081 -2.47385,2.87373 v 9.83405 c 0,1.46294 1.07035,2.66614 2.47385,2.87344 v 11.505 h 9.50535 v -11.505 c 1.4035,-0.2073 2.47385,-1.4105 2.47385,-2.87344 v -9.83406 c 0,-1.46292 -1.07035,-2.66642 -2.47385,-2.87373 v -0.032 h -0.43157 -8.64221 z"
        id="path1703"
        inkscape:connector-curvature="0" />
     <ellipse
        style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.62;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse1712"
-       cx="421.67984"
+       cx="117.67986"
        cy="951.05182"
        rx="15.530521"
        ry="2.9461496" />
     <g
-       id="g1821">
+       id="g1821"
+       transform="translate(-303.99998)">
       <path
          id="path1715"
          style="color:#000000;overflow:visible;fill:#000000;stroke:#000000;stroke-width:0.661571;stroke-miterlimit:4;stroke-dasharray:none"
@@ -4808,14 +4762,9 @@
          d="m 481.17701,951.05182 c 0,1.62711 -6.95326,2.94615 -15.53053,2.94615 -8.57727,0 -15.53052,-1.31904 -15.53052,-2.94615"
          sodipodi:nodetypes="csc" />
     </g>
-    <path
-       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1.55609px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 274.79489,213.55742 -2.68825,16.11372 h 7.22542 l -3.02255,14.02894 10.98234,-18.75114 -8.596,-0.49105 5.01155,-11.67 z"
-       id="path1693"
-       sodipodi:nodetypes="cccccccc" />
     <g
        id="g1718"
-       transform="translate(529.61139,-40.830035)"
+       transform="translate(100.86234,-42.244248)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_zerreißen.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4833,7 +4782,7 @@
     </g>
     <g
        id="g1980"
-       transform="translate(150.59235,-292.26786)"
+       transform="translate(272.21471,393.62567)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_robust.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4886,7 +4835,7 @@
     </g>
     <g
        id="g2669"
-       transform="translate(-58.93512,-105.52359)"
+       transform="translate(-440.69617,-106.93781)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_strukturschädigend.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999">
@@ -4911,7 +4860,7 @@
     </g>
     <g
        id="g2874"
-       transform="translate(12.202332,-231.57117)"
+       transform="translate(-418.54681,-232.98538)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_panzerbrechend.png"
        inkscape:export-xdpi="406"
        inkscape:export-ydpi="406">
@@ -4965,7 +4914,7 @@
     </g>
     <g
        id="g1812"
-       transform="translate(88.194702,-344.53748)"
+       transform="translate(-344.55453,-345.95169)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/robust.png"
        inkscape:export-xdpi="406"
        inkscape:export-ydpi="406">
@@ -5021,7 +4970,7 @@
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/schrapnell.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
-       transform="translate(-2.0505371,-57.789886)">
+       transform="translate(-385.81168,-59.204102)">
       <rect
          style="fill:none"
          id="rect1750"
@@ -5185,7 +5134,7 @@
     </g>
     <g
        id="g891"
-       transform="matrix(0.141732,0,0,0.141732,343.84448,648.16284)">
+       transform="matrix(0.141732,0,0,0.141732,802.84445,1068.1628)">
       <rect
          y="-417.63782"
          x="601.37634"
@@ -5212,7 +5161,7 @@
     </g>
     <g
        id="g1424"
-       transform="matrix(0.141732,0,0,0.141732,187.16573,616.79734)">
+       transform="matrix(0.141732,0,0,0.141732,646.1657,1036.7973)">
       <path
          cy="-595.87439"
          r="38.839287"
@@ -5465,5 +5414,74 @@
         </g>
       </g>
     </g>
+    <path
+       style="fill:#000000;stroke-width:0.164035"
+       d="m 714.73942,934.74628 c 0.37257,0.0502 2.57396,0.497 3.75744,1.04572 0.18853,0.0874 0.35456,0.15891 0.36908,0.15891 0.0368,0 0.92959,0.49503 1.17388,0.65102 0.6566,0.41925 1.23767,0.92247 1.65573,1.44043 0.73377,0.90912 1.10202,1.77953 1.52245,3.61391 0.33515,1.19566 0.40153,2.00931 0.36908,3.0244 -0.01,0.30581 -0.2667,0.64677 -0.16916,0.90219 0.34905,0.47985 0.6958,1.00226 1.00984,1.48657 0.31404,0.48432 0.70654,1.01234 1.00472,1.45582 0.076,0.11286 0.10914,0.20986 0.12815,0.30756 0.019,0.0977 0.0403,0.21363 -0.005,0.41009 -0.0454,0.19647 -0.18893,0.30339 -0.32294,0.35883 -0.13401,0.0554 -0.28179,0.073 -0.4716,0.0974 -0.18982,0.0244 -0.84232,0.0553 -0.87371,0.0718 -0.0314,0.0164 -0.0848,0.0412 -0.1179,0.0513 -0.0331,0.0101 -0.10661,0.0784 -0.16404,0.15379 0.17382,2.02724 -0.91749,4.93131 -0.91749,4.93131 0,0 -0.32311,0.64054 -0.6869,0.80992 -0.3427,0.15957 -0.66975,0.21103 -1.22001,0.18454 -0.64248,-0.0309 -1.03286,-0.0779 -1.36127,0.005 -0.21299,0.0571 -0.87128,0.15174 -0.93808,0.69203 -0.0668,0.54029 -0.405,2.13246 -0.405,2.13246 0,0 -10.29281,-1.96415 -9.65385,-1.93379 0.23484,-1.47833 0.45864,-2.74571 0.34471,-4.26368 -0.12657,-0.76689 -0.21487,-1.03011 -0.45622,-1.40967 -1.03144,-1.62208 -1.94706,-3.46843 -2.18885,-5.3209 -0.10029,-0.76837 -0.17211,-1.23096 -0.2153,-1.77363 -0.0432,-0.54268 -0.0264,-1.19747 -0.005,-1.76339 0.0208,-0.54226 0.29825,-1.89752 0.57925,-2.76809 0.28099,-0.87057 0.41621,-1.22212 0.76379,-1.69674 0.34758,-0.47463 0.72116,-0.89405 1.18926,-1.30203 0.15976,-0.13498 0.64158,-0.47634 0.82017,-0.57925 0.17859,-0.10292 0.29453,-0.15865 0.45623,-0.24606 0.16169,-0.0874 0.41179,-0.20807 0.55362,-0.26655 0.14182,-0.0585 0.11502,-0.0452 0.37933,-0.16404 0.2643,-0.11888 1.6053,-0.41022 1.93766,-0.48185 0.33237,-0.0716 1.78554,-0.0656 2.1581,-0.0154 z"
+       id="path1844"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="zsssscaczczzzsccccssczcccsszczzczzzzzzz" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.61921;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+       id="rect1846"
+       width="419.83319"
+       height="391.28192"
+       x="654.87494"
+       y="697.56836" />
+    <g
+       id="g1910"
+       transform="translate(70.999995,-319.99998)"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\UniversalisSoftware\MasterData\Resources\traits.png"
+       inkscape:export-xdpi="693.59003"
+       inkscape:export-ydpi="693.59003">
+      <rect
+         y="687.57568"
+         x="640.92902"
+         height="35.433071"
+         width="35.433071"
+         id="rect1892"
+         style="fill:none;stroke:none" />
+      <g
+         id="g1902"
+         transform="matrix(1.5285681,0,0,1.5285681,-448.2652,-409.20658)">
+        <path
+           inkscape:connector-curvature="0"
+           id="path1870"
+           d="m 723.74668,718.24355 -0.54551,1.24769 -0.0775,0.59454 0.0708,0.62156 -1.3803,0.27451 -0.17271,-0.60127 -0.29907,-0.51958 -0.98157,-0.94387 -0.74309,0.30775 -0.0265,1.36145 0.156,0.57887 0.30315,0.5473 -1.17011,0.78181 -0.38968,-0.48936 -0.47515,-0.36567 -1.26796,-0.49644 -0.56877,0.56878 0.49648,1.26796 0.36567,0.47512 0.48933,0.38966 -0.78183,1.17006 -0.54727,-0.30313 -0.57892,-0.156 -1.36145,0.0265 -0.30777,0.74308 0.94389,0.98153 0.51956,0.29907 0.60132,0.17271 -0.27454,1.38025 -0.62156,-0.0708 -0.59454,0.0775 -1.24774,0.54549 v 0.80421 l 1.24774,0.54547 0.59454,0.0775 0.62156,-0.0708 0.27454,1.38023 -0.60132,0.17271 -0.51956,0.29907 -0.94389,0.98152 0.30777,0.74309 1.36145,0.0265 0.57892,-0.15553 0.54727,-0.30313 0.78183,1.17023 -0.48933,0.38949 -0.36567,0.47512 -0.49648,1.26796 0.56877,0.56878 1.26796,-0.49644 0.47515,-0.36567 0.38968,-0.48936 1.17011,0.78181 -0.30315,0.5473 -0.156,0.57887 0.0265,1.36145 0.74309,0.30791 0.98157,-0.94403 0.29907,-0.51958 0.17271,-0.60127 1.3803,0.27451 -0.0708,0.62156 0.0775,0.59454 0.54551,1.24769 h 0.80421 l 0.54551,-1.24769 0.0775,-0.59454 -0.0708,-0.62156 1.3803,-0.27451 0.17271,0.60127 0.29907,0.51958 0.98157,0.94403 0.74309,-0.30791 0.0265,-1.36145 -0.156,-0.57887 -0.30315,-0.5473 1.17028,-0.78181 0.38951,0.48936 0.47515,0.36567 1.26798,0.49644 0.56875,-0.56878 -0.49643,-1.26796 -0.36567,-0.47512 -0.48938,-0.38949 0.78183,-1.17023 0.54727,0.30313 0.57892,0.15553 1.36145,-0.0265 0.30796,-0.74309 -0.94408,-0.98152 -0.51956,-0.29907 -0.60132,-0.17271 0.27456,-1.38023 0.62154,0.0708 0.59456,-0.0775 1.24772,-0.54547 v -0.80421 l -1.24772,-0.54549 -0.59456,-0.0775 -0.62154,0.0708 -0.27456,-1.38025 0.60132,-0.17271 0.51956,-0.29907 0.94408,-0.98153 -0.30796,-0.74308 -1.36145,-0.0265 -0.57892,0.156 -0.54727,0.30313 -0.78183,-1.17006 0.48938,-0.38966 0.36567,-0.47512 0.49643,-1.26796 -0.56875,-0.56878 -1.26798,0.49644 -0.47515,0.36567 -0.38951,0.48936 -1.17028,-0.78181 0.30315,-0.5473 0.156,-0.57887 -0.0265,-1.36145 -0.74309,-0.30775 -0.98157,0.94387 -0.29907,0.51958 -0.17271,0.60127 -1.3803,-0.27451 0.0708,-0.62156 -0.0775,-0.59454 -0.54551,-1.24769 z m 0.40212,5.17436 a 5.6952979,5.6951695 0 0 1 0.56858,0.0283 5.6952979,5.6951695 0 0 1 0.56295,0.0852 5.6952979,5.6951695 0 0 1 0.55152,0.14091 5.6952979,5.6951695 0 0 1 0.53486,0.195 5.6952979,5.6951695 0 0 1 0.51264,0.2476 5.6952979,5.6951695 0 0 1 0.48527,0.29742 5.6952979,5.6951695 0 0 1 0.45328,0.34452 5.6952979,5.6951695 0 0 1 0.41651,0.3881 5.6952979,5.6951695 0 0 1 0.37563,0.42768 5.6952979,5.6951695 0 0 1 0.33125,0.46305 5.6952979,5.6951695 0 0 1 0.28319,0.49377 5.6952979,5.6951695 0 0 1 0.23253,0.51974 5.6952979,5.6951695 0 0 1 0.17968,0.54018 5.6952979,5.6951695 0 0 1 0.1249,0.55542 5.6952979,5.6951695 0 0 1 0.0685,0.56524 5.6952979,5.6951695 0 0 1 0.0116,0.40282 5.6952979,5.6951695 0 0 1 -0.0283,0.56856 5.6952979,5.6951695 0 0 1 -0.0852,0.56295 5.6952979,5.6951695 0 0 1 -0.14091,0.5515 5.6952979,5.6951695 0 0 1 -0.195,0.53485 5.6952979,5.6951695 0 0 1 -0.24758,0.5126 5.6952979,5.6951695 0 0 1 -0.29747,0.48529 5.6952979,5.6951695 0 0 1 -0.34452,0.45326 5.6952979,5.6951695 0 0 1 -0.38808,0.41649 5.6952979,5.6951695 0 0 1 -0.42772,0.37563 5.6952979,5.6951695 0 0 1 -0.46303,0.33122 5.6952979,5.6951695 0 0 1 -0.49381,0.28321 5.6952979,5.6951695 0 0 1 -0.51972,0.23252 5.6952979,5.6951695 0 0 1 -0.5402,0.17967 5.6952979,5.6951695 0 0 1 -0.55547,0.1249 5.6952979,5.6951695 0 0 1 -0.56522,0.0685 5.6952979,5.6951695 0 0 1 -0.40282,0.0116 5.6952979,5.6951695 0 0 1 -0.56861,-0.0283 5.6952979,5.6951695 0 0 1 -0.56289,-0.0852 5.6952979,5.6951695 0 0 1 -0.55158,-0.14091 5.6952979,5.6951695 0 0 1 -0.53485,-0.19523 5.6952979,5.6951695 0 0 1 -0.51246,-0.24786 5.6952979,5.6951695 0 0 1 -0.48545,-0.29742 5.6952979,5.6951695 0 0 1 -0.45308,-0.34453 5.6952979,5.6951695 0 0 1 -0.41669,-0.38807 5.6952979,5.6951695 0 0 1 -0.37563,-0.4277 5.6952979,5.6951695 0 0 1 -0.33122,-0.46305 5.6952979,5.6951695 0 0 1 -0.28324,-0.49379 5.6952979,5.6951695 0 0 1 -0.23251,-0.51975 5.6952979,5.6951695 0 0 1 -0.17968,-0.54015 5.6952979,5.6951695 0 0 1 -0.12443,-0.55542 5.6952979,5.6951695 0 0 1 -0.0685,-0.56525 5.6952979,5.6951695 0 0 1 -0.0116,-0.40279 5.6952979,5.6951695 0 0 1 0.0283,-0.56858 5.6952979,5.6951695 0 0 1 0.0852,-0.56292 5.6952979,5.6951695 0 0 1 0.14091,-0.55153 5.6952979,5.6951695 0 0 1 0.195,-0.53483 5.6952979,5.6951695 0 0 1 0.24783,-0.51248 5.6952979,5.6951695 0 0 1 0.29745,-0.48543 5.6952979,5.6951695 0 0 1 0.34452,-0.45308 5.6952979,5.6951695 0 0 1 0.38807,-0.41667 5.6952979,5.6951695 0 0 1 0.42773,-0.37563 5.6952979,5.6951695 0 0 1 0.46305,-0.33122 5.6952979,5.6951695 0 0 1 0.49379,-0.28321 5.6952979,5.6951695 0 0 1 0.51975,-0.23252 5.6952979,5.6951695 0 0 1 0.54017,-0.17968 5.6952979,5.6951695 0 0 1 0.55545,-0.12489 5.6952979,5.6951695 0 0 1 0.56522,-0.0685 5.6952979,5.6951695 0 0 1 0.40286,-0.0116 z"
+           style="fill:#000000;stroke:none;stroke-width:0.101927" />
+        <g
+           id="g1896">
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.198425;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 724.14878,725.30148 c -1.53128,-3e-5 -2.77263,1.24132 -2.7726,2.7726 -3e-5,1.53128 1.24132,2.77264 2.7726,2.77261 1.53128,3e-5 2.77264,-1.24133 2.77261,-2.77261 3e-5,-1.53128 -1.24133,-2.77263 -2.77261,-2.7726 z"
+             id="path1881"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="sssss" />
+          <path
+             style="fill:#000000;stroke:none;stroke-width:1.431;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+             id="path1889"
+             sodipodi:type="arc"
+             sodipodi:cx="724.1488"
+             sodipodi:cy="735.612"
+             sodipodi:rx="5.6568537"
+             sodipodi:ry="5.435883"
+             sodipodi:start="3.1415927"
+             sodipodi:end="0"
+             sodipodi:open="true"
+             sodipodi:arc-type="arc"
+             d="m 718.49195,735.612 a 5.6568537,5.435883 0 0 1 5.65685,-5.43588 5.6568537,5.435883 0 0 1 5.65686,5.43588" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="653.19574"
+       y="688.06433"
+       id="text1914"><tspan
+         sodipodi:role="line"
+         x="653.19574"
+         y="688.06433"
+         id="tspan1912"
+         style="font-size:16px;line-height:1.25">OBSOLET</tspan></text>
   </g>
 </svg>
