@@ -866,10 +866,6 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
     * Vibro
         * TODO Erschütterung
-    * Kompositpanzerung
-        * TODO vielleicht Robust?
-    * Robust
-        * TODO ist fast das gleiche wie  Kompositpanzerung
 
 #### Für Schadens- und Rüstungsprofile
 
@@ -894,8 +890,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![komposit](Grafiken/Effekt/komposit.png){width=40pt}|Kompositpanzerung|TODO Der Verteidiger darf eine beliebige Anzahl an Würfeln neu werfen, wobei das neue Wurfergebnis genommen werden muss.|
-|![robust](Grafiken/Effekt/robust.png){width=40pt}|Robust|TODO Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![robust](Grafiken/Effekt/robust.png){width=40pt}|Robust|Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
 |![struktur](Grafiken/Effekt/strukturverstärkt.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Verletzungs- und Rüstungswurf
