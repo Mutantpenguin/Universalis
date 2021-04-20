@@ -907,12 +907,16 @@ Sofern er über keine Rüstung verfügt addiert er stattdessen seine KO.
 
 Hierbei müssen auch alle Effekte angewendet werden.
 
-!!! todo
+!!! todo Idee 1
 
     Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
 
     Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Rüstungsprofil vorhanden ist und addiert dessen Stufe.
     Ohne entsprechenden Schadenstyp bekommt er keinen Bonus.
+
+!!! todo Idee 2
+
+    Jede Stufe des Schadenstyps gibt einen weiteren Würfel, das höchste Ergebnis zählt.
 
 Nun wird die folgende Tabelle konsultiert:
 
