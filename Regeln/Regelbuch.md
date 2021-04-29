@@ -1454,7 +1454,7 @@ Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe d
 
 ## Tarnung
 
-Tarnung wird in passive und aktive Tarnung unterschieden, je nachdem was damit möglich ist.
+Tarnung wird in passive und aktive Tarnung unterschieden.
 Weiterhin verfügt sie immer über eine Stufe um die Effektivität der Tarnung auszudrücken.
 
 Sie wird am Modell mit dem Tarnungs-Marker dargestellt:
@@ -1481,7 +1481,7 @@ Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Rund
 
 #### Besondere Vorteile von aktiver Tarnung
 
-Aktiv getarnte Modelle erhalten immer einen Bonus von +1 auf ihren Rüstungswurf, egal ob sie aufgeklärt sind oder nicht.
+Modelle mit aktiver Tarnung erhalten einen Bonus von +1 auf ihren Rüstungswurf wenn sie aufgeklärt sind.
 
 Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 
@@ -1500,14 +1500,14 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 !!! danger Aufklären - 1 ⊙
 
-    Aufklären bezieht sich immer auf ein konkretes getarntes Modell.
+    Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
 
-    Pro Initiativephase darf mit jedem Modell pro getarntem Modell nur einmal für Aufklärung getestet werden.
+    Pro Initiativephase darf mit jedem eigenen Modell pro getarntem gegnerischen Modell nur einmal für Aufklärung getestet werden.
 
     Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
     Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
-    Pro zusätzlich eingesetztem AP kann der Aufklärungstest um 1 erleichtert werden.
+    Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
 
 ### Reaktionen: Tarnung
 
