@@ -1017,7 +1017,7 @@ WK I steht somit für Waffen der Klasse 1.
 Manche Waffen verfügen nicht über einen eigenen Stärkewert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
-### Unhandlich Waffen
+### Unhandliche Waffen
 
 Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
 
