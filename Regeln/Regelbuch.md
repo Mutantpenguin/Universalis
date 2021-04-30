@@ -1272,9 +1272,9 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 Waffen können über den Wert „Autofeuer“ (AF) verfügen der im Bereich 1-4 liegt.
 Jeder Punkt AF wird hierdurch als 1 zusätzlicher Schuss behandelt.
 
-Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei jede Patrone für eine Stufe Autofeuer steht.
+Auf der Einheitenkarte wird dies mit den folgenden Symbolen ausgewiesen, wobei jedes Symbol für eine Stufe Autofeuer steht.
 
-![patrone](Grafiken/Waffe/patrone.png){height="40pt"} {align="center"}
+![autofeuer_1](Grafiken/Waffe/autofeuer_1.png){height="40pt"} ![autofeuer_2](Grafiken/Waffe/autofeuer_2.png){height="40pt"} ![autofeuer_3](Grafiken/Waffe/autofeuer_3.png){height="40pt"} ![autofeuer_4](Grafiken/Waffe/autofeuer_4.png){height="40pt"} {align="center"}
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
 Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf.
