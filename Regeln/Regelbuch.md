@@ -995,16 +995,9 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 ### Wurfwaffen
 
-!!! todo
+Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 4.
 
-    unhandliche Wurfwaffen
-    Nur 1 Band?
-    Oder KO/3 und nicht (KO*2)/4?
-
-!!! TODO umformulieren, liesst sich komisch
-
-Ihre Reichweite wird berechnet, wobei die KO des Modells das Reichweitenband angibt.
-Die Anzahl an Bändern ist dabei immer 4.
+Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei unhandlichen Waffen mit 0,5 (aufgerundet).
 
 !!! example Beispiel
 
