@@ -494,7 +494,7 @@ Der Gewinner führt als Erster seine Aktion/Reaktion durch, der Verlierer danach
 Wenn sich dadurch, bspw. durch einen Treffer, negative Auswirkungen ergeben kommen sie auch sofort zur Anwendung.
 Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 
-!!! todo TODO AGI-Test optional und von der konkreten Reaktion abhängig
+!!! TODO AGI-Test optional und von der konkreten Reaktion abhängig
 
 ### Übersicht Aktionen und Reaktionen
 
@@ -897,16 +897,18 @@ Sofern er über keine Rüstung verfügt addiert er stattdessen seine KO.
 
 Hierbei müssen auch alle Effekte angewendet werden.
 
-!!! todo Idee 1
+!!! TODO Idee 1
 
     Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
 
     Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Rüstungsprofil vorhanden ist und addiert dessen Stufe.
     Ohne entsprechenden Schadenstyp bekommt er keinen Bonus.
 
-!!! todo Idee 2
+!!! TODO Idee 2
 
     Jede Stufe des Schadenstyps gibt einen weiteren Würfel, das höchste Ergebnis zählt.
+
+    Nicht jede Stufe, sondern die Differenz?
 
 Nun wird die folgende Tabelle konsultiert:
 
@@ -1385,10 +1387,6 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
     Es erhält +2 auf seinen NK-Wurf.
-
-!!! warning Komplex: Entwaffnen - WK ⊙
-
-    !!! todo
 
 ### Erlaubte Waffen im Nahkampf
 
