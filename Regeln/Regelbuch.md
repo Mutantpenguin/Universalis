@@ -862,7 +862,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 ### Übersicht der Schadenseffekte
 
-#### Für Schadens- und Rüstungsprofile
+#### Für Waffen und Rüstungen
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
@@ -874,14 +874,14 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 |![panzerbrechend](Grafiken/Effekt/panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![schrapnell](Grafiken/Effekt/schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
 
-#### Nur für Schadensprofile
+#### Nur für Waffen
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
 |![trauma](Grafiken/Effekt/trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
 |![struktur](Grafiken/Effekt/strukturschädigend.png){width=40pt}|Strukturschädigend|Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.|
 
-#### Nur für Rüstungsprofile
+#### Nur für Rüstungen
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
