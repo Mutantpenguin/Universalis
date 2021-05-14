@@ -1502,7 +1502,7 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 ### Reaktionen: Tarnung
 
-!!! warning Komplex: Aufklärungsunterstützung - 2 ⊙
+!!! warning Aufklärungsunterstützung - 2 ⊙
 
     Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
 

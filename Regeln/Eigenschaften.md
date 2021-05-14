@@ -184,9 +184,3 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 !!! fail Pech
 
     Kann pro Runde einmal vom Gegner gezwungen werden einen beliebigen eigenen Würfelwurf neu durchführen.
-
-## Tarnung
-
-!!! check TODO
-
-    Kann die Aktion "Aufklärungsunterstützung" anwenden.
