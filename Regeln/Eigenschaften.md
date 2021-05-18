@@ -46,9 +46,13 @@ TODO
 
     TODO
 
+!!! cite Neutrale Beispieleigenschaft
+
+    TODO
+
 !!! fail Negative Beispieleigenschaft
 
-    asdasd
+    TODO
 
 ### Stufen
 
