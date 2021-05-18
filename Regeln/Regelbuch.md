@@ -885,7 +885,8 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![robust](Grafiken/Effekt/robust.png){width=40pt}|Robust|Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![adaptiv](Grafiken/Effekt/adaptiv.png){width=40pt}|Adaptiv|Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![robust](Grafiken/Effekt/robust.png){width=40pt}|Robust|Der Verteidiger darf den Angreifer zwingen den Schadenswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
 |![struktur](Grafiken/Effekt/strukturverstärkt.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Verletzungs- und Rüstungswurf
