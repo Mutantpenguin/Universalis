@@ -1624,9 +1624,6 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
     Sinkt in sich zusammen und gilt als ausgeschalten.
     Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.
 
-    TODO Für Mechs muss nun ein KO-Wurf durchgeführt werden.
-    Falls er misslingt [detoniert](#detonation) er.
-
 * **Linke/Rechte Seite**
 
     Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
@@ -1639,30 +1636,6 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
     |1-6|Bleibt auf der Stelle stehen und kann sich noch drehen.|
     |7-11|Bleibt auf der Stelle stehen und kann sich **nicht** mehr drehen.|
     |12|Fällt um und gilt als ausgeschalten. Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.|
-
-### Detonation
-
-!!! TODO
-
-    Eine "neutrale" Eigenschaft draus machen?
-    
-    -> Mechanisch
-    
-    Gibt irgendeinen Vorteil (Immun gegen psychologiscge Effekte), kann aber detonieren.
-
-Sobald eine Mech detoniert entsteht automatisch an diesem Ort eine Explosion welche eine Fläche mit einem Radius in Höhe der KO umfasst.
-
-Der Schadenstyp ist dabei immer Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
-Der Schaden liegt bei KO geteilt durch 2 (abgerundet).
-Zusätzlich wirkt der Schadenseffekt „Explosiv“.
-
-Nach der Detonation wird das Modell vom Spielfeld entfernt.
-
-!!! example Beispiel
-
-    Für einen Mech mit einer KO von 6.
-
-    ![detonation](Grafiken/Abbildungen/detonation.png){width="500pt"}
 
 ## Drohnen
 
