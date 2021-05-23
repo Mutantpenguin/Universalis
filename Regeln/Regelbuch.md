@@ -1533,6 +1533,12 @@ Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
 
 ### Attributsverbesserungen
 
+TODO Auch bei Rüstungen und Waffen. Rüstungen können das jetzt schon.
+
+TODO BW kann verändert werden, ist aber kein Attribut -> Wortwahl
+
+TODO Ausrüstung muss auch den Rüstungsschutz modifizieren können?
+
 Diese können permanent oder temporär sein:
 
 * #### Permanent
