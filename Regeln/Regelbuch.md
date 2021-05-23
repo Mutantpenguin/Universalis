@@ -51,7 +51,7 @@ TODO
 
 ![spielfeld](Grafiken/Abbildungen/spielfeld.svg){width="300pt"} {align="center"}
 
-* Ausreichend [Geländeteile](#geländeteil) um die Fläche gut zu füllen.
+* Ausreichend [Geländeteile](#geländeteile) um die Fläche gut zu füllen.
 
 * Ein Maßband mit Markierungen in Zentimetern.
 
@@ -384,7 +384,7 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
 ### Aufbau des Spielfeldes
 
-Beide Spieler bauen gemeinsam das Spielfeld mit [Geländeteilen](#geländeteil) auf bis sie damit einverstanden sind.
+Beide Spieler bauen gemeinsam das Spielfeld mit [Geländeteilen](#geländeteile) auf bis sie damit einverstanden sind.
 
 Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
 
@@ -669,17 +669,25 @@ Geländearten
 
 Boni und Mali
 
-### Geländeteil
+### Geländeteile
 
 Alle Objekte auf dem Spielfeld die kein Modell sind werden als Geländeteil bezeichnet.
 
-Ein Geländeteil kann dabei für sich allein stehen, oder fällt unter einen der weiter unten genannten [Geländetypen](#geländetyp).
+Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
+
+So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
+Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
+
+Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet.
+Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
+
+Geländeteile gehören in der Regel einem der weiter unten genannten [Geländetypen](#geländetypen) an.
 
 ### Deckung
 
-Jedes Geländeteil kann als Deckung verwendet werden wenn es das [Größenprofil](#größenprofil) eines Modell mindestens zur Hälfte verdeckt.
+Jedes Geländeteil kann als Deckung verwendet werden wenn es das [Größenprofil](#größenprofil) eines Modells mindestens zur Hälfte verdeckt.
 
-Deckung kommt nur im Fernkampf zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet.
+Deckung kommt nur im Fernkampf zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet bzw. wenn beide sich innerhalb eines Geländeteils mit Deckung befinden.
 
 Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
@@ -717,17 +725,7 @@ TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
 
 TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
-### Geländetyp
-
-Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche Sonderregeln unterliegen.
-
-So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
-Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
-
-Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet.
-Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
-
-Die angegebene Deckung gilt in der Regel auch wenn sich ein Modell "hinter" einem Geländetyp befindet.
+### Geländetypen
 
 !!! summary Dickicht
 
@@ -1464,8 +1462,8 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 |Typ|Voraussetzung|
 |:--:|--|
-|passiv|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem [Geländeteil](#geländeteil) (welches mindestens über die gleichen Ausmaße wie das [Größenprofil](#größenprofil) des Modell verfügt) befindet.|
-|aktiv|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem [Geländeteil](#geländeteil) befinden oder nicht.|
+|passiv|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem [Geländeteil](#geländeteile) (welches mindestens über die gleichen Ausmaße wie das [Größenprofil](#größenprofil) des Modell verfügt) befindet.|
+|aktiv|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem [Geländeteil](#geländeteile) befinden oder nicht.|
 
 ### Vorteile von Tarnung
 
