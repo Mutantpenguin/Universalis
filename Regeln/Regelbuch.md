@@ -1259,11 +1259,11 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 * #### Liegender Schütze
 
-  Liegende Schützen erhalten +1 auf den FK-Wurf.
+  Liegende Schützen erhalten +2 auf den FK-Wurf.
 
 * #### Schnelle Bewegungen des Ziels
 
-  Auf Ziele, welche sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -1 auf den FK-Wurf.
+  Auf Ziele, welche sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -2 auf den FK-Wurf.
 
 ### Autofeuer
 
