@@ -688,6 +688,8 @@ Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
   Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
+  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe bei Fernkampf.
+
 * #### Stufe II Deckung
 
   Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
@@ -1248,8 +1250,8 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
   | Stufe | Modifikator |
   | :---: | :---------: |
-  |   I   |     -1      |
-  |  II   |     -2      |
+  |   I   |     -2      |
+  |  II   |     -4      |
 
 * #### Unhandliche Waffen im Fernkampf
 
@@ -1307,7 +1309,7 @@ Der Trefferpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das er
 Wenn die Trefferschablone die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
 Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgerundet).
 
-Wenn das getroffene Modell Deckung der Stufe II berührt, kommt diese voll zur Geltung.
+Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
 
 ## Nahkampf
 
@@ -1582,7 +1584,7 @@ Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe de
 
 ### Geländeausnutzung
 
-Durch ihre enorme Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
+Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
 
 Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
 
