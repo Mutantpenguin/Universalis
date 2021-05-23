@@ -1713,3 +1713,17 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 !!! TODO
 
     PSI und Magie ist alles Thaumaturgie
+
+!!! TODO Kräfte
+
+    * Für jede Kraft gibt es eine "Karte"
+    * Beziehen sich immer auf ein Attribut
+    * Haben AP
+    * Haben Kosten
+    * Gehören einer "Schule" an
+      * Farbe je "Schule" definieren
+      * Optionales Icon je "Schule"
+      * Icon im Kopf der "Karte" ausgeben
+      * Kopf der "Karte" einfärben
+      * Schriftfarbe automatisch wählen
+        * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
