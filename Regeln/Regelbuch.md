@@ -679,6 +679,8 @@ Ein Geländeteil kann dabei für sich allein stehen, oder fällt unter einen der
 
 Jedes Geländeteil kann als Deckung verwendet werden wenn es das [Größenprofil](#größenprofil) eines Modell mindestens zur Hälfte verdeckt.
 
+Deckung kommt nur im Fernkampf zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet.
+
 Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
 * #### Stufe I Deckung
@@ -688,13 +690,13 @@ Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
 
   Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe bei Fernkampf.
+  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe.
 
 * #### Stufe II Deckung
 
   Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
 
-  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe bei Fernkampf.
+  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe.
 
 ### Passierbarkeit
 
@@ -1226,10 +1228,11 @@ Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 Er muss sich aber im [Sichtfeld](#sichtfeld) befinden.
 
-Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -4.
-Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -2 angewendet.
+Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
+Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
+Weitere Mali durch Deckung kommen nicht zur Geltung.
 
-Dadurch getroffene Modelle werden immer so behandelt als ob sie sich in Deckung Stufe II befinden.
+Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in Deckung Stufe II befinden.
 
 Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
 
@@ -1250,8 +1253,8 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
   | Stufe | Modifikator |
   | :---: | :---------: |
-  |   I   |     -2      |
-  |  II   |     -4      |
+  |   I   |     -1      |
+  |  II   |     -3      |
 
 * #### Unhandliche Waffen im Fernkampf
 
