@@ -1101,9 +1101,7 @@ Das Gewicht von selbsttragenden Rüstungen wird für die [Tragkraft](#tragkraft)
 
 Unter Schilden versteht man alle Arten von „Platten“ die zur Abwehr von Schaden getragen werden.
 
-Schilde geben dem Träger +1W12 beim Rüstungswurf im Nahkampf und gegen jeden Beschuss der das Modell aus einem 180° Bereich von vorne trifft.
-
-!!! TODO Stattdessen Rüstungswurf wiederholen?
+Schilde geben dem Träger einen Bonus beim Rüstungswurf im Nahkampf und gegen jeden Beschuss der das Modell aus einem 180° Bereich von Vorne trifft.
 
 !!! TODO Modell hat nur noch eine Hand frei?
 
