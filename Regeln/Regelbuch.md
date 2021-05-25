@@ -1712,13 +1712,13 @@ Sobald eine Drohne als ausgeschalten gilt kommt es zu einer Rückkopplung auf de
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
-## Thaumaturgie
+## Kräfte
 
 !!! TODO
 
-    PSI und Magie ist alles Thaumaturgie
+    PSI, Magie und Thaumaturgie wird alles als "Kräfte" bezeichnet
 
-!!! TODO Kräfte
+!!! TODO Kräfte ausarbeiten
 
     * Für jede Kraft gibt es eine "Karte"
     * Beziehen sich immer auf ein Attribut
