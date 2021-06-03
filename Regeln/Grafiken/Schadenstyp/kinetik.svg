@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg3079"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="kinetik.svg">
+  <defs
+     id="defs3073" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="63.843767"
+     inkscape:cy="40.108821"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3076">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(260.95535,194.43154)">
+    <g
+       id="g3132"
+       transform="matrix(0.26458333,0,0,0.26458333,-368.12256,-205.04025)"
+       inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\typ_kinetik.png"
+       inkscape:export-xdpi="381"
+       inkscape:export-ydpi="381">
+      <rect
+         y="40.095901"
+         x="405.04141"
+         height="35.433071"
+         width="35.433071"
+         id="rect3130"
+         style="fill:none" />
+      <g
+         inkscape:export-ydpi="298.91568"
+         inkscape:export-xdpi="298.91568"
+         inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Schadenssymbole/kinetikpng.png"
+         style="fill:none;stroke-width:4.94596;stroke-miterlimit:4;stroke-dasharray:none"
+         id="g4147"
+         transform="matrix(0.19354138,0.11174117,-0.11174117,0.19354138,491.76769,-38.693004)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.94596;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -47.95224,444.35477 c -13.04102,0 -24.1923,30.00733 -24.1923,50.50927 h 48.3846 c 0,-20.42089 -11.15128,-50.50927 -24.1923,-50.50927 z"
+           id="path4149"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zccz" />
+        <path
+           sodipodi:nodetypes="cscccc"
+           inkscape:connector-curvature="0"
+           id="path4151"
+           d="m -23.75994,494.60651 c 0,-2.15489 -10.82477,-3.89524 -24.1923,-3.89524 -13.36752,0 -24.2084,1.74035 -24.2084,3.89524 0.0398,18.28498 0.0161,76.73302 0.0161,95.01807 h 48.38461 c 0,-18.28507 0,-76.733 -10e-6,-95.01807 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.94596;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.94596;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m -23.75994,587.12366 c 0,-2.15489 -10.82477,-3.89524 -24.1923,-3.89524 -13.36752,0 -24.2084,1.74035 -24.2084,3.89524 0.0398,18.28498 0.0161,-10.52217 0.0161,7.76287 h 48.38461 c 0,-18.28506 0,10.52219 0,-7.76287 z"
+           id="path4153"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cscccc" />
+        <ellipse
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.44497;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path4155"
+           transform="matrix(0.53246171,0,0,0.51500572,-120.03248,405.77493)"
+           cx="135.36044"
+           cy="367.81265"
+           rx="45.456863"
+           ry="7.5761442" />
+      </g>
+    </g>
+  </g>
+</svg>

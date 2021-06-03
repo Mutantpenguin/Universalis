@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg9846"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="explosiv.svg">
+  <defs
+     id="defs9840" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="3.4308228"
+     inkscape:cy="46.287967"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9843">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-104.92559,-135.91964)">
+    <g
+       id="g3164"
+       transform="matrix(0.26458333,0,0,0.26458333,68.613402,78.019515)"
+       inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_explosiv.png"
+       inkscape:export-xdpi="381"
+       inkscape:export-ydpi="381">
+      <rect
+         y="218.83513"
+         x="137.24294"
+         height="35.433071"
+         width="35.433071"
+         id="rect3162"
+         style="fill:none" />
+      <path
+         inkscape:export-ydpi="299.93106"
+         inkscape:export-xdpi="299.93106"
+         inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Schadenssymbole/explosiv.png"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3928"
+         d="m 147.02366,252.02651 -7.93582,-11.60613 7.24144,4.56311 -3.86871,-12.69731 5.05908,5.65426 -1.88476,-17.95478 7.43982,16.46682 0.69439,-8.63019 1.78555,7.14222 1.48798,-14.18526 1.98395,14.38366 4.86068,-8.72938 -2.57913,11.8045 9.32457,-8.4318 -4.95988,13.68929 4.26549,-0.89278 -3.8687,6.44784 4.76149,2.38075 -9.12618,0.0992 1.78556,-3.47192 -2.77753,0.69437 1.88475,-7.24142 -4.26549,4.1663 -1.19038,-6.54704 -2.57915,5.65426 -3.47191,-5.15827 -0.59518,2.67834 -2.28157,-0.79359 2.38075,7.43982 -1.98395,-0.49598 1.68636,4.66229 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+</svg>

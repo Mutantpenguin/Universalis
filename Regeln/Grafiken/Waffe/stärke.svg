@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg5532"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="stärke.svg">
+  <defs
+     id="defs5526" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="217.71654"
+     inkscape:cy="6.2879723"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5529">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.229167,-146.50297)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,19.007705,109.7915)"
+       id="g7386"
+       inkscape:export-xdpi="381"
+       inkscape:export-ydpi="381"
+       inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\waffen_rüstungen\potential_damage_white.png">
+      <rect
+         y="138.75203"
+         x="110.44332"
+         height="35.433071"
+         width="35.433071"
+         id="rect7384"
+         style="fill:none" />
+      <path
+         transform="matrix(1.1020857,0.23440602,-0.23440602,1.1020857,131.83995,-68.737912)"
+         inkscape:transform-center-y="-1.0345173"
+         inkscape:transform-center-x="1.5502266"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="0.70681145"
+         sodipodi:arg1="0.52807446"
+         sodipodi:r2="14.994771"
+         sodipodi:r1="8.6827774"
+         sodipodi:cy="196.1122"
+         sodipodi:cx="38.214287"
+         sodipodi:sides="8"
+         id="path7369"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.087;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:type="star"
+         d="m 45.714287,200.4872 3.90257,5.36279 -9.192862,-1.3409 -1.032531,6.5516 -5.552177,-7.44849 -5.36279,3.90257 1.340897,-9.19286 -6.551599,-1.03253 7.448492,-5.55218 -3.90257,-5.36279 9.192861,1.34089 1.032532,-6.55159 5.552177,7.44849 5.36279,-3.90257 -1.340897,9.19286 6.551599,1.03253 z" />
+    </g>
+  </g>
+</svg>

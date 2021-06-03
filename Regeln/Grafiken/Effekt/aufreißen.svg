@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg8043"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="aufreißen.svg">
+  <defs
+     id="defs8037" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-13.468684"
+     inkscape:cy="8.1560318"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8040">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(365.27678,194.43154)">
+    <g
+       id="g1718"
+       transform="matrix(0.26458333,0,0,0.26458333,-445.32503,-251.41972)"
+       inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_zerreißen.png"
+       inkscape:export-xdpi="406.39999"
+       inkscape:export-ydpi="406.39999">
+      <rect
+         y="215.38838"
+         x="302.54456"
+         height="35.433071"
+         width="35.433071"
+         id="rect1701"
+         style="fill:none" />
+      <path
+         id="path1705"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3847;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 307.91797,217.73438 v 20.99023 c 2e-5,5.24349 12.34375,9.75195 12.34375,9.75195 0,0 12.34181,-4.50844 12.3418,-9.75195 v -20.99023 h -3.65235 l -2.66211,2.32421 1.57227,3.61914 -4.26953,2.5586 0.93554,3.17383 -4.0039,1.52539 0.54687,3.26562 -2.55078,1.81641 0.36133,2.19336 -4.57227,4.37109 3.30274,-4.56836 -0.6543,-2.62695 1.73047,-2.41602 -0.11523,-3.11132 2.4707,-2.33594 -1.45899,-1.85938 3.38868,-3.13672 -2.16993,-3.33203 2.26563,-1.46093 z" />
+    </g>
+  </g>
+</svg>

@@ -301,7 +301,7 @@ Der Radius in Zentimetern berechnet sich indem die Entschlossenheit von 12 abgez
 
 Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
 
-![gefahrenbereich](Grafiken/Modell/gefahrenbereich.png){width="40pt"} {align="center"}
+![gefahrenbereich](Grafiken/Modell/gefahrenbereich.svg){width="40pt"} {align="center"}
 
 #### Direkte Bedrohung
 
@@ -329,7 +329,7 @@ Im [Kritischen Zustand](#kritischer-zustand) wird die Reichweite des Wahrnehmung
 
 Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
 
-![wahrnehmungsbereich](Grafiken/Modell/wahrnehmungsbereich.png){width="40pt"} {align="center"}
+![wahrnehmungsbereich](Grafiken/Modell/wahrnehmungsbereich.svg){width="40pt"} {align="center"}
 
 ### Entfernungen messen
 
@@ -821,10 +821,10 @@ Es gibt die folgenden Typen:
 
 |Symbol|Name|Bedeutung|
 |--|--|--|
-|![kinetisch](Grafiken/Schadenstyp/typ_kinetik.png){width=40pt}|Kinetik|Alles das irgendwie als Projektil bezeichnet werden kann.|
-|![schlag](Grafiken/Schadenstyp/typ_schlag.png){width=40pt}|Schlag|Jede stumpfe Gewalteinwirkung.|
-|![schnitt](Grafiken/Schadenstyp/typ_schnitt.png){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
-|![strahl](Grafiken/Schadenstyp/typ_strahl.png){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
+|![kinetisch](Grafiken/Schadenstyp/kinetik.svg){width=40pt}|Kinetik|Alles das irgendwie als Projektil bezeichnet werden kann.|
+|![schlag](Grafiken/Schadenstyp/schlag.svg){width=40pt}|Schlag|Jede stumpfe Gewalteinwirkung.|
+|![schnitt](Grafiken/Schadenstyp/schnitt.svg){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
+|![strahl](Grafiken/Schadenstyp/strahl.svg){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
 
 ### Stufen der Schadenstypen
 
@@ -845,9 +845,9 @@ Sie werden mit den folgenden Symbolen ausgewiesen:
 
 |Symbol|Name|Bedeutung|
 |:--:|--|--|
-|![stärke](Grafiken/Waffe/stärke.png){width="40pt"}|Stärke|erhöht die Chance beim [Verletzungswurf](#verletzungs--und-rüstungswurf)|
-|![schaden](Grafiken/Waffe/schaden.png){width="40pt"}|Schaden|zugefügter Verlust an Trefferpunkten|
-|![schutz](Grafiken/Rüstung/schutz.png){width="40pt"}|Schutz|erhöht die Chance beim [Rüstungswurf](#verletzungs--und-rüstungswurf)|
+|![stärke](Grafiken/Waffe/stärke.svg){width="40pt"}|Stärke|erhöht die Chance beim [Verletzungswurf](#verletzungs--und-rüstungswurf)|
+|![schaden](Grafiken/Waffe/schaden.svg){width="40pt"}|Schaden|zugefügter Verlust an Trefferpunkten|
+|![schutz](Grafiken/Rüstung/schutz.svg){width="40pt"}|Schutz|erhöht die Chance beim [Rüstungswurf](#verletzungs--und-rüstungswurf)|
 
 ### Schadenseffekte
 
@@ -868,28 +868,28 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![aufreißen](Grafiken/Effekt/aufreißen.png){width=40pt}|Aufreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
-|![brand](Grafiken/Effekt/brand.png){width=40pt}|Brand|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
-|![erschütterung](Grafiken/Effekt/erschütterung.png){width=40pt}|Erschütterung| Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
-|![explosiv](Grafiken/Effekt/explosiv.png){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
-|![giftig](Grafiken/Effekt/giftig.png){width=40pt}|Giftig|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung).|
-|![panzerbrechend](Grafiken/Effekt/panzerbrechend.png){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
-|![schrapnell](Grafiken/Effekt/schrapnell.png){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
+|![aufreißen](Grafiken/Effekt/aufreißen.svg){width=40pt}|Aufreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
+|![brand](Grafiken/Effekt/brand.svg){width=40pt}|Brand|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
+|![erschütterung](Grafiken/Effekt/erschütterung.svg){width=40pt}|Erschütterung| Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
+|![explosiv](Grafiken/Effekt/explosiv.svg){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
+|![giftig](Grafiken/Effekt/giftig.svg){width=40pt}|Giftig|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung).|
+|![panzerbrechend](Grafiken/Effekt/panzerbrechend.svg){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
+|![schrapnell](Grafiken/Effekt/schrapnell.svg){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
 
 #### Nur für Waffen
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![trauma](Grafiken/Effekt/trauma.png){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
-|![struktur](Grafiken/Effekt/strukturschädigend.png){width=40pt}|Strukturschädigend|Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.|
+|![trauma](Grafiken/Effekt/trauma.svg){width=40pt}|Trauma|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.|
+|![struktur](Grafiken/Effekt/strukturschädigend.svg){width=40pt}|Strukturschädigend|Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.|
 
 #### Nur für Rüstungen
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![adaptiv](Grafiken/Effekt/adaptiv.png){width=40pt}|Adaptiv|Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
-|![robust](Grafiken/Effekt/robust.png){width=40pt}|Robust|Der Verteidiger darf den Angreifer zwingen den Schadenswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
-|![struktur](Grafiken/Effekt/strukturverstärkt.png){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.|
+|![adaptiv](Grafiken/Effekt/adaptiv.svg){width=40pt}|Adaptiv|Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.|
+|![robust](Grafiken/Effekt/robust.svg){width=40pt}|Robust|Der Verteidiger darf den Angreifer zwingen den Schadenswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
+|![struktur](Grafiken/Effekt/strukturverstärkt.svg){width=40pt}|Strukturverstärkt|Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.|
 
 ### Verletzungs- und Rüstungswurf
 
@@ -1043,7 +1043,7 @@ Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen
 
 Waffen die nachladen müssen besitzen das folgende Symbol bzw. Marker.
 
-![nachladen](Grafiken/Waffe/nachladen.png){width="40pt"} ![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"} {align="center"}
+![nachladen](Grafiken/Waffe/nachladen.svg){width="40pt"} ![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"} {align="center"}
 
 ### Einmalnutzung von Waffen
 
@@ -1202,7 +1202,7 @@ X gibt dabei an, wie groß die Reichweitenbänder sind, Y wie oft diese anwendba
 
 Auf der Einheitenkarte wird dies unter folgendem Symbol ausgewiesen:
 
-![reichweite](Grafiken/Waffe/reichweite.png){width="40pt"} {align="center"}
+![reichweite](Grafiken/Waffe/reichweite.svg){width="40pt"} {align="center"}
 
 Pro vollständig ausgenutztem Reichweitenband erhält ein schießendes Modell einen Malus von -1 auf seinen FK-Wurf.
 
@@ -1232,7 +1232,7 @@ Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob
 
 Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
 
-![indirekt](Grafiken/Waffe/indirekt.png){width="40pt"} {align="center"}
+![indirekt](Grafiken/Waffe/indirekt.svg){width="40pt"} {align="center"}
 
 ### Modifikatoren im Fernkampf
 

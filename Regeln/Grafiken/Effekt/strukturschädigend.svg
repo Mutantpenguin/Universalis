@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg4321"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="strukturschädigend.svg">
+  <defs
+     id="defs4315">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern7057"
+       id="pattern1701"
+       patternTransform="matrix(1.3812296,-1.3812004,5.4618727,5.4617573,752.36972,261.19096)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1"
+       id="pattern7057"
+       patternTransform="matrix(1.3812296,-1.3812004,5.4618727,5.4617573,643.44963,422.39596)" />
+    <pattern
+       inkscape:isstock="true"
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect5363"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="14.859392"
+     inkscape:cy="57.716536"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4318">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-101.90179,-132.89583)">
+    <g
+       id="g2669"
+       transform="matrix(0.26458333,0,0,0.26458333,-90.487373,58.790821)"
+       inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Effekt/effekt_strukturschädigend.png"
+       inkscape:export-xdpi="406.39999"
+       inkscape:export-ydpi="406.39999">
+      <rect
+         y="280.08194"
+         x="727.14014"
+         height="35.433071"
+         width="35.433071"
+         id="rect1683"
+         style="fill:none" />
+      <path
+         id="path1685"
+         style="fill:url(#pattern1701);fill-opacity:1;stroke:#000000;stroke-width:1.057;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 729.94164,282.98988 v 7.92383 h 9.32617 v 4.55469 l 4.83984,-1.96875 2.9336,3.68359 3.40625,-1.98242 v -4.28711 h 9.32421 v -7.92383 z m 13.00586,17.14258 -3.67969,1.14063 v 3.4082 h -9.32617 v 7.92578 h 29.83007 v -7.92578 h -9.32421 v -3.14844 l -3.30274,1.62891 z" />
+      <rect
+         style="fill:none"
+         id="rect1687"
+         width="35.433071"
+         height="35.433071"
+         x="727.14014"
+         y="280.08194" />
+    </g>
+  </g>
+</svg>

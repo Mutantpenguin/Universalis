@@ -12,7 +12,7 @@
    height="297mm"
    id="svg2"
    version="1.1"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
    sodipodi:docname="Symbole.svg"
    inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\typ_level_iii.png"
    inkscape:export-xdpi="381"
@@ -524,12 +524,12 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.0000001"
      inkscape:cx="468.30672"
-     inkscape:cy="351.27166"
+     inkscape:cy="791.27162"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -1988,7 +1988,7 @@
       </g>
     </g>
     <g
-       transform="translate(-15.025047,382.13609)"
+       transform="translate(-16.118362,382.13609)"
        id="g7386"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
@@ -2381,7 +2381,7 @@
     </g>
     <g
        id="g4775"
-       transform="translate(240.8332,534.39703)"
+       transform="translate(-10.16684,34.024629)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2728,7 +2728,7 @@
     </g>
     <g
        id="g5551"
-       transform="translate(-311.39081,13.514723)"
+       transform="translate(-313.57744,13.514723)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2919,7 +2919,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.14173228,0,0,0.14173228,223.489,515.24695)"
+       transform="matrix(0.14173228,0,0,0.14173228,219.11575,515.24695)"
        id="g4177"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -2971,7 +2971,7 @@
     </g>
     <g
        id="g4764"
-       transform="translate(5.1822815,-150.99999)"
+       transform="translate(-0.28430176,-150.99999)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -3008,7 +3008,7 @@
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\waffen_rüstungen\potential_defence.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
-       transform="translate(-195.16452,80)">
+       transform="translate(-201.72443,80)">
       <rect
          y="441.37982"
          x="531.18262"
@@ -3092,7 +3092,7 @@
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Modell\schock.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999"
-       transform="translate(-183.84772,288.12346)">
+       transform="translate(-192.59427,288.12346)">
       <rect
          y="233.25636"
          x="616.35046"
@@ -4999,7 +4999,7 @@
     </g>
     <g
        id="g2363"
-       transform="translate(-447.33246,242.55188)"
+       transform="translate(-454.98568,242.55188)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Waffe/nachladen.png"
        inkscape:export-xdpi="403.60999"
        inkscape:export-ydpi="403.60999">
@@ -5511,7 +5511,7 @@
        transform="translate(-198.59449,-68.25199)" />
     <g
        id="g2298"
-       transform="translate(-144.98526,-98.570354)"
+       transform="translate(-148.2652,-98.570354)"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\UniversalisSoftware\CardPainter\Resources\g2298.png"
        inkscape:export-xdpi="406"
        inkscape:export-ydpi="406">
