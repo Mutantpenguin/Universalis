@@ -523,8 +523,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0000001"
-     inkscape:cx="468.30672"
-     inkscape:cy="791.27162"
+     inkscape:cx="319.18158"
+     inkscape:cy="716.21615"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -5677,6 +5677,83 @@
              d="m 927.19583,580.14213 7.625,13.75 h -15.25 z"
              sodipodi:nodetypes="cccc" />
         </g>
+      </g>
+    </g>
+    <g
+       id="g1952"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\UniversalisSoftware\MasterData\Resources\damage_effects.png"
+       inkscape:export-xdpi="267.32001"
+       inkscape:export-ydpi="267.32001">
+      <rect
+         y="951.05945"
+         x="365.4816"
+         height="53.433071"
+         width="91.933067"
+         id="rect1917"
+         style="fill:none;stroke-width:1.97802" />
+      <g
+         id="g1915"
+         transform="translate(-521.34369,828.80084)">
+        <g
+           id="g1905"
+           transform="translate(-1.8016798,2.1076076)">
+          <g
+             transform="translate(778.66958,-9.6010275)"
+             id="g1828"
+             inkscape:export-xdpi="381"
+             inkscape:export-ydpi="381"
+             inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\waffen_rüstungen\potential_damage_white.png">
+            <rect
+               y="138.75203"
+               x="110.44332"
+               height="35.433071"
+               width="35.433071"
+               id="rect1824"
+               style="fill:none" />
+            <path
+               transform="matrix(1.1020857,0.23440602,-0.23440602,1.1020857,131.83995,-68.737912)"
+               inkscape:transform-center-y="-1.0345173"
+               inkscape:transform-center-x="1.5502266"
+               inkscape:randomized="0"
+               inkscape:rounded="0"
+               inkscape:flatsided="false"
+               sodipodi:arg2="0.70681145"
+               sodipodi:arg1="0.52807446"
+               sodipodi:r2="14.994771"
+               sodipodi:r1="8.6827774"
+               sodipodi:cy="196.1122"
+               sodipodi:cx="38.214287"
+               sodipodi:sides="8"
+               id="path1826"
+               style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.087;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               sodipodi:type="star"
+               d="m 45.714287,200.4872 3.90257,5.36279 -9.192862,-1.3409 -1.032531,6.5516 -5.552177,-7.44849 -5.36279,3.90257 1.340897,-9.19286 -6.551599,-1.03253 7.448492,-5.55218 -3.90257,-5.36279 9.192861,1.34089 1.032532,-6.55159 5.552177,7.44849 5.36279,-3.90257 -1.340897,9.19286 6.551599,1.03253 z" />
+          </g>
+          <g
+             id="g1835"
+             inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\waffen_rüstungen\potential_defence.png"
+             inkscape:export-xdpi="381"
+             inkscape:export-ydpi="381"
+             transform="translate(413.45841,-312.22882)">
+            <rect
+               y="441.37982"
+               x="531.18262"
+               height="35.433071"
+               width="35.433071"
+               id="rect1830"
+               style="fill:none" />
+            <path
+               style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3847;stroke-miterlimit:4;stroke-opacity:1"
+               d="m 561.24153,443.72526 -24.68473,-6e-5 v 20.99032 c 2e-5,5.24349 12.34237,9.75198 12.34237,9.75198 0,0 12.34237,-4.50847 12.34236,-9.75198 z"
+               id="path1833"
+               inkscape:connector-curvature="0"
+               sodipodi:nodetypes="cccccc" />
+          </g>
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.90389;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 940.65334,127.31325 924.9303,170.63704"
+           id="path1897" />
       </g>
     </g>
   </g>
