@@ -1722,8 +1722,10 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
     * Für jede Kraft gibt es eine "Karte"
     * Beziehen sich immer auf ein Attribut
-    * Haben AP
-    * Haben Kosten
+    * Besitzen eine Schwierigkeit
+    * Haben AP-Kosten
+    * TP-Verlust bei Misslingen
+    * Grundsätzlicher TP-Verlust?
     * Gehören einer "Schule" an
       * Farbe je "Schule" definieren
       * Optionales Icon je "Schule"
