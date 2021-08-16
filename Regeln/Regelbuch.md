@@ -992,7 +992,7 @@ Waffen verfügen über ein [Schadensprofil](#schadensprofil).
 
 ### Fernkampfwaffen
 
-Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines [Reichweitenbandes](#reichweite) und einer Angabe für eventuelles [Autofeuer](#autofeuer).
+Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines [Reichweitenbandes](#reichweite) und einer Angabe für eventuelles [Dauerfeuer](#dauerfeuer).
 
 ### Nahkampfwaffen
 
@@ -1153,7 +1153,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
     Das Modell führt einen Fernkampf durch und erhält +1 auf seinen FK-Wurf.
     Die Reichweitenbänder werden hierbei verdoppelt.
     
-    Er ist nicht in Kombination mit Autofeuer einsetzbar.
+    Er ist nicht in Kombination mit Dauerfeuer einsetzbar.
 
 !!! danger Komplex: Schnellschuss - WK ⊙
 
@@ -1264,14 +1264,14 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
   Auf Ziele, welche sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -2 auf den FK-Wurf.
 
-### Autofeuer
+### Dauerfeuer
 
-Waffen können über den Wert „Autofeuer“ (AF) verfügen der im Bereich 1-4 liegt.
-Jeder Punkt AF wird hierdurch als 1 zusätzlicher Schuss behandelt.
+Waffen können über den Wert „Dauerfeuer“ (DF) verfügen der im Bereich 1-4 liegt.
+Jeder Punkt DF wird hierdurch als 1 zusätzlicher Schuss behandelt.
 
-Auf der Einheitenkarte wird dies mit den folgenden Symbolen ausgewiesen, wobei jedes Symbol für eine Stufe Autofeuer steht.
+Auf der Einheitenkarte wird dies mit den folgenden Symbolen ausgewiesen, wobei jedes Symbol für eine Stufe Dauerfeuer steht.
 
-![autofeuer_1](Grafiken/Waffe/autofeuer_1.png){height="40pt"} ![autofeuer_2](Grafiken/Waffe/autofeuer_2.png){height="40pt"} ![autofeuer_3](Grafiken/Waffe/autofeuer_3.png){height="40pt"} ![autofeuer_4](Grafiken/Waffe/autofeuer_4.png){height="40pt"} {align="center"}
+![dauerfeuer_1](Grafiken/Waffe/dauerfeuer_1.png){height="40pt"} ![dauerfeuer_2](Grafiken/Waffe/dauerfeuer_2.png){height="40pt"} ![dauerfeuer_3](Grafiken/Waffe/dauerfeuer_3.png){height="40pt"} ![dauerfeuer_4](Grafiken/Waffe/dauerfeuer_4.png){height="40pt"} {align="center"}
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
 Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf.
@@ -1281,7 +1281,7 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 
 !!! example Beispiel
 
-    Eine Maschinenpistole hat AF 3 und wird von einem Modell mit FK 5 abgefeuert.
+    Eine Maschinenpistole hat DF 3 und wird von einem Modell mit FK 5 abgefeuert.
 
     Entweder
     - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
