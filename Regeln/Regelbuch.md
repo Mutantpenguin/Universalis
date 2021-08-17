@@ -225,6 +225,16 @@ Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
 
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache Attribute hinausgeht.
 
+### Aktionen: Eigenschaften
+
+!!! danger Eigenschaft anwenden - X ⊙
+
+    Das Modell wendet eine Eigenschaft an.
+    
+    Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
+
+### Regeln
+
 Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
 Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
 
