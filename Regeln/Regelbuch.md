@@ -1549,11 +1549,9 @@ Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe 
 Jede Ausrüstung kann Regeln beinhalten.
 Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
 
-### Attributsverbesserungen
+### Profilmodifikatoren
 
-TODO Auch bei Rüstungen und Waffen. Rüstungen können das jetzt schon.
-
-TODO BW kann verändert werden, ist aber kein Attribut -> Wortwahl
+TODO Auch bei Rüstungen, Waffen und Eigenschaften. Rüstungen können das jetzt schon.
 
 TODO Ausrüstung muss auch den Rüstungsschutz modifizieren können?
 
@@ -1561,12 +1559,12 @@ Diese können permanent oder temporär sein:
 
 * #### Permanent
 
-  Manche Ausrüstung bringt permanente Attributsverbesserungen mit sich.
-  Diese werden auf der Einheitenkarte direkt in die Attribute mit eingerechnet.
+  Manche Ausrüstung bringt permanente Profilmodifikatoren mit sich.
+  Diese werden auf der Einheitenkarte direkt in das Profil mit eingerechnet.
 
 * #### Temporär
 
-  Temporäre Attributsverbesserungen sind auf der Einheitenkarte nicht in den Attributen mit eingerechnet.
+  Temporäre Profilmodifikatoren sind auf der Einheitenkarte nicht im Profil mit eingerechnet.
   Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 ### AP-Kosten
