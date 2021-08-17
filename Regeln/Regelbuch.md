@@ -221,22 +221,42 @@ Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
 
 *Übersicht der 4 verschiedenen Sichtfelder (der Pfeil stellt die Blickrichtung des Modells dar)* {align="center"}
 
-### Eigenschaften
+## Eigenschaften
 
-Eigenschaften beschreiben alles Erlernte oder Angeborene das über einfache Attribute hinausgeht.
-
-#### Aufbau einer Eigenschaft
+Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache Attribute hinausgeht.
 
 Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
 Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
 
 Was die Eigenschaft für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
 
+Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur von der höchsten Stufe.
+
 !!! example Beispiel
 
     Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
     
     In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
+
+### Einmalnutzung von Eigenschaften
+
+Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden. Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
+
+Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
+
+Bei jeder Verwendung **muss** ein Marker gestrichen werden.
+
+!!! example Beispiel
+
+    TODO
+
+### AP-Kosten
+
+Bei manchen Eigenschaften ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
+Um sie zu benutzen muss die Aktion "Eigenschaft anwenden" ausgeführt werden.
+
+Sofern keine AP angegeben sind ist auch keine Aktion für die Anwendung notwendig.
 
 ## Grundregeln
 
