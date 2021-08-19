@@ -233,7 +233,7 @@ Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über
     
     Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
 
-### Regeln
+### Regeln von Eigenschaften
 
 Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
 Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
@@ -261,7 +261,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
     TODO
 
-### AP-Kosten
+### AP-Kosten von Eigenschaften
 
 Bei manchen Eigenschaften ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
 Um sie zu benutzen muss die Aktion "Eigenschaft anwenden" ausgeführt werden.
@@ -1554,7 +1554,7 @@ Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe 
     
     Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
 
-### Regeln
+### Regeln von Ausrüstung
 
 Jede Ausrüstung kann Regeln beinhalten.
 Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
@@ -1577,7 +1577,7 @@ Diese können permanent oder temporär sein:
   Temporäre Profilmodifikatoren sind auf der Einheitenkarte nicht im Profil mit eingerechnet.
   Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
-### AP-Kosten
+### AP-Kosten von Ausrüstung
 
 Bei manchen Ausrüstungsgegenständen ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
 Um sie zu benutzen muss die Aktion "Ausrüstung verwenden" ausgeführt werden.
