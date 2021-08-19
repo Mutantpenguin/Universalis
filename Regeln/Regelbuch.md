@@ -72,7 +72,6 @@ Mehr Würfel schaden nie.
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
     |![flucht](Grafiken/Marker/flucht.svg){width="40pt"}|[Flucht](#flucht)|
     |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
-    |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
     |![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"}|[Nachladen](#nachladen)|
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
     |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
@@ -685,12 +684,9 @@ Sie kommt unter anderem beim [Fernkampf](#schnelle-bewegungen-des-ziels) zur Anw
 
 Liegende Modelle gelten als ein [Größenprofil](#größenprofil) kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
+Ihr [Sichtfeld](#sichtfeld) ist um eine Stufe verschlechtert.
 
-Dies wird am Modell mit dem Liegend-Marker dargestellt:
-
-![liegen](Grafiken/Marker/liegen.svg){width="40pt"} {align="center"}
-
-Das [Sichtfeld](#sichtfeld) liegender Modelle ist um eine Stufe verschlechtert.
+Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 
 ## Gelände
 
