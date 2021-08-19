@@ -966,6 +966,30 @@ Ausgeschaltete Modelle können weder Aktionen noch Reaktionen ausführen und neh
 
 Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
 
+#### Auswirkungen in der Gruppe
+
+Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe ein EH-Test abgelegt werden.
+Wenn dieser misslingt unterliegt das entsprechende Modell den Regeln für [Flucht](#flucht).
+
+TODO Modifikatoren wenn im Wahrnehmungsbereich?
+
+|      Typ       | Modifikator |
+| :------------: | :---------: |
+|  befreundetes Modell  |     +1      |
+| ausgeschaltetes befreundetes Modell |     -1      |
+|  das ausgeschaltete Modell   |     +2      |
+
+### Flucht
+
+!!! TODO Marker
+
+!!! TODO "sammeln"
+
+Während jeder Aktivierung benutzen flüchtende Modelle alle ihre AP um sich zur nächst gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
+
+Sie ignorieren Bedrohungen, nutzen aber das Gelände entsprechend ihrer [Bewegungsart](#bewegungsart) korrekt aus.
+Das heist, sie springen bei ihrer Flucht nicht sinnlos von Gebäuden etc.
+
 ### Schock
 
 Wenn ein Modell einen Schock erleidet verliert es sofort 2 AP.
@@ -1701,16 +1725,13 @@ Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
 ### Drohnen ohne Kontroller
 
-Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist versuchen das Spielfeld so schnell es geht zu verlassen.
+Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist unterliegen den Regeln für [Flucht](#flucht).
+
+!!! TODO können sich bei Flucht nicht "sammeln"
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
-Während jeder Aktivierung benutzen sie alle ihre AP um sich zur nächst gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
-
-Da sie dabei einem sehr rudimentärem Programm folgen ignorieren sie Bedrohungen, nutzen aber das Gelände entsprechend ihrer [Bewegungsart](#bewegungsart) korrekt aus.
-Das heist, sie springen bei ihrer Flucht nicht sinnlos von Gebäuden etc.
-
-Sobald der zugeordnete Kontroller wieder am Spielgeschehen teilnimmt funktionieren sie wieder wie gewohnt
+Sobald der zugeordnete Kontroller wieder am Spielgeschehen teilnimmt funktionieren sie wieder wie gewohnt.
 
 ### AP von Drohnen
 
