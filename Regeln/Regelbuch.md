@@ -70,6 +70,7 @@ Mehr Würfel schaden nie.
     |:--:|--|
     |![brennen](Grafiken/Marker/brennen.svg){width="40pt"}|[Brennen](#brennen)|
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
+    |![flucht](Grafiken/Marker/flucht.svg){width="40pt"}|[Flucht](#flucht)|
     |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
     |![liegen](Grafiken/Marker/liegen.svg){width="40pt"}|[Liegen](#liegende-modelle)|
     |![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"}|[Nachladen](#nachladen)|
@@ -969,7 +970,7 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 #### Auswirkungen in der Gruppe
 
 Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe ein EH-Test abgelegt werden.
-Wenn dieser misslingt unterliegt das entsprechende Modell den Regeln für [Flucht](#flucht).
+Wenn dieser misslingt erhält das entsprechende Modell einen Fluchtmarker. Siehe [Flucht](#flucht).
 
 Sofern sich andere Modelle im Wahrnehmungsbereich des testenden Modells befinden kommen für es folgende Modifikatoren zur Anwendung.
 
@@ -982,14 +983,17 @@ Sofern sich andere Modelle im Wahrnehmungsbereich des testenden Modells befinden
 
 ### Flucht
 
-!!! TODO Marker
+Modelle mit einem Fluchtmarker zählen als *flüchtend*:
 
-!!! TODO "sammeln"
+![flucht](Grafiken/Marker/flucht.svg){width="40pt"} {align="center"}
 
 Während jeder Aktivierung benutzen flüchtende Modelle alle ihre AP um sich zur nächst gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
 
 Sie ignorieren Bedrohungen, nutzen aber das Gelände entsprechend ihrer [Bewegungsart](#bewegungsart) korrekt aus.
 Das heist, sie springen bei ihrer Flucht nicht sinnlos von Gebäuden etc.
+
+Am Ende ihrer Initiativephase kann für sie ein EH-Test durchgeführt werden.
+Wenn er gelingt reißt sich das Modell zusammen und der Fluchtmarker wird entfernt.
 
 ### Schock
 
@@ -1726,13 +1730,9 @@ Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
 ### Drohnen ohne Kontroller
 
-Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist unterliegen den Regeln für [Flucht](#flucht).
-
-!!! TODO können sich bei Flucht nicht "sammeln"
+Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist erhalten einen Fluchtmarker (siehe [Flucht](#flucht)).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
-
-Sobald der zugeordnete Kontroller wieder am Spielgeschehen teilnimmt funktionieren sie wieder wie gewohnt.
 
 ### AP von Drohnen
 
