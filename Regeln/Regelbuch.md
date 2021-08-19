@@ -971,13 +971,14 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe ein EH-Test abgelegt werden.
 Wenn dieser misslingt unterliegt das entsprechende Modell den Regeln für [Flucht](#flucht).
 
-TODO Modifikatoren wenn im Wahrnehmungsbereich?
+Sofern sich andere Modelle im Wahrnehmungsbereich des testenden Modells befinden kommen für es folgende Modifikatoren zur Anwendung.
 
-|      Typ       | Modifikator |
-| :------------: | :---------: |
-|  befreundetes Modell  |     +1      |
-| ausgeschaltetes befreundetes Modell |     -1      |
-|  das ausgeschaltete Modell   |     +2      |
+|                     Typ                      | Modifikator |
+| :------------------------------------------: | :---------: |
+|  befreundetes Modell (nicht ausgeschaltet)   |     +1      |
+|     ausgeschaltetes befreundetes Modell      |     -1      |
+| das gerade ausgeschaltete befreundete Modell |     -3      |
+|   feindliches Modell (nicht ausgeschaltet)   |     -1      |
 
 ### Flucht
 
