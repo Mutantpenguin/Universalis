@@ -953,17 +953,18 @@ Nun wird die folgende Tabelle konsultiert:
 
 ### Schadensanwendung
 
-Wenn der Schaden zur Anwendung kommt, wird er von den aktuellen Trefferpunkten des Verteidigers abgezogen.
-
-Falls seine Trefferpunkte auf genau 0 sinken gilt er als ausgeschaltet und wird an Ort und Stelle auf die Seite gelegt, verbleibt somit jedoch im Spiel und kann wiederbelebt bzw. repariert werden.
-Solange er über genau 0 Trefferpunkte verfügt, kann er weder Aktionen noch Reaktionen ausführen.
-
-Sinkt sie unter 0 wird er aus dem Spiel entfernt, da eine Wiederherstellung nicht mehr möglich ist.
+Wenn der Schaden zur Anwendung kommt, wird er von den aktuellen Trefferpunkten des Verteidigers abgezogen. Sinken sie dadurch auf 0 oder darunter gilt er als [ausgeschaltet](#ausgeschaltet).
 
 Falls der Verteidiger überlebt erleidet er einen [Schock](#schock).
 Wenn er ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er nun in einen [kritischen Zustand](#kritischer-zustand).
 
 ## Zustände
+
+### Ausgeschaltet
+
+Ausgeschaltete Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
+
+Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
 
 ### Schock
 
@@ -1656,8 +1657,8 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 * **Rumpf**
 
-    Sinkt in sich zusammen und gilt als ausgeschalten.
-    Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.
+    Sinkt in sich zusammen und gilt als [ausgeschalten](#ausgeschaltet).
+    Ist nun ein Geländeteil.
 
 * **Linke/Rechte Seite**
 
@@ -1670,7 +1671,7 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
     |--|--|
     |1-6|Bleibt auf der Stelle stehen und kann sich noch drehen.|
     |7-11|Bleibt auf der Stelle stehen und kann sich **nicht** mehr drehen.|
-    |12|Fällt um und gilt als ausgeschalten. Wird jedoch nicht vom Spielfeld entfernt und gilt nun als Geländeteil.|
+    |12|Fällt um und gilt als [ausgeschalten](#ausgeschaltet). Ist nun ein Geländeteil.|
 
 ## Drohnen
 
@@ -1700,7 +1701,7 @@ Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
 ### Drohnen ohne Kontroller
 
-Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder ausgeschaltet ist versuchen das Spielfeld so schnell es geht zu verlassen.
+Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist versuchen das Spielfeld so schnell es geht zu verlassen.
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
@@ -1735,7 +1736,7 @@ Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Run
 
 ### Zerstörung einer Drohne
 
-Sobald eine Drohne als ausgeschalten gilt kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
+Sobald eine Drohne als [ausgeschalten](#ausgeschaltet) gilt kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.
