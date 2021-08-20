@@ -716,22 +716,31 @@ Jedes Geländeteil kann als Deckung verwendet werden wenn es das [Größenprofil
 
 Deckung kommt nur im Fernkampf zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet bzw. wenn beide sich innerhalb eines Geländeteils mit Deckung befinden.
 
-Es wird dabei zwischen 2 verschiedenen Stufen von Deckungen unterschieden:
+Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
 * #### Stufe I Deckung
 
-  Besteht aus Holz, Plastik, Blech oder auch einer Ziegelmauer.
-  Letztendlich alles was nicht zur direkten Abwehr von Beschuss geeignet ist.
+    Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
+    Beispiele: Gebüsch, Zaun, Plastik, Blech, Möbel
 
-  Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
+    Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe.
+    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe.
+    Dies gilt nicht bei befreundeten Modellen.
 
 * #### Stufe II Deckung
 
-  Besteht aus Sandsackbarrieren, Beton oder Stahl und ist zur direkten Abwehr von Beschuss geeignet.
+    Kann Beschuss bedingt abhalten.
+    Beispiele: Ziegelmauer, Holzhaus, Tanks
 
-  Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe.
+    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe.
+
+* #### Stufe III Deckung
+
+    Ist zur direkten Abwehr von Beschuss geeignet.
+    Beispiele: Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
+
+    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +3 auf seine Rüstungswürfe.
 
 ### Passierbarkeit
 
@@ -754,6 +763,12 @@ TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
 ### Geländetypen
 
+!!! summary Befestigte Stellung
+
+    | Passierbarkeit | Deckung | Sichtweite |
+    | :------------: | :-----: | :--------: |
+    |       1        |   III   |     1      |
+
 !!! summary Dickicht
 
     | Passierbarkeit | Deckung | Sichtweite |
@@ -766,13 +781,13 @@ TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
     | Passierbarkeit | Deckung | Sichtweite |
     | :------------: | :-----: | :--------: |
-    |       0        |    I    |     1      |
+    |       0        |    II   |     1      |
 
 !!! summary Krater
 
     | Passierbarkeit | Deckung | Sichtweite |
     | :------------: | :-----: | :--------: |
-    |       2        |    I    |     1      |
+    |       2        |    II   |     1      |
 
     Die Deckung wirkt nur gegen Beschuss von außerhalb.
 
@@ -782,7 +797,7 @@ TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
     
     | Passierbarkeit | Deckung | Sichtweite |
     | :------------: | :-----: | :--------: |
-    |       1        |    I    |     2      |
+    |       1        |    II   |     2      |
 
 !!! summary Straße
 
@@ -1303,10 +1318,11 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 * #### Deckung des Ziels
 
-  | Stufe | Modifikator |
-  | :---: | :---------: |
-  |   I   |     -1      |
-  |  II   |     -3      |
+| Stufe | Modifikator |
+| :---: | :---------: |
+|   I   |     -1      |
+|  II   |     -2      |
+|  III  |     -3      |
 
 * #### Unhandliche Waffen im Fernkampf
 
