@@ -942,18 +942,12 @@ Sofern er über keine Rüstung verfügt addiert er stattdessen seine KO.
 
 Hierbei müssen auch alle Effekte angewendet werden.
 
-!!! TODO Idee 1
-
-    Der Spieler der den Schaden austeilt addiert die Stufe seines Schadenstyps.
-
-    Der Spieler der sich gegen den Schaden verteidigt prüft ob der Schadenstyp in seinem Rüstungsprofil vorhanden ist und addiert dessen Stufe.
-    Ohne entsprechenden Schadenstyp bekommt er keinen Bonus.
-
-!!! TODO Idee 2
+!!! TODO Idee
 
     Jede Stufe des Schadenstyps gibt einen weiteren Würfel, das höchste Ergebnis zählt.
 
     Nicht jede Stufe, sondern die Differenz?
+    Der Spieler, der die höhere Stufe hat bekommt die Differenz als Bonus-Würfel?
 
 Nun wird die folgende Tabelle konsultiert:
 
