@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="26.678381mm"
-   height="27.722603mm"
-   viewBox="0 0 94.529696 98.229695"
+   width="29.359226mm"
+   height="29.359226mm"
+   viewBox="0 0 104.02875 104.02875"
    id="svg5060"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="W6_weiss.svg">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="w6_weiß.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs5062" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-413.44943"
-     inkscape:cy="-10.885151"
+     inkscape:zoom="2.8"
+     inkscape:cx="100.17857"
+     inkscape:cy="91.607143"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,11 +35,12 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1192"
-     inkscape:window-height="659"
-     inkscape:window-x="513"
-     inkscape:window-y="177"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5065">
     <rdf:RDF>
@@ -48,7 +49,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,73 +56,28 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-129.878,-423.24736)">
+     transform="translate(-123.73417,-604.60351)">
     <g
-       transform="translate(-476.83936,589.03883)"
-       id="g4404">
+       id="g3368">
       <rect
-         id="rect4368"
-         style="fill:#ffffff;stroke:#000000;stroke-width:3.1257"
-         rx="6.3635998"
-         ry="9.4968996"
-         height="95.103996"
-         width="91.403999"
-         y="-164.22862"
-         x="608.28021" />
-      <g
-         id="g4370"
-         transform="matrix(0.25983,0,0,0.25983,904.62816,105.5724)">
-        <g
-           id="g4372"
-           transform="matrix(0.91589,0,0,0.91589,-381.67,-74.793)">
-          <circle
-             id="circle4374"
-             style="fill:#000000;stroke:#000000;stroke-width:16"
-             transform="translate(336.5,-20.089)"
-             cx="-1076.4509"
-             cy="-963.58374"
-             r="31.808037" />
-          <circle
-             id="circle4376"
-             style="fill:#000000;stroke:#000000;stroke-width:16"
-             transform="translate(336.5,111.33)"
-             cx="-1076.4509"
-             cy="-963.58374"
-             r="31.808037" />
-          <circle
-             id="circle4378"
-             style="fill:#000000;stroke:#000000;stroke-width:16"
-             transform="translate(336.5,242.75)"
-             cx="-1076.4509"
-             cy="-963.58374"
-             r="31.808037" />
-        </g>
-        <g
-           id="g4380"
-           transform="matrix(0.91589,0,0,0.91589,-192.21,-74.793)">
-          <circle
-             id="circle4382"
-             style="fill:#000000;stroke:#000000;stroke-width:16"
-             transform="translate(336.5,-20.089)"
-             cx="-1076.4509"
-             cy="-963.58374"
-             r="31.808037" />
-          <circle
-             id="circle4384"
-             style="fill:#000000;stroke:#000000;stroke-width:16"
-             transform="translate(336.5,111.33)"
-             cx="-1076.4509"
-             cy="-963.58374"
-             r="31.808037" />
-          <circle
-             id="circle4386"
-             style="fill:#000000;stroke:#000000;stroke-width:16"
-             transform="translate(336.5,242.75)"
-             cx="-1076.4509"
-             cy="-963.58374"
-             r="31.808037" />
-        </g>
-      </g>
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.25197;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
+         id="rect890"
+         width="99.776787"
+         height="99.776787"
+         x="125.86015"
+         y="606.72949"
+         ry="4.3526788" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.1067px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.25197;stroke-miterlimit:4;stroke-dasharray:none"
+         x="159.53262"
+         y="673.98389"
+         id="text4111"><tspan
+           sodipodi:role="line"
+           id="tspan4109"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.1067px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.25197;stroke-miterlimit:4;stroke-dasharray:none"
+           x="159.53262"
+           y="673.98389">6</tspan></text>
     </g>
   </g>
 </svg>
