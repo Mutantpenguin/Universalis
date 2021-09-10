@@ -276,6 +276,11 @@ Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 A
 
 **Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.**
 
+### Sichtfeld
+
+Jedes Modell hat ein Sichtfeld von 360°.
+Es ist somit egal wohin ein Modell ausgerichtet ist.
+
 ### Sichtlinie
 
 Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn ein Teil seines [Größenprofils](#größenprofil) sichtbar ist.
