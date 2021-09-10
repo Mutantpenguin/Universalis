@@ -141,7 +141,6 @@ Dazu gehören:
 * [Geschwindigkeit](#geschwindigkeit)
 * [Trefferpunkte](#trefferpunkte)
 * [Größenprofil](#größenprofil)
-* [Sichtfeld](#sichtfeld)
 
 ### Typ
 
@@ -213,14 +212,6 @@ Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht de
 
 Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. [Sichtlinien](#sichtlinie) keine Rolle mehr spielen.
 
-### Sichtfeld
-
-Es gibt 4 verschiedene Sichtfelder mit 45°, 90°, 180° und 360°.
-
-![Sichtfeld](Grafiken/Abbildungen/sichtfeld.svg){.img_border} {align="center"}
-
-*Übersicht der 4 verschiedenen Sichtfelder (der Pfeil stellt die Blickrichtung des Modells dar)* {align="center"}
-
 ## Eigenschaften
 
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache Attribute hinausgeht.
@@ -287,7 +278,7 @@ Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 A
 
 ### Sichtlinie
 
-Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn es sich im Sichtfeld befindet und zusätzlich ein Teil seines [Größenprofils](#größenprofil) sichtbar ist.
+Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn ein Teil seines [Größenprofils](#größenprofil) sichtbar ist.
 
 Dies bedeutet, dass es möglich sein muss eine gerade Linie zu ziehen die sein Größenprofil *trifft*.
 
@@ -345,7 +336,7 @@ Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
 ### Wahrnehmungsbereich
 
-Der Wahrnehmungsbereich umfasst alles im Sichtfeld des Modells bis zu einer Distanz die wie folgt berechnet wird:
+Der Wahrnehmungsbereich umfasst alles um ein Modell bis zu einer Distanz die wie folgt berechnet wird:
 
     Distanz = WN * 5cm
 
@@ -353,7 +344,7 @@ Zusätzlich gelten alle Modelle im Basekontakt als im Wahrnehmungsbereich.
 
 ![wahrnehmungsbereich](Grafiken/Abbildungen/wahrnehmungsbereich.svg){.img_border} {align="center"}
 
-*Beispiel mit einem Sichtfeld von 90°* {align="center"}
+*Beispiel mit einem Sichtfeld von 90° TODO neues Bild* {align="center"}
 
 Im [Kritischen Zustand](#kritischer-zustand) wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
 
@@ -684,7 +675,6 @@ Sie kommt unter anderem beim [Fernkampf](#schnelle-bewegungen-des-ziels) zur Anw
 
 Liegende Modelle gelten als ein [Größenprofil](#größenprofil) kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
-Ihr [Sichtfeld](#sichtfeld) ist um eine Stufe verschlechtert.
 
 Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 
@@ -1287,7 +1277,6 @@ Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 ### Indirekter Fernkampf
 
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
-Er muss sich aber im [Sichtfeld](#sichtfeld) befinden.
 
 Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
 Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
@@ -1470,9 +1459,6 @@ Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getro
 
   Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
   Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
-
-  Sollte der Angriff von außerhalb des [Sichtfeldes](#sichtfeld) des angegriffenen Modells geschehen, erhält der Angreifer einen weiteren Bonus von +1.
-  Dies gilt auch wenn der Verteidiger sich in Verteidigung befindet.
 
 * #### Multiple Gegner
 
