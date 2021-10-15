@@ -345,12 +345,6 @@ Der Wahrnehmungsbereich umfasst alles um ein Modell bis zu einer Distanz die wie
 
     Distanz = WN * 5cm
 
-Zusätzlich gelten alle Modelle im Basekontakt als im Wahrnehmungsbereich.
-
-![wahrnehmungsbereich](Grafiken/Abbildungen/wahrnehmungsbereich.svg){.img_border} {align="center"}
-
-*Beispiel mit einem Sichtfeld von 90° TODO neues Bild* {align="center"}
-
 Im [Kritischen Zustand](#kritischer-zustand) wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
 
 Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
