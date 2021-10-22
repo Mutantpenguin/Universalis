@@ -297,7 +297,7 @@ Befreundete Modelle behindern nicht die Sichtlinie.
 
 ### Tragkraft
 
-Jedes Modell kann eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
+Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
 
 Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
