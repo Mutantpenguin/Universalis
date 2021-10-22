@@ -637,7 +637,7 @@ Ein Modell welches fällt kann unter Umständen Schaden erleiden.
 
 Bis zu einer Fallhöhe in Höhe seines [Größenprofils](#größenprofil) passiert nichts.
 Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
-Darüber hinaus erleidet er automatisch einen Treffer.
+Darüber hinaus erleidet es automatisch einen Treffer.
 
 Der Treffer hat eine Stärke in Höhe der KO des gefallenen Modells.
 
