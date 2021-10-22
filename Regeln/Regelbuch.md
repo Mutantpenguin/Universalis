@@ -70,7 +70,7 @@ Mehr Würfel schaden nie.
     |:--:|--|
     |![brennen](Grafiken/Marker/brennen.svg){width="40pt"}|[Brennen](#brennen)|
     |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
-    |![flucht](Grafiken/Marker/flucht.svg){width="40pt"}|[Flucht](#flucht)|
+    |![panik](Grafiken/Marker/panik.svg){width="40pt"}|[Panik](#panik)|
     |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
     |![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"}|[Nachladen](#nachladen)|
     |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
@@ -165,7 +165,7 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 |FK|Fernkampf|Stellt die Fernkampffähigkeit des Modells dar. Siehe [Fernkampf](#fernkampf).|
 |KO|Konstitution|Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. [Tragkraft](#tragkraft).|
 |WN|Wahrnehmung|Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. [Wahrnehmungsbereich](#wahrnehmungsbereich), [Tarnung](#tarnung) und [Bewegungstests](#bewegungstest).|
-|EH|Entschlossenheit|Die Fähigkeit eines Modells, physische oder mentale Konflikte zu bewältigen. Siehe z.B. [Gefahrenbereich](#gefahrenbereich).|
+|EH|Entschlossenheit|Die Fähigkeit eines Modells, psychische oder mentale Konflikte zu bewältigen. Siehe z.B. [Gefahrenbereich](#gefahrenbereich) oder [Panik](#panik).|
 
 !!! example Beispiel normaler Mensch
 
@@ -961,36 +961,38 @@ Ausgeschaltete Modelle können weder Aktionen noch Reaktionen ausführen und neh
 
 Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
 
-#### Auswirkungen in der Gruppe
+Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe getestet werden ob es in [Panik](#panik) verfällt.
 
-Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe ein EH-Test abgelegt werden.
-Wenn dieser misslingt erhält das entsprechende Modell einen Fluchtmarker. Siehe [Flucht](#flucht).
+### Panik
 
-Sofern sich andere Modelle im Wahrnehmungsbereich des testenden Modells befinden kommen für es folgende Modifikatoren zur Anwendung.
+Um zu testen ob ein Modell in Panik verfällt muss es einen Paniktest in Form eines EH-Tests absolvieren.
+Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarker.
 
-|                           Typ                            | Modifikator |
-| :------------------------------------------------------: | :---------: |
-|         befreundetes Modell, nicht ausgeschaltet         |     +1      |
-| befreundetes Modell, nicht ausgeschaltet, im Basekontakt |     +2      |
-|              befreundetes Modell, flüchtend              |     -1      |
-|            befreundetes Modell, ausgeschaltet            |     -2      |
-|       das gerade ausgeschaltete befreundete Modell       |     -3      |
-|         feindliches Modell, nicht ausgeschaltet          |     -1      |
-|              feindliches Modell im Nahkampf              |     -2      |
+![panik](Grafiken/Marker/panik.svg){width="40pt"} {align="center"}
 
-### Flucht
+#### Auswirkungen von Panik
 
-Modelle mit einem Fluchtmarker zählen als *flüchtend*:
-
-![flucht](Grafiken/Marker/flucht.svg){width="40pt"} {align="center"}
-
-Während jeder Aktivierung benutzen flüchtende Modelle alle ihre AP um sich zur nächst gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
+Während jeder Aktivierung benutzen Modelle in Panik alle ihre AP um sich zur am nächsten gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
 
 Sie ignorieren Bedrohungen, nutzen aber das Gelände entsprechend ihrer [Bewegungsart](#bewegungsart) korrekt aus.
-Das heist, sie springen bei ihrer Flucht nicht sinnlos von Gebäuden etc.
+Das heißt, sie springen in ihrer Panik nicht sinnlos von Gebäuden etc.
 
-Am Ende ihrer Initiativephase kann für sie ein EH-Test durchgeführt werden.
-Wenn er gelingt reißt sich das Modell zusammen und der Fluchtmarker wird entfernt.
+Am Ende ihrer Initiativephase kann für sie ein erneuter Paniktest durchgeführt werden.
+Wenn er gelingt reißt sich das Modell zusammen und der Panikmarker wird entfernt.
+
+#### Modifikatoren für Paniktests
+
+Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikatoren zur Anwendung.
+
+|                                   Typ                                    | Modifikator |
+| :----------------------------------------------------------------------: | :---------: |
+|         befreundetes Modell, nicht ausgeschaltet, nicht in Panik         |     +1      |
+| befreundetes Modell, nicht ausgeschaltet, nicht in Panik, im Basekontakt |     +2      |
+|                      befreundetes Modell, in Panik                       |     -1      |
+|                    befreundetes Modell, ausgeschaltet                    |     -2      |
+|               das gerade ausgeschaltete befreundete Modell               |     -3      |
+|         feindliches Modell, nicht ausgeschaltet, nicht in Panik          |     -1      |
+|                      feindliches Modell im Nahkampf                      |     -2      |
 
 ### Schock
 
@@ -1724,7 +1726,7 @@ Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
 ### Drohnen ohne Kontroller
 
-Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist erhalten einen Fluchtmarker (siehe [Flucht](#flucht)).
+Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist erhalten einen Panikmarker (siehe [Panik](#panik)).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
