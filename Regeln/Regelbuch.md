@@ -974,12 +974,15 @@ Wenn dieser misslingt erhält das entsprechende Modell einen Fluchtmarker. Siehe
 
 Sofern sich andere Modelle im Wahrnehmungsbereich des testenden Modells befinden kommen für es folgende Modifikatoren zur Anwendung.
 
-|                     Typ                      | Modifikator |
-| :------------------------------------------: | :---------: |
-|  befreundetes Modell (nicht ausgeschaltet)   |     +1      |
-|     ausgeschaltetes befreundetes Modell      |     -1      |
-| das gerade ausgeschaltete befreundete Modell |     -3      |
-|   feindliches Modell (nicht ausgeschaltet)   |     -1      |
+|                           Typ                            | Modifikator |
+| :------------------------------------------------------: | :---------: |
+|         befreundetes Modell, nicht ausgeschaltet         |     +1      |
+| befreundetes Modell, nicht ausgeschaltet, im Basekontakt |     +2      |
+|              befreundetes Modell, flüchtend              |     -1      |
+|            befreundetes Modell, ausgeschaltet            |     -2      |
+|       das gerade ausgeschaltete befreundete Modell       |     -3      |
+|         feindliches Modell, nicht ausgeschaltet          |     -1      |
+|              feindliches Modell im Nahkampf              |     -2      |
 
 ### Flucht
 
