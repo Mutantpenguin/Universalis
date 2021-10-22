@@ -963,6 +963,39 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 
 Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe getestet werden ob es in [Panik](#panik) verfällt.
 
+### Brennen
+
+Modelle mit einem Brandmarker gelten als *brennend*:
+
+![brennen](Grafiken/Marker/brennen.svg){width="40pt"} {align="center"}
+
+Sie können keine Aktionen und Reaktionen ausführen.
+
+Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Tabelle:
+
+|Ergebnis|Auswirkung|
+|:--:|--|
+|1-8|Das Modell erleidet einen automatischen Treffer mit den Werten der Waffe die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.|
+|9-11|Der Brandmarker wird vom Modell entfernt und es erleidet 1 Schock.
+|12+|Der Brandmarker wird entfernt.|
+
+#### Hilfe durch befreundete Modelle
+
+Jedes befreundete Modell in Basekontakt gibt einen Bonus von +2 auf den Wurf.
+
+### Kritischer Zustand
+
+Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als die Hälfte seiner maximalen Trefferpunkte besitzt.
+
+Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
+
+Das Modell erhält für den Rest des Spiels einen Malus von -2 auf alle seine Attributs- und Vergleichenden Würfe.
+
+Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
+
+Ein Modell kann nur einmal in den kritischen Zustand verfallen.
+Würde dies ein weiteres mal passieren erleidet es stattdessen 1 [Schock](#schock).
+
 ### Panik
 
 Um zu testen ob ein Modell in Panik verfällt muss es einen Paniktest in Form eines EH-Tests absolvieren.
@@ -1004,19 +1037,6 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Marker:
 Ein Modell mit Schock-Markern verliert zum Beginn einer Runde automatisch 2 AP pro Marker woraufhin diese Marker entfernt werden.
 Sollten noch Schock-Marker übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Marker bis zur nächsten Runde um dann abgezogen zu werden.
 
-### Kritischer Zustand
-
-Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als die Hälfte seiner maximalen Trefferpunkte besitzt.
-
-Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
-
-Das Modell erhält für den Rest des Spiels einen Malus von -2 auf alle seine Attributs- und Vergleichenden Würfe.
-
-Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
-
-Ein Modell kann nur einmal in den kritischen Zustand verfallen.
-Würde dies ein weiteres mal passieren erleidet es stattdessen 1 [Schock](#schock).
-
 ### Vergiftung
 
 Modelle mit Giftmarkern zählen als *vergiftet*:
@@ -1024,26 +1044,6 @@ Modelle mit Giftmarkern zählen als *vergiftet*:
 ![gift](Grafiken/Marker/gift.svg){width="40pt"} {align="center"}
 
 Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und erleiden automatischen Schaden wie bei der Waffe welche die Vergiftung verursacht hat angegeben.
-
-### Brennen
-
-Modelle mit einem Brandmarker gelten als *brennend*:
-
-![brennen](Grafiken/Marker/brennen.svg){width="40pt"} {align="center"}
-
-Sie können keine Aktionen und Reaktionen ausführen.
-
-Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Tabelle:
-
-|Ergebnis|Auswirkung|
-|:--:|--|
-|1-8|Das Modell erleidet einen automatischen Treffer mit den Werten der Waffe die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.|
-|9-11|Der Brandmarker wird vom Modell entfernt und es erleidet 1 Schock.
-|12+|Der Brandmarker wird entfernt.|
-
-#### Hilfe durch befreundete Modelle
-
-Jedes befreundete Modell in Basekontakt gibt einen Bonus von +2 auf den Wurf.
 
 ## Waffen
 
