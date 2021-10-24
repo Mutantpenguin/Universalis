@@ -1159,11 +1159,17 @@ Das Gewicht von selbsttragenden Rüstungen wird für die [Tragkraft](#tragkraft)
 
 ### Schilde
 
-Unter Schilden versteht man alle Arten von „Platten“ die zur Abwehr von Schaden getragen werden.
+Sie können dem Träger 2 verschiedene Arten von Boni geben:
 
-Schilde geben dem Träger einen Bonus beim Rüstungswurf im Nahkampf und gegen jeden Beschuss der das Modell aus einem 180° Bereich von Vorne trifft.
+* **Nahkampfwurf**
 
-!!! TODO Modell hat nur noch eine Hand frei?
+    Nur bei Verteidigung.
+
+* **Rüstungswurf**
+
+    Im Nahkampf bei Verteidigung.
+
+    Gegen jeden Beschuss der das Modell aus einem 180° Bereich von Vorne trifft.
 
 ## Fernkampf
 
