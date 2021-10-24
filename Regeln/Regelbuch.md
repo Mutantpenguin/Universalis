@@ -44,6 +44,7 @@ TODO
 
 * Alle Modelle erlaubt.
 * WYSIWYG ist zwar toll, aber es geht ja nicht immer alles.
+* Modelle realistisch ausrüsten und nicht mit mehreren Nahkampf- und Schusswaffen
 
 ## Was braucht man
 
