@@ -433,13 +433,14 @@ Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchge
 
 #### Rundenbeginn
 
-Zu Beginn jeder Runde werden die AP jedes Modells wieder aufgefüllt.
+Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
+
+* Die AP jedes Modells werden wieder aufgefüllt.
 Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
-
-Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 2 AP.
-
-Nun werden alle Modelle in [Panik](#panik) entsprechend bewegt.
-Dies kann für alle Modelle gleichzeitig geschehen.
+Siehe [Rundenende](#rundenende).
+* Modelle mit [Schock-Markern](#schock) verlieren automatisch pro Marker 2 AP.
+* Alle Modelle in [Panik](#panik) werden entsprechend bewegt.
+Dies kann gleichzeitig geschehen.
 
 #### Reihenfolge innerhalb der Runde
 
@@ -465,7 +466,7 @@ Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet we
 ### Rundenende
 
 Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür.
-Das Spiel endet dann automatisch sofort und der Spieler der aufgegeben hat hat verloren.
+Das Spiel endet dann automatisch sofort und der Spieler der aufgegeben hat verliert.
 
 Für jede Mission werden die Siegesbedingungen überprüft und das Spiel gegebenenfalls beendet.
 
