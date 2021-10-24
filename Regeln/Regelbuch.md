@@ -251,7 +251,9 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 !!! example Beispiel
 
-    TODO
+    Für eine Regeneration die 3x verwendet werden kann.
+
+    ![Einmalnutzung Ausrüstung](Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg){width="500pt"}
 
 ### AP-Kosten von Eigenschaften
 
