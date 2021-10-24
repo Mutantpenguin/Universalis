@@ -438,6 +438,9 @@ Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert
 
 Modelle mit [Schock-Markern](#schock) verlieren danach automatisch pro Marker 2 AP.
 
+Nun werden alle Modelle in [Panik](#panik) entsprechend bewegt.
+Dies kann für alle Modelle gleichzeitig geschehen.
+
 #### Reihenfolge innerhalb der Runde
 
 Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
@@ -1006,7 +1009,8 @@ Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarke
 
 #### Auswirkungen von Panik
 
-Während jeder Aktivierung benutzen Modelle in Panik alle ihre AP um sich zur am nächsten gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
+Modelle in Panik können keine Reaktionen durchführen.
+Während jeder Aktivierung benutzen sie alle ihre AP um sich zur am nächsten gelegenen Spielfeldkante zu bewegen und das Spielfeld letzten Endes zu verlassen.
 
 Sie ignorieren Bedrohungen, nutzen aber das Gelände entsprechend ihrer [Bewegungsart](#bewegungsart) korrekt aus.
 Das heißt, sie springen in ihrer Panik nicht sinnlos von Gebäuden etc.
