@@ -546,11 +546,14 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 |Symbol|Name|Bedeutung|
 |:--:|--|--|
-|![beine](Grafiken/Bewegung/beine.svg){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.|
-|![flug](Grafiken/Bewegung/flug.svg){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden. TODO Beschränkung bei Drehungen?|
+|![beine](Grafiken/Bewegung/beine.svg){width="40pt"}|Beine|Standard Bewegungsart für Infanterie. |
+|^^|^^|Bietet weder spezielle Vorteile noch Nachteile.|
+|![flug](Grafiken/Bewegung/flug.svg){width="40pt"}|Flug|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.|
+|^^|^^|TODO Beschränkung bei Drehungen?|
 |![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|Kette|Bewegungstests für [Passierbarkeit](#passierbarkeit) dürfen einmal wiederholt werden.|
 |![rad](Grafiken/Bewegung/rad.svg){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
-|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|Schweben| TODO Ignoriert [Passierbarkeit](#passierbarkeit). maximale Höhe? Träge Bewegung/Drehung? |
+|![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|Schweben| Ignoriert [Passierbarkeit](#passierbarkeit) solange es sich über einem Geländeteil bewegt.|
+|^^|^^|TODO maximale Höhe? Träge Bewegung/Drehung?|
 |![stationär](Grafiken/Bewegung/stationär.svg){width="40pt"}|Stationär|Kann nicht bewegt werden.|
 
 ### Bewegungstest
