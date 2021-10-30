@@ -1721,7 +1721,7 @@ Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer z
 ### AP von Drohnen
 
 Jede Drohne verfügt über 2 AP.
-Für sie können weitere AP verwendet werden indem die AP des zugeordneten Kontrolllers ausgegeben werden.
+Für sie können weitere AP verwendet werden indem die AP des zugeordneten Kontrollers ausgegeben werden.
 
 ### Attribute von Drohnen
 
