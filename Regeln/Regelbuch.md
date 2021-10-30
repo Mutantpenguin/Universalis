@@ -113,6 +113,8 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 ![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg) {align="center"}
 
+!!! TODO austauschen
+!!! TODO Tabelle anpassen
 |                                                |                                                       |
 | ---------------------------------------------- | ----------------------------------------------------- |
 | 1. [Fraktion](#fraktionen)                     | 11. [Bewegungsart](#bewegungsart)                     |
@@ -651,10 +653,10 @@ Darüber hinaus erleidet es automatisch einen Treffer.
 
 Der Treffer hat eine Stärke in Höhe der KO des gefallenen Modells.
 
-|Fallhöhe|Schadenstyp|Schaden|
-|:--:|:--:|:--:|
-| **bis einschliesslich** doppeltem Größenprofil | Schlag I | 2 |
-| **größer als** doppeltes Größenprofil | Schlag II | 4 |
+|Fallhöhe|Schaden|
+|:--:|:--:|
+| **bis einschliesslich** doppeltem Größenprofil | 2 |
+| **größer als** doppeltes Größenprofil | 4 |
 
 ### Vertikale Bewegung
 
@@ -844,41 +846,17 @@ Um Schaden abzuwehren gibt es verschiedene Möglichkeiten wie bspw. Rüstung, Sc
 
 ### Schadensprofil
 
-Ein Schadensprofil wird immer durch genau einen Schadenstyp (z.B. Kinetik), die Stärke, den Schaden und eventuellen Effekten angegeben.
+Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen Effekten angegeben.
 
+!!! TODO austauschen
 ![schadensprofil](Grafiken/Abbildungen/schadensprofil.png){width="500pt"}
 
 ### Rüstungsprofil
 
-Rüstungen werden immer mit ein oder mehreren Schadenstypen, ihrem Schutz und eventuellen Effekten angegeben.
+Rüstungen werden immer mit ihrem Schutz und eventuellen Effekten angegeben.
 
+!!! TODO austauschen
 ![rüstungsprofil](Grafiken/Abbildungen/rüstungsprofil.png){width="500pt"}
-
-### Schadenstypen
-
-Schadenstypen beschreiben, welche Art von Schaden verursacht wird bzw. abgewehrt werden kann.
-
-Es gibt die folgenden Typen:
-
-|Symbol|Name|Bedeutung|
-|--|--|--|
-|![kinetisch](Grafiken/Schadenstyp/kinetik.svg){width=40pt}|Kinetik|Alles das irgendwie als Projektil bezeichnet werden kann.|
-|![schlag](Grafiken/Schadenstyp/schlag.svg){width=40pt}|Schlag|Jede stumpfe Gewalteinwirkung.|
-|![schnitt](Grafiken/Schadenstyp/schnitt.svg){width=40pt}|Schnitt|Jedwede Art von Schneiden.|
-|![strahl](Grafiken/Schadenstyp/strahl.svg){width=40pt}|Strahl|Alle immateriellen Arten von Schaden.|
-
-### Stufen der Schadenstypen
-
-Schadenstypen haben eine minimale Stufe von 1 und eine maximale Stufe von 3.
-Jede Stufe wird durch ein „+“ rechts vom eigentlichen Symbol für den Typen dargestellt.
-Symbole für Schadenstypen werden bei Waffen immer in rot, und bei Rüstungen immer in grün dargestellt.
-
-!!! example Beispiel
-
-    |Typ|Stufe 1|Stufe 2|Stufe 3|
-    |--|:--:|:--:|:--:|
-    |Schaden kinetisch|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Schaden_3.png){width=40pt}|
-    |Rüstung schnitt|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_1.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_2.png){width=40pt}|![rüstungsprofil](Grafiken/Schadenstyp/Rüstung_3.png){width=40pt}|
 
 ### Stärke / Schaden / Schutz
 
@@ -940,13 +918,6 @@ Der Verteider addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* gena
 Sofern er über keine Rüstung verfügt addiert er stattdessen seine KO.
 
 Hierbei müssen auch alle Effekte angewendet werden.
-
-!!! TODO Idee
-
-    Jede Stufe des Schadenstyps gibt einen weiteren Würfel, das höchste Ergebnis zählt.
-
-    Nicht jede Stufe, sondern die Differenz?
-    Der Spieler, der die höhere Stufe hat bekommt die Differenz als Bonus-Würfel?
 
 Nun wird die folgende Tabelle konsultiert:
 
@@ -1502,15 +1473,15 @@ Es können nur [aufgeklärte](#aufklärung) Modelle angegriffen werden.
 
 Infanterie und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
-Der Schadenstyp ist dabei immer Schlag und die Stärke entspricht der Konstitution.
+Die Stärke entspricht der Konstitution.
 Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
-Die Stufe des Schadenstyps und die Waffenklasse sind abhängig von der größe des Modells.
+Die Waffenklasse ist abhängig von der größe des Modells.
 
-| Größe des Modells | Stufe des Schadenstyp | Waffenklasse |
-| :---------------: | :-------------------: | :----------: |
-| klein bis mittel  |           1           |      I       |
-|       groß        |           2           |      II      |
-|      riesig       |           3           |     III      |
+| Größe des Modells | Waffenklasse |
+| :---------------: | :----------: |
+| klein bis mittel  |      I       |
+|       groß        |      II      |
+|      riesig       |     III      |
 
 !!! example Beispiel
 
