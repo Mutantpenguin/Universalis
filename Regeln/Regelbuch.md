@@ -309,6 +309,7 @@ Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei u
 | Typ         | Tragkraft in kg |
 | ----------- | :-------------: |
 | Infanterie  |      `KO²`      |
+| Drohne      |      `KO²`      |
 | Koloss      |  `( KO * 2 )²`  |
 
 Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
