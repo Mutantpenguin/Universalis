@@ -528,7 +528,7 @@ Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 
 ### Übersicht Aktionen und Reaktionen
 
-|Typ|
+|Bereich|
 |--|
 |[Bewegen](#aktionen:-bewegung)|
 |[Fernkampf](#aktionen:-fernkampf)|
