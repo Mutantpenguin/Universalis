@@ -522,15 +522,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284274"
-     inkscape:cx="779.40837"
-     inkscape:cy="511.76848"
+     inkscape:zoom="2.0000002"
+     inkscape:cx="825.74992"
+     inkscape:cy="706.24993"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
@@ -583,7 +583,7 @@
        ry="3.1436882" />
     <g
        id="g3113"
-       transform="translate(-324.79079,48.137163)"
+       transform="translate(416.45913,1000.6371)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\typ_schlag.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -630,7 +630,7 @@
        style="fill:#808000" />
     <g
        id="g3122"
-       transform="translate(-336.85933,53.535924)"
+       transform="translate(404.39059,1006.0358)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\typ_schnitt.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -680,7 +680,7 @@
     </g>
     <g
        id="g3132"
-       transform="translate(-352.52327,54.40175)"
+       transform="translate(388.72665,1006.9017)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\typ_kinetik.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -728,7 +728,7 @@
     </g>
     <g
        id="g3104"
-       transform="translate(-283.94633,68.384815)"
+       transform="translate(457.30359,1020.8847)"
        inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\typ_strahl.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -889,125 +889,6 @@
            r="21" />
       </g>
     </g>
-    <g
-       id="g3162"
-       transform="translate(412.96864,811.87505)"
-       inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_desintegrator.png"
-       inkscape:export-xdpi="381"
-       inkscape:export-ydpi="381">
-      <rect
-         y="37.263119"
-         x="257.0174"
-         height="35.433071"
-         width="35.433071"
-         id="rect3160"
-         style="fill:none" />
-      <g
-         inkscape:export-ydpi="300.05798"
-         inkscape:export-xdpi="300.05798"
-         inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Schadenssymbole/desintegrator.png"
-         transform="matrix(0.73621882,0,0,0.73621882,75.278389,-88.098303)"
-         id="g4327">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:1.47406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 247.93786,215.83404 c 45.96194,0 45.96194,0 45.96194,0"
-           id="path4329"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           id="path4331"
-           transform="translate(81.625001,-24.25)"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           transform="translate(92.500001,-18.125)"
-           id="path4333"
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           id="path4335"
-           transform="translate(106.75,-19)"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           transform="matrix(1.4411765,0,0,1.4411765,1.1323528,-99.35096)"
-           id="path4337"
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           id="path4339"
-           transform="matrix(1.8529412,0,0,1.8529412,-53.169119,-178.53685)"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           transform="matrix(1.8529412,0,0,1.8529412,-65.044119,-171.53685)"
-           id="path4341"
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           id="path4343"
-           transform="matrix(2.4411765,0,0,2.4411765,-152.11765,-283.96313)"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           transform="matrix(2.9705883,0,0,2.9705883,-275.18383,-384.93428)"
-           id="path4345"
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4347"
-           d="m 270.875,203.875 c -4.21117,0 -7.625,3.41383 -7.625,7.625 0,1.6562 0.63435,3.09337 1.53125,4.34375 h 12.1875 C 277.86565,214.59337 278.5,213.1562 278.5,211.5 c 0,-4.21117 -3.41383,-7.625 -7.625,-7.625 z"
-           style="fill:#000000;fill-opacity:1;stroke:none" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4349"
-           d="m 285.25,209.375 c -3.9745,0 -7.1636,2.78314 -8.09375,6.46875 h 16.1875 C 292.4136,212.15814 289.2245,209.375 285.25,209.375 Z"
-           style="fill:#000000;fill-opacity:1;stroke:none" />
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:none"
-           id="path4351"
-           transform="matrix(0.70588235,0,0,0.70588235,151.66177,33.150638)"
-           cx="178.625"
-           cy="198.98717"
-           r="2.125"
-           d="" />
-      </g>
-    </g>
-    <text
-       id="text3137"
-       y="84.397812"
-       x="53.569221"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         id="tspan3145"
-         y="84.397812"
-         x="53.569221"
-         sodipodi:role="line"
-         style="font-size:16px;line-height:1.25">Typen</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -2329,7 +2210,7 @@
     </g>
     <g
        id="g4748"
-       transform="translate(237.66892,499.29302)">
+       transform="translate(244.03288,484.44378)">
       <rect
          y="512.53333"
          x="527.16089"
@@ -2758,7 +2639,7 @@
     </g>
     <g
        id="g5159"
-       transform="translate(531.91219,505.15005)">
+       transform="translate(538.27615,490.30081)">
       <rect
          y="509.72241"
          x="406.49878"
@@ -5123,7 +5004,7 @@
     </g>
     <g
        id="g891"
-       transform="matrix(0.141732,0,0,0.141732,802.84445,1068.1628)">
+       transform="matrix(0.141732,0,0,0.141732,809.20841,1053.3136)">
       <rect
          y="-417.63782"
          x="601.37634"
@@ -5150,7 +5031,7 @@
     </g>
     <g
        id="g1424"
-       transform="matrix(0.141732,0,0,0.141732,646.1657,1036.7973)">
+       transform="matrix(0.141732,0,0,0.141732,652.52966,1021.9481)">
       <path
          cy="-595.87439"
          r="38.839287"
@@ -5684,7 +5565,8 @@
        id="g1952"
        inkscape:export-filename="C:\Users\Charon\Source\Repos\UniversalisSoftware\MasterData\Resources\damage_effects.png"
        inkscape:export-xdpi="267.32001"
-       inkscape:export-ydpi="267.32001">
+       inkscape:export-ydpi="267.32001"
+       transform="translate(562.85694,-595.38385)">
       <rect
          y="951.05945"
          x="365.4816"
@@ -5862,7 +5744,8 @@
        id="g2023"
        inkscape:export-filename="C:\Users\Charon\Downloads\empty_group.png"
        inkscape:export-xdpi="216.75"
-       inkscape:export-ydpi="216.75">
+       inkscape:export-ydpi="216.75"
+       transform="translate(269.49997,361.23398)">
       <rect
          y="502.56143"
          x="759.80927"
@@ -5886,7 +5769,8 @@
        id="g2053"
        inkscape:export-filename="C:\Users\Charon\Downloads\empty_faction.png"
        inkscape:export-xdpi="216.75"
-       inkscape:export-ydpi="216.75">
+       inkscape:export-ydpi="216.75"
+       transform="translate(-9.9450112,33.234015)">
       <rect
          y="502.56143"
          x="795.24438"
@@ -5961,7 +5845,8 @@
        id="g1999"
        inkscape:export-filename="C:\Users\Charon\Downloads\empty_model.png"
        inkscape:export-xdpi="216.75"
-       inkscape:export-ydpi="216.75">
+       inkscape:export-ydpi="216.75"
+       transform="translate(-9.9449753,33.234022)">
       <rect
          y="502.5614"
          x="724.37421"
@@ -6014,6 +5899,219 @@
              cy="535.62494"
              r="0.43749997" />
         </g>
+      </g>
+    </g>
+    <g
+       id="g4682"
+       transform="translate(239.99998,-70.499993)"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Arbeitsordner\powers.png"
+       inkscape:export-xdpi="693.59003"
+       inkscape:export-ydpi="693.59003">
+      <rect
+         y="437.5076"
+         x="800.31793"
+         height="35.433071"
+         width="35.433071"
+         id="rect4649"
+         style="fill:none" />
+      <g
+         id="g4647"
+         transform="matrix(0.88620436,0,0,0.88620436,34.713429,50.397769)">
+        <g
+           id="g4625">
+          <path
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.487017;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 883.90564,450.17681 c -3.7584,-7e-5 -6.80518,3.04671 -6.80511,6.8051 -7e-5,3.7584 3.04671,6.80521 6.80511,6.80513 3.75839,8e-5 6.8052,-3.04673 6.80513,-6.80513 7e-5,-3.75839 -3.04674,-6.80517 -6.80513,-6.8051 z"
+             id="path3026"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="sssss" />
+          <path
+             style="fill:#000000;stroke:none;stroke-width:1.431;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+             id="path3028"
+             sodipodi:type="arc"
+             sodipodi:cx="883.9057"
+             sodipodi:cy="475.48309"
+             sodipodi:rx="13.884254"
+             sodipodi:ry="13.341902"
+             sodipodi:start="3.1415927"
+             sodipodi:end="0"
+             sodipodi:open="true"
+             sodipodi:arc-type="arc"
+             d="m 870.02145,475.48309 a 13.884254,13.341902 0 0 1 13.88425,-13.3419 13.884254,13.341902 0 0 1 13.88426,13.3419" />
+        </g>
+        <g
+           id="g4634">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.07947;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 883.90565,446.2992 v -7.12402"
+             id="path3239"
+             inkscape:transform-center-y="-14.244735" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.07947;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 889.24701,447.73041 3.56201,-6.16958"
+             id="path3520"
+             inkscape:transform-center-y="-12.336305"
+             inkscape:transform-center-x="-7.122365" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.07947;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 893.15716,451.64056 6.16958,-3.56201"
+             id="path3522"
+             inkscape:transform-center-y="-7.12237"
+             inkscape:transform-center-x="-12.3363" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.07947;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 894.58838,456.98192 h 7.12401"
+             id="path3524"
+             inkscape:transform-center-y="-5e-06"
+             inkscape:transform-center-x="-14.244735" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.07947;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 878.56429,447.73041 -3.56201,-6.16958"
+             id="path3526"
+             inkscape:transform-center-y="-12.336305"
+             inkscape:transform-center-x="7.122365" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.07947;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 874.65414,451.64056 -6.16958,-3.56201"
+             id="path3528"
+             inkscape:transform-center-y="-7.12237"
+             inkscape:transform-center-x="12.3363" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.07947;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 873.22292,456.98192 h -7.12401"
+             id="path3530"
+             inkscape:transform-center-y="-5e-06"
+             inkscape:transform-center-x="14.244735" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3162-3"
+       transform="translate(415.266,812.02026)"
+       inkscape:export-filename="C:\Dokumente und Einstellungen\Charon\Eigene Dateien\Dropbox\Projekt Tesserakt\Schadenssymbole\effekt_desintegrator.png"
+       inkscape:export-xdpi="381"
+       inkscape:export-ydpi="381">
+      <rect
+         y="37.263119"
+         x="257.0174"
+         height="35.433071"
+         width="35.433071"
+         id="rect3160-6"
+         style="fill:none" />
+      <g
+         inkscape:export-ydpi="300.05798"
+         inkscape:export-xdpi="300.05798"
+         inkscape:export-filename="/home/charon/Dropbox/Projekt Tesserakt/Schadenssymbole/desintegrator.png"
+         transform="matrix(0.73621882,0,0,0.73621882,75.278389,-88.098303)"
+         id="g4327-8">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.47406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 247.93786,215.83404 c 45.96194,0 45.96194,0 45.96194,0"
+           id="path4329-1"
+           inkscape:connector-curvature="0" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="path4331-8"
+           transform="translate(81.625001,-24.25)"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <circle
+           transform="translate(92.500001,-18.125)"
+           id="path4333-6"
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="path4335-2"
+           transform="translate(106.75,-19)"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <circle
+           transform="matrix(1.4411765,0,0,1.4411765,1.1323528,-99.35096)"
+           id="path4337-0"
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="path4339-1"
+           transform="matrix(1.8529412,0,0,1.8529412,-53.169119,-178.53685)"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <circle
+           transform="matrix(1.8529412,0,0,1.8529412,-65.044119,-171.53685)"
+           id="path4341-3"
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="path4343-4"
+           transform="matrix(2.4411765,0,0,2.4411765,-152.11765,-283.96313)"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <circle
+           transform="matrix(2.9705883,0,0,2.9705883,-275.18383,-384.93428)"
+           id="path4345-2"
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4347-6"
+           d="m 270.875,203.875 c -4.21117,0 -7.625,3.41383 -7.625,7.625 0,1.6562 0.63435,3.09337 1.53125,4.34375 h 12.1875 C 277.86565,214.59337 278.5,213.1562 278.5,211.5 c 0,-4.21117 -3.41383,-7.625 -7.625,-7.625 z"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path4349-6"
+           d="m 285.25,209.375 c -3.9745,0 -7.1636,2.78314 -8.09375,6.46875 h 16.1875 C 292.4136,212.15814 289.2245,209.375 285.25,209.375 Z"
+           style="fill:#000000;fill-opacity:1;stroke:none" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:none"
+           id="path4351-8"
+           transform="matrix(0.70588235,0,0,0.70588235,151.66177,33.150638)"
+           cx="178.625"
+           cy="198.98717"
+           r="2.125" />
+      </g>
+    </g>
+    <g
+       id="g2093"
+       inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Arbeitsordner\empty_group.png"
+       inkscape:export-xdpi="381"
+       inkscape:export-ydpi="381">
+      <rect
+         y="535.79547"
+         x="749.86432"
+         height="35.433071"
+         width="35.433071"
+         id="rect8878"
+         style="fill:#ffffff" />
+      <g
+         id="g13267"
+         transform="matrix(1.0714286,0,0,1.0714286,-164.23077,-103.02155)">
+        <path
+           id="path12826"
+           style="fill:#666666;fill-opacity:1;stroke-width:2.35384;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           d="m 857.19081,597.01464 v 19 c 0,6.90356 5.59644,12.5 12.5,12.5 6.90356,0 12.5,-5.59644 12.5,-12.5 v -19 z"
+           sodipodi:nodetypes="cssscc" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke-width:2.22069;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           d="m 870.04492,613.06055 v 14.55273 c 6.34869,-0.18784 11.43945,-5.389 11.43946,-11.7832 v -2.76953 z"
+           id="path12924" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke-width:2.22069;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           d="m 857.89844,597.90625 v 14.44727 h 11.43945 v -14.44727 z"
+           id="path12828" />
       </g>
     </g>
   </g>
