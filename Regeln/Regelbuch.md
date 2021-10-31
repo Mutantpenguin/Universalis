@@ -859,7 +859,7 @@ Rüstungen werden immer mit ihrem Schutz und eventuellen Effekten angegeben.
 !!! TODO austauschen
 ![rüstungsprofil](Grafiken/Abbildungen/rüstungsprofil.png){width="500pt"}
 
-### Stärke / Schaden / Schutz
+### Stärke / Schaden / Schutz / Schadensreduktion
 
 Sie werden mit den folgenden Symbolen ausgewiesen:
 
@@ -868,6 +868,7 @@ Sie werden mit den folgenden Symbolen ausgewiesen:
 |![stärke](Grafiken/Waffe/stärke.svg){width="40pt"}|Stärke|erhöht die Chance beim [Verletzungswurf](#verletzungs--und-rüstungswurf)|
 |![schaden](Grafiken/Waffe/schaden.svg){width="40pt"}|Schaden|zugefügter Verlust an Trefferpunkten|
 |![schutz](Grafiken/Rüstung/schutz.svg){width="40pt"}|Schutz|erhöht die Chance beim [Rüstungswurf](#verletzungs--und-rüstungswurf)|
+|![schadensreduktion](Grafiken/Rüstung/schadensreduktion.svg){width="40pt"}|Schadensreduktion|Reduktion des Verlusts an Trefferpunkten|
 
 ### Schadenseffekte
 
@@ -930,10 +931,13 @@ Nun wird die folgende Tabelle konsultiert:
 
 ### Schadensanwendung
 
-Wenn der Schaden zur Anwendung kommt, wird er von den aktuellen Trefferpunkten des Verteidigers abgezogen. Sinken sie dadurch auf 0 oder darunter gilt er als [ausgeschaltet](#ausgeschaltet).
+Wenn der Schaden zur Anwendung kommt wird er von den aktuellen Trefferpunkten des Modells abgezogen.
+Sollte die Rüstung über eine Schadensreduktion verfügen wird der Schaden um diesen Wert verringert.
 
-Falls der Verteidiger überlebt erleidet er einen [Schock](#schock).
-Wenn er ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt er nun in einen [kritischen Zustand](#kritischer-zustand).
+Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als [ausgeschaltet](#ausgeschaltet).
+
+Falls das Modell überlebt erleidet es einen [Schock](#schock).
+Wenn es ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt es nun in einen [kritischen Zustand](#kritischer-zustand).
 
 ## Zustände
 

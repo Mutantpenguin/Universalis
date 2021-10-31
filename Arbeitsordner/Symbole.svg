@@ -522,9 +522,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0000002"
-     inkscape:cx="825.74992"
-     inkscape:cy="706.24993"
+     inkscape:zoom="1.4142137"
+     inkscape:cx="399.16174"
+     inkscape:cy="583.71659"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1870,7 +1870,7 @@
       </g>
     </g>
     <g
-       transform="translate(-16.118362,382.13609)"
+       transform="translate(-20.414452,382.13609)"
        id="g7386"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
@@ -2263,7 +2263,7 @@
     </g>
     <g
        id="g4775"
-       transform="translate(-10.16684,34.024629)"
+       transform="translate(-48.831604,34.024629)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2610,7 +2610,7 @@
     </g>
     <g
        id="g5551"
-       transform="translate(-313.57744,13.514723)"
+       transform="translate(-322.16962,13.514723)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2801,7 +2801,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.14173228,0,0,0.14173228,219.11575,515.24695)"
+       transform="matrix(0.14173228,0,0,0.14173228,201.93138,515.24695)"
        id="g4177"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
@@ -2853,7 +2853,7 @@
     </g>
     <g
        id="g4764"
-       transform="translate(-0.28430176,-150.99999)"
+       transform="translate(-21.76474,-150.99999)"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381">
       <rect
@@ -2890,7 +2890,7 @@
        inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\waffen_rüstungen\potential_defence.png"
        inkscape:export-xdpi="381"
        inkscape:export-ydpi="381"
-       transform="translate(-201.72443,80)">
+       transform="translate(-227.50095,80)">
       <rect
          y="441.37982"
          x="531.18262"
@@ -2974,7 +2974,7 @@
        inkscape:export-filename="C:\Users\lobedama\privat\repos\realms\Regeln\Grafiken\Modell\schock.png"
        inkscape:export-xdpi="406.39999"
        inkscape:export-ydpi="406.39999"
-       transform="translate(-192.59427,288.12346)">
+       transform="translate(-226.96295,288.12346)">
       <rect
          y="233.25636"
          x="616.35046"
@@ -4881,7 +4881,7 @@
     </g>
     <g
        id="g2363"
-       transform="translate(-454.98568,242.55188)"
+       transform="translate(-485.05829,242.55188)"
        inkscape:export-filename="/home/charon/Projekte/Universalis/Regeln/Grafiken/Waffe/nachladen.png"
        inkscape:export-xdpi="403.60999"
        inkscape:export-ydpi="403.60999">
@@ -5393,7 +5393,7 @@
        transform="translate(-198.59449,-68.25199)" />
     <g
        id="g2298"
-       transform="translate(-148.2652,-98.570354)"
+       transform="translate(-161.15347,-98.570354)"
        inkscape:export-filename="C:\Users\lobedama\privat\repos\UniversalisSoftware\CardPainter\Resources\g2298.png"
        inkscape:export-xdpi="406"
        inkscape:export-ydpi="406">
@@ -6112,6 +6112,45 @@
            style="fill:#ffffff;fill-opacity:1;stroke-width:2.22069;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
            d="m 857.89844,597.90625 v 14.44727 h 11.43945 v -14.44727 z"
            id="path12828" />
+      </g>
+    </g>
+    <g
+       id="g3598"
+       transform="translate(48.790344,-88.388365)">
+      <rect
+         y="609.76819"
+         x="426.05829"
+         height="35.433071"
+         width="35.433071"
+         id="rect3432"
+         style="fill:none" />
+      <g
+         id="g3590">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3847;stroke-miterlimit:4;stroke-opacity:1"
+           d="m 456.1172,612.1136 -24.68473,-6e-5 v 20.99032 c 2e-5,5.24349 12.34237,9.75198 12.34237,9.75198 0,0 12.34237,-4.50847 12.34236,-9.75198 z"
+           id="path3434"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <g
+           id="g3584"
+           transform="translate(0.28636445,0.85553525)">
+          <rect
+             style="fill:#ffffff;stroke:none;stroke-width:3.69;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+             id="rect3462"
+             width="4.1542521"
+             height="12.462756"
+             x="441.41135"
+             y="618.01129" />
+          <rect
+             style="fill:#ffffff;stroke:none;stroke-width:3.69;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+             id="rect3580"
+             width="4.1542521"
+             height="12.462756"
+             x="622.16553"
+             y="-449.71985"
+             transform="rotate(90)" />
+        </g>
       </g>
     </g>
   </g>
