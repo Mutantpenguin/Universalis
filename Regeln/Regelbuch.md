@@ -1756,12 +1756,20 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
 !!! TODO Kräfte ausarbeiten
 
-    * Für jede Kraft gibt es eine "Karte"
-    * Beziehen sich immer auf ein Attribut
-    * Besitzen eine Schwierigkeit
-    * Haben AP-Kosten
-    * TP-Verlust bei Misslingen
-    * Grundsätzlicher TP-Verlust?
+    * Jede Kraft
+        * Hat eine "Karte"
+        * Bezieht sich immer auf ein Attribut
+        * Besitzt eine Schwierigkeit
+        * Hat AP-Kosten
+        * TP-Verlust bei Misslingen
+        * Grundsätzlicher TP-Verlust?
+        * Dauer
+            * Instantan
+            * Dauerhaft
+        * Reichweite
+            * Nutzer
+            * Berührung
+            * Distanz
     * Gehören einer "Schule" an
       * Farbe je "Schule" definieren
       * Optionales Icon je "Schule"
