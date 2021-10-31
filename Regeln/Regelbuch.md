@@ -757,7 +757,7 @@ Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nich
 
 ### Sichtweite
 
-TODO In bestimmtem Gelände ist die Sichweite durch 
+TODO In bestimmtem Gelände ist die Sichweite durch
 
 TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
 
