@@ -1048,7 +1048,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 4.
 
-Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei unhandlichen Waffen mit 0,5 (aufgerundet).
+Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei [unhandlichen](#unhandliche-waffen) Waffen mit 0,5 (aufgerundet).
 
 !!! example Beispiel
 
