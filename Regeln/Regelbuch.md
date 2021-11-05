@@ -1762,6 +1762,29 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
     PSI, Magie und Thaumaturgie wird alles als "Kräfte" bezeichnet
 
+### Aktionen: Kräfte
+
+!!! danger Kraft verwenden - x ⊙
+
+    !!! TODO
+
+    Kosten abhängig von Kraft.
+
+### Reaktionen: Kräfte
+
+!!! warning Blocken - ??? ⊙
+
+    !!! TODO
+
+    Kosten bestimmen.
+
+    Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
+    Oder im Wahrbehmungsbereich?
+
+    Muss über dem Ergebnis des Casters würfeln?
+
+### Kräfte TODO
+
 !!! TODO Kräfte ausarbeiten
 
     * Jede Kraft
@@ -1778,10 +1801,16 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
             * Nutzer
             * Berührung
             * Distanz
+        * Nutzung
+            * Sichtlinie
+            * Durch Geländeteile
     * Gehören einer "Schule" an
-      * Farbe je "Schule" definieren
-      * Optionales Icon je "Schule"
-      * Icon im Kopf der "Karte" ausgeben
-      * Kopf der "Karte" einfärben
-      * Schriftfarbe automatisch wählen
-        * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
+        * Farbe je "Schule" definieren
+        * Optionales Icon je "Schule"
+        * Icon im Kopf der "Karte" ausgeben
+        * Kopf der "Karte" einfärben
+        * Schriftfarbe automatisch wählen
+            * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
+    * Zuordnung zu Modell:
+        * Einzelne Kraft?
+        * Ganze Schule?
