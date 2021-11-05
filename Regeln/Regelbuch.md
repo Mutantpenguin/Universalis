@@ -972,10 +972,12 @@ Jedes befreundete Modell in Basekontakt gibt einen Bonus von +2 auf den Wurf.
 ### Kritischer Zustand
 
 Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als die Hälfte seiner maximalen Trefferpunkte besitzt.
-
 Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
 
-Das Modell erhält für den Rest des Spiels einen Malus von -2 auf alle seine Attributs- und Vergleichenden Würfe.
+Das Modell erhält für den Rest des Spiels folgende Mali:
+
+* Attributs- und Vergleichende Würfe sind um 2 erschwert
+* die Geschwindigkeit wird halbiert
 
 Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
 
