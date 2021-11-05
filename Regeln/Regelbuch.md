@@ -917,9 +917,11 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 Beide Spieler führen einen vergleichenden Wurf durch.
 Der Angreifer addiert die Stärke seiner Waffe, dies wird *Verletzungswurf* genannt.
 Der Verteider addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* genannt.
-Sofern er über keine Rüstung verfügt addiert er stattdessen seine KO.
 
-Hierbei müssen auch alle Effekte angewendet werden.
+Hierbei kommen alle Schadenseffekte zur Anwendung.
+
+Sofern der Verteidiger über keine Rüstung verfügt addiert er stattdessen seine KO.
+Sie wird auch verwendet, falls sie höher als der Schutz der Rüstung sein sollte.
 
 Nun wird die folgende Tabelle konsultiert:
 
