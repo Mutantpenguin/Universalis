@@ -661,7 +661,7 @@ Der Treffer hat eine Stärke in Höhe der KO des gefallenen Modells.
 
 ### Vertikale Bewegung
 
-Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern bewegen.
+Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern und vergleichbarem bewegen.
 Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 
 ### Klettern
