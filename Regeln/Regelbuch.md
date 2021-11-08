@@ -620,6 +620,17 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
 
+!!! danger Nachladen - X ⊙
+
+    !!! note ""
+
+        Bedingung:
+
+        Diese Aktion kann nur von Modellen mit dem Marker für [Nachladen](#nachladen) durchgeführt werden.
+
+    Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Marker gilt.
+    Der Marker wird danach vom Modell entfernt.
+
 ### Reaktionen: Bewegung
 
 !!! warning Zu Boden werfen - 1 ⊙
@@ -1087,15 +1098,13 @@ Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen
 
 ### Nachladen
 
-!!! TODO
+Waffen die nachladen müssen besitzen das folgende Symbol.
 
-    * Manche Waffen brauchen das
-    * Kosten wie WK? Oder doppelte WK?
-    * Aktion dafür definieren!
+![nachladen](Grafiken/Waffe/nachladen.svg){width="40pt"} {align="center"}
 
-Waffen die nachladen müssen besitzen das folgende Symbol bzw. Marker.
+Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion [Nachladen](#aktionen:-bewegung) durchgeführt wurde:
 
-![nachladen](Grafiken/Waffe/nachladen.svg){width="40pt"} ![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"} {align="center"}
+![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"} {align="center"}
 
 ### Einmalnutzung von Waffen
 
