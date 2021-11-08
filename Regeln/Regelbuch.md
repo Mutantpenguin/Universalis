@@ -1392,6 +1392,15 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
+!!! danger Verwegener Angriff - WK+1 ⊙
+
+    !!! TODO Das funktioniert nach den aktuellen Regeln nicht mehr
+
+    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+    Es erhält +2 auf seinen NK-Wurf.
+    
+    Sollte es den Nahkampf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
+
 !!! danger Verteidigung - 2 ⊙
 
     !!! note ""
@@ -1412,13 +1421,6 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
     Misslingt dieser verliert es die Verteidigung.
     Es muss dafür nicht getroffen werden.
-
-!!! danger Komplex: Brachialer Angriff - WK+1 ⊙
-
-    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
-    Es erhält +2 auf seinen NK-Wurf.
-    
-    Sollte es den Nahkampf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
 
 ### Reaktionen: Nahkampf
 

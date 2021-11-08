@@ -138,10 +138,6 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Der Nahkampfgegner kann `[Stufe]` mal dazu gezwungen werden seinen Nahkampfwurf neu zu würfeln.
 
-!!! check Ohne Rücksicht auf Verluste
-
-    Kann die Aktion "Brachialer Angriff" anwenden.
-
 ## Schaden & Verteidigung
 
 !!! check Abgehärtet
