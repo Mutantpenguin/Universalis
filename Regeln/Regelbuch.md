@@ -1211,7 +1211,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
     
     Er ist nicht in Kombination mit Dauerfeuer einsetzbar.
 
-!!! danger Komplex: Schnellschuss - WK ⊙
+!!! danger Schnellschuss - WK ⊙
 
     Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
 

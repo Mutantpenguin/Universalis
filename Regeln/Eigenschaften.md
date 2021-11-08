@@ -96,10 +96,6 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Bei der Aktion "Gezielter Schuss" bekommt das Modell einen weiteren Bonus von +1 auf seinen FK-Wurf.
 
-!!! check Aus der Hüfte
-
-    Kann die Aktion "Schnellschuss" anwenden.
-
 !!! check Bewährter Fernkämpfer | 1 - 3
 
     Das Modell darf `[Stufe]` mal seinen Fernkampfwurf neu würfeln.
