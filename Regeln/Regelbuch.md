@@ -620,7 +620,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 ### Reaktionen: Bewegung
 
-!!! warning Hinwerfen - 2 ⊙
+!!! warning Hinwerfen - 1 ⊙
 
     !!! note ""
 
@@ -630,7 +630,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
         
         Nicht bei liegenden Modellen.
     
-    Das Modell wirft sich zu Boden und gilt als liegend.
+    Das Modell wirft sich zu Boden und gilt als [liegend](#liegende-modelle).
 
 !!! warning Komplex: Beschuss Ausweichen - 1 ⊙
 
