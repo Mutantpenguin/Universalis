@@ -94,7 +94,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check Adlerauge
 
-    Kann die Aktion "Gezielter Schuss" anwenden.
+    Bei der Aktion "Gezielter Schuss" bekommt das Modell einen weiteren Bonus von +1 auf seinen FK-Wurf.
 
 !!! check Aus der Hüfte
 

@@ -1204,7 +1204,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
     Misslingt dieser verliert es die Feuerbereitschaft.
     Es muss dafür nicht getroffen werden.
 
-!!! danger Komplex: Gezielter Schuss - WK+2 ⊙
+!!! danger Gezielter Schuss - WK+2 ⊙
 
     Das Modell führt einen Fernkampf durch und erhält +1 auf seinen FK-Wurf.
     Die Reichweitenbänder werden hierbei verdoppelt.
