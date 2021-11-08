@@ -1772,7 +1772,7 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
 ### Reaktionen: Kräfte
 
-!!! warning Blocken - ??? ⊙
+!!! warning Kraft blockieren - ??? ⊙
 
     !!! TODO
 
