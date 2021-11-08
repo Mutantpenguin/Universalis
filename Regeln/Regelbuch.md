@@ -620,7 +620,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 ### Reaktionen: Bewegung
 
-!!! warning Hinwerfen - 1 ⊙
+!!! warning Zu Boden werfen - 1 ⊙
 
     !!! note ""
 
