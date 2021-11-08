@@ -1602,8 +1602,6 @@ Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
 
 TODO Auch bei Rüstungen, Waffen und Eigenschaften. Rüstungen können das jetzt schon.
 
-TODO Ausrüstung muss auch den Rüstungsschutz modifizieren können?
-
 Diese können permanent oder temporär sein:
 
 * #### Permanent
