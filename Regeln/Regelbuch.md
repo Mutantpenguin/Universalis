@@ -1397,7 +1397,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     !!! note ""
 
         Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
-        Jede weitere Aktion beendet die Verteidigung automatisch.
+        Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
 
     Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
     Es verliert sie dann automatisch.
@@ -1406,10 +1406,10 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
     ![verteidigung](Grafiken/Marker/verteidigung.svg){width="40pt"} {align="center"}
 
-    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen Bonus für eine [Angriffsbewegung](#aktionen:-bewegung).
+    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen [Bonus](#bonus-für-den-angreifer) für eine [Angriffsbewegung](#aktionen:-bewegung).
     Das Modell verliert danach automatisch seine Verteidigung.
 
-    Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
+    Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
     Misslingt dieser verliert es die Verteidigung.
     Es muss dafür nicht getroffen werden.
 
