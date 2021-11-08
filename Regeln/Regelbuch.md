@@ -576,6 +576,8 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
     Das Modell bewegt sich entsprechend seiner GK in cm.
     Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es liegt.
 
+    Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 3cm eingehalten werden.
+
 !!! danger Angriffsbewegung - WK ⊙
 
     Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe.
