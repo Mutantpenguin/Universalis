@@ -126,9 +126,9 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Wenn das Modell als Angreifer von ausserhalb des Sichtfeldes angreift und über ein kleineres Größenprofil verfügt darf es sich bei Kolossen die Trefferzone aussuchen.
 
-!!! check Gegenangriff
+!!! check Riposte
 
-    Kann die Reaktion "Riposte" anwenden.
+    Bekommt bei der Reaktion "Gegenangriff" einen Bonus von +2 auf seinen NK-Wurf falls es sich bei dem vorhergehenden Nahkampf erfolgreich verteidigt hat.
 
 !!! check Gun-Kata
 

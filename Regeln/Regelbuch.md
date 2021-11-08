@@ -1422,6 +1422,16 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
 ### Reaktionen: Nahkampf
 
+!!! warning Gegenangriff - WK ⊙
+
+    !!! note ""
+
+        Bedingungen:
+        
+        Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
+    
+    Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
+
 !!! warning Gelegenheitsangriff - WK-1 ⊙
 
     !!! note ""
@@ -1432,19 +1442,6 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     
     Das Modell führt mit dem sich entfernenden Modell einen Nahkampf durch und gilt als der Angreifer.
     Das sich entfernende Modell kämpft mit NK von 0.
-
-!!! warning Komplex: Riposte - WK ⊙
-
-    !!! note ""
-
-        Bedingungen:
-        
-        Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
-
-        Nur wenn der Angriff erfolgreich abgewehrt wurde.
-    
-    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
-    Es erhält +2 auf seinen NK-Wurf.
 
 ### Erlaubte Waffen im Nahkampf
 
