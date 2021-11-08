@@ -1371,10 +1371,18 @@ Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
 TODO Kleiner Einleitungstext was Nahkampf ist
 blah blah yadda yadda
 
-### Durchführung des Nahkampfes
+Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Modelle im Nahkampf miteinander befinden.
 
-TODO klarstellen, dass Basekontakt mit gegnerischem Modell immer Nahkampf bedeutet
-TODO Hinweis, dass während eines Nahkampfes nicht andere Aktionen durchgeführt werden können. Auflisten, welche erlaubt sind
+Währenddessen sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
+
+|                  Aktion                   |                   Reaktion                   |
+| :---------------------------------------: | :------------------------------------------: |
+|      [Angriff](#aktionen:-nahkampf)       |    [Gegenangriff](#reaktionen:-nahkampf)     |
+| [Verwegener Angriff](#aktionen:-nahkampf) | [Gelegenheitsangriff](#reaktionen:-nahkampf) |
+| [Aus Nahkampf lösen](#aktionen:-bewegung) |                                              |
+|   [Kraft verwenden](#aktionen:-kräfte)    |                                              |
+
+### Durchführung des Nahkampfes
 
 Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
