@@ -484,17 +484,11 @@ Siehe dazu auch [Aktionspunkte](#aktionspunkte).
 
 Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
 
-Ein Modell kann in jeder Runde nur so viele Aktionen und Reaktionen ausführen, bis seine Aktionspunkte verbraucht sind.
-Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten angegeben.
-
-### Typen
-
-Es wird hierbei zwischen *normalen* und *komplexen* Aktionen und Reaktionen unterschieden.
-
-*Normale* können von jedem Modell durchgeführt werden, vorausgesetzt es verfügt über die nötigen Voraussetzungen (bspw. „Hände“ um eine Waffe abzufeuern etc.).
+Sie dürfen von jedem Modell durchgeführt werden sofern die nötigen Voraussetzungen erfüllt sind wie bspw. das Vorhandensein von „Händen“ um eine Waffe abzufeuern und so weiter.
 Hier ist der gesunde Menschenverstand gefragt.
 
-*Komplexe* müssen erlernt werden und können bspw. durch Ausrüstung oder Eigenschaften ermöglicht werden.
+Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
+Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten angegeben.
 
 ### Aktionen
 
