@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="29.359226mm"
-   height="29.359226mm"
-   viewBox="0 0 104.02875 104.02875"
+   width="40mm"
+   height="40mm"
+   viewBox="0 0 141.73228 141.73228"
    id="svg5060"
    version="1.1"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -58,7 +58,8 @@
      id="layer1"
      transform="translate(-123.73417,-604.60351)">
     <g
-       id="g3368">
+       id="g3368"
+       transform="matrix(1.3609782,0,0,1.3624375,-44.589633,-219.13118)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.25197;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke;stop-color:#000000"
          id="rect890"
