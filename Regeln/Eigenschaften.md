@@ -65,7 +65,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check 7. Sinn
 
-    Kann die Reaktion "Beschuss Ausweichen" anwenden.
+    Bekommt bei der Reaktion "Beschuss Ausweichen" einen Bonus von +2 auf den vergleichenden AGI-Wurf.
 
 !!! check Bodenhaftung | 1 - 3
 

@@ -635,29 +635,17 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 ### Reaktionen: Bewegung
 
-!!! warning Zu Boden werfen - 1 ⊙
-
-    !!! note ""
-
-        Bedingung:
-
-        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
-        
-        Nicht bei liegenden Modellen.
-    
-    Das Modell wirft sich zu Boden und gilt als [liegend](#liegende-modelle).
-
-!!! warning Komplex: Beschuss Ausweichen - 1 ⊙
+!!! warning Beschuss Ausweichen - 1 ⊙
 
     !!! note ""
 
         Bedingung:
         
-        Kann nur von dem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
+        Kann nur von einem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
         
         Nicht bei liegenden Modellen.
     
-    Der Schütze erhält -1 auf seinen FK-Wurf.
+    Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
 
 ### Herunterfallen
 
