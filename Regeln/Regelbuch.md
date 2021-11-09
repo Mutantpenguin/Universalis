@@ -528,13 +528,15 @@ Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
 
 ### Übersicht Aktionen und Reaktionen
 
-|Bereich|
-|--|
-|[Bewegen](#aktionen:-bewegung)|
-|[Fernkampf](#aktionen:-fernkampf)|
-|[Nahkampf](#aktionen:-nahkampf)|
-|[Aufklären](#aktionen:-tarnung)|
-|[Ausrüstung](#ausrüstung)|
+|                                           | Aktionen | Reaktionen |
+| :---------------------------------------- | :------: | :--------: |
+| [Ausrüstung](#aktionen:-ausrüstung)       |    X     |            |
+| [Bewegen](#aktionen:-bewegung)            |    X     |     X      |
+| [Eigenschaften](#aktionen:-eigenschaften) |    X     |            |
+| [Fernkampf](#aktionen:-fernkampf)         |    X     |     X      |
+| [Kräfte](#aktionen:-kräfte)               |    X     |     X      |
+| [Nahkampf](#aktionen:-nahkampf)           |    X     |     X      |
+| [Tarnung](#aktionen:-tarnung)             |    X     |     X      |
 
 ## Bewegung
 
