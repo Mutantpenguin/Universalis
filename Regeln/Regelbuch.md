@@ -1211,9 +1211,8 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
 
     ![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"} {align="center"}
 
-    Wenn das Modell beschossen wird muss es einen EH-Test ablegen.
+    Falls das Modell das Ziel irgendeiner Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
     Misslingt dieser verliert es die Feuerbereitschaft.
-    Es muss dafür nicht getroffen werden.
 
 !!! danger Gezielter Schuss - WK+2 ⊙
 
