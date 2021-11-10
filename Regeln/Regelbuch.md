@@ -1047,7 +1047,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 ### Wurfwaffen
 
-Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 4.
+Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
 Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei [unhandlichen](#unhandliche-waffen) Waffen mit 0,5 (aufgerundet).
 
@@ -1055,6 +1055,7 @@ Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 m
 
     Für einen Menschen mit KO von 5:
 
+    TODO austauschen
     ![Wurfwaffe](Grafiken/Abbildungen/wurfwaffe.jpg){width="500pt"}
 
 ### Waffenklassen
