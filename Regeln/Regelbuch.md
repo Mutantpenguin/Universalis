@@ -1271,6 +1271,13 @@ Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 
+Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen [Geländeteile](#geländeteile) mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
+
+!!! example Beispiel
+
+    Ein Granatwerfer hat eine Reichweite von 25/4 und somit eine maximale Reichweite von 100cm.
+    Die maximale Höhe für den Schuss beträgt somit 50cm.
+
 Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
 Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
 Weitere Mali durch Deckung kommen nicht zur Geltung.
