@@ -215,9 +215,25 @@ Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht de
 
 Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. [Sichtlinien](#sichtlinie) keine Rolle mehr spielen.
 
+### Profilmodifikatoren
+
+Manche [Rüstungen](#rüstung), [Waffen](#waffen) und [Eigenschaften](#eigenschaften) können Auswirkungen auf das Profil eines Modells haben.
+
+Diese können entweder permanent oder temporär sein:
+
+* #### Permanent
+
+  Gelten dauernd und werden auf der [Einheitenkarte](#einheitenkarte) direkt in das Profil mit eingerechnet.
+
+* #### Temporär
+
+  Temporäre Profilmodifikatoren sind auf der [Einheitenkarte](#einheitenkarte) nicht im Profil mit eingerechnet.
+  Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
+
 ## Eigenschaften
 
-Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache Attribute hinausgeht.
+Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache [Attribute](#attribute) hinausgeht.
+Außerdem können sie über eventuelle [Profilmodifikatoren](#profilmodifikatoren) verfügen.
 
 ### Aktionen: Eigenschaften
 
@@ -1035,7 +1051,7 @@ Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und erleiden 
 
 ## Waffen
 
-Waffen verfügen über ein [Schadensprofil](#schadensprofil).
+Waffen verfügen über ein [Schadensprofil](#schadensprofil) und eventuelle [Profilmodifikatoren](#profilmodifikatoren).
 
 ### Fernkampfwaffen
 
@@ -1132,7 +1148,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 TODO
 
-Rüstungen verfügen über ein [Rüstungsprofil](#rüstungsprofil).
+Rüstungen verfügen über ein [Rüstungsprofil](#rüstungsprofil) und eventuelle [Profilmodifikatoren](#profilmodifikatoren).
 
 ### Additiver Schutz
 
@@ -1588,22 +1604,6 @@ Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe 
 
 Jede Ausrüstung kann Regeln beinhalten.
 Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
-
-### Profilmodifikatoren
-
-TODO Auch bei Rüstungen, Waffen und Eigenschaften. Rüstungen können das jetzt schon.
-
-Diese können permanent oder temporär sein:
-
-* #### Permanent
-
-  Manche Ausrüstung bringt permanente Profilmodifikatoren mit sich.
-  Diese werden auf der Einheitenkarte direkt in das Profil mit eingerechnet.
-
-* #### Temporär
-
-  Temporäre Profilmodifikatoren sind auf der Einheitenkarte nicht im Profil mit eingerechnet.
-  Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 ### AP-Kosten von Ausrüstung
 
