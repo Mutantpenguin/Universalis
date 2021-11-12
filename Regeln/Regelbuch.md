@@ -602,9 +602,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     !!! note ""
 
-        Bedingung:
-
-        Befindet sich im Nahkampf.
+        Das Modell muss sich im Nahkampf befinden.
 
     Mit dieser Aktion kann sich ein Modell aus einem [Nahkampf](#nahkampf) lösen, zunächst muss es aber den Test für eine [Direkte Bedrohung](#direkte-bedrohung) durchführen.
 
@@ -636,8 +634,6 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     !!! note ""
 
-        Bedingung:
-
         Diese Aktion kann nur von Modellen mit dem Marker für [Nachladen](#nachladen) durchgeführt werden.
 
     Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Marker gilt.
@@ -648,8 +644,6 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 !!! warning Beschuss Ausweichen - 1 ⊙
 
     !!! note ""
-
-        Bedingung:
         
         Kann nur von einem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
         
@@ -1229,8 +1223,6 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
 
     !!! note ""
 
-        Bedingungen:
-
         Das Modell muss sich in Feuerbereitschaft befinden.
         
         Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiativephase durchgeführt werden.
@@ -1451,8 +1443,6 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 
     !!! note ""
 
-        Bedingungen:
-        
         Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
     
     Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
@@ -1460,8 +1450,6 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
 !!! warning Gelegenheitsangriff - WK-1 ⊙
 
     !!! note ""
-
-        Bedingungen:
 
         Kann durchgeführt werden, wenn ein gegnerisches Modell in Basekontakt sich entfernt.
     
