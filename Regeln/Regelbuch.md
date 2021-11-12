@@ -586,7 +586,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 !!! danger Normale Bewegung - 1-2 ⊙
 
     Das Modell bewegt sich entsprechend seiner GK in cm.
-    Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es liegt.
+    Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es [liegt](#liegende-modelle).
 
     Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 3cm eingehalten werden.
 
@@ -614,7 +614,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 !!! danger Hinlegen - 1 ⊙
 
-    Das Modell gilt als liegend.
+    Das Modell gilt als [liegend](#liegende-modelle).
 
 !!! danger Aufstehen - 1 ⊙
 
@@ -626,7 +626,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
     
     Falls es unmittelbar vorher mindestens eine volle Bewegung gemacht hat, darf es die doppelte Reichweite springen.
     
-    Ein Modell kann nicht springen, wenn es liegt.
+    Ein Modell kann nicht springen, wenn es [liegt](#liegende-modelle).
 
 !!! danger Interagieren - 1 ⊙
 
@@ -653,7 +653,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
         
         Kann nur von einem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
         
-        Nicht bei liegenden Modellen.
+        Nicht bei [liegenden](#liegende-modelle) Modellen.
     
     Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
 
