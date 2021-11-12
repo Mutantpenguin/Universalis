@@ -1198,10 +1198,9 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
 
     !!! note ""
 
-        Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
-        Jede weitere Aktion beendet die Feuerbereitschaft automatisch.
-
         Nur mit Schusswaffen der WK I, II und III.
+        
+        Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden da jede weitere Aktion die Feuerbereitschaft automatisch beendet.
 
     Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
     Es verliert sie dann automatisch.
