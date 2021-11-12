@@ -148,11 +148,11 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Jeder erlittene Schaden wird um 1 erhöht.
 
-!!! check Regeneration
+!!! check Regeneration | 1 - 5
 
     Zum Beginn jeder Initiativephase des Modells werden seine Trefferpunkte wieder um `[Stufe]` Punkte aufgefüllt.
     
-    Greift nur wenn das Modell noch über mindestens 1 Substanzpunkt verfügt.
+    Greift nur wenn das Modell noch über mindestens 1 Trefferpunkte verfügt.
 
 !!! check Selbstverzehrung
 
