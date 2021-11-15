@@ -645,9 +645,12 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     !!! note ""
         
-        Kann nur von einem beschossenen Modell ausgeführt werden, und nur bevor der Schütze seinen FK-Wurf durchführt.
-        
+        Kann von einem Modell durchgeführt werden, welches Ziel eines Fernkampfangriffs ist.
+        Der Schütze muss sich im [Wahrnehmungsbereich](#wahrnehmungsbereich) befinden.
+
         Nicht bei [liegenden](#liegende-modelle) Modellen.
+
+        Nur bevor der Schütze seinen FK-Wurf durchführt.
     
     Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
 
