@@ -985,8 +985,9 @@ Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das e
 
 Das Modell erhält für den Rest des Spiels folgende Mali:
 
-* Attributs- und Vergleichende Würfe sind um 2 erschwert
-* die Geschwindigkeit wird halbiert
+* [Attributs-](#attributswurf) und [Vergleichende](#vergleichender-Wurf) Würfe sind um 2 erschwert
+* die [Geschwindigkeit](#geschwindigkeit) wird halbiert (aufgerundet)
+* die Reichweite des [Wahrnehmungsbereichs](#wahrnehmungsbereich) wird halbiert (aufgerundet)
 
 Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
 
