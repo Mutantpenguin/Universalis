@@ -104,7 +104,7 @@ Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebe
 ### Einheitenkarte
 
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
-Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten [Waffen](#waffen), [Rüstung](#rüstung) [Ausrüstung](#ausrüstung) und [Eigenschaften](#eigenschaften).
+Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten [Waffen](#waffen), [Rüstung](#rüstung), [Ausrüstung](#ausrüstung) und [Eigenschaften](#eigenschaften).
 
 Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
 So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
