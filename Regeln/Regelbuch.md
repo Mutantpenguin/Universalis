@@ -97,9 +97,9 @@ Jeder Spieler verfügt über genau 1 Gruppe die genau 1 Gruppenführer beinhalte
 
 Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
 
-Der Gruppenführer einer Gruppe wird unter anderem dafür benötigt die Aufstellungsreihenfolge und [Reihenfolge innerhalb einer Runde](#reihenfolge-innerhalb-der-runde) zu bestimmen.
+Er wird unter anderem dafür benötigt die [Aufstellungsreihenfolge](#aufstellen-der-modelle) zu bestimmen.
 
-Jede Fraktion hat dazu ihre eigene Regelung wer der Gruppenführer ist und wie ein Stellvertreter bestimmt wird.
+Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebenenfalls ein Stellvertreter bestimmt wird.
 
 ### Einheitenkarte
 
