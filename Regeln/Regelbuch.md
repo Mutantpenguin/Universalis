@@ -1230,6 +1230,8 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
         Das Modell muss sich in Feuerbereitschaft befinden.
         
         Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiativephase durchgeführt werden.
+        ODER TODO
+        Kann zwischen den Aktionen innerhalb einer gegnerischen Initiativephase durchgeführt werden.
         
         Der Beschuss darf nur auf das Modell dessen Initiativephase gerade gilt gerichtet sein.
     
