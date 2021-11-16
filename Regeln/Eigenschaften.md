@@ -82,9 +82,9 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 ## Drohnen
 
-!!! check TODO | 1 - 3
+!!! check Instinktive Steuerung | 1 - 5
 
-    Das Modell hat `[Stufe]` zusätzliche AP, die es aber nur für seine Drohnen ausgeben darf.
+    Das Modell hat `[Stufe]` zusätzliche AP, die es aber nur für seine Drohnen verwenden darf.
 
 !!! check Multitasking | 1 - 3
 
@@ -168,10 +168,6 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
     Jeder erlittene Schaden wird um `[Stufe]` verringert.
 
 ## Sonstiges
-
-!!! check TODO
-
-    Um eine Aktion durch eine Reaktion zu unterbrechen wird die Reichweite des Wahrnehmungsbereichs verdoppelt.
 
 !!! cite Automaton
 
