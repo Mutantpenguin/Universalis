@@ -144,9 +144,9 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Zum Beginn jeder Initiativephase des Modells werden seine Trefferpunkte wieder voll aufgefüllt.
 
-!!! fail Bluter
+!!! fail Bluter | 1 - 3
 
-    Jeder erlittene Schaden wird um 1 erhöht.
+    Jeder erlittene Schaden wird um `[Stufe]` erhöht.
 
 !!! check Regeneration | 1 - 5
 
@@ -154,9 +154,9 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
     
     Greift nur wenn das Modell noch über mindestens 1 Trefferpunkte verfügt.
 
-!!! check Selbstverzehrung
+!!! check Selbstverzehrung | 1 - 3
 
-    Pro ausgegebenem Trefferpunkt erhält das Modell 1 AP.
+    Pro ausgegebenem Trefferpunkt erhält das Modell `[Stufe]` AP.
 
 !!! check Stabil
 
