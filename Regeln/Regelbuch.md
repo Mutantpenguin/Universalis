@@ -1228,13 +1228,11 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
     !!! note ""
 
         Das Modell muss sich in Feuerbereitschaft befinden.
-        
-        Kann zu jedem beliebigen Zeitpunkt innerhalb einer gegnerischen Initiativephase durchgeführt werden.
-        ODER TODO
-        Kann zwischen den Aktionen innerhalb einer gegnerischen Initiativephase durchgeführt werden.
-        
-        Der Beschuss darf nur auf das Modell dessen Initiativephase gerade gilt gerichtet sein.
-    
+
+        Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige [Bewegungsaktion](#aktionen:-bewegung) innerhalb des [Wahrnehmungsbereichs](#wahrnehmungsbereich) durchführt.
+
+        TODO vergleichender AGI-Test, wenn die Bewegungsaktion eine Auswirkung auf den FK-Wurf hätte?
+
     Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch.
     
     Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
