@@ -520,22 +520,6 @@ Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
 Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
 Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
 
-#### Aktionen durch Reaktionen unterbrechen
-
-Damit auf eine Aktion reagiert werden kann, muss diese im [Wahrnehmungsbereich](#wahrnehmungsbereich) stattfinden.
-
-Es kann versucht werden eine Aktion zu unterbrechen bevor sie durchgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
-
-Damit dieser Versuch erfolgreich ist, muss das reagierende Modell einen vergleichenden Wurf auf AGI gegen das aktuelle Modell gewinnen.
-Bei einem Gleichstand gewinnt das Modell dessen Initiativephase gerade läuft.
-
-Der Gewinner führt als Erster seine Aktion/Reaktion durch, der Verlierer danach seine.
-
-Wenn sich dadurch, bspw. durch einen Treffer, negative Auswirkungen ergeben kommen sie auch sofort zur Anwendung.
-Aktion und Reaktion passieren also nicht gleichzeitig, sondern nacheinander.
-
-!!! TODO AGI-Test optional und von der konkreten Reaktion abhängig
-
 ### Übersicht Aktionen und Reaktionen
 
 |                                           | Aktionen | Reaktionen |
@@ -1230,6 +1214,8 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
         Das Modell muss sich in Feuerbereitschaft befinden.
 
         Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige [Bewegungsaktion](#aktionen:-bewegung) innerhalb des [Wahrnehmungsbereichs](#wahrnehmungsbereich) durchführt.
+
+        Die Reaktion kann stattfinden bevor oder nachdem die Bewegungsaktion ausgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
 
         TODO vergleichender AGI-Test, wenn die Bewegungsaktion eine Auswirkung auf den FK-Wurf hätte?
 
