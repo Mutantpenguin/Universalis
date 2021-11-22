@@ -522,15 +522,15 @@ Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde s
 
 ### Übersicht Aktionen und Reaktionen
 
-|                                           | Aktionen | Reaktionen |
-| :---------------------------------------- | :------: | :--------: |
-| [Ausrüstung](#aktionen:-ausrüstung)       |    X     |            |
-| [Bewegen](#aktionen:-bewegung)            |    X     |     X      |
-| [Eigenschaften](#aktionen:-eigenschaften) |    X     |            |
-| [Fernkampf](#aktionen:-fernkampf)         |    X     |     X      |
-| [Kräfte](#aktionen:-kräfte)               |    X     |     X      |
-| [Nahkampf](#aktionen:-nahkampf)           |    X     |     X      |
-| [Tarnung](#aktionen:-tarnung)             |    X     |     X      |
+|               |           Aktionen            |         Reaktionen          |
+| :------------ | :---------------------------: | :-------------------------: |
+| Ausrüstung    |  [⊙](#aktionen:-ausrüstung)   |                             |
+| Bewegen       |   [⊙](#aktionen:-bewegung)    | [⊙](#reaktionen:-bewegung)  |
+| Eigenschaften | [⊙](#aktionen:-eigenschaften) |                             |
+| Fernkampf     |   [⊙](#aktionen:-fernkampf)   | [⊙](#reaktionen:-fernkampf) |
+| Kräfte        |    [⊙](#aktionen:-kräfte)     |  [⊙](#reaktionen:-kräfte)   |
+| Nahkampf      |   [⊙](#aktionen:-nahkampf)    | [⊙](#reaktionen:-nahkampf)  |
+| Tarnung       |    [⊙](#aktionen:-tarnung)    |  [⊙](#reaktionen:-tarnung)  |
 
 ## Bewegung
 
