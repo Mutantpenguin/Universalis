@@ -1213,6 +1213,8 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
 
         Das Modell muss sich in Feuerbereitschaft befinden.
 
+        Kann nicht mit [indirektem Fernkampf](#indirekter-fernkampf) genutzt werden.
+
         Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige [Bewegungsaktion](#aktionen:-bewegung) innerhalb des [Wahrnehmungsbereichs](#wahrnehmungsbereich) durchführt.
 
         Die Reaktion kann stattfinden bevor oder nachdem die Bewegungsaktion ausgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
@@ -1268,6 +1270,8 @@ Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 ### Indirekter Fernkampf
 
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
+
+Er ist nicht mit der Aktion [Reaktionsfeuer](#reaktionen:-fernkampf) kombinierbar.
 
 Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen [Geländeteile](#geländeteile) mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
 
