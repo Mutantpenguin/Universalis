@@ -1294,6 +1294,8 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 * #### Größe des Ziels
 
+  Je nach [Größe](#größenprofil) des Ziels ist es einfacher oder schwieriger zu treffen.
+
   |      Typ       | Modifikator |
   | :------------: | :---------: |
   |  kleines Ziel  |     -1      |
@@ -1303,11 +1305,13 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 * #### Deckung des Ziels
 
-| Stufe | Modifikator |
-| :---: | :---------: |
-|   I   |     -1      |
-|  II   |     -2      |
-|  III  |     -3      |
+  Der durch eventuelle [Deckung](#deckung) angewandte Modifikator.
+
+  | Stufe | Modifikator |
+  | :---: | :---------: |
+  |   I   |     -1      |
+  |  II   |     -2      |
+  |  III  |     -3      |
 
 * #### Unhandliche Waffen im Fernkampf
 
