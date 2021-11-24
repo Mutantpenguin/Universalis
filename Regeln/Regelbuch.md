@@ -1445,7 +1445,7 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     
     Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
 
-!!! warning Gelegenheitsangriff - WK-1 ⊙
+!!! warning Gelegenheitsangriff - WK ⊙
 
     !!! note ""
 
