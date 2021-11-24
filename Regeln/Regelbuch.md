@@ -614,7 +614,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
 
-!!! danger Nachladen - X ⊙
+!!! danger Nachladen - WK ⊙
 
     !!! note ""
 
