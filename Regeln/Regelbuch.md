@@ -1552,11 +1552,9 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 ### Aktionen: Tarnung
 
-!!! danger Aufklären - 1 ⊙
+!!! danger Aufklären - 2 ⊙
 
     Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
-
-    Pro Initiativephase darf mit jedem eigenen Modell pro getarntem gegnerischen Modell nur einmal für Aufklärung getestet werden.
 
     Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
     Bei Erfolg wurde das getarnte Modell aufgeklärt.
