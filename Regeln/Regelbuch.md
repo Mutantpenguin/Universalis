@@ -1267,29 +1267,6 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
 
 Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
 
-### Indirekter Fernkampf
-
-Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
-
-Er ist nicht mit der Aktion [Reaktionsfeuer](#reaktionen:-fernkampf) kombinierbar.
-
-Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen [Geländeteile](#geländeteile) mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
-
-!!! example Beispiel
-
-    Ein Granatwerfer hat eine Reichweite von 25/4 und somit eine maximale Reichweite von 100cm.
-    Die maximale Höhe für den Schuss beträgt somit 50cm.
-
-Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
-Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
-Weitere Mali durch Deckung kommen nicht zur Geltung.
-
-Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in Deckung Stufe II befinden.
-
-Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
-
-![indirekt](Grafiken/Waffe/indirekt.svg){width="40pt"} {align="center"}
-
 ### Modifikatoren im Fernkampf
 
 * #### Größe des Ziels
@@ -1324,6 +1301,29 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 * #### Schnelle Bewegungen des Ziels
 
   Auf Ziele, welche sich in [schneller Bewegung](#schnelle-bewegungen) befinden, gibt es einen Malus von -2 auf den FK-Wurf.
+
+### Indirekter Fernkampf
+
+Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
+
+Er ist nicht mit der Aktion [Reaktionsfeuer](#reaktionen:-fernkampf) kombinierbar.
+
+Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen [Geländeteile](#geländeteile) mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
+
+!!! example Beispiel
+
+    Ein Granatwerfer hat eine Reichweite von 25/4 und somit eine maximale Reichweite von 100cm.
+    Die maximale Höhe für den Schuss beträgt somit 50cm.
+
+Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
+Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
+Weitere Mali durch Deckung kommen nicht zur Geltung.
+
+Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in Deckung Stufe II befinden.
+
+Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
+
+![indirekt](Grafiken/Waffe/indirekt.svg){width="40pt"} {align="center"}
 
 ### Dauerfeuer
 
