@@ -839,7 +839,6 @@ Um Schaden abzuwehren gibt es verschiedene Möglichkeiten wie bspw. Rüstung, Sc
 
 Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen [Schadenseffekten](#schadenseffekte) angegeben.
 
-!!! TODO austauschen
 ![schadensprofil](Grafiken/Abbildungen/schadensprofil.png){width="500pt"}
 
 ### Rüstungsprofil
