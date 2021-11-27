@@ -1049,7 +1049,6 @@ Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 m
 
     Für einen Menschen mit KO von 5:
 
-    TODO austauschen
     ![Wurfwaffe](Grafiken/Abbildungen/wurfwaffe.jpg){width="500pt"}
 
 ### Waffenklassen
