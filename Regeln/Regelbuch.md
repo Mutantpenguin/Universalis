@@ -1096,7 +1096,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 !!! example Beispiel
 
-    Für eine Schockgranate die 2x verwendet werden kann.
+    Für eine Granate die 4x verwendet werden kann.
 
     ![Einmalnutzung Waffe](Grafiken/Abbildungen/einmalnutzung_waffe.jpg){width="500pt"}
 
