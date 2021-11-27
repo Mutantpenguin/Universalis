@@ -113,20 +113,16 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 ![Aufbau Einheitenkarte](Grafiken/Abbildungen/einheitenkarte_übersicht.svg) {align="center"}
 
-!!! TODO austauschen
-!!! TODO Tabelle anpassen
-|                                                |                                                       |
-| ---------------------------------------------- | ----------------------------------------------------- |
-| 1. [Fraktion](#fraktionen)                     | 11. [Bewegungsart](#bewegungsart)                     |
-| 2. [Trefferpunkte](#trefferpunkte)             | 12. Gesamtgewicht                                     |
-| 3. Name des Modells                            | 13. [Schadenstypen](#schadenstypen)                   |
-| 4. [Attribute](#attribute)                     | 14. [Schadenstypen](#schadenstypen)                   |
-| 5. [Wahrnehmungsbereich](#wahrnehmungsbereich) | 15. [Schadenseffekte](#übersicht-der-schadenseffekte) |
-| 6. [Gefahrenbereich](#gefahrenbereich)         | 16. [Schadenseffekte](#übersicht-der-schadenseffekte) |
-| 7. Outfit, also Ausstattungsvariante           | 17. [Eigenschaften](#eigenschaften)                   |
-| 8. Punkte                                      | 18. [Waffen](#waffen)                                 |
-| 9. [Typ des Modells](#modelle)                 | 19. [Rüstung](#rüstung)                               |
-| 10. [Größenprofil](#größenprofil)              | 20. [Ausrüstung](#ausrüstung)                         |
+|                                                |                                         |
+| ---------------------------------------------- | --------------------------------------- |
+| 1. [Trefferpunkte](#trefferpunkte)             | 9.  [Geschwindigkeit](#geschwindigkeit) |
+| 2. Name des Modells                            | 10.  [Eigenschaften](#eigenschaften)    |
+| 3. [Attribute](#attribute)                     | 11. [Waffen](#waffen)                   |
+| 4. [Wahrnehmungsbereich](#wahrnehmungsbereich) | 12. [Rüstung](#rüstung)                 |
+| 5. [Gefahrenbereich](#gefahrenbereich)         | 13. [Ausrüstung](#ausrüstung)           |
+| 6. [Typ des Modells](#modelle)                 | 14. [Schadensprofil](#schadensprofil)   |
+| 7. [Größenprofil](#größenprofil)               | 15. [Rüstungsprofil](#rüstungsprofil)   |
+| 8. [Bewegungsart](#bewegungsart)               | 16. Punkte                              |
 
 ## Modelle
 
