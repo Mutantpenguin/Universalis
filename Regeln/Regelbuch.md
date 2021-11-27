@@ -845,7 +845,6 @@ Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen [Sc
 
 Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventuellen [Schadenseffekten](#schadenseffekte) angegeben.
 
-!!! TODO austauschen
 ![rüstungsprofil](Grafiken/Abbildungen/rüstungsprofil.png){width="500pt"}
 
 ### Stärke / Schaden / Schutz / Schadensreduktion
