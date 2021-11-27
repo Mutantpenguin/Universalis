@@ -1035,6 +1035,8 @@ Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und erleiden 
 
 Waffen verfügen über ein [Schadensprofil](#schadensprofil) und eventuelle [Profilmodifikatoren](#profilmodifikatoren).
 
+Weiterhin können für sie Regeln wie [Indirekter Fernkampf](#indirekter-fernkampf), [Dauerfeuer](#dauerfeuer) oder [Flächenwaffe](#flächenwaffen) infrage kommen.
+
 ### Fernkampfwaffen
 
 Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines [Reichweitenbandes](#reichweite) und einer Angabe für eventuelles [Dauerfeuer](#dauerfeuer).
