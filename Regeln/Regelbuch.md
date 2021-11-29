@@ -1499,6 +1499,7 @@ Die Waffenklasse ist abhängig von der größe des Modells.
 
     Für einen Infanteristen mit einer KO von 5.
 
+    TODO austauschen
     ![unbewaffnet](Grafiken/Abbildungen/unbewaffnet.png){width="500pt"}
 
 ## Tarnung
