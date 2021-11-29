@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="verteidigung.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    id="svg7547"
    version="1.1"
    viewBox="0 0 10 10"
    height="10mm"
-   width="10mm">
+   width="10mm"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs7541" />
   <sodipodi:namedview
@@ -21,24 +21,25 @@
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
-     inkscape:window-height="1027"
+     inkscape:window-height="1057"
      inkscape:window-width="1920"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
      fit-margin-top="0"
      showgrid="false"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g912"
      inkscape:document-units="mm"
-     inkscape:cy="12.484738"
-     inkscape:cx="43.898162"
-     inkscape:zoom="5.6"
+     inkscape:cy="13.668627"
+     inkscape:cx="24.654036"
+     inkscape:zoom="15.839192"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base" />
+     id="base"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata7544">
     <rdf:RDF>
@@ -47,7 +48,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,8 +69,8 @@
          sodipodi:nodetypes="cccccc"
          inkscape:connector-curvature="0"
          id="path884"
-         d="m -163.01726,-130.50104 -6.13027,-2e-5 v 5.21279 c 1e-5,1.30218 3.06514,2.42183 3.06514,2.42183 0,0 3.06514,-1.11964 3.06513,-2.42183 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34388;stroke-miterlimit:4;stroke-opacity:1" />
+         d="m -163.15089,-130.33461 -5.86301,-2e-5 v 4.98552 c 1e-5,1.24541 2.93151,2.31624 2.93151,2.31624 0,0 2.9315,-1.07082 2.9315,-2.31624 z"
+         style="fill:#468858;fill-opacity:1;stroke:none;stroke-width:0.34388;stroke-miterlimit:4;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          d="m -169.84088,-128.76643 3.75848,1.05833 3.75848,-1.05833 v 0.70695 l -3.75848,1.05833 -3.75848,-1.05833 z"

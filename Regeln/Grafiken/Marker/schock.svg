@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="10mm"
    height="10mm"
    viewBox="0 0 10 10"
    version="1.1"
    id="svg2058"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="schock.svg">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="schock.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2052" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="1.2416261"
-     inkscape:cy="18.1277"
+     inkscape:zoom="7.919596"
+     inkscape:cx="15.089154"
+     inkscape:cy="11.679889"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1474"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -39,7 +39,8 @@
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata2055">
     <rdf:RDF>
@@ -48,7 +49,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,7 +78,7 @@
            cy="258.17001"
            cx="634.20551"
            id="circle1444"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.41873622;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:2.41873622;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <circle
            r="1.9445436"
            cy="255.42999"
@@ -106,12 +106,12 @@
            sodipodi:cx="624.46362"
            sodipodi:sides="5"
            id="path1450"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            sodipodi:type="star" />
         <path
            transform="matrix(0.4578894,0.4578894,-0.4578894,0.4578894,461.57112,-160.20206)"
            sodipodi:type="star"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="path1452"
            sodipodi:sides="5"
            sodipodi:cx="646.20715"
@@ -141,7 +141,7 @@
            sodipodi:cx="646.20715"
            sodipodi:sides="5"
            id="path1454"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:2.88663864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            sodipodi:type="star"
            transform="matrix(-0.14071003,1.3210697,-1.3210697,-0.14071003,1050.5573,-579.04437)" />
       </g>
