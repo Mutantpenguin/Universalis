@@ -65,19 +65,19 @@ Mehr Würfel schaden nie.
 
 ![W12 weiß](Grafiken/Abbildungen/w12_weiß.svg){width="50pt"} ![W6 weiß](Grafiken/Abbildungen/w6_weiß.svg){width="50pt"} ![W6 rot](Grafiken/Abbildungen/w6_rot.svg){width="50pt"} {align="center"}
 
-* Des weiteren werden Marker für die folgenden Zustände benötigt:
+* Des weiteren werden Token für die folgenden Zustände benötigt:
 
     |Symbol|Bedeutung|
     |:--:|--|
-    |![brennen](Grafiken/Marker/brennen.svg){width="40pt"}|[Brennen](#brennen)|
-    |![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
-    |![panik](Grafiken/Marker/panik.svg){width="40pt"}|[Panik](#panik)|
-    |![gift](Grafiken/Marker/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
-    |![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"}|[Nachladen](#nachladen)|
-    |![schnell](Grafiken/Marker/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
-    |![schock](Grafiken/Marker/schock.svg){width="40pt"}|[Schock](#schock)|
-    |![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
-    |![verteidigung](Grafiken/Marker/verteidigung.svg){width="40pt"}|[Verteidigung](#aktionen:-nahkampf)|
+    |![brennen](Grafiken/Token/brennen.svg){width="40pt"}|[Brennen](#brennen)|
+    |![feuerbereitschaft](Grafiken/Token/feuerbereitschaft.svg){width="40pt"}|[Feuerbereitschaft](#aktionen:-fernkampf)|
+    |![panik](Grafiken/Token/panik.svg){width="40pt"}|[Panik](#panik)|
+    |![gift](Grafiken/Token/gift.svg){width="40pt"}|[Gift](#Vergiftung)|
+    |![nachladen](Grafiken/Token/nachladen.svg){width="40pt"}|[Nachladen](#nachladen)|
+    |![schnell](Grafiken/Token/schnell.svg){width="40pt"}|[Schnelle Bewegung](#schnelle-bewegungen)|
+    |![schock](Grafiken/Token/schock.svg){width="40pt"}|[Schock](#schock)|
+    |![tarnung](Grafiken/Token/tarnung.svg){width="40pt"}|[Tarnung](#tarnung)|
+    |![verteidigung](Grafiken/Token/verteidigung.svg){width="40pt"}|[Verteidigung](#aktionen:-nahkampf)|
 
     Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
@@ -455,7 +455,7 @@ Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 * Die AP jedes Modells werden wieder aufgefüllt.
 Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
 Siehe [Rundenende](#rundenende).
-* Modelle mit [Schock-Markern](#schock) verlieren automatisch pro Marker 2 AP.
+* Modelle mit [Schock-Token](#schock) verlieren automatisch pro Token 2 AP.
 * Alle Modelle in [Panik](#panik) werden entsprechend bewegt.
 Dies kann gleichzeitig geschehen.
 
@@ -476,7 +476,7 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hat
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-* eventuelle Marker für [schnelle Bewegung](#schnelle-bewegungen), [Verteidigung](#aktionen:-nahkampf) oder [Feuerbereitschaft](#aktionen:-fernkampf) werden entfernt
+* eventuelle Token für [schnelle Bewegung](#schnelle-bewegungen), [Verteidigung](#aktionen:-nahkampf) oder [Feuerbereitschaft](#aktionen:-fernkampf) werden entfernt
 * eventuelle [Vergiftung](#vergiftung) kommt zur Anwendung
 * eventuelles [Brennen](#brennen) kommt zur Anwendung
 
@@ -614,10 +614,10 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     !!! note ""
 
-        Diese Aktion kann nur von Modellen mit dem Marker für [Nachladen](#nachladen) durchgeführt werden.
+        Diese Aktion kann nur von Modellen mit einem [Nachlade-Token](#nachladen) durchgeführt werden.
 
-    Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Marker gilt.
-    Der Marker wird danach vom Modell entfernt.
+    Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
+    Der Token wird danach vom Modell entfernt.
 
 ### Reaktionen: Bewegung
 
@@ -665,11 +665,11 @@ Die vertikale Distanz wird dafür doppelt berechnet.
 Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 20cm bewegt, gilt es als in schneller Bewegung.
 Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
-Sie wird am Modell mit dem Schnell-Marker dargestellt:
+Sie wird am Modell mit dem Schnell-Token dargestellt:
 
-![schnell](Grafiken/Marker/schnell.svg){width="40pt"} {align="center"}
+![schnell](Grafiken/Token/schnell.svg){width="40pt"} {align="center"}
 
-Zum Beginn der nächsten Initiativephase eines Modells wird der Marker wieder entfernt.
+Zum Beginn der nächsten Initiativephase eines Modells wird der Token wieder entfernt.
 
 Sie kommt unter anderem beim [Fernkampf](#schnelle-bewegungen-des-ziels) zur Anwendung.
 
@@ -943,7 +943,7 @@ Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Grup
 
 Modelle mit einem Brandmarker gelten als *brennend*:
 
-![brennen](Grafiken/Marker/brennen.svg){width="40pt"} {align="center"}
+![brennen](Grafiken/Token/brennen.svg){width="40pt"} {align="center"}
 
 Sie können keine Aktionen und Reaktionen ausführen.
 
@@ -980,7 +980,7 @@ Würde dies ein weiteres mal passieren erleidet es stattdessen 1 [Schock](#schoc
 Um zu testen ob ein Modell in Panik verfällt muss es einen Paniktest in Form eines EH-Tests absolvieren.
 Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarker.
 
-![panik](Grafiken/Marker/panik.svg){width="40pt"} {align="center"}
+![panik](Grafiken/Token/panik.svg){width="40pt"} {align="center"}
 
 #### Auswirkungen von Panik
 
@@ -1010,18 +1010,18 @@ Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikator
 ### Schock
 
 Wenn ein Modell einen Schock erleidet verliert es sofort 2 AP.
-Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Marker:
+Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Token:
 
-![schock](Grafiken/Marker/schock.svg){width="40pt"} {align="center"}
+![schock](Grafiken/Token/schock.svg){width="40pt"} {align="center"}
 
-Ein Modell mit Schock-Markern verliert zum Beginn einer Runde automatisch 2 AP pro Marker woraufhin diese Marker entfernt werden.
-Sollten noch Schock-Marker übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Marker bis zur nächsten Runde um dann abgezogen zu werden.
+Ein Modell mit Schock-Token verliert zum Beginn einer Runde automatisch 2 AP pro Token woraufhin diese Token entfernt werden.
+Sollten noch Schock-Token übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Token bis zur nächsten Runde um dann abgezogen zu werden.
 
 ### Vergiftung
 
 Modelle mit Giftmarkern zählen als *vergiftet*:
 
-![gift](Grafiken/Marker/gift.svg){width="40pt"} {align="center"}
+![gift](Grafiken/Token/gift.svg){width="40pt"} {align="center"}
 
 Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und erleiden automatischen Schaden wie bei der Waffe welche die Vergiftung verursacht hat angegeben.
 
@@ -1082,7 +1082,7 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
 
 Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion [Nachladen](#aktionen:-bewegung) durchgeführt wurde:
 
-![nachladen](Grafiken/Marker/nachladen.svg){width="40pt"} {align="center"}
+![nachladen](Grafiken/Token/nachladen.svg){width="40pt"} {align="center"}
 
 ### Einmalnutzung von Waffen
 
@@ -1182,9 +1182,9 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf)
     Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
     Es verliert sie dann automatisch.
 
-    Sie wird am Modell mit dem Feuerbereitschafts-Marker dargestellt:
+    Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt:
 
-    ![feuerbereitschaft](Grafiken/Marker/feuerbereitschaft.svg){width="40pt"} {align="center"}
+    ![feuerbereitschaft](Grafiken/Token/feuerbereitschaft.svg){width="40pt"} {align="center"}
 
     Falls das Modell das Ziel irgendeiner Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
     Misslingt dieser verliert es die Feuerbereitschaft.
@@ -1419,9 +1419,9 @@ Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-nahkampf) 
     Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
     Es verliert sie dann automatisch.
 
-    Sie wird am Modell mit dem Verteidigungs-Marker dargestellt:
+    Sie wird am Modell mit dem Verteidigungs-Token dargestellt:
 
-    ![verteidigung](Grafiken/Marker/verteidigung.svg){width="40pt"} {align="center"}
+    ![verteidigung](Grafiken/Token/verteidigung.svg){width="40pt"} {align="center"}
 
     Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen [Bonus](#bonus-für-den-angreifer) für eine [Angriffsbewegung](#aktionen:-bewegung).
     Das Modell verliert danach automatisch seine Verteidigung.
@@ -1507,9 +1507,9 @@ Die Waffenklasse ist abhängig von der größe des Modells.
 Tarnung wird in passive und aktive Tarnung unterschieden.
 Weiterhin verfügt sie immer über eine Stufe um die Effektivität der Tarnung auszudrücken.
 
-Sie wird am Modell mit dem Tarnungs-Marker dargestellt:
+Sie wird am Modell mit dem Tarnungs-Token dargestellt:
 
-![tarnung](Grafiken/Marker/tarnung.svg){width="40pt"} {align="center"}
+![tarnung](Grafiken/Token/tarnung.svg){width="40pt"} {align="center"}
 
 Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.
 
@@ -1731,7 +1731,7 @@ Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihre
 
 [Schocks](#schock) funktionieren grundsätzlich wie bei allen anderen Modellen.
 
-Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Marker von seinen ihm zugeordneten Drohnen zu entfernen.
+Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Drohnen zu entfernen.
 
 ### Zerstörung einer Drohne
 
