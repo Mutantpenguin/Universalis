@@ -40,7 +40,7 @@ Version 0.1.0 {align="center"}
 
 Dies ist kein Turniersystem und der Spaß steht im Vordergrund.
 
-TODO
+TODO Vorwort
 
 * Alle Modelle erlaubt.
 * WYSIWYG ist zwar toll, aber es geht ja nicht immer alles.
@@ -682,7 +682,7 @@ Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 
 ## Gelände
 
-TODO
+TODO Gelände
 
 Geländearten
 
@@ -1123,7 +1123,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 ## Rüstung
 
-TODO
+TODO Rüstung
 
 Rüstungen verfügen über ein [Rüstungsprofil](#rüstungsprofil) und eventuelle [Profilmodifikatoren](#profilmodifikatoren).
 
@@ -1152,7 +1152,7 @@ Sie können dem Träger 2 verschiedene Arten von Boni geben:
 
 ## Fernkampf
 
-TODO
+TODO Fernkampf
 Kleiner Einleitungstext was Fernkampf ist
 blah blah yadda yadda
 
@@ -1750,34 +1750,9 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
 ## Kräfte
 
-!!! TODO
+!!! TODO Kräfte ausarbeiten
 
     PSI, Magie und Thaumaturgie wird alles als "Kräfte" bezeichnet
-
-### Aktionen: Kräfte
-
-!!! danger Kraft verwenden - x ⊙
-
-    !!! TODO
-
-    Kosten abhängig von Kraft.
-
-### Reaktionen: Kräfte
-
-!!! warning Kraft blockieren - ??? ⊙
-
-    !!! TODO
-
-    Kosten bestimmen.
-
-    Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
-    Oder im Wahrbehmungsbereich?
-
-    Muss über dem Ergebnis des Casters würfeln?
-
-### Kräfte TODO
-
-!!! TODO Kräfte ausarbeiten
 
     * Jede Kraft
         * Hat eine "Karte"
@@ -1806,3 +1781,24 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
     * Zuordnung zu Modell:
         * Einzelne Kraft?
         * Ganze Schule?
+
+### Aktionen: Kräfte
+
+!!! danger Kraft verwenden - x ⊙
+
+    !!! TODO Aktion Kraft verwenden
+
+    Kosten abhängig von Kraft.
+
+### Reaktionen: Kräfte
+
+!!! warning Kraft blockieren - ??? ⊙
+
+    !!! TODO Reaktion Kraft blockieren
+
+    Kosten bestimmen.
+
+    Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
+    Oder im Wahrbehmungsbereich?
+
+    Muss über dem Ergebnis des Casters würfeln?
