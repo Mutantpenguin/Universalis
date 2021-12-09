@@ -1410,14 +1410,12 @@ Wenn es über eine Kante bewegt wird [fällt](#herunterfallen) es herunter.
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
-!!! danger Verwegener Angriff - WK+1 ⊙
-
-    !!! TODO Das funktioniert nach den aktuellen Regeln nicht mehr
+!!! danger Verwegener Angriff - WK+2 ⊙
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
-    Es erhält +2 auf seinen NK-Wurf.
+    Es erhält +3 auf seinen NK-Wurf.
     
-    Sollte es den Nahkampf verlieren kann der Gegner die Aktion "Riposte" durchführen, auch wenn er sie eigentlich nicht beherrscht.
+    Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
 
 !!! danger Verteidigung - 2 ⊙
 
