@@ -1388,11 +1388,13 @@ Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base 
 
 Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle [Modifikatoren](#modifikatoren-im-nahkampf) zur Anwendung kommen können.
 
-1. Wenn das *angreifende* Modell gewinnt landet es einen Treffer mit der zuvor ausgewählten Nahkampfwaffe. Wahlweise darf das gegnerische Modell [zurückgestoßen](#zurückstoßen) werden.
-2. Wenn das *verteidigende* Modell gewinnt passiert nichts. Das gegnerische Modell darf [zurückgestoßen](#zurückstoßen) werden.
+1. Wenn das *angreifende* Modell gewinnt landet es einen Treffer mit der zuvor ausgewählten Nahkampfwaffe. Wahlweise darf es das verteidigende Modell [zurückstoßen](#zurückstoßen).
+2. Wenn das *verteidigende* Modell gewinnt passiert nichts, das angreifende Modell darf [zurückgestoßen](#zurückstoßen) werden.
 3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
 #### Zurückstoßen
+
+TODO nur wenn KO>=KO?
 
 Wenn ein Modell zurückgestossen wird entscheidet der Gegner über die Richtung.
 Es muss dabei von dem gegnerischen Modell in gerader Linie weg bewegt werden und nicht etwa durch es hindurch.
