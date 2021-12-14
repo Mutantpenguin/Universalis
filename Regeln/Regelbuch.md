@@ -686,17 +686,13 @@ Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 
 ## Gelände
 
-TODO Gelände
+Alle Objekte auf dem Spielfeld die kein Modell eines Spielers sind werden als [Geländeteil](#geländeteil) bezeichnet.
 
-Geländearten
-
-Boni und Mali
+Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
 
 ### Geländeteile
 
-Alle Objekte auf dem Spielfeld die kein Modell sind werden als Geländeteil bezeichnet.
-
-Man versteht darunter räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
+Geländeteile sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
 
 So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
 Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
