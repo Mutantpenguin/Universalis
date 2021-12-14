@@ -1256,6 +1256,19 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
     
     Der FK-Wurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
 
+### Beschuss von Modellen im Nahkampf
+
+Modelle die sich im Nahkampf befinden dürfen beschossen werden.
+
+Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zufall wobei die Wahrscheinlichkeit für jedes Modell identisch ist.
+
+Hierdurch können auch Modelle getroffen werden zu denen keine [Sichtlinie](#sichtlinie) gezogen werden kann.
+
+!!! example Beispiel
+
+    Ein gegnerische Modell wird beschossen und es hat 2 Nahkampfgegner.
+    Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
+
 ### Beschuss von getarnten Modellen
 
 Es können nur [aufgeklärte](#aufklärung) getarnte Modelle beschossen werden.
