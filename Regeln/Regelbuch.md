@@ -745,7 +745,7 @@ Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nich
 
 ### Sichtweite
 
-TODO In bestimmtem Gelände ist die Sichweite durch
+In bestimmtem Gelände ist die Sichweite durch Hindernisse erschwert und [Sichtlinien](#sichtlinie) sind dadurch in ihrer Reichweite eingeschränkt.
 
 TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
 
