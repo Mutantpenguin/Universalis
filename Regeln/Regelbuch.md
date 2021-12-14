@@ -60,9 +60,9 @@ Am Ende sollte jederzeit der gesunde Menschenverstand mitspielen und der Spaß a
 
 * Ausreichend [Geländeteile](#geländeteile) um die Fläche gut zu füllen.
 
-* Ein Maßband mit Markierungen in Zentimetern.
+* Für jeden Spieler ein Maßband oder einen Maßstab mit Markierungen in Zentimetern.
 
-![Maßband](Grafiken/Abbildungen/maßband.svg){width="200pt"} {align="center"}
+![Maßband](Grafiken/Abbildungen/maßband.svg){height="150pt"} ![Maßstab](Grafiken/Abbildungen/maßstab.svg){height="150pt"} {align="center"}
 
 * Für jeden Spieler mindestens 2 [Modelle](#modelle) und dazugehörige [Einheitenkarten](#einheitenkarte).
 
