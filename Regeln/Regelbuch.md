@@ -828,7 +828,7 @@ Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spi
 
 Um dies zu umgehen kann einfach das gesamte Spieldfeld als ein spezifischer Geländetyp deklariert werden. Er gilt dann für das gesamte Spielfeld.
 
-## Schadens- & Rüstungsprofile
+## Schaden & Rüstung
 
 Verschiedene Spielmechaniken erzeugen Schaden.
 Dies kann ein Modell sein das ein anderes Modell beschießt oder im Nahkampf angreift oder auch Effekte die im Spiel auftreten.
@@ -1165,7 +1165,7 @@ Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem [Reichweitenband
 Gegebenenfalls kommen weitere [Modifikatoren](#modifikatoren-im-fernkampf) zur Anwendung.
 
 Nun wird ein FK-Wurf für das Modell durchgeführt.
-Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet.
+Bei Erfolg wurde das Ziel getroffen und ein [Treffer](#schaden-&-rüstung) gelandet.
 
 ### Aktionen: Fernkampf
 
@@ -1403,7 +1403,7 @@ Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base 
 
 Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle [Modifikatoren](#modifikatoren-im-nahkampf) zur Anwendung kommen können.
 
-1. Wenn das *angreifende* Modell gewinnt landet es einen Treffer mit der zuvor ausgewählten Nahkampfwaffe. Wahlweise darf es das verteidigende Modell [zurückstoßen](#zurückstoßen).
+1. Wenn das *angreifende* Modell gewinnt landet es einen [Treffer](#schaden-&-rüstung) mit der zuvor ausgewählten Nahkampfwaffe. Wahlweise darf es das verteidigende Modell [zurückstoßen](#zurückstoßen).
 2. Wenn das *verteidigende* Modell gewinnt passiert nichts, das angreifende Modell darf [zurückgestoßen](#zurückstoßen) werden.
 3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
