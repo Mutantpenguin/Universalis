@@ -91,7 +91,7 @@ Jeder Spieler entscheidet sich für eine Fraktion, mit deren Einheiten er eine G
 
 Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr [Modellen](#modelle).
 
-Jeder Spieler verfügt über genau 1 Gruppe die genau 1 Gruppenführer beinhalten muss.
+Jeder Spieler verfügt über genau 1 Gruppe die genau 1 [Gruppenführer](#gruppenführer) beinhalten muss.
 
 ### Gruppenführer
 
