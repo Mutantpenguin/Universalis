@@ -30,7 +30,7 @@ puppeteer:
 
 ![logo](../Grafiken/logo.svg){width="300pt"} {align="center"}
 
-Version 0.1.0 {align="center"}
+Version 0.5.0 {align="center"}
 
 ## Inhaltsverzeichnis
 
@@ -38,13 +38,19 @@ Version 0.1.0 {align="center"}
 
 ## Vorwort
 
-Dies ist kein Turniersystem und der Spaß steht im Vordergrund.
+*Universalis* versucht ein universeller Tabletop Skirmisher zu sein der kleine Spiele mit wenigen Modelle in den Vordergrund stellt.
+Er ist nicht auf ein konkretes Szenario zugeschnitten und kann in jedem beliebigen Universum spielen.
 
-TODO Vorwort
+*Universalis* versucht in keinster Weise ein Turniersystem zu sein oder perfekt ausbalancierte Spiele zu bieten.
+Die Spieler sollen eine tolle Geschichte erleben mit all ihren Hochs und Tiefs, egal wie sie konkret ausgeht.
 
-* Alle Modelle erlaubt.
-* WYSIWYG ist zwar toll, aber es geht ja nicht immer alles.
-* Modelle realistisch ausrüsten und nicht mit mehreren Nahkampf- und Schusswaffen
+Eine der Ideen hinter *Universalis* ist es beliebige Modelle einzusetzen um tolle Einheiten aufzustellen, ohne in irgendeiner Art und Weise eingeschräkt zu sein.
+WYSIWYG ist zwar eine tolle Sache und empfohlen, aber in keinster Weise vorgeschrieben.
+Niemand darf erwarten, dass man sein älteren Modelle in die viel Arbeit geflossen ist nur wegen eines neuen Spieles umbaut oder ersetzt.
+
+Modelle sollten halbwegs realistisch ausgerüstet werden und nicht mit beliebig vielen Nahkampf- und Fernkampfwaffen und Ausrüstungsgegebständen überhäuft werden um auf jede Situation eine Antwort zu haben.
+
+Am Ende sollte jederzeit der gesunde Menschenverstand mitspielen und der Spaß am kontinuierlichen Spiel im Vordergrund stehen.
 
 ## Was braucht man
 
