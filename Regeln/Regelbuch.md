@@ -1158,12 +1158,14 @@ blah blah yadda yadda
 
 ### Durchführung des Fernkampfs
 
-TODO alle Schritte erklären
+Um einen Fernkampf durchzuführen muss zunächst geprüft werden ob eine [Sichtlinie](#sichtlinie) zum gewählten Ziel existiert.
 
-Um einen Fernkampf durchzuführen muss ein FK-Wurf für das Modell gemacht werden.
-Bei Erfolg wurde das Ziel getroffen.
+Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem [Reichweitenband](#reichweite) den FK-Modifikator zu bestimmen bzw. ob das Ziel überhaupt in Reichweite ist.
 
-Gegebenenfalls kommen dabei diverse [Modifikatoren](#modifikatoren-im-fernkampf) zur Anwendung.
+Gegebenenfalls kommen weitere [Modifikatoren](#modifikatoren-im-fernkampf) zur Anwendung.
+
+Nun wird ein FK-Wurf für das Modell durchgeführt.
+Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet.
 
 ### Aktionen: Fernkampf
 
