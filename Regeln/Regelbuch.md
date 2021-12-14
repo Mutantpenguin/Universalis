@@ -550,7 +550,6 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 |![kette](Grafiken/Bewegung/kette.svg){width="40pt"}|Kette|Bewegungstests für [Passierbarkeit](#passierbarkeit) dürfen einmal wiederholt werden.|
 |![rad](Grafiken/Bewegung/rad.svg){width="40pt"}|Rad|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.|
 |![schweben](Grafiken/Bewegung/schweben.svg){width="40pt"}|Schweben| Ignoriert [Passierbarkeit](#passierbarkeit) solange es sich über einem Geländeteil bewegt.|
-|^^|^^|TODO maximale Höhe? Träge Bewegung/Drehung?|
 |![stationär](Grafiken/Bewegung/stationär.svg){width="40pt"}|Stationär|Kann nicht bewegt werden.|
 
 ### Bewegungstest
