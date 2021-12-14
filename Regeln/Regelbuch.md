@@ -1247,9 +1247,9 @@ Auf der Einheitenkarte wird dies unter folgendem Symbol ausgewiesen:
 
 ![reichweite](Grafiken/Waffe/reichweite.svg){width="40pt"} {align="center"}
 
-Pro vollständig ausgenutztem Reichweitenband erhält ein schießendes Modell einen Malus von -1 auf seinen FK-Wurf.
+Pro vollständig ausgenutztem Reichweitenband erhält ein Modell einen Malus von -1 auf seinen FK-Wurf.
 
-Eine Waffe kann nicht weiter als ihr maximales Reichweitenband schießen.
+Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
 
 !!! example Beispiel
 
