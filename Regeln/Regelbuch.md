@@ -1407,11 +1407,11 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für de
 2. Wenn das *verteidigende* Modell gewinnt passiert nichts, das angreifende Modell darf [zurückgestoßen](#zurückstoßen) werden.
 3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
-#### Zurückstoßen
+### Zurückstoßen
 
 TODO nur wenn KO>=KO?
 
-Ein Modell zurück zu stoßen bedeutet, mit ihm eine [Bewegungsaktion](#aktionen:-bewegung) durchzuführen, welche komplett vom Spieler des Nahkampfgegners kontrolliert wird.
+Ein Modell zurück zu stoßen bedeutet, mit ihm eine [Bewegungsaktion](#aktionen:-bewegung) durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
 Diese Bewegung kostet keine AP.
 
 Dabei kommen die folgenden Ausnahmen zur Anwendung:
