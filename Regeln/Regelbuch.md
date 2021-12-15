@@ -1411,15 +1411,14 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für de
 
 TODO nur wenn KO>=KO?
 
-Wenn ein Modell zurückgestossen wird entscheidet der Gegner über die Richtung.
-Es muss dabei von dem gegnerischen Modell in gerader Linie weg bewegt werden und nicht etwa durch es hindurch.
+Ein Modell zurück zu stoßen bedeutet, mit ihm eine [Bewegungsaktion](#aktionen:-bewegung) durchzuführen, welche komplett vom Spieler des Nahkampfgegners kontrolliert wird.
+Diese Bewegung kostet keine AP.
 
-Die maximale Distanz entspricht der [Geschwindigkeit](#geschwindigkeit) des zurückgestossenen Modells in cm.
+Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
-Es darf dadurch in Basekontakt mit anderen gegnerischen Modellen bewegt werden was automatisch in einem Nahkampf resultiert.
-Dies gilt nicht als Angriffsbewegung.
-
-Wenn es über eine Kante bewegt wird [fällt](#herunterfallen) es herunter.
+* Die Bewegung muss in gerade Linie erfolgen.
+* Das Modell darf dadurch in Basekontakt mit anderen gegnerischen Modellen bewegt werden.
+* Wenn es über eine Kante bewegt wird [fällt](#herunterfallen) es herunter.
 
 ### Aktionen: Nahkampf
 
