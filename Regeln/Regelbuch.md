@@ -38,7 +38,7 @@ Version 0.5.0 {align="center"}
 
 ## Vorwort
 
-*Universalis* versucht ein universeller Tabletop Skirmisher für 28mm zu sein der kleine Spiele mit wenigen Modelle in den Vordergrund stellt.
+*Universalis* versucht ein universeller Tabletop Skirmisher für 28mm zu sein der kleine Spiele mit wenigen Modellen in den Vordergrund stellt.
 Er ist nicht auf ein konkretes Szenario zugeschnitten und kann in jedem beliebigen Universum spielen.
 
 *Universalis* versucht in keinster Weise ein Turniersystem zu sein oder perfekt ausbalancierte Spiele zu bieten.
@@ -46,7 +46,7 @@ Die Spieler sollen eine tolle Geschichte erleben mit all ihren Hochs und Tiefs, 
 
 Eine der Ideen hinter *Universalis* ist es beliebige Modelle einzusetzen um tolle Einheiten aufzustellen, ohne in irgendeiner Art und Weise eingeschräkt zu sein.
 WYSIWYG ist zwar eine tolle Sache und empfohlen, aber in keinster Weise vorgeschrieben.
-Niemand darf erwarten, dass man sein älteren Modelle in die viel Arbeit geflossen ist nur wegen eines neuen Spieles umbaut oder ersetzt.
+Niemand darf erwarten, dass man seine älteren Modelle in die viel Arbeit geflossen ist nur wegen eines neuen Spiels umbaut oder ersetzt.
 
 Modelle sollten halbwegs realistisch ausgerüstet werden und nicht mit beliebig vielen Nahkampf- und Fernkampfwaffen und Ausrüstungsgegebständen überhäuft werden um auf jede Situation eine Antwort zu haben.
 
