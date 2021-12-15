@@ -262,7 +262,8 @@ Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur vo
 
 ### Einmalnutzung von Eigenschaften
 
-Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden. Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
+Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
+Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
 
 Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
@@ -295,7 +296,8 @@ Die Kosten in Aktionspunkten werden immer mit dem Zeichen ⊙ angegeben.
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen [kritischen Zustand](#kritischer-zustand) verfällt.
 
-Alle Modelle haben pro Runde 6 AP. Die einzige Ausnahme sind Drohnen mit nur 2 AP.
+Alle Modelle haben pro Runde 6 AP.
+Die einzige Ausnahme sind Drohnen mit nur 2 AP.
 
 **Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.**
 
@@ -826,7 +828,8 @@ Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfind
 So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden.
 Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
 
-Um dies zu umgehen kann einfach das gesamte Spieldfeld als ein spezifischer Geländetyp deklariert werden. Er gilt dann für das gesamte Spielfeld.
+Um dies zu umgehen kann einfach das gesamte Spieldfeld als ein spezifischer Geländetyp deklariert werden.
+Er gilt dann für das gesamte Spielfeld.
 
 ## Schaden & Rüstung
 
