@@ -11,6 +11,7 @@
    sodipodi:docname="CheatSheet_2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -23,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.1215982"
-     inkscape:cx="117.60002"
-     inkscape:cy="236.3784"
+     inkscape:zoom="0.75009824"
+     inkscape:cx="479.27056"
+     inkscape:cy="540.59586"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-height="1027"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g31160"
+     inkscape:current-layer="layer1"
      units="cm"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -1025,6 +1026,49 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.310017"
              x="119.4931"
              y="139.9211">Modifikatoren im Nahkampf</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g2368"
+       transform="translate(0,-26.617436)">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.999997;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="rect1196"
+         width="89"
+         height="114.41006"
+         x="110.5"
+         y="98.515434" />
+      <image
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="300"
+         width="78.409157"
+         height="98.104752"
+         xlink:href="Grafiken/Abbildungen/trefferzonen.svg"
+         id="image1060"
+         x="115.79542"
+         y="110.02959"
+         style="stroke-width:0.712466" />
+      <g
+         id="g1276"
+         transform="translate(0,-36.984561)">
+        <rect
+           style="fill:#000000;stroke:none;stroke-width:1.57533;paint-order:stroke fill markers;stop-color:#000000"
+           id="rect1270"
+           width="90"
+           height="7"
+           x="110"
+           y="135" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="139.99574"
+           y="140.42494"
+           id="text1274"><tspan
+             sodipodi:role="line"
+             id="tspan1272"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.310017"
+             x="139.99574"
+             y="140.42494">Trefferzonen</tspan></text>
       </g>
     </g>
   </g>
