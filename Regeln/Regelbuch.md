@@ -648,12 +648,13 @@ Bis zu einer Fallhöhe in Höhe seines [Größenprofils](#größenprofil) passie
 Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
 Darüber hinaus erleidet es automatisch einen Treffer.
 
-Der Treffer hat eine Stärke in Höhe der KO des gefallenen Modells.
+Die Stärke des Treffers entspricht der KO des gefallenen Modells.
+Der Schaden orientiert sich ebenfalls an der KO des Modells.
 
 |Fallhöhe|Schaden|
 |:--:|:--:|
-| **bis einschliesslich** doppeltem Größenprofil | 2 |
-| **größer als** doppeltes Größenprofil | 4 |
+| **bis einschliesslich** doppeltem Größenprofil | KO/2 (abgerundet) |
+| **größer als** doppeltes Größenprofil | KO |
 
 ### Vertikale Bewegung
 
