@@ -631,22 +631,6 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
     
     Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
 
-### Herunterfallen
-
-Ein Modell welches fällt kann unter Umständen Schaden erleiden.
-
-Bis zu einer Fallhöhe in Höhe seines [Größenprofils](#größenprofil) passiert nichts.
-Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
-Darüber hinaus erleidet es automatisch einen Treffer.
-
-Die Stärke des Treffers entspricht der KO des gefallenen Modells.
-Der Schaden orientiert sich ebenfalls an der KO des Modells.
-
-|Fallhöhe|Schaden|
-|:--:|:--:|
-| **bis einschliesslich** doppeltem Größenprofil | KO/2 (abgerundet) |
-| **größer als** doppeltes Größenprofil | KO |
-
 ### Vertikale Bewegung
 
 Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern und vergleichbarem bewegen.
@@ -657,6 +641,30 @@ Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 Jedes Modell kann ohne spezielle Ausrüstung auf oder herunter von Hindernissen bis zu seinem doppelten [Größenprofil](#größenprofil) klettern.
 
 Die vertikale Distanz wird dafür doppelt berechnet.
+
+### Herunterfallen
+
+Wenn sich ein Modell über eine Kante hinaus bewegt kann es sich fallenlassen anstatt herunterzuklettern.
+
+Bei einer Fallhöhe bis zur Höhe seines [Größenprofils](#größenprofil) kann es dies einfach so machen.
+Bei grösserer Fallhöhe muss es zunächst einen erfolgreichen EH-Test ablegen um sich herunterfallen zu lassen.
+
+Die durch Herunterfallen zurückgelegte Distanz kostet keine AP.
+
+#### Fallschaden
+
+Bis zu einer Fallhöhe in Höhe seines [Größenprofils](#größenprofil) passiert einem fallenden Modell nichts.
+Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
+Darüber hinaus erleidet es automatisch einen Treffer.
+
+Die Stärke des Treffers entspricht der KO des gefallenen Modells.
+Der Schaden orientiert sich ebenfalls an der KO des Modells.
+
+|Fallhöhe|Schaden|
+|:--:|:--:|
+| **bis einschliesslich** Größenprofil | kein Schaden |
+| **bis einschliesslich** doppeltem Größenprofil | halbe KO (abgerundet) |
+| **größer als** doppeltes Größenprofil | KO |
 
 ### Schnelle Bewegungen
 
