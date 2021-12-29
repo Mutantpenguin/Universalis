@@ -616,15 +616,6 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
 
-!!! danger Nachladen - WK ⊙
-
-    !!! note ""
-
-        Diese Aktion kann nur von Modellen mit einem [Nachlade-Token](#nachladen) durchgeführt werden.
-
-    Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
-    Der Token wird danach vom Modell entfernt.
-
 ### Reaktionen: Bewegung
 
 !!! warning Beschuss Ausweichen - 1 ⊙
@@ -1205,6 +1196,15 @@ Bei Erfolg wurde das Ziel getroffen und ein [Treffer](#schaden-&-rüstung) gelan
 !!! danger Schnellschuss - WK ⊙
 
     Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
+
+!!! danger Nachladen - WK ⊙
+
+    !!! note ""
+
+        Diese Aktion kann nur von Modellen mit einem [Nachlade-Token](#nachladen) durchgeführt werden.
+
+    Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
+    Der Token wird danach vom Modell entfernt.
 
 ### Reaktionen: Fernkampf
 
