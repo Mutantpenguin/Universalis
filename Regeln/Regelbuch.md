@@ -960,7 +960,7 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 
 #### Hilfe durch befreundete Modelle
 
-Jedes befreundete Modell in Basekontakt mit dem gegnerischen Modell gibt einen Bonus von +2 auf den Wurf.
+Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bonus von +2 auf den Wurf.
 
 ### Kritischer Zustand
 
