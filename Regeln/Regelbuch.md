@@ -965,7 +965,7 @@ Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bon
 ### Kritischer Zustand
 
 Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als die Hälfte seiner maximalen Trefferpunkte besitzt.
-Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass das erste orange Kästchen der Trefferpunkte markiert ist.
+Auf der [Einheitenkarte](#einheitenkarte) ist dies daran zu erkennen, dass alle weissen Kreise der Trefferpunkte markiert sind und nur noch orange übrig sind.
 
 Das Modell erhält für den Rest des Spiels folgende Mali:
 
