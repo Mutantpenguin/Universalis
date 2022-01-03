@@ -169,6 +169,12 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 ## Sonstiges
 
+!!! check Anführer
+
+    Das Modell ist der Gruppenführer.
+    
+    Darf den vergleichenden Wurf auf EH zur Feststellung der Reihenfolge des Aufstellens der Modelle `[Stufe]` mal wiederholen.
+
 !!! cite Automaton
 
     Besteht automatisch jeden EH-Test.
