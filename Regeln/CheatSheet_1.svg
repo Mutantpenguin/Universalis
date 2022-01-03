@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="287.5"
-     inkscape:cy="441.5"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="396.6869"
+     inkscape:cy="666.80169"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g181556"
+     inkscape:current-layer="layer1"
      units="cm"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -1717,6 +1717,246 @@
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.310017"
              x="54.935406"
              y="140.45079">AP-Kosten für Reaktionen</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g14458"
+       transform="translate(0,-4.19933)">
+      <rect
+         style="fill:#ffffff;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"
+         id="rect1159"
+         width="89"
+         height="135.4292"
+         x="110.5"
+         y="124.98334" />
+      <g
+         id="g1580">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:73.0168;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="24.483236"
+           y="49.583344"
+           id="text1317"
+           transform="translate(100,94.35077)"><tspan
+             x="24.483236"
+             y="49.583344"
+             id="tspan15691">Die AP jedes Modells </tspan><tspan
+             x="24.483236"
+             y="54.875016"
+             id="tspan15693">werden wieder aufgefüllt. </tspan><tspan
+             x="24.483236"
+             y="60.166688"
+             id="tspan15695">Die nicht verbrauchten und </tspan><tspan
+             x="24.483236"
+             y="65.458359"
+             id="tspan15697">bereits halbierten AP aus </tspan><tspan
+             x="24.483236"
+             y="70.750031"
+             id="tspan15699">der Vorrunde werden addiert.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:73.0168;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="24.483236"
+           y="49.583344"
+           id="text25513"
+           transform="translate(100.37465,122.27159)"><tspan
+             x="24.483236"
+             y="49.583344"
+             id="tspan15701">Modelle mit Schock-Token </tspan><tspan
+             x="24.483236"
+             y="54.875016"
+             id="tspan15703">verlieren automatisch pro </tspan><tspan
+             x="24.483236"
+             y="60.166688"
+             id="tspan15705">Token 2 AP.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:73.0168;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="24.483236"
+           y="49.583344"
+           id="text25527"
+           transform="translate(99.999996,139.60906)"><tspan
+             x="24.483236"
+             y="49.583344"
+             id="tspan15707">Alle Modelle in Panik </tspan><tspan
+             x="24.483236"
+             y="54.875016"
+             id="tspan15709">werden entsprechend </tspan><tspan
+             x="24.483236"
+             y="60.166688"
+             id="tspan15711">bewegt. Dies kann </tspan><tspan
+             x="24.483236"
+             y="65.458359"
+             id="tspan15713">gleichzeitig geschehen.</tspan></text>
+        <g
+           id="g1337"
+           transform="translate(100,94.48333)">
+          <rect
+             style="fill:#ffffff;stroke:none;stroke-width:0.999999;paint-order:stroke fill markers;stop-color:#000000"
+             id="rect1325"
+             width="85"
+             height="7"
+             x="12.500001"
+             y="37" />
+          <g
+             id="g1331">
+            <path
+               style="color:#000000;fill:#666666;stroke-width:0.264583px;-inkscape-stroke:none"
+               d="m 12.5,43.867709 h 85"
+               id="path1327" />
+            <path
+               style="color:#000000;fill:#999999;-inkscape-stroke:none"
+               d="M 12.5,43.736328 V 44 h 85 v -0.263672 z"
+               id="path1329" />
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310017"
+             x="11.983235"
+             y="41.895264"
+             id="text1335"><tspan
+               sodipodi:role="line"
+               id="tspan1333"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.310017"
+               x="11.983235"
+               y="41.895264">Rundenbeginn</tspan></text>
+        </g>
+        <circle
+           style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.976314;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+           id="path43604"
+           cx="117.94437"
+           cy="142.51302"
+           r="1.7635734" />
+        <circle
+           style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.976309;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+           id="circle1205"
+           cx="117.41512"
+           cy="169.90414"
+           r="1.7635" />
+        <circle
+           style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.976309;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+           id="circle1207"
+           cx="117.41512"
+           cy="187.24162"
+           r="1.7635" />
+      </g>
+      <g
+         id="g1559"
+         transform="translate(0,3.7041668)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:73.0168;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="24.483236"
+           y="49.053661"
+           id="text1221"
+           transform="translate(100,168.62996)"><tspan
+             x="24.483236"
+             y="49.053661"
+             id="tspan15715">Eventuelle Token für schnelle </tspan><tspan
+             x="24.483236"
+             y="54.34533"
+             id="tspan15717">Bewegung, Verteidigung oder </tspan><tspan
+             x="24.483236"
+             y="59.637002"
+             id="tspan15719">Feuerbereitschaft entfernen.</tspan></text>
+        <g
+           id="g1241"
+           transform="translate(100,168.23335)">
+          <rect
+             style="fill:#ffffff;stroke:none;stroke-width:0.999999;paint-order:stroke fill markers;stop-color:#000000"
+             id="rect1229"
+             width="85"
+             height="7"
+             x="12.500001"
+             y="37" />
+          <g
+             id="g1235">
+            <path
+               style="color:#000000;fill:#666666;stroke-width:0.264583px;-inkscape-stroke:none"
+               d="m 12.5,43.867709 h 85"
+               id="path1231" />
+            <path
+               style="color:#000000;fill:#999999;-inkscape-stroke:none"
+               d="M 12.5,43.736328 V 44 h 85 v -0.263672 z"
+               id="path1233" />
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.310017"
+             x="11.983235"
+             y="41.921104"
+             id="text1239"><tspan
+               sodipodi:role="line"
+               id="tspan1237"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.310017"
+               x="11.983235"
+               y="41.921104">Initiativephase</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:73.0168;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="24.483236"
+           y="49.053661"
+           id="text29787"
+           transform="translate(100.37465,185.96743)"><tspan
+             x="24.483236"
+             y="49.053661"
+             id="tspan15721">Eventuelle Vergiftung </tspan><tspan
+             x="24.483236"
+             y="54.34533"
+             id="tspan15723">anwenden.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:73.0168;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="24.483236"
+           y="49.053661"
+           id="text29805"
+           transform="translate(99.870804,199.02092)"><tspan
+             x="24.483236"
+             y="49.053661"
+             id="tspan15725">Eventuelles Brennen </tspan><tspan
+             x="24.483236"
+             y="54.34533"
+             id="tspan15727">anwenden.</tspan></text>
+        <circle
+           style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.976309;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+           id="circle1455"
+           cx="117.41512"
+           cy="215.73282"
+           r="1.7635" />
+        <circle
+           style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.976309;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+           id="circle1457"
+           cx="117.41512"
+           cy="233.57414"
+           r="1.7635" />
+        <circle
+           style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.976309;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+           id="circle1459"
+           cx="117.41512"
+           cy="246.12378"
+           r="1.7635" />
+      </g>
+      <g
+         id="g1345"
+         transform="translate(100,-10.51667)">
+        <rect
+           style="fill:#000000;stroke:none;stroke-width:1.57533;paint-order:stroke fill markers;stop-color:#000000"
+           id="rect1339"
+           width="90"
+           height="7"
+           x="10"
+           y="135" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:0;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.310017"
+           x="54.935406"
+           y="140.45079"
+           id="text1343"><tspan
+             id="tspan1341"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29167px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.310017"
+             x="54.935406"
+             y="140.45079">Ablauf der Runden</tspan></text>
       </g>
     </g>
   </g>
