@@ -185,3 +185,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 !!! fail Pech
 
     Kann pro Runde einmal vom Gegner gezwungen werden einen beliebigen eigenen Würfelwurf neu durchführen.
+
+!!! check Tatkräftig
+
+    Darf den vergleichenden Wurf auf AGI zur Feststellung der Reihenfolge innerhalb einer Runde `[Stufe]` mal wiederholen.
