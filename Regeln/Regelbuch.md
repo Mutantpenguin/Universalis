@@ -1793,6 +1793,14 @@ Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte 
 
 ### Gattungen
 
+Alle Kräfte sind in sogenannten "Gattungen" organisiert.
+Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
+
+!!! example Beispiel
+
+    * In einer Fantasywelt wären "Feuermagie" und "Eiszauber" Gattungen, die dann jeweils Kräfte wie "Feuerball/Feuerwand" und "Eisblitz/Schneesturm" beinhalten.
+    * Im Cyberpunk wären Gattungen wie "Psychokinese" TODO
+
 ### Kraftkarten
 
 !!! TODO
@@ -1822,6 +1830,7 @@ Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte 
             * Durch Geländeteile
     * Gehören einer "Gattung" an
         * Farbe je "Gattung" definieren
+        * Kann eine Kraft mehreren Gattungen angehören?
         * Optionales Icon je "Gattung"
         * Icon im Kopf der "Karte" ausgeben
         * Kopf der "Karte" einfärben
