@@ -1791,15 +1791,25 @@ In Universalis wird alles was normalerweise als PSI, Magie, Thaumaturgie, ect. b
 
 Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte als Kraft dargestellt werden.
 
-### Gattungen
+### Disziplinen
 
-Alle Kräfte sind in sogenannten "Gattungen" organisiert.
+Alle Kräfte sind in sogenannten "Disziplinen" organisiert.
 Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
 
 !!! example Beispiel
 
-    * In einer Fantasywelt wären "Feuermagie" und "Eiszauber" Gattungen, die dann jeweils Kräfte wie "Feuerball/Feuerwand" und "Eisblitz/Schneesturm" beinhalten.
-    * Im Cyberpunk wären Gattungen wie "Psychokinese" TODO
+    * In einer Fantasywelt wären "Feuermagie" und "Eiszauberei" eigene Disziplinen, die dann jeweils Kräfte wie "Feuerball" und "Feuerwand" bzw. "Eisblitz" und "Schneesturm" beinhalten.
+    * Bei Cyberpunk wäre eine Disziplin wie "Psychokinese" denkbar die dann Kräfte wie "Würgegriff" und "Schweben" vereint.
+
+Sobald ein Modell einer Disziplin angehört hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
+Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
+
+Jeder Spieler entscheidet [vor Spielbeginn](#3-vorbereiten-der-gruppe), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
+
+!!! example Beispiel
+
+    Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
+    Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschiedene Kräfte mit ins Spiel nehmen zu können.
 
 ### Kraftkarten
 
@@ -1828,16 +1838,16 @@ Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
         * Nutzung
             * Sichtlinie
             * Durch Geländeteile
-    * Gehören einer "Gattung" an
-        * Farbe je "Gattung" definieren
-        * Kann eine Kraft mehreren Gattungen angehören?
-        * Optionales Icon je "Gattung"
+    * Gehören einer "Disziplin" an
+        * Farbe je "Disziplin" definieren
+        * Kann eine Kraft mehreren Disziplinen angehören?
+        * Optionales Icon je "Disziplin"
         * Icon im Kopf der "Karte" ausgeben
         * Kopf der "Karte" einfärben
         * Schriftfarbe automatisch wählen
             * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
     * Zuordnung zu Modell:
-        * Ganze Gattung, aber mit einer Stufe
+        * Ganze Disziplin, aber mit einer Stufe
             * Die Stufe bestimmt, wieviele Kräfte pro Spiel ausgewählt werden dürfen.
             * Passiert unmittelbar vor dem Spiel
 
