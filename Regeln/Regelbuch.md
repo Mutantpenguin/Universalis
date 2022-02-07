@@ -1735,7 +1735,7 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln 
 
 Unter Kontroller versteht man alle Modelle denen eine Drohne zugeordnet ist.
 Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
-Dies geschieht vor dem Spiel und kann währenddessen nicht geändert werden.
+Dies geschieht [vor dem Spiel](#3-vorbereiten-der-gruppe) und kann währenddessen nicht geändert werden.
 
 Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
