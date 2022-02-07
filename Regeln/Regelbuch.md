@@ -423,11 +423,11 @@ Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 
 Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
-1. [Aufbau des Spielfeldes](#aufbau-des-spielfeldes)
-2. [Missionsauswahl](#missionsauswahl)
-3. [Vorbereiten der Gruppe](#vorbereiten-der-gruppe)
-4. [Aufstellen der Modelle](#aufstellen-der-modelle)
-5. [Runden](#runden)
+1. [Aufbau des Spielfeldes](#1-aufbau-des-spielfeldes)
+2. [Missionsauswahl](#2-missionsauswahl)
+3. [Vorbereiten der Gruppe](#3-vorbereiten-der-gruppe)
+4. [Aufstellen der Modelle](#4-aufstellen-der-modelle)
+5. [Runden](#5-runden)
     * [Initiativephasen](#initiativephasen)
     * [Rundenende](#rundenende)
 
