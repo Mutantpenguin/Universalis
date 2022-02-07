@@ -1783,6 +1783,16 @@ In Universalis wird alles was normalerweise als PSI, Magie, Thaumaturgie, ect. b
 
 Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte als Kraft dargestellt werden.
 
+### Gattungen
+
+### Kraftkarten
+
+!!! TODO
+
+    Beispiel einbauen
+
+### TODO
+
 !!! TODO Kräfte ausarbeiten
 
     * Jede Kraft
@@ -1802,16 +1812,17 @@ Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte 
         * Nutzung
             * Sichtlinie
             * Durch Geländeteile
-    * Gehören einer "Schule" an
-        * Farbe je "Schule" definieren
-        * Optionales Icon je "Schule"
+    * Gehören einer "Gattung" an
+        * Farbe je "Gattung" definieren
+        * Optionales Icon je "Gattung"
         * Icon im Kopf der "Karte" ausgeben
         * Kopf der "Karte" einfärben
         * Schriftfarbe automatisch wählen
             * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
     * Zuordnung zu Modell:
-        * Einzelne Kraft?
-        * Ganze Schule?
+        * Ganze Gattung, aber mit einer Stufe
+            * Die Stufe bestimmt, wieviele Kräfte pro Spiel ausgewählt werden dürfen.
+            * Passiert unmittelbar vor dem Spiel
 
 ### Aktionen: Kräfte
 
