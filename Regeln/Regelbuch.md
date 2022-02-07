@@ -237,6 +237,8 @@ Diese können entweder permanent oder temporär sein:
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache [Attribute](#attribute) hinausgeht.
 Außerdem können sie über eventuelle [Profilmodifikatoren](#profilmodifikatoren) verfügen.
 
+Jede Spielmechanik die über Eigenschaften hinaus geht sollte als [Kraft](#kräfte) dargestellt werden.
+
 ### Aktionen: Eigenschaften
 
 !!! danger Eigenschaft anwenden - X ⊙
@@ -1777,9 +1779,11 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
 ## Kräfte
 
-!!! TODO Kräfte ausarbeiten
+In Universalis wird alles was normalerweise als PSI, Magie, Thaumaturgie, ect. bezeichnet wird "Kräfte" genannt.
 
-    PSI, Magie und Thaumaturgie wird alles als "Kräfte" bezeichnet
+Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte als Kraft dargestellt werden.
+
+!!! TODO Kräfte ausarbeiten
 
     * Jede Kraft
         * Hat eine "Karte"
