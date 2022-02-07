@@ -425,18 +425,19 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
 1. [Aufbau des Spielfeldes](#aufbau-des-spielfeldes)
 2. [Missionsauswahl](#missionsauswahl)
-3. [Aufstellen der Modelle](#aufstellen-der-modelle)
-4. [Runden](#runden)
+3. [Vorbereiten der Gruppe](#vorbereiten-der-gruppe)
+4. [Aufstellen der Modelle](#aufstellen-der-modelle)
+5. [Runden](#runden)
     * [Initiativephasen](#initiativephasen)
     * [Rundenende](#rundenende)
 
-### Aufbau des Spielfeldes
+### 1. Aufbau des Spielfeldes
 
 Beide Spieler bauen gemeinsam das Spielfeld mit [Geländeteilen](#geländeteile) auf bis sie damit einverstanden sind.
 
 Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
 
-### Missionsauswahl
+### 2. Missionsauswahl
 
 Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus.
 Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
@@ -444,7 +445,14 @@ Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
 Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenommen.
 Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftlich gelöst werden.
 
-### Aufstellen der Modelle
+### 3. Vorbereiten der Gruppe
+
+!!! TODO
+
+    * Zuordnen von Kontrollern
+    * Auswahl der Kräfte
+
+### 4. Aufstellen der Modelle
 
 Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
 
@@ -453,7 +461,7 @@ Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
 
-### Runden
+### 5. Runden
 
 Innerhalb einer Runde hat jedes Modell eine Initiativephase.
 Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchgeführt hat.
