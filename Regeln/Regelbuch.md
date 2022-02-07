@@ -1834,22 +1834,21 @@ Jeder Spieler entscheidet [vor Spielbeginn](#3-vorbereiten-der-gruppe), welche K
         * Reichweite
             * Nutzer
             * Berührung
+                * Freund
+                * Feind
             * Distanz
         * Nutzung
             * Sichtlinie
             * Durch Geländeteile
     * Gehören einer "Disziplin" an
         * Farbe je "Disziplin" definieren
+            * Kopf der "Karte" einfärben
         * Kann eine Kraft mehreren Disziplinen angehören?
         * Optionales Icon je "Disziplin"
-        * Icon im Kopf der "Karte" ausgeben
-        * Kopf der "Karte" einfärben
+            * Icon im Kopf der "Karte" ausgeben
+            * Icon auf der "Rückseite" der Karte ausgeben
         * Schriftfarbe automatisch wählen
             * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
-    * Zuordnung zu Modell:
-        * Ganze Disziplin, aber mit einer Stufe
-            * Die Stufe bestimmt, wieviele Kräfte pro Spiel ausgewählt werden dürfen.
-            * Passiert unmittelbar vor dem Spiel
 
 ### Aktionen: Kräfte
 
