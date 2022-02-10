@@ -52,6 +52,13 @@ Modelle sollten halbwegs realistisch ausgerüstet werden und nicht mit beliebig 
 
 Am Ende sollte jederzeit der gesunde Menschenverstand mitspielen und der Spaß am kontinuierlichen Spiel im Vordergrund stehen.
 
+Also:
+
+1. Nehmt eure schönsten Modelle
+2. Stellt coole Teams zusammen
+3. Erzählt eine tolle Geschichte
+4. Habt Spaß!
+
 ## Was braucht man
 
 * Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
