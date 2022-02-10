@@ -430,11 +430,11 @@ Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 
 Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
-1. [Aufbau des Spielfeldes](#aufbau-des-spielfeldes)
-2. [Missionsauswahl](#missionsauswahl)
-3. [Vorbereiten der Gruppe](#vorbereiten-der-gruppe)
-4. [Aufstellen der Modelle](#aufstellen-der-modelle)
-5. [Runden](#runden)
+1. [Aufbau des Spielfeldes](#1-aufbau-des-spielfeldes)
+2. [Missionsauswahl](#2-missionsauswahl)
+3. [Vorbereiten der Gruppe](#3-vorbereiten-der-gruppe)
+4. [Aufstellen der Modelle](#4-aufstellen-der-modelle)
+5. [Runden](#5-runden)
     * [Initiativephasen](#initiativephasen)
     * [Rundenende](#rundenende)
 
@@ -1742,7 +1742,7 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln 
 
 Unter Kontroller versteht man alle Modelle denen eine Drohne zugeordnet ist.
 Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
-Dies geschieht vor dem Spiel und kann währenddessen nicht geändert werden.
+Dies geschieht [vor dem Spiel](#3-vorbereiten-der-gruppe) und kann währenddessen nicht geändert werden.
 
 Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
@@ -1798,15 +1798,25 @@ In Universalis wird alles was normalerweise als PSI, Magie, Thaumaturgie, ect. b
 
 Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte als Kraft dargestellt werden.
 
-### Gattungen
+### Disziplinen
 
-Alle Kräfte sind in sogenannten "Gattungen" organisiert.
+Alle Kräfte sind in sogenannten "Disziplinen" organisiert.
 Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
 
 !!! example Beispiel
 
-    * In einer Fantasywelt wären "Feuermagie" und "Eiszauber" Gattungen, die dann jeweils Kräfte wie "Feuerball/Feuerwand" und "Eisblitz/Schneesturm" beinhalten.
-    * Im Cyberpunk wären Gattungen wie "Psychokinese" TODO
+    * In einer Fantasywelt wären "Feuermagie" und "Eiszauberei" eigene Disziplinen, die dann jeweils Kräfte wie "Feuerball" und "Feuerwand" bzw. "Eisblitz" und "Schneesturm" beinhalten.
+    * Bei Cyberpunk wäre eine Disziplin wie "Psychokinese" denkbar die dann Kräfte wie "Würgegriff" und "Schweben" vereint.
+
+Sobald ein Modell einer Disziplin angehört hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
+Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
+
+Jeder Spieler entscheidet [vor Spielbeginn](#3-vorbereiten-der-gruppe), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
+
+!!! example Beispiel
+
+    Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
+    Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschiedene Kräfte mit ins Spiel nehmen zu können.
 
 ### Kraftkarten
 
@@ -1831,22 +1841,21 @@ Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
         * Reichweite
             * Nutzer
             * Berührung
+                * Freund
+                * Feind
             * Distanz
         * Nutzung
             * Sichtlinie
             * Durch Geländeteile
-    * Gehören einer "Gattung" an
-        * Farbe je "Gattung" definieren
-        * Kann eine Kraft mehreren Gattungen angehören?
-        * Optionales Icon je "Gattung"
-        * Icon im Kopf der "Karte" ausgeben
-        * Kopf der "Karte" einfärben
+    * Gehören einer "Disziplin" an
+        * Farbe je "Disziplin" definieren
+            * Kopf der "Karte" einfärben
+        * Kann eine Kraft mehreren Disziplinen angehören?
+        * Optionales Icon je "Disziplin"
+            * Icon im Kopf der "Karte" ausgeben
+            * Icon auf der "Rückseite" der Karte ausgeben
         * Schriftfarbe automatisch wählen
             * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
-    * Zuordnung zu Modell:
-        * Ganze Gattung, aber mit einer Stufe
-            * Die Stufe bestimmt, wieviele Kräfte pro Spiel ausgewählt werden dürfen.
-            * Passiert unmittelbar vor dem Spiel
 
 ### Aktionen: Kräfte
 
