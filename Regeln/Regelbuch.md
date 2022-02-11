@@ -462,6 +462,8 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 ### 4. Aufstellen der Modelle
 
 Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
+Bei Gleichstand gewinnt das Modell mit der höheren EH.
+Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
 
 Der Gewinner des Wurfs markiert zuerst entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
 Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
@@ -489,6 +491,8 @@ Dies kann gleichzeitig geschehen.
 Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
 
 Beide Modelle führen einen vergleichenden Wurf auf AGI durch.
+Bei Gleichstand gewinnt das Modell mit der höheren AGI.
+Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
 Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
 
 Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modelle in beliebiger Reihenfolge.
