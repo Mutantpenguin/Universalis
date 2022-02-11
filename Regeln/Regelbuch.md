@@ -1217,7 +1217,7 @@ Bei Erfolg wurde das Ziel getroffen und ein [Treffer](#schaden-&-rüstung) gelan
 
 !!! danger Gezielter Schuss - WK+2 ⊙
 
-    Das Modell führt einen Fernkampf durch und erhält +1 auf seinen FK-Wurf.
+    Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
     Die Reichweitenbänder werden hierbei verdoppelt.
     
     Er ist nicht in Kombination mit Dauerfeuer einsetzbar.
