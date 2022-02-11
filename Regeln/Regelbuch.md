@@ -897,13 +897,13 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![aufreißen](Grafiken/Effekt/aufreißen.svg){width=40pt}|Aufreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![brand](Grafiken/Effekt/brand.svg){width=40pt}|Brand|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
 |![erschütterung](Grafiken/Effekt/erschütterung.svg){width=40pt}|Erschütterung| Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
 |![explosiv](Grafiken/Effekt/explosiv.svg){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
 |![giftig](Grafiken/Effekt/giftig.svg){width=40pt}|Giftig|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung).|
 |![panzerbrechend](Grafiken/Effekt/panzerbrechend.svg){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![schrapnell](Grafiken/Effekt/schrapnell.svg){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
+|![zerfetzen](Grafiken/Effekt/zerfetzen.svg){width=40pt}|Zerfetzen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 
 #### Nur für Waffen
 
