@@ -138,7 +138,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check Abgehärtet
 
-    Im kritischen Zustand erhalten die Attributswürfe **keinen** Malus von -1.
+    Im kritischen Zustand erhalten die Attributswürfe **keinen** Malus von -2.
 
 !!! check Absolute Regeneration
 
