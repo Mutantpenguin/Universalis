@@ -52,6 +52,13 @@ Modelle sollten halbwegs realistisch ausgerüstet werden und nicht mit beliebig 
 
 Am Ende sollte jederzeit der gesunde Menschenverstand mitspielen und der Spaß am kontinuierlichen Spiel im Vordergrund stehen.
 
+Also:
+
+1. Nehmt eure schönsten Modelle
+2. Stellt coole Teams zusammen
+3. Erzählt eine tolle Geschichte
+4. Habt Spaß!
+
 ## Was braucht man
 
 * Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
@@ -455,6 +462,8 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 ### 4. Aufstellen der Modelle
 
 Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
+Bei Gleichstand gewinnt das Modell mit der höheren EH.
+Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
 
 Der Gewinner des Wurfs markiert zuerst entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
 Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
@@ -482,6 +491,8 @@ Dies kann gleichzeitig geschehen.
 Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
 
 Beide Modelle führen einen vergleichenden Wurf auf AGI durch.
+Bei Gleichstand gewinnt das Modell mit der höheren AGI.
+Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
 Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
 
 Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modelle in beliebiger Reihenfolge.
@@ -887,13 +898,13 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 |Symbol|Name|Auswirkungen|
 |--|--|--|
-|![aufreißen](Grafiken/Effekt/aufreißen.svg){width=40pt}|Aufreißen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 |![brand](Grafiken/Effekt/brand.svg){width=40pt}|Brand|Wenn das Modell überlebt erhält es einen Brandmarker. Siehe [brennen](#brennen).|
 |![erschütterung](Grafiken/Effekt/erschütterung.svg){width=40pt}|Erschütterung| Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.|
 |![explosiv](Grafiken/Effekt/explosiv.svg){width=40pt}|Explosiv|Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.|
 |![giftig](Grafiken/Effekt/giftig.svg){width=40pt}|Giftig|Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe [Vergiftung](#vergiftung).|
 |![panzerbrechend](Grafiken/Effekt/panzerbrechend.svg){width=40pt}|Panzerbrechend|Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).|
 |![schrapnell](Grafiken/Effekt/schrapnell.svg){width=40pt}|Schrapnell|Boni auf den Rüstungswurf die durch [Deckung](#deckung) oder [Tarnung](#tarnung) zustande kommen werden nicht angewendet.|
+|![zerfetzen](Grafiken/Effekt/zerfetzen.svg){width=40pt}|Zerfetzen|Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.|
 
 #### Nur für Waffen
 
@@ -1203,7 +1214,7 @@ Bei Erfolg wurde das Ziel getroffen und ein [Treffer](#schaden-&-rüstung) gelan
 
 !!! danger Gezielter Schuss - WK+2 ⊙
 
-    Das Modell führt einen Fernkampf durch und erhält +1 auf seinen FK-Wurf.
+    Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
     Die Reichweitenbänder werden hierbei verdoppelt.
     
     Er ist nicht in Kombination mit Dauerfeuer einsetzbar.
