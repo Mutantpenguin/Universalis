@@ -729,22 +729,19 @@ Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
     Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe.
-    Dies gilt nicht bei befreundeten Modellen.
-
 * #### Stufe II Deckung
 
     Kann Beschuss bedingt abhalten.
     Beispiele: Ziegelmauer, Holzhaus, Tanks
 
-    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe.
+    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe.
 
 * #### Stufe III Deckung
 
     Ist zur direkten Abwehr von Beschuss geeignet.
     Beispiele: Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
 
-    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +3 auf seine Rüstungswürfe.
+    Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe.
 
 ### Passierbarkeit
 
