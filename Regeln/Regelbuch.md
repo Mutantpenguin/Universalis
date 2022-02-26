@@ -244,7 +244,7 @@ Diese können entweder permanent oder temporär sein:
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache [Attribute](#attribute) hinausgeht.
 Außerdem können sie über eventuelle [Profilmodifikatoren](#profilmodifikatoren) verfügen.
 
-Jede Spielmechanik die über Eigenschaften hinaus geht sollte als [Kraft](#kräfte) dargestellt werden.
+Jede Spielmechanik die über Eigenschaften hinaus geht sollte als [Kraft](#kraft-disziplinen) dargestellt werden.
 
 ### Aktionen: Eigenschaften
 
@@ -370,7 +370,7 @@ Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase inn
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
 
 Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
-Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per [Nahkampf](#nahkampf), [Fernkampf](#fernkampf), [Ausrüstung](#ausrüstung), [Eigenschaften](#eigenschaften) oder [Kräften](#kräfte).
+Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per [Nahkampf](#nahkampf), [Fernkampf](#fernkampf), [Ausrüstung](#ausrüstung), [Eigenschaften](#eigenschaften) oder [Kräften](#kraft-disziplinen).
 
 Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
@@ -457,7 +457,7 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
 * Zuordnen von [Kontrollern](#kontroller)
-* Auswahl der [Kräfte](#disziplinen)
+* Auswahl der [Kräfte](#auswahl-von-kräften)
 
 ### 4. Aufstellen der Modelle
 
@@ -1793,13 +1793,11 @@ Sobald eine Drohne als [ausgeschalten](#ausgeschaltet) gilt kommt es zu einer R�
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
-## Kräfte
+## Kraft-Disziplinen
 
 In Universalis wird alles was normalerweise als PSI, Magie, Thaumaturgie, ect. bezeichnet wird "Kräfte" genannt.
 
 Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte als Kraft dargestellt werden.
-
-### Disziplinen
 
 Alle Kräfte sind in sogenannten "Disziplinen" organisiert.
 Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
@@ -1809,7 +1807,9 @@ Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
     * In einer Fantasywelt wären "Feuermagie" und "Eiszauberei" eigene Disziplinen, die dann jeweils Kräfte wie "Feuerball" und "Feuerwand" bzw. "Eisblitz" und "Schneesturm" beinhalten.
     * Bei Cyberpunk wäre eine Disziplin wie "Psychokinese" denkbar die dann Kräfte wie "Würgegriff" und "Schweben" vereint.
 
-Sobald ein Modell einer Disziplin angehört hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
+### Auswahl von Kräften
+
+Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
 
 Jeder Spieler entscheidet [vor Spielbeginn](#3-vorbereiten-der-gruppe), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
@@ -1819,44 +1819,57 @@ Jeder Spieler entscheidet [vor Spielbeginn](#3-vorbereiten-der-gruppe), welche K
     Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
     Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschiedene Kräfte mit ins Spiel nehmen zu können.
 
-### Kraftkarten
+### Kräfte
+
+Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
 
 !!! TODO
 
-    Beispiel einbauen
+    Beispiel mit Bild einbauen
+
+Jede Kraftkarte kann die folgenden Merkmale besitzen:
+
+* #### AP-Kosten
+
+  Dies sind die benötigten AP um die Kraft einzusetzen.
+
+* #### Attribut
+
+  Jede Kraft bezieht sich immer auf ein Attribut.
+  Sobald die Kraft verwendet werden soll muss ein Attributswurf gegen dieses Attribut durchgeführt werden.
+
+  Zusätzlich kann eine Schwierigkeit mit angegeben werden.
+  Sie gibt an wie der Attributswurf modifiziert wird.
+
+  !!! example Beipiel
+
+      * Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
+      * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
+
+* #### TP-Verlust
+
+  * TP-Verlust bei Misslingen
+  * Grundsätzlicher TP-Verlust?
+
+* #### Reichweite
+
+  * Nutzer
+  * Berührung
+    * Freund
+    * Feind
+  * Distanz
 
 ### TODO
 
 !!! TODO Kräfte ausarbeiten
 
     * Jede Kraft
-        * Hat eine "Karte"
-        * Bezieht sich immer auf ein Attribut
-        * Besitzt eine Schwierigkeit
-        * Hat AP-Kosten
-        * TP-Verlust bei Misslingen
-        * Grundsätzlicher TP-Verlust?
         * Dauer
             * Instantan
             * Dauerhaft
-        * Reichweite
-            * Nutzer
-            * Berührung
-                * Freund
-                * Feind
-            * Distanz
         * Nutzung
             * Sichtlinie
             * Durch Geländeteile
-    * Gehören einer "Disziplin" an
-        * Farbe je "Disziplin" definieren
-            * Kopf der "Karte" einfärben
-        * Kann eine Kraft mehreren Disziplinen angehören?
-        * Optionales Icon je "Disziplin"
-            * Icon im Kopf der "Karte" ausgeben
-            * Icon auf der "Rückseite" der Karte ausgeben
-        * Schriftfarbe automatisch wählen
-            * https://stackoverflow.com/questions/3942878/how-to-decide-font-color-in-white-or-black-depending-on-background-color
 
 ### Aktionen: Kräfte
 
