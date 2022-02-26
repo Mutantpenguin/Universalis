@@ -1863,10 +1863,13 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### Dauer
 
-  Kräfte werden entweder sofort angewendet oder bleiben dauerhaft im Spiel.
+  Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
 
   Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
   Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
+
+  Manche Kräfte können sich auch selber beenden.
+  In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.
 
   | Sofort | Dauerhaft |
   | :-: | :-: |
