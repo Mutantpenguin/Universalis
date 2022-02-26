@@ -1836,7 +1836,7 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 * #### Attribut
 
   Kräfte beziehen sich immer auf ein Attribut.
-  Sobald eine Kraft verwendet werden soll muss zunächst ein erfolgreicher Attributswurf gegen dieses Attribut abgelegt werden.
+  Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher Attributswurf gegen dieses Attribut abgelegt werden.
 
   Zusätzlich kann eine Schwierigkeit angegeben sein.
   Sie gibt an wie der Attributswurf modifiziert wird.
@@ -1891,13 +1891,12 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 !!! danger Kraft einsetzen - x ⊙
 
-    !!! TODO Aktion Kraft verwenden
-
-    Kosten abhängig von Kraft.
+    Die Kraft wird eingesetzt.
+    Die Kosten sind abhängig von der eingesetzten Kraft.
 
 !!! danger Kraft beenden - 1 ⊙
 
-    !!! TODO eine "dauerhafte" Kraft bewusst beenden
+    Eine eigene "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
 
 ### Reaktionen: Kräfte
 
