@@ -1835,10 +1835,10 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### Attribut
 
-  Jede Kraft bezieht sich immer auf ein Attribut.
-  Sobald die Kraft verwendet werden soll muss ein Attributswurf gegen dieses Attribut durchgeführt werden.
+  Kräfte beziehen sich immer auf ein Attribut.
+  Sobald eine Kraft verwendet werden soll muss zunächst ein erfolgreicher Attributswurf gegen dieses Attribut abgelegt werden.
 
-  Zusätzlich kann eine Schwierigkeit mit angegeben werden.
+  Zusätzlich kann eine Schwierigkeit angegeben sein.
   Sie gibt an wie der Attributswurf modifiziert wird.
 
   !!! example Beipiel
@@ -1861,9 +1861,14 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### Dauer
 
-  * Instantan
-  * Dauerhaft
-    * Können währenddessen nicht nochmal gewirkt werden
+  Kräfte werden entweder sofort angewendet oder bleiben dauerhaft im Spiel.
+
+  Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
+  Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
+
+  !!! TODO
+
+    Icons zeigen
 
 * #### Nutzung
 
@@ -1872,11 +1877,15 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 ### Aktionen: Kräfte
 
-!!! danger Kraft verwenden - x ⊙
+!!! danger Kraft einsetzen - x ⊙
 
     !!! TODO Aktion Kraft verwenden
 
     Kosten abhängig von Kraft.
+
+!!! danger Kraft beenden - 1 ⊙
+
+    !!! TODO eine "dauerhafte" Kraft bewusst beenden
 
 ### Reaktionen: Kräfte
 
