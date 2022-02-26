@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg15686"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Misserfolg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15688"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.79998597"
+     inkscape:cx="18.125318"
+     inkscape:cy="18.125318"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs15683" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-100.32085,-143.97787)">
+    <g
+       id="g11654"
+       transform="matrix(0.26458333,0,0,0.26458333,61.149741,-19.440176)">
+      <rect
+         y="617.64301"
+         x="148.04829"
+         height="35.433071"
+         width="35.433071"
+         id="rect11084"
+         style="fill:none" />
+      <g
+         id="g11628">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="circle11086"
+           cx="165.76483"
+           cy="635.35956"
+           r="15.055" />
+        <g
+           id="g11622"
+           transform="translate(0.01485154,-0.01538189)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 158.87498,628.49994 13.75,13.75"
+             id="path11356" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 172.62498,628.49994 -13.75,13.75"
+             id="path11618" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
