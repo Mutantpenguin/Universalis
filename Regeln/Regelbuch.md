@@ -1848,16 +1848,18 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### TP-Verlust
 
-  * TP-Verlust bei Misslingen
-  * Grundsätzlicher TP-Verlust?
+  !!! TODO TODO
+      * TP-Verlust bei Misslingen
+      * Grundsätzlicher TP-Verlust?
 
 * #### Reichweite
 
-  * Nutzer
-  * Berührung
-    * Freund
-    * Feind
-  * Distanz
+  !!! TODO
+      * Nutzer
+      * Berührung
+        * Freund
+        * Feind
+      * Distanz
 
 * #### Dauer
 
