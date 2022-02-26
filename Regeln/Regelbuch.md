@@ -454,10 +454,10 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 
 ### 3. Vorbereiten der Gruppe
 
-!!! TODO
+Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
-    * Zuordnen von Kontrollern
-    * Auswahl der Kräfte
+* Zuordnen von [Kontrollern](#kontroller)
+* Auswahl der [Kräfte](#disziplinen)
 
 ### 4. Aufstellen der Modelle
 
