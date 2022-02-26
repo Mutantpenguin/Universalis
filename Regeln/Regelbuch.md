@@ -1859,17 +1859,16 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
     * Feind
   * Distanz
 
-### TODO
+* #### Dauer
 
-!!! TODO Kräfte ausarbeiten
+  * Instantan
+  * Dauerhaft
+    * Können währenddessen nicht nochmal gewirkt werden
 
-    * Jede Kraft
-        * Dauer
-            * Instantan
-            * Dauerhaft
-        * Nutzung
-            * Sichtlinie
-            * Durch Geländeteile
+* #### Nutzung
+
+  * Sichtlinie
+  * Durch Geländeteile
 
 ### Aktionen: Kräfte
 
