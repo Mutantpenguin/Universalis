@@ -1866,9 +1866,9 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
   Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
   Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
 
-  !!! TODO
-
-    Icons zeigen
+  | Sofort | Dauerhaft |
+  | :-: | :-: |
+  | ![sofort](Grafiken/Kraft/Sofort.svg) | ![dauerhaft](Grafiken/Kraft/Dauerhaft.svg)|
 
 * #### Nutzung
 

@@ -4,7 +4,7 @@
    height="297mm"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="Symbole.svg"
    inkscape:export-filename="C:\Users\Charon\Dropbox\Projekt Tesserakt\Symbole\typ_level_iii.png"
    inkscape:export-xdpi="381"
@@ -522,15 +522,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142137"
-     inkscape:cx="399.16174"
-     inkscape:cy="583.71659"
+     inkscape:zoom="8.0000008"
+     inkscape:cx="88.687491"
+     inkscape:cy="638.93744"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
@@ -540,8 +540,8 @@
      inkscape:snap-global="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:snap-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-nodes="false"
      inkscape:snap-bbox-midpoints="true"
      inkscape:document-rotation="0"
      inkscape:bbox-paths="false"
@@ -549,7 +549,9 @@
      inkscape:snap-center="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:object-paths="true"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid3268"
@@ -566,7 +568,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6150,6 +6151,61 @@
              x="622.16553"
              y="-449.71985"
              transform="rotate(90)" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g8542">
+      <rect
+         y="617.64301"
+         x="47.298309"
+         height="35.433071"
+         width="35.433071"
+         id="rect1882"
+         style="fill:none" />
+      <path
+         id="path2209"
+         style="fill:#000000;stroke:none;stroke-width:0.999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 64.233801,637.57981 -2.99197,14.56744 10.016297,-20.02969 -5.46368,1.02172 2.991931,-14.56742 -10.014832,20.03113 z"
+         sodipodi:nodetypes="ccccccc" />
+    </g>
+    <g
+       id="g6300"
+       transform="translate(-168.2424,-86.267019)">
+      <rect
+         y="703.91003"
+         x="262.54071"
+         height="35.433071"
+         width="35.433071"
+         id="rect3273"
+         style="fill:none" />
+      <g
+         id="g5209"
+         transform="matrix(0.96230437,0,0,0.96230437,10.564457,27.202152)"
+         style="stroke-width:1.03917">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:3.00321;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="circle3275"
+           cx="280.25726"
+           cy="721.62659"
+           r="15.644738" />
+        <g
+           id="g5202"
+           style="stroke-width:1.03917">
+          <path
+             id="path4415"
+             style="stroke-width:1.75619;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+             d="m 282.63974,721.62661 a 2.3825,2.3825 0 0 1 -2.3825,2.3825 2.3825,2.3825 0 0 1 -2.3825,-2.3825 2.3825,2.3825 0 0 1 2.3825,-2.3825 2.3825,2.3825 0 0 1 2.3825,2.3825 z" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:3.00321;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 280.25723,721.62659 V 710.36403"
+             id="path4530"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:3.00321;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 281.10223,721.62659 h 5.63128"
+             id="path4534"
+             sodipodi:nodetypes="cc" />
         </g>
       </g>
     </g>
