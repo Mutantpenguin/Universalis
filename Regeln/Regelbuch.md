@@ -1846,6 +1846,17 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
       * Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
       * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
 
+* #### Wirkungsbereich
+
+  !!! TODO TODO
+
+      * Ziel
+        * Nutzer
+        * Freund
+        * Feind
+      * Berührung
+      * Distanz
+
 * #### TP-Verlust
 
   Bei manchen Kräften kann es beim Einsatz zum Verlust von TP kommen.
@@ -1856,16 +1867,6 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
   | Automatisch | Immer |
   | :-: | :-: |
   | ![sofort](Grafiken/Kraft/SchadenMisserfolg.svg) | ![schaden](Grafiken/Kraft/SchadenAutomatisch.svg) |
-
-* #### Reichweite
-
-  !!! TODO TODO
-
-      * Nutzer
-      * Berührung
-        * Freund
-        * Feind
-      * Distanz
 
 * #### Dauer
 
@@ -1880,13 +1881,6 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
   | Sofort | Dauerhaft |
   | :-: | :-: |
   | ![sofort](Grafiken/Kraft/Sofort.svg) | ![dauerhaft](Grafiken/Kraft/Dauerhaft.svg) |
-
-* #### Nutzung
-
-  !!! TODO TODO
-
-      * Sichtlinie
-      * Durch Geländeteile
 
 ### Kraft einsetzen
 
