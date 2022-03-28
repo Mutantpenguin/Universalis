@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg9630"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Schaden.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9632"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="6.3998878"
+     inkscape:cx="26.172334"
+     inkscape:cy="14.453378"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9627" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-94.863725,-83.949471)">
+    <g
+       id="g2700">
+      <rect
+         y="83.949471"
+         x="94.863724"
+         height="9.375"
+         width="9.375"
+         id="rect3798"
+         style="fill:none;stroke-width:0.264583" />
+      <g
+         id="g2693">
+        <path
+           transform="matrix(0.2915935,0.06201993,-0.06201993,0.2915935,100.52492,29.051091)"
+           inkscape:transform-center-y="-1.0345173"
+           inkscape:transform-center-x="1.5502266"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="false"
+           sodipodi:arg2="0.70681145"
+           sodipodi:arg1="0.52807446"
+           sodipodi:r2="14.994771"
+           sodipodi:r1="8.6827774"
+           sodipodi:cy="196.1122"
+           sodipodi:cx="38.214287"
+           sodipodi:sides="8"
+           id="path3800"
+           style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:2.087;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:type="star"
+           d="m 45.714287,200.4872 3.90257,5.36279 -9.192862,-1.3409 -1.032531,6.5516 -5.552177,-7.44849 -5.36279,3.90257 1.340897,-9.19286 -6.551599,-1.03253 7.448492,-5.55218 -3.90257,-5.36279 9.192861,1.34089 1.032532,-6.55159 5.552177,7.44849 5.36279,-3.90257 -1.340897,9.19286 6.551599,1.03253 z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.30328px;line-height:1.25;font-family:'Nova Square';-inkscape-font-specification:'Nova Square, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="98.107788"
+           y="90.192589"
+           id="text2042"><tspan
+             sodipodi:role="line"
+             id="tspan2040"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.30328px;font-family:'Nova Square';-inkscape-font-specification:'Nova Square, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="98.107788"
+             y="90.192589">5</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

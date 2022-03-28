@@ -1850,14 +1850,12 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
   Bei manchen Kräften kann es beim Einsatz zum Verlust von TP kommen.
 
-  Hierbei wird unterschieden ob der Verlust an TP immer eintritt, oder nur bei misslungenem Attributswurf.
+  Hierbei wird unterschieden ob der Verlust an TP automatisch eintritt, oder nur bei misslungenem Attributswurf.
+  Die Zahl im Symbol gibt an, wieviele TP das Modell verliert.
   
-  | Immer | Misserfolg |
+  | Automatisch | Immer |
   | :-: | :-: |
-  | !5![schaden](Grafiken/Waffe/schaden.svg){height=15pt} | ![sofort](Grafiken/Kraft/Misserfolg.svg){height=15pt}5![schaden](Grafiken/Waffe/schaden.svg){height=15pt} |
-  
-  !!! TODO TODO
-      Schöner machen
+  | ![sofort](Grafiken/Kraft/SchadenMisserfolg.svg) | ![schaden](Grafiken/Kraft/SchadenAutomatisch.svg) |
 
 * #### Reichweite
 
