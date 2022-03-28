@@ -1862,11 +1862,11 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 * #### Reichweite
 
   !!! TODO
-      * Nutzer
-      * Berührung
-        * Freund
-        * Feind
-      * Distanz
+  * Nutzer
+  * Berührung
+    * Freund
+    * Feind
+  * Distanz
 
 * #### Dauer
 
