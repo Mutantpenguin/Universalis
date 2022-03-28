@@ -8,7 +8,7 @@
    version="1.1"
    id="svg9630"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="Instantan.svg"
+   sodipodi:docname="Sofort.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +31,8 @@
      inkscape:cx="17.109675"
      inkscape:cy="29.9224"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="1912"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -44,20 +44,30 @@
      id="layer1"
      transform="translate(-94.863725,-83.949471)">
     <g
-       id="g8542"
-       transform="matrix(0.26458333,0,0,0.26458333,82.349381,-79.468572)">
+       id="g2641"
+       transform="matrix(0.26458333,0,0,0.26458333,57.386011,-98.972582)">
       <rect
-         y="617.64301"
-         x="47.298309"
+         y="691.35895"
+         x="141.64806"
          height="35.433071"
          width="35.433071"
-         id="rect1882"
-         style="fill:none" />
-      <path
-         id="path2209"
-         style="fill:#000000;stroke:none;stroke-width:0.999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 64.233801,637.57981 -2.99197,14.56744 10.016297,-20.02969 -5.46368,1.02172 2.991931,-14.56742 -10.014832,20.03113 z"
-         sodipodi:nodetypes="ccccccc" />
+         id="rect2577"
+         style="fill:none;stroke:none" />
+      <g
+         id="g2581"
+         transform="translate(43.974745,1.2374706)">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="circle2302"
+           cx="115.38985"
+           cy="707.83801"
+           r="15.055" />
+        <path
+           id="path2319"
+           style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 114.52692,709.47378 -3.30564,10.73251 11.06638,-14.7568 -6.03647,0.75275 3.30559,-10.7325 -11.06475,14.75787 z"
+           sodipodi:nodetypes="ccccccc" />
+      </g>
     </g>
   </g>
 </svg>

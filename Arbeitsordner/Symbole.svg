@@ -522,15 +522,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710685"
-     inkscape:cx="337.2899"
-     inkscape:cy="557.9072"
+     inkscape:zoom="2.8284274"
+     inkscape:cx="92.100649"
+     inkscape:cy="661.32155"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="1912"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
@@ -6134,23 +6134,8 @@
       </g>
     </g>
     <g
-       id="g8542">
-      <rect
-         y="617.64301"
-         x="47.298309"
-         height="35.433071"
-         width="35.433071"
-         id="rect1882"
-         style="fill:none" />
-      <path
-         id="path2209"
-         style="fill:#000000;stroke:none;stroke-width:0.999998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 64.233801,637.57981 -2.99197,14.56744 10.016297,-20.02969 -5.46368,1.02172 2.991931,-14.56742 -10.014832,20.03113 z"
-         sodipodi:nodetypes="ccccccc" />
-    </g>
-    <g
        id="g6300"
-       transform="translate(-164.8674,-86.267019)">
+       transform="translate(-161.14601,-86.267019)">
       <rect
          y="703.91003"
          x="262.54071"
@@ -6253,5 +6238,34 @@
          y="608.72266"
          style="font-size:16px;line-height:1.25"
          id="tspan13048">Kräfte</tspan></text>
+    <g
+       transform="matrix(1.0151035,0,0,1.0151035,-191.23215,333.69784)"
+       id="g1909" />
+    <g
+       id="g2641"
+       transform="translate(-86.90696,-73.715933)">
+      <rect
+         y="691.35895"
+         x="141.64806"
+         height="35.433071"
+         width="35.433071"
+         id="rect2577"
+         style="fill:none;stroke:none" />
+      <g
+         id="g2581"
+         transform="translate(43.974745,1.2374706)">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="circle2302"
+           cx="115.38985"
+           cy="707.83801"
+           r="15.055" />
+        <path
+           id="path2319"
+           style="fill:#000000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 114.52692,709.47378 -3.30564,10.73251 11.06638,-14.7568 -6.03647,0.75275 3.30559,-10.7325 -11.06475,14.75787 z"
+           sodipodi:nodetypes="ccccccc" />
+      </g>
+    </g>
   </g>
 </svg>
