@@ -1859,12 +1859,13 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### Reichweite
 
-  !!! TODO
-  * Nutzer
-  * Berührung
-    * Freund
-    * Feind
-  * Distanz
+  !!! TODO TODO
+
+      * Nutzer
+      * Berührung
+        * Freund
+        * Feind
+      * Distanz
 
 * #### Dauer
 
@@ -1882,8 +1883,16 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### Nutzung
 
-  * Sichtlinie
-  * Durch Geländeteile
+  !!! TODO TODO
+
+      * Sichtlinie
+      * Durch Geländeteile
+
+### Kraft einsetzen
+
+  !!! TODO TODO
+
+    Hier beschreiben, was alles getan und beachtet werden muss.
 
 ### Aktionen: Kräfte
 
@@ -1894,13 +1903,26 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 !!! danger Kraft beenden - 1 ⊙
 
-    Eine eigene "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
+    Eine eigene beliebige "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
+
+!!! danger Kraft aufheben - 2 ⊙
+
+    !!! TODO TODO
+
+    Kosten bestimmen.
+
+    Nur wenn die Kraft innerhalb von EH in cm waren?
+    Oder im Wahrbehmungsbereich?
+
+    Würfeln wie beim Einsatz der Kraft.
+
+    Wird der TP-Verlust angewendet?
 
 ### Reaktionen: Kräfte
 
-!!! warning Kraft blockieren - ??? ⊙
+!!! warning Kraft blockieren - 2 ⊙
 
-    !!! TODO Reaktion Kraft blockieren
+    !!! TODO TODO
 
     Kosten bestimmen.
 
