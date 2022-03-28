@@ -1851,11 +1851,14 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
   !!! TODO TODO
 
       * Ziel
-        * Nutzer
+        * Bereich
         * Freund
         * Feind
-      * Berührung
-      * Distanz
+      * Reichweite
+        * Nutzer
+        * Berührung
+          * Bei Feinden muss vorher ein Nahkampfangriff gelingen?
+        * Distanz
 
 * #### TP-Verlust
 
