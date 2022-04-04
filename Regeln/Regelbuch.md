@@ -1883,7 +1883,7 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
   | Sofort | Dauerhaft |
   | :-: | :-: |
-  | ![sofort](Grafiken/Kraft/Sofort.svg) | ![dauerhaft](Grafiken/Kraft/Dauerhaft.svg) |
+  | ![sofort](Grafiken/Kraft/DauerSofort.svg) | ![dauerhaft](Grafiken/Kraft/DauerDauerhaft.svg) |
 
 ### Kraft einsetzen
 
