@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg9630"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="ReichweiteDistanz.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9632"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.599972"
+     inkscape:cx="77.188851"
+     inkscape:cy="55.313468"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9627" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-94.863725,-83.949471)">
+    <g
+       id="g2252"
+       transform="matrix(0.26458333,0,0,0.26458333,-4.7026365,-79.790452)">
+      <rect
+         y="618.85956"
+         x="376.31381"
+         height="35.433071"
+         width="35.433071"
+         id="rect1945-0"
+         style="fill:none" />
+      <g
+         id="g17525"
+         transform="translate(-6.8306923e-5,-111.47885)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"
+           id="rect16448"
+           width="30.110001"
+           height="30.110001"
+           x="378.9754"
+           y="732.99994"
+           ry="2.7954218" />
+        <g
+           id="g17518">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.89, 2.89;stroke-dashoffset:0;stroke-opacity:1"
+             d="M 403.22633,738.85902 384.13445,757.9509"
+             id="path16483" />
+          <path
+             id="path16598"
+             style="color:#000000;fill:#000000;-inkscape-stroke:none"
+             d="m 394.87896,737.83725 v 2.89062 h 6.47852 v 6.47852 h 2.89062 v -6.47852 -2.89062 h -2.89062 z" />
+          <path
+             id="path16956"
+             style="color:#000000;fill:#000000;-inkscape-stroke:none"
+             d="m 393.18185,758.27264 v -2.89062 h -6.47852 v -6.47852 h -2.89062 v 6.47852 2.89062 h 2.89062 z" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

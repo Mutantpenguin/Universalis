@@ -1850,15 +1850,19 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
   !!! TODO TODO
 
-      * Ziel
-        * Bereich
-        * Freund
-        * Feind
-      * Reichweite
-        * Nutzer
-        * Berührung
-          * Bei Feinden muss vorher ein Nahkampfangriff gelingen?
-        * Distanz
+  | Ziel | Symbol | Bedeutung |
+  | :-: | :-: | :- |
+  | Bereich | ![bereich](Grafiken/Kraft/ZielBereich.svg) | TODO |
+  | Freund | ![freund](Grafiken/Kraft/ZielFreund.svg) | TODO |
+  | Feind | ![feind](Grafiken/Kraft/ZielFeind.svg) | TODO |
+
+  asd
+
+  | Reichweite | Symbol | Bedeutung |
+  | :-: | :-: | :- |
+  | Nutzer | ![nutzer](Grafiken/Kraft/ReichweiteNutzer.svg) | TODO |
+  | Berührung | ![berührung](Grafiken/Kraft/ReichweiteBerührung.svg) | TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen? |
+  | Distanz | ![distanz](Grafiken/Kraft/ReichweiteDistanz.svg) | TODO |
 
 * #### TP-Verlust
 
