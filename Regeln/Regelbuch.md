@@ -1846,23 +1846,24 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
       * Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
       * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
 
-* #### Wirkungsbereich
+* #### Ziel
 
   !!! TODO TODO
 
-  | Ziel | Symbol | Bedeutung |
-  | :-: | :-: | :- |
-  | Bereich | ![bereich](Grafiken/Kraft/ZielBereich.svg) | TODO |
-  | Freund | ![freund](Grafiken/Kraft/ZielFreund.svg) | TODO |
-  | Feind | ![feind](Grafiken/Kraft/ZielFeind.svg) | TODO |
+  | Ziel |  | Bedeutung |
+  | :-: | :- | :- |
+  | ![bereich](Grafiken/Kraft/ZielBereich.svg) | Bereich | TODO |
+  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | TODO |
+  | ![feind](Grafiken/Kraft/ZielFeind.svg) | Feind | TODO |
 
-  asd
+* #### Wirkungsbereich
 
-  | Reichweite | Symbol | Bedeutung |
-  | :-: | :-: | :- |
-  | Nutzer | ![nutzer](Grafiken/Kraft/ReichweiteNutzer.svg) | TODO |
-  | Berührung | ![berührung](Grafiken/Kraft/ReichweiteBerührung.svg) | TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen? |
-  | Distanz | ![distanz](Grafiken/Kraft/ReichweiteDistanz.svg) | TODO |
+  !!! TODO TODO
+  | Reichweite |  | Bedeutung |
+  | :-: | :- | :- |
+  | ![nutzer](Grafiken/Kraft/ReichweiteNutzer.svg) | Nutzer | TODO |
+  | ![berührung](Grafiken/Kraft/ReichweiteBerührung.svg) | Berührung | TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen? |
+  | ![distanz](Grafiken/Kraft/ReichweiteDistanz.svg) | Distanz | TODO |
 
 * #### TP-Verlust
 
