@@ -1854,17 +1854,18 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
   | Ziel |  | Bedeutung |
   | :-: | :- | :- |
   | ![bereich](Grafiken/Kraft/ZielBereich.svg) | Bereich | Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden. |
-  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | Die Kraft kann nur auf einem befreundetem Modell eingesetzt werden. |
   | ![feind](Grafiken/Kraft/ZielFeind.svg) | Feind | Die Kraft kann nur auf einem feindlichen Modell eingesetzt werden. |
+  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | Die Kraft kann nur auf einem befreundetem Modell eingesetzt werden. |
+  | ![nutzer](Grafiken/Kraft/ZielNutzer.svg) | Nutzer | Die Kraft kann nur auf dem Nutzer eingesetzt werden. |
 
 * #### Wirkungsbereich
 
-  !!! TODO TODO
+  Der Wirkungsbereich einer Kraft legt fest, wie TODO
+
   | Reichweite |  | Bedeutung |
   | :-: | :- | :- |
-  | ![nutzer](Grafiken/Kraft/ReichweiteNutzer.svg) | Nutzer | TODO |
-  | ![berührung](Grafiken/Kraft/ReichweiteBerührung.svg) | Berührung | TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen? |
-  | ![distanz](Grafiken/Kraft/ReichweiteDistanz.svg) | Distanz | TODO |
+  | ![berührung](Grafiken/Kraft/ReichweiteBerührung.svg) | Berührung | Für den Einsatz muss ein Kontakt hergestellt werden. TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen? |
+  | ![distanz](Grafiken/Kraft/ReichweiteDistanz.svg) | Distanz | Die Kraft kann auf Distanz eingesetzt werden. |
 
 * #### TP-Verlust
 
