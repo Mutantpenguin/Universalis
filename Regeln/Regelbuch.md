@@ -1932,3 +1932,7 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
     Oder im Wahrbehmungsbereich?
 
     Muss über dem Ergebnis des Casters würfeln?
+
+## Progression
+
+TODO Beispiele wie Progression als lebendige Geschichte dynamisch umgesetzt werden kann
