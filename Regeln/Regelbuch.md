@@ -1848,13 +1848,14 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### Ziel
 
-  !!! TODO TODO
+  Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
+  Dabei wird zwischen 3 verschiedenen Arten unterschieden.
 
   | Ziel |  | Bedeutung |
   | :-: | :- | :- |
-  | ![bereich](Grafiken/Kraft/ZielBereich.svg) | Bereich | TODO |
-  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | TODO |
-  | ![feind](Grafiken/Kraft/ZielFeind.svg) | Feind | TODO |
+  | ![bereich](Grafiken/Kraft/ZielBereich.svg) | Bereich | Die Kraft kann auf eine beliebige Stelle des Spielfelds gewirkt werden. |
+  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | Die Kraft kann nur auf ein befreundetes Modell gewirkt werden. |
+  | ![feind](Grafiken/Kraft/ZielFeind.svg) | Feind | Die Kraft kann nur auf ein feindliches Modell gewirkt werden. |
 
 * #### Wirkungsbereich
 
