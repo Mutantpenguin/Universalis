@@ -1853,9 +1853,9 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
   | Ziel |  | Bedeutung |
   | :-: | :- | :- |
-  | ![bereich](Grafiken/Kraft/ZielBereich.svg) | Bereich | Die Kraft kann auf eine beliebige Stelle des Spielfelds gewirkt werden. |
-  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | Die Kraft kann nur auf ein befreundetes Modell gewirkt werden. |
-  | ![feind](Grafiken/Kraft/ZielFeind.svg) | Feind | Die Kraft kann nur auf ein feindliches Modell gewirkt werden. |
+  | ![bereich](Grafiken/Kraft/ZielBereich.svg) | Bereich | Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden. |
+  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | Die Kraft kann nur auf einem befreundetem Modell eingesetzt werden. |
+  | ![feind](Grafiken/Kraft/ZielFeind.svg) | Feind | Die Kraft kann nur auf einem feindlichen Modell eingesetzt werden. |
 
 * #### Wirkungsbereich
 
