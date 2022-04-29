@@ -1895,22 +1895,13 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
   | :-: | :-: |
   | ![sofort](Grafiken/Kraft/DauerSofort.svg) | ![dauerhaft](Grafiken/Kraft/DauerDauerhaft.svg) |
 
-### Kraft einsetzen
-
-!!! TODO TODO
-
-    Hier beschreiben, was alles getan und beachtet werden muss.
-
-Jede Kraft verfügt über eigene Regeln.
-
-Um eine Kraft zu benutzen muss die Aktion "Kraft einsetzen" ausgeführt werden.
-
 ### Aktionen: Kräfte
 
 !!! danger Kraft einsetzen - x ⊙
 
-    Die Kraft wird eingesetzt.
-    Die Kosten sind abhängig von der eingesetzten Kraft.
+    Das Modell setzt eine Kraft ein.
+
+    Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
 
 !!! danger Kraft beenden - 1 ⊙
 
