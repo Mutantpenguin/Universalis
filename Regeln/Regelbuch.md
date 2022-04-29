@@ -1871,12 +1871,13 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 * #### TP-Verlust
 
-  Bei manchen Kräften kann es beim Einsatz zum Verlust von TP kommen.
+  Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
-  Hierbei wird unterschieden ob der Verlust an TP automatisch eintritt, oder nur bei misslungenem Attributswurf.
+  Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem Attributswurf oder bei jedem Einsatz automatisch passiert.
+  
   Die Zahl im Symbol gibt an, wieviele TP das Modell verliert.
   
-  | Automatisch | Immer |
+  | Misserfolg | Automatisch |
   | :-: | :-: |
   | ![sofort](Grafiken/Kraft/SchadenMisserfolg.svg) | ![schaden](Grafiken/Kraft/SchadenAutomatisch.svg) |
 
