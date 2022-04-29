@@ -1862,6 +1862,8 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
   Der Wirkungsbereich einer Kraft legt fest, wie TODO
 
+  TODO Umbenennen? "Ausführungsart"
+
   | Reichweite |  | Bedeutung |
   | :-: | :- | :- |
   | ![berührung](Grafiken/Kraft/ReichweiteBerührung.svg) | Berührung | Für den Einsatz muss ein Kontakt hergestellt werden. TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen? |
