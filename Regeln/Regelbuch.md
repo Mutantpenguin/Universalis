@@ -1897,9 +1897,13 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 ### Kraft einsetzen
 
-  !!! TODO TODO
+!!! TODO TODO
 
     Hier beschreiben, was alles getan und beachtet werden muss.
+
+Jede Kraft verfügt über eigene Regeln.
+
+Um eine Kraft zu benutzen muss die Aktion "Kraft einsetzen" ausgeführt werden.
 
 ### Aktionen: Kräfte
 
