@@ -36,3 +36,6 @@ header:
   recto: &header
     center-content: '-- {section-or-chapter-title} --'
   verso: *header
+image:
+  caption:
+    align: inherit

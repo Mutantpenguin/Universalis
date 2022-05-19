@@ -107,3 +107,8 @@ a {
 #header .details span.email a {
   color: var(--linkcoloralternate);
 }
+
+.imageblock>.title {
+  text-align: center;
+  font-size: 0.75rem;
+}
