@@ -10,8 +10,11 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :preface-title: Vorwort
 :sectnums:
 :sectnumlevels: 3
+:sectlinks:
+:sectanchors:
 :section-refsig:
 :chapter-label:
+:figure-caption: Abbildung
 ifdef::backend-html5[]
 :stylesheet: style/html-theme.css
 :xrefstyle: basic
@@ -61,8 +64,10 @@ Also:
 == Was braucht man
 
 * Ein ((Tisch)) mit einer Fläche von mindestens 90cm * 90cm.
-
-image:Grafiken/Abbildungen/spielfeld.svg[spielfeld,width=400,align=center]
++
+image:Grafiken/Abbildungen/maßband.svg[Maßband,200]
++
+image:Grafiken/Abbildungen/spielfeld.svg[spielfeld,300]
 
 * Ausreichend link:#geländeteile[Geländeteile] um die Fläche gut zu
 füllen.
@@ -70,6 +75,7 @@ füllen.
 Zentimetern.
 
 image:Grafiken/Abbildungen/maßband.svg[Maßband,200,50]
+
 aslökdjaölsdj alskdj öalskdjöa sjdöosdjf osaijf osijdfsjd üfiojsdüfioj sdüfoijsüadiofj üsiodjfüiosjd fijsdö foijsdifoj soidjfiosj dfüiojs düfoij sadüfioj üsiojf üsaoijfüiosajd füoijsdfüij saüfdioj süoidfjüsidjf üisjdf üjsdüfijs düfijüsdfj üiaosjdfüij f aksldjsdlk asöldkjaö ldkjsödfj söodkjöslkdjöslk jföksajf öksajdfölkjsa ölfkjsaöldjask jfökljas ödkjfksj dfölkjasödl kfjöaslkdjf ölksajdfölkjasdöfljasöldkfjölsakj dfölsakjdfökj asödfkjsaö lkdfjöskajdf öjasfökjasdföjsökdjf ösjf kjöfkj södfjösakjf ölkjsödlfjaöslkjdflkasj ödfj
 image:Grafiken/Abbildungen/maßstab.svg[Maßstab,200,50]
 
