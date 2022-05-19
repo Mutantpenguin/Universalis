@@ -9,18 +9,19 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :toc-title: Inhaltsverzeichnis
 :preface-title: Vorwort
 :sectnums:
-:sectnumlevels: 2
+:sectnumlevels: 3
 :section-refsig: 
 ifdef::backend-html5[]
 :stylesheet: style/html-theme.css
+:xrefstyle: basic
 endif::[]
 ifdef::backend-pdf[]
 :title-logo-image: image::../Grafiken/logo.svg[logo,width=400]
 :pdf-fontsdir: ../Fonts
 :pdf-style: style/pdf-theme.yml
 :media: prepress
-endif::[]
 :xrefstyle: full
+endif::[]
 
 _Universalis_ versucht ein universeller Tabletop Skirmisher für 28mm zu
 sein der kleine Spiele mit wenigen Modellen in den Vordergrund stellt.
