@@ -15,6 +15,7 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :section-refsig:
 :chapter-label:
 :figure-caption: Abbildung
+:icons: font
 ifdef::backend-html5[]
 :stylesheet: style/html-theme.css
 :xrefstyle: basic
@@ -257,12 +258,28 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 
 |===
 
-// TODO
-!!! example Beispiel normaler Mensch
+[NOTE] 
+.Beispiel normaler Mensch
+==== 
+[%header,cols="^1,^1,^1,^1,^1,^1",frame=ends]
+|===
 
-    | AGI | NK | FK | KO | WN | EH |
-    |:---:|:--:|:--:|:--:|:--:|:--:|
-    |  4  |  2 |  2 |  3 |  3 |  3 |
+|AGI
+|NK
+|FK
+|KO
+|WN
+|EH
+
+|4
+|2
+|2
+|3
+|3
+|3
+
+|===
+====
 
 === Geschwindigkeit
 
@@ -385,12 +402,13 @@ Was die Eigenschaft für Auswirkungen hat und wie die Stufe zu behandeln ist, mu
 
 Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur von der höchsten Stufe.
 
-// TODO
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
 
-    Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
-    
-    In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
+In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
+====
 
 === Einmalnutzung von Eigenschaften
 
@@ -402,12 +420,13 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet we
 
 Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
-// TODO
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Für eine Regeneration die 3x verwendet werden kann.
 
-    Für eine Regeneration die 3x verwendet werden kann.
-
-    ![Einmalnutzung Ausrüstung](Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg){width="500pt"}
+image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigenschaft,500]
+====
 
 === AP-Kosten von Eigenschaften
 
@@ -479,12 +498,13 @@ Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw
 
 Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 
-// TODO
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
 
-    Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
-    
-    Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
+Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
+====
 
 === Gefahrenbereich
 
@@ -1116,11 +1136,13 @@ Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 Beim Verletzungswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
 Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im Schadensprofil vorkommenden Effekt, so dass dieser nicht zur Anwendung kommt.
 
-!!! example Beispiel
-
-    Ein Modell wird mit einer Pistole mit dem Effekt „Explosiv“ beschossen.
-    Der Angreifer dürfte nun normalerweise seine Stärke für den Verletzungswurf verdoppeln.
-    Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
+[NOTE] 
+.Beispiel
+====
+Ein Modell wird mit einer Pistole mit dem Effekt „Explosiv“ beschossen.
+Der Angreifer dürfte nun normalerweise seine Stärke für den Verletzungswurf verdoppeln.
+Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
+====
 
 === Übersicht der Schadenseffekte
 
@@ -1390,12 +1412,13 @@ Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
 Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei <<Unhandliche Waffen,unhandlichen>> Waffen mit 0,5 (aufgerundet).
 
-// TODO
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Für einen Menschen mit KO von 5:
 
-    Für einen Menschen mit KO von 5:
-
-    ![Wurfwaffe](Grafiken/Abbildungen/wurfwaffe.jpg){width="500pt"}
+image::Grafiken/Abbildungen/wurfwaffe.jpg[Wurfwaffe,500]
+====
 
 === Waffenklassen
 
@@ -1439,12 +1462,13 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden k
 
 Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
-// TODO
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Für eine Granate die 4x verwendet werden kann.
 
-    Für eine Granate die 4x verwendet werden kann.
-
-    ![Einmalnutzung Waffe](Grafiken/Abbildungen/einmalnutzung_waffe.jpg){width="500pt"}
+image::Grafiken/Abbildungen/einmalnutzung_waffe.jpg[Einmalnutzung Waffe,500pt]
+====
 
 === Beispiele für Waffenklassen
 
@@ -1660,12 +1684,14 @@ Pro vollständig ausgenutztem Reichweitenband erhält ein Modell einen Malus von
 
 Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
 
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Eine Pistole verfügt über den Wert 20/3.
+Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 60cm
 
-    Eine Pistole verfügt über den Wert 20/3.
-    Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 60cm
-    
-    Der FK-Wurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+Der FK-Wurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+====
 
 === Beschuss von Modellen im Nahkampf
 
@@ -1675,11 +1701,12 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 
 Hierdurch können auch Modelle getroffen werden zu denen keine <<Sichtlinie>> gezogen werden kann.
 
-// TODO
-!!! example Beispiel
-
-    Ein gegnerische Modell wird beschossen und es hat 2 Nahkampfgegner.
-    Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
+[NOTE] 
+.Beispiel
+====
+Ein gegnerische Modell wird beschossen und es hat 2 Nahkampfgegner.
+Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
+====
 
 === Beschuss von getarnten Modellen
 
@@ -1752,11 +1779,12 @@ Er ist nicht mit der Aktion <<Reaktionen: Fernkampf,Reaktionsfeuer>> kombinierba
 
 Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen <<Geländeteile>> mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
 
-// TODO
-!!! example Beispiel
-
-    Ein Granatwerfer hat eine Reichweite von 25/4 und somit eine maximale Reichweite von 100cm.
-    Die maximale Höhe für den Schuss beträgt somit 50cm.
+[NOTE] 
+.Beispiel
+====
+Ein Granatwerfer hat eine Reichweite von 25/4 und somit eine maximale Reichweite von 100cm.
+Die maximale Höhe für den Schuss beträgt somit 50cm.
+====
 
 Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
 Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
@@ -1787,17 +1815,20 @@ Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf
 Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den FK-Wurf und +1 beim Verletzungswurf.
 Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 
+[NOTE] 
+.Beispiel
+====
+Eine Maschinenpistole hat DF 3 und wird von einem Modell mit FK 5 abgefeuert.
+
+Entweder
 // TODO
-!!! example Beispiel
+- Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
 
-    Eine Maschinenpistole hat DF 3 und wird von einem Modell mit FK 5 abgefeuert.
-
-    Entweder
-    - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
-    
-    oder
-    - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen FK-Wurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
-    Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
+oder
+// TODO
+- Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen FK-Wurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
+Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
+====
 
 === Flächenwaffen
 
@@ -1986,12 +2017,13 @@ Die Waffenklasse ist abhängig von der größe des Modells.
 
 |===
 
-// TODO
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Für einen Infanteristen mit einer KO von 4.
 
-    Für einen Infanteristen mit einer KO von 4.
-
-    ![unbewaffnet](Grafiken/Abbildungen/unbewaffnet.jpg){width="500pt"}
+image::Grafiken/Abbildungen/unbewaffnet.jpg[unbewaffnet,500]
+====
 
 == Tarnung
 
@@ -2103,12 +2135,13 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet we
 
 Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
-// TODO
-!!! example Beispiel
+[NOTE] 
+.Beispiel
+====
+Für ein medizinisches Spray das 3x verwendet werden kann.
 
-    Für ein medizinisches Spray das 3x verwendet werden kann.
-
-    ![Einmalnutzung Ausrüstung](Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg){width="500pt"}
+image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüstung,500]
+====
 
 === Unhandliche Ausrüstung
 
@@ -2201,12 +2234,14 @@ Seine Eigenschaften werden nur auf ihn selber angewendet, es seih denn eine Eige
 
 Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
-!!! example Beispiele
+[NOTE] 
+.Beispiele
+====
+Ein Modell verfügt über eine EH von 5.
+Ihm kann also nur 1 Drohne zugeordnet werden.
 
-    Ein Modell verfügt über eine EH von 5.
-    Ihm kann also nur 1 Drohne zugeordnet werden.
-
-    Mit einer EH von 6 könnten ihm 2 Drohnen zugeordnet werden.
+Mit einer EH von 6 könnten ihm 2 Drohnen zugeordnet werden.
+====
 
 === Drohnen ohne Kontroller
 
@@ -2266,10 +2301,12 @@ Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Diszipli
 Jeder Spieler entscheidet <<Vorbereiten der Gruppe,vor Spielbeginn>>, welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
 
 // TODO
-!!! example Beispiel
-
-    Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
-    Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschiedene Kräfte mit ins Spiel nehmen zu können.
+[NOTE] 
+.Beispiel
+====
+Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
+Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschiedene Kräfte mit ins Spiel nehmen zu können.
+====
 
 === Kräfte
 
