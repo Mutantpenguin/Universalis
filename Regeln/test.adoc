@@ -10,7 +10,8 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :preface-title: Vorwort
 :sectnums:
 :sectnumlevels: 3
-:section-refsig: 
+:section-refsig:
+:chapter-label:
 ifdef::backend-html5[]
 :stylesheet: style/html-theme.css
 :xrefstyle: basic
