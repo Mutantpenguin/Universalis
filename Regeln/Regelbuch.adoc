@@ -1828,42 +1828,57 @@ Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Mo
 
 Währenddessen sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
-|                  Aktion                   |                   Reaktion                   |
-| :---------------------------------------: | :------------------------------------------: |
-|      [Angriff](#aktionen:-nahkampf)       |    [Gegenangriff](#reaktionen:-nahkampf)     |
-| [Verwegener Angriff](#aktionen:-nahkampf) | [Gelegenheitsangriff](#reaktionen:-nahkampf) |
-| [Aus Nahkampf lösen](#aktionen:-bewegung) |                                              |
-|   [Kraft verwenden](#aktionen:-kräfte)    |                                              |
+[%header,cols="^1,^1",frame=ends]
+|===
+
+|Aktion
+|Reaktion
+
+|<<Aktionen: Nahkampf,Angriff>>
+|<<Reaktionen: Nahkampf,Gegenangriff>>
+
+|<<Aktionen: Nahkampf,Verwegener Angriff>>
+|<<Reaktionen: Nahkampf,Gelegenheitsangriff>>
+
+|<<Aktionen: Bewegung,Aus Nahkampf lösen>>
+|
+
+|<<Aktionen: Kräfte,Kraft verwenden>>
+|
+
+|===
 
 === Durchführung des Nahkampfes
 
 Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
-Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle [Modifikatoren](#modifikatoren-im-nahkampf) zur Anwendung kommen können.
+Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle <<Modifikatoren im Nahkampf,Modifikatoren>> zur Anwendung kommen können.
 
-1. Wenn das *angreifende* Modell gewinnt landet es einen [Treffer](#schaden-&-rüstung) mit der zuvor ausgewählten Nahkampfwaffe. Wahlweise darf es das verteidigende Modell [zurückstoßen](#zurückstoßen).
-2. Wenn das *verteidigende* Modell gewinnt passiert nichts, das angreifende Modell darf [zurückgestoßen](#zurückstoßen) werden.
+1. Wenn das *angreifende* Modell gewinnt landet es einen <<Schaden & Rüstung,Treffer>> mit der zuvor ausgewählten Nahkampfwaffe. Wahlweise darf es das verteidigende Modell <<Zurückstoßen,zurückstoßen>>.
+2. Wenn das *verteidigende* Modell gewinnt passiert nichts, das angreifende Modell darf <<Zurückstoßen, zurückgestoßen>> werden.
 3. Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
 === Zurückstoßen
 
 TODO nur wenn KO>=KO?
 
-Ein Modell zurück zu stoßen bedeutet, mit ihm eine [Bewegungsaktion](#aktionen:-bewegung) durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
+Ein Modell zurück zu stoßen bedeutet, mit ihm eine <<Aktionen: Bewegung,Bewegungsaktion>> durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
 Diese Bewegung kostet keine AP.
 
 Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 * Die Bewegung muss in gerade Linie erfolgen.
 * Das Modell darf dadurch in Basekontakt mit anderen gegnerischen Modellen bewegt werden.
-* Wenn es über eine Kante bewegt wird [fällt](#herunterfallen) es herunter.
+* Wenn es über eine Kante bewegt wird <<Herunterfallen,fällt>> es herunter.
 
 === Aktionen: Nahkampf
 
+// TODO
 !!! danger Angriff - WK ⊙
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
+// TODO
 !!! danger Verwegener Angriff - WK+2 ⊙
 
     Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
@@ -1871,6 +1886,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
     
     Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
 
+// TODO
 !!! danger Verteidigung - 2 ⊙
 
     !!! note ""
@@ -1894,6 +1910,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 === Reaktionen: Nahkampf
 
+// TODO
 !!! warning Gegenangriff - WK ⊙
 
     !!! note ""
@@ -1902,6 +1919,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
     
     Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
 
+// TODO
 !!! warning Gelegenheitsangriff - WK ⊙
 
     !!! note ""
@@ -1917,31 +1935,31 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 
 === Trefferzonen im Nahkampf
 
-Wenn der Verteidiger über [Trefferzonen](#trefferzonen) verfügt muss die getroffene Trefferzone ausgewürfelt werden.
+Wenn der Verteidiger über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 === Modifikatoren im Nahkampf
 
-* ==== Bonus für den Angreifer
+==== Bonus für den Angreifer
 
-  Wenn der Angreifer den Angriff durch eine [Angriffsbewegung](#aktionen:-bewegung) einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
-  Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
+Wenn der Angreifer den Angriff durch eine <<Aktionen: Bewegung,Angriffsbewegung>> einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
+Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
-* ==== Multiple Gegner
+==== Multiple Gegner
 
-  Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
+Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
-* ==== Unhandliche Waffen und Ausrüstung im Nahkampf
+==== Unhandliche Waffen und Ausrüstung im Nahkampf
 
-  Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
+Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
 
-* ==== Größenunterschiede
+==== Größenunterschiede
 
-  Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
-  Siehe auch [Größenprofil](#größenprofil).
+Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
+Siehe auch <<Größenprofil>>.
 
 === Nahkampf mit getarnten Modellen
 
-Es können nur [aufgeklärte](#aufklärung) Modelle angegriffen werden.
+Es können nur <<Aufklärung,aufgeklärte>> Modelle angegriffen werden.
 
 === Waffenloser Nahkampf
 
@@ -1951,12 +1969,24 @@ Die Stärke entspricht der Konstitution.
 Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
 Die Waffenklasse ist abhängig von der größe des Modells.
 
-| Größe des Modells | Waffenklasse |
-| :---------------: | :----------: |
-| klein bis mittel  |      I       |
-|       groß        |      II      |
-|      riesig       |     III      |
+[%header,cols="^1,^1",frame=ends]
+|===
 
+|Größe des Modells
+|Waffenklasse
+
+|klein bis mittel
+|I
+
+|groß
+|II
+
+|riesig
+|III
+
+|===
+
+// TODO
 !!! example Beispiel
 
     Für einen Infanteristen mit einer KO von 4.
@@ -1970,21 +2000,30 @@ Weiterhin verfügt sie immer über eine Stufe um die Effektivität der Tarnung a
 
 Sie wird am Modell mit dem Tarnungs-Token dargestellt:
 
-![tarnung](Grafiken/Token/tarnung.svg){width="40pt"} {align="center"}
+image::Grafiken/Token/tarnung.svg[Tarnung,40,align="center"]
 
 Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.
 
 === Voraussetzungen für Tarnung
 
-|Typ|Voraussetzung|
-|:--:|--|
-|passiv|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem [Geländeteil](#geländeteile) (welches mindestens über die gleichen Ausmaße wie das [Größenprofil](#größenprofil) des Modell verfügt) befindet.|
-|aktiv|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem [Geländeteil](#geländeteile) befinden oder nicht.|
+[%header,cols="^1,6",frame=ends]
+|===
+
+|Typ
+|Voraussetzung
+
+|passiv
+|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem <<Geländeteile,Geländeteil>> (welches mindestens über die gleichen Ausmaße wie das <<Größenprofil>> des Modell verfügt) befindet.
+
+|aktiv
+|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem <<Geländeteile,Geländeteil>> befinden oder nicht.
+
+|===
 
 === Vorteile von Tarnung
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
-Damit das möglich ist, müssen sie zuerst [aufgeklärt](#aufklärung) werden.
+Damit das möglich ist, müssen sie zuerst <<Aufklärung,aufgeklärt>> werden.
 
 Sie können nicht durch Flächenwaffen getroffen werden.
 
@@ -2009,6 +2048,7 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 === Aktionen: Tarnung
 
+// TODO
 !!! danger Aufklären - 2 ⊙
 
     Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
@@ -2020,6 +2060,7 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 === Reaktionen: Tarnung
 
+// TODO
 !!! warning Aufklärungsunterstützung - 2 ⊙
 
     Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
@@ -2034,6 +2075,7 @@ Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe 
 
 === Aktionen: Ausrüstung
 
+// TODO
 !!! danger Ausrüstung verwenden - X ⊙
 
     Das Modell verwendet einen Ausrüstungsgegenstand.
@@ -2061,6 +2103,7 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet we
 
 Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
+// TODO
 !!! example Beispiel
 
     Für ein medizinisches Spray das 3x verwendet werden kann.
@@ -2069,7 +2112,7 @@ Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
 === Unhandliche Ausrüstung
 
-Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im [Fernkampf](#unhandliche-waffen-im-fernkampf) und [Nahkampf](#unhandliche-waffen-und-ausrüstung-im-nahkampf).
+Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
 
 !!! TODO neue Art der Ausweisung "»"
 
@@ -2096,9 +2139,8 @@ Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
 Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind.
 
-![trefferzone](Grafiken/Abbildungen/trefferzonen.svg){.img_border} {align="center"}
-
-*Trefferzonen Kolosse* {align="center"}
+.Trefferzonen Kolosse
+image::Grafiken/Abbildungen/trefferzonen.svg[Trefferzonen,align="center"]
 
 Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
 
@@ -2110,7 +2152,7 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 * **Rumpf**
 
     Wie bei Infanterie.
-    Siehe [Kritischer Zustand](#kritischer-zustand).
+    Siehe <<Kritischer Zustand>>.
 
 * **Linke/Rechte Seite**
 
@@ -2124,7 +2166,7 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 * **Rumpf**
 
-    Sinkt in sich zusammen und gilt als [ausgeschalten](#ausgeschaltet).
+    Sinkt in sich zusammen und gilt als <<Ausgeschaltet,ausgeschalten>>.
     Ist nun ein Geländeteil.
 
 * **Linke/Rechte Seite**
@@ -2133,17 +2175,17 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
     Außerdem werden AGI und NK um 1 verringert.
 
 * **Bewegung**
-
+// TODO
     |W12|Auswirkung|
     |--|--|
     |1-6|Bleibt auf der Stelle stehen und kann sich noch drehen.|
     |7-11|Bleibt auf der Stelle stehen und kann sich **nicht** mehr drehen.|
-    |12|Fällt um und gilt als [ausgeschalten](#ausgeschaltet). Ist nun ein Geländeteil.|
+    |12|Fällt um und gilt als <<Ausgeschaltet,ausgeschalten>>. Ist nun ein Geländeteil.|
 
 == Drohnen
 
 Unter Drohnen wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
-Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch den [Kontroller](#kontroller).
+Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch den <<Kontroller>>.
 
 Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln können und somit nicht als Drohnen funktionieren.
 
@@ -2151,7 +2193,7 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln 
 
 Unter Kontroller versteht man alle Modelle denen eine Drohne zugeordnet ist.
 Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
-Dies geschieht [vor dem Spiel](#3-vorbereiten-der-gruppe) und kann währenddessen nicht geändert werden.
+Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
 Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
@@ -2168,7 +2210,7 @@ Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
 === Drohnen ohne Kontroller
 
-Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder [ausgeschaltet](#ausgeschaltet) ist erhalten einen Panikmarker (siehe [Panik](#panik)).
+Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder <<Ausgeschaltet,ausgeschaltet>> ist erhalten einen Panikmarker (siehe [Panik](#panik)).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
@@ -2184,19 +2226,19 @@ Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordn
 
 === Gefahrenbereich von Drohnen
 
-Da sie über keine EH verfügen haben sie auch keinen eigenen [Gefahrenbereich](#gefahrenbereich).
-Daraus ergibt sich, dass eine [direkte Bedrohung](#direkte-bedrohung) für sie nicht existiert.
+Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
+Daraus ergibt sich, dass eine <<Direkte Bedrohung,direkte Bedrohung>> für sie nicht existiert.
 Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Kontrollers aktiv zu werden.
 
 === Schocks bei Drohnen
 
-[Schocks](#schock) funktionieren grundsätzlich wie bei allen anderen Modellen.
+<<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
 Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Drohnen zu entfernen.
 
 === Zerstörung einer Drohne
 
-Sobald eine Drohne als [ausgeschalten](#ausgeschaltet) gilt kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
+Sobald eine Drohne als <<Ausgeschaltet,ausgeschalten>> gilt kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.
@@ -2205,11 +2247,12 @@ Misslingt dieser verliert er automatisch 1 Trefferpunkt.
 
 In Universalis wird alles was normalerweise als PSI, Magie, Thaumaturgie, ect. bezeichnet wird "Kräfte" genannt.
 
-Jede Spielmechanik die über [Eigenschaften](#eigenschaften) hinaus geht sollte als Kraft dargestellt werden.
+Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft dargestellt werden.
 
 Alle Kräfte sind in sogenannten "Disziplinen" organisiert.
 Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
 
+// TODO
 !!! example Beispiel
 
     * In einer Fantasywelt wären "Feuermagie" und "Eiszauberei" eigene Disziplinen, die dann jeweils Kräfte wie "Feuerball" und "Feuerwand" bzw. "Eisblitz" und "Schneesturm" beinhalten.
@@ -2220,8 +2263,9 @@ Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
 Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
 
-Jeder Spieler entscheidet [vor Spielbeginn](#3-vorbereiten-der-gruppe), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
+Jeder Spieler entscheidet <<Vorbereiten der Gruppe,vor Spielbeginn>>, welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
 
+// TODO
 !!! example Beispiel
 
     Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
@@ -2237,84 +2281,132 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
 
 Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
-* ==== AP-Kosten
+==== AP-Kosten
 
   Dies sind die benötigten AP um die Kraft einzusetzen.
 
-* ==== Attribut
+==== Attribut
 
-  Kräfte beziehen sich immer auf ein Attribut.
-  Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher Attributswurf gegen dieses Attribut abgelegt werden.
+Kräfte beziehen sich immer auf ein Attribut.
+Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher Attributswurf gegen dieses Attribut abgelegt werden.
 
-  Zusätzlich kann eine Schwierigkeit angegeben sein.
-  Sie gibt an wie der Attributswurf modifiziert wird.
+Zusätzlich kann eine Schwierigkeit angegeben sein.
+Sie gibt an wie der Attributswurf modifiziert wird.
 
-  !!! example Beipiel
+// TODO
+!!! example Beipiel
 
-      * Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
-      * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
+    * Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
+    * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
 
-* ==== Ziel
+==== Ziel
 
-  Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
-  Dabei wird zwischen 3 verschiedenen Arten unterschieden.
+Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
+Dabei wird zwischen 3 verschiedenen Arten unterschieden.
 
-  | Ziel |  | Bedeutung |
-  | :-: | :- | :- |
-  | ![bereich](Grafiken/Kraft/ZielBereich.svg) | Bereich | Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden. |
-  | ![feind](Grafiken/Kraft/ZielFeind.svg) | Feind | Die Kraft kann nur auf einem feindlichen Modell eingesetzt werden. |
-  | ![freund](Grafiken/Kraft/ZielFreund.svg) | Freund | Die Kraft kann nur auf einem befreundetem Modell eingesetzt werden. |
-  | ![nutzer](Grafiken/Kraft/ZielNutzer.svg) | Nutzer | Die Kraft kann nur auf dem Nutzer eingesetzt werden. |
+[%header,cols="^1,1,5",frame=ends]
+|===
 
-* ==== Wirkungsbereich
+|Ziel
+|
+|Bedeutung
 
-  Der Wirkungsbereich einer Kraft legt fest, wie TODO
+|image:Grafiken/Kraft/ZielBereich.svg[Bereich]
+|Bereich
+|Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.
 
-  TODO Umbenennen? "Ausführungsart"
+|image:Grafiken/Kraft/ZielFeind.svg[Feind]
+|Feind
+|Die Kraft kann nur auf einem feindlichen Modell eingesetzt werden.
 
-  | Reichweite |  | Bedeutung |
-  | :-: | :- | :- |
-  | ![berührung](Grafiken/Kraft/ReichweiteBerührung.svg) | Berührung | Für den Einsatz muss ein Kontakt hergestellt werden. TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen? |
-  | ![distanz](Grafiken/Kraft/ReichweiteDistanz.svg) | Distanz | Die Kraft kann auf Distanz eingesetzt werden. |
+|image:Grafiken/Kraft/ZielFreund.svg[Freund]
+|Freund
+|Die Kraft kann nur auf einem befreundetem Modell eingesetzt werden.
 
-* ==== TP-Verlust
+|image:Grafiken/Kraft/ZielNutzer.svg[Nutzer]
+|Nutzer
+|Die Kraft kann nur auf dem Nutzer eingesetzt werden.
 
-  Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
+|===
 
-  Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem Attributswurf oder bei jedem Einsatz automatisch passiert.
-  
-  Die Zahl im Symbol gibt an, wieviele TP das Modell verliert.
-  
-  | Misserfolg | Automatisch |
-  | :-: | :-: |
-  | ![sofort](Grafiken/Kraft/SchadenMisserfolg.svg) | ![schaden](Grafiken/Kraft/SchadenAutomatisch.svg) |
+==== Wirkungsbereich
 
-* ==== Dauer
+Der Wirkungsbereich einer Kraft legt fest, wie TODO
 
-  Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
+TODO Umbenennen? "Ausführungsart"
 
-  Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
-  Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
+[%header,cols="^1,1,5",frame=ends]
+|===
 
-  Manche Kräfte können sich auch selber beenden.
-  In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.
+|Reichweite
+|
+|Bedeutung
 
-  | Sofort | Dauerhaft |
-  | :-: | :-: |
-  | ![sofort](Grafiken/Kraft/DauerSofort.svg) | ![dauerhaft](Grafiken/Kraft/DauerDauerhaft.svg) |
+|image:Grafiken/Kraft/ReichweiteBerührung.svg[Berührung]
+|Berührung
+|Für den Einsatz muss ein Kontakt hergestellt werden. TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen?
+
+|image:Grafiken/Kraft/ReichweiteDistanz.svg[Distanz]
+|Distanz
+|Die Kraft kann auf Distanz eingesetzt werden.
+
+|===
+
+==== TP-Verlust
+
+Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
+
+Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem Attributswurf oder bei jedem Einsatz automatisch passiert.
+
+Die Zahl im Symbol gibt an, wieviele TP das Modell verliert.
+
+[%header,cols="^1,^1",frame=ends]
+|===
+
+|Misserfolg
+|Automatisch
+
+|image:Grafiken/Kraft/SchadenMisserfolg.svg[Misserfolg]
+|image:Grafiken/Kraft/SchadenAutomatisch.svg[Automatisch]
+
+|===
+
+==== Dauer
+
+Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
+
+Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
+Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
+
+Manche Kräfte können sich auch selber beenden.
+In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.
+
+[%header,cols="^1,^1",frame=ends]
+|===
+
+|Sofort
+|Dauerhaft
+
+|image:Grafiken/Kraft/DauerSofort.svg[Sofort]
+|image:Grafiken/Kraft/DauerDauerhaft.svg[Dauerhaft]
+
+|===
 
 === Aktionen: Kräfte
 
+// TODO
 !!! danger Kraft einsetzen - x ⊙
 
     Das Modell setzt eine Kraft ein.
 
     Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
 
+// TODO
 !!! danger Kraft beenden - 1 ⊙
 
     Eine eigene beliebige "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
 
+// TODO
 !!! danger Kraft aufheben - 2 ⊙
 
     !!! TODO TODO
@@ -2330,6 +2422,7 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 === Reaktionen: Kräfte
 
+// TODO
 !!! warning Kraft blockieren - 2 ⊙
 
     !!! TODO TODO
