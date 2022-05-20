@@ -3,6 +3,8 @@ font:
   catalog:
     merge: true
     Nova Round: NovaRound-Regular.ttf
+    Noto Sans Symbols 2: NotoSansSymbols2-Regular.ttf
+  fallbacks: [Noto Sans Symbols 2]
 base_font_family: Noto Sans
 title_page_title_font_family: Nova Round
 heading:
