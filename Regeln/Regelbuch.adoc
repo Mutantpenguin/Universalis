@@ -1937,8 +1937,8 @@ Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 
 === Flächenwaffen
 
-(((Flächenwaffen)))
-(((Fernkampf, Flächenwaffen)))
+(((Flächenwaffe)))
+(((Fernkampf, Flächenwaffe)))
 Flächenwaffen erzeugen an ihrem Trefferpunkt eine Flächenwirkung die im jeweiligen Waffenprofil in cm angegeben ist und eine kreisrunde Fläche mit diesem Radius in cm beschreibt.
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius angibt.
