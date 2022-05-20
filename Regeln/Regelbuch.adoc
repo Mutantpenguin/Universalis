@@ -994,79 +994,93 @@ TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
 === ((Geländetypen))
 
-// TODO
-!!! summary Befestigte Stellung
+.Befestigte Stellung
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|1 |III |1
+|===
+****
 
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       1        |   III   |     1      |
+.Dickicht
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|1 |I |1
+|===
+****
 
-// TODO
-!!! summary Dickicht
+.Gebäude
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|0 |II |1
+|===
+****
 
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       1        |    I    |     1      |
+.Gewässer
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|2 |- |-
+|===
+****
 
-// TODO
-!!! summary Gebäude
+.Krater
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+Die Deckung wirkt nur gegen Beschuss von außerhalb.
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|2 |II |1
+|===
+****
 
-    Alle intakten Gebäude fallen unter diesen Geländetyp.
+.Ruine
+****
+Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|1 |II |2
+|===
+****
 
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       0        |    II   |     1      |
+.Straße
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|0 |- |-
+|===
+****
 
-// TODO
-!!! summary Krater
+.Sumpf
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|3 |- |1
+|===
+****
 
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       2        |    II   |     1      |
+.Unpassierbar
+****
+Eine Fortbewegung am Boden ist in dieser Art von Terrain unmöglich.
+****
 
-    Die Deckung wirkt nur gegen Beschuss von außerhalb.
-
-// TODO
-!!! summary Ruine
-
-    Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
-    
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       1        |    II   |     2      |
-
-// TODO
-!!! summary Straße
-
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       0        |    -    |     -      |
-
-// TODO
-!!! summary Sumpf
-
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       3        |    -    |     1      |
-
-// TODO
-!!! summary Unpassierbar
-
-    Hier kann sich nichts am Boden darüber bewegen.
-
-// TODO
-!!! summary Wald
-
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       2        |   II    |     2      |
-
-// TODO
-!!! summary Wasser
-
-    | Passierbarkeit | Deckung | Sichtweite |
-    | :------------: | :-----: | :--------: |
-    |       2        |    -    |     -      |
+.Wald
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sichtweite
+|2 |II |2
+|===
+****
 
 === ((Umgebungsbedingungen))
 
