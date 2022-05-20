@@ -386,6 +386,7 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 == Eigenschaften
 
+(((Eigenschaften)))
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache <<Attribute>> hinausgeht.
 Außerdem können sie über eventuelle <<Profilmodifikatoren>> verfügen.
 
@@ -400,8 +401,9 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Kraft-Diszip
     
     Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
 
-=== Regeln von Eigenschaften
+=== Regeln
 
+(((Eigenschaften, Regeln)))
 Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
 Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
 
@@ -416,8 +418,10 @@ Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
 In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
 ====
 
-=== Einmalnutzung von Eigenschaften
+=== Einmalnutzung
 
+(((Einmalnutzung, Eigenschaften)))
+(((Eigenschaften, Einmalnutzung)))
 Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
 Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
 
@@ -433,8 +437,9 @@ Für eine Regeneration die 3x verwendet werden kann.
 image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigenschaft,500]
 ====
 
-=== AP-Kosten von Eigenschaften
+=== AP-Kosten
 
+(((Eigenschaften, AP-Kosten)))
 Bei manchen Eigenschaften ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
 Um sie zu benutzen muss die Aktion "Eigenschaft anwenden" ausgeführt werden.
 
@@ -572,6 +577,7 @@ Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 ==== Attributswurf
 
 (((Attributswurf)))
+(((Würfelwürfe, Attributswurf)))
 Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
 So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
 
@@ -586,6 +592,7 @@ Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein
 ==== Vergleichender Wurf
 
 (((Vergleichender Wurf)))
+(((Würfelwürfe, Vergleichender Wurf)))
 Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
 
 Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
@@ -644,12 +651,13 @@ Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an geg
 
 === Runden
 
+(((Runden)))
 Innerhalb einer Runde hat jedes Modell eine Initiativephase.
 Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchgeführt hat.
 
 ==== Rundenbeginn
 
-(((Rundenbeginn)))
+(((Runden, Beginn)))
 Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 
 * Die AP jedes Modells werden wieder aufgefüllt.
@@ -661,7 +669,7 @@ Dies kann gleichzeitig geschehen.
 
 ==== Reihenfolge innerhalb der Runde
 
-(((Reihenfolge innerhalb der Runde)))
+(((Runden, Reihenfolge)))
 Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
 
 Beide Modelle führen einen vergleichenden Wurf auf AGI durch.
@@ -673,7 +681,8 @@ Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine 
 
 === Initiativephasen
 
-(((Initiativephasen)))
+(((Initiativephase)))
+(((Runden, Initiativephase)))
 Eine Initiativephase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktionen ausführen kann.
 
 Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hatten oder nicht, unter bestimmten Voraussetzungen Reaktionen durchführen.
@@ -686,7 +695,7 @@ Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet we
 
 === Rundenende
 
-(((Rundenende)))
+(((Runden, Ende)))
 Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür.
 Das Spiel endet dann automatisch sofort und der Spieler der aufgegeben hat verliert.
 
@@ -1138,7 +1147,8 @@ Er gilt dann für das gesamte Spielfeld.
 
 == Schaden & Rüstung
 
-(((Schaden & Rüstung)))
+(((Schaden)))
+(((Rüstung)))
 Verschiedene Spielmechaniken erzeugen Schaden.
 Dies kann ein Modell sein das ein anderes Modell beschießt oder im Nahkampf angreift oder auch Effekte die im Spiel auftreten.
 
@@ -1286,7 +1296,8 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 
 === Verletzungs- und Rüstungswurf
 
-(((Verletzungs- und Rüstungswurf)))
+(((Verletzungswurf)))
+(((Rüstungswurf)))
 Beide Spieler führen einen vergleichenden Wurf durch.
 Der Angreifer addiert die Stärke seiner Waffe, dies wird *Verletzungswurf* genannt.
 Der Verteider addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* genannt.
@@ -1334,6 +1345,7 @@ Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinde
 === Ausgeschaltet
 
 (((Ausgeschaltet)))
+(((Zustände, Ausgeschaltet)))
 Ausgeschaltete Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
 
 Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
@@ -1343,6 +1355,7 @@ Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Grup
 === Brennen
 
 (((Brennen)))
+(((Zustände, Brennen)))
 Modelle mit einem Brandmarker gelten als *brennend*:
 
 image::Grafiken/Token/brennen.svg[Brennen,40,align="center"]
@@ -1375,6 +1388,7 @@ Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bon
 === Kritischer Zustand
 
 (((Kritischer Zustand)))
+(((Zustände, Kritisch)))
 Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als die Hälfte seiner maximalen Trefferpunkte besitzt.
 Auf der <<Einheitenkarte>> ist dies daran zu erkennen, dass alle weissen Kreise der Trefferpunkte markiert sind und nur noch orange übrig sind.
 
@@ -1392,6 +1406,7 @@ Würde dies ein weiteres mal passieren erleidet es stattdessen 1 <<Schock>>.
 === Panik
 
 (((Panik)))
+(((Zustände, Panik)))
 Um zu testen ob ein Modell in Panik verfällt muss es einen Paniktest in Form eines EH-Tests absolvieren.
 Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarker.
 
@@ -1444,6 +1459,7 @@ Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikator
 === Schock
 
 (((Schock)))
+(((Zustände, Schock)))
 Wenn ein Modell einen Schock erleidet verliert es sofort 2 AP.
 Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Token:
 
@@ -1455,6 +1471,7 @@ Sollten noch Schock-Token übrig sein obwohl alle AP verbraucht sind, verbleiben
 === Vergiftung
 
 (((Vergiftung)))
+(((Zustände, Vergiftung)))
 Modelle mit Giftmarkern zählen als *vergiftet*:
 
 image::Grafiken/Token/gift.svg[Gift,40,align="center"]
@@ -1504,7 +1521,8 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
 === Unhandliche Waffen
 
-(((Unhandliche Waffen)))
+(((Unhandlich, Waffen)))
+(((Waffen, Unhandlich)))
 Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
 
 Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
@@ -1524,9 +1542,10 @@ Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann e
 
 image::Grafiken/Token/nachladen.svg[Nachladen,40,align="center"]
 
-=== Einmalnutzung von Waffen
+=== Einmalnutzung
 
-(((Einmalnutzung von Waffen)))
+(((Einmalnutzung, Waffen)))
+(((Waffen, Einmalnutzung)))
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
 
 Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
@@ -1730,14 +1749,15 @@ Bei Erfolg wurde das Ziel getroffen und ein <<Schaden & Rüstung,Treffer>> gelan
 
     Das Modell verliert danach automatisch seine Feuerbereitschaft.
 
-=== Erlaubte Waffen im Fernkampf
+=== Erlaubte Waffen
 
-(((Erlaubte Waffen im Fernkampf)))
+(((Fernkampf, Erlaubte Waffen)))
 Im Fernkampf dürfen nur Waffen mit einem <<Reichweite,Reichweitenband>>, nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
 
-=== Trefferzonen im Fernkampf
+=== Trefferzonen
 
-(((Trefferzonen im Fernkampf)))
+(((Fernkampf, Trefferzonen)))
+(((Trefferzonen, im Fernkampf)))
 Wenn das Ziel über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 === Auswahl eines Ziels
@@ -1749,7 +1769,7 @@ Sollte sich im Gefahrenbereich keine <<direkte Bedrohung>> befinden (welche bek�
 
 === Reichweite
 
-(((Reichweite)))
+(((Fernkampf, Reichweite)))
 Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
 X gibt dabei an, wie groß die Reichweitenbänder sind, Y wie oft diese anwendbar sind.
 
@@ -1771,7 +1791,7 @@ Der FK-Wurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei
 
 === Beschuss von Modellen im Nahkampf
 
-(((Beschuss von Modellen im Nahkampf)))
+(((Fernkampf, Modelle im Nahkampf)))
 Modelle die sich im Nahkampf befinden dürfen beschossen werden.
 
 Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zufall wobei die Wahrscheinlichkeit für jedes Modell identisch ist.
@@ -1786,14 +1806,14 @@ Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
 
 === Beschuss von getarnten Modellen
 
-(((Beschuss von getarnten Modellen)))
+(((Fernkampf, getarnte Modelle)))
 Es können nur <<Aufklärung,aufgeklärte>> getarnte Modelle beschossen werden.
 
 === Modifikatoren im Fernkampf
 
 ==== Größe des Ziels
 
-(((Größe des Ziels)))
+(((Fernkampf, Größe des Ziels)))
 Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger zu treffen.
 
 [%unbreakable%header,cols="^1,^1",frame=ends]
@@ -1818,7 +1838,7 @@ Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger z
 
 ==== Deckung des Ziels
 
-(((Deckung des Ziels)))
+(((Fernkampf, Deckung des Ziels)))
 Der durch eventuelle <<Deckung>> angewandte Modifikator.
 
 [%unbreakable%header,cols="^1,^1",frame=ends]
@@ -1840,22 +1860,24 @@ Der durch eventuelle <<Deckung>> angewandte Modifikator.
 
 ==== Unhandliche Waffen im Fernkampf
 
-(((Unhandliche Waffen im Fernkampf)))
+(((Unhandlich, Waffen im Fernkampf)))
+(((Fernkampf, Unhandliche Waffen)))
 Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
 
 ==== Liegender Schütze
 
-(((Liegender Schütze)))
+(((Fernkampf, Liegender Schütze)))
 Liegende Schützen erhalten +2 auf den FK-Wurf.
 
 ==== Schnelle Bewegungen des Ziels
 
-(((Schnelle Bewegungen des Ziels)))
+(((Fernkampf, Schnelle Bewegungen des Ziels)))
 Auf Ziele, welche sich in <<Schnelle Bewegungen,schneller Bewegung>> befinden, gibt es einen Malus von -2 auf den FK-Wurf.
 
 === Indirekter Fernkampf
 
 (((Indirekter Fernkampf)))
+(((Fernkampf, Indirekt)))
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 
 Er ist nicht mit der Aktion <<Reaktionen: Fernkampf,Reaktionsfeuer>> kombinierbar.
@@ -1881,6 +1903,7 @@ image::Grafiken/Waffe/indirekt.svg[indirekt,40,align="center"]
 === Dauerfeuer
 
 (((Dauerfeuer)))
+(((Fernkampf, Dauerfeuer)))
 Waffen können über den Wert „Dauerfeuer“ (DF) verfügen der im Bereich 1-4 liegt.
 Jeder Punkt DF wird hierdurch als 1 zusätzlicher Schuss behandelt.
 
@@ -1915,6 +1938,7 @@ Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 === Flächenwaffen
 
 (((Flächenwaffen)))
+(((Fernkampf, Flächenwaffen)))
 Flächenwaffen erzeugen an ihrem Trefferpunkt eine Flächenwirkung die im jeweiligen Waffenprofil in cm angegeben ist und eine kreisrunde Fläche mit diesem Radius in cm beschreibt.
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius angibt.
@@ -1976,6 +2000,7 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für de
 === Zurückstoßen
 
 (((Zurückstoßen)))
+(((Nahkampf, Zurückstoßen)))
 TODO nur wenn KO>=KO?
 
 Ein Modell zurück zu stoßen bedeutet, mit ihm eine <<Aktionen: Bewegung,Bewegungsaktion>> durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
@@ -2045,47 +2070,50 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
     Das Modell führt mit dem sich entfernenden Modell einen Nahkampf durch und gilt als der Angreifer.
     Das sich entfernende Modell kämpft mit NK von 0.
 
-=== Erlaubte Waffen im Nahkampf
+=== Erlaubte Waffen
 
+(((Nahkampf, Erlaubte Waffen)))
 Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
 
-=== Trefferzonen im Nahkampf
+=== Trefferzonen
 
-(((Trefferzonen im Nahkampf)))
+(((Nahkampf, Trefferzonen)))
+(((Trefferzonen, im Nahkampf)))
 Wenn der Verteidiger über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 === Modifikatoren im Nahkampf
 
 ==== Bonus für den Angreifer
 
-(((Bonus für den Angreifer)))
+(((Nahkampf, Bonus für den Angreifer)))
 Wenn der Angreifer den Angriff durch eine <<Aktionen: Bewegung,Angriffsbewegung>> einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
 ==== Multiple Gegner
 
-(((Multiple Gegner)))
+(((Nahkampf, Multiple Gegner)))
 Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
-((Unhandliche Waffen und Ausrüstung im Nahkampf))
 ==== Unhandliche Waffen und Ausrüstung im Nahkampf
 
+(((Unhandlich, Waffen und Ausrüstung im Nahkampf)))
+(((Nahkampf, Unhandliche Waffen und Ausrüstung)))
 Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
 
-((Größenunterschiede))
 ==== Größenunterschiede
 
+(((Nahkampf, Größenunterschiede)))
 Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 Siehe auch <<Größenprofil>>.
 
-((Nahkampf mit getarnten Modellen))
 === Nahkampf mit getarnten Modellen
 
+(((Nahkampf, mit getarnten Modellen)))
 Es können nur <<Aufklärung,aufgeklärte>> Modelle angegriffen werden.
 
 === Waffenloser Nahkampf
 
-(((Waffenloser Nahkampf)))
+(((Nahkampf, Waffenloser)))
 Infanterie und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
 Die Stärke entspricht der Konstitution.
@@ -2146,7 +2174,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 === Vorteile von Tarnung
 
-(((Vorteile von Tarnung)))
+(((Tarnung, Vorteile)))
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
 Damit das möglich ist, müssen sie zuerst <<Aufklärung,aufgeklärt>> werden.
 
@@ -2163,6 +2191,7 @@ Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 === Aufklärung
 
 (((Aufklärung)))
+(((Tarnung, Aufklärung)))
 Aufgeklärte Modelle können normal beschossen oder im Nahkampf angegriffen werden.
 
 Sie gelten solange als aufgeklärt bis sie 2 volle Bewegungsaktionen durchgeführt haben.
@@ -2209,20 +2238,24 @@ Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe 
     
     Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
 
-=== Regeln von Ausrüstung
+=== Regeln
 
+(((Ausrüstung, Regeln)))
 Jede Ausrüstung kann Regeln beinhalten.
 Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
 
-=== AP-Kosten von Ausrüstung
+=== AP-Kosten
 
+(((Ausrüstung, AP-Kosten)))
 Bei manchen Ausrüstungsgegenständen ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
 Um sie zu benutzen muss die Aktion "Ausrüstung verwenden" ausgeführt werden.
 
 Sofern keine AP angegeben sind ist auch keine Aktion für die Verwendung notwendig.
 
-=== Einmalnutzung von Ausrüstung
+=== Einmalnutzung
 
+(((Einmalnutzung, Ausrüstung)))
+(((Ausrüstung, Einmalnutzung)))
 Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
 
 Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
@@ -2239,7 +2272,8 @@ image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüst
 
 === Unhandliche Ausrüstung
 
-(((Unhandliche Ausrüstung)))
+(((Unhandlich, Ausrüstung)))
+(((Ausrüstung, Unhandlich)))
 Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
 
 !!! TODO neue Art der Ausweisung "»"
@@ -2430,10 +2464,12 @@ Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
 ==== AP-Kosten
 
-  Dies sind die benötigten AP um die Kraft einzusetzen.
+(((Kräfte, AP-Kosten)))
+Dies sind die benötigten AP um die Kraft einzusetzen.
 
 ==== Attribut
 
+(((Kräfte, Attribut)))
 Kräfte beziehen sich immer auf ein Attribut.
 Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher Attributswurf gegen dieses Attribut abgelegt werden.
 
@@ -2448,6 +2484,7 @@ Sie gibt an wie der Attributswurf modifiziert wird.
 
 ==== Ziel
 
+(((Kräfte, Ziel)))
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 3 verschiedenen Arten unterschieden.
 
@@ -2478,6 +2515,7 @@ Dabei wird zwischen 3 verschiedenen Arten unterschieden.
 
 ==== Wirkungsbereich
 
+(((Kräfte, Wirkungsbereich)))
 Der Wirkungsbereich einer Kraft legt fest, wie TODO
 
 TODO Umbenennen? "Ausführungsart"
@@ -2501,6 +2539,7 @@ TODO Umbenennen? "Ausführungsart"
 
 ==== TP-Verlust
 
+(((Kräfte, TP-Verlust)))
 Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
 Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem Attributswurf oder bei jedem Einsatz automatisch passiert.
@@ -2520,6 +2559,7 @@ Die Zahl im Symbol gibt an, wieviele TP das Modell verliert.
 
 ==== Dauer
 
+(((Kräfte, Dauer)))
 Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
 
 Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
