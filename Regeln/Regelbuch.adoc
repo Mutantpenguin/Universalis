@@ -1123,19 +1123,19 @@ Sie werden mit den folgenden Symbolen ausgewiesen:
 |Bedeutung
 
 |image:Grafiken/Waffe/stärke.svg[Stärke,40]
-|Stärke
+|((Stärke))
 |erhöht die Chance beim [Verletzungswurf](#verletzungs--und-rüstungswurf)
 
 |image:Grafiken/Waffe/schaden.svg[Schaden,40]
-|Schaden
+|((Schaden))
 |zugefügter Verlust an Trefferpunkten
 
 |image:Grafiken/Rüstung/schutz.svg[Schutz,40]
-|Schutz
+|((Schutz))
 |erhöht die Chance beim <<Verletzungs- und Rüstungswurf,Rüstungswurf>>
 
 |image:Grafiken/Rüstung/schadensreduktion.svg[Schadensreduktion,40]
-|Schadensreduktion
+|((Schadensreduktion))
 |Reduktion des Verlusts an Trefferpunkten
 
 |===
