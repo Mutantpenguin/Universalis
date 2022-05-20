@@ -25,8 +25,8 @@ ifdef::backend-pdf[]
 :title-logo-image: image::../Grafiken/logo.svg[logo,width=400]
 :pdf-fontsdir: ../Fonts
 :pdf-theme: style/pdf-theme.yml
-:media: prepress
-:xrefstyle: full
+//:media: prepress
+:xrefstyle: basic
 endif::[]
 
 *Universalis* versucht ein universeller Tabletop Skirmisher für 28mm zu sein der kleine Spiele mit wenigen Modellen in den Vordergrund stellt.
