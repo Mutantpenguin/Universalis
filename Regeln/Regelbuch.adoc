@@ -76,7 +76,7 @@ image:Grafiken/Abbildungen/w6_rot.svg[W6 rot,50]
 
 * Des weiteren werden Token für die folgenden Zustände benötigt:
 +
-[%header,cols="^1,2",frame=ends]
+[%unbreakable%header,cols="^1,2",frame=ends]
 |===
 
 |Symbol
@@ -145,7 +145,7 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 image::Grafiken/Abbildungen/einheitenkarte_übersicht.svg[Aufbau Einheitenkarte,align="center"]
 
-[cols="1,1",frame=ends]
+[%unbreakable,cols="1,1",frame=ends]
 |===
 
 |1. <<Trefferpunkte>>
@@ -197,7 +197,7 @@ Modelle werden in die Typen Infanterie, Koloss und Drohne unterschieden.
 
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
-[%header,cols="^1,1,2,1",frame=ends]
+[%unbreakable%header,cols="^1,1,2,1",frame=ends]
 |===
 
 | Symbol
@@ -226,7 +226,7 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
 Jedes Modell verfügt über einen festen Satz an Attributen.
 
-[%header,cols="^1,^2,5",frame=ends]
+[%unbreakable%header,cols="^1,^2,5",frame=ends]
 |===
 
 | Kürzel
@@ -261,7 +261,7 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 
 .normaler Mensch
 ==== 
-[%header,cols="^1,^1,^1,^1,^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1,^1,^1,^1,^1",frame=ends]
 |===
 
 |AGI
@@ -288,7 +288,7 @@ Sie wird in der Regel mit GK abgekürzt.
 
 Die folgenden Bewegungsarten stehen dabei zur Verfügung:
 
-[%header,cols="^1,^1,^1,^1,^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1,^1,^1,^1,^1",frame=ends]
 |===
 
 |Beine
@@ -319,7 +319,7 @@ Die maximale Menge an Trefferpunkten, über die ein Modell verfügen kann, liegt
 
 Modelle werden in 4 verschiedene Größenprofile gegliedert:
 
-[%header,cols="^1,^1,^4,^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1,^4,^1,^1",frame=ends]
 |===
 
 |Symbol
@@ -473,7 +473,7 @@ Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon
 
 Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
-[%header,cols="1,^1",frame=ends]
+[%unbreakable%header,cols="1,^1",frame=ends]
 |===
 
 |Typ
@@ -696,7 +696,7 @@ Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde s
 
 === Übersicht Aktionen und Reaktionen
 
-[%header,cols="1,^1,^1",frame=ends]
+[%unbreakable%header,cols="1,^1,^1",frame=ends]
 |===
 
 |
@@ -746,7 +746,7 @@ Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch 
 
 Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
 
-[%header,cols="^1,1,3",frame=ends]
+[%unbreakable%header,cols="^1,1,3",frame=ends]
 |===
 
 |Symbol
@@ -889,7 +889,7 @@ Darüber hinaus erleidet es automatisch einen Treffer.
 Die Stärke des Treffers entspricht der KO des gefallenen Modells.
 Der Schaden orientiert sich ebenfalls an der KO des Modells.
 
-[%header,cols="^2,^1",frame=ends]
+[%unbreakable%header,cols="^2,^1",frame=ends]
 |===
 
 |Fallhöhe
@@ -1101,7 +1101,7 @@ image::Grafiken/Abbildungen/rüstungsprofil.jpg[Rüstungsprofil,500]
 
 Sie werden mit den folgenden Symbolen ausgewiesen:
 
-[%header,cols="^1,1,3",frame=ends]
+[%unbreakable%header,cols="^1,1,3",frame=ends]
 |===
 
 |Symbol
@@ -1144,7 +1144,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 
 ==== Für Waffen und Rüstungen
 
-[%header,cols="^1,2,5",frame=ends]
+[%unbreakable%header,cols="^1,2,5",frame=ends]
 |===
 
 |Symbol
@@ -1183,7 +1183,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 
 ==== Nur für Waffen
 
-[%header,cols="^1,2,5",frame=ends]
+[%unbreakable%header,cols="^1,2,5",frame=ends]
 |===
 
 |Symbol
@@ -1201,7 +1201,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |===
 
 ==== Nur für Rüstungen
-[%header,cols="^1,2,5",frame=ends]
+[%unbreakable%header,cols="^1,2,5",frame=ends]
 |===
 
 |Symbol
@@ -1235,7 +1235,7 @@ Sie wird auch verwendet, falls sie höher als der Schutz der Rüstung sein sollt
 
 Nun wird die folgende Tabelle konsultiert:
 
-[%header,cols="1,3",frame=ends]
+[%unbreakable%header,cols="1,3",frame=ends]
 |===
 
 |Höheres Ergebnis
@@ -1282,7 +1282,7 @@ Sie können keine Aktionen und Reaktionen ausführen.
 
 Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Tabelle:
 
-[%header,cols="^1,5",frame=ends]
+[%unbreakable%header,cols="^1,5",frame=ends]
 |===
 
 |Ergebnis
@@ -1341,7 +1341,7 @@ Wenn er gelingt reißt sich das Modell zusammen und der Panikmarker wird entfern
 
 Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikatoren zur Anwendung.
 
-[%header,cols="^5,^1",frame=ends]
+[%unbreakable%header,cols="^5,^1",frame=ends]
 |===
 
 |Typ
@@ -1467,7 +1467,7 @@ image::Grafiken/Abbildungen/einmalnutzung_waffe.jpg[Einmalnutzung Waffe,500pt]
 
 === Beispiele für Waffenklassen
 
-[%header,cols="^.^1,2,2",frame=ends]
+[%unbreakable%header,cols="^.^1,2,2",frame=ends]
 |===
 
 |Klasse
@@ -1711,7 +1711,7 @@ Es können nur <<Aufklärung,aufgeklärte>> getarnte Modelle beschossen werden.
 
 Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger zu treffen.
 
-[%header,cols="^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1",frame=ends]
 |===
 
 |Typ
@@ -1735,7 +1735,7 @@ Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger z
 
 Der durch eventuelle <<Deckung>> angewandte Modifikator.
 
-[%header,cols="^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1",frame=ends]
 |===
 
 |Stufe
@@ -1850,7 +1850,7 @@ Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Mo
 
 Währenddessen sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
-[%header,cols="^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1",frame=ends]
 |===
 
 |Aktion
@@ -1991,7 +1991,7 @@ Die Stärke entspricht der Konstitution.
 Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
 Die Waffenklasse ist abhängig von der größe des Modells.
 
-[%header,cols="^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1",frame=ends]
 |===
 
 |Größe des Modells
@@ -2028,7 +2028,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 === Voraussetzungen für Tarnung
 
-[%header,cols="^1,6",frame=ends]
+[%unbreakable%header,cols="^1,6",frame=ends]
 |===
 
 |Typ
@@ -2198,7 +2198,7 @@ Außerdem werden AGI und NK um 1 verringert.
 
 * **Bewegung**
 +
-[%header,cols="^1,4",frame=ends]
+[%unbreakable%header,cols="^1,4",frame=ends]
 |===
 
 |W12
@@ -2338,7 +2338,7 @@ Sie gibt an wie der Attributswurf modifiziert wird.
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 3 verschiedenen Arten unterschieden.
 
-[%header,cols="^1,1,5",frame=ends]
+[%unbreakable%header,cols="^1,1,5",frame=ends]
 |===
 
 |Ziel
@@ -2369,7 +2369,7 @@ Der Wirkungsbereich einer Kraft legt fest, wie TODO
 
 TODO Umbenennen? "Ausführungsart"
 
-[%header,cols="^1,1,5",frame=ends]
+[%unbreakable%header,cols="^1,1,5",frame=ends]
 |===
 
 |Reichweite
@@ -2394,7 +2394,7 @@ Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem Attributswu
 
 Die Zahl im Symbol gibt an, wieviele TP das Modell verliert.
 
-[%header,cols="^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1",frame=ends]
 |===
 
 |Misserfolg
@@ -2415,7 +2415,7 @@ Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel is
 Manche Kräfte können sich auch selber beenden.
 In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.
 
-[%header,cols="^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1",frame=ends]
 |===
 
 |Sofort
