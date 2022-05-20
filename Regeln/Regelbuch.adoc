@@ -1124,7 +1124,7 @@ Sie werden mit den folgenden Symbolen ausgewiesen:
 
 |image:Grafiken/Waffe/stärke.svg[Stärke,40]
 |((Stärke))
-|erhöht die Chance beim [Verletzungswurf](#verletzungs--und-rüstungswurf)
+|erhöht die Chance beim <<Verletzungs- und Rüstungswurf,Verletzungswurf>>
 
 |image:Grafiken/Waffe/schaden.svg[Schaden,40]
 |((Schaden))
@@ -1826,12 +1826,12 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 Eine Maschinenpistole hat DF 3 und wird von einem Modell mit FK 5 abgefeuert.
 
 Entweder
-// TODO
-- Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
+
+* Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
 
 oder
-// TODO
-- Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen FK-Wurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
+
+* Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen FK-Wurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
 Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 ====
 
@@ -2258,7 +2258,7 @@ Mit einer EH von 6 könnten ihm 2 Drohnen zugeordnet werden.
 
 === ((Drohnen ohne Kontroller))
 
-Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder <<Ausgeschaltet,ausgeschaltet>> ist erhalten einen Panikmarker (siehe [Panik](#panik)).
+Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder <<Ausgeschaltet,ausgeschaltet>> ist erhalten einen Panikmarker (siehe <<Panik>>).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
