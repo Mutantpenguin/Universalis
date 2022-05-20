@@ -5,12 +5,13 @@ font:
     Nova Round: NovaRound-Regular.ttf
 base_font_family: Noto Sans
 title_page_title_font_family: Nova Round
-heading_h1_font_family: Nova Round
-heading_h2_font_family: Nova Round
-heading_h3_font_family: Nova Round
-heading_h4_font_family: Nova Round
-heading_h5_font_family: Nova Round
-heading_h6_font_family: Nova Round
+heading:
+  h1_font_family: Nova Round
+  h2_font_family: Nova Round
+  h3_font_family: Nova Round
+  h4_font_family: Nova Round
+  h5_font_family: Nova Round
+  h6_font_family: Nova Round
 page:
   size: A4
   margin: [2cm, 1cm, 1cm, 1cm]
