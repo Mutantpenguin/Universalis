@@ -1,23 +1,8 @@
-extends: default
+extends: default-sans-with-font-fallbacks
 font:
   catalog:
-    merge: false
-    Noto Sans:
-      normal: NotoSans-Regular.ttf
-      bold: NotoSans-Bold.ttf
-      italic: NotoSans-Italic.ttf
-      bold_italic: NotoSans-BoldItalic.ttf
-    # M+ 1mn supports ASCII and the circled numbers used for conums
-    M+ 1mn:
-      normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf
-      bold: GEM_FONTS_DIR/mplus1mn-bold-subset.ttf
-      italic: GEM_FONTS_DIR/mplus1mn-italic-subset.ttf
-      bold_italic: GEM_FONTS_DIR/mplus1mn-bold_italic-subset.ttf
-    Nova Round:
-      normal: NovaRound-Regular.ttf
-      bold: NovaRound-Regular.ttf
-      italic: NovaRound-Regular.ttf
-      bold_italic: NovaRound-Regular.ttf
+    merge: true
+    Nova Round: NovaRound-Regular.ttf
 base_font_family: Noto Sans
 title_page_title_font_family: Nova Round
 heading_h1_font_family: Nova Round
