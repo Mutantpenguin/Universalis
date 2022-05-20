@@ -15,6 +15,7 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :section-refsig:
 :chapter-label:
 :figure-caption: Abbildung
+:example-caption: Beispiel
 :icons: font
 ifdef::backend-html5[]
 :stylesheet: style/html-theme.css
@@ -258,7 +259,7 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 
 |===
 
-.Beispiel normaler Mensch
+.normaler Mensch
 ==== 
 [%header,cols="^1,^1,^1,^1,^1,^1",frame=ends]
 |===
@@ -401,7 +402,7 @@ Was die Eigenschaft für Auswirkungen hat und wie die Stufe zu behandeln ist, mu
 
 Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur von der höchsten Stufe.
 
-.Beispiel
+.{nbsp}
 ====
 Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
 
@@ -418,7 +419,7 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet we
 
 Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
-.Beispiel
+.{nbsp}
 ====
 Für eine Regeneration die 3x verwendet werden kann.
 
@@ -495,7 +496,7 @@ Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw
 
 Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
 
-.Beispiel
+.{nbsp}
 ====
 Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
 
@@ -1132,7 +1133,7 @@ Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 Beim Verletzungswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
 Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im Schadensprofil vorkommenden Effekt, so dass dieser nicht zur Anwendung kommt.
 
-.Beispiel
+.{nbsp}
 ====
 Ein Modell wird mit einer Pistole mit dem Effekt „Explosiv“ beschossen.
 Der Angreifer dürfte nun normalerweise seine Stärke für den Verletzungswurf verdoppeln.
@@ -1408,7 +1409,7 @@ Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei <<Unhandliche Waffen,unhandlichen>> Waffen mit 0,5 (aufgerundet).
 
 
-.Beispiel
+.{nbsp}
 ====
 Für einen Menschen mit KO von 5:
 
@@ -1457,7 +1458,7 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden k
 
 Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
-.Beispiel
+.{nbsp}
 ====
 Für eine Granate die 4x verwendet werden kann.
 
@@ -1678,7 +1679,7 @@ Pro vollständig ausgenutztem Reichweitenband erhält ein Modell einen Malus von
 
 Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
 
-.Beispiel
+.{nbsp}
 ====
 Eine Pistole verfügt über den Wert 20/3.
 Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 60cm
@@ -1694,7 +1695,7 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 
 Hierdurch können auch Modelle getroffen werden zu denen keine <<Sichtlinie>> gezogen werden kann.
 
-.Beispiel
+.{nbsp}
 ====
 Ein gegnerische Modell wird beschossen und es hat 2 Nahkampfgegner.
 Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
@@ -1771,7 +1772,7 @@ Er ist nicht mit der Aktion <<Reaktionen: Fernkampf,Reaktionsfeuer>> kombinierba
 
 Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen <<Geländeteile>> mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
 
-.Beispiel
+.{nbsp}
 ====
 Ein Granatwerfer hat eine Reichweite von 25/4 und somit eine maximale Reichweite von 100cm.
 Die maximale Höhe für den Schuss beträgt somit 50cm.
@@ -1806,7 +1807,7 @@ Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf
 Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den FK-Wurf und +1 beim Verletzungswurf.
 Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 
-.Beispiel
+.{nbsp}
 ====
 Eine Maschinenpistole hat DF 3 und wird von einem Modell mit FK 5 abgefeuert.
 
@@ -2007,7 +2008,7 @@ Die Waffenklasse ist abhängig von der größe des Modells.
 
 |===
 
-.Beispiel
+.{nbsp}
 ====
 Für einen Infanteristen mit einer KO von 4.
 
@@ -2124,7 +2125,7 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet we
 
 Bei jeder Verwendung **muss** ein Marker gestrichen werden.
 
-.Beispiel
+.{nbsp}
 ====
 Für ein medizinisches Spray das 3x verwendet werden kann.
 
@@ -2233,7 +2234,7 @@ Seine Eigenschaften werden nur auf ihn selber angewendet, es seih denn eine Eige
 
 Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
-.Beispiele
+.{nbsp}
 ====
 Ein Modell verfügt über eine EH von 5.
 Ihm kann also nur 1 Drohne zugeordnet werden.
@@ -2285,11 +2286,11 @@ Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft darg
 Alle Kräfte sind in sogenannten "Disziplinen" organisiert.
 Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
 
-// TODO
-!!! example Beispiel
-
-    * In einer Fantasywelt wären "Feuermagie" und "Eiszauberei" eigene Disziplinen, die dann jeweils Kräfte wie "Feuerball" und "Feuerwand" bzw. "Eisblitz" und "Schneesturm" beinhalten.
-    * Bei Cyberpunk wäre eine Disziplin wie "Psychokinese" denkbar die dann Kräfte wie "Würgegriff" und "Schweben" vereint.
+.{nbsp}
+====
+* In einer Fantasywelt wären "Feuermagie" und "Eiszauberei" eigene Disziplinen, die dann jeweils Kräfte wie "Feuerball" und "Feuerwand" bzw. "Eisblitz" und "Schneesturm" beinhalten.
+* Bei Cyberpunk wäre eine Disziplin wie "Psychokinese" denkbar die dann Kräfte wie "Würgegriff" und "Schweben" vereint.
+====
 
 === Auswahl von Kräften
 
@@ -2298,8 +2299,7 @@ Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Diszipli
 
 Jeder Spieler entscheidet <<Vorbereiten der Gruppe,vor Spielbeginn>>, welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
 
-// TODO
-.Beispiel
+.{nbsp}
 ====
 Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
 Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschiedene Kräfte mit ins Spiel nehmen zu können.
