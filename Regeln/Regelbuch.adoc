@@ -2341,11 +2341,11 @@ Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher Attrib
 Zusätzlich kann eine Schwierigkeit angegeben sein.
 Sie gibt an wie der Attributswurf modifiziert wird.
 
-// TODO
-!!! example Beipiel
-
-    * Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
-    * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
+.{nbsp}
+====
+* Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
+* Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
+====
 
 ==== Ziel
 
