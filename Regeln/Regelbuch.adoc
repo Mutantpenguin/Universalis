@@ -1008,26 +1008,30 @@ Deckung kommt nur im Fernkampf zur Anwendung und auch nur wenn sie sich zwischen
 
 Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
-==== Stufe I Deckung
+[%unbreakable%header,cols="1,1,1",frame=ends]
+|===
+^|I
+^|II
+^|III
 
-Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
-Beispiele: Gebüsch, Zaun, Plastik, Blech, Möbel
+|Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
 
 Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
-
-==== Stufe II Deckung
-
-Kann Beschuss bedingt abhalten.
-Beispiele: Ziegelmauer, Holzhaus, Tanks
+|Kann Beschuss bedingt abhalten.
 
 Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe.
-
-==== Stufe III Deckung
-
-Ist zur direkten Abwehr von Beschuss geeignet.
-Beispiele: Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
+|Ist zur direkten Abwehr von Beschuss geeignet.
 
 Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe.
+
+|Beispiele: +
+Gebüsch, Zaun, Plastik, Blech, Möbel
+|Beispiele: +
+Gebüsch, Zaun, Plastik, Blech, Möbel
+|Beispiele: +
+Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
+
+|===
 
 === Passierbarkeit
 
