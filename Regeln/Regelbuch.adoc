@@ -389,7 +389,7 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 === Aktionspunkte
 
 (((Aktionspunkte)))
-Modelle verfügen über Aktionspunkte, die in verschiedenen Phasen des Spiels für Aktionen und Reaktionen ausgegeben werden können.
+Modelle verfügen über Aktionspunkte, die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
 
 Sie werden in der Regel als "AP" abgekürzt.
 
@@ -660,6 +660,10 @@ Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten a
 Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
 Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
 
+Sie sind an folgendem Symbol zu erkennen:
+
+image::Grafiken/Allgemein/aktion.svg[Aktion,40,align="center"]
+
 === Reaktionen
 
 Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
@@ -668,6 +672,10 @@ Sie sind in der Regel an Bedingungen geknüpft.
 Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
 Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
 Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
+
+Sie sind an folgendem Symbol zu erkennen:
+
+image::Grafiken/Allgemein/reaktion.svg[RReaktion,40,align="center"]
 
 === Übersicht Aktionen und Reaktionen
 
