@@ -15,27 +15,7 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
-     id="defs8634">
-    <marker
-       style="overflow:visible"
-       id="marker6234"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="RoundedArrow"
-       markerWidth="3"
-       markerHeight="3"
-       viewBox="0 0 6.1347524 5.9304951"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path6232" />
-    </marker>
-  </defs>
+     id="defs8634" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -43,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-63.571429"
-     inkscape:cy="-80"
+     inkscape:zoom="3.959798"
+     inkscape:cx="6.5659915"
+     inkscape:cy="25.506352"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -56,7 +36,7 @@
      fit-margin-bottom="0"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="2"
@@ -77,32 +57,32 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-89.087797,-148.61906)">
+     transform="translate(-92.886105,-147.67334)">
     <g
-       id="g7224"
-       transform="matrix(0.26458333,0,0,0.26458333,-38.495055,-105.11899)">
+       id="g2338"
+       transform="matrix(0.26458333,0,0,0.26458333,-4.0858014,-121.77722)">
       <rect
-         y="959.00995"
-         x="482.20291"
+         y="1018.3958"
+         x="366.508"
          height="35.433071"
          width="35.433071"
-         id="rect2357"
+         id="rect2330"
          style="fill:none" />
       <g
-         id="g7206"
-         transform="matrix(0.44772539,0,0,0.44772539,276.06331,575.28423)">
+         id="g2292"
+         transform="matrix(0.44772539,0,0,0.44772539,152.45145,564.67357)">
         <g
-           id="g7202"
-           transform="matrix(-1,0,0,1,949.96879,5.968036)">
+           id="g2253"
+           transform="matrix(-1,0,0,1,962.80846,162.30612)">
           <circle
              style="fill:#000000;stroke:none;stroke-width:1.51181;stroke-linecap:round;stop-color:#000000"
-             id="circle7198"
+             id="circle2248"
              cx="427.79956"
              cy="890.65802"
              r="11.667261" />
           <path
              style="fill:none;stroke:#000000;stroke-width:9.112;stroke-linecap:round;stroke-dasharray:none;stop-color:#000000"
-             id="path7200"
+             id="path2250"
              sodipodi:type="arc"
              sodipodi:cx="427.79953"
              sodipodi:cy="890.65802"
@@ -115,9 +95,10 @@
              sodipodi:open="true" />
         </g>
         <path
-           style="fill:none;stroke:#000000;stroke-width:4.687;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6234)"
-           d="m 483.67682,871.91344 -13.22731,22.91039 15.72551,-4.21364 -13.8125,23.92394"
-           id="path7204" />
+           id="path2270"
+           style="stroke-width:9.112;stroke-linecap:round;stop-color:#000000"
+           d="m 488.65973,1040.0595 18.81023,12.9046 -18.81023,12.9048 z"
+           sodipodi:nodetypes="cccc" />
       </g>
     </g>
   </g>
