@@ -647,7 +647,7 @@ Das Spiel endet dann automatisch sofort und der Spieler der aufgegeben hat verli
 
 Für jede Mission werden die Siegesbedingungen überprüft und das Spiel gegebenenfalls beendet.
 
-Sollte es weitergehen werden die nicht verbrauchten AP jedes Modells halbiert (abgerundet) und mit in die nächste Runde übernommen.
+Sollte es weitergehen, werden die nicht verbrauchten AP jedes Modells halbiert (abgerundet) und mit in die nächste Runde übernommen.
 Hier bietet es sich an einen W6 in der korrekten Farbe (siehe <<Kritischer Zustand>>) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
 Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 Siehe dazu auch <<Aktionspunkte>>.
