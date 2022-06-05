@@ -854,8 +854,6 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 |===
 
-{nbsp}
-
 (((Aktionen, Normale Bewegung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -869,8 +867,6 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 |===
 
-{nbsp}
-
 (((Aktionen, Angriffsbewegung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -883,8 +879,6 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 * Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem <<Aktionen: Nahkampf,Angriff>>.
 
 |===
-
-{nbsp}
 
 (((Aktionen, Aus Nahkampf lösen)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -901,8 +895,6 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 |===
 
-{nbsp}
-
 (((Aktionen, Hinlegen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -914,8 +906,6 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 |===
 
-{nbsp}
-
 (((Aktionen, Aufstehen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -926,8 +916,6 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 3+<a|Das Modell gilt als stehend.
 
 |===
-
-{nbsp}
 
 (((Aktionen, Springen)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -941,8 +929,6 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 * Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
 
 |===
-
-{nbsp}
 
 (((Aktionen, Interagieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -1580,7 +1566,6 @@ Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
 Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei <<Unhandliche Waffen,unhandlichen>> Waffen mit 0,5 (aufgerundet).
 
-
 .{nbsp}
 ====
 Für einen Menschen mit KO von 5:
@@ -1770,8 +1755,6 @@ Bei Erfolg wurde das Ziel getroffen und ein <<Schaden & Rüstung,Treffer>> gelan
 
 |===
 
-{nbsp}
-
 (((Aktionen, Feuerbereitschaft)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -1794,8 +1777,6 @@ Misslingt dieser verliert es die Feuerbereitschaft.
 
 |===
 
-{nbsp}
-
 (((Aktionen, Gezielter Schuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -1809,8 +1790,6 @@ Die Reichweitenbänder werden hierbei verdoppelt.
 
 |===
 
-{nbsp}
-
 (((Aktionen, Schnellschuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -1821,8 +1800,6 @@ Die Reichweitenbänder werden hierbei verdoppelt.
 3+<a|Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
 
 |===
-
-{nbsp}
 
 (((Aktionen, Nachladen)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2142,8 +2119,6 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 |===
 
-{nbsp}
-
 (((Aktionen, Verwegener Angriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -2156,8 +2131,6 @@ Es erhält +3 auf seinen NK-Wurf.
 * Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
 
 |===
-
-{nbsp}
 
 (((Aktionen, Verteidigung)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2201,8 +2174,6 @@ Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt wer
 Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
 
 |===
-
-{nbsp}
 
 (((Reaktionen, Gelegenheitsangriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2757,8 +2728,6 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 |===
 
-{nbsp}
-
 (((Aktionen, Kraft beenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -2769,8 +2738,6 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 3+<a|Eine eigene beliebige "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
 
 |===
-
-{nbsp}
 
 (((Aktionen, Kraft aufheben)))
 [%unbreakable%header,cols="^1,^4,^1"]
