@@ -419,13 +419,14 @@ Es ist somit egal wohin ein Modell ausgerichtet ist.
 
 (((Sichtlinie)))
 Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn ein Teil seines <<Größenprofil,Größenprofils>> sichtbar ist.
-
 Dies bedeutet, dass es möglich sein muss eine gerade Linie zu ziehen die sein Größenprofil *trifft*.
 
 .Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.
 image::Grafiken/Abbildungen/sichtlinie.svg[Größenprofil,300,align=center]
 
 Befreundete Modelle behindern nicht die Sichtlinie.
+
+Die Sichtlinie zu jedem anderen Objekte auf dem Spielfeld ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
 
 === Tragkraft
 
