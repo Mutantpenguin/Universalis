@@ -732,12 +732,16 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Kraft-Diszip
 
 === Aktionen: Eigenschaften
 
-// TODO
-!!! danger Eigenschaft anwenden - X ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Eigenschaft anwenden
+.^|X ⊙
 
-    Das Modell wendet eine Eigenschaft an.
-    
-    Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
+3+<a|* Das Modell wendet eine Eigenschaft an.
+* Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
+
+|===
 
 === Regeln
 
@@ -838,80 +842,129 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 === Aktionen: Bewegung
 
-// TODO
-!!! danger Drehen - 0 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Drehen
+.^|0 ⊙
 
-    Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
+3+<a|Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
 
-// TODO
-!!! danger Normale Bewegung - 1-2 ⊙
+|===
 
-    Das Modell bewegt sich entsprechend seiner GK in cm.
-    Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Modelle,liegt>>.
+{nbsp}
 
-    Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 3cm eingehalten werden.
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Normale Bewegung
+.^|1-2 ⊙
 
-// TODO
-!!! danger Angriffsbewegung - WK ⊙
+3+<a|* Das Modell bewegt sich entsprechend seiner GK in cm.
+Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Modelle,liegt>>.
+* Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 3cm eingehalten werden.
 
-    Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe.
-    
-    Die eigentliche Bewegung ist somit kostenlos.
-    
-    Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem [Angriff](#aktionen:-nahkampf).
+|===
 
-// TODO
-!!! danger Aus Nahkampf lösen - 2-3 ⊙
+{nbsp}
 
-    !!! note ""
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Angriffsbewegung
+.^|WK ⊙
 
-        Das Modell muss sich im Nahkampf befinden.
+3+<a|* Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe.
+* Die eigentliche Bewegung ist somit kostenlos.
+* Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem <<Aktionen: Nahkampf,Angriff>>.
 
-    Mit dieser Aktion kann sich ein Modell aus einem [Nahkampf](#nahkampf) lösen, zunächst muss es aber den Test für eine [Direkte Bedrohung](#direkte-bedrohung) durchführen.
+|===
 
-    Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
+{nbsp}
 
-    Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Aus Nahkampf lösen
+.^|2-3 ⊙
 
-// TODO
-!!! danger Hinlegen - 1 ⊙
+3+<a|WARNING: Das Modell muss sich im Nahkampf befinden.
 
-    Das Modell gilt als [liegend](#liegende-modelle).
+* Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, zunächst muss es aber den Test für eine <<Direkte Bedrohung>> durchführen.
+* Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
+* Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
 
-// TODO
-!!! danger Aufstehen - 1 ⊙
+|===
 
-    Das Modell gilt als stehend.
+{nbsp}
 
-// TODO
-!!! danger Springen - 2 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Hinlegen
+.^|1 ⊙
 
-    Das Modell springt entsprechend seiner GK in cm weit wenn es gestanden hat.
-    
-    Falls es unmittelbar vorher mindestens eine volle Bewegung gemacht hat, darf es die doppelte Reichweite springen.
-    
-    Ein Modell kann nicht springen, wenn es [liegt](#liegende-modelle).
+3+<a|Das Modell gilt als <<Liegende Modelle,liegend>>
 
-// TODO
-!!! danger Interagieren - 1 ⊙
+|===
 
-    Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
+{nbsp}
+
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Aufstehen
+.^|1 ⊙
+
+3+<a|Das Modell gilt als stehend.
+
+|===
+
+{nbsp}
+
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Springen
+.^|2 ⊙
+
+3+<a|* Das Modell springt entsprechend seiner GK in cm weit wenn es gestanden hat.
+* Falls es unmittelbar vorher mindestens eine volle Bewegung gemacht hat, darf es die doppelte Reichweite springen.
+* Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
+
+|===
+
+{nbsp}
+
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Interagieren
+.^|1 ⊙
+
+3+<a|Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
+
+|===
 
 === Reaktionen: Bewegung
 
-// TODO
-!!! warning Beschuss Ausweichen - 1 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
+.^|Beschuss Ausweichen
+.^|1 ⊙
 
-    !!! note ""
-        
-        Kann von einem Modell durchgeführt werden, welches Ziel eines Fernkampfangriffs ist.
-        Der Schütze muss sich im [Wahrnehmungsbereich](#wahrnehmungsbereich) befinden.
+3+<a|[WARNING]
+====
+* Kann von einem Modell durchgeführt werden, welches Ziel eines Fernkampfangriffs ist.
+Der Schütze muss sich im <<Wahrnehmungsbereich>> befinden.
+* Nicht bei <<Liegende Modelle, liegenden>> Modellen.
+* Nur bevor der Schütze seinen FK-Wurf durchführt.
+====
 
-        Nicht bei [liegenden](#liegende-modelle) Modellen.
+Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
 
-        Nur bevor der Schütze seinen FK-Wurf durchführt.
-    
-    Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
+|===
 
 === Vertikale Bewegung
 
@@ -1696,77 +1749,106 @@ Bei Erfolg wurde das Ziel getroffen und ein <<Schaden & Rüstung,Treffer>> gelan
 
 === Aktionen: Fernkampf
 
-// TODO
-!!! danger Normaler Schuss - WK+1 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Normaler Schuss
+.^|WK+1 ⊙
 
-    Das Modell führt einen Fernkampf durch.
+3+<a|Das Modell führt einen Fernkampf durch.
 
-// TODO
-!!! danger Feuerbereitschaft - 2 ⊙
+|===
 
-    !!! note ""
+{nbsp}
 
-        Nur mit Schusswaffen der WK I, II und III.
-        
-        Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden da jede weitere Aktion die Feuerbereitschaft automatisch beendet.
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Feuerbereitschaft
+.^|2 ⊙
 
-    Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
-    Es verliert sie dann automatisch.
+3+<a|[WARNING]
+====
+* Nur mit Schusswaffen der WK I, II und III.
+* Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden da jede weitere Aktion die Feuerbereitschaft automatisch beendet.
+====
 
-    Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt:
+* Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
+Es verliert sie dann automatisch.
+* Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt: +
+image:Grafiken/Token/feuerbereitschaft.svg[Feuerbereitschaft,40,align=center]
+* Falls das Modell das Ziel irgendeiner Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
+Misslingt dieser verliert es die Feuerbereitschaft.
 
-    ![feuerbereitschaft](Grafiken/Token/feuerbereitschaft.svg){width="40pt"} {align="center"}
+|===
 
-    Falls das Modell das Ziel irgendeiner Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
-    Misslingt dieser verliert es die Feuerbereitschaft.
+{nbsp}
 
-// TODO
-!!! danger Gezielter Schuss - WK+2 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Gezielter Schuss
+.^|WK+2 ⊙
 
-    Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
-    Die Reichweitenbänder werden hierbei verdoppelt.
-    
-    Er ist nicht in Kombination mit Dauerfeuer einsetzbar.
+3+<a|* Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
+Die Reichweitenbänder werden hierbei verdoppelt.
+* Er ist nicht in Kombination mit Dauerfeuer einsetzbar.
 
-// TODO
-!!! danger Schnellschuss - WK ⊙
+|===
 
-    Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
+{nbsp}
 
-// TODO
-!!! danger Nachladen - WK ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Schnellschuss
+.^|WK ⊙
 
-    !!! note ""
+3+<a|Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
 
-        Diese Aktion kann nur von Modellen mit einem [Nachlade-Token](#nachladen) durchgeführt werden.
+|===
 
-    Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
-    Der Token wird danach vom Modell entfernt.
+{nbsp}
+
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Nachladen
+.^|WK ⊙
+
+3+<a|[WARNING]
+====
+Diese Aktion kann nur von Modellen mit einem <<Nachladen,Nachlade-Token>> durchgeführt werden.
+====
+
+Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
+Der Token wird danach vom Modell entfernt.
+
+|===
 
 === Reaktionen: Fernkampf
 
-// TODO
-!!! warning Reaktionsfeuer - WK ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
+.^|Reaktionsfeuer
+.^|WK ⊙
 
-    !!! note ""
+3+<a|[WARNING]
+====
+* Das Modell muss sich in Feuerbereitschaft befinden.
+* Kann nicht mit <<Indirekter Fernkampf,indirektem Fernkampf>> genutzt werden.
+* Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige <<Aktionen: Bewegung,Bewegungsaktion>> innerhalb des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> durchführt.
+* Die Reaktion kann stattfinden bevor oder nachdem die Bewegungsaktion ausgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
+* TODO vergleichender AGI-Test, wenn die Bewegungsaktion eine Auswirkung auf den FK-Wurf hätte?
+====
 
-        Das Modell muss sich in Feuerbereitschaft befinden.
+* Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch.
+* Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
+* Wenn sich das Ziel in den Wahrnehmungsbereich hinein oder hinaus bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen FK-Wurf.
+* Das Modell verliert danach automatisch seine Feuerbereitschaft.
 
-        Kann nicht mit [indirektem Fernkampf](#indirekter-fernkampf) genutzt werden.
-
-        Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige [Bewegungsaktion](#aktionen:-bewegung) innerhalb des [Wahrnehmungsbereichs](#wahrnehmungsbereich) durchführt.
-
-        Die Reaktion kann stattfinden bevor oder nachdem die Bewegungsaktion ausgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
-
-        TODO vergleichender AGI-Test, wenn die Bewegungsaktion eine Auswirkung auf den FK-Wurf hätte?
-
-    Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch.
-    
-    Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
-    
-    Wenn sich das Ziel in den Wahrnehmungsbereich hinein oder hinaus bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen FK-Wurf.
-
-    Das Modell verliert danach automatisch seine Feuerbereitschaft.
+|===
 
 === Erlaubte Waffen
 
@@ -2033,61 +2115,90 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 === Aktionen: Nahkampf
 
-// TODO
-!!! danger Angriff - WK ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Angriff
+.^|WK ⊙
 
-    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+3+<a|Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
-// TODO
-!!! danger Verwegener Angriff - WK+2 ⊙
+|===
 
-    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
-    Es erhält +3 auf seinen NK-Wurf.
-    
-    Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
+{nbsp}
 
-// TODO
-!!! danger Verteidigung - 2 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Verwegener Angriff
+.^|WK+2 ⊙
 
-    !!! note ""
+3+<a|* Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+Es erhält +3 auf seinen NK-Wurf.
+* Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
 
-        Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
-        Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
+|===
 
-    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
-    Es verliert sie dann automatisch.
+{nbsp}
 
-    Sie wird am Modell mit dem Verteidigungs-Token dargestellt:
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Verteidigung
+.^|2 ⊙
 
-    ![verteidigung](Grafiken/Token/verteidigung.svg){width="40pt"} {align="center"}
+3+<a|[WARNING]
+====
+Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
+Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
+====
 
-    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen [Bonus](#bonus-für-den-angreifer) für eine [Angriffsbewegung](#aktionen:-bewegung).
-    Das Modell verliert danach automatisch seine Verteidigung.
+* Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
+Es verliert sie dann automatisch.
+* Sie wird am Modell mit dem Verteidigungs-Token dargestellt: +
+image:Grafiken/Token/verteidigung.svg[Verteidigung,40,align=center]
+* Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen <<Bonus für den Angreifer,Bonus>> für eine <<Aktionen: Bewegung,Angriffsbewegung>>.
+Das Modell verliert danach automatisch seine Verteidigung.
+* Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
+Misslingt dieser verliert es die Verteidigung.
+Es muss dafür nicht getroffen werden.
 
-    Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
-    Misslingt dieser verliert es die Verteidigung.
-    Es muss dafür nicht getroffen werden.
+|===
 
 === Reaktionen: Nahkampf
 
-// TODO
-!!! warning Gegenangriff - WK ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
+.^|Gegenangriff
+.^|WK ⊙
 
-    !!! note ""
+3+<a|[WARNING]
+====
+Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
+====
 
-        Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
-    
-    Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
+Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
 
-// TODO
-!!! warning Gelegenheitsangriff - WK ⊙
+|===
 
-    !!! note ""
+{nbsp}
 
-        Kann durchgeführt werden, wenn ein gegnerisches Modell in Basekontakt sich entfernt.
-    
-    Das Modell führt mit dem sich entfernenden Modell einen Nahkampf durch und gilt als der Angreifer.
-    Das sich entfernende Modell kämpft mit NK von 0.
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Gelegenheitsangriff
+.^|WK ⊙
+
+3+<a|[WARNING]
+====
+Kann durchgeführt werden, wenn ein gegnerisches Modell in Basekontakt sich entfernt.
+====
+
+Das Modell führt mit dem sich entfernenden Modell einen Nahkampf durch und gilt als der Angreifer.
+Das sich entfernende Modell kämpft mit NK von 0.
+
+|===
 
 === Erlaubte Waffen
 
@@ -2222,26 +2333,32 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 === Aktionen: Tarnung
 
-// TODO
-!!! danger Aufklären - 2 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Aufklären
+.^|2 ⊙
 
-    Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
+3+<a|* Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
+* Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
+Bei Erfolg wurde das getarnte Modell aufgeklärt.
+* Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
 
-    Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
-    Bei Erfolg wurde das getarnte Modell aufgeklärt.
-
-    Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
+|===
 
 === Reaktionen: Tarnung
 
-// TODO
-!!! warning Aufklärungsunterstützung - 2 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
+.^|Aufklärungsunterstützung
+.^|2 ⊙
 
-    Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
+3+<a|* Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
+* Für das Modell, welches bei der Aufklärung unterstützen soll, muss sich das aufzuklärende Modell ebenso in seinem Wahrnehmungsbereich befinden.
+* Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
 
-    Für das Modell, welches bei der Aufklärung unterstützen soll, muss sich das aufzuklärende Modell ebenso in seinem Wahrnehmungsbereich befinden.
-
-    Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
+|===
 
 == Ausrüstung
 
@@ -2250,12 +2367,16 @@ Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe 
 
 === Aktionen: Ausrüstung
 
-// TODO
-!!! danger Ausrüstung verwenden - X ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Ausrüstung verwenden
+.^|X ⊙
 
-    Das Modell verwendet einen Ausrüstungsgegenstand.
-    
-    Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
+3+<a|* Das Modell verwendet einen Ausrüstungsgegenstand.
+* Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
+
+|===
 
 === Regeln
 
@@ -2600,45 +2721,61 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 === Aktionen: Kräfte
 
-// TODO
-!!! danger Kraft einsetzen - x ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Kraft einsetzen
+.^|X ⊙
 
-    Das Modell setzt eine Kraft ein.
+3+<a|* Das Modell setzt eine Kraft ein.
+* Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
 
-    Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
+|===
 
-// TODO
-!!! danger Kraft beenden - 1 ⊙
+{nbsp}
 
-    Eine eigene beliebige "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Kraft beenden
+.^|1 ⊙
 
-// TODO
-!!! danger Kraft aufheben - 2 ⊙
+3+<a|Eine eigene beliebige "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
 
-    !!! TODO TODO
+|===
 
-    Kosten bestimmen.
+{nbsp}
 
-    Nur wenn die Kraft innerhalb von EH in cm waren?
-    Oder im Wahrbehmungsbereich?
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
+.^|Kraft aufheben
+.^|2 ⊙
 
-    Würfeln wie beim Einsatz der Kraft.
+3+<a|* TODO
+* Kosten bestimmen.
+* Nur wenn die Kraft innerhalb von EH in cm waren?
+Oder im Wahrbehmungsbereich?
+* Würfeln wie beim Einsatz der Kraft.
+* Wird der TP-Verlust angewendet?
 
-    Wird der TP-Verlust angewendet?
+|===
 
 === Reaktionen: Kräfte
 
-// TODO
-!!! warning Kraft blockieren - 2 ⊙
+[%unbreakable%header,cols="^1,^4,^1"]
+|===
+.^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
+.^|Kraft blockieren
+.^|2 ⊙
 
-    !!! TODO TODO
+3+<a|* TODO
+* Kosten bestimmen.
+* Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
+Oder im Wahrbehmungsbereich?
+* Muss über dem Ergebnis des Casters würfeln?
 
-    Kosten bestimmen.
-
-    Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
-    Oder im Wahrbehmungsbereich?
-
-    Muss über dem Ergebnis des Casters würfeln?
+|===
 
 == Progression
 
