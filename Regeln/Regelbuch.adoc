@@ -732,6 +732,7 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Kraft-Diszip
 
 === Aktionen: Eigenschaften
 
+(((Aktionen, Eigenschaft anwenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -842,6 +843,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 === Aktionen: Bewegung
 
+(((Aktionen, Drehen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -854,6 +856,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 {nbsp}
 
+(((Aktionen, Normale Bewegung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -868,6 +871,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 {nbsp}
 
+(((Aktionen, Angriffsbewegung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -882,6 +886,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 {nbsp}
 
+(((Aktionen, Aus Nahkampf lösen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -898,6 +903,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 {nbsp}
 
+(((Aktionen, Hinlegen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -910,6 +916,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 {nbsp}
 
+(((Aktionen, Aufstehen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -922,6 +929,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 {nbsp}
 
+(((Aktionen, Springen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -936,6 +944,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 {nbsp}
 
+(((Aktionen, Interagieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -948,6 +957,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 === Reaktionen: Bewegung
 
+(((Reaktionen, Beschuss Ausweichen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
@@ -1749,6 +1759,7 @@ Bei Erfolg wurde das Ziel getroffen und ein <<Schaden & Rüstung,Treffer>> gelan
 
 === Aktionen: Fernkampf
 
+(((Aktionen, Normaler Schuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -1761,6 +1772,7 @@ Bei Erfolg wurde das Ziel getroffen und ein <<Schaden & Rüstung,Treffer>> gelan
 
 {nbsp}
 
+(((Aktionen, Feuerbereitschaft)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -1784,6 +1796,7 @@ Misslingt dieser verliert es die Feuerbereitschaft.
 
 {nbsp}
 
+(((Aktionen, Gezielter Schuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -1798,6 +1811,7 @@ Die Reichweitenbänder werden hierbei verdoppelt.
 
 {nbsp}
 
+(((Aktionen, Schnellschuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -1810,6 +1824,7 @@ Die Reichweitenbänder werden hierbei verdoppelt.
 
 {nbsp}
 
+(((Aktionen, Nachladen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -1828,6 +1843,7 @@ Der Token wird danach vom Modell entfernt.
 
 === Reaktionen: Fernkampf
 
+(((Reaktionen, Reaktionsfeuer)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
@@ -2115,6 +2131,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 === Aktionen: Nahkampf
 
+(((Aktionen, Angriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2127,6 +2144,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 {nbsp}
 
+(((Aktionen, Verwegener Angriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2141,6 +2159,7 @@ Es erhält +3 auf seinen NK-Wurf.
 
 {nbsp}
 
+(((Aktionen, Verteidigung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2167,6 +2186,7 @@ Es muss dafür nicht getroffen werden.
 
 === Reaktionen: Nahkampf
 
+(((Reaktionen, Gegenangriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
@@ -2184,6 +2204,7 @@ Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch
 
 {nbsp}
 
+(((Reaktionen, Gelegenheitsangriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2333,6 +2354,7 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 === Aktionen: Tarnung
 
+(((Aktionen, Aufklären)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2348,6 +2370,7 @@ Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
 === Reaktionen: Tarnung
 
+(((Reaktionen, Aufklärungsunterstützung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
@@ -2367,6 +2390,7 @@ Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe 
 
 === Aktionen: Ausrüstung
 
+(((Aktionen, Ausrüstung verwenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2721,6 +2745,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 === Aktionen: Kräfte
 
+(((Aktionen, Kraft einsetzen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2734,6 +2759,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 {nbsp}
 
+(((Aktionen, Kraft beenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2746,6 +2772,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 {nbsp}
 
+(((Aktionen, Kraft aufheben)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
@@ -2763,6 +2790,7 @@ Oder im Wahrbehmungsbereich?
 
 === Reaktionen: Kräfte
 
+(((Reaktionen, Kraft blockieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
