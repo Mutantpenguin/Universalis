@@ -491,7 +491,7 @@ Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 === Wahrnehmungsbereich
 
 (((Wahrnehmungsbereich)))
-Der Wahrnehmungsbereich umfasst alles um ein Modell bis zu einer Distanz die wie folgt berechnet wird:
+Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> bis zu einer Distanz die wie folgt berechnet wird:
 
     Distanz = WN * 5cm
 
