@@ -402,7 +402,7 @@ Sie werden in der Regel als "AP" abgekürzt.
 Die Kosten in Aktionspunkten werden immer mit dem Zeichen ⊙ angegeben.
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
-Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritischer Zustand, kritischen Zustand>> verfällt.
+Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritisch, kritischen Zustand>> verfällt.
 
 Alle Modelle haben pro Runde 6 AP.
 Die einzige Ausnahme sind Drohnen mit nur 2 AP.
@@ -495,7 +495,7 @@ Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> bis zu ein
 
     Distanz = WN * 5cm
 
-Im <<Kritischer Zustand,Kritischen Zustand>> wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
+Im <<Kritisch,Kritischen Zustand>> wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
 
 Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
 
@@ -648,7 +648,7 @@ Das Spiel endet dann automatisch sofort und der Spieler der aufgegeben hat verli
 Für jede Mission werden die Siegesbedingungen überprüft und das Spiel gegebenenfalls beendet.
 
 Sollte es weitergehen, werden die nicht verbrauchten AP jedes Modells halbiert (abgerundet) und mit in die nächste Runde übernommen.
-Hier bietet es sich an einen W6 in der korrekten Farbe (siehe <<Kritischer Zustand>>) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
+Hier bietet es sich an einen W6 in der korrekten Farbe (siehe <<Kritisch,Kritischer Zustand>>) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
 Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 Siehe dazu auch <<Aktionspunkte>>.
 
@@ -1404,7 +1404,7 @@ Sollte die Rüstung über eine Schadensreduktion verfügen wird der Schaden um d
 Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Ausgeschaltet>>.
 
 Falls das Modell überlebt erleidet es einen <<Schock>>.
-Wenn es ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt es nun in einen <<kritischer Zustand,kritischen Zustand>>.
+Wenn es ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
 
 == Zustände
 
@@ -1454,7 +1454,7 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 
 Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bonus von +2 auf den Wurf.
 
-=== Kritischer Zustand
+=== Kritisch
 
 (((Kritischer Zustand)))
 (((Zustände, Kritisch)))
@@ -2452,7 +2452,7 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 * *Rumpf*
 +
 Wie bei Infanterie.
-Siehe <<Kritischer Zustand>>.
+Siehe <<Kritisch,Kritischer Zustand>>.
 
 * *Linke/Rechte Seite*
 +
