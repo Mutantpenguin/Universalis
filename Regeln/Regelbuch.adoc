@@ -864,7 +864,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
 .^|Normale Bewegung
-.^|1-2 ⊙
+.^|1\|2 ⊙
 
 3+<a|* Das Modell bewegt sich entsprechend seiner GK in cm.
 Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Modelle,liegt>>.
@@ -890,7 +890,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
 .^|Aus Nahkampf lösen
-.^|2-3 ⊙
+.^|2\|3 ⊙
 
 3+<a|WARNING: Das Modell muss sich im Nahkampf befinden.
 
@@ -2339,7 +2339,7 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
 .^|Aufklären
-.^|2 ⊙
+.^|2+ ⊙
 
 3+<a|* Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
 * Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
