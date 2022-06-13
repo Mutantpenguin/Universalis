@@ -1843,7 +1843,6 @@ Der Token wird danach vom Modell entfernt.
 
 * Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch.
 * Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
-* Wenn sich das Ziel in den Wahrnehmungsbereich hinein oder hinaus bewegt erhält der Schütze einen weiteren Malus von -1 auf seinen FK-Wurf.
 * Das Modell verliert danach automatisch seine Feuerbereitschaft.
 
 |===
