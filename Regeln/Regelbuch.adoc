@@ -922,19 +922,6 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 |===
 
-(((Aktionen, Springen)))
-[%unbreakable%header,cols="^1,^4,^1"]
-|===
-.^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Springen
-.^|2 ⊙
-
-3+<a|* Das Modell springt entsprechend seiner GK in cm weit wenn es gestanden hat.
-* Falls es unmittelbar vorher mindestens eine volle Bewegung gemacht hat, darf es die doppelte Reichweite springen.
-* Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
-
-|===
-
 (((Aktionen, Interagieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
@@ -966,6 +953,16 @@ Der Schütze muss sich im <<Wahrnehmungsbereich>> befinden.
 Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
 
 |===
+
+=== Springen
+
+(((Springen)))
+Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
+
+Zwischenräume zwischen <<Geländeteile,Geländeteilen>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem einfach übersprungen werden.
+
+Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen <<Bewegungstest>> ablegen.
+Wenn er misslingt <<Herunterfallen,fällt>> das Modell herunter.
 
 === Vertikale Bewegung
 
