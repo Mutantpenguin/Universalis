@@ -54,7 +54,8 @@ Also:
 
 * Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
 +
-image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=250,align=center]
+[.text-center]
+image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=250]
 
 * Ausreichend <<Geländeteile>> um die Fläche gut zu füllen.
 
