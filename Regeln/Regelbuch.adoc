@@ -435,19 +435,17 @@ Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon
 
 Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
-[%unbreakable%header,cols="1,^1",frame=ends]
+[%unbreakable,cols="h,^1,^1,^1",frame=ends]
 |===
 
 |Typ
-|Tragkraft in kg
-
 |Infanterie
-|`KO²`
-
 |Drohne
-|`KO²`
-
 |Koloss
+
+|Tragkraft in kg
+|`KO²`
+|`KO²`
 |`( KO * 2 )²`
 
 |===
