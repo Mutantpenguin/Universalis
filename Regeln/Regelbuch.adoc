@@ -1209,7 +1209,7 @@ Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfind
 So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden.
 Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
 
-Um dies zu umgehen kann einfach das gesamte Spieldfeld als ein spezifischer Geländetyp deklariert werden.
+Um dies zu umgehen kann einfach das gesamte Spielfeld als ein spezifischer Geländetyp deklariert werden.
 Er gilt dann für das gesamte Spielfeld.
 
 == Schaden & Rüstung
