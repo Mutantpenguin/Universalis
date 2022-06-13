@@ -490,13 +490,18 @@ Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 === Wahrnehmungsbereich
 
 (((Wahrnehmungsbereich)))
-Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> bis zu einer Distanz die wie folgt berechnet wird:
+Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> bis zu einer gewissen Distanz.
+
+.Wahrnehmungsbereich der durch Bäume eingeschränkt wird.
+image::Grafiken/Abbildungen/wahrnehmungsbereich.svg[Wahrnehmungsbereich,300,align=center]
+
+Die Distanz berechnet sich dabei folgendermaßen:
 
     Distanz = WN * 5cm
 
 Im <<Kritisch,Kritischen Zustand>> wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
 
-Auf der Einheitenkarte wird der Wahrnehmungsreich mit diesem Symbol angegeben:
+Auf der Einheitenkarte wird die Distanz des Wahrnehmungsreich mit diesem Symbol angegeben:
 
 image::Grafiken/Modell/wahrnehmungsbereich.svg[Wahrnehmungsbereich,40,align=center]
 
