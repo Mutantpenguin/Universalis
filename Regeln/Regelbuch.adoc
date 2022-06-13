@@ -957,6 +957,7 @@ Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -
 === Springen
 
 (((Springen)))
+(((Bewegung, Springen)))
 Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
 
 Zwischenräume zwischen <<Geländeteile,Geländeteilen>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem einfach übersprungen werden.
@@ -967,12 +968,14 @@ Wenn er misslingt <<Herunterfallen,fällt>> das Modell herunter.
 === Vertikale Bewegung
 
 (((Vertikale Bewegung)))
+(((Bewegung, Vertikal)))
 Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern und vergleichbarem bewegen.
 Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 
 === Klettern
 
 (((Klettern)))
+(((Bewegung, Klettern)))
 Jedes Modell kann ohne spezielle Ausrüstung auf oder herunter von Hindernissen bis zu seinem doppelten <<Größenprofil>> klettern.
 
 Die vertikale Distanz wird dafür doppelt berechnet.
@@ -980,6 +983,8 @@ Die vertikale Distanz wird dafür doppelt berechnet.
 === Herunterfallen
 
 (((Herunterfallen)))
+(((Fallen)))
+(((Bewegung, Herunterfallen)))
 Wenn sich ein Modell über eine Kante hinaus bewegt kann es sich fallenlassen anstatt herunterzuklettern.
 
 Bei einer Fallhöhe bis zur Höhe seines <<Größenprofil,Größenprofils>> kann es dies einfach so machen.
@@ -990,6 +995,7 @@ Die durch Herunterfallen zurückgelegte Distanz kostet keine AP.
 ==== Fallschaden
 
 (((Fallschaden)))
+(((Fallen, Schaden)))
 Bis zu einer Fallhöhe in Höhe seines <<Größenprofil,Größenprofils>> passiert einem fallenden Modell nichts.
 Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
 Darüber hinaus erleidet es automatisch einen Treffer.
@@ -1017,6 +1023,7 @@ Der Schaden orientiert sich ebenfalls an der KO des Modells.
 === Schnelle Bewegungen
 
 (((Schnelle Bewegungen)))
+(((Bewegung, Schnell)))
 Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 20cm bewegt, gilt es als in schneller Bewegung.
 Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
@@ -1031,6 +1038,7 @@ Sie kommt unter anderem beim <<Schnelle Bewegungen des Ziels,Fernkampf>> zur Anw
 === Liegende Modelle
 
 (((Liegende Modelle)))
+(((Bewegung, Liegend)))
 Liegende Modelle gelten als ein <<Größenprofil>> kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
 
