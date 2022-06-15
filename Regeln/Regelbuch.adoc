@@ -2748,7 +2748,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 .^|Kraft beenden
 .^|1 ⊙
 
-3+<a|Eine eigene beliebige "dauerhafte" Kraft die gerade im Spiel ist wird beendet.
+3+<a|Eine eigene beliebige <<Dauer,dauerhafte>> Kraft die gerade im Spiel ist wird beendet.
 
 |===
 
