@@ -1,0 +1,29 @@
+extends: default-sans-with-font-fallbacks
+font:
+  catalog:
+    merge: true
+    Nova Round: NovaRound-Regular.ttf
+    Noto Sans Symbols 2: NotoSansSymbols2-Regular.ttf
+  fallbacks: [Noto Sans Symbols 2]
+base_font_family: Noto Sans
+title_page_title_font_family: Nova Round
+heading:
+  h1_font_family: Nova Round
+  h2_font_family: Nova Round
+  h3_font_family: Nova Round
+  h4_font_family: Nova Round
+  h5_font_family: Nova Round
+  h6_font_family: Nova Round
+page:
+  size: A4
+  margin: [2cm, 1cm, 1cm, 1cm]
+  margin-inner: 2cm
+  margin-outer: 1cm
+header:
+  height: 15mm
+  recto: &header
+    center-content: '-- {section-or-chapter-title} --'
+  verso: *header
+image:
+  caption:
+    align: inherit
