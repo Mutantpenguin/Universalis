@@ -2658,25 +2658,25 @@ Dabei wird zwischen 3 verschiedenen Arten unterschieden.
 
 |===
 
-==== Wirkungsbereich
+==== Wirkungsabstand
 
-(((Kräfte, Wirkungsbereich)))
-Der Wirkungsbereich einer Kraft legt fest, wie TODO
-
-TODO Umbenennen? "Ausführungsart"
+(((Kräfte, Wirkungsabstand)))
+Die Wirkungsabstand einer Kraft legt fest, wie TODO
 
 [%unbreakable%header,cols="^.^1,.^1,.^5",frame=ends]
 |===
 
-|Reichweite
+|Wirkungsabstand
 |
 |Bedeutung
 
-|image:Grafiken/Kraft/ReichweiteBerührung.svg[Berührung]
+|image:Grafiken/Kraft/WirkungsabstandBerührung.svg[Berührung]
 |Berührung
-|Für den Einsatz muss ein Kontakt hergestellt werden. TODO Bei Feinden muss vorher ein Nahkampfangriff gelingen?
+|Für den Einsatz muss Basekontakt bestehen.
 
-|image:Grafiken/Kraft/ReichweiteDistanz.svg[Distanz]
+Bei feindlichen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,Nahkampfangriff>> durchgeführt werden.
+
+|image:Grafiken/Kraft/WirkungsabstandDistanz.svg[Distanz]
 |Distanz
 |Die Kraft kann auf Distanz eingesetzt werden.
 
