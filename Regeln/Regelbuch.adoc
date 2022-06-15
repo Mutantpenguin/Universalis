@@ -2361,9 +2361,13 @@ Bei Erfolg wurde das getarnte Modell aufgeklärt.
 .^|Aufklärungsunterstützung
 .^|2 ⊙
 
-3+<a|* Aufklärungsunterstützung bezieht sich immer auf ein konkretes eigenes Modell, welches versucht aufzuklären.
-* Für das Modell, welches bei der Aufklärung unterstützen soll, muss sich das aufzuklärende Modell ebenso in seinem Wahrnehmungsbereich befinden.
-* Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
+3+<a|[WARNING]
+====
+* Kann durchgeführt werden, wenn ein eigenes Modell die Aktion *Aufklären* ausführt.
+* Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
+====
+
+Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
 
 |===
 
