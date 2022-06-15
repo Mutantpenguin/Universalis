@@ -2756,19 +2756,14 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 |===
 
-(((Aktionen, Kraft aufheben)))
+(((Aktionen, Kraft blockieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Kraft aufheben
+.^|Kraft blockieren
 .^|2 ⊙
 
-3+<a|* TODO
-* Kosten bestimmen.
-* Nur wenn die Kraft innerhalb von EH in cm waren?
-Oder im Wahrbehmungsbereich?
-* Würfeln wie beim Einsatz der Kraft.
-* Wird der TP-Verlust angewendet?
+3+<a|Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
 
 |===
 
@@ -2781,13 +2776,26 @@ Oder im Wahrbehmungsbereich?
 .^|Kraft blockieren
 .^|2 ⊙
 
-3+<a|* TODO
-* Kosten bestimmen.
+3+<a|[WARNING]
+====
+* Kann durchgeführt werden, wenn ein feindliches Modell im Wahrnehmungsbereich eine Kraft einsetzt.
+====
+
+Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
+
+|===
+
+=== Kraft blockieren
+
+(((Kräfte, Blockieren)))
+
+* TODO
+* Nur wenn die Kraft innerhalb von EH in cm waren?
 * Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
 Oder im Wahrbehmungsbereich?
 * Muss über dem Ergebnis des Casters würfeln?
-
-|===
+* Würfeln wie beim Einsatz der Kraft?
+* Wird der TP-Verlust angewendet?
 
 == Progression
 
