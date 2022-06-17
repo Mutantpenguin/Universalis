@@ -1069,32 +1069,42 @@ Geländeteile gehören in der Regel einem der weiter unten genannten <<Geländet
 (((Deckung)))
 Jedes Geländeteil kann als Deckung verwendet werden wenn es das <<Größenprofil>> eines Modells mindestens zur Hälfte verdeckt.
 
-Deckung kommt nur im Fernkampf zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet bzw. wenn beide sich innerhalb eines Geländeteils mit Deckung befinden.
+Deckung kommt nur im <<Deckung des Ziels, Fernkampf>> zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet bzw. wenn beide sich innerhalb eines Geländeteils mit Deckung befinden.
+
+Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben.
+Dieser kommt zur Anwendung, wenn das Modell die Deckung berührt.
 
 Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
-[%unbreakable%header,cols="1,1,1",frame=ends]
+[%unbreakable,cols="h,2,2,2",frame=ends]
 |===
+
+|Stufe
 ^|I
 ^|II
 ^|III
 
+|Beschreibung
 |Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
 
 Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 |Kann Beschuss bedingt abhalten.
-
-Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +1 auf seine Rüstungswürfe.
 |Ist zur direkten Abwehr von Beschuss geeignet.
 
-Wenn ein Modell diese Deckung berührt, erhält es einen Bonus von +2 auf seine Rüstungswürfe.
+|Beispiele
+|Gebüsch, Zaun, Plastik, Blech, Möbel
+|Ziegelmauer, Holzhaus, Fässer, Kisten
+|Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
 
-|Beispiele: +
-Gebüsch, Zaun, Plastik, Blech, Möbel
-|Beispiele: +
-Gebüsch, Zaun, Plastik, Blech, Möbel
-|Beispiele: +
-Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
+^.^|Bonus auf Rüstungswurf
+^.^|-
+^.^|+1
+^.^|+2
+
+^.^|Modifikator im Fernkampf
+^.^|-1
+^.^|-2
+^.^|-3
 
 |===
 
