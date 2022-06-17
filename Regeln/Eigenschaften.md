@@ -80,6 +80,10 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
     Die Passierbarkeit jedes Geländes wird um `[Stufe]` verbessert.
     Sie kann dabei nicht besser als 0 werden.
 
+!!! check Weitsprung | 1 - 3
+
+    Beim Springen wird die maximale Reichweite um `[Stufe]` * GK erhöht.
+
 ## Drohnen
 
 !!! check Instinktive Steuerung | 1 - 5
@@ -103,6 +107,16 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 !!! check Revolverheld
 
     Kann mit einer Aktion gleichzeitig 2 Waffen der Klasse I abfeuern.
+
+## Kräfte
+
+!!! check Fokus
+
+    Das Modell kann Kräfte durch Drohnen hindurch wirken als ob es sich an der Position der Drohne befinden würde.
+
+!!! fail Instabil
+
+    Die Auswahl der Kräfte vor Spielbeginn passiert zufällig.
 
 ## Nahkampf
 
