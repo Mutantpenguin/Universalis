@@ -1057,7 +1057,7 @@ Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
 Geländeteile sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
 
 So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
-Stattdessen wird eine Fläche als Wald deklariert und die angegebenen Sonderregeln gelten dort automatisch.
+Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln gelten dort automatisch.
 
 Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet.
 Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
