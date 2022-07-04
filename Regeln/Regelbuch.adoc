@@ -2650,11 +2650,10 @@ Sie gibt an wie der Attributswurf modifiziert wird.
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 4 verschiedenen Arten unterschieden.
 
-[%unbreakable%header,cols="^.^1,.^1,.^5",frame=ends]
+[%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
 |===
 
-|Ziel
-|
+2+|Ziel
 |Bedeutung
 
 |image:Grafiken/Kraft/ZielBereich.svg[Bereich]
@@ -2680,11 +2679,10 @@ Dabei wird zwischen 4 verschiedenen Arten unterschieden.
 (((Kräfte, Wirkungsabstand)))
 Die Wirkungsabstand einer Kraft legt fest, wie TODO
 
-[%unbreakable%header,cols="^.^1,.^1,.^5",frame=ends]
+[%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
 |===
 
-|Wirkungsabstand
-|
+2+|Wirkungsabstand
 |Bedeutung
 
 |image:Grafiken/Kraft/WirkungsabstandBerührung.svg[Berührung]
