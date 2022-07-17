@@ -69,7 +69,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check Bodenhaftung | 1 - 3
 
-    Das Modell darf `[Stufe]` mal seinen Bewegungstest neu würfeln.
+    Das Modell darf jeden Bewegungstest `[Stufe]` mal neu würfeln.
 
 !!! check Gecko
 
@@ -101,7 +101,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check Bewährter Fernkämpfer | 1 - 3
 
-    Das Modell darf `[Stufe]` mal seinen Fernkampfwurf neu würfeln.
+    Das Modell darf jeden Fernkampfwurf `[Stufe]` mal neu würfeln.
 
 !!! check Revolverheld
 
@@ -125,7 +125,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check Bewährter Nahkämpfer | 1 - 3
 
-    Das Modell darf `[Stufe]` mal seinen Nahkampfwurf neu würfeln.
+    Das Modell darf jeden Nahkampfwurf `[Stufe]` mal neu würfeln.
 
 !!! check Flink
 
