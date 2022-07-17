@@ -1743,7 +1743,7 @@ Das Gewicht von selbsttragenden Rüstungen wird für die <<Tragkraft>> eines Mod
 == Fernkampf
 
 (((Fernkampf)))
-Unter Fernkampf wird jeglicher Kampf mit einer <<Waffe>> verstanden der auf Distanz passiert.
+Unter Fernkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der auf Distanz passiert.
 
 === Durchführung des Fernkampfs
 
