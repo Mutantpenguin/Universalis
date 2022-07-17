@@ -2389,7 +2389,9 @@ Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
 == Ausrüstung
 
 (((Ausrüstung)))
-Jedes Modell kann über Ausrüstung verfügen die nicht in die Kategorien Waffe oder Rüstung passt.
+Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
+
+Ausrüstung kann über <<Profilmodifikatoren>> verfügen.
 
 === Aktionen: Ausrüstung
 
