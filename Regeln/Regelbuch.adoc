@@ -1243,9 +1243,10 @@ Er gilt dann für das gesamte Spielfeld.
 (((Schaden)))
 (((Rüstung)))
 Verschiedene Spielmechaniken erzeugen Schaden.
-Dies kann ein Modell sein das ein anderes Modell beschießt oder im Nahkampf angreift oder auch Effekte die im Spiel auftreten.
+Dies kann ein Modell sein das ein anderes Modell <<Fernkampf,beschießt>> oder im <<Nahkampf>> angreift oder auch Effekte die im Spiel auftreten.
 
-Um Schaden abzuwehren gibt es verschiedene Möglichkeiten wie bspw. Rüstung, Schilde oder Felder.
+Schaden wird in erster Linie mit <<Rüstung,Rüstungen>> abgewehrt.
+Es kann aber auch <<Ausrüstung>> geben welche dabei hilft.
 
 === Schadensprofil
 
@@ -1722,9 +1723,13 @@ image::Grafiken/Abbildungen/einmalnutzung_waffe.jpg[Einmalnutzung Waffe,500pt]
 == Rüstung
 
 (((Rüstung)))
-TODO Rüstung
-
 Rüstungen verfügen über ein <<Rüstungsprofil>> und eventuelle <<Profilmodifikatoren>>.
+
+=== Regeln
+
+(((Rüstung, Regeln)))
+Jede Rüstung kann Regeln beinhalten.
+Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
 
 === Additiver Schutz
 
@@ -1734,20 +1739,6 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 === Selbsttragend
 
 Das Gewicht von selbsttragenden Rüstungen wird für die <<Tragkraft>> eines Modells ignoriert.
-
-=== Schilde
-
-Sie können dem Träger 2 verschiedene Arten von Boni geben:
-
-* *Nahkampfwurf*
-+
-Nur bei Verteidigung.
-
-* *Rüstungswurf*
-+
-Im Nahkampf bei Verteidigung.
-+
-Gegen jeden Beschuss der das Modell aus einem 180° Bereich von Vorne trifft.
 
 == Fernkampf
 
