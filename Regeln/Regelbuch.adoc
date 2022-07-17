@@ -378,7 +378,7 @@ Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da
 === Profilmodifikatoren
 
 (((Profilmodifikatoren)))
-Manche <<Rüstung,Rüstungen>>, <<Waffe,Waffen>>, <<Ausrüstung>> oder <<Eigenschaft,Eigenschaften>> kann Auswirkungen auf das Profil eines Modells haben.
+Manche <<Rüstung>>, <<Waffen,Waffe>>, <<Ausrüstung>> oder <<Eigenschaften,Eigenschaft>> kann Auswirkungen auf das Profil eines Modells haben.
 
 Diese können entweder permanent oder temporär sein:
 
