@@ -1743,9 +1743,7 @@ Das Gewicht von selbsttragenden Rüstungen wird für die <<Tragkraft>> eines Mod
 == Fernkampf
 
 (((Fernkampf)))
-TODO Fernkampf
-Kleiner Einleitungstext was Fernkampf ist
-blah blah yadda yadda
+Unter Fernkampf wird jeglicher Kampf mit einer <<Waffe>> verstanden der auf Distanz passiert.
 
 === Durchführung des Fernkampfs
 
@@ -1756,7 +1754,7 @@ Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem <<Reichweite,Rei
 Gegebenenfalls kommen weitere <<Modifikatoren im Fernkampf,Modifikatoren>> zur Anwendung.
 
 Nun wird ein FK-Wurf für das Modell durchgeführt.
-Bei Erfolg wurde das Ziel getroffen und ein <<Schaden & Rüstung,Treffer>> gelandet.
+Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verletzungs- und Rüstungswurf>> führt.
 
 === Aktionen: Fernkampf
 
