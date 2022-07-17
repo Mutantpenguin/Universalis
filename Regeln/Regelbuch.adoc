@@ -2625,7 +2625,7 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
 
 !!! TODO
 
-    Beispiel mit Bild einbauen
+image::Grafiken/Abbildungen/kraft_beispiel.svg[Kraft Beispiel,align=center]
 
 Jede Kraftkarte kann die folgenden Merkmale besitzen:
 
