@@ -2677,7 +2677,7 @@ Dabei wird zwischen 4 verschiedenen Arten unterschieden.
 ==== Wirkungsabstand
 
 (((Kräfte, Wirkungsabstand)))
-Die Wirkungsabstand einer Kraft legt fest, wie TODO
+Der Wirkungsabstand einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
 
 [%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
 |===
