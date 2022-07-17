@@ -2067,12 +2067,11 @@ Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
 == Nahkampf
 
 (((Nahkampf)))
-TODO Kleiner Einleitungstext was Nahkampf ist
-blah blah yadda yadda
+Unter Nahkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der im Basekontakt passiert.
 
 Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Modelle im Nahkampf miteinander befinden.
 
-Währenddessen sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
+Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
 [%unbreakable%header,cols="^1,^1",frame=ends]
 |===
