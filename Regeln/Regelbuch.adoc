@@ -1574,6 +1574,8 @@ Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und erleiden 
 
 == Waffen
 
+Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
+
 Waffen verfügen über ein <<Schadensprofil>> und eventuelle <<Profilmodifikatoren>>.
 
 Weiterhin können für sie Regeln wie <<Indirekter Fernkampf>>, <<Dauerfeuer>> oder <<Flächenwaffen,Flächenwaffe>> infrage kommen.
