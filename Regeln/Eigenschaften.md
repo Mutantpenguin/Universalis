@@ -75,10 +75,9 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Kann sich auch vertikal an Geländeteilen entlang bewegen.
 
-!!! check Geländegängigkeit | 1 - 3
+!!! check Geländegängigkeit
 
-    Die Passierbarkeit jedes Geländes wird um `[Stufe]` verbessert.
-    Sie kann dabei nicht besser als 0 werden.
+    Ein misslungener Bewegungstest wegen schwieriger Passierbarkeit führt nicht dazu, dass das Modell umfällt.
 
 !!! check Weitsprung | 1 - 3
 

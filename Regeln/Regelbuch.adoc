@@ -1111,14 +1111,24 @@ Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 === Passierbarkeit
 
 (((Passierbarkeit)))
-Passierbarkeit ist eine Eigenschaft von Gelände und wird mit einer Stufe angegeben.
+Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 
-Die Stufe wird dabei von der GK eines Modells abgezogen, wenn es sich in einem Bereich mit einer Passierbarkeit größer als 0 befindet.
-Wenn die GK eines Modells dadurch auf 0 sinkt kann es sich in dem entsprechenden Bereich nicht bewegen.
-Dadurch werden auch Bewegungen in einen solchen Bereich hinein unmöglich.
+[%unbreakable,cols="h,4",frame=ends]
+|===
 
-Auf Wunsch kann ein Bewegungstest abgelegt werden der bei Gelingen die Verringerung der GK um 1 vermindert.
-Bei durchgehenden Bewegungsaktionen ist nur ein Bewegungstest notwendig und nicht für jede einzelne Bewegungsaktion.
+|Normal
+|Es gibt keine Einschränkungen.
+
+|Schwierig
+|Jede Bewegungsaktion die in, aus oder durch diese Geländeteil führt wird halbiert.
+
+Auf Wunsch kann ein Bewegungstest abgelegt werden. Bei Gelingen wird die Bewegung nicht halbiert, bei Misslingen fällt das Modell um und gilt als <<Liegende Modelle,liegend>>.
+Bei durchgehenden Bewegungsaktionen wird nur ein Bewegungstest durchgeführt und nicht für jede einzelne Bewegungsaktion.
+
+|Unpassierbar
+|Dieses Gelände kann mit bodengestützter Bewegung nicht betreten oder durchquert werden.
+
+|===
 
 === Sichtweite
 
@@ -1139,7 +1149,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|1 |III |1
+|Normal |III |1
 |===
 ****
 
@@ -1148,7 +1158,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|1 |I |1
+|Normal |I |1
 |===
 ****
 
@@ -1157,7 +1167,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|0 |II |1
+|Normal |II |1
 |===
 ****
 
@@ -1166,7 +1176,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|2 |- |-
+|Schwierig |- |-
 |===
 ****
 
@@ -1176,7 +1186,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 Die Deckung wirkt nur gegen Beschuss von außerhalb.
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|2 |II |1
+|Schwierig |II |1
 |===
 ****
 
@@ -1186,7 +1196,7 @@ Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|1 |II |2
+|Schwierig |II |2
 |===
 ****
 
@@ -1195,7 +1205,7 @@ Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|0 |- |-
+|Normal |- |-
 |===
 ****
 
@@ -1204,13 +1214,8 @@ Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|3 |- |1
+|Unpassierbar |- |1
 |===
-****
-
-.Unpassierbar
-****
-Eine Fortbewegung am Boden ist in diesem Geländetyp unmöglich.
 ****
 
 .Wald
@@ -1218,7 +1223,7 @@ Eine Fortbewegung am Boden ist in diesem Geländetyp unmöglich.
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|2 |II |2
+|Schwierig |II |2
 |===
 ****
 
