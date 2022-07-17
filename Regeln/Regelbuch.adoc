@@ -1723,6 +1723,8 @@ image::Grafiken/Abbildungen/einmalnutzung_waffe.jpg[Einmalnutzung Waffe,500pt]
 == Rüstung
 
 (((Rüstung)))
+Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
+
 Rüstungen verfügen über ein <<Rüstungsprofil>> und eventuelle <<Profilmodifikatoren>>.
 
 === Regeln
