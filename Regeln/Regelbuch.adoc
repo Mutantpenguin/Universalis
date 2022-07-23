@@ -1080,9 +1080,9 @@ Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 |===
 
 |Stufe
-^|I
-^|II
-^|III
+^|weich
+^|hart
+^|massiv
 
 |Beschreibung
 |Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
@@ -1149,7 +1149,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|Normal |III |1
+|Normal |massiv |1
 |===
 ****
 
@@ -1158,7 +1158,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|Normal |I |1
+|Normal |weich |1
 |===
 ****
 
@@ -1167,7 +1167,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|Normal |II |1
+|Normal |hart |1
 |===
 ****
 
@@ -1186,7 +1186,7 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 Die Deckung wirkt nur gegen Beschuss von außerhalb.
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|Schwierig |II |1
+|Schwierig |hart |1
 |===
 ****
 
@@ -1196,7 +1196,7 @@ Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|Schwierig |II |2
+|Schwierig |hart |2
 |===
 ****
 
@@ -1223,7 +1223,7 @@ Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
-|Schwierig |II |2
+|Schwierig |hart |2
 |===
 ****
 
@@ -1958,13 +1958,13 @@ Der durch eventuelle <<Deckung>> angewandte Modifikator.
 |Stufe
 |Modifikator
 
-|I
+|weich
 |-1
 
-|II
+|hart
 |-2
 
-|III
+|massiv
 |-3
 
 |===
@@ -2005,7 +2005,7 @@ Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
 Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
 Weitere Mali durch Deckung kommen nicht zur Geltung.
 
-Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in Deckung Stufe II befinden.
+Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in harter Deckung befinden.
 
 Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
 
