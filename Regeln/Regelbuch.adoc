@@ -1848,10 +1848,8 @@ Der Token wird danach vom Modell entfernt.
 3+<a|[WARNING]
 ====
 * Das Modell muss sich in Feuerbereitschaft befinden.
-* Kann nicht mit <<Indirekter Fernkampf,indirektem Fernkampf>> genutzt werden.
 * Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige <<Aktionen: Bewegung,Bewegungsaktion>> innerhalb des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> durchführt.
-* Die Reaktion kann stattfinden bevor oder nachdem die Bewegungsaktion ausgeführt wird (falls das Modell direkt sichtbar ist) oder z.B. während einer Bewegung (wenn das Modell gerade sichtbar wird).
-* TODO vergleichender AGI-Test, wenn die Bewegungsaktion eine Auswirkung auf den FK-Wurf hätte?
+* Kann nicht mit <<Indirekter Fernkampf,indirektem Fernkampf>> genutzt werden.
 ====
 
 * Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch.
