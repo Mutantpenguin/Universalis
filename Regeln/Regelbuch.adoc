@@ -2236,8 +2236,9 @@ Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 (((Nahkampf, Multiple Gegner)))
 Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
-==== Nahkampf
+==== Tarnung
 
+(((Nahkampf, Tarnung)))
 Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
 
 ==== Unhandliche Waffen und Ausrüstung im Nahkampf
