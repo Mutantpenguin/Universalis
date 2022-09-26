@@ -2237,6 +2237,7 @@ Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt
 ==== Tarnung
 
 (((Nahkampf, Tarnung)))
+(((Tarnung, Nahkampf)))
 Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
 
 ==== Unhandliche Waffen und Ausrüstung im Nahkampf
