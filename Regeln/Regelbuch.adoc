@@ -1130,10 +1130,12 @@ Bei durchgehenden Bewegungsaktionen wird nur ein Bewegungstest durchgeführt und
 
 |===
 
-=== Sichtweite
+=== Sicht
 
-(((Sichtweite)))
-In bestimmtem Gelände ist die Sichweite durch Hindernisse erschwert und <<Sichtlinie,Sichtlinien>> sind dadurch in ihrer Reichweite eingeschränkt.
+(((Sicht)))
+In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch in ihrer Reichweite eingeschränkt.
+
+TODO schlechte/gute/normale Sicht?
 
 TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
 
