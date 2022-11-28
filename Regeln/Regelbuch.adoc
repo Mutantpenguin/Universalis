@@ -1874,7 +1874,7 @@ Wenn das Ziel über <<Trefferzonen>> verfügt muss die getroffene Trefferzone au
 (((Auswahl eines Ziels)))
 Damit ein Ziel beschossen werden kann muss eine <<Sichtlinie>> zu ihm gezogen werden können.
 
-Sollte sich im Gefahrenbereich keine <<Direkte Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
+Sollte sich im <<Gefahrenbereich>> keine <<Direkte Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
 
 === Reichweite
 
