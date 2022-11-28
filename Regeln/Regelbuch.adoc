@@ -483,7 +483,7 @@ Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase inn
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
 
 Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
-Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per <<Nahkampf>>, <<Fernkampf>>, <<Ausrüstung>>, <<Eigenschaften>> oder <<Kraft-Disziplinen,Kräften>>
+Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per <<Nahkampf>>, <<Fernkampf>>, <<Ausrüstung>>, <<Eigenschaften>> oder <<Kraft-Disziplinen,Kräften>>.
 
 Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
