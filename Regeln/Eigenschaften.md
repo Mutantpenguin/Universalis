@@ -192,7 +192,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Besteht automatisch jeden EH-Test.
     
-    Wenn das Modell ausgeschalten wird explodiert es mit einem Radius in Höhe der KO.
+    Wenn das Modell eliminiert wird explodiert es mit einem Radius in Höhe der KO.
     Der Schadenstyp ist Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
     Der Schaden liegt bei KO geteilt durch 2 (abgerundet).
     Zusätzlich wirkt der Schadenseffekt „Explosiv“.

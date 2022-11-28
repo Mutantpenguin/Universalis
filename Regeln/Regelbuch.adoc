@@ -1426,7 +1426,7 @@ Nun wird die folgende Tabelle konsultiert:
 Wenn der Schaden zur Anwendung kommt wird er von den aktuellen Trefferpunkten des Modells abgezogen.
 Sollte die Rüstung über eine Schadensreduktion verfügen wird der Schaden um diesen Wert verringert.
 
-Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Ausgeschaltet>>.
+Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Eliminiert,eliminiert>>.
 
 Falls das Modell überlebt erleidet es einen <<Schock>>.
 Wenn es ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
@@ -1436,15 +1436,15 @@ Wenn es ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt
 (((Zustände)))
 Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinden.
 
-=== Ausgeschaltet
+=== Eliminiert
 
-(((Ausgeschaltet)))
-(((Zustände, Ausgeschaltet)))
-Ausgeschaltete Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
+(((Eliminiert)))
+(((Zustände, Eliminiert)))
+Eliminierte Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
 
 Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
 
-Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
+Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
 === Brennen
 
@@ -1528,10 +1528,10 @@ Modelle in Panik werden hierbei ignoriert.
 |Typ
 |Modifikator
 
-|das gerade ausgeschaltete befreundete Modell
+|das gerade eliminierte befreundete Modell
 |-3
 
-|andere ausgeschaltete befreundete Modelle
+|andere eliminierte befreundete Modelle
 |-2
 
 |feindliches Modell
@@ -2490,7 +2490,7 @@ Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.
 
 * *Rumpf*
 +
-Sinkt in sich zusammen und gilt als <<Ausgeschaltet,ausgeschalten>>.
+Sinkt in sich zusammen und gilt als <<Eliminiert,eliminiert>>.
 Ist nun ein Geländeteil.
 
 * *Linke/Rechte Seite*
@@ -2513,7 +2513,7 @@ Außerdem werden AGI und NK um 1 verringert.
 |Bleibt auf der Stelle stehen und kann sich *nicht* mehr drehen.
 
 |12
-|Fällt um und gilt als <<Ausgeschaltet,ausgeschalten>>. Ist nun ein Geländeteil.
+|Fällt um und gilt als <<Eliminiert,eliminiert>>. Ist nun ein Geländeteil.
 
 |===
 
@@ -2549,7 +2549,7 @@ Mit einer EH von 6 könnten ihm 2 Drohnen zugeordnet werden.
 === Drohnen ohne Kontroller
 
 (((Drohnen ohne Kontroller)))
-Drohnen deren Kontroller nicht mehr auf dem Spielfeld präsent oder <<Ausgeschaltet,ausgeschaltet>> ist erhalten einen Panikmarker (siehe <<Panik>>).
+Drohnen, deren Kontroller nicht mehr auf dem Spielfeld präsent ist oder der <<Eliminiert,eliminiert>> wurde, erhalten einen Panikmarker (siehe <<Panik>>).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
@@ -2577,7 +2577,7 @@ Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Run
 
 === Zerstörung einer Drohne
 
-Sobald eine Drohne als <<Ausgeschaltet,ausgeschalten>> gilt kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
+Sobald eine Drohne <<Eliminiert,eliminiert>> wurde kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser verliert er automatisch 1 Trefferpunkt.

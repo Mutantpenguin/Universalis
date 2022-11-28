@@ -66,7 +66,7 @@ Das Spielfeld kann beliebig aufgebaut werden.
 
 ### Siegesbedingungen
 
-Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom Spielfeld entfernt worden sind.
+Das Spiel ist gewonnen, sobald alle Modelle des Gegners eliminiert oder vom Spielfeld entfernt worden sind.
 
 ## 02 . Standard B
 
@@ -76,7 +76,7 @@ Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom S
 
 ### Siegesbedingungen
 
-Das Spiel ist gewonnen, sobald alle Modelle des Gegners ausgeschaltet oder vom Spielfeld entfernt worden sind.
+Das Spiel ist gewonnen, sobald alle Modelle des Gegners eliminiert oder vom Spielfeld entfernt worden sind.
 
 ## 03 . TODO
 
