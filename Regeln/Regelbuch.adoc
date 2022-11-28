@@ -1444,7 +1444,7 @@ Ausgeschaltete Modelle können weder Aktionen noch Reaktionen ausführen und neh
 
 Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
 
-Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe getestet werden ob es in <<Panik>> verfällt.
+Sobald ein Modell ausgeschaltet wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
 === Brennen
 
@@ -1520,6 +1520,7 @@ Wenn er gelingt reißt sich das Modell zusammen und der Panikmarker wird entfern
 ==== Modifikatoren für Paniktests
 
 Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikatoren zur Anwendung.
+Modelle in Panik werden hierbei ignoriert.
 
 [%unbreakable%header,cols="^5,^1",frame=ends]
 |===
@@ -1527,26 +1528,20 @@ Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikator
 |Typ
 |Modifikator
 
-|befreundetes Modell, nicht ausgeschaltet, nicht in Panik
-|+1
-
-|befreundetes Modell, nicht ausgeschaltet, nicht in Panik, im Basekontakt
-|+2
-
-|befreundetes Modell, in Panik
-|-1
-
-|befreundetes Modell, ausgeschaltet
-|-2
-
 |das gerade ausgeschaltete befreundete Modell
 |-3
 
-|feindliches Modell, nicht ausgeschaltet, nicht in Panik
+|andere ausgeschaltete befreundete Modelle
+|-2
+
+|feindliches Modell
 |-1
 
-|feindliches Modell im Nahkampf
-|-2
+|befreundetes Modell
+|+1
+
+|befreundetes Modell im Basekontakt
+|+3
 
 |===
 
