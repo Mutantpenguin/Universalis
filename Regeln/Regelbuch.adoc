@@ -1446,6 +1446,8 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 
 Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
+Weiterhin <<Drohnen ohne Kontroller,verfallen>> eventuell zugeordnete Drohnen automatisch in Panik.
+
 === Brennen
 
 (((Brennen)))
