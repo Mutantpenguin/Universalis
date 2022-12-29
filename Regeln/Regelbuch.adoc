@@ -1135,11 +1135,11 @@ Bei durchgehenden Bewegungsaktionen wird nur ein Bewegungstest durchgeführt und
 (((Sicht)))
 In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch in ihrer Reichweite eingeschränkt.
 
-TODO schlechte/gute/normale Sicht?
+// TODO schlechte/gute/normale Sicht?
 
-TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
+// TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
 
-TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
+// TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
 
 === Geländetypen
 
@@ -1621,7 +1621,7 @@ Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Unhan
 
 Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
 
-!!! TODO neue Art der Ausweisung "»"
+// TODO neue Art der Ausweisung "»"
 
 image::Grafiken/Waffe/unhandlich.png[unhandlich,40,align=center]
 
@@ -2440,7 +2440,7 @@ image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüst
 (((Ausrüstung, Unhandlich)))
 Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
 
-!!! TODO neue Art der Ausweisung "»"
+// TODO neue Art der Ausweisung "»"
 
 == Kolosse
 
@@ -2620,7 +2620,7 @@ Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschi
 (((Kräfte)))
 Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
 
-!!! TODO
+// TODO
 
 image::Grafiken/Abbildungen/kraft_beispiel.svg[Kraft Beispiel,align=center]
 
@@ -2799,7 +2799,7 @@ Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
 
 (((Kräfte, Blockieren)))
 
-* TODO
+// TODO
 * Nur wenn die Kraft innerhalb von EH in cm waren?
 * Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
 Oder im Wahrbehmungsbereich?
@@ -2810,7 +2810,7 @@ Oder im Wahrbehmungsbereich?
 == Progression
 
 (((Progression)))
-TODO Beispiele wie Progression als lebendige Geschichte dynamisch umgesetzt werden kann
+// TODO Beispiele wie Progression als lebendige Geschichte dynamisch umgesetzt werden kann
 
 ifdef::backend-pdf[]
 [index]

@@ -40,19 +40,19 @@ Version 0.1.0 {align="center"}
 
 Sie werden in "positive" und "negative" Eigentschaften unterschieden.
 
-TODO
+[//]: # TODO
 
 !!! check Positive Beispieleigenschaft
 
-    TODO
+    [//]: # TODO
 
 !!! cite Neutrale Beispieleigenschaft
 
-    TODO
+    [//]: # TODO
 
 !!! fail Negative Beispieleigenschaft
 
-    TODO
+    [//]: # TODO
 
 ### Stufen
 

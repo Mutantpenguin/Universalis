@@ -78,7 +78,7 @@ Das Spiel ist gewonnen, sobald alle Modelle des Gegners eliminiert oder vom Spie
 
 Das Spiel ist gewonnen, sobald alle Modelle des Gegners eliminiert oder vom Spielfeld entfernt worden sind.
 
-## 03 . TODO
+## 03 . #TODO
 
 ### Zonen
 
@@ -96,13 +96,13 @@ Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens 3 `
 ### Siegesbedingungen
 
 Das Spiel ist gewonnen, sobald am Ende einer Initiativephase mindestens die Hälfte aller eigenen Modelle die Extraktionszone erreicht haben.
-## 05 . TODO
+## 05 . #TODO
 
 ### Zonen
 
 ![mission_05](Grafiken/Missionen/05.svg){width="300pt"} {align="center"}
 
-## 06 . TODO
+## 06 . #TODO
 
 ### Zonen
 
