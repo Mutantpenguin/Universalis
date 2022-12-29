@@ -1341,7 +1341,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 
 |image:Grafiken/Effekt/schrapnell.svg[Schrapnell,40]
 |Schrapnell
-|Boni auf den Rüstungswurf die durch <<Deckung>> oder <<Tarnung>> zustande kommen werden nicht angewendet.
+|Boni auf den Rüstungswurf die durch <<Deckung>> oder <<Vorteile von Tarnung, Tarnung>> zustande kommen werden nicht angewendet.
 
 |image:Grafiken/Effekt/zerfetzen.svg[Zerfetzen,40]
 |Zerfetzen
@@ -2233,7 +2233,7 @@ Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 (((Nahkampf, Multiple Gegner)))
 Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
-==== Tarnung
+==== Tarnung im Nahkampf
 
 (((Nahkampf, Tarnung)))
 (((Tarnung, Nahkampf)))
