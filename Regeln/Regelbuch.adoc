@@ -2784,11 +2784,11 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
 .^|Kraft blockieren
-.^|2 ⊙
+.^|3 ⊙
 
 3+<a|[WARNING]
 ====
-* Kann durchgeführt werden, wenn ein feindliches Modell im Wahrnehmungsbereich eine Kraft einsetzt.
+* Kann durchgeführt werden sobald ein gegnerisches Modell eine Kraft einsetzt.
 ====
 
 Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
@@ -2799,13 +2799,15 @@ Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
 
 (((Kräfte, Blockieren)))
 
-// TODO
-* Nur wenn die Kraft innerhalb von EH in cm waren?
-* Nur wenn Caster oder Ziel innerhalb von EH in cm waren?
-Oder im Wahrbehmungsbereich?
-* Muss über dem Ergebnis des Casters würfeln?
-* Würfeln wie beim Einsatz der Kraft?
-* Wird der TP-Verlust angewendet?
+Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im Wahrnehmungsbereich befinden.
+
+// TODO EH anstelle von Wahrnehmungsbereich? Wenn ja, dass Fähigkeit zur Erhöhung der Reichweite
+
+Das Modell muss einen Attributswurf gegen das bei der Kraft angegebene Attribut mit dessen Schwierigkeit ablegen.
+Bei Erfolg wird die Kraft blockiert.
+
+Ein eventueller TP-Verlust wird ebenfalls angewendet.
+
 
 == Progression
 
