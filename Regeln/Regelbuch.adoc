@@ -1538,7 +1538,7 @@ Modelle in Panik werden hierbei ignoriert.
 |andere eliminierte befreundete Modelle
 |-2
 
-|feindliches Modell
+|gegnerisches Modell
 |-1
 
 |befreundetes Modell
@@ -2662,9 +2662,9 @@ Dabei wird zwischen 4 verschiedenen Arten unterschieden.
 |Bereich
 |Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.
 
-|image:Grafiken/Kraft/ZielFeind.svg[Feind]
-|Feind
-|Die Kraft kann auf einem feindlichen Modell eingesetzt werden.
+|image:Grafiken/Kraft/ZielGegner.svg[Gegner]
+|Gegner
+|Die Kraft kann auf einem gegnerischem Modell eingesetzt werden.
 
 |image:Grafiken/Kraft/ZielFreund.svg[Freund]
 |Freund
@@ -2691,7 +2691,7 @@ Der Wirkungsabstand einer Kraft legt fest, ob das Ziel einer Kraft berührt werd
 |Berührung
 |Für den Einsatz muss Basekontakt bestehen.
 
-Bei feindlichen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,Nahkampfangriff>> durchgeführt werden.
+Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,Nahkampfangriff>> durchgeführt werden.
 
 |image:Grafiken/Kraft/WirkungsabstandDistanz.svg[Distanz]
 |Distanz
