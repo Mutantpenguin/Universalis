@@ -2799,6 +2799,8 @@ Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
 
 (((Kräfte, Blockieren)))
 
+Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
+
 Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im Wahrnehmungsbereich befinden.
 
 // TODO EH anstelle von Wahrnehmungsbereich? Wenn ja, dass Fähigkeit zur Erhöhung der Reichweite
