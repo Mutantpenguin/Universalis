@@ -2063,18 +2063,18 @@ Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 
 (((Flächenwaffe)))
 (((Fernkampf, Flächenwaffe)))
-Flächenwaffen erzeugen an ihrem Trefferpunkt eine Flächenwirkung die im jeweiligen Waffenprofil in cm angegeben ist und eine kreisrunde Fläche mit diesem Radius in cm beschreibt.
+Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung die im jeweiligen Waffenprofil in cm angegeben ist und eine kreisrunde Fläche mit diesem Radius in cm beschreibt.
 
 Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius angibt.
 
 image::Grafiken/Waffe/radius.svg[Radius,40,align=center]
 
 Wenn bei einer Flächenwaffe der FK-Wurf misslingt, wird der gewürfelte Wert mit dem zu erreichenden verglichen.
-Die Differenz * 3cm gibt an, wie weit der Trefferpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
+Die Differenz * 3cm gibt an, wie weit der Einschlagpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
 Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
-Der Trefferpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
+Der Einschlagpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
 
 Wenn die Trefferschablone die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
 Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgerundet).
