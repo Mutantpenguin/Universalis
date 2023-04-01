@@ -323,9 +323,24 @@ Siehe auch <<Bewegung>>.
 === Trefferpunkte
 
 (((Trefferpunkte)))
-Sie steht für die Menge an <<Schadensanwendung,Schaden>>, die ein Modells einstecken kann, bevor es aus dem Spiel entfernt wird.
+Sie stehen für die Menge an <<Schadensanwendung,Schaden>>, die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
 
-Die maximale Menge an Trefferpunkten, über die ein Modell verfügen kann, liegt bei 20.
+Auf der Einheitenkarte werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
+
+[%unbreakable,cols="h,5",frame=ends]
+|===
+
+|Weiss
+|Normale Trefferpunkte
+
+|Orange
+|Kritische Trefferpunkte
+
+Sobald ein Modell nur noch über kritische Trefferpunkte verfügt, verfällt es in den <<Kritisch,kritischen Zustand>>.
+
+|===
+
+Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 
 === Größenprofil
 
@@ -1420,20 +1435,20 @@ Nun wird die folgende Tabelle konsultiert:
 |Der Verteidiger erleidet einen <<Schock>>.
 
 |Angreifer
-|Der Schaden kommt zur Anwendung.
+|Der Schaden kommt zur <<Schadensanwendung,Anwendung>>.
 
 |===
 
 === Schadensanwendung
 
 (((Schadensanwendung)))
-Wenn der Schaden zur Anwendung kommt wird er von den aktuellen Trefferpunkten des Modells abgezogen.
-Sollte die Rüstung über eine Schadensreduktion verfügen wird der Schaden um diesen Wert verringert.
+Wenn Schaden zur Anwendung kommt, müssen entsprechend viele Trefferpunkte auf der Einheitenkarte gestrichen werden.
+Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden um diesen Wert verringert.
 
 Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Eliminiert,eliminiert>>.
 
 Falls das Modell überlebt erleidet es einen <<Schock>>.
-Wenn es ausserdem weniger als die Hälfte seiner maximalen Trefferpunkte besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
+Wenn es ausserdem nur noch kritische Trefferpunkte besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
 
 == Zustände
 
@@ -1489,8 +1504,7 @@ Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bon
 
 (((Kritischer Zustand)))
 (((Zustände, Kritisch)))
-Der kritische Zustand wird automatisch angewendet, sobald ein Modell weniger als die Hälfte seiner maximalen Trefferpunkte besitzt.
-Auf der <<Einheitenkarte>> ist dies daran zu erkennen, dass alle weissen Kreise der Trefferpunkte markiert sind und nur noch orange übrig sind.
+Der kritische Zustand wird automatisch angewendet, sobald ein Modell nur noch kritische Trefferpunkte besitzt.
 
 Das Modell erhält für den Rest des Spiels folgende Mali:
 
