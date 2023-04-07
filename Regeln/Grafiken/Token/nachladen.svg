@@ -5,7 +5,7 @@
    viewBox="0 0 10 10"
    version="1.1"
    id="svg8138"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="nachladen.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,23 +23,25 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="16.428571"
-     inkscape:cy="18.080357"
+     inkscape:zoom="7.919596"
+     inkscape:cx="4.3562828"
+     inkscape:cy="23.612316"
      inkscape:document-units="mm"
-     inkscape:current-layer="g2327"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1347"
-     inkscape:window-height="1041"
-     inkscape:window-x="490"
-     inkscape:window-y="-56"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:document-rotation="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata8135">
     <rdf:RDF>
@@ -56,12 +58,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-165.31852,-138.69041)">
-    <circle
-       style="opacity:0.997;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.314416;stroke-miterlimit:4;stroke-dasharray:none"
-       id="circle1426"
-       cx="170.31853"
-       cy="143.69041"
-       r="5" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:0.0529167;stroke-linecap:round"
+       id="rect3112"
+       width="10"
+       height="10"
+       x="165.31853"
+       y="138.69041" />
     <g
        transform="matrix(0.26487395,0,0,0.26487395,-54.641425,65.175939)"
        id="g2344"

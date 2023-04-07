@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="Tokens.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,15 +24,17 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.7500982"
-     inkscape:cx="261.9657"
-     inkscape:cy="475.2711"
+     inkscape:zoom="0.53039952"
+     inkscape:cx="19.796398"
+     inkscape:cy="380.84499"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g9564" />
+     inkscape:current-layer="g2092"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2" />
   <g
@@ -43,1132 +45,1327 @@
        id="g9564"
        transform="translate(0,-11.323182)">
       <g
-         id="g1677"
-         transform="translate(0.20990276,84.274375)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image966"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image1043"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image1159"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image1237"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image1335"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image1413"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image1479"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image1558"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image1624"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g1816"
-         transform="translate(0.20990276,242.79891)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image1798"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image1800"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image1802"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image1804"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image1806"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image1808"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image1810"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image1812"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image1814"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g1955"
-         transform="translate(0.20990276,16.33529)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image1937"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image1939"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image1941"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image1943"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image1945"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image1947"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image1949"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image1951"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image1953"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g2233"
-         transform="translate(0.20990276,220.15255)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image2215"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image2217"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image2219"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image2221"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image2223"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image2225"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image2227"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image2229"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image2231"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g2511"
-         transform="translate(0.20990276,61.628013)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image2493"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image2495"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image2497"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image2499"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image2501"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image2503"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image2505"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image2507"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image2509"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g2650"
-         transform="translate(0.20990276,106.92074)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image2632"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image2634"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image2636"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image2638"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image2640"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image2642"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image2644"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image2646"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image2648"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g2789"
-         transform="translate(0.20990276,129.5671)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image2771"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image2773"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image2775"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image2777"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image2779"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image2781"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image2783"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image2785"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image2787"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g3067"
-         transform="translate(0.20990276,265.44528)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image3049"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image3051"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image3053"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image3055"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image3057"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image3059"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image3061"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image3063"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image3065"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g3345"
-         transform="translate(0.20990276,152.21346)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image3327"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image3329"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image3331"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image3333"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image3335"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image3337"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image3339"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image3341"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image3343"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g3484"
-         transform="translate(0.20990276,174.85982)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image3466"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image3468"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image3470"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image3472"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image3474"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image3476"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image3478"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image3480"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image3482"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g3623"
-         transform="translate(0.20990276,197.50619)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image3605"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image3607"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image3609"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image3611"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image3613"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image3615"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image3617"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image3619"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image3621"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-      </g>
-      <g
-         id="g3901"
-         transform="translate(0.20990276,38.98165)">
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/brennen.svg"
-           id="image3883"
-           x="117.43645"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/feuerbereitschaft.svg"
-           id="image3885"
-           x="4.2046452"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/gift.svg"
-           id="image3887"
-           x="26.851007"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/nachladen.svg"
-           id="image3889"
-           x="72.14373"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/panik.svg"
-           id="image3891"
-           x="49.497372"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schnell.svg"
-           id="image3893"
-           x="94.790092"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/schock.svg"
-           id="image3895"
-           x="162.72919"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/tarnung.svg"
-           id="image3897"
-           x="185.37555"
-           y="8.9328966"
-           style="stroke-width:0.5" />
-        <image
-           preserveAspectRatio="none"
-           inkscape:svg-dpi="300"
-           width="20"
-           height="20"
-           xlink:href="Grafiken/Token/verteidigung.svg"
-           id="image3899"
-           x="140.08282"
-           y="8.9328966"
-           style="stroke-width:0.5" />
+         id="g2092"
+         transform="translate(3.5750079)">
+        <g
+           id="g7956">
+          <g
+             id="g2274"
+             transform="translate(1.5496822e-8,-5.4484452)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image1937"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image1939"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image1941"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image1943"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image1945"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image1947"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image1949"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image1951"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image1953"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g2413"
+             transform="translate(1.5496822e-8,14.552084)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image2395"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image2397"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image2399"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image2401"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image2403"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image2405"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image2407"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image2409"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image2411"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g2552"
+             transform="translate(1.5496822e-8,34.552613)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image2534"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image2536"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image2538"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image2540"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image2542"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image2544"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image2546"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image2548"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image2550"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g2691"
+             transform="translate(1.5496822e-8,54.553142)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image2673"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image2675"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image2677"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image2679"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image2681"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image2683"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image2685"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image2687"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image2689"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g2830"
+             transform="translate(1.5496822e-8,74.553671)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image2812"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image2814"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image2816"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image2818"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image2820"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image2822"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image2824"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image2826"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image2828"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g2850"
+             transform="translate(1.5496822e-8,94.554201)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image2832"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image2834"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image2836"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image2838"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image2840"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image2842"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image2844"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image2846"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image2848"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g2870"
+             transform="translate(1.5496822e-8,114.55473)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image2852"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image2854"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image2856"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image2858"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image2860"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image2862"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image2864"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image2866"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image2868"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g2890"
+             transform="translate(1.5496822e-8,134.55526)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image2872"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image2874"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image2876"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image2878"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image2880"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image2882"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image2884"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image2886"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image2888"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g3386"
+             transform="translate(1.5496822e-8,154.55579)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image3368"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image3370"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image3372"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image3374"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image3376"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image3378"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image3380"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image3382"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image3384"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g3406"
+             transform="translate(1.5496822e-8,174.55632)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image3388"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image3390"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image3392"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image3394"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image3396"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image3398"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image3400"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image3402"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image3404"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g3426"
+             transform="translate(1.5496822e-8,194.55685)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image3408"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image3410"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image3412"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image3414"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image3416"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image3418"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image3420"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image3422"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image3424"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g3446"
+             transform="translate(1.5496822e-8,214.55738)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image3428"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image3430"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image3432"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image3434"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image3436"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image3438"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image3440"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image3442"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image3444"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g3942"
+             transform="translate(1.5496822e-8,234.55791)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image3924"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image3926"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image3928"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image3930"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image3932"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image3934"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image3936"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image3938"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image3940"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+          <g
+             id="g3962"
+             transform="translate(1.5496822e-8,254.55844)">
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/brennen.svg"
+               id="image3944"
+               x="91.424995"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/feuerbereitschaft.svg"
+               id="image3946"
+               x="31.423405"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/gift.svg"
+               id="image3948"
+               x="111.42552"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/nachladen.svg"
+               id="image3950"
+               x="51.423935"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/panik.svg"
+               id="image3952"
+               x="11.422875"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schnell.svg"
+               id="image3954"
+               x="71.424461"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/schock.svg"
+               id="image3956"
+               x="171.42711"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/tarnung.svg"
+               id="image3958"
+               x="151.42657"
+               y="25.268187"
+               style="stroke-width:0.5" />
+            <image
+               preserveAspectRatio="none"
+               inkscape:svg-dpi="600"
+               width="20"
+               height="20"
+               xlink:href="Grafiken/Token/verteidigung.svg"
+               id="image3960"
+               x="131.42606"
+               y="25.268187"
+               style="stroke-width:0.5" />
+          </g>
+        </g>
       </g>
     </g>
   </g>

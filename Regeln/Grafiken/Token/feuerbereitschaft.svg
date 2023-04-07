@@ -5,7 +5,7 @@
    viewBox="0 0 10 10"
    version="1.1"
    id="svg6953"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="feuerbereitschaft.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,22 +24,24 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="2.1875"
-     inkscape:cy="17.455357"
+     inkscape:cx="1.9196429"
+     inkscape:cy="17.5"
      inkscape:document-units="mm"
-     inkscape:current-layer="g859"
+     inkscape:current-layer="g861"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata6950">
     <rdf:RDF>
@@ -59,12 +61,13 @@
     <g
        id="g861"
        transform="translate(15.703193)">
-      <circle
-         r="5"
-         cy="-190.06258"
-         cx="-205.97395"
-         id="circle841"
-         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.314416;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.0529167;stroke-linecap:round"
+         id="rect3112"
+         width="10"
+         height="10"
+         x="-210.97395"
+         y="-195.06258" />
       <g
          id="g859"
          transform="matrix(0.90232944,0,0,0.90232944,-20.117591,-18.56352)"

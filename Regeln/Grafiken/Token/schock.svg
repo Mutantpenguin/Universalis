@@ -7,7 +7,7 @@
    viewBox="0 0 10 10"
    version="1.1"
    id="svg2058"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="schock.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,21 +26,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.919596"
-     inkscape:cx="15.089154"
-     inkscape:cy="11.679889"
+     inkscape:cx="14.710346"
+     inkscape:cy="11.743023"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1474"
+     inkscape:current-layer="g1666"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata2055">
     <rdf:RDF>
@@ -63,12 +65,13 @@
        inkscape:export-filename="C:\Users\Charon\Source\Repos\Universalis\Regeln\Grafiken\Marker\schock.png"
        inkscape:export-xdpi="399.30743"
        inkscape:export-ydpi="399.30743">
-      <circle
-         r="18.031223"
-         cy="999.54382"
-         cx="382.76965"
-         id="circle1418"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13385832;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         style="fill:#000000;stroke:none;stroke-width:0.190831;stroke-linecap:round"
+         id="rect3112"
+         width="36.062447"
+         height="36.062447"
+         x="364.73843"
+         y="981.51257" />
       <g
          id="g1474"
          transform="matrix(0.84586728,0,0,0.84586728,-153.56689,787.25406)"
