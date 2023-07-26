@@ -628,7 +628,7 @@ Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 * Die AP jedes Modells werden wieder aufgefüllt.
 Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
 Siehe <<Rundenende>>.
-* Modelle mit <<Schock,Schock-Token>> verlieren automatisch pro Token 2 AP.
+* Modelle mit <<Schock,Schock-Token>> verlieren automatisch pro Token 1 AP.
 * Alle Modelle in <<Panik>> werden entsprechend bewegt.
 Dies kann gleichzeitig geschehen.
 
@@ -1377,7 +1377,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 
 |image:Grafiken/Effekt/trauma.svg[Traume,40]
 |Trauma
-|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an Schocks in Höhe des Schadens.
+|Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an <<Schock,Schocks>> in Höhe des Schadens.
 
 |image:Grafiken/Effekt/strukturschädigend.svg[Strukturschädigend,40]
 |Strukturschädigend
@@ -1569,13 +1569,14 @@ Modelle in Panik werden hierbei ignoriert.
 
 (((Schock)))
 (((Zustände, Schock)))
-Wenn ein Modell einen Schock erleidet verliert es sofort 2 AP.
+Wenn ein Modell einen Schock erleidet verliert es sofort 1 AP.
 Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Token:
 
 image::Grafiken/Token/schock.svg[Schock,40,align=center]
 
-Ein Modell mit Schock-Token verliert zum Beginn einer Runde automatisch 2 AP pro Token woraufhin diese Token entfernt werden.
-Sollten noch Schock-Token übrig sein obwohl alle AP verbraucht sind, verbleiben die übrigen Token bis zur nächsten Runde um dann abgezogen zu werden.
+Wenn ein Modell zum Beginn einer Runde über Schock-Token verfügt, verliert es für jeden Token 1 AP und der Token wird entfernt.
+
+Sollten noch Schock-Token übrig sein und das Modell verfügt über keine AP mehr, verbleiben die übrigen Token bis zur nächsten Runde um dann abgezogen zu werden.
 
 === Vergiftung
 
