@@ -1585,7 +1585,7 @@ Modelle mit Giftmarkern zählen als *vergiftet*:
 
 image::Grafiken/Token/gift.svg[Gift,40,align=center]
 
-Zum Beginn jeder ihrer Initiativephasen entfernen sie 1 Giftmarker und erleiden automatischen Schaden wie bei der Waffe welche die Vergiftung verursacht hat angegeben.
+Zum Beginn ihrer Initiativephase entfernen sie 1 Giftmarker, und erleiden automatischen Schaden mit dem <<Schadensprofil>> der Waffe, welche die Vergiftung verursacht hat.
 
 == Waffen
 
