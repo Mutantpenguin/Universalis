@@ -1448,7 +1448,7 @@ Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden
 Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Eliminiert,eliminiert>>.
 
 Falls das Modell überlebt erleidet es einen <<Schock>>.
-Wenn es ausserdem nur noch kritische Trefferpunkte besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
+Wenn es ausserdem nur noch kritische <<Trefferpunkte>> besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
 
 == Zustände
 
@@ -1504,7 +1504,7 @@ Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bon
 
 (((Kritischer Zustand)))
 (((Zustände, Kritisch)))
-Der kritische Zustand wird automatisch angewendet, sobald ein Modell nur noch kritische Trefferpunkte besitzt.
+Der kritische Zustand wird automatisch angewendet, sobald ein Modell nur noch kritische <<Trefferpunkte>> besitzt.
 
 Das Modell erhält für den Rest des Spiels folgende Mali:
 
