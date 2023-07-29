@@ -2818,15 +2818,12 @@ Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
 
 Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
 
-Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im Wahrnehmungsbereich befinden.
-
-// TODO EH anstelle von Wahrnehmungsbereich? Wenn ja, dass Fähigkeit zur Erhöhung der Reichweite
+Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im <<Wahrnehmungsbereich>> befinden.
 
 Das Modell muss einen Attributswurf gegen das bei der Kraft angegebene Attribut mit dessen Schwierigkeit ablegen.
 Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
-
 
 == Progression
 
