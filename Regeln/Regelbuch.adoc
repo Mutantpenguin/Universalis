@@ -442,7 +442,7 @@ image::Grafiken/Abbildungen/sichtlinie.svg[Größenprofil,300,align=center]
 
 Befreundete Modelle behindern nicht die Sichtlinie.
 
-Die Sichtlinie zu jedem anderen Objekte auf dem Spielfeld ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
+Die Sichtlinie zu jedem anderen Objekt auf dem Spielfeld ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
 
 === Tragkraft
 
