@@ -161,6 +161,10 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
     Jeder erlittene Schaden wird um `[Stufe]` erhöht.
 
+!!! check Immunität | 1 - 5
+
+    Schaden durch Gift wird um `[Stufe]` verringert.
+
 !!! check Regeneration | 1 - 5
 
     Zum Beginn jeder Initiativephase des Modells werden seine Trefferpunkte wieder um `[Stufe]` Punkte aufgefüllt.
