@@ -133,7 +133,7 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! check David gegen Goliath
 
-    Wenn das Modell als Angreifer von ausserhalb des Sichtfeldes angreift und über ein kleineres Größenprofil verfügt darf es sich bei Kolossen die Trefferzone aussuchen.
+    Wenn das Modell einen Koloss im Nahkampf angreift und über ein kleineres Größenprofil als der Koloss verfügt darf es sich die Trefferzone aussuchen.
 
 !!! check Riposte
 
