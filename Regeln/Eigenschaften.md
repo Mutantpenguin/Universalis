@@ -109,13 +109,25 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 ## Kräfte
 
-!!! check Fokus
+!!! check Ausgeweitetes Blockieren
+
+    Der Wahrnehmungsbereich wird zum Blockieren von Kräften verdoppelt.
+
+!!! fail Chaotische Gabe
+
+    Die Auswahl der Kräfte vor Spielbeginn passiert zufällig.
+
+!!! check Fernwirkung
 
     Das Modell kann Kräfte durch Drohnen hindurch wirken als ob es sich an der Position der Drohne befinden würde.
 
-!!! fail Instabil
+!!! check Fokussieren | 1 - 3
 
-    Die Auswahl der Kräfte vor Spielbeginn passiert zufällig.
+    Das Modell darf jeden Test zum Einsatz oder Blockieren einer Kraft `[Stufe]` mal neu würfeln.
+
+!!! check Inneres Auge
+
+    Beim Blockieren von Kräften muss das Modell keine Sichtlinie zum Ziel haben.
 
 ## Nahkampf
 
