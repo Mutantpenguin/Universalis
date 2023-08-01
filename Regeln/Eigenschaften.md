@@ -131,9 +131,9 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 ## Nahkampf
 
-!!! check Agil
+!!! check Stabiler Stand
 
-    Ignoriert die Nachteile von unhandlich Waffen und Ausrüstungsgegenständen im Nahkampf.
+    Ignoriert die Nachteile von unhandlichen Waffen und Ausrüstungsgegenständen im Nahkampf.
 
 !!! check Bewährter Nahkämpfer | 1 - 3
 
@@ -158,6 +158,10 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 !!! check Nahkampfspezialist | 1 - 3
 
     Der Nahkampfgegner kann `[Stufe]` mal dazu gezwungen werden seinen Nahkampfwurf neu zu würfeln.
+
+!!! check Wendig
+
+    Wenn sich das Modell aus dem Nahkampf löst kann der Gegner keinen Gelegenheitsangriff durchführen.
 
 ## Schaden & Verteidigung
 
