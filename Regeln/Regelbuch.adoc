@@ -2218,11 +2218,11 @@ Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch
 
 3+<a|[WARNING]
 ====
-Kann durchgeführt werden, wenn ein gegnerisches Modell in Basekontakt sich entfernt.
+Kann durchgeführt werden, wenn sich ein gegnerisches Modell in Basekontakt aus dem Nahkampf löst.
 ====
 
-Das Modell führt mit dem sich entfernenden Modell einen Nahkampf durch und gilt als der Angreifer.
-Das sich entfernende Modell kämpft mit NK von 0.
+Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch und gilt als der Angreifer.
+Das sich lösende Modell kämpft mit NK von 0.
 
 |===
 
