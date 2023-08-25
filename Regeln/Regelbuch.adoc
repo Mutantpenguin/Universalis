@@ -2019,7 +2019,7 @@ Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
 Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
 Weitere Mali durch Deckung kommen nicht zur Geltung.
 
-Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in harter Deckung befinden.
+Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in massiver Deckung befinden.
 
 Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
 
