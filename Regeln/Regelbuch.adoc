@@ -1163,6 +1163,10 @@ In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> da
 (((Geländetypen)))
 Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwendet werden.
 
+// TODO Beschreiben, dass dies nur Beispiele sind und von Spielern beliebig erweitert oder abgeändert werden können
+
+// TODO in eigene Datei packen?
+
 .Befestigte Stellung
 ****
 [%unbreakable%header,cols="^1,^1,^1",frame=ends]
