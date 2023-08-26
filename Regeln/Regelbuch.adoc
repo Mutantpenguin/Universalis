@@ -83,31 +83,31 @@ image:Grafiken/Abbildungen/w6_rot.svg[W6 rot,50]
 |Symbol
 |Bedeutung
 
-|image:Grafiken/Token/brennen.svg[brennen,40]
+|image:Grafiken/Token/brennen.svg[Brennen,40]
 |<<Brennen>>
 
-|image:Grafiken/Token/feuerbereitschaft.svg[feuerbereitschaft,40]
+|image:Grafiken/Token/feuerbereitschaft.svg[Feuerbereitschaft,40]
 |<<Aktionen: Fernkampf,Feuerbereitschaft>>
 
-|image:Grafiken/Token/panik.svg[panik,40]
+|image:Grafiken/Token/panik.svg[Panik,40]
 |<<Panik>>
 
-|image:Grafiken/Token/gift.svg[gift,40]
+|image:Grafiken/Token/gift.svg[Gift,40]
 |<<Vergiftung,Gift>>
 
-|image:Grafiken/Token/nachladen.svg[nachladen,40]
+|image:Grafiken/Token/nachladen.svg[Nachladen,40]
 |<<Nachladen>>
 
-|image:Grafiken/Token/schnell.svg[schnell,40]
+|image:Grafiken/Token/schnell.svg[Schnell,40]
 |<<Schnelle Bewegungen,Schnelle Bewegung>>
 
-|image:Grafiken/Token/schock.svg[schock,40]
+|image:Grafiken/Token/schock.svg[Schock,40]
 |<<Schock>>
 
-|image:Grafiken/Token/tarnung.svg[tarnung,40]
+|image:Grafiken/Token/tarnung.svg[Tarnung,40]
 |<<Tarnung>>
 
-|image:Grafiken/Token/verteidigung.svg[verteidigung,40]
+|image:Grafiken/Token/verteidigung.svg[Verteidigung,40]
 |<<Aktionen: Nahkampf,Verteidigung>>
 
 |===
@@ -701,7 +701,7 @@ Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde s
 
 Sie sind an folgendem Symbol zu erkennen:
 
-image::Grafiken/Allgemein/reaktion.svg[RReaktion,40,align=center]
+image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
 
 === Übersicht Aktionen und Reaktionen
 
@@ -1150,7 +1150,7 @@ Bei durchgehenden Bewegungsaktionen wird nur ein Bewegungstest durchgeführt und
 (((Sicht)))
 In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch in ihrer Reichweite eingeschränkt.
 
-// TODO vieleicht ganz anders, und einfach angeben um Sichtlinien "durch" das Objekt möglich sind?
+// TODO vielleicht ganz anders, und einfach angeben um Sichtlinien "durch" das Objekt möglich sind?
 
 // TODO schlechte/gute/normale Sicht?
 
@@ -1379,7 +1379,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |Name
 |Auswirkungen
 
-|image:Grafiken/Effekt/trauma.svg[Traume,40]
+|image:Grafiken/Effekt/trauma.svg[Trauma,40]
 |Trauma
 |Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an <<Schock,Schocks>> in Höhe des Schadens.
 
@@ -1417,7 +1417,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 (((Rüstungswurf)))
 Beide Spieler führen einen vergleichenden Wurf durch.
 Der Angreifer addiert die Stärke seiner Waffe, dies wird *Verletzungswurf* genannt.
-Der Verteider addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* genannt.
+Der Verteidiger addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* genannt.
 
 Hierbei kommen alle Schadenseffekte zur Anwendung.
 
@@ -1612,7 +1612,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
-Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliert, bei <<Unhandliche Waffen,unhandlichen>> Waffen mit 0,5 (aufgerundet).
+Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliziert, bei <<Unhandliche Waffen,unhandlichen>> Waffen mit 0,5 (aufgerundet).
 
 .{nbsp}
 ====
@@ -1631,7 +1631,7 @@ WK I steht somit für Waffen der Klasse 1.
 
 === Additive Stärke
 
-Manche Waffen verfügen nicht über einen eigenen Stärkewert, sondern sind additiv.
+Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
 === Unhandliche Waffen
@@ -2081,7 +2081,7 @@ Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Dist
 Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
 Der Einschlagpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
 
-Wenn die Trefferschablone die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
+Wenn die Fläche die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
 Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgerundet).
 
 Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
@@ -2284,7 +2284,7 @@ Infanterie und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen
 
 Die Stärke entspricht der Konstitution.
 Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
-Die Waffenklasse ist abhängig von der größe des Modells.
+Die Waffenklasse ist abhängig von der Größe des Modells.
 
 [%unbreakable%header,cols="^1,^1",frame=ends]
 |===
@@ -2486,7 +2486,7 @@ Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutz
 Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung unterteilt.
 
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
-Es können auch Trefferzonenen getroffen werden, die nicht direkt sichtbar sind.
+Es können auch Trefferzonen getroffen werden, die nicht direkt sichtbar sind.
 
 .Trefferzonen Kolosse
 image::Grafiken/Abbildungen/trefferzonen.svg[Trefferzonen,align=center]
@@ -2559,7 +2559,7 @@ Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen 
 
 Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
-Seine Eigenschaften werden nur auf ihn selber angewendet, es seih denn eine Eigenschaft sagt explizit etwas anderes aus.
+Seine Eigenschaften werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
 
 Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
 
@@ -2605,7 +2605,7 @@ Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Run
 Sobald eine Drohne <<Eliminiert,eliminiert>> wurde kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
-Misslingt dieser, verliert er automatisch Trefferpunkte in höhe der halben (abgerundeten) KO der Drohne.
+Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO der Drohne.
 
 == Kraft-Disziplinen
 
@@ -2727,7 +2727,7 @@ Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
 Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem Attributswurf oder bei jedem Einsatz automatisch passiert.
 
-Die Zahl im Symbol gibt an, wieviele TP das Modell verliert.
+Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
 [%unbreakable%header,cols="^1,^1",frame=ends]
 |===
