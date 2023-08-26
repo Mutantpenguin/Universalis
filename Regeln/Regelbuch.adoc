@@ -1205,8 +1205,8 @@ Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwende
 
 .Krater
 ****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
 Die Deckung wirkt nur gegen Beschuss von außerhalb.
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
 |===
 |Passierbarkeit |Deckung |Sichtweite
 |Schwierig |hart |1
