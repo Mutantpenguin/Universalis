@@ -1640,9 +1640,7 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 (((Waffen, Unhandlich)))
 Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
 
-Auf der Einheitenkarte wird dies mit einem Kreis um die Waffenklasse ausgewiesen:
-
-// TODO neue Art der Ausweisung "»"
+Auf der Einheitenkarte wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
 
 image::Grafiken/Waffe/unhandlich.png[unhandlich,40,align=center]
 
@@ -2461,7 +2459,7 @@ image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüst
 (((Ausrüstung, Unhandlich)))
 Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
 
-// TODO neue Art der Ausweisung "»"
+Auf der Einheitenkarte wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
 == Kolosse
 
