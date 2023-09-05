@@ -1150,13 +1150,19 @@ Bei durchgehenden Bewegungsaktionen wird nur ein Bewegungstest durchgeführt und
 (((Sicht)))
 In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch in ihrer Reichweite eingeschränkt.
 
-// TODO vielleicht ganz anders, und einfach angeben um Sichtlinien "durch" das Objekt möglich sind?
+// TODO Sicht
 
-// TODO schlechte/gute/normale Sicht?
+////
 
-// TODO Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
+*  vielleicht ganz anders, und einfach angeben ob Sichtlinien "durch" das Objekt möglich sind?
 
-// TODO Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
+* schlechte/gute/normale Sicht?
+
+* Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
+
+* Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
+
+////
 
 === Geländetypen
 
@@ -2639,7 +2645,7 @@ Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschi
 (((Kräfte)))
 Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
 
-// TODO
+// TODO Beispielkarte für Kräfte
 
 image::Grafiken/Abbildungen/kraft_beispiel.svg[Kraft Beispiel,align=center]
 
