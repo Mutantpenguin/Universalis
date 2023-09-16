@@ -848,7 +848,7 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 |image:Grafiken/Bewegung/schweben.svg[Schweben,40]
 |Schweben
-|Ignoriert <<Passierbarkeit>> solange es sich über einem Geländeteil bewegt.
+|Ignoriert <<Passierbarkeit>> solange es sich über einem <<Geländeteile,Geländeteil>> bewegt.
 
 |image:Grafiken/Bewegung/stationär.svg[Stationär,40]
 |Stationär
