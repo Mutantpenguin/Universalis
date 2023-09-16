@@ -2114,7 +2114,7 @@ Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und R
 |<<Aktionen: Bewegung,Aus Nahkampf lösen>>
 |
 
-|<<Aktionen: Kräfte,Kraft verwenden>>
+|<<Aktionen: Kräfte,Kraft einsetzen>>
 |
 
 |===
