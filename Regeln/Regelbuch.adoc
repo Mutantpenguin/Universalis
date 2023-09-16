@@ -2658,15 +2658,15 @@ Dies sind die benötigten AP um die Kraft einzusetzen.
 
 (((Kräfte, Attribut)))
 Kräfte beziehen sich immer auf ein Attribut.
-Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher Attributswurf gegen dieses Attribut abgelegt werden.
+Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher <<Attributswurf>> gegen dieses Attribut abgelegt werden.
 
 Zusätzlich kann eine Schwierigkeit angegeben sein.
-Sie gibt an wie der Attributswurf modifiziert wird.
+Sie gibt an wie der <<Attributswurf>> modifiziert wird.
 
 .{nbsp}
 ====
-* Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
-* Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
+* Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der <<Attributswurf>> auf FK ist damit um 4 erschwert.
+* Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der <<Attributswurf>> auf KO ist damit um 3 erleichtert.
 ====
 
 ==== Ziel
@@ -2727,7 +2727,7 @@ Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,N
 (((Kräfte, TP-Verlust)))
 Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
-Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem Attributswurf oder bei jedem Einsatz automatisch passiert.
+Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem <<Attributswurf>> oder bei jedem Einsatz automatisch passiert.
 
 Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
@@ -2826,7 +2826,7 @@ Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
 
 Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im <<Wahrnehmungsbereich>> befinden.
 
-Das Modell muss einen Attributswurf gegen das bei der Kraft angegebene Attribut mit dessen Schwierigkeit ablegen.
+Das Modell muss einen <<Attributswurf>> gegen das bei der Kraft angegebene Attribut mit dessen Schwierigkeit ablegen.
 Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
