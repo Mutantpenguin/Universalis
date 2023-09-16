@@ -803,8 +803,8 @@ image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigensch
 === AP-Kosten
 
 (((Eigenschaften, AP-Kosten)))
-Bei manchen Eigenschaften ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
-Um sie zu benutzen muss die Aktion "Eigenschaft anwenden" ausgeführt werden.
+Bei manchen Eigenschaften ist angegeben, dass zur Anwendung AP ausgegeben werden müssen.
+Um sie anzuwenden muss die Aktion "Eigenschaft anwenden" ausgeführt werden.
 
 Sofern keine AP angegeben sind ist auch keine Aktion für die Anwendung notwendig.
 
