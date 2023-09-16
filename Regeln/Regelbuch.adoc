@@ -498,7 +498,7 @@ Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase inn
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
 
 Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
-Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per <<Nahkampf>>, <<Fernkampf>>, <<Ausrüstung>>, <<Eigenschaften>> oder <<Kraft-Disziplinen,Kräften>>.
+Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per <<Nahkampf>>, <<Fernkampf>>, <<Ausrüstung>>, <<Eigenschaften>> oder <<Disziplinen,Kräften>>.
 
 Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
@@ -748,7 +748,7 @@ image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache <<Attribute>> hinausgeht.
 Außerdem können sie über eventuelle <<Profilmodifikatoren>> verfügen.
 
-Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Kraft-Disziplinen,Kraft>> dargestellt werden.
+Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Disziplinen,Kraft>> dargestellt werden.
 
 === Aktionen: Eigenschaften
 
@@ -2611,15 +2611,13 @@ Sobald eine Drohne <<Eliminiert,eliminiert>> wurde kommt es zu einer Rückkopplu
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO der Drohne.
 
-== Kraft-Disziplinen
+== Disziplinen
 
-(((Kraft-Disziplinen)))
-In Universalis wird alles was normalerweise als PSI, Magie, Thaumaturgie, ect. bezeichnet wird "Kräfte" genannt.
+(((Disziplinen)))
+In Universalis wird alles was andernorts normalerweise als PSI, Magie, Thaumaturgie, usw. bezeichnet wird "Kräfte" genannt.
+Sie sind in sogenannten "Disziplinen" organisiert welche die ungefähre Art der dazugehörigen Kräfte vorgeben.
 
 Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft dargestellt werden.
-
-Alle Kräfte sind in sogenannten "Disziplinen" organisiert.
-Sie geben die ungefähre Art der dazugehörigen Kräfte vor.
 
 .{nbsp}
 ====
