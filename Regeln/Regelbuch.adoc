@@ -442,7 +442,7 @@ image::Grafiken/Abbildungen/sichtlinie.svg[Größenprofil,300,align=center]
 
 Befreundete Modelle behindern nicht die Sichtlinie.
 
-Die Sichtlinie zu jedem anderen Objekt auf dem Spielfeld ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
+Die Sichtlinie zu einem <<Geländeteile,Geländeteil>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
 
 === Tragkraft
 
@@ -937,14 +937,19 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 
 |===
 
-(((Aktionen, Interagieren)))
+(((Aktionen, Objekt benutzen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Interagieren
+.^|Objekt benutzen
 .^|1 ⊙
 
-3+<a|Benutzen von Schaltern, Hebeln, nicht verschlossenen Türen etc.
+3+<a|Benutzen eines <<Objekte,Objekts>>.
+
+3+<a|[WARNING]
+====
+Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.
+====
 
 |===
 
@@ -1062,7 +1067,7 @@ Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 == Gelände
 
 (((Gelände)))
-Alle Objekte auf dem Spielfeld die kein Modell eines Spielers sind werden als <<Geländeteil>> bezeichnet.
+Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als <<Geländeteile,Geländeteil>> oder <<Objekte,Objekt>> bezeichnet.
 
 Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
 
@@ -1074,10 +1079,54 @@ Geländeteile sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter
 So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
 Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln gelten dort automatisch.
 
-Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländetyp befindet.
+Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländeteil befindet.
 Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
 
 Geländeteile gehören in der Regel einem der weiter unten genannten <<Geländetypen>> an.
+
+=== Objekte
+
+Unter ihnen versteht man alle Gegenstände auf dem Spielfeld, die von einem Modell benutzt werden können, und deren Benutzung eine Wirkung nach sich zieht.
+Sie können alleine stehen oder sind Bestandteil eines <<Geländeteile,Geländeteils>>.
+
+Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szenario, Universum oder nach Einigung der Spieler festgelegt.
+
+.{nbsp}
+====
+* Türen
+* Schalter und Hebel
+* Computer Terminals
+====
+
+==== Beschränkungen von Objekten
+
+Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
+
+Die folgenden Beschränkungen sind möglich, auch in Kombination.
+
+[%unbreakable%header,cols="h,4,4",frame=ends]
+|===
+
+|Art
+|Beschränkung
+|Beispiele
+
+|Eigenschaft
+|Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
+a|* "Hacking III" um ein Terminal der Stufe III zu hacken.
+* "Schlossknacken" um Schlösser zu knacken.
+
+|Schwierigkeit
+|<<Attributswurf>> mit optionalem Modifikator notwendig.
+a|* KO-Test um die Winde eines Falltors zu drehen.
+* WN-2-Test um ein elektronisches Schloss kurz zu schließen.
+
+|Komplex
+|Alles ist möglich.
+a|* Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
+* Ein konkret benanntes anderes Objekt wurde bereits benutzt.
+
+|===
 
 === Deckung
 
@@ -1154,7 +1203,7 @@ In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> da
 
 ////
 
-*  vielleicht ganz anders, und einfach angeben ob Sichtlinien "durch" das Objekt möglich sind?
+*  vielleicht ganz anders, und einfach angeben ob Sichtlinien "durch" das Geländeteil möglich sind?
 
 * schlechte/gute/normale Sicht?
 
