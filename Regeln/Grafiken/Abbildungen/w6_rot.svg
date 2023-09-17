@@ -7,7 +7,7 @@
    viewBox="0 0 141.73228 141.73228"
    id="svg4467"
    version="1.1"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    sodipodi:docname="w6_rot.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,21 +26,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="17.425131"
+     inkscape:cx="17.172593"
      inkscape:cy="19.950513"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4485"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="-8"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata4472">
     <rdf:RDF>
@@ -68,17 +70,11 @@
          x="-68.938957"
          y="474.07324"
          ry="4.3526788" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.1067px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.25197;stroke-miterlimit:4;stroke-dasharray:none"
-         x="-35.266487"
-         y="541.32764"
-         id="text4111"><tspan
-           sodipodi:role="line"
-           id="tspan4109"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.1067px;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.25197;stroke-miterlimit:4;stroke-dasharray:none"
-           x="-35.266487"
-           y="541.32764">6</tspan></text>
+      <path
+         d="m -8.0329257,515.61216 -4.2322423,2.02412 h -0.230014 q 0,-3.05918 -1.656094,-4.99129 -2.070119,-2.36913 -4.87628,-2.36913 -3.335191,0 -5.382309,2.36913 -1.656095,1.90911 -1.656095,4.99129 v 4.27824 q 2.990172,-2.71415 7.015403,-2.71415 5.359307,0 8.510488,3.33519 3.1051776,3.28919 3.1051776,7.93545 0,4.69227 -3.1051776,7.98146 -3.151181,3.33519 -8.510488,3.33519 -5.359308,0 -8.510488,-3.33519 -3.105178,-3.28919 -3.105178,-7.93545 v -12.88074 q 0,-4.87628 3.105178,-8.16547 3.15118,-3.33519 8.510488,-3.33519 5.083291,0 8.050461,3.10518 2.9671703,3.08217 2.9671703,6.37136 z m -11.0176313,7.72845 q -3.289189,0 -5.359308,2.36913 -1.656095,1.90911 -1.656095,4.80728 0,2.82916 1.656095,4.76127 2.024116,2.36914 5.359308,2.36914 3.243186,0 5.359307,-2.36914 1.656095,-1.86311 1.656095,-4.76127 0,-2.87517 -1.656095,-4.80728 -2.024116,-2.36913 -5.359307,-2.36913 z"
+         id="text4111"
+         style="font-size:47.1067px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:4.25197"
+         aria-label="6" />
     </g>
   </g>
 </svg>
