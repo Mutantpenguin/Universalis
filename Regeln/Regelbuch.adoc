@@ -759,8 +759,9 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Disziplinen,
 .^|Eigenschaft anwenden
 .^|X ⊙
 
-3+<a|* Das Modell wendet eine Eigenschaft an.
-* Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
+3+<|
+Das Modell wendet eine Eigenschaft an.
+Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
 
 |===
 
@@ -870,7 +871,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 .^|Drehen
 .^|0 ⊙
 
-3+<a|Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
+3+<|Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
 
 |===
 
@@ -881,9 +882,11 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 .^|Normale Bewegung
 .^|1\|2 ⊙
 
-3+<a|* Das Modell bewegt sich entsprechend seiner GK in cm.
+3+<|
+Das Modell bewegt sich entsprechend seiner GK in cm.
 Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Modelle,liegt>>.
-* Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 3cm eingehalten werden.
+
+Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 3cm eingehalten werden.
 
 |===
 
@@ -894,9 +897,10 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 .^|Angriffsbewegung
 .^|WK ⊙
 
-3+<a|* Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe.
-* Die eigentliche Bewegung ist somit kostenlos.
-* Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem <<Aktionen: Nahkampf,Angriff>>.
+3+<|
+Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe. Die eigentliche Bewegung ist somit kostenlos.
+
+Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem <<Aktionen: Nahkampf,Angriff>>.
 
 |===
 
@@ -907,11 +911,14 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 .^|Aus Nahkampf lösen
 .^|2\|3 ⊙
 
-3+<a|WARNING: Das Modell muss sich im Nahkampf befinden.
+3+<|
+Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, muss vorher aber den Test für eine <<Direkte Bedrohung>> durchführen.
+Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
 
-* Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, zunächst muss es aber den Test für eine <<Direkte Bedrohung>> durchführen.
-* Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
-* Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
+Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
+
+.^|icon:bolt[]
+2+<|Das Modell muss sich im Nahkampf befinden.
 
 |===
 
@@ -922,7 +929,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 .^|Hinlegen
 .^|1 ⊙
 
-3+<a|Das Modell gilt als <<Liegende Modelle,liegend>>
+3+<|Das Modell gilt als <<Liegende Modelle,liegend>>
 
 |===
 
@@ -933,7 +940,7 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 .^|Aufstehen
 .^|1 ⊙
 
-3+<a|Das Modell gilt als stehend.
+3+<|Das Modell gilt als stehend.
 
 |===
 
@@ -944,12 +951,10 @@ Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Mode
 .^|Objekt benutzen
 .^|1 ⊙
 
-3+<a|Benutzen eines <<Objekte,Objekts>>.
+3+<|Benutzen eines <<Objekte,Objekts>>.
 
-3+<a|[WARNING]
-====
-Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.
-====
+.^|icon:bolt[]
+2+<|Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.
 
 |===
 
@@ -962,15 +967,14 @@ Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.
 .^|Beschuss Ausweichen
 .^|1 ⊙
 
-3+<a|[WARNING]
-====
+3+<|Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
+
+.^|icon:bolt[]
+2+<a|
 * Kann von einem Modell durchgeführt werden, welches Ziel eines Fernkampfangriffs ist.
 Der Schütze muss sich im <<Wahrnehmungsbereich>> befinden.
 * Nicht bei <<Liegende Modelle, liegenden>> Modellen.
 * Nur bevor der Schütze seinen FK-Wurf durchführt.
-====
-
-Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
 
 |===
 
@@ -1113,17 +1117,20 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 
 |Eigenschaft
 |Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
-a|* "Hacking III" um ein Terminal der Stufe III zu hacken.
+a|
+* "Hacking III" um ein Terminal der Stufe III zu hacken.
 * "Schlossknacken" um Schlösser zu knacken.
 
 |Schwierigkeit
 |<<Attributswurf>> mit optionalem Modifikator notwendig.
-a|* KO-Test um die Winde eines Falltors zu drehen.
+a|
+* KO-Test um die Winde eines Falltors zu drehen.
 * WN-2-Test um ein elektronisches Schloss kurz zu schließen.
 
 |Komplex
 |Alles ist möglich.
-a|* Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
+a|
+* Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
 * Ein konkret benanntes anderes Objekt wurde bereits benutzt.
 
 |===
@@ -1842,7 +1849,7 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verl
 .^|Normaler Schuss
 .^|WK+1 ⊙
 
-3+<a|Das Modell führt einen Fernkampf durch.
+3+<|Das Modell führt einen Fernkampf durch.
 
 |===
 
@@ -1853,18 +1860,20 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verl
 .^|Feuerbereitschaft
 .^|2 ⊙
 
-3+<a|[WARNING]
-====
-* Nur mit Schusswaffen der WK I, II und III.
-* Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden da jede weitere Aktion oder Reaktion die Feuerbereitschaft automatisch beendet.
-====
-
-* Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
+3+<|
+Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
 Es verliert sie dann automatisch.
-* Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt: +
+
+Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt: +
 image:Grafiken/Token/feuerbereitschaft.svg[Feuerbereitschaft,40,align=center]
-* Falls das Modell das Ziel irgendeiner Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
+
+Falls das Modell das Ziel irgendeiner erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
 Misslingt dieser verliert es die Feuerbereitschaft.
+
+.^|icon:bolt[]
+2+<a|
+* Nur mit Schusswaffen der WK I, II und III.
+* Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden, da jede weitere Aktion oder Reaktion die Feuerbereitschaft automatisch beendet.
 
 |===
 
@@ -1875,9 +1884,12 @@ Misslingt dieser verliert es die Feuerbereitschaft.
 .^|Gezielter Schuss
 .^|WK+2 ⊙
 
-3+<a|* Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
+3+<|
+Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
 Die Reichweitenbänder werden hierbei verdoppelt.
-* Er ist nicht in Kombination mit Dauerfeuer einsetzbar.
+
+.^|icon:bolt[]
+2+<|Ist nicht in Kombination mit Dauerfeuer einsetzbar.
 
 |===
 
@@ -1888,7 +1900,7 @@ Die Reichweitenbänder werden hierbei verdoppelt.
 .^|Schnellschuss
 .^|WK ⊙
 
-3+<a|Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
+3+<|Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
 
 |===
 
@@ -1899,13 +1911,12 @@ Die Reichweitenbänder werden hierbei verdoppelt.
 .^|Nachladen
 .^|WK ⊙
 
-3+<a|[WARNING]
-====
-Diese Aktion kann nur von Modellen mit einem <<Nachladen,Nachlade-Token>> durchgeführt werden.
-====
-
+3+<|
 Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
 Der Token wird danach vom Modell entfernt.
+
+.^|icon:bolt[]
+2+<|Diese Aktion kann nur von Modellen mit einem <<Nachladen,Nachlade-Token>> durchgeführt werden.
 
 |===
 
@@ -1918,16 +1929,16 @@ Der Token wird danach vom Modell entfernt.
 .^|Reaktionsfeuer
 .^|WK ⊙
 
-3+<a|[WARNING]
-====
+3+<|
+Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch und erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
+
+Das Modell verliert danach automatisch seine Feuerbereitschaft.
+
+.^|icon:bolt[]
+2+<a|
 * Das Modell muss sich in Feuerbereitschaft befinden.
 * Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige <<Aktionen: Bewegung,Bewegungsaktion>> innerhalb des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> durchführt.
 * Kann nicht mit <<Indirekter Fernkampf,indirektem Fernkampf>> genutzt werden.
-====
-
-* Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch.
-* Der Schütze erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
-* Das Modell verliert danach automatisch seine Feuerbereitschaft.
 
 |===
 
@@ -2206,7 +2217,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 .^|Angriff
 .^|WK ⊙
 
-3+<a|Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+3+<|Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
 |===
 
@@ -2217,9 +2228,11 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 .^|Verwegener Angriff
 .^|WK+2 ⊙
 
-3+<a|* Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+3+<|
+Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 Es erhält +3 auf seinen NK-Wurf.
-* Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
+
+Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
 
 |===
 
@@ -2230,21 +2243,23 @@ Es erhält +3 auf seinen NK-Wurf.
 .^|Verteidigung
 .^|2 ⊙
 
-3+<a|[WARNING]
-====
-Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
-Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
-====
-
-* Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
+3+<|
+Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
 Es verliert sie dann automatisch.
-* Sie wird am Modell mit dem Verteidigungs-Token dargestellt: +
+
+Sie wird am Modell mit dem Verteidigungs-Token dargestellt: +
 image:Grafiken/Token/verteidigung.svg[Verteidigung,40,align=center]
-* Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen <<Bonus für den Angreifer,Bonus>> für eine <<Aktionen: Bewegung,Angriffsbewegung>>.
+
+Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen <<Bonus für den Angreifer,Bonus>> für eine <<Aktionen: Bewegung,Angriffsbewegung>>.
 Das Modell verliert danach automatisch seine Verteidigung.
-* Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
+
+Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
 Misslingt dieser verliert es die Verteidigung.
 Es muss dafür nicht getroffen werden.
+
+.^|icon:bolt[]
+2+<|Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
+Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
 
 |===
 
@@ -2257,12 +2272,10 @@ Es muss dafür nicht getroffen werden.
 .^|Gegenangriff
 .^|WK ⊙
 
-3+<a|[WARNING]
-====
-Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
-====
+3+<|Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
 
-Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
+.^|icon:bolt[]
+2+<|Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
 
 |===
 
@@ -2273,13 +2286,11 @@ Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch
 .^|Gelegenheitsangriff
 .^|WK ⊙
 
-3+<a|[WARNING]
-====
-Kann durchgeführt werden, wenn sich ein gegnerisches Modell in Basekontakt aus dem Nahkampf löst.
-====
-
-Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch und gilt als der Angreifer.
+3+<|Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch und gilt als der Angreifer.
 Das sich lösende Modell kämpft mit NK von 0.
+
+.^|icon:bolt[]
+2+<|Kann durchgeführt werden, wenn sich ein gegnerisches Modell in Basekontakt aus dem Nahkampf löst.
 
 |===
 
@@ -2429,10 +2440,13 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 .^|Aufklären
 .^|2+ ⊙
 
-3+<a|* Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
-* Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
+3+<|
+Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
+
+Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
 Bei Erfolg wurde das getarnte Modell aufgeklärt.
-* Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
+
+Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
 
 |===
 
@@ -2445,13 +2459,12 @@ Bei Erfolg wurde das getarnte Modell aufgeklärt.
 .^|Aufklärungsunterstützung
 .^|2 ⊙
 
-3+<a|[WARNING]
-====
+3+<|Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
+
+.^|icon:bolt[]
+2+<a|
 * Kann durchgeführt werden, wenn ein eigenes Modell die Aktion *Aufklären* ausführt.
 * Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
-====
-
-Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
 
 |===
 
@@ -2471,8 +2484,10 @@ Ausrüstung kann über <<Profilmodifikatoren>> verfügen.
 .^|Ausrüstung verwenden
 .^|X ⊙
 
-3+<a|* Das Modell verwendet einen Ausrüstungsgegenstand.
-* Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
+3+<|
+Das Modell verwendet einen Ausrüstungsgegenstand.
+
+Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
 
 |===
 
@@ -2822,8 +2837,10 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 .^|Kraft einsetzen
 .^|X ⊙
 
-3+<a|* Das Modell setzt eine Kraft ein.
-* Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
+3+<|
+Das Modell setzt eine Kraft ein.
+
+Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
 
 |===
 
@@ -2834,7 +2851,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 .^|Kraft beenden
 .^|1 ⊙
 
-3+<a|Eine eigene beliebige <<Dauer,dauerhafte>> Kraft die gerade im Spiel ist wird beendet.
+3+<|Eine eigene beliebige <<Dauer,dauerhafte>> Kraft die gerade im Spiel ist wird beendet.
 
 |===
 
@@ -2845,7 +2862,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 .^|Kraft blockieren
 .^|2 ⊙
 
-3+<a|Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
+3+<|Das Modell versucht eine sich im Spiel befindliche Kraft zu <<Kraft blockieren, blockieren>>.
 
 |===
 
@@ -2858,12 +2875,10 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 .^|Kraft blockieren
 .^|3 ⊙
 
-3+<a|[WARNING]
-====
-* Kann durchgeführt werden sobald ein gegnerisches Modell eine Kraft einsetzt.
-====
+3+<|Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>> während ein gegnerisches Modell sie ausspielt.
 
-Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>>.
+.^|icon:bolt[]
+2+<|Kann durchgeführt werden sobald ein gegnerisches Modell eine Kraft einsetzt.
 
 |===
 
