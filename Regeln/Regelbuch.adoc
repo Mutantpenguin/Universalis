@@ -2737,7 +2737,7 @@ Sie gibt an wie der <<Attributswurf>> modifiziert wird.
 
 (((Kräfte, Ziel)))
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
-Dabei wird zwischen 4 verschiedenen Arten unterschieden.
+Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 [%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
 |===
@@ -2749,17 +2749,13 @@ Dabei wird zwischen 4 verschiedenen Arten unterschieden.
 |Bereich
 |Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.
 
-|image:Grafiken/Kraft/ZielGegner.svg[Gegner]
-|Gegner
-|Die Kraft kann auf einem gegnerischem Modell eingesetzt werden.
-
-|image:Grafiken/Kraft/ZielFreund.svg[Freund]
-|Freund
-|Die Kraft kann auf einem befreundetem Modell eingesetzt werden.
+|image:Grafiken/Kraft/ZielModell.svg[Modell]
+|Modell
+|Die Kraft kann auf einem anderen Modell eingesetzt werden.
 
 |image:Grafiken/Kraft/ZielNutzer.svg[Nutzer]
 |Nutzer
-|Die Kraft kann auf den Nutzer eingesetzt werden.
+|Die Kraft kann auf dem Nutzer eingesetzt werden.
 
 |===
 
