@@ -1601,7 +1601,7 @@ Sie ignorieren Bedrohungen, nutzen aber das Gelände entsprechend ihrer <<Bewegu
 Das heißt, sie springen in ihrer Panik nicht sinnlos von Gebäuden etc.
 
 Am Ende ihrer Initiativephase kann für sie ein erneuter Paniktest durchgeführt werden.
-Wenn er gelingt reißt sich das Modell zusammen und der Panikmarker wird entfernt.
+Wenn er gelingt, wird der Panikmarker entfernt.
 
 ==== Modifikatoren für Paniktests
 
