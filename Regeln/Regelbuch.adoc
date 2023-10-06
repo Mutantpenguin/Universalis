@@ -2618,6 +2618,12 @@ Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch 
 
 Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln können und somit nicht als Drohnen funktionieren.
 
+.{nbsp}
+====
+* In einer Fantasywelt sind fliegende "Orbs" oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
+* Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
+====
+
 === Kontroller
 
 (((Kontroller)))
