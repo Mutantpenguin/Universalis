@@ -109,13 +109,13 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 ## Kräfte
 
-!!! check Ausgeweitetes Blockieren
-
-    Der Wahrnehmungsbereich wird zum Blockieren von Kräften verdoppelt.
-
 !!! fail Chaotische Gabe
 
     Die Auswahl der Kräfte vor Spielbeginn passiert zufällig.
+
+!!! check Fernblockade
+
+    Zum Blockieren von Kräften wird der Wahrnehmungsbereich verdoppelt.
 
 !!! check Fernwirkung
 
