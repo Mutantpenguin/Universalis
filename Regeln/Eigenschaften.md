@@ -210,10 +210,10 @@ Dies ist ein Platzhalter der gedanklich gegen die korrekte Stufe (über die das 
 
 !!! cite Automaton
 
-    Besteht automatisch jeden EH-Test.
+    Besteht automatisch jeden Paniktest.
     
-    Wenn das Modell eliminiert wird explodiert es mit einem Radius in Höhe der KO.
-    Der Schadenstyp ist Schlag in Stufe 2 und die Stärke entspricht der Konstitution.
+    Wenn das Modell eliminiert wird explodiert es.
+    Radius und Stärke entsprechen der KO.
     Der Schaden liegt bei KO geteilt durch 2 (abgerundet).
     Zusätzlich wirkt der Schadenseffekt „Explosiv“.
 
