@@ -2616,7 +2616,7 @@ Außerdem werden AGI und NK um 1 verringert.
 Unter Drohnen wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
 Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch den <<Kontroller>>.
 
-Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln können und somit nicht als Drohnen funktionieren.
+Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Drohnen gelten.
 
 .{nbsp}
 ====
@@ -2627,23 +2627,25 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative handeln 
 === Kontroller
 
 (((Kontroller)))
-Unter Kontroller versteht man alle Modelle denen eine Drohne zugeordnet ist.
-Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
-Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
+Unter Kontrollern versteht man alle Modelle denen eine Drohne zugeordnet werden kann.
+Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Drohnen ihm zugeordnet werden können.
 
 Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
-Seine Eigenschaften werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
-
-Einem Kontroller kann pro 3 Punkte EH jeweils eine Drohne zugeordnet werden.
+Eigenschaften eines Kontrollers werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
 
 .{nbsp}
 ====
-Ein Modell verfügt über eine EH von 5.
-Ihm kann also nur 1 Drohne zugeordnet werden.
-
-Mit einer EH von 6 könnten ihm 2 Drohnen zugeordnet werden.
+* Eine Hexe hat die Eigenschaft "Vertrauter II". Sie darf dadurch 2 zugeordnete Drohnen haben.
+* Mit dem "R3MOTE α" Fernsteuerdeck kann ein Straßensamurai 1 zugeordnete Drohne haben.
+* Ein Prospektor verfügt über 3 "Lenk-Module" für seien Anzug und kann damit 3 zugeordnete Drohnen haben.
 ====
+
+=== Zuordnung von Drohnen
+
+(((Drohnen zuordnen)))
+Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
+Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
 === Drohnen ohne Kontroller
 
