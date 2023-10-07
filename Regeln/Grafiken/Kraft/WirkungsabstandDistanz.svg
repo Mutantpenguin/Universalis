@@ -7,8 +7,8 @@
    viewBox="0 0 9.375 9.375"
    version="1.1"
    id="svg9630"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="ReichweiteDistanz.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="WirkungsabstandDistanz.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -27,15 +27,17 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.599972"
-     inkscape:cx="77.188851"
-     inkscape:cy="55.313468"
+     inkscape:zoom="9.0508084"
+     inkscape:cx="34.693034"
+     inkscape:cy="10.551544"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="-8"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g17518"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs9627" />
   <g
@@ -43,33 +45,32 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-94.863725,-83.949471)">
+    <rect
+       y="83.949471"
+       x="94.863724"
+       height="9.375"
+       width="9.375"
+       id="rect1945-0"
+       style="fill:none;stroke-width:0.264583" />
     <g
-       id="g2252"
-       transform="matrix(0.26458333,0,0,0.26458333,-4.7026365,-79.790452)">
-      <rect
-         y="618.85956"
-         x="376.31381"
-         height="35.433071"
-         width="35.433071"
-         id="rect1945-0"
-         style="fill:none" />
+       id="g17518"
+       transform="matrix(0.39001259,0,0,0.39001259,-54.125598,-203.11388)">
       <g
-         id="g17525"
-         transform="translate(-6.8306923e-5,-111.47885)">
+         id="g2">
         <rect
-           style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"
-           id="rect16448"
-           width="30.110001"
-           height="30.110001"
-           x="378.9754"
-           y="732.99994"
-           ry="2.7954218" />
+           y="736.03613"
+           x="382.01157"
+           height="24.037685"
+           width="24.037685"
+           id="rect4"
+           style="fill:none;stroke-width:0.678396" />
         <g
-           id="g17518">
+           id="g1">
           <path
-             style="fill:none;stroke:#000000;stroke-width:2.89;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.89, 2.89;stroke-dashoffset:0;stroke-opacity:1"
-             d="M 403.22633,738.85902 384.13445,757.9509"
-             id="path16483" />
+             style="color:#000000;fill:#000000;stroke-dasharray:2.88965, 2.88965;stroke-dashoffset:4.33448;-inkscape-stroke:none"
+             d="m 398.11914,741.92383 -2.04492,2.04297 2.04492,2.04297 2.04297,-2.04297 z m -4.08789,4.08594 -2.04297,2.04296 2.04297,2.04493 2.04297,-2.04493 z m -4.08594,4.08789 -2.04297,2.04296 2.04297,2.04297 2.04297,-2.04297 z"
+             id="path16483"
+             sodipodi:nodetypes="ccccccccccccccc" />
           <path
              id="path16598"
              style="color:#000000;fill:#000000;-inkscape-stroke:none"

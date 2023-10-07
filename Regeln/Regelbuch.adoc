@@ -2683,11 +2683,12 @@ Sobald eine Drohne <<Eliminiert,eliminiert>> wurde kommt es zu einer Rückkopplu
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO der Drohne.
 
-== Disziplinen
+== Kräfte & Disziplinen
 
+(((Kräfte)))
 (((Disziplinen)))
-In Universalis wird alles was andernorts normalerweise als PSI, Magie, Thaumaturgie, usw. bezeichnet wird "Kräfte" genannt.
-Sie sind in sogenannten "Disziplinen" organisiert welche die ungefähre Art der dazugehörigen Kräfte vorgeben.
+In Universalis wird alles was andernorts normalerweise als PSI, Magie, Thaumaturgie, usw. bezeichnet wird _Kräfte_ genannt.
+Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der dazugehörigen Kräfte vorgeben.
 
 Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft dargestellt werden.
 
@@ -2707,19 +2708,14 @@ Jeder Spieler entscheidet <<Vorbereiten der Gruppe,vor Spielbeginn>>, welche Kr�
 .{nbsp}
 ====
 Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
-Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt 4 verschiedene Kräfte mit ins Spiel nehmen zu können.
+Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
 ====
 
 === Kräfte
 
-(((Kräfte)))
-Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
+// TODO Beschreiben, was eine Kraft ist.
 
-// TODO Beispielkarte für Kräfte
-
-image::Grafiken/Abbildungen/kraft_beispiel.svg[Kraft Beispiel,align=center]
-
-Jede Kraftkarte kann die folgenden Merkmale besitzen:
+Kräfte verfügen über die Merkmale AP-Kosten, Attribut, Ziel, Wirkungsabstand, TP-Verlust und Dauer.
 
 ==== AP-Kosten
 
@@ -2802,7 +2798,7 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 [%unbreakable%header,cols="^1,^1",frame=ends]
 |===
 
-|Misserfolg
+|bei Misserfolg
 |Automatisch
 
 |image:Grafiken/Kraft/SchadenMisserfolg.svg[Misserfolg]
@@ -2829,6 +2825,25 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 |image:Grafiken/Kraft/DauerSofort.svg[Sofort]
 |image:Grafiken/Kraft/DauerDauerhaft.svg[Dauerhaft]
+
+|===
+
+=== Aufbau der Kraftkarte
+
+Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
+
+// TODO Beispielkarte für Kräfte
+
+image::Grafiken/Abbildungen/kraft_beispiel.svg[Kraft Beispiel,align=center]
+
+[%unbreakable,cols="1,1",frame=ends]
+|===
+
+|1. <<TODO>>
+|9. <<TODO>>
+
+|2. TODO
+|10. <<TODO>>
 
 |===
 
