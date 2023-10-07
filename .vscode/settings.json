@@ -2,5 +2,9 @@
     "markdown.styles": [
         "markdown.css"
     ],
-    "markdownExtended.tocLevels": [2,3]
+    "markdownExtended.tocLevels": [
+        2,
+        3
+    ],
+    "asciidoc.preview.style": ".\\\\Regeln\\\\style\\\\html-theme.css"
 }
