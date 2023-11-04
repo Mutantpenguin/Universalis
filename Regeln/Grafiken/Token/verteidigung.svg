@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    sodipodi:docname="verteidigung.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    id="svg7547"
    version="1.1"
    viewBox="0 0 10 10"
@@ -20,7 +20,7 @@
      inkscape:document-rotation="0"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-height="1009"
      inkscape:window-width="1920"
      fit-margin-bottom="0"
@@ -30,8 +30,8 @@
      showgrid="false"
      inkscape:current-layer="g912"
      inkscape:document-units="mm"
-     inkscape:cy="13.700194"
-     inkscape:cx="24.464632"
+     inkscape:cy="13.668627"
+     inkscape:cx="24.496199"
      inkscape:zoom="15.839192"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -72,7 +72,7 @@
          sodipodi:nodetypes="cccccc"
          inkscape:connector-curvature="0"
          id="path884"
-         d="m -163.15089,-130.33461 -5.86301,-2e-5 v 4.98552 c 1e-5,1.24541 2.93151,2.31624 2.93151,2.31624 0,0 2.9315,-1.07082 2.9315,-2.31624 z"
+         d="m -163.15088,-130.96938 -5.86301,-2e-5 v 4.98552 c 1e-5,1.24541 2.93151,2.31624 2.93151,2.31624 0,0 2.9315,-1.07082 2.9315,-2.31624 z"
          style="fill:#468858;fill-opacity:1;stroke:none;stroke-width:0.34388;stroke-miterlimit:4;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
