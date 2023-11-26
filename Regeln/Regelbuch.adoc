@@ -2341,7 +2341,7 @@ Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegen
 ==== Größenunterschiede
 
 (((Nahkampf, Größenunterschiede)))
-Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +1 auf seinen NK-Wurf für jede Stufe des Unterschieds.
+Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +2 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 Siehe auch <<Größenprofil>>.
 
 === Nahkampf mit getarnten Modellen
