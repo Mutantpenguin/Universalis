@@ -95,7 +95,7 @@ image:Grafiken/Abbildungen/w6_rot.svg[W6 rot,50]
 |<<Brennen>>
 
 |image:Grafiken/Token/feuerbereitschaft.svg[Feuerbereitschaft,40]
-|<<Aktionen: Fernkampf,Feuerbereitschaft>>
+|<<Fernkampf-Aktionen,Feuerbereitschaft>>
 
 |image:Grafiken/Token/panik.svg[Panik,40]
 |<<Panik>>
@@ -116,7 +116,7 @@ image:Grafiken/Abbildungen/w6_rot.svg[W6 rot,50]
 |<<Tarnung>>
 
 |image:Grafiken/Token/verteidigung.svg[Verteidigung,40]
-|<<Aktionen: Nahkampf,Verteidigung>>
+|<<Nahkampf-Aktionen,Verteidigung>>
 
 |===
 +
@@ -149,8 +149,6 @@ Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwende
 
 Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
 So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
-
-=== Aufbau der Einheitenkarte
 
 image::Grafiken/Abbildungen/einheitenkarte_übersicht.svg[Aufbau Einheitenkarte,align=center]
 
@@ -233,6 +231,7 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
 |===
 
+[[Attribute]]
 === Attribute
 
 (((Attribute)))
@@ -416,6 +415,7 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 == Grundregeln
 
+[[Aktionspunkte]]
 === Aktionspunkte
 
 (((Aktionspunkte)))
@@ -487,6 +487,7 @@ Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
 Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
 ====
 
+[[Gefahrenbereich]]
 === Gefahrenbereich
 
 (((Gefahrenbereich)))
@@ -608,7 +609,7 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
 * Zuordnen von <<Kontroller,Kontrollern>>
-* Auswahl der <<Auswahl von Kräften,Kräfte>>
+* Auswahl der <<Kraft-Auswahl,Kräfte>>
 
 === Aufstellen der Modelle
 
@@ -662,7 +663,7 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hat
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-* eventuelle Token für <<Schnelle Bewegungen,schnelle Bewegung>>, <<Aktionen: Nahkampf,Verteidigung>> oder <<Aktionen: Fernkampf,Feuerbereitschaft>> werden entfernt
+* eventuelle Token für <<Schnelle Bewegungen,schnelle Bewegung>>, <<Nahkampf-Aktionen,Verteidigung>> oder <<Fernkampf-Aktionen,Feuerbereitschaft>> werden entfernt
 * eventuelle <<Vergiftung>> kommt zur Anwendung
 * eventuelles <<Brennen>> kommt zur Anwendung
 
@@ -711,7 +712,7 @@ Sie sind an folgendem Symbol zu erkennen:
 
 image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
 
-=== Übersicht Aktionen und Reaktionen
+=== Übersicht
 
 [%unbreakable%header,cols="1,^1,^1",frame=ends]
 |===
@@ -721,32 +722,32 @@ image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
 |Reaktionen
 
 |Ausrüstung
-|<<Aktionen: Ausrüstung,⊙>>
+|<<Ausrüstung-Aktionen,⊙>>
 |
 
 |Bewegen
-|<<Aktionen: Bewegung,⊙>>
-|<<Reaktionen: Bewegung,⊙>>
+|<<Bewegung-Aktionen,⊙>>
+|<<Bewegung-Reaktionen,⊙>>
 
 |Eigenschaften
-|<<Aktionen: Eigenschaften,⊙>>
+|<<Eigenschaften-Aktionen,⊙>>
 |
 
 |Fernkampf
-|<<Aktionen: Fernkampf,⊙>>
-|<<Reaktionen: Fernkampf,⊙>>
+|<<Fernkampf-Aktionen,⊙>>
+|<<Fernkampf-Reaktionen,⊙>>
 
 |Kräfte
-|<<Aktionen: Kräfte,⊙>>
-|<<Reaktionen: Kräfte,⊙>>
+|<<Kräfte-Aktionen,⊙>>
+|<<Kräfte-Reaktionen,⊙>>
 
 |Nahkampf
-|<<Aktionen: Nahkampf,⊙>>
-|<<Reaktionen: Nahkampf,⊙>>
+|<<Nahkampf-Aktionen,⊙>>
+|<<Nahkampf-Reaktionen,⊙>>
 
 |Tarnung
-|<<Aktionen: Tarnung,⊙>>
-|<<Reaktionen: Tarnung,⊙>>
+|<<Tarnung-Aktionen,⊙>>
+|<<Tarnung-Reaktionen,⊙>>
 
 |===
 
@@ -758,7 +759,8 @@ Außerdem können sie über eventuelle <<Profilmodifikatoren>> verfügen.
 
 Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Disziplinen,Kraft>> dargestellt werden.
 
-=== Aktionen: Eigenschaften
+[[Eigenschaften-Aktionen]]
+=== Aktionen
 
 (((Aktionen, Eigenschaft anwenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -870,7 +872,8 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 (((Bewegungstest)))
 Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen durchgeführt werden.
 
-=== Aktionen: Bewegung
+[[Bewegung-Aktionen]]
+=== Aktionen
 
 (((Aktionen, Drehen)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -908,7 +911,7 @@ Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es
 3+<|
 Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe. Die eigentliche Bewegung ist somit kostenlos.
 
-Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem <<Aktionen: Nahkampf,Angriff>>.
+Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem <<Nahkampf-Aktionen,Angriff>>.
 
 |===
 
@@ -966,7 +969,8 @@ Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind 
 
 |===
 
-=== Reaktionen: Bewegung
+[[Bewegung-Reaktionen]]
+=== Reaktionen
 
 (((Reaktionen, Beschuss Ausweichen)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -1399,7 +1403,7 @@ Der Angreifer dürfte nun normalerweise seine Stärke für den Verletzungswurf v
 Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
 ====
 
-=== Übersicht der Schadenseffekte
+=== Übersicht
 
 ==== Für Waffen und Rüstungen
 
@@ -1611,7 +1615,7 @@ Das heißt, sie springen in ihrer Panik nicht sinnlos von Gebäuden etc.
 Am Ende ihrer Initiativephase kann für sie ein erneuter Paniktest durchgeführt werden.
 Wenn er gelingt, wird der Panikmarker entfernt.
 
-==== Modifikatoren für Paniktests
+==== Modifikatoren
 
 Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikatoren zur Anwendung.
 Modelle in Panik werden hierbei ignoriert.
@@ -1639,6 +1643,7 @@ Modelle in Panik werden hierbei ignoriert.
 
 |===
 
+[[Schock]]
 === Schock
 
 (((Schock)))
@@ -1682,7 +1687,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
-Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliziert, bei <<Unhandliche Waffen,unhandlichen>> Waffen mit 0,5 (aufgerundet).
+Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliziert, bei <<Waffen-Unhandlich,unhandlichen>> Waffen mit 0,5 (aufgerundet).
 
 .{nbsp}
 ====
@@ -1704,11 +1709,12 @@ WK I steht somit für Waffen der Klasse 1.
 Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
+[[Waffen-Unhandlich]]
 === Unhandliche Waffen
 
 (((Unhandlich, Waffen)))
 (((Waffen, Unhandlich)))
-Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
+Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
 Auf der Einheitenkarte wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
 
@@ -1721,7 +1727,7 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
 
 image::Grafiken/Waffe/nachladen.svg[Nachladen,40,align=center]
 
-Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion <<Aktionen: Fernkampf, Nachladen>> durchgeführt wurde:
+Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion <<Fernkampf-Aktionen, Nachladen>> durchgeführt wurde:
 
 image::Grafiken/Token/nachladen.svg[Nachladen,40,align=center]
 
@@ -1837,18 +1843,19 @@ Das Gewicht von selbsttragenden Rüstungen wird für die <<Tragkraft>> eines Mod
 (((Fernkampf)))
 Unter Fernkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der auf Distanz passiert.
 
-=== Durchführung des Fernkampfs
+=== Durchführung
 
 Um einen Fernkampf durchzuführen muss zunächst geprüft werden ob eine <<Sichtlinie>> zum gewählten Ziel existiert.
 
 Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem <<Reichweite,Reichweitenband>> den FK-Modifikator zu bestimmen bzw. ob das Ziel überhaupt in Reichweite ist.
 
-Gegebenenfalls kommen weitere <<Modifikatoren im Fernkampf,Modifikatoren>> zur Anwendung.
+Gegebenenfalls kommen weitere <<Fernkampf-Modifikatoren,Modifikatoren>> zur Anwendung.
 
 Nun wird ein FK-Wurf für das Modell durchgeführt.
 Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verletzungs- und Rüstungswurf>> führt.
 
-=== Aktionen: Fernkampf
+[[Fernkampf-Aktionen]]
+=== Aktionen
 
 (((Aktionen, Normaler Schuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -1928,7 +1935,8 @@ Der Token wird danach vom Modell entfernt.
 
 |===
 
-=== Reaktionen: Fernkampf
+[[Fernkampf-Reaktionen]]
+=== Reaktionen
 
 (((Reaktionen, Reaktionsfeuer)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -1945,7 +1953,7 @@ Das Modell verliert danach automatisch seine Feuerbereitschaft.
 .^|icon:bolt[]
 2+<a|
 * Das Modell muss sich in Feuerbereitschaft befinden.
-* Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige <<Aktionen: Bewegung,Bewegungsaktion>> innerhalb des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> durchführt.
+* Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige <<Bewegung-Aktionen,Bewegungsaktion>> innerhalb des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> durchführt.
 * Kann nicht mit <<Indirekter Fernkampf,indirektem Fernkampf>> genutzt werden.
 
 |===
@@ -1961,9 +1969,9 @@ Im Fernkampf dürfen nur Waffen mit einem <<Reichweite,Reichweitenband>>, nicht 
 (((Trefferzonen, im Fernkampf)))
 Wenn das Ziel über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
-=== Auswahl eines Ziels
+=== Zielauswahl
 
-(((Auswahl eines Ziels)))
+(((Zielauswahl)))
 Damit ein Ziel beschossen werden kann muss eine <<Sichtlinie>> zu ihm gezogen werden können.
 
 Sollte sich im <<Gefahrenbereich>> keine <<Direkte Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
@@ -2010,7 +2018,8 @@ Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
 (((Fernkampf, getarnte Modelle)))
 Es können nur <<Aufklärung,aufgeklärte>> getarnte Modelle beschossen werden.
 
-=== Modifikatoren im Fernkampf
+[[Fernkampf-Modifikatoren]]
+=== Modifikatoren
 
 ==== Größe des Ziels
 
@@ -2059,7 +2068,8 @@ Der durch eventuelle <<Deckung>> angewandte Modifikator.
 
 |===
 
-==== Unhandliche Waffen im Fernkampf
+[[Fernkampf-Unhandlich]]
+==== Unhandliche Waffen
 
 (((Unhandlich, Waffen im Fernkampf)))
 (((Fernkampf, Unhandliche Waffen)))
@@ -2081,7 +2091,7 @@ Auf Ziele, welche sich in <<Schnelle Bewegungen,schneller Bewegung>> befinden, g
 (((Fernkampf, Indirekt)))
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 
-Er ist nicht mit der Aktion <<Reaktionen: Fernkampf,Reaktionsfeuer>> kombinierbar.
+Er ist nicht mit der Aktion <<Fernkampf-Reaktionen,Reaktionsfeuer>> kombinierbar.
 
 Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen <<Geländeteile>> mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
 
@@ -2173,25 +2183,25 @@ Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und R
 |Aktion
 |Reaktion
 
-|<<Aktionen: Nahkampf,Angriff>>
-|<<Reaktionen: Nahkampf,Gegenangriff>>
+|<<Nahkampf-Aktionen,Angriff>>
+|<<Nahkampf-Reaktionen,Gegenangriff>>
 
-|<<Aktionen: Nahkampf,Verwegener Angriff>>
-|<<Reaktionen: Nahkampf,Gelegenheitsangriff>>
+|<<Nahkampf-Aktionen,Verwegener Angriff>>
+|<<Nahkampf-Reaktionen,Gelegenheitsangriff>>
 
-|<<Aktionen: Bewegung,Aus Nahkampf lösen>>
+|<<Bewegung-Aktionen,Aus Nahkampf lösen>>
 |
 
-|<<Aktionen: Kräfte,Kraft einsetzen>>
+|<<Kräfte-Aktionen,Kraft einsetzen>>
 |
 
 |===
 
-=== Durchführung des Nahkampfes
+=== Durchführung
 
 Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
-Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle <<Modifikatoren im Nahkampf,Modifikatoren>> zur Anwendung kommen können.
+Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle <<Nahkampf-Modifikatoren,Modifikatoren>> zur Anwendung kommen können.
 
 . Wenn das *angreifende* Modell gewinnt hat es 3 Möglichkeiten:
 ** einen <<Schaden & Rüstung,Treffer>> mit der zuvor ausgewählten Nahkampfwaffe landen
@@ -2207,7 +2217,7 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für de
 
 Modelle können nur dann zurückgestoßen werden wenn ihr <<Größenprofil>> gleich oder kleiner des stoßenden Modells ist.
 
-Ein Modell zurück zu stoßen bedeutet, mit ihm eine <<Aktionen: Bewegung,Bewegungsaktion>> durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
+Ein Modell zurück zu stoßen bedeutet, mit ihm eine <<Bewegung-Aktionen,Bewegungsaktion>> durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
 Diese Bewegung kostet keine AP.
 
 Dabei kommen die folgenden Ausnahmen zur Anwendung:
@@ -2216,7 +2226,8 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 * Das Modell darf dadurch in Basekontakt mit anderen gegnerischen Modellen bewegt werden.
 * Wenn es über eine Kante bewegt wird <<Herunterfallen,fällt>> es herunter.
 
-=== Aktionen: Nahkampf
+[[Nahkampf-Aktionen]]
+=== Aktionen
 
 (((Aktionen, Angriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2258,7 +2269,7 @@ Es verliert sie dann automatisch.
 Sie wird am Modell mit dem Verteidigungs-Token dargestellt: +
 image:Grafiken/Token/verteidigung.svg[Verteidigung,40,align=center]
 
-Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen <<Bonus für den Angreifer,Bonus>> für eine <<Aktionen: Bewegung,Angriffsbewegung>>.
+Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen <<Bonus für den Angreifer,Bonus>> für eine <<Bewegung-Aktionen,Angriffsbewegung>>.
 Das Modell verliert danach automatisch seine Verteidigung.
 
 Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
@@ -2271,7 +2282,8 @@ Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
 
 |===
 
-=== Reaktionen: Nahkampf
+[[Nahkampf-Reaktionen]]
+=== Reaktionen
 
 (((Reaktionen, Gegenangriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2313,12 +2325,13 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 (((Trefferzonen, im Nahkampf)))
 Wenn der Verteidiger über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
-=== Modifikatoren im Nahkampf
+[[Nahkampf-Modifikatoren]]
+=== Modifikatoren
 
 ==== Bonus für den Angreifer
 
 (((Nahkampf, Bonus für den Angreifer)))
-Wenn der Angreifer den Angriff durch eine <<Aktionen: Bewegung,Angriffsbewegung>> einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
+Wenn der Angreifer den Angriff durch eine <<Bewegung-Aktionen,Angriffsbewegung>> einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
 ==== Multiple Gegner
@@ -2326,13 +2339,14 @@ Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 (((Nahkampf, Multiple Gegner)))
 Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
-==== Tarnung im Nahkampf
+==== Tarnung
 
 (((Nahkampf, Tarnung)))
 (((Tarnung, Nahkampf)))
 Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
 
-==== Unhandliche Waffen und Ausrüstung im Nahkampf
+[[Nahkampf-Unhandlich]]
+==== Unhandliche Waffen und Ausrüstung
 
 (((Unhandlich, Waffen und Ausrüstung im Nahkampf)))
 (((Nahkampf, Unhandliche Waffen und Ausrüstung)))
@@ -2382,6 +2396,7 @@ Für einen Infanteristen mit einer KO von 4.
 image::Grafiken/Abbildungen/unbewaffnet.jpg[unbewaffnet,500]
 ====
 
+[[Tarnung]]
 == Tarnung
 
 (((Tarnung)))
@@ -2394,7 +2409,7 @@ image::Grafiken/Token/tarnung.svg[Tarnung,40,align=center]
 
 Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.
 
-=== Voraussetzungen für Tarnung
+=== Voraussetzungen
 
 [%unbreakable%header,cols="^1,6",frame=ends]
 |===
@@ -2410,7 +2425,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 |===
 
-=== Vorteile von Tarnung
+=== Vorteile
 
 (((Tarnung, Vorteile)))
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
@@ -2439,7 +2454,8 @@ Wenn ein getarntes Modell einen Angriff einleitet oder eine Fernkampfwaffe abfeu
 
 Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ ausgeführt werden.
 
-=== Aktionen: Tarnung
+[[Tarnung-Aktionen]]
+=== Aktionen
 
 (((Aktionen, Aufklären)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2458,7 +2474,8 @@ Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
 
 |===
 
-=== Reaktionen: Tarnung
+[[Tarnung-Reaktionen]]
+=== Reaktionen
 
 (((Reaktionen, Aufklärungsunterstützung)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2483,7 +2500,8 @@ Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder R�
 
 Ausrüstung kann über <<Profilmodifikatoren>> verfügen.
 
-=== Aktionen: Ausrüstung
+[[Ausrüstung-Aktionen]]
+=== Aktionen
 
 (((Aktionen, Ausrüstung verwenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2531,11 +2549,12 @@ Für ein medizinisches Spray das 3x verwendet werden kann.
 image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüstung,500]
 ====
 
+[[Ausrüstung-Unhandlich]]
 === Unhandliche Ausrüstung
 
 (((Unhandlich, Ausrüstung)))
 (((Ausrüstung, Unhandlich)))
-Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Unhandliche Waffen im Fernkampf,Fernkampf>> und <<Unhandliche Waffen und Ausrüstung im Nahkampf,Nahkampf>>.
+Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
 Auf der Einheitenkarte wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
@@ -2546,7 +2565,7 @@ Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 
 
 Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
 
-=== Kolosse im Fern- und Nahkampf
+=== Fern- und Nahkampf
 
 Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
 
@@ -2649,7 +2668,7 @@ Eigenschaften eines Kontrollers werden nur auf ihn selber angewendet, es sei den
 * Ein Prospektor verfügt über 3 "Lenk-Module" für seien Anzug und kann damit 3 zugeordnete Drohnen haben.
 ====
 
-=== Zuordnung von Drohnen
+=== Zuordnung
 
 (((Drohnen zuordnen)))
 Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
@@ -2662,39 +2681,39 @@ Drohnen, deren Kontroller nicht mehr auf dem Spielfeld präsent ist oder der <<E
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
-=== AP von Drohnen
+=== Aktionspunkte
 
 Jede Drohne verfügt über 2 AP.
 Für sie können weitere AP verwendet werden indem die AP des zugeordneten Kontrollers ausgegeben werden.
 
-=== Attribute von Drohnen
+=== Attribute
 
 Drohnen verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Kontrollers.
 
-=== Gefahrenbereich von Drohnen
+=== Gefahrenbereich
 
 Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
 Daraus ergibt sich, dass eine <<Direkte Bedrohung,direkte Bedrohung>> für sie nicht existiert.
 Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Kontrollers aktiv zu werden.
 
-=== Schocks bei Drohnen
+=== Schock
 
 <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
 Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Drohnen zu entfernen.
 
-=== Zerstörung einer Drohne
+=== Eliminierung
 
 Sobald eine Drohne <<Eliminiert,eliminiert>> wurde kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO der Drohne.
 
-== Kräfte & Disziplinen
+== Disziplinen & Kräfte
 
-(((Kräfte)))
 (((Disziplinen)))
+(((Kräfte)))
 In Universalis wird alles was andernorts normalerweise als PSI, Magie, Thaumaturgie, usw. bezeichnet wird _Kräfte_ genannt.
 Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der dazugehörigen Kräfte vorgeben.
 
@@ -2706,7 +2725,8 @@ Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft darg
 * Bei Cyberpunk wäre eine Disziplin wie "Psychokinese" denkbar die dann Kräfte wie "Würgegriff" und "Schweben" vereint.
 ====
 
-=== Auswahl von Kräften
+[[Kraft-Auswahl]]
+=== Auswahl
 
 Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
@@ -2836,7 +2856,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 |===
 
-=== Aufbau der Kraftkarte
+=== Kraftkarte
 
 Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
 
@@ -2855,7 +2875,8 @@ image::Grafiken/Abbildungen/kraft_beispiel.svg[Kraft Beispiel,align=center]
 
 |===
 
-=== Aktionen: Kräfte
+[[Kräfte-Aktionen]]
+=== Aktionen
 
 (((Aktionen, Kraft einsetzen)))
 [%unbreakable%header,cols="^1,^4,^1"]
@@ -2893,7 +2914,8 @@ Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kra
 
 |===
 
-=== Reaktionen: Kräfte
+[[Kräfte-Reaktionen]]
+=== Reaktionen
 
 (((Reaktionen, Kraft blockieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
