@@ -2,7 +2,7 @@
 Markus Lobedann <markus.lobedann@gmail.com>
 :doctype: book
 :description: Ein universeller Tabletop Skirmisher.
-:revnumber: 0.5.0
+:revnumber: 0.6.0
 :data-uri: {docdir}
 :toc: left
 :toclevels: 2
