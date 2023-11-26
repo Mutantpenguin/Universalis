@@ -1533,18 +1533,6 @@ Wenn es ausserdem nur noch kritische <<Trefferpunkte>> besitzt verfällt es nun 
 (((Zustände)))
 Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinden.
 
-=== Eliminiert
-
-(((Eliminiert)))
-(((Zustände, Eliminiert)))
-Eliminierte Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
-
-Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
-
-Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
-
-Weiterhin <<Drohnen ohne Kontroller,verfallen>> eventuell zugeordnete Drohnen automatisch in Panik.
-
 === Brennen
 
 (((Brennen)))
@@ -1577,6 +1565,18 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 ==== Hilfe durch befreundete Modelle
 
 Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bonus von +2 auf den Wurf.
+
+=== Eliminiert
+
+(((Eliminiert)))
+(((Zustände, Eliminiert)))
+Eliminierte Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
+
+Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
+
+Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
+
+Weiterhin <<Drohnen ohne Kontroller,verfallen>> eventuell zugeordnete Drohnen automatisch in Panik.
 
 === Kritisch
 
