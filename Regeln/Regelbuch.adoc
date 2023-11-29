@@ -722,32 +722,32 @@ image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
 |Reaktionen
 
 |Ausrüstung
-|<<Ausrüstung-Aktionen,⊙>>
+|image:Grafiken/Allgemein/aktion.svg[link=#Ausrüstung-Aktionen]
 |
 
 |Bewegen
-|<<Bewegung-Aktionen,⊙>>
-|<<Bewegung-Reaktionen,⊙>>
+|image:Grafiken/Allgemein/aktion.svg[link=#Bewegung-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Bewegung-Reaktionen]
 
 |Eigenschaften
-|<<Eigenschaften-Aktionen,⊙>>
+|image:Grafiken/Allgemein/aktion.svg[link=#Eigenschaften-Aktionen]
 |
 
 |Fernkampf
-|<<Fernkampf-Aktionen,⊙>>
-|<<Fernkampf-Reaktionen,⊙>>
+|image:Grafiken/Allgemein/aktion.svg[link=#Fernkampf-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Fernkampf-Reaktionen]
 
 |Kräfte
-|<<Kräfte-Aktionen,⊙>>
-|<<Kräfte-Reaktionen,⊙>>
+|image:Grafiken/Allgemein/aktion.svg[link=#Kräfte-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Kräfte-Reaktionen]
 
 |Nahkampf
-|<<Nahkampf-Aktionen,⊙>>
-|<<Nahkampf-Reaktionen,⊙>>
+|image:Grafiken/Allgemein/aktion.svg[link=#Nahkampf-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Nahkampf-Reaktionen]
 
 |Tarnung
-|<<Tarnung-Aktionen,⊙>>
-|<<Tarnung-Reaktionen,⊙>>
+|image:Grafiken/Allgemein/aktion.svg[link=#Tarnung-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Tarnung-Reaktionen]
 
 |===
 
