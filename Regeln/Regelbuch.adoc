@@ -2716,7 +2716,7 @@ Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Run
 
 === Eliminierung
 
-Sobald eine Drohne <<Eliminiert,eliminiert>> wurde kommt es zu einer Rückkopplung auf den Kontroller die ihm Schaden zufügen kann.
+Sobald eine Drohne <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Kontroller, welche ihm Schaden zufügen kann.
 
 Der Kontroller muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO der Drohne.
