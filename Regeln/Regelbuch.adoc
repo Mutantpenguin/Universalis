@@ -332,7 +332,7 @@ Siehe auch <<Bewegung>>.
 (((Trefferpunkte)))
 Sie stehen für die Menge an <<Schadensanwendung,Schaden>>, die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
 
-Auf der Einheitenkarte werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
+Auf der <<Einheitenkarte>> werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
 
 [%unbreakable,cols="h,5",frame=ends]
 |===
@@ -478,7 +478,7 @@ Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
 Wird er jedoch überschritten werden AGI und GK jeweils um 1 verringert.
 Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw.
 
-Auf der Einheitenkarte ist dies bei den Attributen bereits eingerechnet.
+Auf der <<Einheitenkarte>> ist dies bei den Attributen bereits eingerechnet.
 
 .{nbsp}
 ====
@@ -496,7 +496,7 @@ Der Radius in Zentimetern berechnet sich indem die Entschlossenheit von 12 abgez
 
     Radius in cm = 12 - EH
 
-Auf der Einheitenkarte wird der Gefahrenbereich mit diesem Symbol angegeben:
+Auf der <<Einheitenkarte>> wird der Gefahrenbereich mit diesem Symbol angegeben:
 
 image::Grafiken/Modell/gefahrenbereich.svg[Gefahrenbereich,40,align=center]
 
@@ -525,7 +525,7 @@ Die Distanz berechnet sich dabei folgendermaßen:
 
 Im <<Kritisch,Kritischen Zustand>> wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
 
-Auf der Einheitenkarte wird die Distanz des Wahrnehmungsreich mit diesem Symbol angegeben:
+Auf der <<Einheitenkarte>> wird die Distanz des Wahrnehmungsreich mit diesem Symbol angegeben:
 
 image::Grafiken/Modell/wahrnehmungsbereich.svg[Wahrnehmungsbereich,40,align=center]
 
@@ -799,7 +799,7 @@ In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen dar
 Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
 Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
 
-Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
+Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
 
 Bei jeder Verwendung *muss* ein Marker gestrichen werden.
@@ -1531,7 +1531,7 @@ Nun wird die folgende Tabelle konsultiert:
 === Schadensanwendung
 
 (((Schadensanwendung)))
-Wenn Schaden zur Anwendung kommt, müssen entsprechend viele Trefferpunkte auf der Einheitenkarte gestrichen werden.
+Wenn Schaden zur Anwendung kommt, müssen entsprechend viele Trefferpunkte auf der <<Einheitenkarte>> gestrichen werden.
 Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden um diesen Wert verringert.
 
 Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Eliminiert,eliminiert>>.
@@ -1727,7 +1727,7 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 (((Waffen, Unhandlich)))
 Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
-Auf der Einheitenkarte wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
+Auf der <<Einheitenkarte>> wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
 
 image::Grafiken/Waffe/unhandlich.png[unhandlich,40,align=center]
 
@@ -1748,7 +1748,7 @@ image::Grafiken/Token/nachladen.svg[Nachladen,40,align=center]
 (((Waffen, Einmalnutzung)))
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
 
-Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
+Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
 
 Bei jeder Verwendung *muss* ein Marker gestrichen werden.
@@ -1838,7 +1838,7 @@ Rüstungen verfügen über ein <<Rüstungsprofil>> und eventuelle <<Profilmodifi
 
 (((Rüstung, Regeln)))
 Jede Rüstung kann Regeln beinhalten.
-Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
+Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
 
 === Additiver Schutz
 
@@ -1993,7 +1993,7 @@ Sollte sich im <<Gefahrenbereich>> keine <<Direkte Bedrohung>> befinden (welche 
 Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
 X gibt dabei an, wie groß die Reichweitenbänder sind, Y wie oft diese anwendbar sind.
 
-Auf der Einheitenkarte wird dies unter folgendem Symbol ausgewiesen:
+Auf der <<Einheitenkarte>> wird dies unter folgendem Symbol ausgewiesen:
 
 image::Grafiken/Waffe/reichweite.svg[Reichweite,40,align=center]
 
@@ -2129,7 +2129,7 @@ image::Grafiken/Waffe/indirekt.svg[indirekt,40,align=center]
 Waffen können über den Wert „Dauerfeuer“ (DF) verfügen der im Bereich 1-4 liegt.
 Jeder Punkt DF wird hierdurch als 1 zusätzlicher Schuss behandelt.
 
-Auf der Einheitenkarte wird dies mit den folgenden Symbolen ausgewiesen, wobei jedes Symbol für eine Stufe Dauerfeuer steht.
+Auf der <<Einheitenkarte>> wird dies mit den folgenden Symbolen ausgewiesen, wobei jedes Symbol für eine Stufe Dauerfeuer steht.
 
 [.text-center]
 image:Grafiken/Waffe/dauerfeuer_1.png[Dauerfeuer 1,40]
@@ -2163,7 +2163,7 @@ Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 (((Fernkampf, Flächenwaffe)))
 Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
 
-Auf der Einheitenkarte wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in cm angibt.
+Auf der <<Einheitenkarte>> wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in cm angibt.
 
 image::Grafiken/Waffe/radius.svg[Radius,40,align=center]
 
@@ -2532,7 +2532,7 @@ Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
 
 (((Ausrüstung, Regeln)))
 Jede Ausrüstung kann Regeln beinhalten.
-Wenn dem so ist werden sie auf der Rückseite der Einheitenkarte ausgegeben.
+Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
 
 === AP-Kosten
 
@@ -2548,7 +2548,7 @@ Sofern keine AP angegeben sind ist auch keine Aktion für die Verwendung notwend
 (((Ausrüstung, Einmalnutzung)))
 Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
 
-Auf der Einheitenkarte ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
+Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet werden kann.
 
 Bei jeder Verwendung *muss* ein Marker gestrichen werden.
@@ -2567,7 +2567,7 @@ image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüst
 (((Ausrüstung, Unhandlich)))
 Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
-Auf der Einheitenkarte wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
+Auf der <<Einheitenkarte>> wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
 == Kolosse
 
