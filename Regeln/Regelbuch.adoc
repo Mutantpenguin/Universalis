@@ -156,28 +156,31 @@ image::Grafiken/Abbildungen/einheitenkarte_übersicht.svg[Aufbau Einheitenkarte,
 |===
 
 |1. <<Trefferpunkte>>
-|9. <<Geschwindigkeit>>
-
-|2. Name des Modells
 |10. <<Eigenschaften>>
 
-|3. <<Attribute>>
+|2. Name des Modells
 |11. <<Waffen>>
 
-|4. <<Wahrnehmungsbereich>>
+|3. <<Attribute>>
 |12. <<Rüstung>>
 
-|5. <<Gefahrenbereich>>
+|4. <<Wahrnehmungsbereich>>
 |13. <<Ausrüstung>>
 
-|6. <<Modell-Typen,Typ des Modells>>
+|5. <<Gefahrenbereich>>
 |14. <<Schadensprofil>>
 
-|7. <<Größenprofil>>
+|6. <<Modell-Typen,Typ des Modells>>
 |15. <<Rüstungsprofil>>
 
-|8. <<Bewegungsart>>
+|7. <<Größenprofil>>
 |16. Punkte
+
+|8. <<Bewegungsart>>
+|17. <<Disziplinen & Kräfte>>
+
+|9. <<Geschwindigkeit>>
+|18. <<Fraktionen>>
 
 |===
 
