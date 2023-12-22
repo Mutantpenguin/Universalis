@@ -22,8 +22,8 @@ ifdef::backend-html5[]
 endif::[]
 ifdef::backend-pdf[]
 :title-logo-image: image::../Grafiken/logo.svg[logo,width=400]
-:pdf-fontsdir: ../Fonts
-:pdf-theme: style/pdf-theme.yml
+:pdf-fontsdir: Fonts
+:pdf-theme: Regeln/style/pdf-theme.yml
 //:media: prepress
 :xrefstyle: basic
 endif::[]
