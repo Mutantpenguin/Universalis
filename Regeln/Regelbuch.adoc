@@ -741,8 +741,8 @@ image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
 |image:Grafiken/Allgemein/reaktion.svg[link=#Fernkampf-Reaktionen]
 
 |Kräfte
-|image:Grafiken/Allgemein/aktion.svg[link=#Kräfte-Aktionen]
-|image:Grafiken/Allgemein/reaktion.svg[link=#Kräfte-Reaktionen]
+|image:Grafiken/Allgemein/aktion.svg[link=#Kraft-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Kraft-Reaktionen]
 
 |Nahkampf
 |image:Grafiken/Allgemein/aktion.svg[link=#Nahkampf-Aktionen]
@@ -2206,7 +2206,7 @@ Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und R
 |<<Bewegung-Aktionen,Aus Nahkampf lösen>>
 |
 
-|<<Kräfte-Aktionen,Kraft einsetzen>>
+|<<Kraft-Aktionen,Kraft einsetzen>>
 |
 
 |===
@@ -2759,11 +2759,13 @@ Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt, 4 versch
 
 Kräfte verfügen über die Merkmale AP-Kosten, Attribut, Ziel, Wirkungsabstand, TP-Verlust und Dauer.
 
+[[Kraft-AP-Kosten]]
 ==== AP-Kosten
 
 (((Kräfte, AP-Kosten)))
 Dies sind die benötigten AP um die Kraft einzusetzen.
 
+[[Kraft-Attribut]]
 ==== Attribut
 
 (((Kräfte, Attribut)))
@@ -2779,6 +2781,7 @@ Sie gibt an wie der <<Attributswurf>> modifiziert wird.
 * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der <<Attributswurf>> auf KO ist damit um 3 erleichtert.
 ====
 
+[[Kraft-Ziel]]
 ==== Ziel
 
 (((Kräfte, Ziel)))
@@ -2805,6 +2808,7 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 |===
 
+[[Kraft-Wirkungsabstand]]
 ==== Wirkungsabstand
 
 (((Kräfte, Wirkungsabstand)))
@@ -2828,6 +2832,7 @@ Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,N
 
 |===
 
+[[Kraft-TP-Verlust]]
 ==== TP-Verlust
 
 (((Kräfte, TP-Verlust)))
@@ -2848,6 +2853,7 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
 |===
 
+[[Kraft-Dauer]]
 ==== Dauer
 
 (((Kräfte, Dauer)))
@@ -2874,22 +2880,26 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
 
-// TODO Beispielkarte für Kräfte
-
-image::Grafiken/Abbildungen/kraft_beispiel.svg[Kraft Beispiel,align=center]
+image::Grafiken/Abbildungen/kraftkarte_übersicht.svg[[Aufbau Kraftkarte,align=center]
 
 [%unbreakable,cols="1,1",frame=ends]
 |===
 
-|1. <<TODO>>
-|9. <<TODO>>
+|1. Bezeichnung
+|5. <<Kraft-TP-Verlust>>
 
-|2. TODO
-|10. <<TODO>>
+|2. Regeln
+|6. <<Kraft-Ziel>>
+
+|3. <<Kraft-AP-Kosten>>
+|7. <<Kraft-Wirkungsabstand>>
+
+|4. <<Kraft-Attribut>>
+|8. <<Kraft-Dauer>>
 
 |===
 
-[[Kräfte-Aktionen]]
+[[Kraft-Aktionen]]
 === Aktionen
 
 (((Aktionen, Kraft einsetzen)))
@@ -2928,7 +2938,7 @@ Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kra
 
 |===
 
-[[Kräfte-Reaktionen]]
+[[Kraft-Reaktionen]]
 === Reaktionen
 
 (((Reaktionen, Kraft blockieren)))
