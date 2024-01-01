@@ -858,7 +858,7 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 |image:Grafiken/Bewegung/rad.svg[Rad,40]
 |Rad
-|Auf dem Geländetyp Straße wird die Bewegung um 2cm erhöht.
+|Auf dem <<Geländetypen,Geländetyp>> Straße wird die Bewegung um 2cm erhöht.
 
 |image:Grafiken/Bewegung/schweben.svg[Schweben,40]
 |Schweben
@@ -1240,9 +1240,10 @@ In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> da
 (((Geländetypen)))
 Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwendet werden.
 
-// TODO Beschreiben, dass dies nur Beispiele sind und von Spielern beliebig erweitert oder abgeändert werden können
+Sie sind nur Beispiele und sollten entsprechend erweitert oder abgeändert werden um ein für das Universum passendes Spielfeld zu schaffen.
 
 // TODO in eigene Datei packen?
+// TODO Und dann auch Beispiele dazu nennen?
 
 .Befestigte Stellung
 ****
