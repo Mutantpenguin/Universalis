@@ -2220,7 +2220,7 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für de
 . Wenn das *angreifende* Modell gewinnt hat es 3 Möglichkeiten:
 ** einen <<Schaden & Rüstung,Treffer>> mit der zuvor ausgewählten Nahkampfwaffe landen
 ** das verteidigende Modell <<Zurückstoßen,zurückstoßen>>
-** eine <<Kräfte,Kraft>> mit dem <<Wirkungsabstand>> Berührung einsetzen
+** eine <<Kräfte,Kraft>> mit der <<Kraft-Reichweite,Reichweite>> _Berührung_ einsetzen
 . Wenn das *verteidigende* Modell gewinnt darf es das angreifende Modell <<Zurückstoßen, zurückstoßen>>.
 . Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
@@ -2757,7 +2757,7 @@ Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt, 4 versch
 
 // TODO Beschreiben, was eine Kraft ist.
 
-Kräfte verfügen über die Merkmale AP-Kosten, Attribut, Ziel, Wirkungsabstand, TP-Verlust und Dauer.
+Kräfte verfügen über die Merkmale AP-Kosten, Attribut, Ziel, Reichweite, TP-Verlust und Dauer.
 
 [[Kraft-AP-Kosten]]
 ==== AP-Kosten
@@ -2808,25 +2808,25 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 |===
 
-[[Kraft-Wirkungsabstand]]
-==== Wirkungsabstand
+[[Kraft-Reichweite]]
+==== Reichweite
 
-(((Kräfte, Wirkungsabstand)))
-Der Wirkungsabstand einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
+(((Kräfte, Reichweite)))
+Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
 
 [%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
 |===
 
-2+|Wirkungsabstand
+2+|Reichweite
 |Bedeutung
 
-|image:Grafiken/Kraft/WirkungsabstandBerührung.svg[Berührung]
+|image:Grafiken/Kraft/ReichweiteBerührung.svg[Berührung]
 |Berührung
 |Für den Einsatz muss Basekontakt bestehen.
 
 Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,Nahkampfangriff>> durchgeführt werden.
 
-|image:Grafiken/Kraft/WirkungsabstandDistanz.svg[Distanz]
+|image:Grafiken/Kraft/ReichweiteDistanz.svg[Distanz]
 |Distanz
 |Die Kraft kann auf Distanz eingesetzt werden.
 
@@ -2892,7 +2892,7 @@ image::Grafiken/Abbildungen/kraftkarte_übersicht.svg[[Aufbau Kraftkarte,align=c
 |6. <<Kraft-Ziel>>
 
 |3. <<Kraft-AP-Kosten>>
-|7. <<Kraft-Wirkungsabstand>>
+|7. <<Kraft-Reichweite>>
 
 |4. <<Kraft-Attribut>>
 |8. <<Kraft-Dauer>>
