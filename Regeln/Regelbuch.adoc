@@ -205,7 +205,7 @@ Dazu gehören:
 === Modell-Typen
 
 (((Modell-Typen)))
-Modelle werden in die Typen Infanterie, Koloss und Telematon unterschieden.
+Modelle werden in die Typen Standard, Koloss und Telematon unterschieden.
 
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
@@ -217,8 +217,8 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 | Beschreibung
 | <<Größenprofil>>
 
-| image:Grafiken/Modell/Infanterie.svg[Infanterie,40]
-| Infanterie
+| image:Grafiken/Modell/Standard.svg[Standard,40]
+| Standard
 | Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.
 | klein bis groß
 
@@ -466,7 +466,7 @@ Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei u
 |===
 
 |Typ
-|Infanterie
+|Standard
 |Telematon
 |Koloss
 
@@ -846,7 +846,7 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 |image:Grafiken/Bewegung/beine.svg[Beine,40]
 |Beine
-|Standard Bewegungsart für Infanterie. Bietet weder spezielle Vorteile noch Nachteile.
+|Die Standard Bewegungsart für Standard-Modelle. Bietet weder spezielle Vorteile noch Nachteile.
 
 |image:Grafiken/Bewegung/flug.svg[Flug,40]
 |Flug
@@ -2384,7 +2384,7 @@ Es können nur <<Aufklärung,aufgeklärte>> Modelle angegriffen werden.
 === Waffenloser Nahkampf
 
 (((Nahkampf, Waffenloser)))
-Infanterie und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
+Standard-Modelle und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
 Die Stärke entspricht der Konstitution.
 Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
@@ -2589,7 +2589,7 @@ Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe de
 
 === Geländeausnutzung
 
-Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Infanterie an diese anschmiegen können.
+Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Standard-Modelle an diese anschmiegen können.
 
 Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
 
@@ -2613,7 +2613,7 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 * *Rumpf*
 +
-Wie bei Infanterie.
+Wie bei Standard-Modellen.
 Siehe <<Kritisch,Kritischer Zustand>>.
 
 * *Linke/Rechte Seite*
