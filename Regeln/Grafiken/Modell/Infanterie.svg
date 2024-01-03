@@ -2,20 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="70.555557mm"
    height="70.555557mm"
    viewBox="0 0 250.00001 250"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="Infanterie.svg">
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   sodipodi:docname="Infanterie.svg"
+   inkscape:export-filename="Infanterie.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,20 +27,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="780.84549"
-     inkscape:cy="-26.793536"
+     inkscape:cx="344.28571"
+     inkscape:cy="116.42857"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-height="1009"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs4" />
   <metadata
@@ -48,7 +54,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,30 +63,20 @@
      inkscape:label="Ebene 1"
      transform="translate(-11.893578,-13.428813)">
     <g
-       id="g847">
+       id="g1-4"
+       transform="matrix(26.666698,0,0,26.666698,-2517.8087,-2225.2264)">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.057888;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 99.55122,84.627365 a 0.80885841,0.80885841 0 0 0 -0.808874,0.808873 0.80885841,0.80885841 0 0 0 0.808874,0.808872 0.80885841,0.80885841 0 0 0 0.80888,-0.808872 0.80885841,0.80885841 0 0 0 -0.80888,-0.808873 z m -1.075,1.885308 v 0.0073 c -0.317459,0.04689 -0.55956,0.319107 -0.55956,0.650003 v 2.224355 c 0,0.3309 0.242101,0.603052 0.55956,0.649943 v 2.602302 h 2.15001 v -2.602302 c 0.31746,-0.04689 0.55956,-0.319043 0.55956,-0.649943 v -2.224355 c 0,-0.330896 -0.2421,-0.603117 -0.55956,-0.650003 v -0.0073 h -0.0977 -1.954775 z"
+         id="path3-4"
+         inkscape:connector-curvature="0" />
       <rect
-         y="13.428813"
-         x="11.893579"
-         height="250"
-         width="250"
-         id="rect4992"
-         style="fill:none;fill-opacity:1;stroke:none;stroke-width:6.44478273;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <g
-         transform="matrix(1.0390445,0,0,1.0390445,-242.61384,-7.5879275)"
-         id="g841">
-        <path
-           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.52097571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 397.56562,175.06042 c 8.34105,-1.23201 14.70207,-8.38264 14.70207,-17.07678 V 99.540017 c 0,-8.69414 -6.36102,-15.846496 -14.70207,-17.078497 v -0.190046 h -6.63881 -51.36054 -6.63881 v 0.190046 c -8.34104,1.232001 -14.70207,8.384357 -14.70207,17.078497 v 58.443623 c 0,8.69414 6.36103,15.84477 14.70207,17.07678 h 4.07404 v 68.37398 h 56.49008 v -68.37398"
-           id="path825"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cssccccccssccccc" />
-        <circle
-           r="24.007746"
-           cy="61.632988"
-           cx="365.24652"
-           id="circle827"
-           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.3396244;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
+         y="83.949471"
+         x="94.863724"
+         height="9.375"
+         width="9.375"
+         id="rect4-4"
+         style="fill:none;stroke-width:0.264583" />
     </g>
   </g>
 </svg>
