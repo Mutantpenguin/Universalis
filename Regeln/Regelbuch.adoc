@@ -145,7 +145,7 @@ Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebe
 === Einheitenkarte
 
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
-Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten <<Waffen>>, <<Rüstung>>, <<Ausrüstung>> und <<Eigenschaften>>.
+Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten <<Waffen>>, <<Rüstungen>>, <<Ausrüstung>> und <<Eigenschaften>>.
 
 Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
 So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
@@ -162,7 +162,7 @@ image::Grafiken/Abbildungen/einheitenkarte_übersicht.svg[Aufbau Einheitenkarte,
 |11. <<Waffen>>
 
 |3. <<Attribute>>
-|12. <<Rüstung>>
+|12. <<Rüstungen>>
 
 |4. <<Wahrnehmungsbereich>>
 |13. <<Ausrüstung>>
@@ -403,7 +403,7 @@ Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da
 === Profilmodifikatoren
 
 (((Profilmodifikatoren)))
-Manche <<Rüstung>>, <<Waffen,Waffe>>, <<Ausrüstung>> oder <<Eigenschaften,Eigenschaft>> kann Auswirkungen auf das Profil eines Modells haben.
+Manche <<Rüstungen>>, <<Waffen,Waffe>>, <<Ausrüstung>> oder <<Eigenschaften,Eigenschaft>> kann Auswirkungen auf das Profil eines Modells haben.
 
 Diese können entweder permanent oder temporär sein:
 
@@ -1418,9 +1418,8 @@ Der Angreifer dürfte nun normalerweise seine Stärke für den Verletzungswurf v
 Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
 ====
 
-=== Übersicht
-
-==== Für Waffen und Rüstungen
+[[Schadenseffekte-Waffen-und-Rüstungen]]
+==== Waffen und Rüstungen
 
 [%unbreakable%header,cols="^1,2,5",frame=ends]
 |===
@@ -1459,7 +1458,8 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 
 |===
 
-==== Nur für Waffen
+[[Schadenseffekte-Waffen]]
+==== Waffen
 
 [%unbreakable%header,cols="^1,2,5",frame=ends]
 |===
@@ -1478,7 +1478,8 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 
 |===
 
-==== Nur für Rüstungen
+[[Schadenseffekte-Rüstungen]]
+==== Rüstungen
 [%unbreakable%header,cols="^1,2,5",frame=ends]
 |===
 
@@ -1682,6 +1683,7 @@ image::Grafiken/Token/gift.svg[Gift,40,align=center]
 
 Zum Beginn ihrer Initiativephase entfernen sie 1 Giftmarker, und erleiden automatischen Schaden mit dem <<Schadensprofil>> der Waffe, welche die Vergiftung verursacht hat.
 
+[[Waffen]]
 == Waffen
 
 Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
@@ -1831,9 +1833,10 @@ image::Grafiken/Abbildungen/einmalnutzung_waffe.jpg[Einmalnutzung Waffe,500pt]
 
 |===
 
-== Rüstung
+[[Rüstungen]]
+== Rüstungen
 
-(((Rüstung)))
+(((Rüstungen)))
 Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
 
 Rüstungen verfügen über ein <<Rüstungsprofil>> und eventuelle <<Profilmodifikatoren>>.
