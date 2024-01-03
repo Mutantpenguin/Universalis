@@ -611,7 +611,7 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 (((Vorbereiten der Gruppe)))
 Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
-* Zuordnen von <<Kontroller,Kontrollern>>
+* Zuordnen von <<Operatoren>>
 * Auswahl der <<Kraft-Auswahl,Kräfte>>
 
 === Aufstellen der Modelle
@@ -1592,7 +1592,7 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 
 Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
-Weiterhin <<Drohnen ohne Kontroller,verfallen>> eventuell zugeordnete Drohnen automatisch in Panik.
+Weiterhin <<Drohnen ohne Operator,verfallen>> eventuell zugeordnete Drohnen automatisch in Panik.
 
 === Kritisch
 
@@ -2659,7 +2659,7 @@ Außerdem werden AGI und NK um 1 verringert.
 
 (((Drohnen)))
 Unter Drohnen wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
-Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch den <<Kontroller>>.
+Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch den <<Operatoren,Operator>>.
 
 Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Drohnen gelten.
 
@@ -2669,15 +2669,15 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus h
 * Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
 ====
 
-=== Kontroller
+=== Operatoren
 
-(((Kontroller)))
-Unter Kontrollern versteht man alle Modelle denen eine Drohne zugeordnet werden kann.
+(((Operatoren)))
+Unter Operatoren versteht man alle Modelle denen eine Drohne zugeordnet werden kann.
 Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Drohnen ihm zugeordnet werden können.
 
 Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
-Eigenschaften eines Kontrollers werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
+Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
 
 .{nbsp}
 ====
@@ -2689,43 +2689,43 @@ Eigenschaften eines Kontrollers werden nur auf ihn selber angewendet, es sei den
 === Zuordnung
 
 (((Drohnen zuordnen)))
-Drohnen können und müssen immer genau einem Kontroller zugeordnet sein.
+Drohnen können und müssen immer genau einem Operator zugeordnet sein.
 Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
-=== Drohnen ohne Kontroller
+=== Drohnen ohne Operator
 
-(((Drohnen ohne Kontroller)))
-Drohnen, deren Kontroller nicht mehr auf dem Spielfeld präsent ist oder der <<Eliminiert,eliminiert>> wurde, erhalten einen Panikmarker (siehe <<Panik>>).
+(((Drohnen ohne Operator)))
+Drohnen, deren Operator nicht mehr auf dem Spielfeld präsent ist oder der <<Eliminiert,eliminiert>> wurde, erhalten einen Panikmarker (siehe <<Panik>>).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
 === Aktionspunkte
 
 Jede Drohne verfügt über 2 AP.
-Für sie können weitere AP verwendet werden indem die AP des zugeordneten Kontrollers ausgegeben werden.
+Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
 
 === Attribute
 
 Drohnen verfügen nicht über die Attribute AGI, NK, FK und EH.
-Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Kontrollers.
+Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
 
 === Gefahrenbereich
 
 Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
 Daraus ergibt sich, dass eine <<Direkte Bedrohung,direkte Bedrohung>> für sie nicht existiert.
-Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Kontrollers aktiv zu werden.
+Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Operators aktiv zu werden.
 
 === Schock
 
 <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
-Die einzige Besonderheit besteht darin, dass der Kontroller zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Drohnen zu entfernen.
+Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Drohnen zu entfernen.
 
 === Eliminierung
 
-Sobald eine Drohne <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Kontroller, welche ihm Schaden zufügen kann.
+Sobald eine Drohne <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
 
-Der Kontroller muss einen EH-Test ablegen.
+Der Operator muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO der Drohne.
 
 == Disziplinen & Kräfte
