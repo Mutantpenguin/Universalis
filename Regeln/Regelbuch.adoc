@@ -2683,7 +2683,7 @@ Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn 
 ====
 * Eine Hexe hat die Eigenschaft "Vertrauter II". Sie darf dadurch 2 zugeordnete Drohnen haben.
 * Mit dem "R3MOTE α" Fernsteuerdeck kann ein Straßensamurai 1 zugeordnete Drohne haben.
-* Ein Prospektor verfügt über 3 "Lenk-Module" für seien Anzug und kann damit 3 zugeordnete Drohnen haben.
+* Ein Prospektor verfügt über 3 "Lenk-Module" für seinen Anzug und kann damit 3 zugeordnete Drohnen haben.
 ====
 
 === Zuordnung
