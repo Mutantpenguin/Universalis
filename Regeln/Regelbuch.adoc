@@ -205,7 +205,7 @@ Dazu gehören:
 === Modell-Typen
 
 (((Modell-Typen)))
-Modelle werden in die Typen Infanterie, Koloss und Drohne unterschieden.
+Modelle werden in die Typen Infanterie, Koloss und Telematon unterschieden.
 
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
@@ -222,15 +222,15 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 | Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.
 | klein bis groß
 
+| image:Grafiken/Modell/Telematon.svg[Telematon,40]
+| <<Telematons,Telematon>>
+| Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.
+| klein bis riesig
+
 | image:Grafiken/Modell/Koloss.svg[Koloss,40]
 | <<Kolosse,Koloss>>
 | Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.
 | groß bis riesig
-
-| image:Grafiken/Modell/Drohne.svg[Drohne,40]
-| <<Drohnen,Drohne>>
-| Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.
-| klein bis riesig
 
 |===
 
@@ -432,7 +432,7 @@ Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfü
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritisch, kritischen Zustand>> verfällt.
 
 Alle Modelle haben pro Runde 6 AP.
-Die einzige Ausnahme sind Drohnen mit nur 2 AP.
+Die einzige Ausnahme sind Telematons mit nur 2 AP.
 
 *Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
 
@@ -467,7 +467,7 @@ Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei u
 
 |Typ
 |Infanterie
-|Drohne
+|Telematon
 |Koloss
 
 |Tragkraft in kg
@@ -1592,7 +1592,7 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 
 Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
-Weiterhin <<Drohnen ohne Operator,verfallen>> eventuell zugeordnete Drohnen automatisch in Panik.
+Weiterhin <<Telematons ohne Operator,verfallen>> eventuell zugeordnete Telematons automatisch in Panik.
 
 === Kritisch
 
@@ -2655,13 +2655,15 @@ Außerdem werden AGI und NK um 1 verringert.
 
 |===
 
-== Drohnen
+== Telematons
 
-(((Drohnen)))
-Unter Drohnen wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
-Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch den <<Operatoren,Operator>>.
+(((Telematons)))
+Unter Telematons wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
+Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen <<Operatoren,Operator>>.
 
-Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Drohnen gelten.
+Der Begriff ist ein Kunstwort aus "Tele" (fern) und "Automaton" (automatisches Wesen oder Maschine).
+
+Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Telematons gelten.
 
 .{nbsp}
 ====
@@ -2672,41 +2674,41 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus h
 === Operatoren
 
 (((Operatoren)))
-Unter Operatoren versteht man alle Modelle denen eine Drohne zugeordnet werden kann.
-Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Drohnen ihm zugeordnet werden können.
+Unter Operatoren versteht man alle Modelle denen ein Telematon zugeordnet werden kann.
+Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Telematons ihm zugeordnet werden können.
 
-Seine ihm zugeordneten Drohnen werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
+Seine ihm zugeordneten Telematons werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
 Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
 
 .{nbsp}
 ====
-* Eine Hexe hat die Eigenschaft "Vertrauter II". Sie darf dadurch 2 zugeordnete Drohnen haben.
-* Mit dem "R3MOTE α" Fernsteuerdeck kann ein Straßensamurai 1 zugeordnete Drohne haben.
-* Ein Prospektor verfügt über 3 "Lenk-Module" für seinen Anzug und kann damit 3 zugeordnete Drohnen haben.
+* Eine Hexe hat die Eigenschaft "Vertrauter II". Sie darf dadurch 2 zugeordnete Telematons haben.
+* Mit dem "R3MOTE α" Fernsteuerdeck kann ein Straßensamurai 1 zugeordneten Telematon haben.
+* Ein Prospektor verfügt über 3 "Lenk-Module" für seinen Anzug und kann damit 3 zugeordnete Telematons haben.
 ====
 
 === Zuordnung
 
-(((Drohnen zuordnen)))
-Drohnen können und müssen immer genau einem Operator zugeordnet sein.
+(((Telematons zuordnen)))
+Telematons können und müssen immer genau einem Operator zugeordnet sein.
 Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
-=== Drohnen ohne Operator
+=== Telematons ohne Operator
 
-(((Drohnen ohne Operator)))
-Drohnen, deren Operator nicht mehr auf dem Spielfeld präsent ist oder der <<Eliminiert,eliminiert>> wurde, erhalten einen Panikmarker (siehe <<Panik>>).
+(((Telematons ohne Operator)))
+Telematons, deren Operator nicht mehr auf dem Spielfeld präsent ist oder der <<Eliminiert,eliminiert>> wurde, erhalten einen Panikmarker (siehe <<Panik>>).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
 === Aktionspunkte
 
-Jede Drohne verfügt über 2 AP.
+Jeder Telematon verfügt über 2 AP.
 Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
 
 === Attribute
 
-Drohnen verfügen nicht über die Attribute AGI, NK, FK und EH.
+Telematons verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
 
 === Gefahrenbereich
@@ -2719,14 +2721,14 @@ Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihre
 
 <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
-Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Drohnen zu entfernen.
+Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Telematons zu entfernen.
 
 === Eliminierung
 
-Sobald eine Drohne <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
+Sobald ein Telematon <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
 
 Der Operator muss einen EH-Test ablegen.
-Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO der Drohne.
+Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Telematons.
 
 == Disziplinen & Kräfte
 
