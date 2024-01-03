@@ -2761,9 +2761,26 @@ Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt, 4 versch
 
 === Kräfte
 
-// TODO Beschreiben, was eine Kraft ist.
+Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
 
-Kräfte verfügen über die Merkmale AP-Kosten, Attribut, Ziel, Reichweite, TP-Verlust und Dauer.
+image::Grafiken/Abbildungen/kraftkarte_übersicht.svg[[Aufbau Kraftkarte,align=center]
+
+[%unbreakable,cols="1,1",frame=ends]
+|===
+
+|1. Bezeichnung
+|5. <<Kraft-TP-Verlust>>
+
+|2. Regeln
+|6. <<Kraft-Ziel>>
+
+|3. <<Kraft-AP-Kosten>>
+|7. <<Kraft-Reichweite>>
+
+|4. <<Kraft-Attribut>>
+|8. <<Kraft-Dauer>>
+
+|===
 
 [[Kraft-AP-Kosten]]
 ==== AP-Kosten
@@ -2786,6 +2803,27 @@ Sie gibt an wie der <<Attributswurf>> modifiziert wird.
 * Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der <<Attributswurf>> auf FK ist damit um 4 erschwert.
 * Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der <<Attributswurf>> auf KO ist damit um 3 erleichtert.
 ====
+
+[[Kraft-TP-Verlust]]
+==== TP-Verlust
+
+(((Kräfte, TP-Verlust)))
+Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
+
+Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem <<Attributswurf>> oder bei jedem Einsatz automatisch passiert.
+
+Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
+
+[%unbreakable%header,cols="^1,^1",frame=ends]
+|===
+
+|bei Misserfolg
+|Automatisch
+
+|image:Grafiken/Kraft/SchadenMisserfolg.svg[Misserfolg]
+|image:Grafiken/Kraft/SchadenAutomatisch.svg[Automatisch]
+
+|===
 
 [[Kraft-Ziel]]
 ==== Ziel
@@ -2838,27 +2876,6 @@ Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,N
 
 |===
 
-[[Kraft-TP-Verlust]]
-==== TP-Verlust
-
-(((Kräfte, TP-Verlust)))
-Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
-
-Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem <<Attributswurf>> oder bei jedem Einsatz automatisch passiert.
-
-Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
-
-[%unbreakable%header,cols="^1,^1",frame=ends]
-|===
-
-|bei Misserfolg
-|Automatisch
-
-|image:Grafiken/Kraft/SchadenMisserfolg.svg[Misserfolg]
-|image:Grafiken/Kraft/SchadenAutomatisch.svg[Automatisch]
-
-|===
-
 [[Kraft-Dauer]]
 ==== Dauer
 
@@ -2879,29 +2896,6 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 |image:Grafiken/Kraft/DauerSofort.svg[Sofort]
 |image:Grafiken/Kraft/DauerDauerhaft.svg[Dauerhaft]
-
-|===
-
-=== Kraftkarte
-
-Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
-
-image::Grafiken/Abbildungen/kraftkarte_übersicht.svg[[Aufbau Kraftkarte,align=center]
-
-[%unbreakable,cols="1,1",frame=ends]
-|===
-
-|1. Bezeichnung
-|5. <<Kraft-TP-Verlust>>
-
-|2. Regeln
-|6. <<Kraft-Ziel>>
-
-|3. <<Kraft-AP-Kosten>>
-|7. <<Kraft-Reichweite>>
-
-|4. <<Kraft-Attribut>>
-|8. <<Kraft-Dauer>>
 
 |===
 
