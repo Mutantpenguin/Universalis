@@ -1,4 +1,4 @@
-const currentVersionRules = "v0.6.0"
+const currentVersionRules = "v0.7.0"
 
 window.onload = function () {
     document.getElementById('current_version_rules').innerHTML = currentVersionRules;
