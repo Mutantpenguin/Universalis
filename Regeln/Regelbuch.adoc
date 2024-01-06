@@ -2585,6 +2585,7 @@ Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kr
 
 === Fern- und Nahkampf
 
+(((Kolosse, Fern- und Nahkampf)))
 Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
 
 === Geländeausnutzung
@@ -2596,6 +2597,7 @@ Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutz
 === Trefferzonen
 
 (((Trefferzonen)))
+(((Kolosse, Trefferzonen)))
 Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung unterteilt.
 
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
@@ -2609,7 +2611,9 @@ Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirk
 Trefferpunkte werden nur für den Rumpf festgelegt.
 Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
 
-==== Kritischer Zustand bei Kolossen
+==== Kritischer Zustand
+
+(((Kolosse, Kritischer Zustand)))
 
 * *Rumpf*
 +
@@ -2625,6 +2629,8 @@ Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite
 Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.
 
 ==== Verlust aller Trefferpunkte
+
+(((Kolosse, Verlust aller Trefferpunkte)))
 
 * *Rumpf*
 +
@@ -2674,6 +2680,7 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus h
 === Operatoren
 
 (((Operatoren)))
+(((Telematons, Operatoren)))
 Unter Operatoren versteht man alle Modelle denen ein Telematon zugeordnet werden kann.
 Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Telematons ihm zugeordnet werden können.
 
@@ -2690,41 +2697,46 @@ Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn 
 
 === Zuordnung
 
-(((Telematons zuordnen)))
+(((Telematons, Zuordnung)))
 Telematons können und müssen immer genau einem Operator zugeordnet sein.
 Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
 === Telematons ohne Operator
 
-(((Telematons ohne Operator)))
+(((Telematons, ohne Operator)))
 Telematons, deren Operator nicht mehr auf dem Spielfeld präsent ist oder der <<Eliminiert,eliminiert>> wurde, erhalten einen Panikmarker (siehe <<Panik>>).
 
 Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
 
 === Aktionspunkte
 
+(((Telematons, Aktionspunkte)))
 Jeder Telematon verfügt über 2 AP.
 Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
 
 === Attribute
 
+(((Telematons, Attribute)))
 Telematons verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
 
 === Gefahrenbereich
 
+(((Telematons, Gefahrenbereich)))
 Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
 Daraus ergibt sich, dass eine <<Direkte Bedrohung,direkte Bedrohung>> für sie nicht existiert.
 Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Operators aktiv zu werden.
 
 === Schock
 
+(((Telematons, Schock)))
 <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
 Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Telematons zu entfernen.
 
 === Eliminierung
 
+(((Telematons, Eliminierung)))
 Sobald ein Telematon <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
 
 Der Operator muss einen EH-Test ablegen.
@@ -2748,6 +2760,7 @@ Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft darg
 [[Kraft-Auswahl]]
 === Auswahl
 
+(((Kräfte, Auswahl)))
 Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
 
@@ -2958,7 +2971,6 @@ Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kra
 === Kraft blockieren
 
 (((Kräfte, Blockieren)))
-
 Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
 
 Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im <<Wahrnehmungsbereich>> befinden.
