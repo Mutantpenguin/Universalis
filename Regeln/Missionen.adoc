@@ -34,7 +34,7 @@ Die im folgenden beschriebenen Missionen beziehen sich immer auf eine Spielfeldg
 [.text-center]
 image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=300]
 
-Die Aufstellungszone ist jeweile der grün schraffierte Bereich.
+Die Aufstellungszone ist jeweils der grün schraffierte Bereich.
 
 Sofern eine Mission weitere Zonen benötigt werden diese ebenfalls schraffiert, aber in anderen Farben dargestellt.
 
