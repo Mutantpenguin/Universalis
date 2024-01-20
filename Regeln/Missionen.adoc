@@ -1,31 +1,6 @@
 = Universalis - Missionen
-Markus Lobedann <markus.lobedann@gmail.com>
-:doctype: book
+include::_attributes.adoc[]
 :description: Missionen für Universalis.
-:revnumber: 0.7.0
-:data-uri: {docdir}
-:toc: left
-:toclevels: 2
-:toc-title: Inhaltsverzeichnis
-:sectnums:
-:sectnumlevels: 3
-:sectlinks:
-:sectanchors:
-:section-refsig:
-:figure-caption: Abbildung
-:example-caption: Beispiel
-:icons: font
-ifdef::backend-html5[]
-:stylesheet: style/html-theme.css
-:xrefstyle: basic
-endif::[]
-ifdef::backend-pdf[]
-:title-logo-image: image::../Grafiken/logo.svg[logo,width=400]
-:pdf-fontsdir: Fonts
-:pdf-theme: Regeln/style/pdf-theme.yml
-//:media: prepress
-:xrefstyle: basic
-endif::[]
 
 == Spielfeldgröße
 
