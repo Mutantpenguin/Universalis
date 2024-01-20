@@ -535,12 +535,12 @@ image::Grafiken/Modell/wahrnehmungsbereich.svg[Wahrnehmungsbereich,40,align=cent
 === Entfernungen messen
 
 (((Entfernungen messen)))
-Entfernungen zwischen Modellen werden immer von den Rändern der Bases gemessen.
+Alle Entfernungen dürfen jederzeit gemessen werden.
+
+Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
 
 .Entfernung zwischen 2 Modellen
 image::Grafiken/Abbildungen/entfernungen_messen.svg[Entfernungen messen,400,align=center]
-
-Entfernungen zwischen Modellen dürfen immer gemessen werden.
 
 === Würfelwürfe
 
