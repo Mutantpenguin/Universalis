@@ -1,29 +1,3 @@
-# README #
+# Universalis
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Universalis versucht ein universeller Tabletop Skirmisher für 28mm zu sein, der kleine Spiele mit wenigen Modellen in den Vordergrund stellt. Er ist nicht auf ein konkretes Szenario zugeschnitten und kann in jedem beliebigen Universum spielen.
