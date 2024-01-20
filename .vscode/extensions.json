@@ -4,6 +4,7 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
-		"exodiusstudios.comment-anchors"
+		"exodiusstudios.comment-anchors",
+		"asciidoctor.asciidoctor-vscode"
 	],
 }
