@@ -519,7 +519,7 @@ Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 (((Wahrnehmungsbereich)))
 Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> bis zu einer gewissen Distanz.
 
-.Wahrnehmungsbereich der durch Bäume eingeschränkt wird.
+.Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.
 image::Grafiken/Abbildungen/wahrnehmungsbereich.svg[Wahrnehmungsbereich,300,align=center]
 
 Die Distanz berechnet sich dabei folgendermaßen:
