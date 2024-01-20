@@ -4,14 +4,6 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
-		"davidanson.vscode-markdownlint",
-		"jebbs.markdown-extended",
 		"exodiusstudios.comment-anchors"
 	],
-	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": [
-		"alanwalk.markdown-toc",
-		"yzhang.markdown-all-in-one",
-		"yzane.markdown-pdf"
-	]
 }
