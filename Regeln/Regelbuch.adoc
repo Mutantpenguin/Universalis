@@ -651,9 +651,9 @@ Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet we
 
 (((Runden, Ende)))
 Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür.
-Das Spiel endet dann automatisch sofort und der Spieler der aufgegeben hat verliert.
+Das Spiel endet dann automatisch sofort und der Spieler, welcher aufgegeben hat, verliert.
 
-Für jede Mission werden die Siegesbedingungen überprüft und das Spiel gegebenenfalls beendet.
+Ansonsten werden für jeden Spieler die Siegesbedingungen seiner Mission überprüft und das Spiel gegebenenfalls beendet.
 
 Sollte es weitergehen, werden die nicht verbrauchten AP jedes Modells halbiert (abgerundet) und mit in die nächste Runde übernommen.
 Hier bietet es sich an einen W6 in der korrekten Farbe (siehe <<Kritisch,Kritischer Zustand>>) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
