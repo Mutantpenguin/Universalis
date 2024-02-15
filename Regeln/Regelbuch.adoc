@@ -627,8 +627,6 @@ Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
 Siehe <<Rundenende>>.
 * Modelle mit <<Schock,Schock-Token>> verlieren automatisch pro Token 1 AP.
-* Alle Modelle in <<Panik>> werden entsprechend bewegt.
-Dies kann gleichzeitig geschehen.
 
 ==== Aktivierungsreihenfolge
 
@@ -643,7 +641,7 @@ Sollte auch sie identisch sein entscheidet der Zufall wer gewinnt.
 
 Die gerade aufgedeckten Aktivierungskarten werden nun beiseite gelegt.
 
-Dies passiert solange, bis ein Spieler keine Aktivierungskarten mehr hat. Der andere Spieler kann nun etwaige weitere Modelle in beliebiger Reihenfolge aktivieren.
+Dies passiert solange, bis ein Spieler keine Aktivierungskarten mehr hat. Der andere Spieler aktiviert nun etwaige weitere Modelle in beliebiger Reihenfolge.
 
 === Initiativephasen
 
