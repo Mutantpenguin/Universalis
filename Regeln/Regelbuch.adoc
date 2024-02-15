@@ -50,7 +50,7 @@ image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=250]
 image:Grafiken/Abbildungen/maßband.svg[Maßband,width=150,height=150]
 image:Grafiken/Abbildungen/maßstab.svg[Maßstab,width=150,height=150]
 
-* Für jeden Spieler mindestens 2 <<Modelle>> und dazugehörige <<Einheitenkarte,Einheitenkarten>>.
+* Für jeden Spieler mindestens 2 <<Modelle>> und dazugehörige <<Einheitenkarte,Einheiten>>- und <<Aktivierungskarte,Aktivierungskarten>>.
 
 * Mindestens einen W12 und pro Modell jeweils mindestens einen weißen und einen roten W6.
 Mehr Würfel schaden nie.
@@ -160,6 +160,15 @@ image::Grafiken/Abbildungen/einheitenkarte_übersicht.svg[Aufbau Einheitenkarte,
 |18. <<Fraktionen>>
 
 |===
+
+=== Aktivierungskarte
+
+Die Aktivierungskarte zu jedem Modell wird zur Bestimmung der <<Aktivierungsreihenfolge>> verwendet.
+
+
+image::Grafiken/Abbildungen/aktivierungskarte.svg[Aufbau Aktivierungskarte,align=center]
+
+Um nicht die Einheitenkarte zu Rate ziehen zu müssen wird auf ihr auch die AGI des Modells angezeigt.
 
 == Modelle
 
@@ -621,17 +630,20 @@ Siehe <<Rundenende>>.
 * Alle Modelle in <<Panik>> werden entsprechend bewegt.
 Dies kann gleichzeitig geschehen.
 
-==== Reihenfolge innerhalb der Runde
+==== Aktivierungsreihenfolge
 
 (((Runden, Reihenfolge)))
-Innerhalb einer Runde wählen beide Spieler immer gleichzeitig jeweils ein beliebiges eigenes Modell aus, welches in dieser Runde noch keine Initiativephase hatte.
 
-Beide Modelle führen einen vergleichenden Wurf auf AGI durch.
-Bei Gleichstand gewinnt das Modell mit der höheren AGI.
-Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
+Die Spieler nehmen die <<Aktivierungskarte,Aktivierungskarten>> ihrer sich noch im Spiel befindlichen Modelle und wählen verdeckt eine aus.
+
+Die Aktivierungskarten werden gleichzeitig aufgedeckt und für die Modelle ein vergleichender Wurf auf AGI durchgeführt.
 Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
+Bei Gleichstand gewinnt das Modell mit der höheren AGI.
+Sollte auch sie identisch sein entscheidet der Zufall wer gewinnt.
 
-Sollte ein Spieler keine Modelle mehr haben, aktiviert der andere Spieler seine übrigen Modelle in beliebiger Reihenfolge.
+Die gerade aufgedeckten Aktivierungskarten werden nun beiseite gelegt.
+
+Dies passiert solange, bis ein Spieler keine Aktivierungskarten mehr hat. Der andere Spieler kann nun etwaige weitere Modelle in beliebiger Reihenfolge aktivieren.
 
 === Initiativephasen
 
