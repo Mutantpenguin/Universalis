@@ -1579,8 +1579,6 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 
 Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
-Weiterhin <<Telematons ohne Operator,verfallen>> eventuell zugeordnete Telematons automatisch in Panik.
-
 === Kritisch
 
 (((Kritischer Zustand)))
@@ -2659,6 +2657,8 @@ Der Begriff ist ein Kunstwort aus "Tele" (fern) und "Automaton" (automatisches W
 
 Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Telematons gelten.
 
+Sie haben keine eigene Initiativephase.
+
 .{nbsp}
 ====
 * In einer Fantasywelt sind fliegende "Orbs" oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
@@ -2692,9 +2692,7 @@ Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen 
 === Telematons ohne Operator
 
 (((Telematons, ohne Operator)))
-Telematons, deren Operator nicht mehr auf dem Spielfeld präsent ist oder der <<Eliminiert,eliminiert>> wurde, erhalten einen Panikmarker (siehe <<Panik>>).
-
-Da sie über keine eigene AGI verfügen werden sie innerhalb einer Runde immer zuletzt aktiviert.
+Telematons, deren Operator <<Eliminiert,eliminiert>> wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
 
 === Aktionspunkte
 
