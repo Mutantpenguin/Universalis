@@ -624,7 +624,7 @@ Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchge
 Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 
 * Die AP jedes Modells werden wieder aufgefüllt.
-Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
+Bis zu 3 nicht verbrauchte AP aus der Vorrunde werden addiert.
 Siehe <<Rundenende>>.
 * Modelle mit <<Schock,Schock-Token>> verlieren automatisch pro Token 1 AP.
 
@@ -665,7 +665,7 @@ Das Spiel endet dann automatisch sofort und der Spieler, welcher aufgegeben hat,
 
 Ansonsten werden für jeden Spieler die Siegesbedingungen seiner Mission überprüft und das Spiel gegebenenfalls beendet.
 
-Sollte es weitergehen, werden die nicht verbrauchten AP jedes Modells halbiert (abgerundet) und mit in die nächste Runde übernommen.
+Wenn es weitergeht, werden je Modell bis zu 3 nicht verbrauchte AP in die nächste Runde übernommen.
 Hier bietet es sich an einen W6 in der korrekten Farbe (siehe <<Kritisch,Kritischer Zustand>>) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
 Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 Siehe dazu auch <<Aktionspunkte>>.
