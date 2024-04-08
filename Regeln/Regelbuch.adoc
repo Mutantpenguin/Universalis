@@ -418,7 +418,7 @@ Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfü
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritisch, kritischen Zustand>> verfällt.
 
 Alle Modelle haben pro Runde 6 AP.
-Die einzige Ausnahme sind Telematons mit nur 2 AP.
+Die einzige Ausnahme sind <<Telematons, Telematons>> mit nur 2 AP.
 
 *Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
 
