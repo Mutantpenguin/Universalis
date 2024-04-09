@@ -11,6 +11,7 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :sectlinks:
 :sectanchors:
 :section-refsig:
+:!chapter-signifier:
 :figure-caption: Abbildung
 :example-caption: Beispiel
 :icons: font
