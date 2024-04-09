@@ -16,14 +16,19 @@ heading:
   h6_font_family: Nova Round
 page:
   size: A4
-  margin: [2cm, 1cm, 1cm, 1cm]
+  margin: [1cm, 1cm, 1cm, 1cm]
   margin-inner: 2cm
   margin-outer: 1cm
-header:
-  height: 15mm
-  recto: &header
-    center-content: '-- {section-or-chapter-title} --'
-  verso: *header
+footer:
+  border:
+    color: #000000
+    width: 0.5
+  recto:
+    right:
+      content: '{chapter-title}  |  {page-number}'
+  verso:
+    left:
+      content: '{page-number}  |  {chapter-title}'
 image:
   caption:
     align: inherit
