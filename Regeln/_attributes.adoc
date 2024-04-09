@@ -5,7 +5,7 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :toc: left
 :toclevels: 2
 :toc-title: Inhaltsverzeichnis
-:sectnums:
+:!sectnums:
 :sectnumlevels: 3
 :sectlinks:
 :sectanchors:
