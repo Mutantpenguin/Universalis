@@ -9,6 +9,7 @@ base_font_family: Noto Sans
 title_page_title_font_family: Nova Round
 base-line-height: 1
 heading:
+  min-height-after: auto
   h1_font_family: Nova Round
   h2_font_family: Nova Round
   h3_font_family: Nova Round
