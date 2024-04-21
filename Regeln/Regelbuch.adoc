@@ -2221,7 +2221,6 @@ Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für de
 
 (((Zurückstoßen)))
 (((Nahkampf, Zurückstoßen)))
-
 Modelle können nur dann zurückgestoßen werden wenn ihr <<Größenprofil>> gleich oder kleiner des stoßenden Modells ist.
 
 Ein Modell zurück zu stoßen bedeutet, mit ihm eine <<Bewegung-Aktionen,Bewegungsaktion>> durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
