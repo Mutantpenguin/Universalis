@@ -755,11 +755,10 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Disziplinen,
 [[Eigenschaften-Aktionen]]
 === Aktionen
 
-(((Aktionen, Eigenschaft anwenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Eigenschaft anwenden
+.^|Eigenschaft anwenden(((Aktionen, Eigenschaft anwenden)))
 .^|X ⊙
 
 3+<|
@@ -868,22 +867,20 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 [[Bewegung-Aktionen]]
 === Aktionen
 
-(((Aktionen, Drehen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Drehen
+.^|Drehen(((Aktionen, Drehen)))
 .^|0 ⊙
 
 3+<|Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
 
 |===
 
-(((Aktionen, Normale Bewegung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Normale Bewegung
+.^|Normale Bewegung(((Aktionen, Normale Bewegung)))
 .^|1\|2 ⊙
 
 3+<|
@@ -894,11 +891,10 @@ Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es
 
 |===
 
-(((Aktionen, Angriffsbewegung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Angriffsbewegung
+.^|Angriffsbewegung(((Aktionen, Angriffsbewegung)))
 .^|WK ⊙
 
 3+<|
@@ -908,11 +904,10 @@ Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie autom
 
 |===
 
-(((Aktionen, Aus Nahkampf lösen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Aus Nahkampf lösen
+.^|Aus Nahkampf lösen(((Aktionen, Aus Nahkampf lösen)))
 .^|2\|3 ⊙
 
 3+<|
@@ -926,33 +921,30 @@ Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind 
 
 |===
 
-(((Aktionen, Hinlegen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Hinlegen
+.^|Hinlegen(((Aktionen, Hinlegen)))
 .^|1 ⊙
 
 3+<|Das Modell gilt als <<Liegende Modelle,liegend>>
 
 |===
 
-(((Aktionen, Aufstehen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Aufstehen
+.^|Aufstehen(((Aktionen, Aufstehen)))
 .^|1 ⊙
 
 3+<|Das Modell gilt als stehend.
 
 |===
 
-(((Aktionen, Objekt benutzen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Objekt benutzen
+.^|Objekt benutzen(((Aktionen, Objekt benutzen)))
 .^|1 ⊙
 
 3+<|Benutzen eines <<Objekte,Objekts>>.
@@ -965,11 +957,10 @@ Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind 
 [[Bewegung-Reaktionen]]
 === Reaktionen
 
-(((Reaktionen, Beschuss Ausweichen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-.^|Beschuss Ausweichen
+.^|Beschuss Ausweichen(((Reaktionen, Beschuss Ausweichen)))
 .^|1 ⊙
 
 3+<|Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
@@ -1864,22 +1855,20 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verl
 [[Fernkampf-Aktionen]]
 === Aktionen
 
-(((Aktionen, Normaler Schuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Normaler Schuss
+.^|Normaler Schuss(((Aktionen, Normaler Schuss)))
 .^|WK+1 ⊙
 
 3+<|Das Modell führt einen Fernkampf durch.
 
 |===
 
-(((Aktionen, Feuerbereitschaft)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Feuerbereitschaft
+.^|Feuerbereitschaft(((Aktionen, Feuerbereitschaft)))
 .^|2 ⊙
 
 3+<|
@@ -1899,11 +1888,10 @@ Misslingt dieser verliert es die Feuerbereitschaft.
 
 |===
 
-(((Aktionen, Gezielter Schuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Gezielter Schuss
+.^|Gezielter Schuss(((Aktionen, Gezielter Schuss)))
 .^|WK+2 ⊙
 
 3+<|
@@ -1915,22 +1903,20 @@ Die Reichweitenbänder werden hierbei verdoppelt.
 
 |===
 
-(((Aktionen, Schnellschuss)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Schnellschuss
+.^|Schnellschuss(((Aktionen, Schnellschuss)))
 .^|WK ⊙
 
 3+<|Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
 
 |===
 
-(((Aktionen, Nachladen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Nachladen
+.^|Nachladen(((Aktionen, Nachladen)))
 .^|WK ⊙
 
 3+<|
@@ -1945,11 +1931,10 @@ Der Token wird danach vom Modell entfernt.
 [[Fernkampf-Reaktionen]]
 === Reaktionen
 
-(((Reaktionen, Reaktionsfeuer)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-.^|Reaktionsfeuer
+.^|Reaktionsfeuer(((Reaktionen, Reaktionsfeuer)))
 .^|WK ⊙
 
 3+<|
@@ -2235,22 +2220,20 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 [[Nahkampf-Aktionen]]
 === Aktionen
 
-(((Aktionen, Angriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Angriff
+.^|Angriff(((Aktionen, Angriff)))
 .^|WK ⊙
 
 3+<|Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 
 |===
 
-(((Aktionen, Verwegener Angriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Verwegener Angriff
+.^|Verwegener Angriff(((Aktionen, Verwegener Angriff)))
 .^|WK+2 ⊙
 
 3+<|
@@ -2261,11 +2244,10 @@ Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangrif
 
 |===
 
-(((Aktionen, Verteidigung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Verteidigung
+.^|Verteidigung(((Aktionen, Verteidigung)))
 .^|2 ⊙
 
 3+<|
@@ -2291,11 +2273,10 @@ Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
 [[Nahkampf-Reaktionen]]
 === Reaktionen
 
-(((Reaktionen, Gegenangriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-.^|Gegenangriff
+.^|Gegenangriff(((Reaktionen, Gegenangriff)))
 .^|WK ⊙
 
 3+<|Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
@@ -2305,11 +2286,10 @@ Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
 
 |===
 
-(((Reaktionen, Gelegenheitsangriff)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Gelegenheitsangriff
+.^|Gelegenheitsangriff(((Reaktionen, Gelegenheitsangriff)))
 .^|WK ⊙
 
 3+<|Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch und gilt als der Angreifer.
@@ -2463,11 +2443,10 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 [[Tarnung-Aktionen]]
 === Aktionen
 
-(((Aktionen, Aufklären)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Aufklären
+.^|Aufklären(((Aktionen, Aufklären)))
 .^|2+ ⊙
 
 3+<|
@@ -2483,11 +2462,10 @@ Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
 [[Tarnung-Reaktionen]]
 === Reaktionen
 
-(((Reaktionen, Aufklärungsunterstützung)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-.^|Aufklärungsunterstützung
+.^|Aufklärungsunterstützung(((Reaktionen, Aufklärungsunterstützung)))
 .^|2 ⊙
 
 3+<|Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
@@ -2509,11 +2487,10 @@ Ausrüstung kann über <<Profilmodifikatoren>> verfügen.
 [[Ausrüstung-Aktionen]]
 === Aktionen
 
-(((Aktionen, Ausrüstung verwenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Ausrüstung verwenden
+.^|Ausrüstung verwenden(((Aktionen, Ausrüstung verwenden)))
 .^|X ⊙
 
 3+<|
@@ -2903,11 +2880,10 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 [[Kraft-Aktionen]]
 === Aktionen
 
-(((Aktionen, Kraft einsetzen)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Kraft einsetzen
+.^|Kraft einsetzen(((Aktionen, Kraft einsetzen)))
 .^|X ⊙
 
 3+<|
@@ -2917,22 +2893,20 @@ Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kra
 
 |===
 
-(((Aktionen, Kraft beenden)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Kraft beenden
+.^|Kraft beenden(((Aktionen, Kraft beenden)))
 .^|1 ⊙
 
 3+<|Eine eigene beliebige <<Dauer,dauerhafte>> Kraft die gerade im Spiel ist wird beendet.
 
 |===
 
-(((Aktionen, Kraft blockieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-.^|Kraft blockieren
+.^|Kraft blockieren(((Aktionen, Kraft blockieren)))
 .^|2 ⊙
 
 3+<|Das Modell versucht eine sich im Spiel befindliche Kraft zu <<Kraft blockieren, blockieren>>.
@@ -2942,11 +2916,10 @@ Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kra
 [[Kraft-Reaktionen]]
 === Reaktionen
 
-(((Reaktionen, Kraft blockieren)))
 [%unbreakable%header,cols="^1,^4,^1"]
 |===
 .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-.^|Kraft blockieren
+.^|Kraft blockieren(((Reaktionen, Kraft blockieren)))
 .^|3 ⊙
 
 3+<|Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>> während ein gegnerisches Modell sie ausspielt.
