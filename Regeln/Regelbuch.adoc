@@ -1101,7 +1101,7 @@ Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüll
 
 Die folgenden Beschränkungen sind möglich, auch in Kombination.
 
-[%unbreakable%header,cols="h,4,4",frame=ends]
+[%unbreakable%header,cols="h,3,3",frame=ends]
 |===
 
 |Art
