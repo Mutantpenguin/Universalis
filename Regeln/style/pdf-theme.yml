@@ -67,3 +67,6 @@ footer:
 image:
   caption:
     align: inherit
+table:
+  head:
+    background-color: #F0F0F0
