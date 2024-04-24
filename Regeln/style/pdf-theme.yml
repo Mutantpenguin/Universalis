@@ -10,12 +10,45 @@ title_page_title_font_family: Nova Round
 base-line-height: 1
 heading:
   min-height-after: auto
-  h1_font_family: Nova Round
-  h2_font_family: Nova Round
-  h3_font_family: Nova Round
-  h4_font_family: Nova Round
-  h5_font_family: Nova Round
-  h6_font_family: Nova Round
+  h1:
+    font:
+      family: Nova Round
+      size: 22
+    margin:
+      bottom: 6
+  h2:
+    font:
+      family: Nova Round
+      size: 16
+    margin:
+      bottom: 6
+  h3:
+    font:
+      family: Nova Round
+      size: 14
+    margin:
+      bottom: 6
+  h4:
+    font:
+      family: Nova Round
+      size: 12
+    margin:
+      bottom: 6
+  h5:
+    font:
+      family: Nova Round
+      size: 10
+    margin:
+      bottom: 6
+  h6:
+    font:
+      family: Nova Round
+      size: 10
+    margin:
+      bottom: 6
+prose:
+  margin:
+    bottom: 6
 page:
   size: A4
   margin: [1cm, 1cm, 1cm, 1cm]
