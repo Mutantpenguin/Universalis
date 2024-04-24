@@ -198,7 +198,9 @@ Modelle werden in die Typen Standard, Koloss und Telematon unterschieden.
 
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
-[%unbreakable%header,cols="^1,1,2,1",frame=ends]
+[%unbreakable]
+--
+[%header,cols="^1,1,2,1",frame=ends]
 |===
 
 | Symbol
@@ -222,6 +224,7 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 | groß bis riesig
 
 |===
+--
 
 [[Attribute]]
 === Attribute
@@ -1396,7 +1399,9 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 [[Schadenseffekte-Waffen-und-Rüstungen]]
 ==== Waffen und Rüstungen
 
-[%unbreakable%header,cols="^1,2,5",frame=ends]
+[%unbreakable]
+--
+[%header,cols="^1,2,5",frame=ends]
 |===
 
 |Symbol
@@ -1432,11 +1437,14 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.
 
 |===
+--
 
 [[Schadenseffekte-Waffen]]
 ==== Waffen
 
-[%unbreakable%header,cols="^1,2,5",frame=ends]
+[%unbreakable]
+--
+[%header,cols="^1,2,5",frame=ends]
 |===
 
 |Symbol
@@ -1452,10 +1460,14 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.
 
 |===
+--
 
 [[Schadenseffekte-Rüstungen]]
 ==== Rüstungen
-[%unbreakable%header,cols="^1,2,5",frame=ends]
+
+[%unbreakable]
+--
+[%header,cols="^1,2,5",frame=ends]
 |===
 
 |Symbol
@@ -1475,6 +1487,7 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.
 
 |===
+--
 
 === Verletzungs- und Rüstungswurf
 
