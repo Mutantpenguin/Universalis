@@ -2121,8 +2121,11 @@ Auf der <<Einheitenkarte>> wird dies mit den folgenden Symbolen ausgewiesen, wob
 
 [.text-center]
 image:Grafiken/Waffe/dauerfeuer_1.png[Dauerfeuer 1,40]
+|
 image:Grafiken/Waffe/dauerfeuer_2.png[Dauerfeuer 1,40]
+|
 image:Grafiken/Waffe/dauerfeuer_3.png[Dauerfeuer 1,40]
+|
 image:Grafiken/Waffe/dauerfeuer_4.png[Dauerfeuer 1,40]
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
