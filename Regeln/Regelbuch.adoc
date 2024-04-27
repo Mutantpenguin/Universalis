@@ -239,27 +239,27 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 | Name
 | Beschreibung
 
-|AGI(((AGI)))(((Profile, AGI)))
+|((AGI))(((Profile, AGI)))
 |Agilität
 |Steht für das Reaktionsvermögen des Modells. Siehe z.B. <<Reaktionen>> und <<Bewegungstest>>.
 
-|NK(((NK)))(((Profile, NK)))
+|((NK))(((Profile, NK)))
 |Nahkampf
 |Stellt die Nahkampffähigkeit des Modells dar. Siehe <<Nahkampf>>.
 
-|FK(((FK)))(((Profile, FK)))
+|((FK))(((Profile, FK)))
 |Fernkampf
 |Stellt die Fernkampffähigkeit des Modells dar. Siehe <<Fernkampf>>.
 
-|KO(((KO)))(((Profile, KO)))
+|((KO))(((Profile, KO)))
 |Konstitution
 |Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. <<Tragkraft>>.
 
-|WN(((WN)))(((Profile, WN)))
+|((WN))(((Profile, WN)))
 |Wahrnehmung
 |Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. <<Wahrnehmungsbereich>> und <<Tarnung>>.
 
-|EH(((EH)))(((Profile, EH)))
+|((EH))(((Profile, EH)))
 |Entschlossenheit
 |Die Fähigkeit eines Modells, psychische oder mentale Konflikte zu bewältigen. Siehe z.B. <<Gefahrenbereich>> oder <<Panik>>.
 
