@@ -241,7 +241,7 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 
 |AGI(((AGI)))(((Profile, AGI)))
 |Agilität
-|Steht für das Reaktionsvermögen des Modells. Siehe z.B. <<Reaktionen>> und <<Bewegungstests>>.
+|Steht für das Reaktionsvermögen des Modells. Siehe z.B. <<Reaktionen>> und <<Bewegungstest>>.
 
 |NK(((NK)))(((Profile, NK)))
 |Nahkampf
