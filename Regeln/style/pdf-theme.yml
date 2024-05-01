@@ -70,3 +70,5 @@ image:
 table:
   head:
     background-color: #F0F0F0
+toc:
+  line-height: 1
