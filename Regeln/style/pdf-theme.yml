@@ -2,7 +2,9 @@ extends: default-sans-with-font-fallbacks
 font:
   catalog:
     merge: true
-    Nova Round: NovaRound-Regular.ttf
+    Nova Round:
+      normal: NovaRound-Regular.ttf
+      bold: NovaRound-Bold.ttf
     Noto Sans Symbols 2: NotoSansSymbols2-Regular.ttf
   fallbacks: [Noto Sans Symbols 2]
 base_font_family: Noto Sans
