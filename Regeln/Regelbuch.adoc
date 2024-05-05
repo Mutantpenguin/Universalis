@@ -407,11 +407,7 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 [[Aktionspunkte]]
 === ((Aktionspunkte))
 
-Modelle verfügen über Aktionspunkte, die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
-
-Sie werden in der Regel als "AP" abgekürzt.
-
-Die Kosten in Aktionspunkten werden immer mit dem Zeichen ⊙ angegeben.
+Modelle verfügen über Aktionspunkte (abgekürzt als "AP"), die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritisch, kritischen Zustand>> verfällt.
@@ -420,6 +416,79 @@ Alle Modelle haben pro Runde 6 AP.
 Die einzige Ausnahme sind <<Telematons, Telematons>> mit nur 2 AP.
 
 *Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
+
+=== Aktionen und Reaktionen
+
+Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
+
+Sie dürfen von jedem Modell durchgeführt werden sofern die nötigen Voraussetzungen erfüllt sind wie bspw. das Vorhandensein von „Händen“ um eine Waffe abzufeuern und so weiter.
+Hier ist der gesunde Menschenverstand gefragt.
+
+Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
+Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten mit dem Zeichen ⊙ angegeben.
+
+[[Aktionen]]
+==== ((Aktionen))
+
+Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
+Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
+
+Sie sind an folgendem Symbol zu erkennen:
+
+image::Grafiken/Allgemein/aktion.svg[Aktion,40,align=center]
+
+[[Reaktionen]]
+==== ((Reaktionen))
+
+Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
+Sie sind in der Regel an Bedingungen geknüpft.
+
+Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
+Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
+Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
+
+Sie sind an folgendem Symbol zu erkennen:
+
+image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
+
+==== Übersicht
+
+[%unbreakable%header,cols="1,^1,^1",frame=ends]
+|===
+
+|
+|Aktionen
+|Reaktionen
+
+|Ausrüstung
+|image:Grafiken/Allgemein/aktion.svg[link=#Ausrüstung-Aktionen]
+|
+
+|Bewegen
+|image:Grafiken/Allgemein/aktion.svg[link=#Bewegung-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Bewegung-Reaktionen]
+
+|Eigenschaften
+|image:Grafiken/Allgemein/aktion.svg[link=#Eigenschaften-Aktionen]
+|
+
+|Fernkampf
+|image:Grafiken/Allgemein/aktion.svg[link=#Fernkampf-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Fernkampf-Reaktionen]
+
+|Kräfte
+|image:Grafiken/Allgemein/aktion.svg[link=#Kraft-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Kraft-Reaktionen]
+
+|Nahkampf
+|image:Grafiken/Allgemein/aktion.svg[link=#Nahkampf-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Nahkampf-Reaktionen]
+
+|Tarnung
+|image:Grafiken/Allgemein/aktion.svg[link=#Tarnung-Aktionen]
+|image:Grafiken/Allgemein/reaktion.svg[link=#Tarnung-Reaktionen]
+
+|===
 
 [[Sichtfeld]]
 === ((Sichtfeld))
@@ -663,79 +732,6 @@ Wenn es weitergeht, werden je Modell bis zu 3 nicht verbrauchte AP in die nächs
 Hier bietet es sich an einen W6 in der korrekten Farbe (siehe <<Kritisch,Kritischer Zustand>>) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
 Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 Siehe dazu auch <<Aktionspunkte>>.
-
-== Aktionen und Reaktionen
-
-Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
-
-Sie dürfen von jedem Modell durchgeführt werden sofern die nötigen Voraussetzungen erfüllt sind wie bspw. das Vorhandensein von „Händen“ um eine Waffe abzufeuern und so weiter.
-Hier ist der gesunde Menschenverstand gefragt.
-
-Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
-Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten angegeben.
-
-[[Aktionen]]
-=== ((Aktionen))
-
-Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
-Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
-
-Sie sind an folgendem Symbol zu erkennen:
-
-image::Grafiken/Allgemein/aktion.svg[Aktion,40,align=center]
-
-[[Reaktionen]]
-=== ((Reaktionen))
-
-Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
-Sie sind in der Regel an Bedingungen geknüpft.
-
-Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
-Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
-Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
-
-Sie sind an folgendem Symbol zu erkennen:
-
-image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
-
-=== Übersicht
-
-[%unbreakable%header,cols="1,^1,^1",frame=ends]
-|===
-
-|
-|Aktionen
-|Reaktionen
-
-|Ausrüstung
-|image:Grafiken/Allgemein/aktion.svg[link=#Ausrüstung-Aktionen]
-|
-
-|Bewegen
-|image:Grafiken/Allgemein/aktion.svg[link=#Bewegung-Aktionen]
-|image:Grafiken/Allgemein/reaktion.svg[link=#Bewegung-Reaktionen]
-
-|Eigenschaften
-|image:Grafiken/Allgemein/aktion.svg[link=#Eigenschaften-Aktionen]
-|
-
-|Fernkampf
-|image:Grafiken/Allgemein/aktion.svg[link=#Fernkampf-Aktionen]
-|image:Grafiken/Allgemein/reaktion.svg[link=#Fernkampf-Reaktionen]
-
-|Kräfte
-|image:Grafiken/Allgemein/aktion.svg[link=#Kraft-Aktionen]
-|image:Grafiken/Allgemein/reaktion.svg[link=#Kraft-Reaktionen]
-
-|Nahkampf
-|image:Grafiken/Allgemein/aktion.svg[link=#Nahkampf-Aktionen]
-|image:Grafiken/Allgemein/reaktion.svg[link=#Nahkampf-Reaktionen]
-
-|Tarnung
-|image:Grafiken/Allgemein/aktion.svg[link=#Tarnung-Aktionen]
-|image:Grafiken/Allgemein/reaktion.svg[link=#Tarnung-Reaktionen]
-
-|===
 
 [[Eigenschaften]]
 == ((Eigenschaften))
