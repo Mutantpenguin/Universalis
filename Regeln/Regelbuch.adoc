@@ -343,7 +343,7 @@ Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 (((Größenprofil)))
 Modelle werden in 4 verschiedene Größenprofile gegliedert:
 
-[%unbreakable%header,cols="^1,^1,^4,^1,^1",frame=ends]
+[%unbreakable%header,cols="^1,^1,^4,^2,^1",frame=ends]
 |===
 
 |Symbol
