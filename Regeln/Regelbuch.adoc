@@ -122,7 +122,8 @@ Er wird unter anderem dafür benötigt die <<Aufstellen der Modelle,Aufstellungs
 
 Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebenenfalls ein Stellvertreter bestimmt wird.
 
-=== Einheitenkarte
+[[Einheitenkarte]]
+=== ((Einheitenkarte))
 
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
 Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten <<Waffen>>, <<Rüstungen>>, <<Ausrüstung>> und <<Eigenschaften>>.
@@ -157,7 +158,7 @@ image::Grafiken/Abbildungen/einheitenkarte_übersicht.svg[Aufbau Einheitenkarte,
 |16. Punkte
 
 |8. <<Bewegungsart>>
-|17. <<Disziplinen & Kräfte>>
+|17. <<Disziplinen-und-Kräfte>>
 
 |9. <<Geschwindigkeit>>
 |18. <<Fraktionen>>
@@ -177,9 +178,9 @@ Um nicht die Einheitenkarte zu Rate ziehen zu müssen wird auf ihr auch die AGI 
 
 Alle im Spiel vorhandenen Einheiten die auch über eine <<Einheitenkarte>> verfügen benötigen ein Modell, welches sie auf dem Spielfeld repräsentiert.
 
-=== Profile
+[[Profile]]
+=== ((Profile))
 
-(((Profile)))
 Im Profil sind alle Werte eines Modells beschrieben, die sich auf seine körperlichen Eigenschaften beziehen.
 Diese können sowohl angeboren als auch antrainiert sein.
 
@@ -191,9 +192,9 @@ Dazu gehören:
 * <<Trefferpunkte>>
 * <<Größenprofil>>
 
-=== Modell-Typen
+[[Modell-Typen]]
+=== ((Modell-Typen))
 
-(((Modell-Typen)))
 Modelle werden in die Typen Standard, Koloss und Telematon unterschieden.
 
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
@@ -227,9 +228,8 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 --
 
 [[Attribute]]
-=== Attribute
+=== ((Attribute))
 
-(((Attribute)))
 Jedes Modell verfügt über einen festen Satz an Attributen.
 
 [%unbreakable%header,cols="^1,^2,5",frame=ends]
@@ -287,9 +287,9 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 |===
 ====
 
-=== Geschwindigkeit
+[[Geschwindigkeit]]
+=== ((Geschwindigkeit))
 
-(((Geschwindigkeit)))
 Gibt an, wie weit sich ein Modell mit einer Aktion in Zentimetern bewegen kann.
 Sie wird in der Regel mit GK abgekürzt.
 
@@ -316,9 +316,9 @@ Die folgenden Bewegungsarten stehen dabei zur Verfügung:
 
 Siehe auch <<Bewegung>>.
 
-=== Trefferpunkte
+[[Trefferpunkte]]
+=== ((Trefferpunkte))
 
-(((Trefferpunkte)))
 Sie stehen für die Menge an <<Schadensanwendung,Schaden>>, die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
 
 Auf der <<Einheitenkarte>> werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
@@ -338,9 +338,9 @@ Sobald ein Modell nur noch über kritische Trefferpunkte verfügt, verfällt es 
 
 Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 
-=== Größenprofil
+[[Größenprofil]]
+=== ((Größenprofil))
 
-(((Größenprofil)))
 Modelle werden in 4 verschiedene Größenprofile gegliedert:
 
 [%unbreakable%header,cols="^1,^1,^4,^2,^1",frame=ends]
@@ -386,9 +386,9 @@ image::Grafiken/Abbildungen/größenprofil.svg[Größenprofil,300,150,align=cent
 
 Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. <<Sichtlinie,Sichtlinien>> keine Rolle mehr spielen.
 
-=== Profilmodifikatoren
+[[Profilmodifikatoren]]
+=== ((Profilmodifikatoren))
 
-(((Profilmodifikatoren)))
 Manche <<Rüstungen>>, <<Waffen,Waffe>>, <<Ausrüstung>> oder <<Eigenschaften,Eigenschaft>> kann Auswirkungen auf das Profil eines Modells haben.
 
 Diese können entweder permanent oder temporär sein:
@@ -405,9 +405,8 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 == Grundregeln
 
 [[Aktionspunkte]]
-=== Aktionspunkte
+=== ((Aktionspunkte))
 
-(((Aktionspunkte)))
 Modelle verfügen über Aktionspunkte, die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
 
 Sie werden in der Regel als "AP" abgekürzt.
@@ -422,15 +421,15 @@ Die einzige Ausnahme sind <<Telematons, Telematons>> mit nur 2 AP.
 
 *Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
 
-=== Sichtfeld
+[[Sichtfeld]]
+=== ((Sichtfeld))
 
-(((Sichtfeld)))
 Jedes Modell hat ein Sichtfeld von 360°.
 Es ist somit egal wohin ein Modell ausgerichtet ist.
 
-=== Sichtlinie
+[[Sichtlinie]]
+=== ((Sichtlinie))
 
-(((Sichtlinie)))
 Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn ein Teil seines <<Größenprofil,Größenprofils>> sichtbar ist.
 Dies bedeutet, dass es möglich sein muss eine gerade Linie zu ziehen die sein Größenprofil *trifft*.
 
@@ -441,9 +440,9 @@ Befreundete Modelle behindern nicht die Sichtlinie.
 
 Die Sichtlinie zu einem <<Geländeteile,Geländeteil>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
 
-=== Tragkraft
+[[Tragkraft]]
+=== ((Tragkraft))
 
-(((Tragkraft)))
 Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
 
 Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
@@ -477,9 +476,8 @@ Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 ve
 ====
 
 [[Gefahrenbereich]]
-=== Gefahrenbereich
+=== ((Gefahrenbereich))
 
-(((Gefahrenbereich)))
 Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren *muss*.
 Der Radius in Zentimetern berechnet sich indem die Entschlossenheit von 12 abgezogen wird:
 
@@ -489,9 +487,9 @@ Auf der <<Einheitenkarte>> wird der Gefahrenbereich mit diesem Symbol angegeben:
 
 image::Grafiken/Modell/gefahrenbereich.svg[Gefahrenbereich,40,align=center]
 
-==== Direkte Bedrohung
+[[Direkte-Bedrohung]]
+==== ((Direkte Bedrohung))
 
-(((Direkte Bedrohung)))
 Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „direkte Bedrohung" genannt.
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
 
@@ -500,9 +498,9 @@ Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, ega
 
 Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
-=== Wahrnehmungsbereich
+[[Wahrnehmungsbereich]]
+=== ((Wahrnehmungsbereich))
 
-(((Wahrnehmungsbereich)))
 Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> bis zu einer gewissen Distanz.
 
 .Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.
@@ -518,9 +516,9 @@ Auf der <<Einheitenkarte>> wird die Distanz des Wahrnehmungsreich mit diesem Sym
 
 image::Grafiken/Modell/wahrnehmungsbereich.svg[Wahrnehmungsbereich,40,align=center]
 
-=== Entfernungen messen
+[[Entfernungen-messen]]
+=== ((Entfernungen messen))
 
-(((Entfernungen messen)))
 Alle Entfernungen dürfen jederzeit gemessen werden.
 
 Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
@@ -528,19 +526,18 @@ Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
 .Entfernung zwischen 2 Modellen
 image::Grafiken/Abbildungen/entfernungen_messen.svg[Entfernungen messen,400,align=center]
 
-=== Würfelwürfe
+[[Würfelwürfe]]
+=== ((Würfelwürfe))
 
-(((Würfelwürfe)))
 Es werden nur W12 verwendet.
 
 Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
 
 Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 
-==== Attributswurf
+[[Attributswurf]]
+==== ((Attributswurf))
 
-(((Attributswurf)))
-(((Würfelwürfe, Attributswurf)))
 Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
 So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
 
@@ -552,10 +549,9 @@ Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gi
 Der Wurf wird mit 1W12 durchgeführt.
 Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
 
-==== Vergleichender Wurf
+[[Vergleichender-Wurf]]
+==== ((Vergleichender Wurf))
 
-(((Vergleichender Wurf)))
-(((Würfelwürfe, Vergleichender Wurf)))
 Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
 
 Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
@@ -563,46 +559,46 @@ Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der z
 
 Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
-== Ablauf des Spiels
+[[Spielablauf]]
+== ((Spielablauf))
 
-(((Ablauf des Spiels)))
 Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
-1. <<Aufbau des Spielfeldes>>
+1. <<Spielfeldaufbau>>
 2. <<Missionsauswahl>>
-3. <<Vorbereiten der Gruppe>>
-4. <<Aufstellen der Modelle>>
+3. <<Vorbereiten-der-Gruppe>>
+4. <<Aufstellen-der-Modelle>>
 5. <<Runden>>
   * <<Initiativephasen>>
   * <<Rundenende>>
 
-=== Aufbau des Spielfeldes
+[[Spielfeldaufbau]]
+=== ((Spielfeldaufbau))
 
-(((Aufbau des Spielfeldes)))
 Beide Spieler bauen gemeinsam das Spielfeld mit <<Geländeteile,Geländeteilen>> auf bis sie damit einverstanden sind.
 
 Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
 
-=== Missionsauswahl
+[[Missionsauswahl]]
+=== ((Missionsauswahl))
 
-(((Missionsauswahl)))
 Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus.
 Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
 
 Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenommen.
 Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftlich gelöst werden.
 
-=== Vorbereiten der Gruppe
+[[Vorbereiten-der-Gruppe]]
+=== ((Vorbereiten der Gruppe))
 
-(((Vorbereiten der Gruppe)))
 Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
 * Zuordnen von <<Operatoren>>
 * Auswahl der <<Kraft-Auswahl,Kräfte>>
 
-=== Aufstellen der Modelle
+[[Aufstellen-der-Modelle]]
+=== ((Aufstellen der Modelle))
 
-(((Aufstellen der Modelle)))
 Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
 Bei Gleichstand gewinnt das Modell mit der höheren EH.
 Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
@@ -612,15 +608,15 @@ Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
 
-=== Runden
+[[Runden]]
+=== ((Runden))
 
-(((Runden)))
 Innerhalb einer Runde hat jedes Modell eine Initiativephase.
 Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchgeführt hat.
 
-==== Rundenbeginn
+[[Rundenbeginn]]
+==== Rundenbeginn(((Runden, Beginn)))
 
-(((Runden, Beginn)))
 Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 
 * Die AP jedes Modells werden wieder aufgefüllt.
@@ -628,9 +624,8 @@ Bis zu 3 nicht verbrauchte AP aus der Vorrunde werden addiert.
 Siehe <<Rundenende>>.
 * Modelle mit <<Schock,Schock-Token>> verlieren automatisch pro Token 1 AP.
 
-==== Aktivierungsreihenfolge
-
-(((Runden, Reihenfolge)))
+[[Aktivierungsreihenfolge]]
+==== Aktivierungsreihenfolge(((Runden, Reihenfolge)))
 
 Die Spieler nehmen die <<Aktivierungskarte,Aktivierungskarten>> ihrer sich noch im Spiel befindlichen Modelle und wählen verdeckt eine aus.
 
@@ -643,10 +638,9 @@ Die gerade aufgedeckten Aktivierungskarten werden nun beiseite gelegt.
 
 Dies passiert solange, bis ein Spieler keine Aktivierungskarten mehr hat. Der andere Spieler aktiviert nun etwaige weitere Modelle in beliebiger Reihenfolge.
 
-=== Initiativephasen
+[[Initiativephasen]]
+=== ((Initiativephasen))(((Runden, Initiativephase)))
 
-(((Initiativephase)))
-(((Runden, Initiativephase)))
 Eine Initiativephase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktionen ausführen kann.
 
 Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hatten oder nicht, unter bestimmten Voraussetzungen Reaktionen durchführen.
@@ -657,9 +651,9 @@ Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet we
 * eventuelle <<Vergiftung>> kommt zur Anwendung
 * eventuelles <<Brennen>> kommt zur Anwendung
 
-=== Rundenende
+[[Rundenende]]
+=== Rundenende(((Runden, Ende)))
 
-(((Runden, Ende)))
 Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür.
 Das Spiel endet dann automatisch sofort und der Spieler, welcher aufgegeben hat, verliert.
 
@@ -680,7 +674,8 @@ Hier ist der gesunde Menschenverstand gefragt.
 Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
 Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten angegeben.
 
-=== Aktionen
+[[Aktionen]]
+=== ((Aktionen))
 
 Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
 Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
@@ -689,7 +684,8 @@ Sie sind an folgendem Symbol zu erkennen:
 
 image::Grafiken/Allgemein/aktion.svg[Aktion,40,align=center]
 
-=== Reaktionen
+[[Reaktionen]]
+=== ((Reaktionen))
 
 Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
 Sie sind in der Regel an Bedingungen geknüpft.
@@ -741,9 +737,9 @@ image::Grafiken/Allgemein/reaktion.svg[Reaktion,40,align=center]
 
 |===
 
-== Eigenschaften
+[[Eigenschaften]]
+== ((Eigenschaften))
 
-(((Eigenschaften)))
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache <<Attribute>> hinausgeht.
 Außerdem können sie über eventuelle <<Profilmodifikatoren>> verfügen.
 
@@ -764,9 +760,9 @@ Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
 
 |===
 
-=== Regeln
+[[Regeln]]
+=== Regeln(((Eigenschaften, Regeln)))
 
-(((Eigenschaften, Regeln)))
 Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
 Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
 
@@ -781,10 +777,9 @@ Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
 In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
 ====
 
-=== Einmalnutzung
+[[Eigenschaften-Einmalnutzung]]
+=== Einmalnutzung(((Einmalnutzung, Eigenschaften)))(((Eigenschaften, Einmalnutzung)))
 
-(((Einmalnutzung, Eigenschaften)))
-(((Eigenschaften, Einmalnutzung)))
 Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
 Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
 
@@ -800,18 +795,17 @@ Für eine Regeneration die 3x verwendet werden kann.
 image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigenschaft,500]
 ====
 
-=== AP-Kosten
+[[Eigenschaften-AP-Kosten]]
+=== AP-Kosten(((Eigenschaften, AP-Kosten)))
 
-(((Eigenschaften, AP-Kosten)))
 Bei manchen Eigenschaften ist angegeben, dass zur Anwendung AP ausgegeben werden müssen.
 Um sie anzuwenden muss die Aktion "Eigenschaft anwenden" ausgeführt werden.
 
 Sofern keine AP angegeben sind ist auch keine Aktion für die Anwendung notwendig.
 
+[[Bewegung]]
+== ((Bewegung))
 
-== Bewegung
-
-(((Bewegung)))
 Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann ein Modell entsprechend bewegt werden.
 
 Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden.
@@ -856,9 +850,9 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 |===
 
-=== Bewegungstest
+[[Bewegungstest]]
+=== ((Bewegungstest))
 
-(((Bewegungstest)))
 Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen durchgeführt werden.
 
 [[Bewegung-Aktionen]]
@@ -971,10 +965,9 @@ Der Schütze muss sich im <<Wahrnehmungsbereich>> befinden.
 
 |===
 
-=== Springen
+[[Springen]]
+=== ((Springen))(((Bewegung, Springen)))
 
-(((Springen)))
-(((Bewegung, Springen)))
 Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
 
 Zwischenräume zwischen <<Geländeteile,Geländeteilen>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem einfach übersprungen werden.
@@ -982,26 +975,22 @@ Zwischenräume zwischen <<Geländeteile,Geländeteilen>> welche kleiner oder gle
 Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen <<Bewegungstest>> ablegen.
 Wenn er misslingt <<Herunterfallen,fällt>> das Modell herunter.
 
-=== Vertikale Bewegung
+[[Vertikale-Bewegung]]
+=== ((Vertikale Bewegung))(((Bewegung, Vertikal)))
 
-(((Vertikale Bewegung)))
-(((Bewegung, Vertikal)))
 Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern und vergleichbarem bewegen.
 Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 
-=== Klettern
+[[Klettern]]
+=== ((Klettern))(((Bewegung, Klettern)))
 
-(((Klettern)))
-(((Bewegung, Klettern)))
 Jedes Modell kann ohne spezielle Ausrüstung auf oder herunter von Hindernissen bis zu seinem doppelten <<Größenprofil>> klettern.
 
 Die vertikale Distanz wird dafür doppelt berechnet.
 
-=== Herunterfallen
+[[Herunterfallen]]
+=== ((Herunterfallen))(((Fallen)))(((Bewegung, Herunterfallen)))
 
-(((Herunterfallen)))
-(((Fallen)))
-(((Bewegung, Herunterfallen)))
 Wenn sich ein Modell über eine Kante hinaus bewegt kann es sich fallenlassen anstatt herunterzuklettern.
 
 Bei einer Fallhöhe bis zur Höhe seines <<Größenprofil,Größenprofils>> kann es dies einfach so machen.
@@ -1009,10 +998,9 @@ Bei grösserer Fallhöhe muss es zunächst einen erfolgreichen EH-Test ablegen u
 
 Die durch Herunterfallen zurückgelegte Distanz kostet keine AP.
 
-==== Fallschaden
+[[Fallschaden]]
+==== ((Fallschaden))(((Fallen, Schaden)))
 
-(((Fallschaden)))
-(((Fallen, Schaden)))
 Bis zu einer Fallhöhe in Höhe seines <<Größenprofil,Größenprofils>> passiert einem fallenden Modell nichts.
 Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
 Darüber hinaus erleidet es automatisch einen Treffer.
@@ -1037,10 +1025,9 @@ Der Schaden orientiert sich ebenfalls an der KO des Modells.
 
 |===
 
-=== Schnelle Bewegungen
+[[Schnelle-Bewegungen]]
+=== ((Schnelle Bewegungen))(((Bewegung, Schnell)))
 
-(((Schnelle Bewegungen)))
-(((Bewegung, Schnell)))
 Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 20cm bewegt, gilt es als in schneller Bewegung.
 Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
@@ -1052,25 +1039,24 @@ Zum Beginn der nächsten Initiativephase eines Modells wird der Token wieder ent
 
 Sie kommt unter anderem beim <<Schnelle Bewegungen des Ziels,Fernkampf>> zur Anwendung.
 
-=== Liegende Modelle
+[[Liegende-Modelle]]
+=== ((Liegende Modelle))(((Bewegung, Liegend)))
 
-(((Liegende Modelle)))
-(((Bewegung, Liegend)))
 Liegende Modelle gelten als ein <<Größenprofil>> kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
 
 Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 
-== Gelände
+[[Gelände]]
+== ((Gelände))
 
-(((Gelände)))
 Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als <<Geländeteile,Geländeteil>> oder <<Objekte,Objekt>> bezeichnet.
 
 Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
 
-=== Geländeteile
+[[Geländeteile]]
+=== ((Geländeteile))
 
-(((Geländeteile)))
 Geländeteile sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
 
 So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
@@ -1128,9 +1114,9 @@ a|
 
 |===
 
-=== Deckung
+[[Deckung]]
+=== ((Deckung))
 
-(((Deckung)))
 Jedes Geländeteil kann als Deckung verwendet werden wenn es das <<Größenprofil>> eines Modells mindestens zur Hälfte verdeckt.
 
 Deckung kommt nur im <<Deckung des Ziels, Fernkampf>> zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet bzw. wenn beide sich innerhalb eines Geländeteils mit Deckung befinden.
@@ -1172,9 +1158,9 @@ Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
 |===
 
-=== Passierbarkeit
+[[Passierbarkeit]]
+=== ((Passierbarkeit))
 
-(((Passierbarkeit)))
 Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 
 [%unbreakable,cols="h,4",frame=ends]
@@ -1194,9 +1180,9 @@ Bei durchgehenden Bewegungsaktionen wird nur ein Bewegungstest durchgeführt und
 
 |===
 
-=== Sicht
+[[Sicht]]
+=== ((Sicht))
 
-(((Sicht)))
 In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch in ihrer Reichweite eingeschränkt.
 
 // TODO Sicht
@@ -1213,9 +1199,9 @@ In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> da
 
 ////
 
-=== Geländetypen
+[[Geländetypen]]
+=== ((Geländetypen))
 
-(((Geländetypen)))
 Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwendet werden.
 
 Sie sind nur Beispiele und sollten entsprechend erweitert oder abgeändert werden um ein für das Universum passendes Spielfeld zu schaffen.
@@ -1306,9 +1292,9 @@ Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
 |===
 ****
 
-=== Umgebungsbedingungen
+[[Umgebungsbedingungen]]
+=== ((Umgebungsbedingungen))
 
-(((Umgebungsbedingungen)))
 Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländeteilen unnötig zu erhöhen.
 
 So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden.
@@ -1317,19 +1303,18 @@ Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spi
 Um dies zu umgehen kann einfach das gesamte Spielfeld als ein spezifischer Geländetyp deklariert werden.
 Er gilt dann für das gesamte Spielfeld.
 
-== Schaden & Rüstung
+[[Schaden-und-Rüstung]]
+== ((Schaden)) & ((Rüstung))
 
-(((Schaden)))
-(((Rüstung)))
 Verschiedene Spielmechaniken erzeugen Schaden.
 Dies kann ein Modell sein das ein anderes Modell <<Fernkampf,beschießt>> oder im <<Nahkampf>> angreift oder auch Effekte die im Spiel auftreten.
 
 Schaden wird in erster Linie mit <<Rüstung,Rüstungen>> abgewehrt.
 Es kann aber auch <<Ausrüstung>> geben welche dabei hilft.
 
-=== Schadensprofil
+[[Schadensprofil]]
+=== ((Schadensprofil))
 
-(((Schadensprofil)))
 Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen <<Schadenseffekte,Schadenseffekten>> angegeben.
 
 [%unbreakable%header,cols="^1,1,3",frame=ends]
@@ -1340,11 +1325,11 @@ Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen <<S
 |Bedeutung
 
 |image:Grafiken/Waffe/stärke.svg[Stärke,40]
-|((Stärke))
-|erhöht die Chance beim <<Verletzungs- und Rüstungswurf,Verletzungswurf>>
+|Stärke
+|erhöht die Chance beim <<Verletzungs-und-Rüstungswurf,Verletzungswurf>>
 
 |image:Grafiken/Waffe/schaden.svg[Schaden,40]
-|((Schaden))
+|Schaden
 |zugefügter Verlust an Trefferpunkten
 
 |===
@@ -1354,9 +1339,9 @@ Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen <<S
 image::Grafiken/Abbildungen/schadensprofil.jpg[Schadensprofil,500]
 ====
 
-=== Rüstungsprofil
+[[Rüstungsprofil]]
+=== ((Rüstungsprofil))
 
-(((Rüstungsprofil)))
 Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventuellen <<Schadenseffekte,Schadenseffekten>> angegeben.
 
 [%unbreakable%header,cols="^1,1,3",frame=ends]
@@ -1368,7 +1353,7 @@ Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventu
 
 |image:Grafiken/Rüstung/schutz.svg[Schutz,40]
 |((Schutz))
-|erhöht die Chance beim <<Verletzungs- und Rüstungswurf,Rüstungswurf>>
+|erhöht die Chance beim <<Verletzungs-und-Rüstungswurf,Rüstungswurf>>
 
 |image:Grafiken/Rüstung/schadensreduktion.svg[Schadensreduktion,40]
 |((Schadensreduktion))
@@ -1381,9 +1366,9 @@ Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventu
 image::Grafiken/Abbildungen/rüstungsprofil.jpg[Rüstungsprofil,500]
 ====
 
-=== Schadenseffekte
+[[Schadenseffekte]]
+=== ((Schadenseffekte))
 
-(((Schadenseffekte)))
 Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 
 Beim Verletzungswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
@@ -1489,10 +1474,9 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |===
 --
 
-=== Verletzungs- und Rüstungswurf
+[[Verletzungs-und-Rüstungswurf]]
+=== Verletzungs- und Rüstungswurf(((Verletzungswurf)))(((Rüstungswurf)))
 
-(((Verletzungswurf)))
-(((Rüstungswurf)))
 Beide Spieler führen einen vergleichenden Wurf durch.
 Der Angreifer addiert die Stärke seiner Waffe, dies wird *Verletzungswurf* genannt.
 Der Verteidiger addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* genannt.
@@ -1521,9 +1505,9 @@ Nun wird die folgende Tabelle konsultiert:
 
 |===
 
-=== Schadensanwendung
+[[Schadensanwendung]]
+=== ((Schadensanwendung))
 
-(((Schadensanwendung)))
 Wenn Schaden zur Anwendung kommt, müssen entsprechend viele Trefferpunkte auf der <<Einheitenkarte>> gestrichen werden.
 Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden um diesen Wert verringert.
 
@@ -1532,15 +1516,13 @@ Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Eliminier
 Falls das Modell überlebt erleidet es einen <<Schock>>.
 Wenn es ausserdem nur noch kritische <<Trefferpunkte>> besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
 
-== Zustände
+== ((Zustände))
 
-(((Zustände)))
 Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinden.
 
-=== Brennen
+[[Brennen]]
+=== ((Brennen))(((Zustände, Brennen)))
 
-(((Brennen)))
-(((Zustände, Brennen)))
 Modelle mit einem Brandmarker gelten als *brennend*:
 
 image::Grafiken/Token/brennen.svg[Brennen,40,align=center]
@@ -1570,20 +1552,18 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 
 Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bonus von +2 auf den Wurf.
 
-=== Eliminiert
+[[Eliminiert]]
+=== ((Eliminiert))(((Zustände, Eliminiert)))
 
-(((Eliminiert)))
-(((Zustände, Eliminiert)))
 Eliminierte Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
 
 Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
 
 Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
-=== Kritisch
+[[Kritisch]]
+=== Kritisch(((Kritischer Zustand)))(((Zustände, Kritisch)))
 
-(((Kritischer Zustand)))
-(((Zustände, Kritisch)))
 Der kritische Zustand wird automatisch angewendet, sobald ein Modell nur noch kritische <<Trefferpunkte>> besitzt.
 
 Das Modell erhält für den Rest des Spiels folgende Mali:
@@ -1597,10 +1577,9 @@ Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen 
 Ein Modell kann nur einmal in den kritischen Zustand verfallen.
 Würde dies ein weiteres mal passieren erleidet es stattdessen 1 <<Schock>>.
 
-=== Panik
+[[Panik]]
+=== ((Panik))(((Zustände, Panik)))
 
-(((Panik)))
-(((Zustände, Panik)))
 Um zu testen ob ein Modell in Panik verfällt muss es einen Paniktest in Form eines EH-Tests absolvieren.
 Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarker.
 
@@ -1647,10 +1626,8 @@ Modelle in Panik werden hierbei ignoriert.
 |===
 
 [[Schock]]
-=== Schock
+=== ((Schock))(((Zustände, Schock)))
 
-(((Schock)))
-(((Zustände, Schock)))
 Wenn ein Modell einen Schock erleidet verliert es sofort 1 AP.
 Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Token:
 
@@ -1660,10 +1637,9 @@ Wenn ein Modell zum Beginn einer Runde über Schock-Token verfügt, verliert es 
 
 Sollten noch Schock-Token übrig sein und das Modell verfügt über keine AP mehr, verbleiben die übrigen Token bis zur nächsten Runde um dann abgezogen zu werden.
 
-=== Vergiftung
+[[Vergiftung]]
+=== ((Vergiftung))(((Zustände, Vergiftung)))
 
-(((Vergiftung)))
-(((Zustände, Vergiftung)))
 Modelle mit Giftmarkern zählen als *vergiftet*:
 
 image::Grafiken/Token/gift.svg[Gift,40,align=center]
@@ -1677,7 +1653,7 @@ Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es 
 
 Waffen verfügen über ein <<Schadensprofil>> und eventuelle <<Profilmodifikatoren>>.
 
-Weiterhin können für sie Regeln wie <<Indirekter Fernkampf>>, <<Dauerfeuer>> oder <<Flächenwaffen,Flächenwaffe>> infrage kommen.
+Weiterhin können für sie Regeln wie <<Indirekter-Fernkampf>>, <<Dauerfeuer>> oder <<Flächenwaffen,Flächenwaffe>> infrage kommen.
 
 === Fernkampfwaffen
 
@@ -1714,19 +1690,17 @@ Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind add
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
 [[Waffen-Unhandlich]]
-=== Unhandliche Waffen
+=== Unhandliche Waffen(((Unhandlich, Waffen)))(((Waffen, Unhandlich)))
 
-(((Unhandlich, Waffen)))
-(((Waffen, Unhandlich)))
 Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
 Auf der <<Einheitenkarte>> wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
 
 image::Grafiken/Waffe/unhandlich.png[unhandlich,40,align=center]
 
-=== Nachladen
+[[Nachladen]]
+=== ((Nachladen))
 
-(((Nachladen)))
 Waffen die nachladen müssen besitzen das folgende Symbol.
 
 image::Grafiken/Waffe/nachladen.svg[Nachladen,40,align=center]
@@ -1735,10 +1709,9 @@ Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann e
 
 image::Grafiken/Token/nachladen.svg[Nachladen,40,align=center]
 
-=== Einmalnutzung
+[[Waffen-Einmalnutzung]]
+=== Einmalnutzung(((Einmalnutzung, Waffen)))(((Waffen, Einmalnutzung)))
 
-(((Einmalnutzung, Waffen)))
-(((Waffen, Einmalnutzung)))
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
 
 Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
@@ -1821,16 +1794,14 @@ image::Grafiken/Abbildungen/einmalnutzung_waffe.jpg[Einmalnutzung Waffe,500pt]
 |===
 
 [[Rüstungen]]
-== Rüstungen
+== ((Rüstungen))
 
-(((Rüstungen)))
 Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
 
 Rüstungen verfügen über ein <<Rüstungsprofil>> und eventuelle <<Profilmodifikatoren>>.
 
-=== Regeln
+=== Regeln(((Rüstung, Regeln)))
 
-(((Rüstung, Regeln)))
 Jede Rüstung kann Regeln beinhalten.
 Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
 
@@ -1843,9 +1814,9 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
 Das Gewicht von selbsttragenden Rüstungen wird für die <<Tragkraft>> eines Modells ignoriert.
 
-== Fernkampf
+[[Fernkampf]]
+== ((Fernkampf))
 
-(((Fernkampf)))
 Unter Fernkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der auf Distanz passiert.
 
 === Durchführung
@@ -1857,7 +1828,7 @@ Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem <<Reichweite,Rei
 Gegebenenfalls kommen weitere <<Fernkampf-Modifikatoren,Modifikatoren>> zur Anwendung.
 
 Nun wird ein FK-Wurf für das Modell durchgeführt.
-Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verletzungs- und Rüstungswurf>> führt.
+Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verletzungs-und-Rüstungswurf>> führt.
 
 [[Fernkampf-Aktionen]]
 === Aktionen
@@ -1953,31 +1924,28 @@ Das Modell verliert danach automatisch seine Feuerbereitschaft.
 2+<a|
 * Das Modell muss sich in Feuerbereitschaft befinden.
 * Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige <<Bewegung-Aktionen,Bewegungsaktion>> innerhalb des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> durchführt.
-* Kann nicht mit <<Indirekter Fernkampf,indirektem Fernkampf>> genutzt werden.
+* Kann nicht mit <<Indirekter-Fernkampf,indirektem Fernkampf>> genutzt werden.
 
 |===
 
-=== Erlaubte Waffen
+=== Erlaubte Waffen(((Fernkampf, Erlaubte Waffen)))
 
-(((Fernkampf, Erlaubte Waffen)))
 Im Fernkampf dürfen nur Waffen mit einem <<Reichweite,Reichweitenband>>, nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
 
-=== Trefferzonen
+=== Trefferzonen(((Fernkampf, Trefferzonen)))(((Trefferzonen, im Fernkampf)))
 
-(((Fernkampf, Trefferzonen)))
-(((Trefferzonen, im Fernkampf)))
 Wenn das Ziel über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
-=== Zielauswahl
+[[Zielauswahl]]
+=== ((Zielauswahl))
 
-(((Zielauswahl)))
 Damit ein Ziel beschossen werden kann muss eine <<Sichtlinie>> zu ihm gezogen werden können.
 
 Sollte sich im <<Gefahrenbereich>> keine <<Direkte Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
 
-=== Reichweite
+[[Reichweite]]
+=== Reichweite(((Fernkampf, Reichweite)))
 
-(((Fernkampf, Reichweite)))
 Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
 X gibt dabei an, wie groß die Reichweitenbänder sind, Y wie oft diese anwendbar sind.
 
@@ -1997,9 +1965,8 @@ Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite 
 Der FK-Wurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
 ====
 
-=== Beschuss von Modellen im Nahkampf
+=== Beschuss von Modellen im Nahkampf(((Fernkampf, Modelle im Nahkampf)))
 
-(((Fernkampf, Modelle im Nahkampf)))
 Modelle die sich im Nahkampf befinden dürfen beschossen werden.
 
 Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zufall wobei die Wahrscheinlichkeit für jedes Modell identisch ist.
@@ -2012,17 +1979,15 @@ Ein gegnerische Modell wird beschossen und es hat 2 Nahkampfgegner.
 Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
 ====
 
-=== Beschuss von getarnten Modellen
+=== Beschuss von getarnten Modellen(((Fernkampf, getarnte Modelle)))
 
-(((Fernkampf, getarnte Modelle)))
 Es können nur <<Aufklärung,aufgeklärte>> getarnte Modelle beschossen werden.
 
 [[Fernkampf-Modifikatoren]]
 === Modifikatoren
 
-==== Größe des Ziels
+==== Größe des Ziels(((Fernkampf, Größe des Ziels)))
 
-(((Fernkampf, Größe des Ziels)))
 Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger zu treffen.
 
 [%unbreakable%header,cols="^1,^1",frame=ends]
@@ -2045,9 +2010,8 @@ Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger z
 
 |===
 
-==== Deckung des Ziels
+==== Deckung des Ziels(((Fernkampf, Deckung des Ziels)))
 
-(((Fernkampf, Deckung des Ziels)))
 Der durch eventuelle <<Deckung>> angewandte Modifikator.
 
 [%unbreakable%header,cols="^1,^1",frame=ends]
@@ -2068,26 +2032,21 @@ Der durch eventuelle <<Deckung>> angewandte Modifikator.
 |===
 
 [[Fernkampf-Unhandlich]]
-==== Unhandliche Waffen
+==== Unhandliche Waffen(((Unhandlich, Waffen im Fernkampf)))(((Fernkampf, Unhandliche Waffen)))
 
-(((Unhandlich, Waffen im Fernkampf)))
-(((Fernkampf, Unhandliche Waffen)))
 Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
 
-==== Liegender Schütze
+==== Liegender Schütze(((Fernkampf, Liegender Schütze)))
 
-(((Fernkampf, Liegender Schütze)))
 Liegende Schützen erhalten +2 auf den FK-Wurf.
 
-==== Schnelle Bewegungen des Ziels
+==== Schnelle Bewegungen des Ziels(((Fernkampf, Schnelle Bewegungen des Ziels)))
 
-(((Fernkampf, Schnelle Bewegungen des Ziels)))
 Auf Ziele, welche sich in <<Schnelle Bewegungen,schneller Bewegung>> befinden, gibt es einen Malus von -2 auf den FK-Wurf.
 
-=== Indirekter Fernkampf
+[[Indirekter-Fernkampf]]
+=== ((Indirekter Fernkampf))(((Fernkampf, Indirekt)))
 
-(((Indirekter Fernkampf)))
-(((Fernkampf, Indirekt)))
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 
 Er ist nicht mit der Aktion <<Fernkampf-Reaktionen,Reaktionsfeuer>> kombinierbar.
@@ -2110,10 +2069,9 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
 
 image::Grafiken/Waffe/indirekt.svg[indirekt,40,align=center]
 
-=== Dauerfeuer
+[[Dauerfeuer]]
+=== ((Dauerfeuer))(((Fernkampf, Dauerfeuer)))
 
-(((Dauerfeuer)))
-(((Fernkampf, Dauerfeuer)))
 Waffen können über den Wert „Dauerfeuer“ (DF) verfügen der im Bereich 1-4 liegt.
 Jeder Punkt DF wird hierdurch als 1 zusätzlicher Schuss behandelt.
 
@@ -2148,10 +2106,9 @@ oder
 Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 ====
 
-=== Flächenwaffen
+[[Flächenwaffen]]
+=== ((Flächenwaffen))(((Fernkampf, Flächenwaffe)))
 
-(((Flächenwaffe)))
-(((Fernkampf, Flächenwaffe)))
 Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
 
 Auf der <<Einheitenkarte>> wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in cm angibt.
@@ -2170,9 +2127,9 @@ Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgeru
 
 Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
 
-== Nahkampf
+[[Nahkampf]]
+== ((Nahkampf))
 
-(((Nahkampf)))
 Unter Nahkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der im Basekontakt passiert.
 
 Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Modelle im Nahkampf miteinander befinden.
@@ -2206,16 +2163,15 @@ Um einen Nahkampf auszuführen, muss die Base des angreifenden Modells die Base 
 Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle <<Nahkampf-Modifikatoren,Modifikatoren>> zur Anwendung kommen können.
 
 . Wenn das *angreifende* Modell gewinnt hat es 3 Möglichkeiten:
-** einen <<Schaden & Rüstung,Treffer>> mit der zuvor ausgewählten Nahkampfwaffe landen
+** einen <<Schaden-und-Rüstung,Treffer>> mit der zuvor ausgewählten Nahkampfwaffe landen
 ** das verteidigende Modell <<Zurückstoßen,zurückstoßen>>
 ** eine <<Kräfte,Kraft>> mit der <<Kraft-Reichweite,Reichweite>> _Berührung_ einsetzen
 . Wenn das *verteidigende* Modell gewinnt darf es das angreifende Modell <<Zurückstoßen, zurückstoßen>>.
 . Bei Gleichstand entscheidet ein vergleichender Wurf auf AGI dessen Ergebnis auch gegen diese Liste abgeglichen wird.
 
-=== Zurückstoßen
+[[Zurückstoßen]]
+=== ((Zurückstoßen))(((Nahkampf, Zurückstoßen)))
 
-(((Zurückstoßen)))
-(((Nahkampf, Zurückstoßen)))
 Modelle können nur dann zurückgestoßen werden wenn ihr <<Größenprofil>> gleich oder kleiner des stoßenden Modells ist.
 
 Ein Modell zurück zu stoßen bedeutet, mit ihm eine <<Bewegung-Aktionen,Bewegungsaktion>> durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
@@ -2310,58 +2266,46 @@ Das sich lösende Modell kämpft mit NK von 0.
 
 |===
 
-=== Erlaubte Waffen
+=== Erlaubte Waffen(((Nahkampf, Erlaubte Waffen)))
 
-(((Nahkampf, Erlaubte Waffen)))
 Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
 
-=== Trefferzonen
+=== Trefferzonen(((Nahkampf, Trefferzonen)))(((Trefferzonen, im Nahkampf)))
 
-(((Nahkampf, Trefferzonen)))
-(((Trefferzonen, im Nahkampf)))
 Wenn der Verteidiger über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 [[Nahkampf-Modifikatoren]]
 === Modifikatoren
 
-==== Bonus für den Angreifer
+==== Bonus für den Angreifer(((Nahkampf, Bonus für den Angreifer)))
 
-(((Nahkampf, Bonus für den Angreifer)))
 Wenn der Angreifer den Angriff durch eine <<Bewegung-Aktionen,Angriffsbewegung>> einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
-==== Multiple Gegner
+==== Multiple Gegner(((Nahkampf, Multiple Gegner)))
 
-(((Nahkampf, Multiple Gegner)))
 Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
-==== Tarnung
+==== Tarnung(((Nahkampf, Tarnung)))(((Tarnung, Nahkampf)))
 
-(((Nahkampf, Tarnung)))
-(((Tarnung, Nahkampf)))
 Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
 
 [[Nahkampf-Unhandlich]]
-==== Unhandliche Waffen und Ausrüstung
+==== Unhandliche Waffen und Ausrüstung(((Unhandlich, Waffen und Ausrüstung im Nahkampf)))(((Nahkampf, Unhandliche Waffen und Ausrüstung)))
 
-(((Unhandlich, Waffen und Ausrüstung im Nahkampf)))
-(((Nahkampf, Unhandliche Waffen und Ausrüstung)))
 Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
 
-==== Größenunterschiede
+==== Größenunterschiede(((Nahkampf, Größenunterschiede)))
 
-(((Nahkampf, Größenunterschiede)))
 Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +2 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 Siehe auch <<Größenprofil>>.
 
-=== Nahkampf mit getarnten Modellen
+=== Nahkampf mit getarnten Modellen(((Nahkampf, mit getarnten Modellen)))
 
-(((Nahkampf, mit getarnten Modellen)))
 Es können nur <<Aufklärung,aufgeklärte>> Modelle angegriffen werden.
 
-=== Waffenloser Nahkampf
+=== Waffenloser Nahkampf(((Nahkampf, Waffenloser)))
 
-(((Nahkampf, Waffenloser)))
 Standard-Modelle und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
 Die Stärke entspricht der Konstitution.
@@ -2393,9 +2337,8 @@ image::Grafiken/Abbildungen/unbewaffnet.jpg[unbewaffnet,500]
 ====
 
 [[Tarnung]]
-== Tarnung
+== ((Tarnung))
 
-(((Tarnung)))
 Tarnung wird in passive und aktive Tarnung unterschieden.
 Weiterhin verfügt sie immer über eine Stufe um die Effektivität der Tarnung auszudrücken.
 
@@ -2421,9 +2364,8 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 |===
 
-=== Vorteile
+=== Vorteile(((Tarnung, Vorteile)))
 
-(((Tarnung, Vorteile)))
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
 Damit das möglich ist, müssen sie zuerst <<Aufklärung,aufgeklärt>> werden.
 
@@ -2437,10 +2379,9 @@ Modelle mit aktiver Tarnung erhalten einen Bonus von +1 auf ihren Rüstungswurf 
 
 Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 
-=== Aufklärung
+[[Aufklärung]]
+=== ((Aufklärung))(((Tarnung, Aufklärung)))
 
-(((Aufklärung)))
-(((Tarnung, Aufklärung)))
 Aufgeklärte Modelle können normal beschossen oder im Nahkampf angegriffen werden.
 
 Sie gelten solange als aufgeklärt bis sie 2 volle Bewegungsaktionen durchgeführt haben.
@@ -2487,9 +2428,9 @@ Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
 
 |===
 
-== Ausrüstung
+[[Ausrüstung]]
+== ((Ausrüstung))
 
-(((Ausrüstung)))
 Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
 
 Ausrüstung kann über <<Profilmodifikatoren>> verfügen.
@@ -2510,24 +2451,20 @@ Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
 
 |===
 
-=== Regeln
+=== Regeln(((Ausrüstung, Regeln)))
 
-(((Ausrüstung, Regeln)))
 Jede Ausrüstung kann Regeln beinhalten.
 Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
 
-=== AP-Kosten
+=== AP-Kosten(((Ausrüstung, AP-Kosten)))
 
-(((Ausrüstung, AP-Kosten)))
 Bei manchen Ausrüstungsgegenständen ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
 Um sie zu benutzen muss die Aktion "Ausrüstung verwenden" ausgeführt werden.
 
 Sofern keine AP angegeben sind ist auch keine Aktion für die Verwendung notwendig.
 
-=== Einmalnutzung
+=== Einmalnutzung(((Einmalnutzung, Ausrüstung)))(((Ausrüstung, Einmalnutzung)))
 
-(((Einmalnutzung, Ausrüstung)))
-(((Ausrüstung, Einmalnutzung)))
 Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
 
 Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
@@ -2543,24 +2480,21 @@ image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüst
 ====
 
 [[Ausrüstung-Unhandlich]]
-=== Unhandliche Ausrüstung
+=== Unhandliche Ausrüstung(((Unhandlich, Ausrüstung)))(((Ausrüstung, Unhandlich)))
 
-(((Unhandlich, Ausrüstung)))
-(((Ausrüstung, Unhandlich)))
 Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
 Auf der <<Einheitenkarte>> wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
-== Kolosse
+[[Kolosse]]
+== ((Kolosse))
 
-(((Kolosse)))
 Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 6 Meter haben und deren Gewicht bei 1,5 Tonnen erst anfängt.
 
 Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
 
-=== Fern- und Nahkampf
+=== Fern- und Nahkampf(((Kolosse, Fern- und Nahkampf)))
 
-(((Kolosse, Fern- und Nahkampf)))
 Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
 
 === Geländeausnutzung
@@ -2569,10 +2503,9 @@ Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sic
 
 Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
 
-=== Trefferzonen
+[[Trefferzonen]]
+=== ((Trefferzonen))(((Kolosse, Trefferzonen)))
 
-(((Trefferzonen)))
-(((Kolosse, Trefferzonen)))
 Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung unterteilt.
 
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
@@ -2636,9 +2569,9 @@ Außerdem werden AGI und NK um 1 verringert.
 
 |===
 
-== Telematons
+[[Telematons]]
+== Telematons(((Telematons)))
 
-(((Telematons)))
 Unter Telematons wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
 Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen <<Operatoren,Operator>>.
 
@@ -2654,10 +2587,9 @@ Sie haben keine eigene Initiativephase.
 * Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
 ====
 
-=== Operatoren
+[[Operatoren]]
+=== ((Operatoren))(((Telematons, Operatoren)))
 
-(((Operatoren)))
-(((Telematons, Operatoren)))
 Unter Operatoren versteht man alle Modelle denen ein Telematon zugeordnet werden kann.
 Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Telematons ihm zugeordnet werden können.
 
@@ -2672,55 +2604,47 @@ Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn 
 * Ein Prospektor verfügt über 3 "Lenk-Module" für seinen Anzug und kann damit 3 zugeordnete Telematons haben.
 ====
 
-=== Zuordnung
+=== Zuordnung(((Telematons, Zuordnung)))
 
-(((Telematons, Zuordnung)))
 Telematons können und müssen immer genau einem Operator zugeordnet sein.
 Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
-=== Telematons ohne Operator
+=== Telematons ohne Operator(((Telematons, ohne Operator)))
 
-(((Telematons, ohne Operator)))
 Telematons, deren Operator <<Eliminiert,eliminiert>> wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
 
-=== Aktionspunkte
+=== Aktionspunkte(((Telematons, Aktionspunkte)))
 
-(((Telematons, Aktionspunkte)))
 Jeder Telematon verfügt über 2 AP.
 Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
 
-=== Attribute
+=== Attribute(((Telematons, Attribute)))
 
-(((Telematons, Attribute)))
 Telematons verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
 
-=== Gefahrenbereich
+=== Gefahrenbereich(((Telematons, Gefahrenbereich)))
 
-(((Telematons, Gefahrenbereich)))
 Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
 Daraus ergibt sich, dass eine <<Direkte Bedrohung,direkte Bedrohung>> für sie nicht existiert.
 Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Operators aktiv zu werden.
 
-=== Schock
+=== Schock(((Telematons, Schock)))
 
-(((Telematons, Schock)))
 <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
 Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Telematons zu entfernen.
 
-=== Eliminierung
+=== Eliminierung(((Telematons, Eliminierung)))
 
-(((Telematons, Eliminierung)))
 Sobald ein Telematon <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
 
 Der Operator muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Telematons.
 
-== Disziplinen & Kräfte
+[[Disziplinen-und-Kräfte]]
+== ((Disziplinen)) & ((Kräfte))
 
-(((Disziplinen)))
-(((Kräfte)))
 In Universalis wird alles was andernorts normalerweise als PSI, Magie, Thaumaturgie, usw. bezeichnet wird _Kräfte_ genannt.
 Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der dazugehörigen Kräfte vorgeben.
 
@@ -2733,9 +2657,8 @@ Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft darg
 ====
 
 [[Kraft-Auswahl]]
-=== Auswahl
+=== Auswahl(((Kräfte, Auswahl)))
 
-(((Kräfte, Auswahl)))
 Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
 
@@ -2771,15 +2694,13 @@ image::Grafiken/Abbildungen/kraftkarte_übersicht.svg[[Aufbau Kraftkarte,align=c
 |===
 
 [[Kraft-AP-Kosten]]
-==== AP-Kosten
+==== AP-Kosten(((Kräfte, AP-Kosten)))
 
-(((Kräfte, AP-Kosten)))
 Dies sind die benötigten AP um die Kraft einzusetzen.
 
 [[Kraft-Attribut]]
-==== Attribut
+==== Attribut(((Kräfte, Attribut)))
 
-(((Kräfte, Attribut)))
 Kräfte beziehen sich immer auf ein Attribut.
 Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher <<Attributswurf>> gegen dieses Attribut abgelegt werden.
 
@@ -2793,9 +2714,8 @@ Sie gibt an wie der <<Attributswurf>> modifiziert wird.
 ====
 
 [[Kraft-TP-Verlust]]
-==== TP-Verlust
+==== TP-Verlust(((Kräfte, TP-Verlust)))
 
-(((Kräfte, TP-Verlust)))
 Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
 Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem <<Attributswurf>> oder bei jedem Einsatz automatisch passiert.
@@ -2814,9 +2734,8 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 |===
 
 [[Kraft-Ziel]]
-==== Ziel
+==== Ziel(((Kräfte, Ziel)))
 
-(((Kräfte, Ziel)))
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
@@ -2841,9 +2760,8 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 |===
 
 [[Kraft-Reichweite]]
-==== Reichweite
+==== Reichweite(((Kräfte, Reichweite)))
 
-(((Kräfte, Reichweite)))
 Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
 
 [%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
@@ -2865,9 +2783,8 @@ Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,N
 |===
 
 [[Kraft-Dauer]]
-==== Dauer
+==== Dauer(((Kräfte, Dauer)))
 
-(((Kräfte, Dauer)))
 Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
 
 Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
@@ -2939,9 +2856,8 @@ Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kra
 
 |===
 
-=== Kraft blockieren
+=== Kraft blockieren(((Kräfte, Blockieren)))
 
-(((Kräfte, Blockieren)))
 Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
 
 Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im <<Wahrnehmungsbereich>> befinden.
@@ -2951,9 +2867,9 @@ Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
 
-== Progression
+[[Progression]]
+== ((Progression))
 
-(((Progression)))
 // TODO Beispiele wie Progression als lebendige Geschichte dynamisch umgesetzt werden kann
 
 ifdef::backend-pdf[]
