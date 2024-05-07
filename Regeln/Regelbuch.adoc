@@ -980,7 +980,7 @@ Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 [[Klettern]]
 === ((Klettern))(((Bewegung, Klettern)))
 
-Jedes Modell kann ohne spezielle Ausrüstung auf oder herunter von Hindernissen bis zu seinem doppelten <<Größenprofil>> klettern.
+Jedes Modell kann ohne spezielle Ausrüstung oder Eigenschaften auf oder herunter von <<Geländeteile,Geländeteilen>> bis zu seinem doppelten <<Größenprofil>> klettern.
 
 Die vertikale Distanz wird dafür doppelt berechnet.
 
