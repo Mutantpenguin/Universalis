@@ -14,6 +14,7 @@ Markus Lobedann <markus.lobedann@gmail.com>
 :figure-caption: Abbildung
 :example-caption: Beispiel
 :icons: font
+:appendix-caption: Anhang
 ifdef::backend-html5[]
 :stylesheet: style/html-theme.css
 :xrefstyle: basic
