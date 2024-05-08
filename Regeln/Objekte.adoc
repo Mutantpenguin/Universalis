@@ -1,0 +1,48 @@
+[%unbreakable%header,cols="1,2",frame=ends]
+|===
+
+|Objekt
+|Beschränkungen
+
+|Hebel
+|-
+
+|Keypad
+|Code bekannt
+
+|Opferaltar
+|Paraphernalien vorhanden
+
+|Schalter
+|-
+
+|Terminal
+|Code bekannt
+
+|Torwächter
+a|
+* Passwort bekannt
+* Gegenstand vorhanden
+
+a|zu öffnende Objekte
+
+bspw. Tür, Truhe, Kiste, Fenster
+a|
+[%unbreakable,cols="2,4",frame=ends]
+!===
+
+!unverschlossen
+!-
+
+!verschlossen
+!Schlüssel/Keycard vorhanden / KO-2
+
+!verschlossen, befestigt
+!Schlüssel/Keycard vorhanden / KO-4
+
+!verschlossen, gepanzert
+!Schlüssel/Keycard vorhanden / KO-6
+
+!===
+
+|===

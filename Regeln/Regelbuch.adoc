@@ -1063,53 +1063,6 @@ Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon be
 
 Geländeteile gehören in der Regel einem <<Geländetypen,Geländetyp>> an.
 
-=== Objekte
-
-Unter ihnen versteht man alle Gegenstände auf dem Spielfeld, die von einem Modell benutzt werden können, und deren Benutzung eine Wirkung nach sich zieht.
-Sie können alleine stehen oder sind Bestandteil eines <<Geländeteile,Geländeteils>>.
-
-Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szenario, Universum oder nach Einigung der Spieler festgelegt.
-
-.{nbsp}
-====
-* Türen
-* Schalter und Hebel
-* Computer Terminals
-====
-
-==== Beschränkungen von Objekten
-
-Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
-
-Die folgenden Beschränkungen sind möglich, auch in Kombination.
-
-[%unbreakable%header,cols="h,3,3",frame=ends]
-|===
-
-|Art
-|Beschränkung
-|Beispiele
-
-|Eigenschaft
-|Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
-a|
-* "Hacking III" um ein Terminal der Stufe III zu hacken.
-* "Schlossknacken" um Schlösser zu knacken.
-
-|Schwierigkeit
-|<<Attributswurf>> mit optionalem Modifikator notwendig.
-a|
-* KO-Test um die Winde eines Falltors zu drehen.
-* WN-2-Test um ein elektronisches Schloss kurz zu schließen.
-
-|Komplex
-|Alles ist möglich.
-a|
-* Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
-* Ein konkret benanntes anderes Objekt wurde bereits benutzt.
-
-|===
-
 [[Deckung]]
 === ((Deckung))
 
@@ -1215,6 +1168,56 @@ Geländetypen sollten für ein Universum passend erweitert oder abgeändert werd
 Siehe <<Anhang-Geländetypen, Anhang: Geländetypen>> für eine Übersicht allgemein nutzbarer Geländetypen.
 
 // TODO Und dann auch Beispiele dazu nennen?
+
+[[Objekte]]
+=== ((Objekte))
+
+Unter ihnen versteht man alle Gegenstände auf dem Spielfeld, die von einem Modell benutzt werden können, und deren Benutzung eine Wirkung nach sich zieht.
+Sie können alleine stehen oder sind Bestandteil eines <<Geländeteile,Geländeteils>>.
+
+Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szenario, Universum oder nach Einigung der Spieler festgelegt.
+
+Siehe <<Anhang-Objekte, Anhang: Objekte>> für eine Übersicht allgemein nutzbarer Objekte.
+
+.{nbsp}
+====
+* Türen
+* Schalter und Hebel
+* Computer Terminals
+====
+
+==== Beschränkungen von Objekten
+
+Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
+
+Die folgenden Beschränkungen sind möglich, auch in Kombination.
+
+[%unbreakable%header,cols="h,3,3",frame=ends]
+|===
+
+|Art
+|Beschränkung
+|Beispiele
+
+|Eigenschaft
+|Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
+a|
+* "Hacking III" um ein Terminal der Stufe III zu hacken.
+* "Schlossknacken" um Schlösser zu knacken.
+
+|Schwierigkeit
+|<<Attributswurf>> mit optionalem Modifikator notwendig.
+a|
+* KO-Test um die Winde eines Falltors zu drehen.
+* WN-2-Test um ein elektronisches Schloss kurz zu schließen.
+
+|Komplex
+|Alles ist möglich.
+a|
+* Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
+* Ein konkret benanntes anderes Objekt wurde bereits benutzt.
+
+|===
 
 [[Schaden-und-Rüstung]]
 == ((Schaden)) & ((Rüstung))
@@ -2794,3 +2797,8 @@ endif::[]
 [appendix]
 == Geländetypen
 include::Geländetypen.adoc[]
+
+[[Anhang-Objekte]]
+[appendix]
+== Objekte
+include::Objekte.adoc[]
