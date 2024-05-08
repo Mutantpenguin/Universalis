@@ -1,0 +1,82 @@
+.Befestigte Stellung
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Normal |massiv |1
+|===
+****
+
+.Dickicht
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Normal |weich |1
+|===
+****
+
+.Gebäude
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Normal |hart |1
+|===
+****
+
+.Gewässer
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Schwierig |- |-
+|===
+****
+
+.Krater
+****
+Die Deckung wirkt nur gegen Beschuss von außerhalb.
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Schwierig |hart |1
+|===
+****
+
+.Ruine
+****
+Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Schwierig |hart |2
+|===
+****
+
+.Straße
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Normal |- |-
+|===
+****
+
+.Sumpf
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Unpassierbar |- |1
+|===
+****
+
+.Wald
+****
+[%unbreakable%header,cols="^1,^1,^1",frame=ends]
+|===
+|Passierbarkeit |Deckung |Sicht
+|Schwierig |hart |2
+|===
+****

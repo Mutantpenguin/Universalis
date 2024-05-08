@@ -1061,7 +1061,7 @@ Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln 
 Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländeteil befindet.
 Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
 
-Geländeteile gehören in der Regel einem der weiter unten genannten <<Geländetypen>> an.
+Geländeteile gehören in der Regel einem <<Geländetypen,Geländetyp>> an.
 
 === Objekte
 
@@ -1194,99 +1194,6 @@ In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> da
 
 ////
 
-[[Geländetypen]]
-=== ((Geländetypen))
-
-Diese Geländetypen können von Geländeteilen und Umgebungsbedingungen verwendet werden.
-
-Sie sind nur Beispiele und sollten entsprechend erweitert oder abgeändert werden um ein für das Universum passendes Spielfeld zu schaffen.
-
-// TODO in eigene Datei packen?
-// TODO Und dann auch Beispiele dazu nennen?
-
-.Befestigte Stellung
-****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Normal |massiv |1
-|===
-****
-
-.Dickicht
-****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Normal |weich |1
-|===
-****
-
-.Gebäude
-****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Normal |hart |1
-|===
-****
-
-.Gewässer
-****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Schwierig |- |-
-|===
-****
-
-.Krater
-****
-Die Deckung wirkt nur gegen Beschuss von außerhalb.
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Schwierig |hart |1
-|===
-****
-
-.Ruine
-****
-Alle auch nur teilweise zerstörten Gebäude fallen unter diesen Geländetyp.
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Schwierig |hart |2
-|===
-****
-
-.Straße
-****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Normal |- |-
-|===
-****
-
-.Sumpf
-****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Unpassierbar |- |1
-|===
-****
-
-.Wald
-****
-[%unbreakable%header,cols="^1,^1,^1",frame=ends]
-|===
-|Passierbarkeit |Deckung |Sichtweite
-|Schwierig |hart |2
-|===
-****
-
 [[Umgebungsbedingungen]]
 === ((Umgebungsbedingungen))
 
@@ -1297,6 +1204,17 @@ Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spi
 
 Um dies zu umgehen kann einfach das gesamte Spielfeld als ein spezifischer Geländetyp deklariert werden.
 Er gilt dann für das gesamte Spielfeld.
+
+[[Geländetypen]]
+=== ((Geländetypen))
+
+Sie beinhalten Informationen zu <<Passierbarkeit>>, <<Deckung>>, <<Sicht>> und eventuellen weiteren Sonderregeln.
+
+Geländetypen sollten für ein Universum passend erweitert oder abgeändert werden um ein dem Universum entsprechendes Spielfeld zu schaffen.
+
+Siehe <<Anhang-Geländetypen, Anhang: Geländetypen>> für eine Übersicht allgemein nutzbarer Geländetypen.
+
+// TODO Und dann auch Beispiele dazu nennen?
 
 [[Schaden-und-Rüstung]]
 == ((Schaden)) & ((Rüstung))
@@ -2871,3 +2789,8 @@ ifdef::backend-pdf[]
 [index]
 == Stichwortverzeichnis
 endif::[]
+
+[[Anhang-Geländetypen]]
+[appendix]
+== Geländetypen
+include::Geländetypen.adoc[]
