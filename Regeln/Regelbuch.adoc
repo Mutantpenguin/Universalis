@@ -2796,9 +2796,9 @@ endif::[]
 [[Anhang-Geländetypen]]
 [appendix]
 == Geländetypen
-include::Geländetypen.adoc[]
+include::_Geländetypen.adoc[]
 
 [[Anhang-Objekte]]
 [appendix]
 == Objekte
-include::Objekte.adoc[]
+include::_Objekte.adoc[]
