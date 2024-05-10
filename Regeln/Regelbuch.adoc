@@ -1496,7 +1496,7 @@ Modelle in Panik können keine Reaktionen durchführen.
 
 Während jeder Aktivierung benutzen sie alle ihre AP um sich in Richtung der am nächsten gelegenen Spielfeldkante zu bewegen und das Spielfeld zu verlassen.
 
-Sie ignorieren Bedrohungen, nutzen aber das Gelände entsprechend ihrer <<Bewegungsart>> vernünftig aus.
+Sie ignorieren Gefahren, nutzen aber das Gelände entsprechend ihrer <<Bewegungsart>> vernünftig aus.
 Das heißt, sie springen in ihrer Panik nicht sinnlos von Gebäuden etc.
 
 Am Ende ihrer Initiativephase kann für sie ein erneuter Paniktest durchgeführt werden.
