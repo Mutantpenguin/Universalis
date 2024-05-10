@@ -1156,8 +1156,6 @@ Geländetypen sollten für ein Universum passend erweitert oder abgeändert werd
 
 Siehe <<Anhang-Geländetypen, Anhang: Geländetypen>> für eine Übersicht allgemein nutzbarer Geländetypen.
 
-// TODO Und dann auch Beispiele dazu nennen?
-
 [[Objekte]]
 === ((Objekte))
 
