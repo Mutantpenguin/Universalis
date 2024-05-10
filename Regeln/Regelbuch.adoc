@@ -801,27 +801,37 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 |image:Grafiken/Bewegung/beine.svg[Beine,40]
 |Beine
-|Die Standard Bewegungsart für Standard-Modelle. Bietet weder spezielle Vorteile noch Nachteile.
+a|
+* Standard Bewegungsart für Modelle.
+* Bietet weder spezielle Vorteile noch Nachteile.
 
 |image:Grafiken/Bewegung/flug.svg[Flug,40]
 |Flug
-|In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
+a|
+* Ignoriert <<Passierbarkeit>> von <<Geländeteile,Geländeteilen>>.
+* In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
+* Kann Nahkampf nur mit anderen fliegenden Modellen durchführen.
 
 |image:Grafiken/Bewegung/kette.svg[Kette,40]
 |Kette
-|Bewegungstests für <<Passierbarkeit>> dürfen einmal wiederholt werden.
+a|
+* Bewegungstests für <<Passierbarkeit>> dürfen einmal wiederholt werden.
 
 |image:Grafiken/Bewegung/rad.svg[Rad,40]
 |Rad
-|Auf dem <<Geländetypen,Geländetyp>> Straße wird die Bewegung um 2cm erhöht.
+a|
+* Auf dem <<Geländetypen,Geländetyp>> Straße wird die Bewegung um 50% (abgerundet) erhöht.
 
 |image:Grafiken/Bewegung/schweben.svg[Schweben,40]
 |Schweben
-|Ignoriert <<Passierbarkeit>> von <<Geländeteile,Geländeteilen>>.
+a|
+* Ignoriert <<Passierbarkeit>> von <<Geländeteile,Geländeteilen>>.
+* Im Nahkampf wird das Modell als eine Stufe Größer behandelt. Siehe <<Größenprofil>> und <<Größenunterschiede>>.
 
 |image:Grafiken/Bewegung/stationär.svg[Stationär,40]
 |Stationär
-|Kann nicht bewegt werden.
+a|
+* Kann nicht bewegt werden.
 
 |===
 
