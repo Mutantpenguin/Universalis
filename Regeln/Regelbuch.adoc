@@ -2533,7 +2533,7 @@ Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordn
 
 Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
 Daraus ergibt sich, dass eine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> für sie nicht existiert.
-Sie müssen aber wenn möglich aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
+Sie müssen aber, wenn möglich, aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
 
 === Schock(((Telematons, Schock)))
 
