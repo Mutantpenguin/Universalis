@@ -535,14 +535,14 @@ Auf der <<Einheitenkarte>> wird der Gefahrenbereich mit diesem Symbol angegeben:
 
 image::Grafiken/Modell/gefahrenbereich.svg[Gefahrenbereich,40,align=center]
 
-[[Direkte-Bedrohung]]
-==== ((Direkte Bedrohung))
+[[Unmittelbare-Bedrohung]]
+==== ((Unmittelbare Bedrohung))
 
-Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „direkte Bedrohung" genannt.
-Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch direkte Bedrohungen.
+Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „Unmittelbare Bedrohung" genannt.
+Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch unmittelbare Bedrohungen.
 
-Möchte das Modell eine direkte Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
-Misslingt dieser Test muss ein Angriff gegen die direkte Bedrohung erfolgen, egal ob per <<Nahkampf>>, <<Fernkampf>>, <<Ausrüstung>>, <<Eigenschaften>> oder <<Disziplinen,Kräften>>.
+Möchte das Modell eine unmittelbare Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
+Misslingt dieser Test muss ein Angriff gegen die unmittelbare Bedrohung erfolgen, egal ob per <<Nahkampf>>, <<Fernkampf>>, <<Ausrüstung>>, <<Eigenschaften>> oder <<Disziplinen,Kräften>>.
 
 Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
@@ -887,7 +887,7 @@ Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie autom
 .^|2\|3 ⊙
 
 3+<|
-Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, muss vorher aber den Test für eine <<Direkte Bedrohung>> durchführen.
+Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, muss vorher aber den Test für eine <<unmittelbare Bedrohung>> durchführen.
 Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
 
 Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
@@ -1846,7 +1846,7 @@ Wenn das Ziel über <<Trefferzonen>> verfügt muss die getroffene Trefferzone au
 
 Damit ein Ziel beschossen werden kann muss eine <<Sichtlinie>> zu ihm gezogen werden können.
 
-Sollte sich im <<Gefahrenbereich>> keine <<Direkte Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
+Sollte sich im <<Gefahrenbereich>> keine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
 
 [[Reichweite]]
 === Reichweite(((Fernkampf, Reichweite)))
@@ -2532,8 +2532,8 @@ Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordn
 === Gefahrenbereich(((Telematons, Gefahrenbereich)))
 
 Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
-Daraus ergibt sich, dass eine <<Direkte Bedrohung,direkte Bedrohung>> für sie nicht existiert.
-Sie müssen aber wenn möglich aktiv werden um gegen eine direkte Bedrohung ihres Operators aktiv zu werden.
+Daraus ergibt sich, dass eine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> für sie nicht existiert.
+Sie müssen aber wenn möglich aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
 
 === Schock(((Telematons, Schock)))
 
