@@ -78,6 +78,8 @@ image:
 table:
   head:
     background-color: #F0F0F0
+  cell:
+    line-height: 1
 toc:
   line-height: 1
 list:
