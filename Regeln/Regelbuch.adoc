@@ -2771,11 +2771,6 @@ Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
 
-[[Progression]]
-== ((Progression))
-
-// TODO Beispiele wie Progression als lebendige Geschichte dynamisch umgesetzt werden kann
-
 ifdef::backend-pdf[]
 [index]
 == Stichwortverzeichnis
