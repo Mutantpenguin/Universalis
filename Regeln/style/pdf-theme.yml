@@ -41,13 +41,11 @@ heading:
       bottom: 6
   h5:
     font:
-      family: Nova Round
       size: 10
     margin:
       bottom: 6
   h6:
     font:
-      family: Nova Round
       size: 10
     margin:
       bottom: 6
