@@ -891,7 +891,7 @@ Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie autom
 .^|2\|3 ⊙
 
 3+<|
-Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, muss vorher aber den Test für eine <<unmittelbare Bedrohung>> durchführen.
+Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, muss vorher aber den Test für eine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> durchführen.
 Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
 
 Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
@@ -2212,7 +2212,8 @@ Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Rund
 
 Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
 
-==== Größenunterschiede(((Nahkampf, Größenunterschiede)))
+[[Größenunterschiede]]
+==== Größenunterschiede(((Größenunterschiede)))(((Nahkampf, Größenunterschiede)))
 
 Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +2 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 
