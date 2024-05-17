@@ -1068,7 +1068,7 @@ Dieser kommt zur Anwendung, wenn das Modell die Deckung berührt.
 
 Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
-[%unbreakable,cols="h,2,2,2",frame=ends]
+[%unbreakable,cols="2h,3,3,3",frame=ends]
 |===
 
 |Stufe
