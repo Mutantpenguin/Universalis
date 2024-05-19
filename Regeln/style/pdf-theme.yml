@@ -5,6 +5,11 @@ font:
     Nova Round:
       normal: NovaRound-Regular.ttf
       bold: NovaRound-Bold.ttf
+    Noto Sans:
+      normal: NotoSans-Regular.ttf
+      bold: NotoSans-Bold.ttf
+      italic: NotoSans-Italic.ttf
+      bold_italic: NotoSans-BoldItalic.ttf
     Noto Sans Symbols 2: NotoSansSymbols2-Regular.ttf
   fallbacks: [Noto Sans Symbols 2]
 base_font_family: Noto Sans
