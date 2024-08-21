@@ -5,7 +5,7 @@
    viewBox="0 0 9.375 9.375"
    version="1.1"
    id="svg5552"
-   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="trauma.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -92,17 +92,17 @@
            id="g2"
            transform="translate(0.98285068)">
           <path
-             style="font-size:9.94708px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.164035"
+             style="stroke-width:0.164035;"
              d="m 584.39194,297.94128 v -0.0486 l 3.14246,-6.40149 h -3.09389 v -0.0486 l 0.39341,-0.83539 h 4.20614 v 0.0486 l -3.15703,6.40149 h 3.2056 v 0.0486 l -0.39342,0.8354 z"
              id="text1660"
              aria-label="Z" />
           <path
-             style="font-size:12.8868px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.164035"
+             style="stroke-width:0.164035;"
              d="m 593.07221,296.00797 v -0.0629 l 4.07118,-8.29336 h -4.00825 v -0.0629 l 0.50968,-1.08229 h 5.4492 v 0.0629 l -4.09004,8.29336 h 4.15297 v 0.0629 l -0.50968,1.08229 z"
              id="text1664"
              aria-label="Z" />
           <path
-             style="font-size:7.17167px;line-height:1.25;font-family:'Nova Round';-inkscape-font-specification:'Nova Round, Normal';letter-spacing:0px;word-spacing:0px;stroke-width:0.118297"
+             style="stroke-width:0.118297;"
              d="m 576.59125,299.94058 v -0.035 l 2.26566,-4.61536 h -2.23064 v -0.035 l 0.28364,-0.6023 h 3.03255 v 0.035 l -2.27616,4.61537 h 2.31118 v 0.035 l -0.28364,0.60231 z"
              id="text1670"
              aria-label="Z" />
