@@ -1328,6 +1328,10 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |Schrapnell
 |Boni auf den Rüstungswurf die durch <<Deckung>> oder <<Vorteile von Tarnung, Tarnung>> zustande kommen werden nicht angewendet.
 
+|image:Grafiken/Effekt/wucht.svg[Wucht,40]
+|Wucht
+|Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+
 |image:Grafiken/Effekt/zerfetzen.svg[Zerfetzen,40]
 |Zerfetzen
 |Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.
