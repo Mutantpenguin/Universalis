@@ -45,7 +45,7 @@ Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bis
 [.text-center]
 image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=250]
 
-* Ausreichend <<Geländeteile>> um die Fläche gut zu füllen.
+* Ausreichend <<Geländestücke>> um die Fläche gut zu füllen.
 
 * Für jeden Spieler ein Maßband oder einen Maßstab mit Markierungen in Zentimetern.
 +
@@ -487,7 +487,7 @@ image::Grafiken/Abbildungen/sichtlinie.svg[Größenprofil,300,align=center]
 
 Befreundete Modelle behindern nicht die Sichtlinie.
 
-Die Sichtlinie zu einem <<Geländeteile,Geländeteil>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
+Die Sichtlinie zu einem <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
 
 [[Tragkraft]]
 === ((Tragkraft))
@@ -625,7 +625,7 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 [[Spielfeldaufbau]]
 === ((Spielfeldaufbau))
 
-Beide Spieler bauen gemeinsam das Spielfeld mit <<Geländeteile,Geländeteilen>> auf bis sie damit einverstanden sind.
+Beide Spieler bauen gemeinsam das Spielfeld mit <<Geländestücke,Geländestücken>> auf bis sie damit einverstanden sind.
 
 Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
 
@@ -812,7 +812,7 @@ a|
 |image:Grafiken/Bewegung/flug.svg[Flug,40]
 |Flug
 a|
-* Ignoriert <<Passierbarkeit>> von <<Geländeteile,Geländeteilen>>.
+* Ignoriert <<Passierbarkeit>> von <<Geländestücke,Geländestücken>>.
 * In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
 * Kann Nahkampf nur mit anderen fliegenden Modellen durchführen.
 
@@ -829,7 +829,7 @@ a|
 |image:Grafiken/Bewegung/schweben.svg[Schweben,40]
 |Schweben
 a|
-* Ignoriert <<Passierbarkeit>> von <<Geländeteile,Geländeteilen>>.
+* Ignoriert <<Passierbarkeit>> von <<Geländestücke,Geländestücken>>.
 * Im Nahkampf wird das Modell als eine Stufe Größer behandelt. Siehe <<Größenprofil>> und <<Größenunterschiede>>.
 
 |image:Grafiken/Bewegung/stationär.svg[Stationär,40]
@@ -959,7 +959,7 @@ Der Schütze muss sich im <<Wahrnehmungsbereich>> befinden.
 
 Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
 
-Zwischenräume zwischen <<Geländeteile,Geländeteilen>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem einfach übersprungen werden.
+Zwischenräume zwischen <<Geländestücke,Geländestücken>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem einfach übersprungen werden.
 
 Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen <<Bewegungstest>> ablegen.
 Wenn er misslingt <<Herunterfallen,fällt>> das Modell herunter.
@@ -973,7 +973,7 @@ Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 [[Klettern]]
 === ((Klettern))(((Bewegung, Klettern)))
 
-Jedes Modell kann ohne spezielle Ausrüstung oder Eigenschaften auf oder herunter von <<Geländeteile,Geländeteilen>> bis zu seinem doppelten <<Größenprofil>> klettern.
+Jedes Modell kann ohne spezielle Ausrüstung oder Eigenschaften auf oder herunter von <<Geländestücke,Geländestücken>> bis zu seinem doppelten <<Größenprofil>> klettern.
 
 Die vertikale Distanz wird dafür doppelt berechnet.
 
@@ -1039,32 +1039,46 @@ Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 [[Gelände]]
 == ((Gelände))
 
-Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als <<Geländeteile,Geländeteil>> oder <<Objekte,Objekt>> bezeichnet.
+Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> bezeichnet.
 
 Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
 
-[[Geländeteile]]
-=== ((Geländeteile))
+[[Geländestücke]]
+=== ((Geländestücke))
 
-Geländeteile sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
+Geländestücke sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
 
 So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
 Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln gelten dort automatisch.
 
-Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländeteil befindet.
+Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländestück befindet.
 Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
 
-Geländeteile gehören in der Regel einem <<Geländetypen,Geländetyp>> an.
+Geländestücke gehören in der Regel einem <<Geländetypen,Geländetyp>> an.
+
+[[Geländetypen]]
+=== ((Geländetypen))
+
+Sie beinhalten Informationen zu <<Deckung>>, <<Passierbarkeit>>, <<Sichtweite>> und eventuellen weiteren Sonderregeln.
+
+Geländetypen sollten für ein Universum passend erweitert oder abgeändert werden um ein dem Universum entsprechendes Spielfeld zu schaffen.
+
+Siehe <<Anhang-Geländetypen, Anhang: Geländetypen>> für eine Übersicht allgemein nutzbarer Geländetypen.
 
 [[Deckung]]
 === ((Deckung))
 
-Jedes Geländeteil kann als Deckung verwendet werden wenn es das <<Größenprofil>> eines Modells mindestens zur Hälfte verdeckt.
+Deckung kommt nur im <<Deckung des Ziels, Fernkampf>> zur Anwendung.
 
-Deckung kommt nur im <<Deckung des Ziels, Fernkampf>> zur Anwendung und auch nur wenn sie sich zwischen Angreifer und Verteidiger befindet bzw. wenn beide sich innerhalb eines Geländeteils mit Deckung befinden.
+Ein Geländestück bietet Deckung wenn:
 
-Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben.
-Dieser kommt zur Anwendung, wenn das Modell die Deckung berührt.
+* es sich zwischen dem Schützen und seinem Ziel befindet und das <<Größenprofil>> des Ziels mindestens zur Hälfte verdeckt
+
+oder
+
+* das Ziel sich darin befindet
+
+Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben der zur Anwendung kommt, wenn das Modell das Geländestück berührt oder sich darin befindet.
 
 Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
@@ -1112,7 +1126,7 @@ Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 |Es gibt keine Einschränkungen.
 
 |Schwierig
-a|Jede Bewegungsaktion die in, aus oder durch diese Geländeteil führt wird halbiert (aufgerundet).
+a|Jede Bewegungsaktion die in, aus oder durch diese Geländestück führt wird halbiert (aufgerundet).
 
 Auf Wunsch kann ein Bewegungstest abgelegt werden. Wenn er gelingt wird die Bewegung nicht halbiert, wenn er misslingt bleibt das Modell an seinem Platz, fällt, und gilt als <<Liegende Modelle,liegend>>.
 
@@ -1121,50 +1135,29 @@ Auf Wunsch kann ein Bewegungstest abgelegt werden. Wenn er gelingt wird die Bewe
 
 |===
 
-[[Sicht]]
-=== ((Sicht))
+[[Sichtweite]]
+=== ((Sichtweite))
 
-In bestimmtem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch in ihrer Reichweite eingeschränkt.
+In manchem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch ab einer gewissen Distanz vollständig blockiert.
 
-// TODO Sicht
-
-////
-
-*  vielleicht ganz anders, und einfach angeben ob Sichtlinien "durch" das Geländeteil möglich sind?
-
-* schlechte/gute/normale Sicht?
-
-* Der Wahrnehmungsbereich und Gefahrenbereich aller Modelle wird halbiert.
-
-* Jede Waffe verliert 1 Reichweitenband bis zu einem Minimum von 1.
-
-////
+Dies kommt zur Anwendung, wenn eine Sichtlinie von außerhalb eines Geländestücks in oder durch dieses gezogen wird und die angegebene Distanz erreicht wurde.
 
 [[Umgebungsbedingungen]]
 === ((Umgebungsbedingungen))
 
-Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländeteilen unnötig zu erhöhen.
+Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländestücken unnötig zu erhöhen.
 
 So könnte natürlich das gesamte Spielfeld mit viel Wald zugestellt werden.
-Dies benötigt einerseits viele Geländeteile und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
+Dies benötigt einerseits viele Geländestücke und erschwert andererseits das Spielgeschehen da permanent geschaut werden muss, ob sich ein Modell in einem Geländetyp befindet.
 
 Um dies zu umgehen kann einfach das gesamte Spielfeld als ein spezifischer Geländetyp deklariert werden.
 Er gilt dann für das gesamte Spielfeld.
-
-[[Geländetypen]]
-=== ((Geländetypen))
-
-Sie beinhalten Informationen zu <<Passierbarkeit>>, <<Deckung>>, <<Sicht>> und eventuellen weiteren Sonderregeln.
-
-Geländetypen sollten für ein Universum passend erweitert oder abgeändert werden um ein dem Universum entsprechendes Spielfeld zu schaffen.
-
-Siehe <<Anhang-Geländetypen, Anhang: Geländetypen>> für eine Übersicht allgemein nutzbarer Geländetypen.
 
 [[Objekte]]
 === ((Objekte))
 
 Unter ihnen versteht man alle Gegenstände auf dem Spielfeld, die von einem Modell benutzt werden können, und deren Benutzung eine Wirkung nach sich zieht.
-Sie können alleine stehen oder sind Bestandteil eines <<Geländeteile,Geländeteils>>.
+Sie können alleine stehen oder sind Bestandteil eines <<Geländestücke,Geländestücks>>.
 
 Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szenario, Universum oder nach Einigung der Spieler festgelegt.
 
@@ -1970,7 +1963,7 @@ Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen
 
 Er ist nicht mit der Aktion <<Fernkampf-Reaktionen,Reaktionsfeuer>> kombinierbar.
 
-Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen <<Geländeteile>> mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
+Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen <<Geländestücke>> mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
 
 .{nbsp}
 [%unbreakable]
@@ -2041,7 +2034,7 @@ Die Differenz * 3cm gibt an, wie weit der Einschlagpunkt in zufälliger Richtung
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
 Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
-Der Einschlagpunkt ist nun dort, wo diese Linie das erste Geländeteil oder das erste Modell kreuzt.
+Der Einschlagpunkt ist nun dort, wo diese Linie das erste <<Geländestücke, Geländestück>> oder das erste Modell kreuzt.
 
 Wenn die Fläche die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
 Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgerundet).
@@ -2281,10 +2274,10 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 |Voraussetzung
 
 |passiv
-|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem <<Geländeteile,Geländeteil>> (welches mindestens über die gleichen Ausmaße wie das <<Größenprofil>> des Modell verfügt) befindet.
+|Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem <<Geländestücke,Geländestück>> (welches mindestens über die gleichen Ausmaße wie das <<Größenprofil>> des Modell verfügt) befindet.
 
 |aktiv
-|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem <<Geländeteile,Geländeteil>> befinden oder nicht.
+|Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem <<Geländestücke,Geländestück>> befinden oder nicht.
 
 |===
 
@@ -2467,7 +2460,7 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 |*Rumpf*
 |Sinkt in sich zusammen und gilt als <<Eliminiert,eliminiert>>.
-Ist nun ein Geländeteil.
+Ist nun ein Geländestück.
 
 |*Seite*
 |Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
@@ -2488,7 +2481,7 @@ Außerdem werden AGI und NK um 1 verringert.
 !Bleibt auf der Stelle stehen und kann sich *nicht* mehr drehen.
 
 !12
-!Fällt um und gilt als <<Eliminiert,eliminiert>>. Ist nun ein Geländeteil.
+!Fällt um und gilt als <<Eliminiert,eliminiert>>. Ist nun ein Geländestück.
 
 !===
 
