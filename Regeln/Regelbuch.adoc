@@ -1347,8 +1347,8 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 |Name
 |Auswirkungen
 
-|image:Grafiken/Effekt/trauma.svg[Trauma,40]
-|Trauma
+|image:Grafiken/Effekt/schock.svg[Schock,40]
+|Schock
 |Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an <<Schock,Schocks>> in Höhe des Schadens.
 
 |image:Grafiken/Effekt/strukturschädigend.svg[Strukturschädigend,40]
