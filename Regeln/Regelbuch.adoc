@@ -1112,7 +1112,7 @@ Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 |Es gibt keine Einschränkungen.
 
 |Schwierig
-a|Jede Bewegungsaktion die in, aus oder durch diese Geländeteil führt wird halbiert.
+a|Jede Bewegungsaktion die in, aus oder durch diese Geländeteil führt wird halbiert (aufgerundet).
 
 Auf Wunsch kann ein Bewegungstest abgelegt werden. Wenn er gelingt wird die Bewegung nicht halbiert, wenn er misslingt bleibt das Modell an seinem Platz, fällt, und gilt als <<Liegende Modelle,liegend>>.
 
