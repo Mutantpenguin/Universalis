@@ -479,7 +479,7 @@ Es ist somit egal wohin ein Modell ausgerichtet ist.
 [[Sichtlinie]]
 === ((Sichtlinie))
 
-Die Sichtlinie zu einem <<Modelle,Modell>>, <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ziehen die es *trifft*.
+Die Sichtlinie zu einem <<Modelle,Modell>>, <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
 Bei Modellen bedeutet dies, dass die Linie ihr <<Größenprofil>> *trifft*.
 
 .Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.
