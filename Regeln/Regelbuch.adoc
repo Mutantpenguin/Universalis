@@ -479,15 +479,15 @@ Es ist somit egal wohin ein Modell ausgerichtet ist.
 [[Sichtlinie]]
 === ((Sichtlinie))
 
-Eine Sichtlinie zu einem Modell ist immer dann gegeben, wenn ein Teil seines <<Größenprofil,Größenprofils>> sichtbar ist.
-Dies bedeutet, dass es möglich sein muss eine gerade Linie zu ziehen die sein Größenprofil *trifft*.
+Die Sichtlinie zu einem <<Modelle,Modell>>, <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ziehen die es *trifft*.
+Bei Modellen bedeutet dies, dass die Linie ihr <<Größenprofil>> *trifft*.
 
 .Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.
 image::Grafiken/Abbildungen/sichtlinie.svg[Größenprofil,300,align=center]
 
-Befreundete Modelle behindern nicht die Sichtlinie.
+Sichtlinien können durch <<Sichtweite>> eingeschränkt sein.
+Befreundete Modelle behindern sie nicht.
 
-Die Sichtlinie zu einem <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade Linie zu ziehen die es *trifft*.
 
 [[Tragkraft]]
 === ((Tragkraft))
