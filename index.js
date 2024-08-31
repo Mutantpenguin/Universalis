@@ -13,7 +13,7 @@ window.onload = function () {
         }
     });
 
-    // const repoUrlSoftware = 'https://api.github.com/repos/Mutantpenguin/UniversalisSoftware/releases/latest';
+    // const repoUrlSoftware = 'https://api.github.com/repos/Mutantpenguin/Universalis-Builder/releases/latest';
 
     // $.get(repoUrlSoftware, function (data) {
     //     document.getElementById('version_software').innerHTML = data.tag_name;
