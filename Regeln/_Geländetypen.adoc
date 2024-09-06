@@ -10,19 +10,19 @@
 |Befestigte Stellung
 |normal
 |massiv
-|10cm
+|4"
 |-
 
 |Dickicht
 |normal
 |weich
-|20cm
+|8"
 |-
 
 |Gebäude
 |normal
 |hart
-|15cm
+|6"
 |-
 
 |Gewässer
@@ -40,13 +40,13 @@
 |Ruine
 |schwierig
 |hart
-|10cm
+|4"
 |Teilweise zerstörte Gebäude zählen auch zu diesem Geländetyp.
 
 |Schützengraben
 |schwierig
 |hart
-|10cm
+|4"
 |-
 
 |Straße
@@ -64,7 +64,7 @@
 |Wald
 |schwierig
 |hart
-|15cm
+|6"
 |-
 
 |===

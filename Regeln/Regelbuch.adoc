@@ -40,14 +40,14 @@ Ja, ein Universum.
 Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bisschen sollte schon existieren.
 // TODO Was ist ein Universum?
 
-* Ein Tisch mit einer Fläche von mindestens 90cm * 90cm.
+* Ein Tisch mit einer Fläche von mindestens 36" * 36".
 +
 [.text-center]
 image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=250]
 
 * Ausreichend <<Geländestücke>> um die Fläche gut zu füllen.
 
-* Für jeden Spieler ein Maßband oder einen Maßstab mit Markierungen in Zentimetern.
+* Jeder Spieler erhält ein Maßband oder -stab mit Markierungen in Abständen von einem halben Zoll.
 +
 [.text-center]
 image:Grafiken/Abbildungen/maßband.svg[Maßband,width=150,height=150]
@@ -291,8 +291,8 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 [[Geschwindigkeit]]
 === ((Geschwindigkeit))
 
-Gibt an, wie weit sich ein Modell mit einer Aktion in Zentimetern bewegen kann.
-Sie wird in der Regel mit GK abgekürzt.
+Gibt an, wie weit sich ein Modell mit einer Aktion in Zoll bewegen kann.
+Sie wird mit GK abgekürzt.
 
 Siehe auch <<Bewegung>>.
 
@@ -336,25 +336,25 @@ Modelle werden in 4 verschiedene Größenprofile gegliedert:
 |klein
 |Alles kleiner als einschließlich 1m
 |≤25mm
-|2,5cm
+|1"
 
 |image:Grafiken/Größe/mittel.svg[mittel,40]
 |mittel
 |Alles zwischen 1m und 2,5m.
 |25mm - <40mm
-|4cm
+|2"
 
 |image:Grafiken/Größe/groß.svg[groß,40]
 |groß
 |Alles zwischen 2,5m und 3,5m.
 |40mm - <60mm
-|6cm
+|3"
 
 |image:Grafiken/Größe/riesig.svg[riesig,40]
 |riesig
 |Alles höher als einschließlich 3,5m.
 |≥60mm
-|8cm
+|4"
 
 |===
 
@@ -529,9 +529,9 @@ Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 ve
 === ((Gefahrenbereich))
 
 Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren *muss*.
-Der Radius in Zentimetern berechnet sich indem die Entschlossenheit von 12 abgezogen wird:
+Der Radius in Zoll berechnet sich, indem die EH von 12 abgezogen und der Wert halbiert wird:
 
-    Radius in cm = 12 - EH
+    Radius in Zoll = (12 - EH) / 2
 
 Auf der <<Einheitenkarte>> wird der Gefahrenbereich mit diesem Symbol angegeben:
 
@@ -551,18 +551,18 @@ Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 [[Wahrnehmungsbereich]]
 === ((Wahrnehmungsbereich))
 
-Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> bis zu einer gewissen Distanz.
+Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> in einem gewissen Radius.
 
 .Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.
 image::Grafiken/Abbildungen/wahrnehmungsbereich.svg[Wahrnehmungsbereich,300,align=center]
 
-Die Distanz berechnet sich dabei folgendermaßen:
+Der Radius berechnet sich dabei folgendermaßen:
 
-    Distanz = WN * 5cm
+    Radius in Zoll = WN * 2
 
-Im <<Kritisch,Kritischen Zustand>> wird die Reichweite des Wahrnehmungsbereichs halbiert (aufgerundet).
+Im <<Kritisch,Kritischen Zustand>> wird der Radius des Wahrnehmungsbereichs halbiert (aufgerundet).
 
-Auf der <<Einheitenkarte>> wird die Distanz des Wahrnehmungsreich mit diesem Symbol angegeben:
+Auf der <<Einheitenkarte>> wird der Radius des Wahrnehmungsreich mit diesem Symbol angegeben:
 
 image::Grafiken/Modell/wahrnehmungsbereich.svg[Wahrnehmungsbereich,40,align=center]
 
@@ -627,7 +627,7 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
 Beide Spieler bauen gemeinsam das Spielfeld mit <<Geländestücke,Geländestücken>> auf bis sie damit einverstanden sind.
 
-Die Fläche des Spielfeldes muss exakt 90cm * 90cm betragen.
+Die Fläche des Spielfeldes muss exakt 36" * 36" betragen.
 
 [[Missionsauswahl]]
 === ((Missionsauswahl))
@@ -656,7 +656,7 @@ Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
 Der Gewinner des Wurfs markiert zuerst entsprechend seiner Mission seine Aufstellungszone, danach ist der Verlierer damit dran.
 Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
-Losgelöst von der gewählten Mission dürfen Modelle nie näher als 12cm an gegnerische Modelle aufgestellt werden.
+Losgelöst von der gewählten Mission dürfen Modelle nie näher als 6" an gegnerische Modelle aufgestellt werden.
 
 [[Runden]]
 === ((Runden))
@@ -864,10 +864,10 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 .^|1\|2 ⊙
 
 3+<a|
-Das Modell bewegt sich entsprechend seiner GK in cm.
+Das Modell bewegt sich entsprechend seiner GK.
 Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Modelle,liegt>>.
 
-Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 3cm eingehalten werden.
+Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 1" eingehalten werden.
 
 |===
 
@@ -959,7 +959,7 @@ Der Schütze muss sich im <<Wahrnehmungsbereich>> befinden.
 
 Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
 
-Zwischenräume zwischen <<Geländestücke,Geländestücken>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem einfach übersprungen werden.
+Zwischenräume zwischen <<Geländestücke,Geländestücken>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem ignoriert werden.
 
 Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen <<Bewegungstest>> ablegen.
 Wenn er misslingt <<Herunterfallen,fällt>> das Modell herunter.
@@ -1017,7 +1017,7 @@ Der Schaden orientiert sich ebenfalls an der KO des Modells.
 [[Schnelle-Bewegungen]]
 === ((Schnelle Bewegungen))(((Bewegung, Schnell)))
 
-Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 20cm bewegt, gilt es als in schneller Bewegung.
+Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 10" bewegt, gilt es als in schneller Bewegung.
 Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
 
 Sie wird am Modell mit dem Schnell-Token dargestellt:
@@ -1575,7 +1575,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
-Für die Länge der Reichweitenbänder wird die KO des werfendes Modells mit 2 multipliziert, bei <<Waffen-Unhandlich,unhandlichen>> Waffen mit 0,5 (aufgerundet).
+Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei <<Waffen-Unhandlich,unhandlichen>> Waffen wird sie mit 0,5 multipliziert(aufgerundet).
 
 .{nbsp}
 [%unbreakable]
@@ -1857,7 +1857,7 @@ Sollte sich im <<Gefahrenbereich>> keine <<Unmittelbare Bedrohung,unmittelbare B
 === Reichweite(((Fernkampf, Reichweite)))
 
 Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
-X gibt dabei an, wie groß die Reichweitenbänder sind, Y wie oft diese anwendbar sind.
+X gibt dabei an, wie groß die Reichweitenbänder in Zoll sind, Y wie oft diese anwendbar sind.
 
 Auf der <<Einheitenkarte>> wird dies unter folgendem Symbol ausgewiesen:
 
@@ -1870,10 +1870,10 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
 .{nbsp}
 [%unbreakable]
 ====
-Eine Pistole verfügt über den Wert 20/3.
-Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 60cm
+Eine Pistole verfügt über den Wert 8/3.
+Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 24".
 
-Der FK-Wurf für ein Ziel in einer Entfernung von 16cm erhält keinen Malus, bei 42cm würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+Der FK-Wurf für ein Ziel in einer Entfernung von 6" erhält keinen Malus, bei 17" würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
 ====
 
 === Beschuss von Modellen im Nahkampf(((Fernkampf, Modelle im Nahkampf)))
@@ -1968,8 +1968,8 @@ Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen <<Geländes
 .{nbsp}
 [%unbreakable]
 ====
-Ein Granatwerfer hat eine Reichweite von 25/4 und somit eine maximale Reichweite von 100cm.
-Die maximale Höhe für den Schuss beträgt somit 50cm.
+Ein Granatwerfer hat eine Reichweite von 10/4 und somit eine maximale Reichweite von 40".
+Die maximale Höhe für den Schuss beträgt somit 20".
 ====
 
 Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
@@ -1999,7 +1999,7 @@ image:Grafiken/Waffe/dauerfeuer_3.png[Dauerfeuer 1,40]
 |
 image:Grafiken/Waffe/dauerfeuer_4.png[Dauerfeuer 1,40]
 
-Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 3cm vom letzten Ziel befinden darf.
+Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 1" vom letzten Ziel befinden darf.
 Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf.
 
 Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den FK-Wurf und +1 beim Verletzungswurf.
@@ -2025,12 +2025,12 @@ Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 
 Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
 
-Auf der <<Einheitenkarte>> wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in cm angibt.
+Auf der <<Einheitenkarte>> wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in Zoll angibt.
 
 image::Grafiken/Waffe/radius.svg[Radius,40,align=center]
 
 Wenn bei einer Flächenwaffe der FK-Wurf misslingt, wird der gewürfelte Wert mit dem zu erreichenden verglichen.
-Die Differenz * 3cm gibt an, wie weit der Einschlagpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
+Die Differenz in Zoll gibt an, wie weit der Einschlagpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
 Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
