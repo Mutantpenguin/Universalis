@@ -387,7 +387,7 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 [[Aktionspunkte]]
 === ((Aktionspunkte))
 
-Modelle verfügen über Aktionspunkte (abgekürzt als "AP"), die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
+Modelle verfügen über Aktionspunkte (abgekürzt als AP), die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritisch, kritischen Zustand>> verfällt.
@@ -480,7 +480,7 @@ Es ist somit egal wohin ein Modell ausgerichtet ist.
 === ((Sichtlinie))
 
 Die Sichtlinie zu einem <<Modelle,Modell>>, <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
-Bei Modellen bedeutet dies, dass die Linie ihr <<Größenprofil>> *trifft*.
+Bei Modellen bedeutet dies, dass die Linie ihr <<Größenprofil>> trifft.
 
 .Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.
 image::Grafiken/Abbildungen/sichtlinie.svg[Größenprofil,300,align=center]
@@ -528,7 +528,7 @@ Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 ve
 [[Gefahrenbereich]]
 === ((Gefahrenbereich))
 
-Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren *muss*.
+Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren muss.
 Der Radius in Zoll berechnet sich, indem die EH von 12 abgezogen und der Wert halbiert wird:
 
     Radius in Zoll = (12 - EH) / 2
@@ -540,7 +540,7 @@ image::Grafiken/Modell/gefahrenbereich.svg[Gefahrenbereich,40,align=center]
 [[Unmittelbare-Bedrohung]]
 ==== ((Unmittelbare Bedrohung))
 
-Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird „Unmittelbare Bedrohung" genannt.
+Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird _Unmittelbare Bedrohung_ genannt.
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch unmittelbare Bedrohungen.
 
 Möchte das Modell eine unmittelbare Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
@@ -764,7 +764,7 @@ Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
 Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
 
-Bei jeder Verwendung *muss* ein Marker gestrichen werden.
+Bei jeder Verwendung muss ein Marker gestrichen werden.
 
 .{nbsp}
 [%unbreakable]
@@ -778,7 +778,7 @@ image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigensch
 === AP-Kosten(((Eigenschaften, AP-Kosten)))
 
 Bei manchen Eigenschaften ist angegeben, dass zur Anwendung AP ausgegeben werden müssen.
-Um sie anzuwenden muss die Aktion "Eigenschaft anwenden" ausgeführt werden.
+Um sie anzuwenden muss die Aktion _Eigenschaft anwenden_ ausgeführt werden.
 
 Sofern keine AP angegeben sind ist auch keine Aktion für die Anwendung notwendig.
 
@@ -1051,8 +1051,8 @@ Geländestücke sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unt
 So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
 Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln gelten dort automatisch.
 
-Das ist unabhängig davon, ob ein Modell sich "in" oder "auf" einem Geländestück befindet.
-Befindet sich ein Modell "darüber" (weil es bspw. fliegt) ist es nicht davon betroffen.
+Das ist unabhängig davon, ob ein Modell sich in oder auf einem Geländestück befindet.
+Befindet sich ein Modell darüber (weil es bspw. fliegt) ist es nicht davon betroffen.
 
 Geländestücke gehören in der Regel einem <<Geländetypen,Geländetyp>> an.
 
@@ -1187,8 +1187,8 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 |Eigenschaft
 |Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
 a|
-* "Hacking III" um ein Terminal der Stufe III zu hacken.
-* "Schlossknacken" um Schlösser zu knacken.
+* _Hacking III_ um ein Terminal der Stufe III zu hacken.
+* _Schlossknacken_ um Schlösser zu knacken.
 
 |Schwierigkeit
 |<<Attributswurf>> mit optionalem Modifikator notwendig.
@@ -1386,8 +1386,8 @@ Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelis
 === Verletzungs- und Rüstungswurf(((Verletzungswurf)))(((Rüstungswurf)))
 
 Beide Spieler führen einen vergleichenden Wurf durch.
-Der Angreifer addiert die Stärke seiner Waffe, dies wird *Verletzungswurf* genannt.
-Der Verteidiger addiert den Schutz seiner Rüstung, dies wird *Rüstungswurf* genannt.
+Der Angreifer addiert die Stärke seiner Waffe, dies wird _Verletzungswurf_ genannt.
+Der Verteidiger addiert den Schutz seiner Rüstung, dies wird _Rüstungswurf_ genannt.
 
 Hierbei kommen alle Schadenseffekte zur Anwendung.
 
@@ -1431,7 +1431,7 @@ Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinde
 [[Brennen]]
 === ((Brennen))(((Zustände, Brennen)))
 
-Modelle mit einem Brandmarker gelten als *brennend*:
+Modelle mit einem Brandmarker gelten als _brennend_:
 
 image::Grafiken/Token/brennen.svg[Brennen,40,align=center]
 
@@ -1548,7 +1548,7 @@ Sollten noch Schock-Token übrig sein und das Modell verfügt über keine AP meh
 [[Vergiftung]]
 === ((Vergiftung))(((Zustände, Vergiftung)))
 
-Modelle mit Giftmarkern zählen als *vergiftet*:
+Modelle mit Giftmarkern zählen als _vergiftet_:
 
 image::Grafiken/Token/gift.svg[Gift,40,align=center]
 
@@ -1626,7 +1626,7 @@ Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen könne
 Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
 
-Bei jeder Verwendung *muss* ein Marker gestrichen werden.
+Bei jeder Verwendung muss ein Marker gestrichen werden.
 
 .{nbsp}
 [%unbreakable]
@@ -2120,7 +2120,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
 Es erhält +3 auf seinen NK-Wurf.
 
-Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion "Gegenangriff" an verteidigt es sich mit NK von 0.
+Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion _Gegenangriff_ an verteidigt es sich mit NK von 0.
 
 |===
 
@@ -2340,7 +2340,7 @@ Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
 
 .^|icon:bolt[]
 2+<a|
-* Kann durchgeführt werden, wenn ein eigenes Modell die Aktion *Aufklären* ausführt.
+* Kann durchgeführt werden, wenn ein eigenes Modell die Aktion _Aufklären_ ausführt.
 * Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
 
 |===
@@ -2376,7 +2376,7 @@ Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
 === AP-Kosten(((Ausrüstung, AP-Kosten)))
 
 Bei manchen Ausrüstungsgegenständen ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
-Um sie zu benutzen muss die Aktion "Ausrüstung verwenden" ausgeführt werden.
+Um sie zu benutzen muss die Aktion _Ausrüstung verwenden_ ausgeführt werden.
 
 Sofern keine AP angegeben sind ist auch keine Aktion für die Verwendung notwendig.
 
@@ -2387,7 +2387,7 @@ Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
 Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet werden kann.
 
-Bei jeder Verwendung *muss* ein Marker gestrichen werden.
+Bei jeder Verwendung muss ein Marker gestrichen werden.
 
 .{nbsp}
 [%unbreakable]
@@ -2478,7 +2478,7 @@ Außerdem werden AGI und NK um 1 verringert.
 !Bleibt auf der Stelle stehen und kann sich noch drehen.
 
 !7-11
-!Bleibt auf der Stelle stehen und kann sich *nicht* mehr drehen.
+!Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.
 
 !12
 !Fällt um und gilt als <<Eliminiert,eliminiert>>. Ist nun ein Geländestück.
@@ -2493,7 +2493,7 @@ Außerdem werden AGI und NK um 1 verringert.
 Unter Telematons wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
 Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen <<Operatoren,Operator>>.
 
-Der Begriff ist ein Kunstwort aus "Tele" (fern) und "Automaton" (automatisches Wesen oder Maschine).
+Der Begriff ist ein Kunstwort aus _Tele_ (fern) und _Automaton_ (automatisches Wesen oder Maschine).
 
 Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Telematons gelten.
 
@@ -2502,7 +2502,7 @@ Sie haben keine eigene Initiativephase.
 .{nbsp}
 [%unbreakable]
 ====
-* In einer Fantasywelt sind fliegende "Orbs" oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
+* In einer Fantasywelt sind fliegende _Orbs_ oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
 * Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
 ====
 
@@ -2519,9 +2519,9 @@ Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn 
 .{nbsp}
 [%unbreakable]
 ====
-* Eine Hexe hat die Eigenschaft "Vertrauter II". Sie darf dadurch 2 zugeordnete Telematons haben.
-* Mit dem "R3MOTE α" Fernsteuerdeck kann ein Straßensamurai 1 zugeordneten Telematon haben.
-* Ein Prospektor verfügt über 3 "Lenk-Module" für seinen Anzug und kann damit 3 zugeordnete Telematons haben.
+* Eine Hexe hat die Eigenschaft _Vertrauter II_. Sie darf dadurch 2 zugeordnete Telematons haben.
+* Mit dem _R3MOTE α Fernsteuerdeck_ kann ein Straßensamurai 1 zugeordneten Telematon haben.
+* Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Telematons haben.
 ====
 
 === Zuordnung(((Telematons, Zuordnung)))
@@ -2573,8 +2573,8 @@ Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft darg
 .{nbsp}
 [%unbreakable]
 ====
-* In einer Fantasywelt wären "Feuermagie" und "Eiszauberei" eigene Disziplinen, die dann jeweils Kräfte wie "Feuerball" und "Feuerwand" bzw. "Eisblitz" und "Schneesturm" beinhalten.
-* Bei Cyberpunk wäre eine Disziplin wie "Psychokinese" denkbar die dann Kräfte wie "Würgegriff" und "Schweben" vereint.
+* In einer Fantasywelt wären _Feuermagie_ und _Eiszauberei_ eigene Disziplinen, die dann jeweils Kräfte wie _Feuerball_ und _Feuerwand_ bzw. _Eisblitz_ und _Schneesturm_ beinhalten.
+* Bei Cyberpunk wäre eine Disziplin wie _Psychokinese_ denkbar die dann Kräfte wie _Würgegriff_ und _Schweben_ vereint.
 ====
 
 [[Kraft-Auswahl]]
@@ -2588,8 +2588,8 @@ Jeder Spieler entscheidet <<Vorbereiten der Gruppe,vor Spielbeginn>>, welche Kr�
 .{nbsp}
 [%unbreakable]
 ====
-Die Disziplin "Feuermagie" enthält insgesamt 13 verschiedene Kräfte.
-Magier Zordan verfügt über "Feuermagie - IV" was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
+Die Disziplin _Feuermagie_ enthält insgesamt 13 verschiedene Kräfte.
+Magier Zordan verfügt über _Feuermagie - IV_ was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
 ====
 
 === Kräfte
@@ -2632,8 +2632,8 @@ Sie gibt an wie der <<Attributswurf>> modifiziert wird.
 .{nbsp}
 [%unbreakable]
 ====
-* Die schwer auszuführende Kraft "Explosiver Feuerball" ist mit `FK-4` angegeben. Der <<Attributswurf>> auf FK ist damit um 4 erschwert.
-* Die simple Kraft "Levitation" ist mit `KO+3` angegeben. Der <<Attributswurf>> auf KO ist damit um 3 erleichtert.
+* Die schwer auszuführende Kraft _Explosiver Feuerball_ ist mit `FK-4` angegeben. Der <<Attributswurf>> auf FK ist damit um 4 erschwert.
+* Die simple Kraft _Levitation_ ist mit `KO+3` angegeben. Der <<Attributswurf>> auf KO ist damit um 3 erleichtert.
 ====
 
 [[Kraft-TP-Verlust]]
