@@ -777,10 +777,7 @@ image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigensch
 [[Eigenschaften-AP-Kosten]]
 === AP-Kosten(((Eigenschaften, AP-Kosten)))
 
-Bei manchen Eigenschaften ist angegeben, dass zur Anwendung AP ausgegeben werden müssen.
-Um sie anzuwenden muss die Aktion _Eigenschaft anwenden_ ausgeführt werden.
-
-Sofern keine AP angegeben sind ist auch keine Aktion für die Anwendung notwendig.
+Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
 
 [[Bewegung]]
 == ((Bewegung))
@@ -2371,14 +2368,11 @@ Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
 === Regeln(((Ausrüstung, Regeln)))
 
 Jede Ausrüstung kann Regeln beinhalten.
-Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
+Wenn dem so ist, werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
 
 === AP-Kosten(((Ausrüstung, AP-Kosten)))
 
-Bei manchen Ausrüstungsgegenständen ist angegeben, dass zur Verwendung AP ausgegeben werden müssen.
-Um sie zu benutzen muss die Aktion _Ausrüstung verwenden_ ausgeführt werden.
-
-Sofern keine AP angegeben sind ist auch keine Aktion für die Verwendung notwendig.
+Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Verwendung notwendig.
 
 === Einmalnutzung(((Einmalnutzung, Ausrüstung)))(((Ausrüstung, Einmalnutzung)))
 
