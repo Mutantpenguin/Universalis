@@ -40,7 +40,8 @@ Ja, ein Universum.
 Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bisschen sollte schon existieren.
 // TODO Was ist ein Universum?
 
-* Ein Tisch mit einer Fläche von mindestens 36" * 36".
+* Ein Tisch mit einer Fläche von mindestens 36" * 36" welche für das eigentliche Spielfeld benötigt wird.
+Mehr wird jedoch dringend empfohlen um ausreichend Platz für die Regeln, Karten, Würfel und anderes Spielzubehör zu haben.
 +
 [.text-center]
 image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=250]
