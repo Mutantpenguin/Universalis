@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 
 == Spielfeldgröße
 
-Die im folgenden beschriebenen Missionen beziehen sich immer auf eine Spielfeldgröße von 90cm * 90cm.
+Die im folgenden beschriebenen Missionen beziehen sich immer auf eine Spielfeldgröße von 36" * 36".
 
 [.text-center]
 image:Grafiken/Abbildungen/spielfeld.svg[Spielfeld,width=300]
@@ -13,66 +13,37 @@ Die Aufstellungszone ist jeweils der grün schraffierte Bereich.
 
 Sofern eine Mission weitere Zonen benötigt werden diese ebenfalls schraffiert, aber in anderen Farben dargestellt.
 
-== Standard A
+== Bergung
 
-Dies ist die Standardmission, die immer gespielt werden kann.
+Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens X - 1 `[Objekte]` in der eigenen Aufstellungszone befinden.
 
-=== Aufbau
+image:Grafiken/Missionen/Bergung/01.svg[Mission 3,width=300]
 
-Das Spielfeld kann beliebig aufgebaut werden.
+== Einnehmen
 
-=== Zonen
+#TODO
 
-[.text-center]
-image:Grafiken/Missionen/01.svg[Mission 1,width=300]
-
-=== Siegesbedingungen
+== Eliminierung
 
 Das Spiel ist gewonnen, sobald alle Modelle des Gegners eliminiert oder vom Spielfeld entfernt worden sind.
 
-== Standard B
-
-=== Zonen
-
-[.text-center]
-image:Grafiken/Missionen/02.svg[Mission 2,width=300]
-
-=== Siegesbedingungen
-
-Das Spiel ist gewonnen, sobald alle Modelle des Gegners eliminiert oder vom Spielfeld entfernt worden sind.
-
-== #TODO
-
-=== Zonen
-
-[.text-center]
-image:Grafiken/Missionen/03.svg[Mission 3,width=300]
-
-=== Siegesbedingungen
-
-Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens 3 `[Objekte]` in der eigenen Aufstellungszone befinden.
+image:Grafiken/Missionen/Eliminierung/01.svg[Mission 1,width=300]
+image:Grafiken/Missionen/Eliminierung/02.svg[Mission 2,width=300]
+image:Grafiken/Missionen/Eliminierung/03.svg[Mission 2,width=300]
 
 == Extraktion
 
-=== Zonen
+Das Spiel ist gewonnen, sobald am Ende einer Initiativephase mindestens die Hälfte aller eigenen Modelle (aufgerundet) die Extraktionszone (in rot) erreicht haben.
 
-[.text-center]
-image:Grafiken/Missionen/04.svg[Mission 4,width=300]
+image:Grafiken/Missionen/Extraktion/01.svg[Mission 4,width=300]
+image:Grafiken/Missionen/Extraktion/02.svg[Mission 4,width=300]
+image:Grafiken/Missionen/Extraktion/03.svg[Mission 4,width=300]
 
-=== Siegesbedingungen
+== Transport
 
-Das Spiel ist gewonnen, sobald am Ende einer Initiativephase mindestens die Hälfte aller eigenen Modelle die Extraktionszone erreicht haben.
+#TODO
 
-== #TODO
-
-=== Zonen
-
-[.text-center]
-image:Grafiken/Missionen/05.svg[Mission 5,width=300]
-
-== #TODO
-
-=== Zonen
-
-[.text-center]
-image:Grafiken/Missionen/06.svg[Mission 6,width=300]
+image:Grafiken/Missionen/Transport/01.svg[Mission 5,width=300]
+image:Grafiken/Missionen/Transport/02.svg[Mission 6,width=300]
+image:Grafiken/Missionen/Transport/03.svg[Mission 5,width=300]
+image:Grafiken/Missionen/Transport/04.svg[Mission 5,width=300]
