@@ -15,7 +15,7 @@ Sofern eine Mission weitere Zonen benötigt werden diese ebenfalls schraffiert, 
 
 == Bergung
 
-Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens X - 1 `[Objekte]` in der eigenen Aufstellungszone befinden.
+Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens X - 1 `[Gegenstände]` in der eigenen Aufstellungszone befinden.
 
 image:Grafiken/Missionen/Bergung/01.svg[Mission 3,width=300]
 
@@ -41,9 +41,8 @@ image:Grafiken/Missionen/Extraktion/03.svg[Mission 4,width=300]
 
 == Transport
 
-#TODO
+Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens X - 1 `[Gegenstände]` in den Zielzonen (in rot) befinden.
 
 image:Grafiken/Missionen/Transport/01.svg[Mission 5,width=300]
 image:Grafiken/Missionen/Transport/02.svg[Mission 6,width=300]
 image:Grafiken/Missionen/Transport/03.svg[Mission 5,width=300]
-image:Grafiken/Missionen/Transport/04.svg[Mission 5,width=300]
