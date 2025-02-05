@@ -4,9 +4,9 @@
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    version="1.1"
    id="svg2"
-   viewBox="0 0 354.33071 354.33071"
-   height="100mm"
-   width="100mm"
+   viewBox="0 0 3600 3600"
+   height="40in"
+   width="40in"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -17,23 +17,28 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern1870"
+       id="pattern1"
+       patternTransform="matrix(16.93187,14.378692,-23.901616,23.94354,1510.3793,950.6305)" />
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="42.306573 : 99.096878 : 1"
+       inkscape:vp_x="42.306573 : 3344.7662 : 1"
        inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="354.33071 : 177.16536 : 1"
-       inkscape:persp3d-origin="177.16536 : 118.11024 : 1"
+       inkscape:vp_z="354.33071 : 3422.8347 : 1"
+       inkscape:persp3d-origin="177.16536 : 3363.7795 : 1"
        id="perspective8" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern1870"
        id="pattern1880"
-       patternTransform="matrix(1.6706363,1.418719,-2.3583282,2.3624649,171.26288,409.62629)" />
+       patternTransform="matrix(16.93187,14.378692,-23.901616,23.94354,160.37917,2300.6304)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern1870"
        id="pattern1878"
-       patternTransform="matrix(1.6706363,1.418719,-2.3583282,2.3624649,436.87971,409.62629)" />
+       patternTransform="matrix(16.93187,14.378692,-23.901616,23.94354,2860.3794,2300.6304)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern5602-1"
@@ -132,7 +137,7 @@
        inkscape:collect="always"
        xlink:href="#pattern5598-1"
        id="pattern5602-9"
-       patternTransform="matrix(1.6993755,1.6993755,-2.5881993,2.5881992,348.57141,254.28572)" />
+       patternTransform="matrix(17.265704,17.250856,-26.296178,26.273564,1961.3598,725.58986)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#Strips1_1-5"
@@ -163,21 +168,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.0109016"
-     inkscape:cx="147.47308"
-     inkscape:cy="255.05487"
-     inkscape:document-units="px"
+     inkscape:zoom="0.25"
+     inkscape:cx="1408"
+     inkscape:cy="1870"
+     inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2063"
-     inkscape:window-height="1090"
-     inkscape:window-x="2812"
-     inkscape:window-y="223"
-     inkscape:window-maximized="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:object-paths="true"
@@ -193,7 +198,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -203,92 +207,92 @@
      id="layer1"
      transform="translate(-172.50282,-203.10461)">
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.761674;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#pattern5602-9);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.15468;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect5600-8"
+       width="536.84534"
+       height="1076.8453"
+       x="1704.0802"
+       y="2544.6819" />
+    <rect
+       style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:url(#pattern1878);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.14825;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+       id="rect1876"
+       width="536.85175"
+       height="536.85175"
+       x="3054.0769"
+       y="1734.6787" />
+    <rect
+       style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:url(#pattern1880);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.14825;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+       id="rect1874"
+       width="536.85175"
+       height="536.85175"
+       x="354.07678"
+       y="1734.6787" />
+    <rect
+       style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;vector-effect:none;fill:url(#pattern1);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:3.14825;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
+       id="rect1812"
+       width="536.85175"
+       height="536.85175"
+       x="1704.0769"
+       y="384.67871" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:7.73861;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
        id="rect4136"
-       width="318.13596"
-       height="318.13599"
-       x="190.60019"
-       y="221.20197" />
+       width="3232.2617"
+       height="3232.261"
+       x="356.37201"
+       y="386.97412" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="342.21185"
-       y="555.03833"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;line-height:105.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.20001"
+       x="1896.7466"
+       y="3772.8342"
        id="text3266"><tspan
          sodipodi:role="line"
          id="tspan3264"
-         x="342.21185"
-         y="555.03833"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">6&quot;</tspan></text>
-    <rect
-       style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:url(#pattern1870);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.310632;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
-       id="rect1812"
-       width="52.970169"
-       height="52.970169"
-       x="323.18311"
-       y="220.97644" />
-    <rect
-       style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:url(#pattern1880);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.310632;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
-       id="rect1874"
-       width="52.970169"
-       height="52.970169"
-       x="190.37466"
-       y="353.78488" />
-    <rect
-       style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:url(#pattern1878);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.310632;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
-       id="rect1876"
-       width="52.970169"
-       height="52.970169"
-       x="455.99149"
-       y="353.78488" />
+         x="1896.7466"
+         y="3772.8342"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.20001">6&quot;</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="-387.72629"
-       y="523.6463"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;line-height:105.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.20001"
+       x="-2078.8608"
+       y="3741.0291"
        id="text1901"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1899"
-         x="-387.72629"
-         y="523.6463"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">6&quot;</tspan></text>
+         x="-2078.8608"
+         y="3741.0291"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.20001">6&quot;</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="342.21185"
-       y="217.98817"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;line-height:105.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.20001"
+       x="1896.7465"
+       y="353.69592"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         x="342.21185"
-         y="217.98817"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">6&quot;</tspan></text>
+         x="1896.7465"
+         y="353.69592"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.20001">6&quot;</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;line-height:10.3347px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.413387"
-       x="372.81366"
-       y="-176.31554"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;line-height:105.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.20001"
+       x="1927.3483"
+       y="-200.70782"
        id="text2"
        transform="rotate(90)"><tspan
          sodipodi:role="line"
          id="tspan2"
-         x="372.81366"
-         y="-176.31554"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.5355px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413387">6&quot;</tspan></text>
-    <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#pattern5602-9);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.310633;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-       id="rect5600-8"
-       width="52.838959"
-       height="106.07964"
-       x="323.24869"
-       y="433.48383" />
+         x="1927.3483"
+         y="-200.70782"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:168.001px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.20001">6&quot;</tspan></text>
     <g
-       id="g10"
-       transform="translate(80.187607,5.2767894)">
+       id="g1"
+       transform="translate(-16.481005,-59.710146)">
       <g
          id="g33-6"
-         transform="matrix(0.79057695,0,0,0.79057695,41.517595,110.48503)">
+         transform="matrix(9.1492119,0,0,9.1492091,-649.19255,-1147.9473)">
         <circle
            style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.72913;stroke-linecap:round;stroke-dasharray:none"
            id="circle23-2"
@@ -338,7 +342,7 @@
       </g>
       <g
          id="g5"
-         transform="matrix(0.79057695,0,0,0.79057695,41.517595,79.887385)">
+         transform="matrix(9.1492119,0,0,9.1492091,-649.19255,-1502.0485)">
         <circle
            style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.72913;stroke-linecap:round;stroke-dasharray:none"
            id="circle1"
@@ -388,7 +392,7 @@
       </g>
       <g
          id="g9"
-         transform="matrix(0.79057695,0,0,0.79057695,41.517595,49.28974)">
+         transform="matrix(9.1492119,0,0,9.1492091,-649.19255,-1856.1496)">
         <circle
            style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.72913;stroke-linecap:round;stroke-dasharray:none"
            id="circle2"
