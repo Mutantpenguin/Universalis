@@ -196,7 +196,7 @@ Dazu gehören:
 [[Modell-Typen]]
 === ((Modell-Typen))
 
-Modelle werden in die Typen Standard, Koloss und Telematon unterschieden.
+Modelle werden in die Typen *Standard*, *Koloss* und *Begleiter* unterschieden.
 
 Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 
@@ -215,8 +215,8 @@ Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
 | Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.
 | klein bis groß
 
-| image:Grafiken/Modell/Telematon.svg[Telematon,40]
-| <<Telematons,Telematon>>
+| image:Grafiken/Modell/Begleiter.svg[Begleiter,40]
+| <<Begleiter>>
 | Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.
 | klein bis riesig
 
@@ -394,7 +394,7 @@ Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfü
 Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritisch, kritischen Zustand>> verfällt.
 
 Alle Modelle haben pro Runde 6 AP.
-Die einzige Ausnahme sind <<Telematons, Telematons>> mit nur 2 AP.
+Die einzige Ausnahme sind <<Begleiter>> mit nur 2 AP.
 
 *Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
 
@@ -502,7 +502,7 @@ Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei u
 
 |Typ
 |Standard
-|Telematon
+|Begleiter
 |Koloss
 
 |Tragkraft in kg
@@ -2499,15 +2499,13 @@ Außerdem werden AGI und NK um 1 verringert.
 
 |===
 
-[[Telematons]]
-== Telematons(((Telematons)))
+[[Begleiter]]
+== Begleiter(((Begleiter)))
 
-Unter Telematons wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
+Unter Begleitern wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
 Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen <<Operatoren,Operator>>.
 
-Der Begriff ist ein Kunstwort aus _Tele_ (fern) und _Automaton_ (automatisches Wesen oder Maschine).
-
-Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Telematons gelten.
+Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Begleiter gelten.
 
 Sie haben keine eigene Initiativephase.
 
@@ -2519,60 +2517,60 @@ Sie haben keine eigene Initiativephase.
 ====
 
 [[Operatoren]]
-=== ((Operatoren))(((Telematons, Operatoren)))
+=== ((Operatoren))(((Begleiter, Operatoren)))
 
-Unter Operatoren versteht man alle Modelle denen ein Telematon zugeordnet werden kann.
-Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Telematons ihm zugeordnet werden können.
+Unter Operatoren versteht man alle Modelle denen ein Begleiter zugeordnet werden kann.
+Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Begleiter ihm zugeordnet werden können.
 
-Seine ihm zugeordneten Telematons werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
+Seine ihm zugeordneten Begleiter werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
 
 Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
 
 .{nbsp}
 [%unbreakable]
 ====
-* Eine Hexe hat die Eigenschaft _Vertrauter II_. Sie darf dadurch 2 zugeordnete Telematons haben.
-* Mit dem _R3MOTE α Fernsteuerdeck_ kann ein Straßensamurai 1 zugeordneten Telematon haben.
-* Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Telematons haben.
+* Eine Hexe hat die Eigenschaft _Vertrauter II_. Sie darf dadurch 2 zugeordnete Begleiter haben.
+* Mit dem _R3MOTE α Fernsteuerdeck_ kann ein Straßensamurai 1 zugeordneten Begleiter haben.
+* Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Begleiter haben.
 ====
 
-=== Zuordnung(((Telematons, Zuordnung)))
+=== Zuordnung(((Begleiter, Zuordnung)))
 
-Telematons können und müssen immer genau einem Operator zugeordnet sein.
+Begleiter können und müssen immer genau einem Operator zugeordnet sein.
 Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
-=== Telematons ohne Operator(((Telematons, ohne Operator)))
+=== Begleiter ohne Operator(((Begleiter, ohne Operator)))
 
-Telematons, deren Operator <<Eliminiert,eliminiert>> wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
+Begleiter, deren Operator <<Eliminiert,eliminiert>> wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
 
-=== Aktionspunkte(((Telematons, Aktionspunkte)))
+=== Aktionspunkte(((Begleiter, Aktionspunkte)))
 
-Jeder Telematon verfügt über 2 AP.
+Jeder Begleiter verfügt über 2 AP.
 Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
 
-=== Attribute(((Telematons, Attribute)))
+=== Attribute(((Begleiter, Attribute)))
 
-Telematons verfügen nicht über die Attribute AGI, NK, FK und EH.
+Begleiter verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
 
-=== Gefahrenbereich(((Telematons, Gefahrenbereich)))
+=== Gefahrenbereich(((Begleiter, Gefahrenbereich)))
 
 Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
 Daraus ergibt sich, dass eine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> für sie nicht existiert.
 Sie müssen aber, wenn möglich, aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
 
-=== Schock(((Telematons, Schock)))
+=== Schock(((Begleiter, Schock)))
 
 <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
-Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Telematons zu entfernen.
+Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Begleitern zu entfernen.
 
-=== Eliminierung(((Telematons, Eliminierung)))
+=== Eliminierung(((Begleiter, Eliminierung)))
 
-Sobald ein Telematon <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
+Sobald ein Begleiter <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
 
 Der Operator muss einen EH-Test ablegen.
-Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Telematons.
+Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Begleiters.
 
 [[Disziplinen-und-Kräfte]]
 == ((Disziplinen)) & ((Kräfte))
