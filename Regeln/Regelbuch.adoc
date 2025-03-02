@@ -197,8 +197,7 @@ Dazu gehören:
 === ((Modell-Typen))
 
 Modelle werden in die Typen *Standard*, *Koloss* und *Begleiter* unterschieden.
-
-Einzelne Typen unterliegen dabei durchaus speziellen Regeln.
+*Koloss* und *Begleiter* unterliegen dabei zusätzlichen Regeln.
 
 [%unbreakable]
 --
