@@ -643,7 +643,7 @@ Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftli
 
 Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
-* Zuordnen von <<Operatoren>>
+* Zuteilung von <<Begleiter,Begleitern>>
 * Auswahl der <<Kraft-Auswahl,Kräfte>>
 
 [[Aufstellen-der-Modelle]]
@@ -2533,9 +2533,9 @@ Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn 
 * Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Begleiter haben.
 ====
 
-=== Zuordnung(((Begleiter, Zuordnung)))
+=== Zuteilung(((Begleiter, Zuteilung)))
 
-Begleiter können und müssen immer genau einem Operator zugeordnet sein.
+Begleiter können und müssen immer genau einem Operator zugeteilt sein.
 Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
 === Begleiter ohne Operator(((Begleiter, ohne Operator)))
