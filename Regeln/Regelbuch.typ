@@ -1,3 +1,4 @@
+#import "@preview/in-dexter:0.7.0": *
 #import "universalis.typ" as universalis
 
 #show: universalis.style
@@ -79,8 +80,7 @@
     center,
     grid(
       columns: 2,
-      image("Grafiken/Abbildungen/maßband.svg", alt: "Maßband", width: 60%),
-      image("Grafiken/Abbildungen/maßstab.svg", alt: "Maßstab", width: 50%),
+      image("Grafiken/Abbildungen/maßband.svg", alt: "Maßband", width: 60%), image("Grafiken/Abbildungen/maßstab.svg", alt: "Maßstab", width: 50%),
     ),
   )
 
@@ -163,7 +163,8 @@ Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
 
 Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebenenfalls ein Stellvertreter bestimmt wird.
 
-== ((Einheitenkarte)) <Einheitenkarte>
+== Einheitenkarte <Einheitenkarte>
+#index[Einheitenkarte]
 
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
 // Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten <<Waffen>>, <<Rüstungen>>, <<Ausrüstung>> und <<Eigenschaften>>.
@@ -224,7 +225,8 @@ Um nicht die Einheitenkarte zu Rate ziehen zu müssen wird auf ihr auch die AGI 
 
 // Alle im Spiel vorhandenen Einheiten die auch über eine <<Einheitenkarte>> verfügen benötigen ein Modell, welches sie auf dem Spielfeld repräsentiert.
 
-== ((Profile)) <Profile>
+== Profile <Profile>
+#index[Profile]
 
 Im Profil sind alle Werte eines Modells beschrieben, die sich auf seine körperlichen Eigenschaften beziehen.
 Diese können sowohl angeboren als auch antrainiert sein.
@@ -237,7 +239,8 @@ Diese können sowohl angeboren als auch antrainiert sein.
 // * <<Trefferpunkte>>
 // * <<Größenprofil>>
 
-== ((Modell-Typen)) <Modell-Typen>
+== Modell-Typen <Modell-Typen>
+#index[Modell-Typen]
 
 Modelle werden in die Typen *Standard*, *Koloss* und *Begleiter* unterschieden.
 *Koloss* und *Begleiter* unterliegen dabei zusätzlichen Regeln.
@@ -251,25 +254,15 @@ Siehe @fig-modell-typen.
     columns: (10%, 20%, 50%, 20%),
     align: left + horizon,
     table.header([*Symbol*], [*Name*], [*Beschreibung*], [*<<Größenprofil>>*]),
-    image("Grafiken/Modell/Standard.svg", alt: "Standard"),
-    "Standard",
-    "Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.",
-    "klein bis groß",
-
-    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"),
-    "<<Begleiter>>",
-    "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.",
-    "klein bis riesig",
-
-    image("Grafiken/Modell/Koloss.svg", alt: "Koloss"),
-    "<<Kolosse,Koloss>>",
-    "Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.",
-    "groß bis riesig",
+    image("Grafiken/Modell/Standard.svg", alt: "Standard"), "Standard", "Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.", "klein bis groß",
+    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"), "<<Begleiter>>", "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.", "klein bis riesig",
+    image("Grafiken/Modell/Koloss.svg", alt: "Koloss"), "<<Kolosse,Koloss>>", "Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.", "groß bis riesig",
   ),
   caption: "Modell-Typen",
 ) <fig-modell-typen>
 
-== ((Attribute)) <Attribute>
+== Attribute <Attribute>
+#index[Attribute]
 
 Jedes Modell verfügt über einen festen Satz an Attributen.
 
@@ -329,14 +322,16 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 // |===
 // ====
 
-== ((Geschwindigkeit)) <Geschwindigkeit>
+== Geschwindigkeit <Geschwindigkeit>
+#index[Geschwindigkeit]
 
 Gibt an, wie weit sich ein Modell mit einer Aktion in Zoll bewegen kann.
 Sie wird mit GK abgekürzt.
 
 // Siehe auch <<Bewegung>>.
 
-== ((Trefferpunkte)) <Trefferpunkte>
+== Trefferpunkte <Trefferpunkte>
+#index[Trefferpunkte]
 
 // Sie stehen für die Menge an <<Schadensanwendung,Schaden>>, die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
 
@@ -361,7 +356,8 @@ Auf der #universalis.blah("Einheitenkarte") werden die Trefferpunkte als Kreise 
 
 // Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 
-== ((Größenprofil)) <Größenprofil>
+== Größenprofil <Größenprofil>
+#index[Größenprofil]
 
 // Modelle werden in 4 verschiedene Größenprofile gegliedert:
 
@@ -410,7 +406,8 @@ Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht de
 
 // Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. <<Sichtlinie,Sichtlinien>> keine Rolle mehr spielen.
 
-== ((Profilmodifikatoren)) <Profilmodifikatoren>
+== Profilmodifikatoren <Profilmodifikatoren>
+#index[Profilmodifikatoren]
 
 // Manche <<Rüstungen>>, <<Waffen,Waffe>>, <<Ausrüstung>> oder <<Eigenschaften,Eigenschaft>> kann Auswirkungen auf das Profil eines Modells haben.
 
@@ -427,7 +424,8 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 = Grundregeln
 
-== ((Aktionspunkte)) <Aktionspunkte>
+== Aktionspunkte <Aktionspunkte>
+#index[Aktionspunkte]
 
 // Modelle verfügen über Aktionspunkte (abgekürzt als AP), die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
 
@@ -449,7 +447,8 @@ Hier ist der gesunde Menschenverstand gefragt.
 Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
 Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten mit dem Zeichen ⊙ angegeben.
 
-=== ((Aktionen)) <Aktionen>
+=== Aktionen <Aktionen>
+#index[Aktionen]
 
 Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
 Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
@@ -461,7 +460,8 @@ Sie sind an folgendem Symbol zu erkennen:
   image("Grafiken/Allgemein/aktion.svg", alt: "Aktion"),
 )
 
-=== ((Reaktionen)) <Reaktionen>
+=== Reaktionen <Reaktionen>
+#index[Reaktionen]
 
 Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
 Sie sind in der Regel an Bedingungen geknüpft.
@@ -516,12 +516,14 @@ Sie sind an folgendem Symbol zu erkennen:
 
 // |===
 
-=== ((Sichtfeld)) <Sichtfeld>
+=== Sichtfeld <Sichtfeld>
+#index[Sichtfeld]
 
 Jedes Modell hat ein Sichtfeld von 360°.
 Es ist somit egal wohin ein Modell ausgerichtet ist.
 
-== ((Sichtlinie)) <Sichtlinie>
+== Sichtlinie <Sichtlinie>
+#index[Sichtlinie]
 
 // Die Sichtlinie zu einem <<Modelle,Modell>>, <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
 // Bei Modellen bedeutet dies, dass die Linie ihr <<Größenprofil>> trifft.
@@ -535,7 +537,8 @@ Es ist somit egal wohin ein Modell ausgerichtet ist.
 Befreundete Modelle behindern sie nicht.
 
 
-== ((Tragkraft)) Tragkraft
+== Tragkraft <Tragkraft>
+#index[Tragkraft]
 
 Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
 
@@ -570,7 +573,8 @@ Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw
 // Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
 // ====
 
-== ((Gefahrenbereich)) <Gefahrenbereich>
+== Gefahrenbereich <Gefahrenbereich>
+#index[Gefahrenbereich]
 
 Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren muss.
 Der Radius in Zoll berechnet sich, indem die EH von 12 abgezogen und der Wert halbiert wird:
@@ -584,7 +588,8 @@ $ "Radius in Zoll" = (12 - "EH") / 2 $
   image("Grafiken/Modell/gefahrenbereich.svg", alt: "Gefahrenbereich"),
 )
 
-=== ((Unmittelbare Bedrohung)) <Unmittelbare-Bedrohung>
+=== Unmittelbare Bedrohung <Unmittelbare-Bedrohung>
+#index[Unmittelbare Bedrohung]
 
 Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird _Unmittelbare Bedrohung_ genannt.
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch unmittelbare Bedrohungen.
@@ -594,7 +599,8 @@ Möchte das Modell eine unmittelbare Bedrohung ignorieren, muss es dafür einen 
 
 Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
-== ((Wahrnehmungsbereich)) <Wahrnehmungsbereich>
+== Wahrnehmungsbereich <Wahrnehmungsbereich>
+#index[Wahrnehmungsbereich]
 
 // Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> in einem gewissen Radius.
 
@@ -616,7 +622,8 @@ $ "Radius in Zoll" = "WN" * 2 $
   image("Grafiken/Modell/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich"),
 )
 
-== ((Entfernungen messen)) <Entfernungen-messen>
+== Entfernungen messen <Entfernungen-messen>
+#index[Entfernungen messen]
 
 Alle Entfernungen dürfen jederzeit gemessen werden.
 
@@ -627,7 +634,8 @@ Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
   caption: "Entfernung zwischen 2 Modellen",
 )
 
-== ((Würfelwürfe)) <Würfelwürfe>
+== Würfelwürfe <Würfelwürfe>
+#index[Würfelwürfe]
 
 Es werden nur W12 verwendet.
 
@@ -635,7 +643,8 @@ Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
 
 Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 
-=== ((Attributswurf)) <Attributswurf>
+=== Attributswurf <Attributswurf>
+#index[Attributswurf]
 
 Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
 So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
@@ -648,7 +657,8 @@ Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gi
 Der Wurf wird mit 1W12 durchgeführt.
 Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
 
-=== ((Vergleichender Wurf)) <Vergleichender-Wurf>
+=== Vergleichender Wurf <Vergleichender-Wurf>
+#index[Vergleichender Wurf]
 
 Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
 
@@ -657,7 +667,8 @@ Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der z
 
 Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
-= ((Spielablauf)) <Spielablauf>
+= Spielablauf <Spielablauf>
+#index[Spielablauf]
 
 Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
@@ -669,13 +680,15 @@ Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 //   * <<Initiativephasen>>
 //   * <<Rundenende>>
 
-== ((Spielfeldaufbau)) <Spielfeldaufbau>
+== Spielfeldaufbau <Spielfeldaufbau>
+#index[Spielfeldaufbau]
 
 // Beide Spieler bauen gemeinsam das Spielfeld mit <<Geländestücke,Geländestücken>> auf bis sie damit einverstanden sind.
 
 Die Fläche des Spielfeldes muss exakt 36" x 36" betragen.
 
-== ((Missionsauswahl)) <Missionsauswahl>
+== Missionsauswahl <Missionsauswahl>
+#index[Missionsauswahl]
 
 Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus.
 Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
@@ -683,14 +696,16 @@ Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
 Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenommen.
 Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftlich gelöst werden.
 
-== ((Vorbereiten der Gruppe)) <Vorbereiten-der-Gruppe>
+== Vorbereiten der Gruppe <Vorbereiten-der-Gruppe>
+#index[Vorbereiten der Gruppe]
 
 Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
 // * Zuteilung von <<Begleiter,Begleitern>>
 // * Auswahl der <<Kraft-Auswahl,Kräfte>>
 
-== ((Aufstellen der Modelle)) <Aufstellen-der-Modelle>
+== Aufstellen der Modelle <Aufstellen-der-Modelle>
+#index[Aufstellen der Modelle]
 
 Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
 Bei Gleichstand gewinnt das Modell mit der höheren EH.
@@ -701,12 +716,14 @@ Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 6" an gegnerische Modelle aufgestellt werden.
 
-== ((Runden)) <Runden>
+== Runden <Runden>
+#index[Runden]
 
 Innerhalb einer Runde hat jedes Modell eine Initiativephase.
 Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchgeführt hat.
 
-=== Rundenbeginn(((Runden, Beginn))) <Rundenbeginn>
+=== Rundenbeginn <Rundenbeginn>
+#index("Runden", "Beginn")
 
 Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 
@@ -715,7 +732,8 @@ Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 // Siehe <<Rundenende>>.
 // * Modelle mit <<Schock,Schock-Token>> verlieren automatisch pro Token 1 AP.
 
-=== Aktivierungsreihenfolge(((Runden, Reihenfolge))) <Aktivierungsreihenfolge>
+=== Aktivierungsreihenfolge <Aktivierungsreihenfolge>
+#index("Runden", "Reihenfolge")
 
 // Die Spieler nehmen die <<Aktivierungskarte,Aktivierungskarten>> ihrer sich noch im Spiel befindlichen Modelle und wählen verdeckt eine aus.
 
@@ -728,7 +746,9 @@ Die gerade aufgedeckten Aktivierungskarten werden nun beiseite gelegt.
 
 Dies passiert solange, bis ein Spieler keine Aktivierungskarten mehr hat. Der andere Spieler aktiviert nun etwaige weitere Modelle in beliebiger Reihenfolge.
 
-== ((Initiativephasen))(((Runden, Initiativephase))) <Initiativephasen>
+== Initiativephasen <Initiativephasen>
+#index[Initiativephasen]
+#index("Runden", "Initiativephase")
 
 Eine Initiativephase ist der Zeitpunkt, an dem ein Modell mit seinen AP Aktionen ausführen kann.
 
@@ -740,7 +760,8 @@ Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet we
 // * eventuelle <<Vergiftung>> kommt zur Anwendung
 // * eventuelles <<Brennen>> kommt zur Anwendung
 
-== Rundenende(((Runden, Ende))) <Rundenende>
+== Rundenende <Rundenende>
+#index("Runden", "Ende")
 
 Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür.
 Das Spiel endet dann automatisch sofort und der Spieler, welcher aufgegeben hat, verliert.
@@ -752,7 +773,8 @@ Wenn es weitergeht, werden je Modell bis zu 3 nicht verbrauchte AP in die nächs
 Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 // Siehe dazu auch <<Aktionspunkte>>.
 
-= ((Eigenschaften)) <Eigenschaften>
+= Eigenschaften <Eigenschaften>
+#index[Eigenschaften]
 
 // Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache <<Attribute>> hinausgeht.
 // Außerdem können sie über eventuelle <<Profilmodifikatoren>> verfügen.
@@ -773,7 +795,8 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 
 // |===
 
-== Regeln(((Eigenschaften, Regeln))) <Regeln>
+== Regeln <Regeln>
+#index("Eigenschaften", "Regeln")
 
 // Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
 // Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
@@ -790,15 +813,17 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 // In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
 // ====
 
-== Einmalnutzung(((Einmalnutzung, Eigenschaften)))(((Eigenschaften, Einmalnutzung))) <Eigenschaften-Einmalnutzung>
+== Einmalnutzung <Eigenschaften-Einmalnutzung>
+#index("Einmalnutzung", "Eigenschaften")
+#index("Eigenschaften", "Einmalnutzung")
 
-// Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
-// Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
+Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
+Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
 
 // Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
-// Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
+Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
 
-// Bei jeder Verwendung muss ein Marker gestrichen werden.
+Bei jeder Verwendung muss ein Marker gestrichen werden.
 
 // .{nbsp}
 // [%unbreakable]
@@ -808,22 +833,24 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 // image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigenschaft,500]
 // ====
 
-== AP-Kosten(((Eigenschaften, AP-Kosten))) <Eigenschaften-AP-Kosten>
+== AP-Kosten <Eigenschaften-AP-Kosten>
+#index("Eigenschaften", "AP-Kosten")
 
-// Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
+Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
 
-= ((Bewegung)) <Bewegung>
+= Bewegung <Bewegung>
+#index[Bewegung]
 
-// Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann ein Modell entsprechend bewegt werden.
+Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann ein Modell entsprechend bewegt werden.
 
-// Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden.
-// Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
+Bei Reaktionen kann auf jede Bewegungsaktion einzeln reagiert werden.
+Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehenden Aktion zusammengefasst werden, auf die dann auch nur einmal reagiert werden kann.
 
-// Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
+Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
 
 == Bewegungsart
 
-// Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
+Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
 
 // [%unbreakable%header,cols="^1,1,3",frame=ends]
 // |===
@@ -868,9 +895,10 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 
 // |===
 
-== ((Bewegungstest)) <Bewegungstest>
+== Bewegungstest <Bewegungstest>
+#index[Bewegungstest]
 
-// Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen durchgeführt werden.
+Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen durchgeführt werden.
 
 == Aktionen <Bewegung-Aktionen>
 
@@ -980,7 +1008,9 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 
 // |===
 
-== ((Springen))(((Bewegung, Springen))) <Springen>
+== Springen <Springen>
+#index[Springen]
+#index("Bewegung", "Springen")
 
 // Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
 
@@ -989,34 +1019,43 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 // Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen <<Bewegungstest>> ablegen.
 // Wenn er misslingt <<Herunterfallen,fällt>> das Modell herunter.
 
-== ((Vertikale Bewegung))(((Bewegung, Vertikal))) <Vertikale-Bewegung>
+== Vertikale Bewegung <Vertikale-Bewegung>
+#index[Vertikale Bewegung]
+#index("Bewegung", "Vertikal")
 
-// Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern und vergleichbarem bewegen.
-// Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
+Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern und vergleichbarem bewegen.
+Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 
-== ((Klettern))(((Bewegung, Klettern))) <Klettern>
+== Klettern <Klettern>
+#index[Klettern]
+#index("Bewegung", "Klettern")
 
 // Jedes Modell kann ohne spezielle Ausrüstung oder Eigenschaften auf oder herunter von <<Geländestücke,Geländestücken>> bis zu seinem doppelten <<Größenprofil>> klettern.
 
-// Die vertikale Distanz wird dafür doppelt berechnet.
+Die vertikale Distanz wird dafür doppelt berechnet.
 
-== ((Herunterfallen))(((Fallen)))(((Bewegung, Herunterfallen))) <Herunterfallen>
+== Herunterfallen <Herunterfallen>
+#index[Herunterfallen]
+#index[Fallen]
+#index("Bewegung", "Herunterfallen")
 
-// Wenn sich ein Modell über eine Kante hinaus bewegt kann es sich fallenlassen anstatt herunterzuklettern.
+Wenn sich ein Modell über eine Kante hinaus bewegt kann es sich fallenlassen anstatt herunterzuklettern.
 
 // Bei einer Fallhöhe bis zur Höhe seines <<Größenprofil,Größenprofils>> kann es dies einfach so machen.
-// Bei grösserer Fallhöhe muss es zunächst einen erfolgreichen EH-Test ablegen um sich herunterfallen zu lassen.
+Bei grösserer Fallhöhe muss es zunächst einen erfolgreichen EH-Test ablegen um sich herunterfallen zu lassen.
 
-// Die durch Herunterfallen zurückgelegte Distanz kostet keine AP.
+Die durch Herunterfallen zurückgelegte Distanz kostet keine AP.
 
-=== ((Fallschaden))(((Fallen, Schaden))) <Fallschaden>
+=== Fallschaden <Fallschaden>
+#index[Fallschaden]
+#index("Fallen", "Schaden")
 
 // Bis zu einer Fallhöhe in Höhe seines <<Größenprofil,Größenprofils>> passiert einem fallenden Modell nichts.
-// Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
-// Darüber hinaus erleidet es automatisch einen Treffer.
+Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
+Darüber hinaus erleidet es automatisch einen Treffer.
 
-// Die Stärke des Treffers entspricht der KO des gefallenen Modells.
-// Der Schaden orientiert sich ebenfalls an der KO des Modells.
+Die Stärke des Treffers entspricht der KO des gefallenen Modells.
+Der Schaden orientiert sich ebenfalls an der KO des Modells.
 
 // [%unbreakable%header,cols="^2,^1",frame=ends]
 // |===
@@ -1035,7 +1074,9 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 
 // |===
 
-== ((Schnelle Bewegungen))(((Bewegung, Schnell))) <Schnelle-Bewegungen>
+== Schnelle Bewegungen <Schnelle-Bewegungen>
+#index[Schnelle Bewegungen]
+#index("Bewegung", "Schnell")
 
 Wenn sich ein Modell innerhalb seiner Initiativephase mehr als 10" bewegt, gilt es als in schneller Bewegung.
 Dabei wird die tatsächlich zurückgelegte Distanz gemessen.
@@ -1051,44 +1092,50 @@ Zum Beginn der nächsten Initiativephase eines Modells wird der Token wieder ent
 
 // Sie kommt unter anderem beim <<Schnelle Bewegungen des Ziels,Fernkampf>> zur Anwendung.
 
-== ((Liegende Modelle))(((Bewegung, Liegend))) <Liegende-Modelle>
+== Liegende Modelle <Liegende-Modelle>
+#index[Liegende Modelle]
+#index("Bewegung", "Liegend")
 
 // Liegende Modelle gelten als ein <<Größenprofil>> kleiner als sie sind.
-// Kleine Modelle werden dadurch nicht noch kleiner.
+Kleine Modelle werden dadurch nicht noch kleiner.
 
-// Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
+Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 
-= ((Gelände)) <Gelände>
+= Gelände <Gelände>
+#index[Gelände]
 
 // Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> bezeichnet.
 
-// Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
+Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
 
-== ((Geländestücke)) <Geländestücke>
+== Geländestücke <Geländestücke>
+#index[Geländestücke]
 
-// Geländestücke sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
+Geländestücke sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
 
-// So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
-// Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln gelten dort automatisch.
+So brauchen bspw. keine einzelnen Bäume (die umkippen könnten) als Wald aufgestellt werden.
+Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln gelten dort automatisch.
 
-// Das ist unabhängig davon, ob ein Modell sich in oder auf einem Geländestück befindet.
-// Befindet sich ein Modell darüber (weil es bspw. fliegt) ist es nicht davon betroffen.
+Das ist unabhängig davon, ob ein Modell sich in oder auf einem Geländestück befindet.
+Befindet sich ein Modell darüber (weil es bspw. fliegt) ist es nicht davon betroffen.
 
 // Geländestücke gehören in der Regel einem <<Geländetypen,Geländetyp>> an.
 
-== ((Geländetypen)) <Geländetypen>
+== Geländetypen <Geländetypen>
+#index[Geländetypen]
 
 // Sie beinhalten Informationen zu <<Deckung>>, <<Passierbarkeit>>, <<Sichtweite>> und eventuellen weiteren Sonderregeln.
 
-// Geländetypen sollten für ein Universum passend erweitert oder abgeändert werden um ein dem Universum entsprechendes Spielfeld zu schaffen.
+Geländetypen sollten für ein Universum passend erweitert oder abgeändert werden um ein dem Universum entsprechendes Spielfeld zu schaffen.
 
 // Siehe <<Anhang-Geländetypen, Anhang: Geländetypen>> für eine Übersicht allgemein nutzbarer Geländetypen.
 
-== ((Deckung)) <Deckung>
+== Deckung <Deckung>
+#index[Deckung]
 
 // Deckung kommt nur im <<Deckung des Ziels, Fernkampf>> zur Anwendung.
 
-// Ein Geländestück bietet Deckung wenn:
+Ein Geländestück bietet Deckung wenn:
 
 // * es sich zwischen dem Schützen und seinem Ziel befindet und das <<Größenprofil>> des Ziels mindestens zur Hälfte verdeckt
 
@@ -1096,9 +1143,9 @@ Zum Beginn der nächsten Initiativephase eines Modells wird der Token wieder ent
 
 // * das Ziel sich darin befindet
 
-// Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben der zur Anwendung kommt, wenn das Modell das Geländestück berührt oder sich darin befindet.
+Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben der zur Anwendung kommt, wenn das Modell das Geländestück berührt oder sich darin befindet.
 
-// Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
+Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
 // [%unbreakable,cols="2h,3,3,3",frame=ends]
 // |===
@@ -1132,7 +1179,8 @@ Zum Beginn der nächsten Initiativephase eines Modells wird der Token wieder ent
 
 // |===
 
-== ((Passierbarkeit)) <Passierbarkeit>
+== Passierbarkeit <Passierbarkeit>
+#index[Passierbarkeit]
 
 Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 
@@ -1152,13 +1200,15 @@ Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 
 // |===
 
-== ((Sichtweite)) <Sichtweite>
+== Sichtweite <Sichtweite>
+#index[Sichtweite]
 
 // In manchem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch ab einer gewissen Distanz vollständig blockiert.
 
-// Dies kommt zur Anwendung, wenn eine Sichtlinie von außerhalb eines Geländestücks in oder durch dieses gezogen wird und die angegebene Distanz erreicht wurde.
+Dies kommt zur Anwendung, wenn eine Sichtlinie von außerhalb eines Geländestücks in oder durch dieses gezogen wird und die angegebene Distanz erreicht wurde.
 
-== ((Umgebungsbedingungen)) <Umgebungsbedingungen>
+== Umgebungsbedingungen <Umgebungsbedingungen>
+#index[Umgebungsbedingungen]
 
 Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländestücken unnötig zu erhöhen.
 
@@ -1168,12 +1218,13 @@ Dies benötigt einerseits viele Geländestücke und erschwert andererseits das S
 Um dies zu umgehen kann einfach das gesamte Spielfeld als ein spezifischer Geländetyp deklariert werden.
 Er gilt dann für das gesamte Spielfeld.
 
-== ((Objekte)) <Objekte>
+== Objekte <Objekte>
+#index[Objekte]
 
-// Unter ihnen versteht man alle Gegenstände auf dem Spielfeld, die von einem Modell benutzt werden können, und deren Benutzung eine Wirkung nach sich zieht.
+Unter ihnen versteht man alle Gegenstände auf dem Spielfeld, die von einem Modell benutzt werden können, und deren Benutzung eine Wirkung nach sich zieht.
 // Sie können alleine stehen oder sind Bestandteil eines <<Geländestücke,Geländestücks>>.
 
-// Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szenario, Universum oder nach Einigung der Spieler festgelegt.
+Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szenario, Universum oder nach Einigung der Spieler festgelegt.
 
 // Siehe <<Anhang-Objekte, Anhang: Objekte>> für eine Übersicht allgemein nutzbarer Objekte.
 
@@ -1187,9 +1238,9 @@ Er gilt dann für das gesamte Spielfeld.
 
 === Beschränkungen von Objekten
 
-// Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
+Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
 
-// Die folgenden Beschränkungen sind möglich, auch in Kombination.
+Die folgenden Beschränkungen sind möglich, auch in Kombination.
 
 // [%unbreakable%header,cols="h,3,3",frame=ends]
 // |===
@@ -1218,7 +1269,9 @@ Er gilt dann für das gesamte Spielfeld.
 
 // |===
 
-= ((Schaden)) & ((Rüstung)) <Schaden-und-Rüstung>
+= Schaden & Rüstung <Schaden-und-Rüstung>
+#index[Schaden]
+#index[Rüstung]
 
 // Verschiedene Spielmechaniken erzeugen Schaden.
 // Dies kann ein Modell sein das ein anderes Modell <<Fernkampf,beschießt>> oder im <<Nahkampf>> angreift oder auch Effekte die im Spiel auftreten.
@@ -1226,7 +1279,8 @@ Er gilt dann für das gesamte Spielfeld.
 // Schaden wird in erster Linie mit <<Rüstung,Rüstungen>> abgewehrt.
 // Es kann aber auch <<Ausrüstung>> geben welche dabei hilft.
 
-== ((Schadensprofil)) <Schadensprofil>
+== Schadensprofil <Schadensprofil>
+#index[Schadensprofil]
 
 // Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen <<Schadenseffekte,Schadenseffekten>> angegeben.
 
@@ -1253,7 +1307,8 @@ Er gilt dann für das gesamte Spielfeld.
 // image::Grafiken/Abbildungen/schadensprofil.jpg[Schadensprofil,500]
 // ====
 
-== ((Rüstungsprofil)) <Rüstungsprofil>
+== Rüstungsprofil <Rüstungsprofil>
+#index[Rüstungsprofil]
 
 // Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventuellen <<Schadenseffekte,Schadenseffekten>> angegeben.
 
@@ -1280,7 +1335,8 @@ Er gilt dann für das gesamte Spielfeld.
 // image::Grafiken/Abbildungen/rüstungsprofil.jpg[Rüstungsprofil,500]
 // ====
 
-== ((Schadenseffekte)) <Schadenseffekte>
+== Schadenseffekte <Schadenseffekte>
+#index[Schadenseffekte]
 
 // Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 
@@ -1389,7 +1445,9 @@ Er gilt dann für das gesamte Spielfeld.
 // |===
 // --
 
-== Verletzungs- und Rüstungswurf(((Verletzungswurf)))(((Rüstungswurf))) <Verletzungs-und-Rüstungswurf>
+== Verletzungs- und Rüstungswurf <Verletzungs-und-Rüstungswurf>
+#index[Verletzungswurf]
+#index[Rüstungswurf]
 
 // Beide Spieler führen einen vergleichenden Wurf durch.
 // Der Angreifer addiert die Stärke seiner Waffe, dies wird _Verletzungswurf_ genannt.
@@ -1419,7 +1477,8 @@ Er gilt dann für das gesamte Spielfeld.
 
 // |===
 
-== ((Schadensanwendung)) <Schadensanwendung>
+== Schadensanwendung <Schadensanwendung>
+#index[Schadensanwendung]
 
 // Wenn Schaden zur Anwendung kommt, müssen entsprechend viele Trefferpunkte auf der <<Einheitenkarte>> gestrichen werden.
 // Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden um diesen Wert verringert.
@@ -1429,11 +1488,13 @@ Er gilt dann für das gesamte Spielfeld.
 // Falls das Modell überlebt erleidet es einen <<Schock>>.
 // Wenn es ausserdem nur noch kritische <<Trefferpunkte>> besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
 
-= ((Zustände))
+= Zustände
 
 Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinden.
 
-== ((Brennen))(((Zustände, Brennen))) <Brennen>
+== Brennen <Brennen>
+#index[Brennen]
+#index("Zustände", "Brennen")
 
 Modelle mit einem Brandmarker gelten als _brennend_:
 
@@ -1467,7 +1528,9 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 
 Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bonus von +2 auf den Wurf.
 
-== ((Eliminiert))(((Zustände, Eliminiert))) <Eliminiert>
+== Eliminiert <Eliminiert>
+#index[Eliminiert]
+#index("Zustände", "Eliminiert")
 
 Eliminierte Modelle können weder Aktionen noch Reaktionen ausführen und nehmen damit nicht mehr aktiv am Spiel teil.
 
@@ -1475,7 +1538,9 @@ Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf 
 
 // Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
 
-== Kritisch(((Kritischer Zustand)))(((Zustände, Kritisch))) <Kritisch>
+== Kritisch <Kritisch>
+#index("Kritischer Zustand")
+#index("Zustände", "Kritisch")
 
 // Der kritische Zustand wird automatisch angewendet, sobald ein Modell nur noch kritische <<Trefferpunkte>> besitzt.
 
@@ -1490,7 +1555,9 @@ Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen 
 Ein Modell kann nur einmal in den kritischen Zustand verfallen.
 // Würde dies ein weiteres mal passieren erleidet es stattdessen 1 <<Schock>>.
 
-== ((Panik))(((Zustände, Panik))) <Panik>
+== Panik <Panik>
+#index[Panik]
+#index("Zustände", "Panik")
 
 Um zu testen ob ein Modell in Panik verfällt muss es einen Paniktest in Form eines EH-Tests absolvieren.
 Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarker.
@@ -1540,7 +1607,9 @@ Modelle in Panik werden hierbei ignoriert.
 
 // |===
 
-== ((Schock))(((Zustände, Schock))) <Schock>
+== Schock <Schock>
+#index[Schock]
+#index("Zustände", "Schock")
 
 Wenn ein Modell einen Schock erleidet verliert es sofort 1 AP.
 Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Token:
@@ -1554,7 +1623,9 @@ Wenn ein Modell zum Beginn einer Runde über Schock-Token verfügt, verliert es 
 
 Sollten noch Schock-Token übrig sein und das Modell verfügt über keine AP mehr, verbleiben die übrigen Token bis zur nächsten Runde um dann abgezogen zu werden.
 
-== ((Vergiftung))(((Zustände, Vergiftung))) <Vergiftung>
+== Vergiftung <Vergiftung>
+#index[Vergiftung]
+#index("Zustände", "Vergiftung")
 
 Modelle mit Giftmarkern zählen als _vergiftet_:
 
@@ -1608,7 +1679,9 @@ WK I steht somit für Waffen der Klasse 1.
 Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
-== Unhandliche Waffen(((Unhandlich, Waffen)))(((Waffen, Unhandlich))) <Waffen-Unhandlich>
+== Unhandliche Waffen <Waffen-Unhandlich>
+#index("Unhandlich", "Waffen")
+#index("Waffen", "Unhandlich")
 
 // Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
@@ -1619,7 +1692,8 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
   image("Grafiken/Waffe/unhandlich.png", alt: "unhandlich"),
 )
 
-== ((Nachladen)) <Nachladen>
+== Nachladen <Nachladen>
+#index[Nachladen]
 
 Waffen die nachladen müssen besitzen das folgende Symbol.
 
@@ -1635,7 +1709,9 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
   image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
 )
 
-== Einmalnutzung(((Einmalnutzung, Waffen)))(((Waffen, Einmalnutzung))) <Waffen-Einmalnutzung>
+== Einmalnutzung <Waffen-Einmalnutzung>
+#index("Einmalnutzung", "Waffen")
+#index("Waffen", "Einmalnutzung")
 
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
 
@@ -1719,13 +1795,15 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
 
 // |===
 
-= ((Rüstungen)) <Rüstungen>
+= Rüstungen <Rüstungen>
+#index[Rüstungen]
 
 Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
 
 // Rüstungen verfügen über ein <<Rüstungsprofil>> und eventuelle <<Profilmodifikatoren>>.
 
-== Regeln(((Rüstung, Regeln)))
+== Regeln
+#index("Rüstung", "Regeln")
 
 Jede Rüstung kann Regeln beinhalten.
 // Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
@@ -1739,7 +1817,8 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
 // Das Gewicht von selbsttragenden Rüstungen wird für die <<Tragkraft>> eines Modells ignoriert.
 
-= ((Fernkampf)) <Fernkampf>
+= Fernkampf <Fernkampf>
+#index[Fernkampf]
 
 // Unter Fernkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der auf Distanz passiert.
 
@@ -1850,21 +1929,26 @@ Nun wird ein FK-Wurf für das Modell durchgeführt.
 
 // |===
 
-== Erlaubte Waffen(((Fernkampf, Erlaubte Waffen)))
+== Erlaubte Waffen
+#index("Fernkampf", "Erlaubte Waffen")
 
 // Im Fernkampf dürfen nur Waffen mit einem <<Reichweite,Reichweitenband>>, nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
 
-== Trefferzonen(((Fernkampf, Trefferzonen)))(((Trefferzonen, im Fernkampf)))
+== Trefferzonen
+#index("Fernkampf", "Trefferzonen")
+#index("Trefferzonen", "im Fernkampf")
 
 // Wenn das Ziel über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
-== ((Zielauswahl)) <Zielauswahl>
+== Zielauswahl <Zielauswahl>
+#index[Zielauswahl]
 
 // Damit ein Ziel beschossen werden kann muss eine <<Sichtlinie>> zu ihm gezogen werden können.
 
 // Sollte sich im <<Gefahrenbereich>> keine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
 
-== Reichweite(((Fernkampf, Reichweite))) <Reichweite>
+== Reichweite <Reichweite>
+#index("Fernkampf", "Reichweite")
 
 Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
 X gibt dabei an, wie groß die Reichweitenbänder in Zoll sind, Y wie oft diese anwendbar sind.
@@ -1889,7 +1973,8 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
 // Der FK-Wurf für ein Ziel in einer Entfernung von 6" erhält keinen Malus, bei 17" würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
 // ====
 
-== Beschuss von Modellen im Nahkampf(((Fernkampf, Modelle im Nahkampf)))
+== Beschuss von Modellen im Nahkampf
+#index("Fernkampf", "Modelle im Nahkampf")
 
 Modelle die sich im Nahkampf befinden dürfen beschossen werden.
 
@@ -1904,13 +1989,15 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 // Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
 // ====
 
-== Beschuss von getarnten Modellen(((Fernkampf, getarnte Modelle)))
+== Beschuss von getarnten Modellen
+#index("Fernkampf", "getarnte Modelle")
 
 // Es können nur <<Aufklärung,aufgeklärte>> getarnte Modelle beschossen werden.
 
 == Modifikatoren <Fernkampf-Modifikatoren>
 
-=== Größe des Ziels(((Fernkampf, Größe des Ziels)))
+=== Größe des Ziels
+#index("Fernkampf", "Größe des Ziels")
 
 // Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger zu treffen.
 
@@ -1934,7 +2021,8 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 
 // |===
 
-=== Deckung des Ziels(((Fernkampf, Deckung des Ziels)))
+=== Deckung des Ziels
+#index("Fernkampf", "Deckung des Ziels")
 
 // Der durch eventuelle <<Deckung>> angewandte Modifikator.
 
@@ -1955,19 +2043,25 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 
 // |===
 
-=== Unhandliche Waffen(((Unhandlich, Waffen im Fernkampf)))(((Fernkampf, Unhandliche Waffen))) <Fernkampf-Unhandlich>
+=== Unhandliche Waffen <Fernkampf-Unhandlich>
+#index("Unhandlich", "Waffen im Fernkampf")
+#index("Fernkampf", "Unhandliche Waffen")
 
 Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
 
-=== Liegender Schütze(((Fernkampf, Liegender Schütze)))
+=== Liegender Schütze
+#index("Fernkampf", "Liegender Schütze")
 
 Liegende Schützen erhalten +2 auf den FK-Wurf.
 
-=== Schnelle Bewegungen des Ziels(((Fernkampf, Schnelle Bewegungen des Ziels)))
+=== Schnelle Bewegungen des Ziels
+#index("Fernkampf", "Schnelle Bewegungen des Ziels")
 
 // Auf Ziele, welche sich in <<Schnelle Bewegungen,schneller Bewegung>> befinden, gibt es einen Malus von -2 auf den FK-Wurf.
 
-== ((Indirekter Fernkampf))(((Fernkampf, Indirekt))) <Indirekter-Fernkampf>
+== Indirekter Fernkampf <Indirekter-Fernkampf>
+#index[Indirekter Fernkampf]
+#index("Fernkampf", "Indirekt")
 
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 
@@ -1995,7 +2089,9 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
   image("Grafiken/Waffe/indirekt.svg", alt: "indirekt"),
 )
 
-== ((Dauerfeuer))(((Fernkampf, Dauerfeuer))) <Dauerfeuer>
+== Dauerfeuer <Dauerfeuer>
+#index[Dauerfeuer]
+#index("Fernkampf", "Dauerfeuer")
 
 Waffen können über den Wert „Dauerfeuer“ (DF) verfügen der im Bereich 1-4 liegt.
 Jeder Punkt DF wird hierdurch als 1 zusätzlicher Schuss behandelt.
@@ -2034,7 +2130,9 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 // Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 // ====
 
-== ((Flächenwaffen))(((Fernkampf, Flächenwaffe))) <Flächenwaffen>
+== Flächenwaffen <Flächenwaffen>
+#index[Flächenwaffen]
+#index("Fernkampf", "Flächenwaffe")
 
 Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
 
@@ -2057,7 +2155,8 @@ Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgeru
 
 Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
 
-= ((Nahkampf)) <Nahkampf>
+= Nahkampf <Nahkampf>
+#index[Nahkampf]
 
 // Unter Nahkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der im Basekontakt passiert.
 
@@ -2115,7 +2214,9 @@ Um einen Nahkampf durchzuführen, muss die Base des angreifenden Modells die Bas
 
 // |===
 
-== ((Zurückstoßen))(((Nahkampf, Zurückstoßen))) <Zurückstoßen>
+== Zurückstoßen <Zurückstoßen>
+#index[Zurückstoßen]
+#index("Nahkampf", "Zurückstoßen")
 
 // Modelle können nur dann zurückgestoßen werden wenn ihr <<Größenprofil>> gleich oder kleiner des stoßenden Modells ist.
 
@@ -2209,44 +2310,57 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 // |===
 
-== Erlaubte Waffen(((Nahkampf, Erlaubte Waffen)))
+== Erlaubte Waffen
+#index("Nahkampf", "Erlaubte Waffen")
 
 Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werden.
 
-== Trefferzonen(((Nahkampf, Trefferzonen)))(((Trefferzonen, im Nahkampf)))
+== Trefferzonen
+#index("Nahkampf", "Trefferzonen")
+#index("Trefferzonen", "im Nahkampf")
 
 // Wenn der Verteidiger über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 == Modifikatoren <Nahkampf-Modifikatoren>
 
-=== Bonus für den Angreifer(((Nahkampf, Bonus für den Angreifer)))
+=== Bonus für den Angreifer
+#index("Nahkampf", "Bonus für den Angreifer")
 
 // Wenn der Angreifer den Angriff durch eine <<Bewegung-Aktionen,Angriffsbewegung>> einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
-=== Multiple Gegner(((Nahkampf, Multiple Gegner)))
+=== Multiple Gegner
+#index("Nahkampf", "Multiple Gegner")
 
 Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
 
-=== Tarnung(((Nahkampf, Tarnung)))(((Tarnung, Nahkampf)))
+=== Tarnung
+#index("Nahkampf", "Tarnung")
+#index("Tarnung", "Nahkampf")
 
 Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
 
-=== Unhandliche Waffen und Ausrüstung(((Unhandlich, Waffen und Ausrüstung im Nahkampf)))(((Nahkampf, Unhandliche Waffen und Ausrüstung))) <Nahkampf-Unhandlich>
+=== Unhandliche Waffen und Ausrüstung <Nahkampf-Unhandlich>
+#index("Unhandlich", "Waffen und Ausrüstung im Nahkampf")
+#index("Nahkampf", "Unhandliche Waffen und Ausrüstung")
 
 Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
 
-=== Größenunterschiede(((Größenunterschiede)))(((Nahkampf, Größenunterschiede))) <Größenunterschiede>
+=== Größenunterschiede <Größenunterschiede>
+#index[Größenunterschiede]
+#index("Nahkampf", "Größenunterschiede")
 
 Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +2 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 
 // Siehe auch <<Größenprofil>> und <<Liegende Modelle,liegende Modelle>>.
 
-== Nahkampf mit getarnten Modellen(((Nahkampf, mit getarnten Modellen)))
+== Nahkampf mit getarnten Modellen
+#index("Nahkampf", "mit getarnten Modellen")
 
 // Es können nur <<Aufklärung,aufgeklärte>> Modelle angegriffen werden.
 
-== Waffenloser Nahkampf(((Nahkampf, Waffenloser)))
+== Waffenloser Nahkampf
+#index("Nahkampf", "Waffenloser")
 
 Standard-Modelle und Kolosse können auch ohne eine Nahkampfwaffe im Nahkampf kämpfen und Schaden austeilen.
 
@@ -2279,7 +2393,8 @@ Die Waffenklasse ist abhängig von der Größe des Modells.
 // image::Grafiken/Abbildungen/unbewaffnet.jpg[unbewaffnet,500]
 // ====
 
-= ((Tarnung)) <Tarnung>
+= Tarnung <Tarnung>
+#index[Tarnung]
 
 Tarnung wird in passive und aktive Tarnung unterschieden.
 Weiterhin verfügt sie immer über eine Stufe um die Effektivität der Tarnung auszudrücken.
@@ -2309,7 +2424,8 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 // |===
 
-== Vorteile(((Tarnung, Vorteile)))
+== Vorteile
+#index("Tarnung", "Vorteile")
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
 // Damit das möglich ist, müssen sie zuerst <<Aufklärung,aufgeklärt>> werden.
@@ -2324,7 +2440,9 @@ Modelle mit aktiver Tarnung erhalten einen Bonus von +1 auf ihren Rüstungswurf 
 
 Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 
-== ((Aufklärung))(((Tarnung, Aufklärung))) <Aufklärung>
+== Aufklärung <Aufklärung>
+#index[Aufklärung]
+#index("Tarnung", "Aufklärung")
 
 Aufgeklärte Modelle können normal beschossen oder im Nahkampf angegriffen werden.
 
@@ -2370,7 +2488,8 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 // |===
 
-= ((Ausrüstung)) <Ausrüstung>
+= Ausrüstung <Ausrüstung>
+#index[Ausrüstung]
 
 Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
 
@@ -2391,16 +2510,20 @@ Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder R�
 
 // |===
 
-== Regeln(((Ausrüstung, Regeln)))
+== Regeln
+#index("Ausrüstung", "Regeln")
 
 Jede Ausrüstung kann Regeln beinhalten.
 // Wenn dem so ist, werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
 
-== AP-Kosten(((Ausrüstung, AP-Kosten)))
+== AP-Kosten
+#index("Ausrüstung", "AP-Kosten")
 
 Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Verwendung notwendig.
 
-== Einmalnutzung(((Einmalnutzung, Ausrüstung)))(((Ausrüstung, Einmalnutzung)))
+== Einmalnutzung
+#index("Einmalnutzung", "Ausrüstung")
+#index("Ausrüstung", "Einmalnutzung")
 
 Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
 
@@ -2417,19 +2540,23 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
 // image::Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg[Einmalnutzung Ausrüstung,500]
 // ====
 
-== Unhandliche Ausrüstung(((Unhandlich, Ausrüstung)))(((Ausrüstung, Unhandlich))) <Ausrüstung-Unhandlich>
+== Unhandliche Ausrüstung <Ausrüstung-Unhandlich>
+#index("Unhandlich", "Ausrüstung")
+#index("Ausrüstung", "Unhandlich")
 
 // Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
 
 // Auf der <<Einheitenkarte>> wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
-= ((Kolosse)) <Kolosse>
+= Kolosse <Kolosse>
+#index[Kolosse]
 
 Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 6 Meter haben und deren Gewicht bei 1,5 Tonnen erst anfängt.
 
 Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
 
-== Fern- und Nahkampf(((Kolosse, Fern- und Nahkampf)))
+== Fern- und Nahkampf
+#index("Kolosse", "Fern- und Nahkampf")
 
 Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
 
@@ -2439,7 +2566,9 @@ Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sic
 
 Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
 
-== ((Trefferzonen))(((Kolosse, Trefferzonen))) <Trefferzonen>
+== Trefferzonen <Trefferzonen>
+#index[Trefferzonen]
+#index("Kolosse", "Trefferzonen")
 
 Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung unterteilt.
 
@@ -2456,7 +2585,8 @@ Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirk
 Trefferpunkte werden nur für den Rumpf festgelegt.
 Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
 
-=== Kritischer Zustand(((Kolosse, Kritischer Zustand)))
+=== Kritischer Zustand
+#index("Kolosse", "Kritischer Zustand")
 
 // [%unbreakable,cols="h,4"]
 // |===
@@ -2472,7 +2602,8 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 // |===
 
-=== Verlust aller Trefferpunkte(((Kolosse, Verlust aller Trefferpunkte)))
+=== Verlust aller Trefferpunkte
+#index("Kolosse", "Verlust aller Trefferpunkte")
 
 // [%unbreakable,cols="h,4a"]
 // |===
@@ -2506,7 +2637,8 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 // |===
 
-= Begleiter(((Begleiter))) <Begleiter>
+= Begleiter <Begleiter>
+#index[Begleiter]
 
 Unter Begleitern wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
 // Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen <<Operatoren,Operator>>.
@@ -2522,7 +2654,9 @@ Sie haben keine eigene Initiativephase.
 // * Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
 // ====
 
-== ((Operatoren))(((Begleiter, Operatoren))) <Operatoren>
+== Operatoren <Operatoren>
+#index[Operatoren]
+#index("Begleiter", "Operatoren")
 
 Unter Operatoren versteht man alle Modelle denen ein Begleiter zugeordnet werden kann.
 Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Begleiter ihm zugeordnet werden können.
@@ -2539,45 +2673,54 @@ Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn 
 // * Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Begleiter haben.
 // ====
 
-// === Zuteilung(((Begleiter, Zuteilung)))
+=== Zuteilung
+#index("Begleiter", "Zuteilung")
 
 Begleiter können und müssen immer genau einem Operator zugeteilt sein.
 // Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
 
-== Begleiter ohne Operator(((Begleiter, ohne Operator)))
+== Begleiter ohne Operator
+#index("Begleiter", "ohne Operator")
 
 // Begleiter, deren Operator <<Eliminiert,eliminiert>> wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
 
-== Aktionspunkte(((Begleiter, Aktionspunkte)))
+== Aktionspunkte
+#index("Begleiter", "Aktionspunkte")
 
 Jeder Begleiter verfügt über 2 AP.
 Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
 
-== Attribute(((Begleiter, Attribute)))
+== Attribute
+#index("Begleiter", "Attribute")
 
 Begleiter verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
 
-== Gefahrenbereich(((Begleiter, Gefahrenbereich)))
+== Gefahrenbereich
+#index("Begleiter", "Gefahrenbereich")
 
 // Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
 // Daraus ergibt sich, dass eine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> für sie nicht existiert.
 Sie müssen aber, wenn möglich, aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
 
-== Schock(((Begleiter, Schock)))
+== Schock
+#index("Begleiter", "Schock")
 
 // <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
 
 Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Begleitern zu entfernen.
 
-== Eliminierung(((Begleiter, Eliminierung)))
+== Eliminierung
+#index("Begleiter", "Eliminierung")
 
 // Sobald ein Begleiter <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
 
 Der Operator muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Begleiters.
 
-= ((Disziplinen)) & ((Kräfte)) <Disziplinen-und-Kräfte>
+= Disziplinen & Kräfte <Disziplinen-und-Kräfte>
+#index[Disziplinen]
+#index[Kräfte]
 
 In Universalis wird alles was andernorts normalerweise als PSI, Magie, Thaumaturgie, usw. bezeichnet wird _Kräfte_ genannt.
 Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der dazugehörigen Kräfte vorgeben.
@@ -2591,7 +2734,8 @@ Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der 
 // * Bei Cyberpunk wäre eine Disziplin wie _Psychokinese_ denkbar die dann Kräfte wie _Würgegriff_ und _Schweben_ vereint.
 // ====
 
-== Auswahl(((Kräfte, Auswahl))) <Kraft-Auswahl>
+== Auswahl <Kraft-Auswahl>
+#index("Kräfte", "Auswahl")
 
 // Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
@@ -2631,11 +2775,13 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
 
 // |===
 
-=== AP-Kosten(((Kräfte, AP-Kosten))) <Kraft-AP-Kosten>
+=== AP-Kosten <Kraft-AP-Kosten>
+#index("Kräfte", "AP-Kosten")
 
 Dies sind die benötigten AP um die Kraft einzusetzen.
 
-=== Attribut(((Kräfte, Attribut))) <Kraft-Attribut>
+=== Attribut <Kraft-Attribut>
+#index("Kräfte", "Attribut")
 
 Kräfte beziehen sich immer auf ein Attribut.
 // Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher <<Attributswurf>> gegen dieses Attribut abgelegt werden.
@@ -2650,7 +2796,8 @@ Zusätzlich kann eine Schwierigkeit angegeben sein.
 // * Die simple Kraft _Levitation_ ist mit `KO+3` angegeben. Der <<Attributswurf>> auf KO ist damit um 3 erleichtert.
 // ====
 
-=== TP-Verlust(((Kräfte, TP-Verlust))) <Kraft-TP-Verlust>
+=== TP-Verlust <Kraft-TP-Verlust>
+#index("Kräfte", "TP-Verlust")
 
 Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
@@ -2669,7 +2816,8 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
 // |===
 
-=== Ziel(((Kräfte, Ziel))) <Kraft-Ziel>
+=== Ziel <Kraft-Ziel>
+#index("Kräfte", "Ziel")
 
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
@@ -2694,7 +2842,8 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 // |===
 
-=== Reichweite(((Kräfte, Reichweite))) <Kraft-Reichweite>
+=== Reichweite <Kraft-Reichweite>
+#index("Kräfte", "Reichweite")
 
 Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
 
@@ -2716,7 +2865,8 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
 
 // |===
 
-=== Dauer(((Kräfte, Dauer))) <Kraft-Dauer>
+=== Dauer <Kraft-Dauer>
+#index("Kräfte", "Dauer")
 
 Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
 
@@ -2787,7 +2937,8 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 // |===
 
-== Kraft blockieren(((Kräfte, Blockieren)))
+== Kraft blockieren
+#index("Kräfte", "Blockieren")
 
 Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
 
@@ -2798,10 +2949,12 @@ Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
 
-// ifdef::backend-pdf[]
-// [index]
 = Stichwortverzeichnis
-// endif::[]
+#set page(columns: 1)
+
+#columns(3)[
+  #make-index(title: none)
+]
 
 // [[Anhang-Geländetypen]]
 // [appendix]
