@@ -19,7 +19,7 @@ Das Spiel ist gewonnen, sobald sich am Ende einer Initiativephase mindestens X -
 
 image:Grafiken/Missionen/Bergung/01.svg[Mission 3,width=300]
 
-== Einnehmen
+== Erobern
 
 #TODO
 
