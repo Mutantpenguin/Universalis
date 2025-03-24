@@ -74,29 +74,39 @@
 
 + Ausreichend #uni.lnk("Geländestücke") um die Fläche gut zu füllen.
 
-+ Jeder Spieler erhält ein Maßband oder -stab mit Markierungen in Abständen von einem halben Zoll.
++ #block(
+    breakable: false,
+    [
+      Jeder Spieler erhält ein Maßband oder -stab mit Markierungen in Abständen von einem halben Zoll.
 
-  #align(
-    center,
-    grid(
-      columns: 2,
-      image("Grafiken/Abbildungen/maßband.svg", alt: "Maßband", width: 60%), image("Grafiken/Abbildungen/maßstab.svg", alt: "Maßstab", width: 50%),
-    ),
+      #align(
+        center,
+        grid(
+          columns: 2,
+          image("Grafiken/Abbildungen/maßband.svg", alt: "Maßband", width: 60%), image("Grafiken/Abbildungen/maßstab.svg", alt: "Maßstab", width: 50%),
+        ),
+      )
+    ],
   )
 
 + Für jeden Spieler mindestens 2 #uni.lnk("Modelle") und dazugehörige #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt:"Aktivierungskarten").
 
-+ Mindestens einen W12 und pro Modell jeweils mindestens einen weißen und einen roten W6.
-  Mehr Würfel schaden nie.
++ #block(
+    breakable: false,
+    [
+      Mindestens einen W12 und pro Modell jeweils mindestens einen weißen und einen roten W6.
+      Mehr Würfel schaden nie.
 
-  #align(
-    center,
-    grid(
-      columns: 3,
-      image("Grafiken/Abbildungen/w12_weiß.svg", alt: "W12", width: 50%),
-      image("Grafiken/Abbildungen/w6_weiß.svg", alt: "W6 weiß", width: 50%),
-      image("Grafiken/Abbildungen/w6_rot.svg", alt: "W6 rot", width: 50%),
-    ),
+      #align(
+        center,
+        grid(
+          columns: 3,
+          image("Grafiken/Abbildungen/w12_weiß.svg", alt: "W12", width: 50%),
+          image("Grafiken/Abbildungen/w6_weiß.svg", alt: "W6 weiß", width: 50%),
+          image("Grafiken/Abbildungen/w6_rot.svg", alt: "W6 rot", width: 50%),
+        ),
+      )
+    ],
   )
 
 + Des weiteren werden Token für die folgenden Zustände benötigt:
