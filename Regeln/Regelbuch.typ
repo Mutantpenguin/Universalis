@@ -453,7 +453,7 @@ Sie sind an folgendem Symbol zu erkennen:
 
 #align(
   center,
-  image("Grafiken/Allgemein/aktion.svg", alt: "Aktion"),
+  uni.img_aktion,
 )
 
 === Reaktionen <Reaktionen>
@@ -470,7 +470,7 @@ Sie sind an folgendem Symbol zu erkennen:
 
 #align(
   center,
-  image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion"),
+  uni.img_reaktion,
 )
 
 === Übersicht

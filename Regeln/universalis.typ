@@ -1,3 +1,6 @@
+#let img_aktion = image("Grafiken/Allgemein/aktion.svg", alt: "Aktion")
+#let img_reaktion = image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion")
+
 #let lnk(label_name, alt: "") = {
   let label = label(label_name)
 
