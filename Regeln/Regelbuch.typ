@@ -1,7 +1,7 @@
 #import "@preview/in-dexter:0.7.0": *
-#import "universalis.typ" as universalis
+#import "universalis.typ" as uni
 
-#show: universalis.style
+#show: uni.style
 
 #set document(
   title: "Universalis - Regelbuch",
@@ -335,11 +335,7 @@ Sie wird mit GK abgekürzt.
 
 // Sie stehen für die Menge an <<Schadensanwendung,Schaden>>, die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
 
-Auf der #link(<Einheitenkarte>)[Einheitenkarte] werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
-
-Auf der #ref(<Einheitenkarte>, form: "page", supplement: "Seite") werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
-
-Auf der #universalis.blah("Einheitenkarte") werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
+Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
 
 // [%unbreakable,cols="h,5",frame=ends]
 // |===
