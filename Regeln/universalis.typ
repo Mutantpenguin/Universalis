@@ -1,9 +1,21 @@
-#let blah(label_name) = {
+#let lnk(label_name, alt: "") = {
   let label = label(label_name)
-  link(label)[#label_name]
-  " ("
-  ref(label, form: "page", supplement: "Seite")
-  ")"
+
+  context {
+    if query(label).len() > 0 {
+      let display_name = if alt.len() > 0 { alt } else { label_name }
+      link(label)[#display_name]
+      " ("
+      ref(label, form: "page", supplement: "Seite")
+      ")"
+    } else {
+      text(
+        "<LNK LABEL '" + label_name + "' NOT FOUND>",
+        weight: "bold",
+        fill: red,
+      )
+    }
+  }
 }
 
 #let style(doc) = [
