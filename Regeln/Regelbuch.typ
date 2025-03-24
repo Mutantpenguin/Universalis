@@ -113,45 +113,20 @@
 
   #table(
     columns: (30%, 70%),
-    table.header([Symbol], [Bedeutung]),
+    align: (center + horizon, left + horizon),
+    table.header([*Symbol*], [*Bedeutung*]),
+    [#image("Grafiken/Token/brennen.svg", alt: "Brennen")], [#uni.lnk("Brennen")],
+    [#image("Grafiken/Token/feuerbereitschaft.svg", alt: "Feuerbereitschaft")], [#uni.lnk("Fernkampf-Aktionen", alt: "Feuerbereitschaft")],
+    [#image("Grafiken/Token/panik.svg", alt: "Panik")], [#uni.lnk("Panik")],
+    [#image("Grafiken/Token/gift.svg", alt: "Gift")], [#uni.lnk("Vergiftung", alt: "Gift")],
+    [#image("Grafiken/Token/nachladen.svg", alt: "Nachladen")], [#uni.lnk("Nachladen")],
+    [#image("Grafiken/Token/schnell.svg", alt: "Schnell")], [#uni.lnk("Schnelle Bewegungen", alt: "Schnelle Bewegung")],
+    [#image("Grafiken/Token/schock.svg", alt: "Schock")], [#uni.lnk("Schock")],
+    [#image("Grafiken/Token/tarnung.svg", alt: "Tarnung")], [#uni.lnk("Tarnung")],
+    [#image("Grafiken/Token/verteidigung.svg", alt: "Verteidigung")], [#uni.lnk("Nahkampf-Aktionen", alt: "Verteidigung")],
   )
-// +
-// [%unbreakable%header,cols="^1,2",frame=ends]
-// |===
 
-// |Symbol
-// |Bedeutung
-
-// |image:Grafiken/Token/brennen.svg[Brennen,40]
-// |<<Brennen>>
-
-// |image:Grafiken/Token/feuerbereitschaft.svg[Feuerbereitschaft,40]
-// |<<Fernkampf-Aktionen,Feuerbereitschaft>>
-
-// |image:Grafiken/Token/panik.svg[Panik,40]
-// |<<Panik>>
-
-// |image:Grafiken/Token/gift.svg[Gift,40]
-// |<<Vergiftung,Gift>>
-
-// |image:Grafiken/Token/nachladen.svg[Nachladen,40]
-// |<<Nachladen>>
-
-// |image:Grafiken/Token/schnell.svg[Schnell,40]
-// |<<Schnelle Bewegungen,Schnelle Bewegung>>
-
-// |image:Grafiken/Token/schock.svg[Schock,40]
-// |<<Schock>>
-
-// |image:Grafiken/Token/tarnung.svg[Tarnung,40]
-// |<<Tarnung>>
-
-// |image:Grafiken/Token/verteidigung.svg[Verteidigung,40]
-// |<<Nahkampf-Aktionen,Verteidigung>>
-
-// |===
-// +
-// Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
+Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
 = Das Spiel
 
