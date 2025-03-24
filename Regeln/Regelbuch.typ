@@ -72,7 +72,7 @@
 
   #image("Grafiken/Abbildungen/spielfeld.svg", alt: "Spielfeld")
 
-// + Ausreichend <<Geländestücke>> um die Fläche gut zu füllen.
++ Ausreichend #uni.lnk("Geländestücke") um die Fläche gut zu füllen.
 
 + Jeder Spieler erhält ein Maßband oder -stab mit Markierungen in Abständen von einem halben Zoll.
 
@@ -84,7 +84,7 @@
     ),
   )
 
-// + Für jeden Spieler mindestens 2 <<Modelle>> und dazugehörige <<Einheitenkarte,Einheiten>>- und <<Aktivierungskarte,Aktivierungskarten>>.
++ Für jeden Spieler mindestens 2 #uni.lnk("Modelle") und dazugehörige #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt:"Aktivierungskarten").
 
 + Mindestens einen W12 und pro Modell jeweils mindestens einen weißen und einen roten W6.
   Mehr Würfel schaden nie.
@@ -151,23 +151,25 @@ Jeder Spieler entscheidet sich für eine Fraktion, mit deren Einheiten er eine G
 
 == Gruppen
 
-// Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr <<Modelle,Modellen>>.
+Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr #uni.lnk("Modelle", alt: "Modellen").
 
-// Jeder Spieler verfügt über genau 1 Gruppe die genau 1 <<Gruppenführer>> beinhalten muss.
+Jeder Spieler verfügt über genau 1 Gruppe die genau 1 #uni.lnk("Gruppenführer") beinhalten muss.
 
 == Gruppenführer
+<Gruppenführer>
 
 Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
 
-// Er wird unter anderem dafür benötigt die <<Aufstellen der Modelle,Aufstellungsreihenfolge>> zu bestimmen.
+Er wird unter anderem dafür benötigt die #uni.lnk("Aufstellen-der-Modelle", alt: "Aufstellungsreihenfolge") zu bestimmen.
 
 Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebenenfalls ein Stellvertreter bestimmt wird.
 
-== Einheitenkarte <Einheitenkarte>
+== Einheitenkarte
+<Einheitenkarte>
 #index[Einheitenkarte]
 
 Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
-// Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten <<Waffen>>, <<Rüstungen>>, <<Ausrüstung>> und <<Eigenschaften>>.
+Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten #uni.lnk("Waffen"), #uni.lnk("Rüstungen"), #uni.lnk("Ausrüstung") und #uni.lnk("Eigenschaften").
 
 Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
 So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
@@ -211,8 +213,9 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 // |===
 
 == Aktivierungskarte
+<Aktivierungskarte>
 
-// Die Aktivierungskarte zu jedem Modell wird zur Bestimmung der <<Aktivierungsreihenfolge>> verwendet.
+Die Aktivierungskarte zu jedem Modell wird zur Bestimmung der #uni.lnk("Aktivierungsreihenfolge") verwendet.
 
 #align(
   center,
@@ -222,24 +225,27 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 Um nicht die Einheitenkarte zu Rate ziehen zu müssen wird auf ihr auch die AGI des Modells angezeigt.
 
 = Modelle
+<Modelle>
 
-// Alle im Spiel vorhandenen Einheiten die auch über eine <<Einheitenkarte>> verfügen benötigen ein Modell, welches sie auf dem Spielfeld repräsentiert.
+Alle im Spiel vorhandenen Einheiten die auch über eine #uni.lnk("Einheitenkarte") verfügen benötigen ein Modell, welches sie auf dem Spielfeld repräsentiert.
 
-== Profile <Profile>
+== Profile
+<Profile>
 #index[Profile]
 
 Im Profil sind alle Werte eines Modells beschrieben, die sich auf seine körperlichen Eigenschaften beziehen.
 Diese können sowohl angeboren als auch antrainiert sein.
 
-// Dazu gehören:
+Dazu gehören:
 
-// * <<Modell-Typen>>
-// * <<Attribute>>
-// * <<Geschwindigkeit>>
-// * <<Trefferpunkte>>
-// * <<Größenprofil>>
++ #uni.lnk("Modell-Typen")
++ #uni.lnk("Attribute")
++ #uni.lnk("Geschwindigkeit")
++ #uni.lnk("Trefferpunkte")
++ #uni.lnk("Größenprofil")
 
-== Modell-Typen <Modell-Typen>
+== Modell-Typen
+<Modell-Typen>
 #index[Modell-Typen]
 
 Modelle werden in die Typen *Standard*, *Koloss* und *Begleiter* unterschieden.
@@ -253,15 +259,19 @@ Siehe @fig-modell-typen.
   table(
     columns: (10%, 20%, 50%, 20%),
     align: left + horizon,
-    table.header([*Symbol*], [*Name*], [*Beschreibung*], [*<<Größenprofil>>*]),
+    table.header([*Symbol*], [*Name*], [*Beschreibung*], [*Größenprofil*]),
     image("Grafiken/Modell/Standard.svg", alt: "Standard"), "Standard", "Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.", "klein bis groß",
-    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"), "<<Begleiter>>", "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.", "klein bis riesig",
-    image("Grafiken/Modell/Koloss.svg", alt: "Koloss"), "<<Kolosse,Koloss>>", "Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.", "groß bis riesig",
+    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"), [#uni.lnk("Begleiter")], "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.", "klein bis riesig",
+    image("Grafiken/Modell/Koloss.svg", alt: "Koloss"),
+    [#uni.lnk("Kolosse", alt: "Koloss")],
+    "Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.",
+    "groß bis riesig",
   ),
   caption: "Modell-Typen",
 ) <fig-modell-typen>
 
-== Attribute <Attribute>
+== Attribute
+<Attribute>
 #index[Attribute]
 
 Jedes Modell verfügt über einen festen Satz an Attributen.
@@ -322,18 +332,20 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 // |===
 // ====
 
-== Geschwindigkeit <Geschwindigkeit>
+== Geschwindigkeit
+<Geschwindigkeit>
 #index[Geschwindigkeit]
 
 Gibt an, wie weit sich ein Modell mit einer Aktion in Zoll bewegen kann.
 Sie wird mit GK abgekürzt.
 
-// Siehe auch <<Bewegung>>.
+Siehe auch #uni.lnk("Bewegung").
 
-== Trefferpunkte <Trefferpunkte>
+== Trefferpunkte
+<Trefferpunkte>
 #index[Trefferpunkte]
 
-// Sie stehen für die Menge an <<Schadensanwendung,Schaden>>, die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
+Sie stehen für die Menge an #uni.lnk("Schadensanwendung", alt: "Schaden"), die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
 
 Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
 
@@ -352,7 +364,8 @@ Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zw
 
 // Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 
-== Größenprofil <Größenprofil>
+== Größenprofil
+<Größenprofil>
 #index[Größenprofil]
 
 // Modelle werden in 4 verschiedene Größenprofile gegliedert:
@@ -400,40 +413,43 @@ Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht de
   caption: "Die grauen Zylinder veranschaulichen die Größenprofile",
 )
 
-// Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. <<Sichtlinie,Sichtlinien>> keine Rolle mehr spielen.
+Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. #uni.lnk("Sichtlinie", alt: "Sichtlinien") keine Rolle mehr spielen.
 
-== Profilmodifikatoren <Profilmodifikatoren>
+== Profilmodifikatoren
+<Profilmodifikatoren>
 #index[Profilmodifikatoren]
 
-// Manche <<Rüstungen>>, <<Waffen,Waffe>>, <<Ausrüstung>> oder <<Eigenschaften,Eigenschaft>> kann Auswirkungen auf das Profil eines Modells haben.
+Manche #uni.lnk("Rüstungen", alt: "Rüstung"), #uni.lnk("Waffen", alt: "Waffe"), #uni.lnk("Ausrüstung") oder #uni.lnk("Eigenschaften", alt: "Eigenschaft") kann Auswirkungen auf das Profil eines Modells haben.
 
 Diese können entweder permanent oder temporär sein:
 
 === Permanent
 
-// Gelten dauernd und werden auf der <<Einheitenkarte>> direkt in das Profil mit eingerechnet.
+Gelten dauernd und werden auf der #uni.lnk("Einheitenkarte") direkt in das Profil mit eingerechnet.
 
 === Temporär
 
-// Temporäre Profilmodifikatoren sind auf der <<Einheitenkarte>> nicht im Profil mit eingerechnet.
+Temporäre Profilmodifikatoren sind auf der #uni.lnk("Einheitenkarte") nicht im Profil mit eingerechnet.
 Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 = Grundregeln
 
-== Aktionspunkte <Aktionspunkte>
+== Aktionspunkte
+<Aktionspunkte>
 #index[Aktionspunkte]
 
-// Modelle verfügen über Aktionspunkte (abgekürzt als AP), die in verschiedenen Phasen des Spiels für <<Aktionen und Reaktionen>> ausgegeben werden können.
+Modelle verfügen über Aktionspunkte (abgekürzt als AP), die in verschiedenen Phasen des Spiels für #uni.lnk("Aktionen und Reaktionen") ausgegeben werden können.
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
-// Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen <<Kritisch, kritischen Zustand>> verfällt.
+Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen #uni.lnk("Kritisch", alt: "kritischen Zustand") verfällt.
 
 Alle Modelle haben pro Runde 6 AP.
-// Die einzige Ausnahme sind <<Begleiter>> mit nur 2 AP.
+Die einzige Ausnahme sind #uni.lnk("Begleiter") mit nur 2 AP.
 
 *Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
 
 == Aktionen und Reaktionen
+<Aktionen-und-Reaktionen>
 
 Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
 
@@ -443,7 +459,8 @@ Hier ist der gesunde Menschenverstand gefragt.
 Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
 Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten mit dem Zeichen ⊙ angegeben.
 
-=== Aktionen <Aktionen>
+=== Aktionen
+<Aktionen>
 #index[Aktionen]
 
 Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
@@ -456,7 +473,8 @@ Sie sind an folgendem Symbol zu erkennen:
   uni.img_aktion,
 )
 
-=== Reaktionen <Reaktionen>
+=== Reaktionen
+<Reaktionen>
 #index[Reaktionen]
 
 Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
@@ -512,28 +530,31 @@ Sie sind an folgendem Symbol zu erkennen:
 
 // |===
 
-=== Sichtfeld <Sichtfeld>
+=== Sichtfeld
+<Sichtfeld>
 #index[Sichtfeld]
 
 Jedes Modell hat ein Sichtfeld von 360°.
 Es ist somit egal wohin ein Modell ausgerichtet ist.
 
-== Sichtlinie <Sichtlinie>
+== Sichtlinie
+<Sichtlinie>
 #index[Sichtlinie]
 
-// Die Sichtlinie zu einem <<Modelle,Modell>>, <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
-// Bei Modellen bedeutet dies, dass die Linie ihr <<Größenprofil>> trifft.
+Die Sichtlinie zu einem #uni.lnk("Modelle", alt: "Modell"), #uni.lnk("Geländestücke", alt: "Geländestück") oder #uni.lnk("Objekte", alt: "Objekt") ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
+Bei Modellen bedeutet dies, dass die Linie ihr #uni.lnk("Größenprofil") trifft.
 
 #figure(
   image("Grafiken/Abbildungen/sichtlinie.svg", alt: "Sichtlinie", width: 80%),
   caption: "Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.",
 )
 
-// Sichtlinien können durch <<Sichtweite>> eingeschränkt sein.
+Sichtlinien können durch #uni.lnk("Sichtweite") eingeschränkt sein.
 Befreundete Modelle behindern sie nicht.
 
 
-== Tragkraft <Tragkraft>
+== Tragkraft
+<Tragkraft>
 #index[Tragkraft]
 
 Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
@@ -559,7 +580,7 @@ Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
 Wird er jedoch überschritten werden AGI und GK jeweils um 1 verringert.
 Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw.
 
-// Auf der <<Einheitenkarte>> ist dies bei den Attributen bereits eingerechnet.
+Auf der #uni.lnk("Einheitenkarte") ist dies bei den Attributen bereits eingerechnet.
 
 // .{nbsp}
 // [%unbreakable]
@@ -569,7 +590,8 @@ Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw
 // Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
 // ====
 
-== Gefahrenbereich <Gefahrenbereich>
+== Gefahrenbereich
+<Gefahrenbereich>
 #index[Gefahrenbereich]
 
 Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren muss.
@@ -577,28 +599,30 @@ Der Radius in Zoll berechnet sich, indem die EH von 12 abgezogen und der Wert ha
 
 $ "Radius in Zoll" = (12 - "EH") / 2 $
 
-// Auf der <<Einheitenkarte>> wird der Gefahrenbereich mit diesem Symbol angegeben:
+Auf der #uni.lnk("Einheitenkarte") wird der Gefahrenbereich mit diesem Symbol angegeben:
 
 #align(
   center,
   image("Grafiken/Modell/gefahrenbereich.svg", alt: "Gefahrenbereich"),
 )
 
-=== Unmittelbare Bedrohung <Unmittelbare-Bedrohung>
+=== Unmittelbare Bedrohung
+<Unmittelbare-Bedrohung>
 #index[Unmittelbare Bedrohung]
 
 Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird _Unmittelbare Bedrohung_ genannt.
 Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch unmittelbare Bedrohungen.
 
 Möchte das Modell eine unmittelbare Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
-// Misslingt dieser Test muss ein Angriff gegen die unmittelbare Bedrohung erfolgen, egal ob per <<Nahkampf>>, <<Fernkampf>>, <<Ausrüstung>>, <<Eigenschaften>> oder <<Disziplinen,Kräften>>.
+Misslingt dieser Test muss ein Angriff gegen die unmittelbare Bedrohung erfolgen, egal ob per #uni.lnk("Nahkampf"), #uni.lnk("Fernkampf"), #uni.lnk("Ausrüstung"), #uni.lnk("Eigenschaften") oder #uni.lnk("Disziplinen-und-Kräfte", alt: "Kräften").
 
 Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 
-== Wahrnehmungsbereich <Wahrnehmungsbereich>
+== Wahrnehmungsbereich
+<Wahrnehmungsbereich>
 #index[Wahrnehmungsbereich]
 
-// Der Wahrnehmungsbereich umfasst alles um ein Modell in <<Sichtlinie>> in einem gewissen Radius.
+Der Wahrnehmungsbereich umfasst alles um ein Modell in #uni.lnk("Sichtlinie") in einem gewissen Radius.
 
 #figure(
   image("Grafiken/Abbildungen/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich"),
@@ -609,16 +633,17 @@ Der Radius berechnet sich dabei folgendermaßen:
 
 $ "Radius in Zoll" = "WN" * 2 $
 
-// Im <<Kritisch,Kritischen Zustand>> wird der Radius des Wahrnehmungsbereichs halbiert (aufgerundet).
+Im #uni.lnk("Kritisch", alt: "Kritischen Zustand") wird der Radius des Wahrnehmungsbereichs halbiert (aufgerundet).
 
-// Auf der <<Einheitenkarte>> wird der Radius des Wahrnehmungsreich mit diesem Symbol angegeben:
+Auf der #uni.lnk("Einheitenkarte") wird der Radius des Wahrnehmungsreich mit diesem Symbol angegeben:
 
 #align(
   center,
   image("Grafiken/Modell/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich"),
 )
 
-== Entfernungen messen <Entfernungen-messen>
+== Entfernungen messen
+<Entfernungen-messen>
 #index[Entfernungen messen]
 
 Alle Entfernungen dürfen jederzeit gemessen werden.
@@ -630,7 +655,8 @@ Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
   caption: "Entfernung zwischen 2 Modellen",
 )
 
-== Würfelwürfe <Würfelwürfe>
+== Würfelwürfe
+<Würfelwürfe>
 #index[Würfelwürfe]
 
 Es werden nur W12 verwendet.
@@ -639,7 +665,8 @@ Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
 
 Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
 
-=== Attributswurf <Attributswurf>
+=== Attributswurf
+<Attributswurf>
 #index[Attributswurf]
 
 Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
@@ -653,7 +680,8 @@ Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gi
 Der Wurf wird mit 1W12 durchgeführt.
 Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
 
-=== Vergleichender Wurf <Vergleichender-Wurf>
+=== Vergleichender Wurf
+<Vergleichender-Wurf>
 #index[Vergleichender Wurf]
 
 Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
@@ -663,27 +691,30 @@ Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der z
 
 Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
-= Spielablauf <Spielablauf>
+= Spielablauf
+<Spielablauf>
 #index[Spielablauf]
 
 Das Spiel ist in mehrere Phasen unterteilt die nacheinander abgehandelt werden.
 
-// 1. <<Spielfeldaufbau>>
-// 2. <<Missionsauswahl>>
-// 3. <<Vorbereiten-der-Gruppe>>
-// 4. <<Aufstellen-der-Modelle>>
-// 5. <<Runden>>
-//   * <<Initiativephasen>>
-//   * <<Rundenende>>
++ Spielfeldaufbau
++ Missionsauswahl
++ Vorbereiten-der-Gruppe
++ Aufstellen-der-Modelle
++ Runden
+  - Initiativephasen
+  - Rundenende
 
-== Spielfeldaufbau <Spielfeldaufbau>
+== Spielfeldaufbau
+<Spielfeldaufbau>
 #index[Spielfeldaufbau]
 
-// Beide Spieler bauen gemeinsam das Spielfeld mit <<Geländestücke,Geländestücken>> auf bis sie damit einverstanden sind.
+Beide Spieler bauen gemeinsam das Spielfeld mit #uni.lnk("Geländestücke", alt: "Geländestücken") auf bis sie damit einverstanden sind.
 
 Die Fläche des Spielfeldes muss exakt 36" x 36" betragen.
 
-== Missionsauswahl <Missionsauswahl>
+== Missionsauswahl
+<Missionsauswahl>
 #index[Missionsauswahl]
 
 Jeder Spieler wählt geheim und unabhängig vom anderen Spieler eine Mission aus.
@@ -692,15 +723,17 @@ Danach teilen sie sich gegenseitig ihre jeweilige Mission mit.
 Als nächstes werden alle Missionsspezifischen Änderungen am Spielfeld vorgenommen.
 Etwaige Probleme bei kollidierenden Missionsanforderungen sollten gemeinschaftlich gelöst werden.
 
-== Vorbereiten der Gruppe <Vorbereiten-der-Gruppe>
+== Vorbereiten der Gruppe
+<Vorbereiten-der-Gruppe>
 #index[Vorbereiten der Gruppe]
 
 Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorbereitungen treffen.
 
-// * Zuteilung von <<Begleiter,Begleitern>>
-// * Auswahl der <<Kraft-Auswahl,Kräfte>>
+- Zuteilung von #uni.lnk("Begleiter", alt: "Begleitern")
+- Auswahl der #uni.lnk("Kraft-Auswahl", alt: "Kräfte")
 
-== Aufstellen der Modelle <Aufstellen-der-Modelle>
+== Aufstellen der Modelle
+<Aufstellen-der-Modelle>
 #index[Aufstellen der Modelle]
 
 Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
@@ -712,26 +745,29 @@ Als nächstes stellt der Gewinner alle seine Modelle auf, danach der Verlierer.
 
 Losgelöst von der gewählten Mission dürfen Modelle nie näher als 6" an gegnerische Modelle aufgestellt werden.
 
-== Runden <Runden>
+== Runden
+<Runden>
 #index[Runden]
 
 Innerhalb einer Runde hat jedes Modell eine Initiativephase.
 Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchgeführt hat.
 
-=== Rundenbeginn <Rundenbeginn>
+=== Rundenbeginn
+<Rundenbeginn>
 #index("Runden", "Beginn")
 
 Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 
 - Die AP jedes Modells werden wieder aufgefüllt.
-// Bis zu 3 nicht verbrauchte AP aus der Vorrunde werden addiert.
-// Siehe <<Rundenende>>.
-// * Modelle mit <<Schock,Schock-Token>> verlieren automatisch pro Token 1 AP.
+  Bis zu 3 nicht verbrauchte AP aus der Vorrunde werden addiert.
+  Siehe auch Rundenende.
+- Modelle mit #uni.lnk("Schock", alt: "Schock-Token") verlieren automatisch pro Token 1 AP.
 
-=== Aktivierungsreihenfolge <Aktivierungsreihenfolge>
+=== Aktivierungsreihenfolge
+<Aktivierungsreihenfolge>
 #index("Runden", "Reihenfolge")
 
-// Die Spieler nehmen die <<Aktivierungskarte,Aktivierungskarten>> ihrer sich noch im Spiel befindlichen Modelle und wählen verdeckt eine aus.
+Die Spieler nehmen die #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten") ihrer sich noch im Spiel befindlichen Modelle und wählen verdeckt eine aus.
 
 Die Aktivierungskarten werden gleichzeitig aufgedeckt und für die Modelle ein vergleichender Wurf auf AGI durchgeführt.
 Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
@@ -742,7 +778,8 @@ Die gerade aufgedeckten Aktivierungskarten werden nun beiseite gelegt.
 
 Dies passiert solange, bis ein Spieler keine Aktivierungskarten mehr hat. Der andere Spieler aktiviert nun etwaige weitere Modelle in beliebiger Reihenfolge.
 
-== Initiativephasen <Initiativephasen>
+== Initiativephasen
+<Initiativephasen>
 #index[Initiativephasen]
 #index("Runden", "Initiativephase")
 
@@ -752,11 +789,12 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hat
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-// * eventuelle Token für <<Schnelle Bewegungen,schnelle Bewegung>>, <<Nahkampf-Aktionen,Verteidigung>> oder <<Fernkampf-Aktionen,Feuerbereitschaft>> werden entfernt
-// * eventuelle <<Vergiftung>> kommt zur Anwendung
-// * eventuelles <<Brennen>> kommt zur Anwendung
++ eventuelle Token für #uni.lnk("Schnelle Bewegungen", alt: "schnelle Bewegung"), #uni.lnk("Nahkampf-Aktionen", alt: "Verteidigung") oder #uni.lnk("Fernkampf-Aktionen", alt: "Feuerbereitschaft") werden entfernt
++ eventuelle #uni.lnk("Vergiftung") kommt zur Anwendung
++ eventuelles #uni.lnk("Brennen") kommt zur Anwendung
 
-== Rundenende <Rundenende>
+== Rundenende
+<Rundenende>
 #index("Runden", "Ende")
 
 Wenn einer der Spieler aufgeben möchte wäre nun der Zeitpunkt dafür.
@@ -765,19 +803,21 @@ Das Spiel endet dann automatisch sofort und der Spieler, welcher aufgegeben hat,
 Ansonsten werden für jeden Spieler die Siegesbedingungen seiner Mission überprüft und das Spiel gegebenenfalls beendet.
 
 Wenn es weitergeht, werden je Modell bis zu 3 nicht verbrauchte AP in die nächste Runde übernommen.
-// Hier bietet es sich an einen W6 in der korrekten Farbe (siehe <<Kritisch,Kritischer Zustand>>) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
+Hier bietet es sich an einen W6 in der korrekten Farbe (siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand")) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
 Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
-// Siehe dazu auch <<Aktionspunkte>>.
+Siehe dazu auch #uni.lnk("Aktionspunkte").
 
-= Eigenschaften <Eigenschaften>
+= Eigenschaften
+<Eigenschaften>
 #index[Eigenschaften]
 
-// Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache <<Attribute>> hinausgeht.
-// Außerdem können sie über eventuelle <<Profilmodifikatoren>> verfügen.
+Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache #uni.lnk("Attribute") hinausgeht.
+Außerdem können sie über eventuelle #uni.lnk("Profilmodifikatoren") verfügen.
 
-// Jede Spielmechanik die über Eigenschaften hinaus geht sollte als <<Disziplinen,Kraft>> dargestellt werden.
+Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disziplinen-und-Kräfte", alt: "Kraft") dargestellt werden.
 
-== Aktionen <Eigenschaften-Aktionen>
+== Aktionen
+<Eigenschaften-Aktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -791,7 +831,8 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 
 // |===
 
-== Regeln <Regeln>
+== Regeln
+<Regeln>
 #index("Eigenschaften", "Regeln")
 
 // Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
@@ -809,14 +850,15 @@ Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 // In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
 // ====
 
-== Einmalnutzung <Eigenschaften-Einmalnutzung>
+== Einmalnutzung
+<Eigenschaften-Einmalnutzung>
 #index("Einmalnutzung", "Eigenschaften")
 #index("Eigenschaften", "Einmalnutzung")
 
 Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
 Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
 
-// Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
+Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
 
 Bei jeder Verwendung muss ein Marker gestrichen werden.
@@ -829,12 +871,14 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
 // image::Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg[Einmalnutzung Eigenschaft,500]
 // ====
 
-== AP-Kosten <Eigenschaften-AP-Kosten>
+== AP-Kosten
+<Eigenschaften-AP-Kosten>
 #index("Eigenschaften", "AP-Kosten")
 
 Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
 
-= Bewegung <Bewegung>
+= Bewegung
+<Bewegung>
 #index[Bewegung]
 
 Durch das Ausgeben von Aktionspunkten für Bewegungsaktionen kann ein Modell entsprechend bewegt werden.
@@ -891,12 +935,14 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 // |===
 
-== Bewegungstest <Bewegungstest>
+== Bewegungstest
+<Bewegungstest>
 #index[Bewegungstest]
 
 Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen durchgeführt werden.
 
-== Aktionen <Bewegung-Aktionen>
+== Aktionen
+<Bewegung-Aktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -985,7 +1031,8 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 // |===
 
-== Reaktionen <Bewegung-Reaktionen>
+== Reaktionen
+<Bewegung-Reaktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -1004,49 +1051,54 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 // |===
 
-== Springen <Springen>
+== Springen
+<Springen>
 #index[Springen]
 #index("Bewegung", "Springen")
 
-// Ein Modell kann nicht springen, wenn es <<Liegende Modelle,liegt>>.
+Ein Modell kann nicht springen, wenn es #uni.lnk("Liegende Modelle", alt: "liegt").
 
-// Zwischenräume zwischen <<Geländestücke,Geländestücken>> welche kleiner oder gleich der <<Geschwindigkeit>> eines Modells sind können von diesem ignoriert werden.
+Zwischenräume zwischen #uni.lnk("Geländestücke", alt: "Geländestücken") welche kleiner oder gleich der #uni.lnk("Geschwindigkeit") eines Modells sind können von diesem ignoriert werden.
 
-// Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen <<Bewegungstest>> ablegen.
-// Wenn er misslingt <<Herunterfallen,fällt>> das Modell herunter.
+Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen #uni.lnk("Bewegungstest") ablegen.
+Wenn er misslingt #uni.lnk("Herunterfallen", alt: "fällt") das Modell herunter.
 
-== Vertikale Bewegung <Vertikale-Bewegung>
+== Vertikale Bewegung
+<Vertikale-Bewegung>
 #index[Vertikale Bewegung]
 #index("Bewegung", "Vertikal")
 
 Ohne spezielle Ausrüstung können sich Modelle vertikal nur an Leitern und vergleichbarem bewegen.
 Die Distanz wird ganz normal wie jede andere Bewegung gemessen.
 
-== Klettern <Klettern>
+== Klettern
+<Klettern>
 #index[Klettern]
 #index("Bewegung", "Klettern")
 
-// Jedes Modell kann ohne spezielle Ausrüstung oder Eigenschaften auf oder herunter von <<Geländestücke,Geländestücken>> bis zu seinem doppelten <<Größenprofil>> klettern.
+Jedes Modell kann ohne spezielle Ausrüstung oder Eigenschaften auf oder herunter von #uni.lnk("Geländestücke", alt: "Geländestücken") bis zu seinem doppelten #uni.lnk("Größenprofil") klettern.
 
 Die vertikale Distanz wird dafür doppelt berechnet.
 
-== Herunterfallen <Herunterfallen>
+== Herunterfallen
+<Herunterfallen>
 #index[Herunterfallen]
 #index[Fallen]
 #index("Bewegung", "Herunterfallen")
 
 Wenn sich ein Modell über eine Kante hinaus bewegt kann es sich fallenlassen anstatt herunterzuklettern.
 
-// Bei einer Fallhöhe bis zur Höhe seines <<Größenprofil,Größenprofils>> kann es dies einfach so machen.
+Bei einer Fallhöhe bis zur Höhe seines #uni.lnk("Größenprofil", alt: "Größenprofils") kann es dies einfach so machen.
 Bei grösserer Fallhöhe muss es zunächst einen erfolgreichen EH-Test ablegen um sich herunterfallen zu lassen.
 
 Die durch Herunterfallen zurückgelegte Distanz kostet keine AP.
 
-=== Fallschaden <Fallschaden>
+=== Fallschaden
+<Fallschaden>
 #index[Fallschaden]
 #index("Fallen", "Schaden")
 
-// Bis zu einer Fallhöhe in Höhe seines <<Größenprofil,Größenprofils>> passiert einem fallenden Modell nichts.
+Bis zu einer Fallhöhe in Höhe seines #uni.lnk("Größenprofil", alt: "Größenprofils") passiert einem fallenden Modell nichts.
 Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
 Darüber hinaus erleidet es automatisch einen Treffer.
 
@@ -1070,7 +1122,8 @@ Der Schaden orientiert sich ebenfalls an der KO des Modells.
 
 // |===
 
-== Schnelle Bewegungen <Schnelle-Bewegungen>
+== Schnelle Bewegungen
+<Schnelle-Bewegungen>
 #index[Schnelle Bewegungen]
 #index("Bewegung", "Schnell")
 
@@ -1086,13 +1139,14 @@ Sie wird am Modell mit dem Schnell-Token dargestellt:
 
 Zum Beginn der nächsten Initiativephase eines Modells wird der Token wieder entfernt.
 
-// Sie kommt unter anderem beim <<Schnelle Bewegungen des Ziels,Fernkampf>> zur Anwendung.
+Sie kommt unter anderem beim #uni.lnk("Schnelle-Bewegungen-des-Ziels", alt: "Fernkampf") zur Anwendung.
 
-== Liegende Modelle <Liegende-Modelle>
+== Liegende Modelle
+<Liegende-Modelle>
 #index[Liegende Modelle]
 #index("Bewegung", "Liegend")
 
-// Liegende Modelle gelten als ein <<Größenprofil>> kleiner als sie sind.
+Liegende Modelle gelten als ein #uni.lnk("Größenprofil") kleiner als sie sind.
 Kleine Modelle werden dadurch nicht noch kleiner.
 
 Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
@@ -1100,11 +1154,12 @@ Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 = Gelände <Gelände>
 #index[Gelände]
 
-// Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als <<Geländestücke,Geländestück>> oder <<Objekte,Objekt>> bezeichnet.
+Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als #uni.lnk("Geländestücke", alt: "Geländestück") oder #uni.lnk("Objekte", alt: "Objekt") bezeichnet.
 
 Grundsätzlich kann gesagt werden: je mehr Gelände umso besser.
 
-== Geländestücke <Geländestücke>
+== Geländestücke
+<Geländestücke>
 #index[Geländestücke]
 
 Geländestücke sind räumlich begrenzte Abschnitte auf dem Spielfeld welche unter Umständen Sonderregeln unterliegen.
@@ -1115,29 +1170,31 @@ Stattdessen wird eine Fläche als Wald deklariert und die dazugehörigen Regeln 
 Das ist unabhängig davon, ob ein Modell sich in oder auf einem Geländestück befindet.
 Befindet sich ein Modell darüber (weil es bspw. fliegt) ist es nicht davon betroffen.
 
-// Geländestücke gehören in der Regel einem <<Geländetypen,Geländetyp>> an.
+Geländestücke gehören in der Regel einem #uni.lnk("Geländetypen") an.
 
-== Geländetypen <Geländetypen>
+== Geländetypen
+<Geländetypen>
 #index[Geländetypen]
 
-// Sie beinhalten Informationen zu <<Deckung>>, <<Passierbarkeit>>, <<Sichtweite>> und eventuellen weiteren Sonderregeln.
+Sie beinhalten Informationen zu #uni.lnk("Deckung"), #uni.lnk("Passierbarkeit"), #uni.lnk("Sichtweite") und eventuellen weiteren Sonderregeln.
 
 Geländetypen sollten für ein Universum passend erweitert oder abgeändert werden um ein dem Universum entsprechendes Spielfeld zu schaffen.
 
-// Siehe <<Anhang-Geländetypen, Anhang: Geländetypen>> für eine Übersicht allgemein nutzbarer Geländetypen.
+Siehe #uni.lnk("Anhang-Geländetypen", alt: "Anhang: Geländetypen") für eine Übersicht allgemein nutzbarer Geländetypen.
 
-== Deckung <Deckung>
+== Deckung
+<Deckung>
 #index[Deckung]
 
-// Deckung kommt nur im <<Deckung des Ziels, Fernkampf>> zur Anwendung.
+Deckung kommt nur im #uni.lnk("Deckung-des-Ziels", alt: "Fernkampf") zur Anwendung.
 
 Ein Geländestück bietet Deckung wenn:
 
-// * es sich zwischen dem Schützen und seinem Ziel befindet und das <<Größenprofil>> des Ziels mindestens zur Hälfte verdeckt
+- es sich zwischen dem Schützen und seinem Ziel befindet und das #uni.lnk("Größenprofil") des Ziels mindestens zur Hälfte verdeckt
 
-// oder
+oder
 
-// * das Ziel sich darin befindet
+- das Ziel sich darin befindet
 
 Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben der zur Anwendung kommt, wenn das Modell das Geländestück berührt oder sich darin befindet.
 
@@ -1175,7 +1232,8 @@ Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
 // |===
 
-== Passierbarkeit <Passierbarkeit>
+== Passierbarkeit
+<Passierbarkeit>
 #index[Passierbarkeit]
 
 Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
@@ -1196,14 +1254,16 @@ Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 
 // |===
 
-== Sichtweite <Sichtweite>
+== Sichtweite
+<Sichtweite>
 #index[Sichtweite]
 
-// In manchem Gelände ist die Sicht erschwert und <<Sichtlinie,Sichtlinien>> dadurch ab einer gewissen Distanz vollständig blockiert.
+In manchem Gelände ist die Sicht erschwert und #uni.lnk("Sichtlinie", alt: "Sichtlinien") dadurch ab einer gewissen Distanz vollständig blockiert.
 
 Dies kommt zur Anwendung, wenn eine Sichtlinie von außerhalb eines Geländestücks in oder durch dieses gezogen wird und die angegebene Distanz erreicht wurde.
 
-== Umgebungsbedingungen <Umgebungsbedingungen>
+== Umgebungsbedingungen
+<Umgebungsbedingungen>
 #index[Umgebungsbedingungen]
 
 Umgebungsbedingungen sollen die Umgebung darstellen in der das Gefecht stattfindet, ohne unter Anderem die Anzahl an Geländestücken unnötig zu erhöhen.
@@ -1214,15 +1274,16 @@ Dies benötigt einerseits viele Geländestücke und erschwert andererseits das S
 Um dies zu umgehen kann einfach das gesamte Spielfeld als ein spezifischer Geländetyp deklariert werden.
 Er gilt dann für das gesamte Spielfeld.
 
-== Objekte <Objekte>
+== Objekte
+<Objekte>
 #index[Objekte]
 
 Unter ihnen versteht man alle Gegenstände auf dem Spielfeld, die von einem Modell benutzt werden können, und deren Benutzung eine Wirkung nach sich zieht.
-// Sie können alleine stehen oder sind Bestandteil eines <<Geländestücke,Geländestücks>>.
+Sie können alleine stehen oder sind Bestandteil eines #uni.lnk("Geländestücke", alt: "Geländestücks").
 
 Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szenario, Universum oder nach Einigung der Spieler festgelegt.
 
-// Siehe <<Anhang-Objekte, Anhang: Objekte>> für eine Übersicht allgemein nutzbarer Objekte.
+Siehe #uni.lnk("Anhang-Objekte", alt: "Anhang: Objekte") für eine Übersicht allgemein nutzbarer Objekte.
 
 // .{nbsp}
 // [%unbreakable]
@@ -1265,20 +1326,22 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 
 // |===
 
-= Schaden & Rüstung <Schaden-und-Rüstung>
+= Schaden & Rüstung
+<Schaden-und-Rüstung>
 #index[Schaden]
 #index[Rüstung]
 
-// Verschiedene Spielmechaniken erzeugen Schaden.
-// Dies kann ein Modell sein das ein anderes Modell <<Fernkampf,beschießt>> oder im <<Nahkampf>> angreift oder auch Effekte die im Spiel auftreten.
+Verschiedene Spielmechaniken erzeugen Schaden.
+Dies kann ein Modell sein das ein anderes Modell #uni.lnk("Fernkampf", alt: "beschießt") oder im #uni.lnk("Nahkampf") angreift oder auch Effekte die im Spiel auftreten.
 
-// Schaden wird in erster Linie mit <<Rüstung,Rüstungen>> abgewehrt.
-// Es kann aber auch <<Ausrüstung>> geben welche dabei hilft.
+Schaden wird in erster Linie mit #uni.lnk("Rüstungen", alt: "Rüstung") abgewehrt.
+Es kann aber auch #uni.lnk("Ausrüstung") geben welche dabei hilft.
 
-== Schadensprofil <Schadensprofil>
+== Schadensprofil
+<Schadensprofil>
 #index[Schadensprofil]
 
-// Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen <<Schadenseffekte,Schadenseffekten>> angegeben.
+Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen #uni.lnk("Schadenseffekte", alt: "Schadenseffekten") angegeben.
 
 // [%unbreakable%header,cols="^1,1,3",frame=ends]
 // |===
@@ -1303,10 +1366,11 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 // image::Grafiken/Abbildungen/schadensprofil.jpg[Schadensprofil,500]
 // ====
 
-== Rüstungsprofil <Rüstungsprofil>
+== Rüstungsprofil
+<Rüstungsprofil>
 #index[Rüstungsprofil]
 
-// Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventuellen <<Schadenseffekte,Schadenseffekten>> angegeben.
+Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventuellen #uni.lnk("Schadenseffekte", alt: "Schadenseffekten") angegeben.
 
 // [%unbreakable%header,cols="^1,1,3",frame=ends]
 // |===
@@ -1331,7 +1395,8 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 // image::Grafiken/Abbildungen/rüstungsprofil.jpg[Rüstungsprofil,500]
 // ====
 
-== Schadenseffekte <Schadenseffekte>
+== Schadenseffekte
+<Schadenseffekte>
 #index[Schadenseffekte]
 
 // Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
@@ -1347,7 +1412,8 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 // Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
 // ====
 
-=== Waffen und Rüstungen <Schadenseffekte-Waffen-und-Rüstungen>
+=== Waffen und Rüstungen
+<Schadenseffekte-Waffen-und-Rüstungen>
 
 // [%unbreakable]
 // --
@@ -1393,7 +1459,8 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 // |===
 // --
 
-=== Waffen <Schadenseffekte-Waffen>
+=== Waffen
+<Schadenseffekte-Waffen>
 
 // [%unbreakable]
 // --
@@ -1415,7 +1482,8 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 // |===
 // --
 
-=== Rüstungen <Schadenseffekte-Rüstungen>
+=== Rüstungen
+<Schadenseffekte-Rüstungen>
 
 // [%unbreakable]
 // --
@@ -1441,7 +1509,8 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 // |===
 // --
 
-== Verletzungs- und Rüstungswurf <Verletzungs-und-Rüstungswurf>
+== Verletzungs- und Rüstungswurf
+<Verletzungs-und-Rüstungswurf>
 #index[Verletzungswurf]
 #index[Rüstungswurf]
 
@@ -1473,22 +1542,24 @@ Die folgenden Beschränkungen sind möglich, auch in Kombination.
 
 // |===
 
-== Schadensanwendung <Schadensanwendung>
+== Schadensanwendung
+<Schadensanwendung>
 #index[Schadensanwendung]
 
-// Wenn Schaden zur Anwendung kommt, müssen entsprechend viele Trefferpunkte auf der <<Einheitenkarte>> gestrichen werden.
-// Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden um diesen Wert verringert.
+Wenn Schaden zur Anwendung kommt, müssen entsprechend viele Trefferpunkte auf der #uni.lnk("Einheitenkarte") gestrichen werden.
+Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden um diesen Wert verringert.
 
-// Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als <<Eliminiert,eliminiert>>.
+Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als #uni.lnk("Eliminiert", alt: "eliminiert").
 
-// Falls das Modell überlebt erleidet es einen <<Schock>>.
-// Wenn es ausserdem nur noch kritische <<Trefferpunkte>> besitzt verfällt es nun in einen <<Kritisch,kritischen Zustand>>.
+Falls das Modell überlebt erleidet es einen #uni.lnk("Schock").
+Wenn es ausserdem nur noch kritische #uni.lnk("Trefferpunkte") besitzt verfällt es nun in einen #uni.lnk("Kritisch", alt: "kritischen Zustand").
 
 = Zustände
 
 Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinden.
 
-== Brennen <Brennen>
+== Brennen
+<Brennen>
 #index[Brennen]
 #index("Zustände", "Brennen")
 
@@ -1499,7 +1570,7 @@ Modelle mit einem Brandmarker gelten als _brennend_:
   image("Grafiken/Token/brennen.svg", alt: "Brennen"),
 )
 
-Sie können keine Aktionen und Reaktionen ausführen.
+Sie können keine #uni.lnk("Aktionen und Reaktionen") ausführen.
 
 Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Tabelle:
 
@@ -1524,7 +1595,8 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
 
 Jedes befreundete Modell in Basekontakt mit dem brennenden Modell gibt einen Bonus von +2 auf den Wurf.
 
-== Eliminiert <Eliminiert>
+== Eliminiert
+<Eliminiert>
 #index[Eliminiert]
 #index("Zustände", "Eliminiert")
 
@@ -1532,26 +1604,28 @@ Eliminierte Modelle können weder Aktionen noch Reaktionen ausführen und nehmen
 
 Um dies zu repräsentieren werden sie auf den Rücken gelegt und verbleiben auf dem Spielfeld.
 
-// Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen <<Wahrnehmungsbereich>> es sich befindet, getestet werden, ob es in <<Panik>> verfällt.
+Sobald ein Modell eliminiert wurde, muss für jedes andere Modell seiner Gruppe, in dessen #uni.lnk("Wahrnehmungsbereich") es sich befindet, getestet werden, ob es in #uni.lnk("Panik") verfällt.
 
-== Kritisch <Kritisch>
+== Kritisch
+<Kritisch>
 #index("Kritischer Zustand")
 #index("Zustände", "Kritisch")
 
-// Der kritische Zustand wird automatisch angewendet, sobald ein Modell nur noch kritische <<Trefferpunkte>> besitzt.
+Der kritische Zustand wird automatisch angewendet, sobald ein Modell nur noch kritische #uni.lnk("Trefferpunkte") besitzt.
 
 Das Modell erhält für den Rest des Spiels folgende Mali:
 
-// * <<Attributswurf,Attributs- >> und <<Vergleichender Wurf,Vergleichende>> Würfe sind um 2 erschwert
-// * die <<Geschwindigkeit>> wird halbiert (aufgerundet)
-// * die Reichweite des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> wird halbiert (aufgerundet)
++ #uni.lnk("Attributswurf", alt: "Attributs-") und #uni.lnk("Vergleichender-Wurf", alt: "Vergleichende") Würfe sind um 2 erschwert
++ die #uni.lnk("Geschwindigkeit") wird halbiert (aufgerundet)
++ die Reichweite des #uni.lnk("Wahrnehmungsbereich", alt: "Wahrnehmungsbereichs") wird halbiert (aufgerundet)
 
 Der weiße W6 für die Anzeige der Aktionspunkte wird nun für das Modell gegen einen roten W6 ausgetauscht.
 
 Ein Modell kann nur einmal in den kritischen Zustand verfallen.
-// Würde dies ein weiteres mal passieren erleidet es stattdessen 1 <<Schock>>.
+Würde dies ein weiteres mal passieren erleidet es stattdessen 1 #uni.lnk("Schock").
 
-== Panik <Panik>
+== Panik
+<Panik>
 #index[Panik]
 #index("Zustände", "Panik")
 
@@ -1569,7 +1643,7 @@ Modelle in Panik können keine Reaktionen durchführen.
 
 Während jeder Aktivierung benutzen sie alle ihre AP um sich in Richtung der am nächsten gelegenen Spielfeldkante zu bewegen und das Spielfeld zu verlassen.
 
-// Sie ignorieren Gefahren, nutzen aber das Gelände entsprechend ihrer <<Bewegungsart>> vernünftig aus.
+Sie ignorieren Gefahren, nutzen aber das Gelände entsprechend ihrer #uni.lnk("Bewegungsart") vernünftig aus.
 Das heißt, sie springen in ihrer Panik nicht sinnlos von Gebäuden etc.
 
 Am Ende ihrer Initiativephase kann für sie ein erneuter Paniktest durchgeführt werden.
@@ -1603,7 +1677,8 @@ Modelle in Panik werden hierbei ignoriert.
 
 // |===
 
-== Schock <Schock>
+== Schock
+<Schock>
 #index[Schock]
 #index("Zustände", "Schock")
 
@@ -1619,7 +1694,8 @@ Wenn ein Modell zum Beginn einer Runde über Schock-Token verfügt, verliert es 
 
 Sollten noch Schock-Token übrig sein und das Modell verfügt über keine AP mehr, verbleiben die übrigen Token bis zur nächsten Runde um dann abgezogen zu werden.
 
-== Vergiftung <Vergiftung>
+== Vergiftung
+<Vergiftung>
 #index[Vergiftung]
 #index("Zustände", "Vergiftung")
 
@@ -1630,19 +1706,20 @@ Modelle mit Giftmarkern zählen als _vergiftet_:
   image("Grafiken/Token/gift.svg", alt: "Gift"),
 )
 
-// Zum Beginn ihrer Initiativephase entfernen sie 1 Giftmarker, und erleiden automatischen Schaden mit dem <<Schadensprofil>> der Waffe, welche die Vergiftung verursacht hat.
+Zum Beginn ihrer Initiativephase entfernen sie 1 Giftmarker, und erleiden automatischen Schaden mit dem #uni.lnk("Schadensprofil") der Waffe, welche die Vergiftung verursacht hat.
 
-= Waffen <Waffen>
+= Waffen
+<Waffen>
 
 Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
 
-// Waffen verfügen über ein <<Schadensprofil>> und eventuelle <<Profilmodifikatoren>>.
+Waffen verfügen über ein #uni.lnk("Schadensprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
 
-// Weiterhin können für sie Regeln wie <<Indirekter-Fernkampf>>, <<Dauerfeuer>> oder <<Flächenwaffen,Flächenwaffe>> infrage kommen.
+Weiterhin können für sie Regeln wie #uni.lnk("Indirekter-Fernkampf"), #uni.lnk("Dauerfeuer") oder #uni.lnk("Flächenwaffen", alt: "Flächenwaffe") infrage kommen.
 
 == Fernkampfwaffen
 
-// Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines <<Reichweite,Reichweitenbandes>> und einer Angabe für eventuelles <<Dauerfeuer>>.
+Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines #uni.lnk("Reichweite", alt: "Reichweitenbandes") und einer Angabe für eventuelles #uni.lnk("Dauerfeuer").
 
 == Nahkampfwaffen
 
@@ -1652,7 +1729,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
-// Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei <<Waffen-Unhandlich,unhandlichen>> Waffen wird sie mit 0,5 multipliziert(aufgerundet).
+Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei #uni.lnk("Waffen-Unhandlich", alt: "unhandlichen") Waffen wird sie mit 0,5 multipliziert (aufgerundet).
 
 // .{nbsp}
 // [%unbreakable]
@@ -1675,20 +1752,22 @@ WK I steht somit für Waffen der Klasse 1.
 Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
-== Unhandliche Waffen <Waffen-Unhandlich>
+== Unhandliche Waffen
+<Waffen-Unhandlich>
 #index("Unhandlich", "Waffen")
 #index("Waffen", "Unhandlich")
 
-// Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
+Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im #uni.lnk("Fernkampf-Unhandlich", alt: "Fernkampf") und #uni.lnk("Nahkampf-Unhandlich", alt: "Nahkampf").
 
-// Auf der <<Einheitenkarte>> wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
+Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
 
 #align(
   center,
   image("Grafiken/Waffe/unhandlich.png", alt: "unhandlich"),
 )
 
-== Nachladen <Nachladen>
+== Nachladen
+<Nachladen>
 #index[Nachladen]
 
 Waffen die nachladen müssen besitzen das folgende Symbol.
@@ -1698,7 +1777,7 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
   image("Grafiken/Waffe/nachladen.svg", alt: "Nachladen"),
 )
 
-// Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion <<Fernkampf-Aktionen, Nachladen>> durchgeführt wurde:
+Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Fernkampf-Aktionen", alt: "Nachladen") durchgeführt wurde:
 
 #align(
   center,
@@ -1711,8 +1790,8 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
 
 Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
 
-// Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
-// Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
+Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
 
 Bei jeder Verwendung muss ein Marker gestrichen werden.
 
@@ -1791,18 +1870,19 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
 
 // |===
 
-= Rüstungen <Rüstungen>
+= Rüstungen
+<Rüstungen>
 #index[Rüstungen]
 
 Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
 
-// Rüstungen verfügen über ein <<Rüstungsprofil>> und eventuelle <<Profilmodifikatoren>>.
+Rüstungen verfügen über ein #uni.lnk("Rüstungsprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
 
 == Regeln
 #index("Rüstung", "Regeln")
 
 Jede Rüstung kann Regeln beinhalten.
-// Wenn dem so ist werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
+Wenn dem so ist werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
 
 == Additiver Schutz
 
@@ -1811,25 +1891,27 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
 == Selbsttragend
 
-// Das Gewicht von selbsttragenden Rüstungen wird für die <<Tragkraft>> eines Modells ignoriert.
+Das Gewicht von selbsttragenden Rüstungen wird für die #uni.lnk("Tragkraft") eines Modells ignoriert.
 
-= Fernkampf <Fernkampf>
+= Fernkampf
+<Fernkampf>
 #index[Fernkampf]
 
-// Unter Fernkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der auf Distanz passiert.
+Unter Fernkampf wird jeglicher Kampf mit einer #uni.lnk("Waffen", alt: "Waffe") verstanden der auf Distanz passiert.
 
 == Durchführung
 
-// Um einen Fernkampf durchzuführen muss zunächst geprüft werden ob eine <<Sichtlinie>> zum gewählten Ziel existiert.
+Um einen Fernkampf durchzuführen muss zunächst geprüft werden ob eine #uni.lnk("Sichtlinie") zum gewählten Ziel existiert.
 
-// Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem <<Reichweite,Reichweitenband>> den FK-Modifikator zu bestimmen bzw. ob das Ziel überhaupt in Reichweite ist.
+Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem #uni.lnk("Reichweite", alt: "Reichweitenband") den FK-Modifikator zu bestimmen bzw. ob das Ziel überhaupt in Reichweite ist.
 
-// Gegebenenfalls kommen weitere <<Fernkampf-Modifikatoren,Modifikatoren>> zur Anwendung.
+Gegebenenfalls kommen weitere #uni.lnk("Fernkampf-Modifikatoren", alt: "Modifikatoren") zur Anwendung.
 
 Nun wird ein FK-Wurf für das Modell durchgeführt.
-// Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem <<Verletzungs-und-Rüstungswurf>> führt.
+Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.lnk("Verletzungs-und-Rüstungswurf") führt.
 
-== Aktionen <Fernkampf-Aktionen>
+== Aktionen
+<Fernkampf-Aktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -1904,7 +1986,8 @@ Nun wird ein FK-Wurf für das Modell durchgeführt.
 
 // |===
 
-== Reaktionen <Fernkampf-Reaktionen>
+== Reaktionen
+<Fernkampf-Reaktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -1928,28 +2011,30 @@ Nun wird ein FK-Wurf für das Modell durchgeführt.
 == Erlaubte Waffen
 #index("Fernkampf", "Erlaubte Waffen")
 
-// Im Fernkampf dürfen nur Waffen mit einem <<Reichweite,Reichweitenband>>, nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
+Im Fernkampf dürfen nur Waffen mit einem #uni.lnk("Reichweite", alt: "Reichweitenband"), nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
 
 == Trefferzonen
 #index("Fernkampf", "Trefferzonen")
 #index("Trefferzonen", "im Fernkampf")
 
-// Wenn das Ziel über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
+Wenn das Ziel über #uni.lnk("Trefferzonen") verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
-== Zielauswahl <Zielauswahl>
+== Zielauswahl
+<Zielauswahl>
 #index[Zielauswahl]
 
-// Damit ein Ziel beschossen werden kann muss eine <<Sichtlinie>> zu ihm gezogen werden können.
+Damit ein Ziel beschossen werden kann muss eine #uni.lnk("Sichtlinie") zu ihm gezogen werden können.
 
-// Sollte sich im <<Gefahrenbereich>> keine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
+Sollte sich im #uni.lnk("Gefahrenbereich") keine #uni.lnk("Unmittelbare Bedrohung", alt: "unmittelbare Bedrohung") befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
 
-== Reichweite <Reichweite>
+== Reichweite
+<Reichweite>
 #index("Fernkampf", "Reichweite")
 
 Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
 X gibt dabei an, wie groß die Reichweitenbänder in Zoll sind, Y wie oft diese anwendbar sind.
 
-// Auf der <<Einheitenkarte>> wird dies unter folgendem Symbol ausgewiesen:
+Auf der #uni.lnk("Einheitenkarte") wird dies unter folgendem Symbol ausgewiesen:
 
 #align(
   center,
@@ -1976,7 +2061,7 @@ Modelle die sich im Nahkampf befinden dürfen beschossen werden.
 
 Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zufall wobei die Wahrscheinlichkeit für jedes Modell identisch ist.
 
-// Hierdurch können auch Modelle getroffen werden zu denen keine <<Sichtlinie>> gezogen werden kann.
+Hierdurch können auch Modelle getroffen werden zu denen keine #uni.lnk("Sichtlinie") gezogen werden kann.
 
 // .{nbsp}
 // [%unbreakable]
@@ -1988,14 +2073,14 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 == Beschuss von getarnten Modellen
 #index("Fernkampf", "getarnte Modelle")
 
-// Es können nur <<Aufklärung,aufgeklärte>> getarnte Modelle beschossen werden.
+Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") getarnte Modelle beschossen werden.
 
 == Modifikatoren <Fernkampf-Modifikatoren>
 
 === Größe des Ziels
 #index("Fernkampf", "Größe des Ziels")
 
-// Je nach <<Größenprofil,Größe>> des Ziels ist es einfacher oder schwieriger zu treffen.
+Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher oder schwieriger zu treffen.
 
 // [%unbreakable%header,cols="^1,^1",frame=ends]
 // |===
@@ -2018,9 +2103,10 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 // |===
 
 === Deckung des Ziels
+<Deckung-des-Ziels>
 #index("Fernkampf", "Deckung des Ziels")
 
-// Der durch eventuelle <<Deckung>> angewandte Modifikator.
+Der durch eventuelle #uni.lnk("Deckung") angewandte Modifikator.
 
 // [%unbreakable%header,cols="^1,^1",frame=ends]
 // |===
@@ -2039,7 +2125,8 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 
 // |===
 
-=== Unhandliche Waffen <Fernkampf-Unhandlich>
+=== Unhandliche Waffen
+<Fernkampf-Unhandlich>
 #index("Unhandlich", "Waffen im Fernkampf")
 #index("Fernkampf", "Unhandliche Waffen")
 
@@ -2051,19 +2138,21 @@ Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 au
 Liegende Schützen erhalten +2 auf den FK-Wurf.
 
 === Schnelle Bewegungen des Ziels
+<Schnelle-Bewegungen-des-Ziels>
 #index("Fernkampf", "Schnelle Bewegungen des Ziels")
 
-// Auf Ziele, welche sich in <<Schnelle Bewegungen,schneller Bewegung>> befinden, gibt es einen Malus von -2 auf den FK-Wurf.
+Auf Ziele, welche sich in #uni.lnk("Schnelle Bewegungen", alt: "schneller Bewegung") befinden, gibt es einen Malus von -2 auf den FK-Wurf.
 
-== Indirekter Fernkampf <Indirekter-Fernkampf>
+== Indirekter Fernkampf
+<Indirekter-Fernkampf>
 #index[Indirekter Fernkampf]
 #index("Fernkampf", "Indirekt")
 
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
 
-// Er ist nicht mit der Aktion <<Fernkampf-Reaktionen,Reaktionsfeuer>> kombinierbar.
+Er ist nicht mit der Aktion #uni.lnk("Fernkampf-Reaktionen", alt: "Reaktionsfeuer") kombinierbar.
 
-// Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen <<Geländestücke>> mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
+Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen #uni.lnk("Geländestücke") mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
 
 // .{nbsp}
 // [%unbreakable]
@@ -2085,14 +2174,15 @@ Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das f
   image("Grafiken/Waffe/indirekt.svg", alt: "indirekt"),
 )
 
-== Dauerfeuer <Dauerfeuer>
+== Dauerfeuer
+<Dauerfeuer>
 #index[Dauerfeuer]
 #index("Fernkampf", "Dauerfeuer")
 
 Waffen können über den Wert „Dauerfeuer“ (DF) verfügen der im Bereich 1-4 liegt.
 Jeder Punkt DF wird hierdurch als 1 zusätzlicher Schuss behandelt.
 
-// Auf der <<Einheitenkarte>> wird dies mit den folgenden Symbolen ausgewiesen, wobei jedes Symbol für eine Stufe Dauerfeuer steht.
+Auf der #uni.lnk("Einheitenkarte") wird dies mit den folgenden Symbolen ausgewiesen, wobei jedes Symbol für eine Stufe Dauerfeuer steht.
 
 #align(
   center,
@@ -2126,13 +2216,14 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 // Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
 // ====
 
-== Flächenwaffen <Flächenwaffen>
+== Flächenwaffen
+<Flächenwaffen>
 #index[Flächenwaffen]
 #index("Fernkampf", "Flächenwaffe")
 
 Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
 
-// Auf der <<Einheitenkarte>> wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in Zoll angibt.
+Auf der #uni.lnk("Einheitenkarte") wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in Zoll angibt.
 
 #align(
   center,
@@ -2144,17 +2235,18 @@ Die Differenz in Zoll gibt an, wie weit der Einschlagpunkt in zufälliger Richtu
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
 Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
-// Der Einschlagpunkt ist nun dort, wo diese Linie das erste <<Geländestücke, Geländestück>> oder das erste Modell kreuzt.
+Der Einschlagpunkt ist nun dort, wo diese Linie das erste #uni.lnk("Geländestücke", alt: "Geländestück") oder das erste Modell kreuzt.
 
 Wenn die Fläche die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
 Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgerundet).
 
 Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
 
-= Nahkampf <Nahkampf>
+= Nahkampf
+<Nahkampf>
 #index[Nahkampf]
 
-// Unter Nahkampf wird jeglicher Kampf mit einer <<Waffen,Waffe>> verstanden der im Basekontakt passiert.
+Unter Nahkampf wird jeglicher Kampf mit einer #uni.lnk("Waffen", alt: "Waffe") verstanden der im Basekontakt passiert.
 
 Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Modelle im Nahkampf miteinander befinden.
 
@@ -2184,9 +2276,8 @@ Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und R
 
 Um einen Nahkampf durchzuführen, muss die Base des angreifenden Modells die Base des anzugreifenden Modells berühren.
 
-// Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle <<Nahkampf-Modifikatoren,Modifikatoren>> zur Anwendung kommen können.
-// Der Gewinner muss eine der Auswirkungen auswählen.
-
+Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle #uni.lnk("Nahkampf-Modifikatoren", alt: "Modifikatoren") zur Anwendung kommen können.
+Der Gewinner muss eine der Auswirkungen auswählen.
 
 // [%unbreakable%header,cols="1,3",frame=ends]
 // |===
@@ -2210,22 +2301,24 @@ Um einen Nahkampf durchzuführen, muss die Base des angreifenden Modells die Bas
 
 // |===
 
-== Zurückstoßen <Zurückstoßen>
+== Zurückstoßen
+<Zurückstoßen>
 #index[Zurückstoßen]
 #index("Nahkampf", "Zurückstoßen")
 
-// Modelle können nur dann zurückgestoßen werden wenn ihr <<Größenprofil>> gleich oder kleiner des stoßenden Modells ist.
+Modelle können nur dann zurückgestoßen werden wenn ihr #uni.lnk("Größenprofil") gleich oder kleiner des stoßenden Modells ist.
 
-// Ein Modell zurück zu stoßen bedeutet, mit ihm eine <<Bewegung-Aktionen,Bewegungsaktion>> durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
-// Diese Bewegung kostet keine AP.
+Ein Modell zurück zu stoßen bedeutet, mit ihm eine #uni.lnk("Bewegung-Aktionen", alt: "Bewegungsaktion") durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
+Diese Bewegung kostet keine AP.
 
 Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 - Die Bewegung muss in gerade Linie erfolgen.
 - Das Modell darf dadurch in Basekontakt mit anderen gegnerischen Modellen bewegt werden.
-// - Wenn es über eine Kante bewegt wird <<Herunterfallen,fällt>> es herunter.
+- Wenn es über eine Kante bewegt wird #uni.lnk("Herunterfallen", alt: "fällt") es herunter.
 
-== Aktionen <Nahkampf-Aktionen>
+== Aktionen
+<Nahkampf-Aktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -2277,7 +2370,8 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
 // |===
 
-== Reaktionen <Nahkampf-Reaktionen>
+== Reaktionen
+<Nahkampf-Reaktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -2315,14 +2409,15 @@ Im Nahkampf dürfen nur Waffen mit der Reichweite NK (=Nahkampf) verwendet werde
 #index("Nahkampf", "Trefferzonen")
 #index("Trefferzonen", "im Nahkampf")
 
-// Wenn der Verteidiger über <<Trefferzonen>> verfügt muss die getroffene Trefferzone ausgewürfelt werden.
+Wenn der Verteidiger über #uni.lnk("Trefferzonen") verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
-== Modifikatoren <Nahkampf-Modifikatoren>
+== Modifikatoren
+<Nahkampf-Modifikatoren>
 
 === Bonus für den Angreifer
 #index("Nahkampf", "Bonus für den Angreifer")
 
-// Wenn der Angreifer den Angriff durch eine <<Bewegung-Aktionen,Angriffsbewegung>> einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
+Wenn der Angreifer den Angriff durch eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
 === Multiple Gegner
@@ -2336,24 +2431,26 @@ Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt
 
 Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
 
-=== Unhandliche Waffen und Ausrüstung <Nahkampf-Unhandlich>
+=== Unhandliche Waffen und Ausrüstung
+<Nahkampf-Unhandlich>
 #index("Unhandlich", "Waffen und Ausrüstung im Nahkampf")
 #index("Nahkampf", "Unhandliche Waffen und Ausrüstung")
 
 Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
 
-=== Größenunterschiede <Größenunterschiede>
+=== Größenunterschiede
+<Größenunterschiede>
 #index[Größenunterschiede]
 #index("Nahkampf", "Größenunterschiede")
 
 Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +2 auf seinen NK-Wurf für jede Stufe des Unterschieds.
 
-// Siehe auch <<Größenprofil>> und <<Liegende Modelle,liegende Modelle>>.
+Siehe auch #uni.lnk("Größenprofil") und #uni.lnk("Liegende Modelle", alt: "liegende Modelle").
 
 == Nahkampf mit getarnten Modellen
 #index("Nahkampf", "mit getarnten Modellen")
 
-// Es können nur <<Aufklärung,aufgeklärte>> Modelle angegriffen werden.
+Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") Modelle angegriffen werden.
 
 == Waffenloser Nahkampf
 #index("Nahkampf", "Waffenloser")
@@ -2389,7 +2486,8 @@ Die Waffenklasse ist abhängig von der Größe des Modells.
 // image::Grafiken/Abbildungen/unbewaffnet.jpg[unbewaffnet,500]
 // ====
 
-= Tarnung <Tarnung>
+= Tarnung
+<Tarnung>
 #index[Tarnung]
 
 Tarnung wird in passive und aktive Tarnung unterschieden.
@@ -2436,7 +2534,8 @@ Modelle mit aktiver Tarnung erhalten einen Bonus von +1 auf ihren Rüstungswurf 
 
 Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 
-== Aufklärung <Aufklärung>
+== Aufklärung
+<Aufklärung>
 #index[Aufklärung]
 #index("Tarnung", "Aufklärung")
 
@@ -2449,7 +2548,8 @@ Wenn ein getarntes Modell einen Angriff einleitet oder eine Fernkampfwaffe abfeu
 
 Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ ausgeführt werden.
 
-== Aktionen <Tarnung-Aktionen>
+== Aktionen
+<Tarnung-Aktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -2467,7 +2567,8 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 // |===
 
-== Reaktionen <Tarnung-Reaktionen>
+== Reaktionen
+<Tarnung-Reaktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -2484,14 +2585,16 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 
 // |===
 
-= Ausrüstung <Ausrüstung>
+= Ausrüstung
+<Ausrüstung>
 #index[Ausrüstung]
 
 Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
 
-// Ausrüstung kann über <<Profilmodifikatoren>> verfügen.
+Ausrüstung kann über #uni.lnk("Profilmodifikatoren") verfügen.
 
-== Aktionen <Ausrüstung-Aktionen>
+== Aktionen
+<Ausrüstung-Aktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -2510,7 +2613,7 @@ Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder R�
 #index("Ausrüstung", "Regeln")
 
 Jede Ausrüstung kann Regeln beinhalten.
-// Wenn dem so ist, werden sie auf der Rückseite der <<Einheitenkarte>> ausgegeben.
+Wenn dem so ist, werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
 
 == AP-Kosten
 #index("Ausrüstung", "AP-Kosten")
@@ -2523,7 +2626,7 @@ Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgefü
 
 Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
 
-// Auf der <<Einheitenkarte>> ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
+Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
 Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet werden kann.
 
 Bei jeder Verwendung muss ein Marker gestrichen werden.
@@ -2540,11 +2643,12 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
 #index("Unhandlich", "Ausrüstung")
 #index("Ausrüstung", "Unhandlich")
 
-// Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im <<Fernkampf-Unhandlich,Fernkampf>> und <<Nahkampf-Unhandlich,Nahkampf>>.
+Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im #uni.lnk("Fernkampf-Unhandlich", alt: "Fernkampf") und #uni.lnk("Nahkampf-Unhandlich", alt: "Nahkampf").
 
-// Auf der <<Einheitenkarte>> wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
+Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
-= Kolosse <Kolosse>
+= Kolosse
+<Kolosse>
 #index[Kolosse]
 
 Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 6 Meter haben und deren Gewicht bei 1,5 Tonnen erst anfängt.
@@ -2562,7 +2666,8 @@ Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sic
 
 Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
 
-== Trefferzonen <Trefferzonen>
+== Trefferzonen
+<Trefferzonen>
 #index[Trefferzonen]
 #index("Kolosse", "Trefferzonen")
 
@@ -2633,11 +2738,12 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
 // |===
 
-= Begleiter <Begleiter>
+= Begleiter
+<Begleiter>
 #index[Begleiter]
 
 Unter Begleitern wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
-// Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen <<Operatoren,Operator>>.
+Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen #uni.lnk("Operatoren", alt: "Operator").
 
 Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Begleiter gelten.
 
@@ -2650,7 +2756,8 @@ Sie haben keine eigene Initiativephase.
 // * Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
 // ====
 
-== Operatoren <Operatoren>
+== Operatoren
+<Operatoren>
 #index[Operatoren]
 #index("Begleiter", "Operatoren")
 
@@ -2673,12 +2780,12 @@ Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn 
 #index("Begleiter", "Zuteilung")
 
 Begleiter können und müssen immer genau einem Operator zugeteilt sein.
-// Dies geschieht <<Vorbereiten der Gruppe,vor dem Spiel>> und kann währenddessen nicht geändert werden.
+Dies geschieht #uni.lnk("Vorbereiten der Gruppe", alt: "vor dem Spiel") und kann währenddessen nicht geändert werden.
 
 == Begleiter ohne Operator
 #index("Begleiter", "ohne Operator")
 
-// Begleiter, deren Operator <<Eliminiert,eliminiert>> wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
+Begleiter, deren Operator #uni.lnk("Eliminiert", alt: "eliminiert") wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
 
 == Aktionspunkte
 #index("Begleiter", "Aktionspunkte")
@@ -2695,33 +2802,34 @@ Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordn
 == Gefahrenbereich
 #index("Begleiter", "Gefahrenbereich")
 
-// Da sie über keine EH verfügen haben sie auch keinen eigenen <<Gefahrenbereich>>.
-// Daraus ergibt sich, dass eine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> für sie nicht existiert.
+Da sie über keine EH verfügen haben sie auch keinen eigenen #uni.lnk("Gefahrenbereich").
+Daraus ergibt sich, dass eine #uni.lnk("Unmittelbare Bedrohung", alt: "unmittelbare Bedrohung") für sie nicht existiert.
 Sie müssen aber, wenn möglich, aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
 
 == Schock
 #index("Begleiter", "Schock")
 
-// <<Schock,Schocks>> funktionieren grundsätzlich wie bei allen anderen Modellen.
+#uni.lnk("Schock", alt: "Schocks") funktionieren grundsätzlich wie bei allen anderen Modellen.
 
 Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Begleitern zu entfernen.
 
 == Eliminierung
 #index("Begleiter", "Eliminierung")
 
-// Sobald ein Begleiter <<Eliminiert,eliminiert>> wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
+Sobald ein Begleiter #uni.lnk("Eliminiert", alt: "eliminiert") wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
 
 Der Operator muss einen EH-Test ablegen.
 Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Begleiters.
 
-= Disziplinen & Kräfte <Disziplinen-und-Kräfte>
+= Disziplinen & Kräfte
+<Disziplinen-und-Kräfte>
 #index[Disziplinen]
 #index[Kräfte]
 
 In Universalis wird alles was andernorts normalerweise als PSI, Magie, Thaumaturgie, usw. bezeichnet wird _Kräfte_ genannt.
 Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der dazugehörigen Kräfte vorgeben.
 
-// Jede Spielmechanik die über <<Eigenschaften>> hinaus geht sollte als Kraft dargestellt werden.
+Jede Spielmechanik die über #uni.lnk("Eigenschaften") hinaus geht sollte als Kraft dargestellt werden.
 
 // .{nbsp}
 // [%unbreakable]
@@ -2730,13 +2838,14 @@ Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der 
 // * Bei Cyberpunk wäre eine Disziplin wie _Psychokinese_ denkbar die dann Kräfte wie _Würgegriff_ und _Schweben_ vereint.
 // ====
 
-== Auswahl <Kraft-Auswahl>
+== Auswahl
+<Kraft-Auswahl>
 #index("Kräfte", "Auswahl")
 
 // Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
 
-// Jeder Spieler entscheidet <<Vorbereiten der Gruppe,vor Spielbeginn>>, welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
+Jeder Spieler entscheidet #uni.lnk("Vorbereiten der Gruppe", alt: "vor Spielbeginn"), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
 
 // .{nbsp}
 // [%unbreakable]
@@ -2771,19 +2880,21 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
 
 // |===
 
-=== AP-Kosten <Kraft-AP-Kosten>
+=== AP-Kosten
+<Kraft-AP-Kosten>
 #index("Kräfte", "AP-Kosten")
 
 Dies sind die benötigten AP um die Kraft einzusetzen.
 
-=== Attribut <Kraft-Attribut>
+=== Attribut
+<Kraft-Attribut>
 #index("Kräfte", "Attribut")
 
 Kräfte beziehen sich immer auf ein Attribut.
-// Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher <<Attributswurf>> gegen dieses Attribut abgelegt werden.
+Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher #uni.lnk("Attributswurf") gegen dieses Attribut abgelegt werden.
 
 Zusätzlich kann eine Schwierigkeit angegeben sein.
-// Sie gibt an wie der <<Attributswurf>> modifiziert wird.
+Sie gibt an wie der #uni.lnk("Attributswurf") modifiziert wird.
 
 // .{nbsp}
 // [%unbreakable]
@@ -2792,12 +2903,13 @@ Zusätzlich kann eine Schwierigkeit angegeben sein.
 // * Die simple Kraft _Levitation_ ist mit `KO+3` angegeben. Der <<Attributswurf>> auf KO ist damit um 3 erleichtert.
 // ====
 
-=== TP-Verlust <Kraft-TP-Verlust>
+=== TP-Verlust
+<Kraft-TP-Verlust>
 #index("Kräfte", "TP-Verlust")
 
 Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
-// Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem <<Attributswurf>> oder bei jedem Einsatz automatisch passiert.
+Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem #uni.lnk("Attributswurf") oder bei jedem Einsatz automatisch passiert.
 
 Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
@@ -2812,7 +2924,8 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
 // |===
 
-=== Ziel <Kraft-Ziel>
+=== Ziel
+<Kraft-Ziel>
 #index("Kräfte", "Ziel")
 
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
@@ -2838,7 +2951,8 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 // |===
 
-=== Reichweite <Kraft-Reichweite>
+=== Reichweite
+<Kraft-Reichweite>
 #index("Kräfte", "Reichweite")
 
 Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
@@ -2861,7 +2975,8 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
 
 // |===
 
-=== Dauer <Kraft-Dauer>
+=== Dauer
+<Kraft-Dauer>
 #index("Kräfte", "Dauer")
 
 Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
@@ -2883,7 +2998,8 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 // |===
 
-== Aktionen <Kraft-Aktionen>
+== Aktionen
+<Kraft-Aktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -2918,7 +3034,8 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 // |===
 
-== Reaktionen <Kraft-Reaktionen>
+== Reaktionen
+<Kraft-Reaktionen>
 
 // [%unbreakable%header,cols="^1,^4,^1"]
 // |===
@@ -2938,9 +3055,9 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 
 Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
 
-// Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im <<Wahrnehmungsbereich>> befinden.
+Um zu versuchen eine Kraft zu blockieren muss sich entweder das gegnerische Modell, welches die Kraft ausgespielt hat, oder die Kraft selbst im #uni.lnk("Wahrnehmungsbereich") befinden.
 
-// Das Modell muss einen <<Attributswurf>> gegen das bei der Kraft angegebene Attribut mit dessen Schwierigkeit ablegen.
+Das Modell muss einen #uni.lnk("Attributswurf") gegen das bei der Kraft angegebene Attribut mit dessen Schwierigkeit ablegen.
 Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
@@ -2952,12 +3069,12 @@ Ein eventueller TP-Verlust wird ebenfalls angewendet.
   #make-index(title: none)
 ]
 
-// [[Anhang-Geländetypen]]
 // [appendix]
 = Geländetypen
+<Anhang-Geländetypen>
 // include::_Geländetypen.adoc[]
 
-// [[Anhang-Objekte]]
 // [appendix]
 = Objekte
+<Anhang-Objekte>
 // include::_Objekte.adoc[]

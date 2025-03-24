@@ -2,7 +2,7 @@
 #let img_reaktion = image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion")
 
 #let lnk(label_name, alt: "") = {
-  let label = label(label_name)
+  let label = label(label_name.replace(" ", "-"))
 
   context {
     if query(label).len() > 0 {
