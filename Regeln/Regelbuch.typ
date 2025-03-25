@@ -131,6 +131,7 @@ Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf de
 = Das Spiel
 
 == Fraktionen
+<Fraktionen>
 
 Jeder Spieler entscheidet sich für eine Fraktion, mit deren Einheiten er eine Gruppe aufbauen möchte.
 
@@ -159,43 +160,37 @@ Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwende
 Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
 So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
 
-// TODO irgendwie in voller breite darstellen
 #align(
   center,
   image("Grafiken/Abbildungen/einheitenkarte_übersicht.svg", alt: "Aufbau Einheitenkarte"),
 )
 
-// [%unbreakable,cols="1,1",frame=ends]
-// |===
-
-// |1. <<Trefferpunkte>>
-// |10. <<Eigenschaften>>
-
-// |2. Name des Modells
-// |11. <<Waffen>>
-
-// |3. <<Attribute>>
-// |12. <<Rüstungen>>
-
-// |4. <<Wahrnehmungsbereich>>
-// |13. <<Ausrüstung>>
-
-// |5. <<Gefahrenbereich>>
-// |14. <<Schadensprofil>>
-
-// |6. <<Modell-Typen,Typ des Modells>>
-// |15. <<Rüstungsprofil>>
-
-// |7. <<Größenprofil>>
-// |16. Punkte
-
-// |8. <<Bewegungsart>>
-// |17. <<Disziplinen-und-Kräfte>>
-
-// |9. <<Geschwindigkeit>>
-// |18. <<Fraktionen>>
-
-// |===
+#block(
+  breakable: false,
+  table(
+    columns: (30%, 70%),
+    align: (center + horizon, left + horizon),
+    table.header([*Nr.*], [*Bedeutung*]),
+    "1.", [#uni.lnk("Trefferpunkte")],
+    "2.", [Name des Modells],
+    "3.", [#uni.lnk("Attribute")],
+    "4.", [#uni.lnk("Wahrnehmungsbereich")],
+    "5.", [#uni.lnk("Gefahrenbereich")],
+    "6.", [#uni.lnk("Modell-Typen", alt: "Typ des Modells")],
+    "7.", [#uni.lnk("Größenprofil")],
+    "8.", [#uni.lnk("Bewegungsart")],
+    "9.", [#uni.lnk("Geschwindigkeit")],
+    "10.", [#uni.lnk("Eigenschaften")],
+    "11.", [#uni.lnk("Waffen")],
+    "12.", [#uni.lnk("Rüstungen")],
+    "13.", [#uni.lnk("Ausrüstung")],
+    "14.", [#uni.lnk("Schadensprofil")],
+    "15.", [#uni.lnk("Rüstungsprofil")],
+    "16.", [Punkte],
+    "17.", [#uni.lnk("Disziplinen und Kräfte")],
+    "18.", [#uni.lnk("Fraktionen")],
+  ),
+)
 
 == Aktivierungskarte
 <Aktivierungskarte>
@@ -874,6 +869,7 @@ Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehe
 Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
 
 == Bewegungsart
+<Bewegungsart>
 
 Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
 
