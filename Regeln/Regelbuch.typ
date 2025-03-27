@@ -219,9 +219,9 @@ Diese können sowohl angeboren als auch antrainiert sein.
 Dazu gehören:
 
 + #uni.lnk("Modell-Typen")
-+ #uni.lnk("Attribute")
 + #uni.lnk("Geschwindigkeit")
 + #uni.lnk("Trefferpunkte")
++ #uni.lnk("Attribute")
 + #uni.lnk("Größenprofil")
 
 == Modell-Typen
@@ -249,68 +249,6 @@ Siehe @fig-modell-typen.
   ),
   caption: "Modell-Typen",
 ) <fig-modell-typen>
-
-== Attribute
-<Attribute>
-#index[Attribute]
-
-Jedes Modell verfügt über einen festen Satz an Attributen.
-
-// [%unbreakable%header,cols="^1,^2,5",frame=ends]
-// |===
-
-// | Kürzel
-// | Name
-// | Beschreibung
-
-// |((AGI))(((Attribute, AGI)))
-// |Agilität
-// |Steht für das Reaktionsvermögen des Modells. Siehe z.B. <<Reaktionen>> und <<Bewegungstest>>.
-
-// |((NK))(((Attribute, NK)))
-// |Nahkampf
-// |Stellt die Nahkampffähigkeit des Modells dar. Siehe <<Nahkampf>>.
-
-// |((FK))(((Attribute, FK)))
-// |Fernkampf
-// |Stellt die Fernkampffähigkeit des Modells dar. Siehe <<Fernkampf>>.
-
-// |((KO))(((Attribute, KO)))
-// |Konstitution
-// |Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. <<Tragkraft>>.
-
-// |((WN))(((Attribute, WN)))
-// |Wahrnehmung
-// |Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. <<Wahrnehmungsbereich>> und <<Tarnung>>.
-
-// |((EH))(((Attribute, EH)))
-// |Entschlossenheit
-// |Die Fähigkeit eines Modells, psychische oder mentale Konflikte zu bewältigen. Siehe z.B. <<Gefahrenbereich>> oder <<Panik>>.
-
-// |===
-
-// .normaler Mensch
-// [%unbreakable]
-// ====
-// [%unbreakable%header,cols="^1,^1,^1,^1,^1,^1",frame=ends]
-// |===
-
-// |AGI
-// |NK
-// |FK
-// |KO
-// |WN
-// |EH
-
-// |4
-// |2
-// |2
-// |3
-// |3
-// |3
-
-// |===
-// ====
 
 == Geschwindigkeit
 <Geschwindigkeit>
@@ -343,6 +281,47 @@ Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zw
 // |===
 
 // Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
+
+== Attribute
+<Attribute>
+#index[Attribute]
+
+Jedes Modell verfügt über einen festen Satz an Attributen.
+
+#block(
+  breakable: false,
+  table(
+    columns: (20%, 80%),
+    align: (center + horizon, left + horizon),
+    table.header([*Kürzel*], [*Beschreibung*]),
+    [*AGI*] + [#index[AGI]] + [#index("Attribute", "AGI")],
+    [*Agilität*] + "\nSteht für das Reaktionsvermögen des Modells. Siehe z.B. " + [#uni.lnk("Reaktionen")] + " und " + [#uni.lnk("Bewegungstest")] + ".",
+
+    [*NK*] + [#index[NK]] + [#index("Attribute", "NK")], [*Nahkampf*] + "\nStellt die Nahkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Nahkampf")] + ".",
+    [*FK*] + [#index[FK]] + [#index("Attribute", "FK")], [*Fernkampf*] + "\nStellt die Fernkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Fernkampf")] + ".",
+    [*KO*] + [#index[KO]] + [#index("Attribute", "KO")],
+    [*Konstitution*] + "\nDrückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. " + [#uni.lnk("Tragkraft")] + ".",
+
+    [*WN*] + [#index[WN]] + [#index("Attribute", "WN")],
+    [*Wahrnehmung*] + "\nBeschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. " + [#uni.lnk("Wahrnehmungsbereich")] + " und " + [#uni.lnk("Tarnung")] + ".",
+
+    [*EH*] + [#index[EH]] + [#index("Attribute", "EH")],
+    [*Entschlossenheit*] + "\nDie Fähigkeit eines Modells, psychische oder mentale Konflikte zu bewältigen. Siehe z.B. " + [#uni.lnk("Gefahrenbereich")] + " oder " + [#uni.lnk("Panik")] + ".",
+  ),
+)
+
+#table(
+  columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+  align: center + horizon,
+  table.header([*AGI*], [*NK*], [*FK*], [*KO*], [*WN*], [*EH*]),
+  "4", "2", "2", "3", "3", "3",
+)
+
+// .normaler Mensch
+// [%unbreakable]
+// ====
+
+// ====
 
 == Größenprofil
 <Größenprofil>
