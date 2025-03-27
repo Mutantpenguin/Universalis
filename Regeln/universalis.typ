@@ -46,6 +46,7 @@
   #show figure.caption: set text(size: 8pt)
 
   #set text(lang: "de")
+  #set text(region: "DE")
 
   #set par(
     justify: true,
