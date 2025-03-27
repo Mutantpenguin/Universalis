@@ -93,7 +93,6 @@
   )
 
   #set heading(numbering: "1.1")
-  #set heading()
 
   #show heading.where(level: 1): it => {
     set text(
