@@ -21,18 +21,18 @@
   }
 }
 
-#let example(caption, content) = {
-  let border_size = 5pt
-  block(
-    stroke: gray,
-    radius: border_size,
-    inset: border_size,
-    figure(
-      supplement: "Beispiel",
-      kind: "Beispiel",
+#let example(content, caption: "") = {
+  figure(
+    supplement: "Beispiel",
+    kind: "Beispiel",
+    block(
+      stroke: gray,
+      radius: 5pt,
+      inset: 10pt,
+      width: 100%,
       content,
-      caption: caption,
     ),
+    caption: caption,
   )
 }
 
@@ -40,9 +40,12 @@
 
   #let heading_font = "Noto Sans"
 
-  #set text(lang: "de")
+  #set figure.caption(position: top)
+  #show figure.caption: set align(left)
+  #show figure.caption: set text(style: "italic")
+  #show figure.caption: set text(size: 8pt)
 
-  #set figure(supplement: "Abbildung")
+  #set text(lang: "de")
 
   #set par(
     justify: true,
