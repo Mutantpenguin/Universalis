@@ -778,17 +778,14 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disz
 == Aktionen
 <Eigenschaften-Aktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Eigenschaft anwenden(((Aktionen, Eigenschaft anwenden)))
-// .^|X ⊙
-
-// 3+<a|
-// Das Modell wendet eine Eigenschaft an.
-// Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
-
-// |===
+#uni.action(
+  "Eigenschaft anwenden",
+  "X",
+  [
+    Das Modell wendet eine Eigenschaft an.
+    Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
+  ],
+)
 
 == Regeln
 <Regeln>
@@ -910,112 +907,88 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 == Aktionen
 <Bewegung-Aktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Drehen(((Aktionen, Drehen)))
-// .^|0 ⊙
+#uni.action(
+  "Drehen",
+  "0",
+  [
+    Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
+  ],
+)
 
-// 3+<a|Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
+#uni.action(
+  "Normale Bewegung",
+  "1|2",
+  [
+    Das Modell bewegt sich entsprechend seiner GK.
+    Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es #uni.lnk("Liegende Modelle", alt: "liegt").
 
-// |===
+    Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 1" eingehalten werden.
+  ],
+)
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Normale Bewegung(((Aktionen, Normale Bewegung)))
-// .^|1\|2 ⊙
+#uni.action(
+  "Angriffsbewegung",
+  "WK",
+  [
+    Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe. Die eigentliche Bewegung ist somit kostenlos.
 
-// 3+<a|
-// Das Modell bewegt sich entsprechend seiner GK.
-// Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es <<Liegende Modelle,liegt>>.
+    Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem #uni.lnk("Nahkampf-Aktionen", alt: "Angriff").
+  ],
+)
 
-// Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 1" eingehalten werden.
+#uni.action(
+  "Aus Nahkampf lösen",
+  "2|3",
+  [
+    Mit dieser Aktion kann sich ein Modell aus einem #uni.lnk("Nahkampf") lösen, muss vorher aber den Test für eine #uni.lnk("Unmittelbare Bedrohung", alt: "unmittelbare Bedrohung") durchführen.
+    Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
 
-// |===
+    Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
+  ],
+  condition: "Das Modell muss sich im Nahkampf befinden.",
+)
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Angriffsbewegung(((Aktionen, Angriffsbewegung)))
-// .^|WK ⊙
+#uni.action(
+  "Hinlegen",
+  "1",
+  [
+    Das Modell gilt als #uni.lnk("Liegende Modelle", alt: "liegend").
+  ],
+)
 
-// 3+<a|
-// Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe. Die eigentliche Bewegung ist somit kostenlos.
+#uni.action(
+  "Aufstehen",
+  "1",
+  [
+    Das Modell gilt als stehend.
+  ],
+)
 
-// Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem <<Nahkampf-Aktionen,Angriff>>.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Aus Nahkampf lösen(((Aktionen, Aus Nahkampf lösen)))
-// .^|2\|3 ⊙
-
-// 3+<a|
-// Mit dieser Aktion kann sich ein Modell aus einem <<Nahkampf>> lösen, muss vorher aber den Test für eine <<Unmittelbare Bedrohung,unmittelbare Bedrohung>> durchführen.
-// Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
-
-// Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
-
-// .^|icon:bolt[]
-// 2+<|Das Modell muss sich im Nahkampf befinden.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Hinlegen(((Aktionen, Hinlegen)))
-// .^|1 ⊙
-
-// 3+<a|Das Modell gilt als <<Liegende Modelle,liegend>>
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Aufstehen(((Aktionen, Aufstehen)))
-// .^|1 ⊙
-
-// 3+<a|Das Modell gilt als stehend.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Objekt benutzen(((Aktionen, Objekt benutzen)))
-// .^|1 ⊙
-
-// 3+<a|Benutzen eines <<Objekte,Objekts>>.
-
-// .^|icon:bolt[]
-// 2+<|Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.
-
-// |===
+#uni.action(
+  "Objekt benutzen",
+  "1",
+  [
+    Benutzen eines #uni.lnk("Objekte", alt: "Objekts").
+  ],
+  condition: "Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.",
+)
 
 == Reaktionen
 <Bewegung-Reaktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-// .^|Beschuss Ausweichen(((Reaktionen, Beschuss Ausweichen)))
-// .^|1 ⊙
-
-// 3+<a|Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
-
-// .^|icon:bolt[]
-// 2+<a|
-// * Kann von einem Modell durchgeführt werden, welches Ziel eines Fernkampfangriffs ist.
-// Der Schütze muss sich im <<Wahrnehmungsbereich>> befinden.
-// * Nicht bei <<Liegende Modelle, liegenden>> Modellen.
-// * Nur bevor der Schütze seinen FK-Wurf durchführt.
-
-// |===
+#uni.reaction(
+  "Beschuss Ausweichen",
+  "1",
+  [
+    Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
+  ],
+  condition: [
+    - Kann von einem Modell durchgeführt werden, welches Ziel eines Fernkampfangriffs ist.
+      Der Schütze muss sich im #uni.lnk("Wahrnehmungsbereich") befinden.
+    - Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.
+    - Nur bevor der Schütze seinen FK-Wurf durchführt.
+  ],
+)
 
 == Springen
 <Springen>
@@ -1883,100 +1856,86 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
 == Aktionen
 <Fernkampf-Aktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Normaler Schuss(((Aktionen, Normaler Schuss)))
-// .^|WK+1 ⊙
+#uni.action(
+  "Normaler Schuss",
+  "WK+1",
+  [
+    Das Modell führt einen Fernkampf durch.
+  ],
+)
 
-// 3+<a|Das Modell führt einen Fernkampf durch.
+#uni.action(
+  "Feuerbereitschaft",
+  "2",
+  [
+    Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
+    Es verliert sie dann automatisch.
 
-// |===
+    Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt:
+    #align(
+      center,
+      image("Grafiken/Token/feuerbereitschaft.svg", alt: "Feuerbereitschaft"),
+    )
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Feuerbereitschaft(((Aktionen, Feuerbereitschaft)))
-// .^|2 ⊙
+    Falls das Modell das Ziel irgendeiner erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
+    Misslingt dieser verliert es die Feuerbereitschaft.
+  ],
+  condition: [
+    - Nur mit Schusswaffen der WK I, II und III.
+    - Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden, da jede weitere Aktion oder Reaktion die Feuerbereitschaft automatisch beendet.
+  ],
+)
 
-// 3+<a|
-// Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
-// Es verliert sie dann automatisch.
+#uni.action(
+  "Gezielter Schuss",
+  "WK+2",
+  [
+    Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
+    Die Reichweitenbänder werden hierbei verdoppelt.
+  ],
+  condition: [
+    Ist nicht in Kombination mit Dauerfeuer einsetzbar.
+  ],
+)
 
-// Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt: +
-// image:Grafiken/Token/feuerbereitschaft.svg[Feuerbereitschaft,40,align=center]
+#uni.action(
+  "Schnellschuss",
+  "WK",
+  [
+    Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
+  ],
+)
 
-// Falls das Modell das Ziel irgendeiner erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
-// Misslingt dieser verliert es die Feuerbereitschaft.
-
-// .^|icon:bolt[]
-// 2+<a|
-// * Nur mit Schusswaffen der WK I, II und III.
-// * Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden, da jede weitere Aktion oder Reaktion die Feuerbereitschaft automatisch beendet.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Gezielter Schuss(((Aktionen, Gezielter Schuss)))
-// .^|WK+2 ⊙
-
-// 3+<a|
-// Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
-// Die Reichweitenbänder werden hierbei verdoppelt.
-
-// .^|icon:bolt[]
-// 2+<|Ist nicht in Kombination mit Dauerfeuer einsetzbar.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Schnellschuss(((Aktionen, Schnellschuss)))
-// .^|WK ⊙
-
-// 3+<a|Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Nachladen(((Aktionen, Nachladen)))
-// .^|WK ⊙
-
-// 3+<a|
-// Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
-// Der Token wird danach vom Modell entfernt.
-
-// .^|icon:bolt[]
-// 2+<|Diese Aktion kann nur von Modellen mit einem <<Nachladen,Nachlade-Token>> durchgeführt werden.
-
-// |===
+#uni.action(
+  "Nachladen",
+  "WK",
+  [
+    Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
+    Der Token wird danach vom Modell entfernt.
+  ],
+  condition: [
+    Diese Aktion kann nur von Modellen mit einem #uni.lnk("Nachladen", alt: "Nachlade-Token") durchgeführt werden.
+  ],
+)
 
 == Reaktionen
 <Fernkampf-Reaktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-// .^|Reaktionsfeuer(((Reaktionen, Reaktionsfeuer)))
-// .^|WK ⊙
+#uni.reaction(
+  "Reaktionsfeuer",
+  "WK",
+  [
+    Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch und erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
 
-// 3+<a|
-// Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch und erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
+    Das Modell verliert danach automatisch seine Feuerbereitschaft.
+  ],
 
-// Das Modell verliert danach automatisch seine Feuerbereitschaft.
-
-// .^|icon:bolt[]
-// 2+<a|
-// * Das Modell muss sich in Feuerbereitschaft befinden.
-// * Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige <<Bewegung-Aktionen,Bewegungsaktion>> innerhalb des <<Wahrnehmungsbereich,Wahrnehmungsbereichs>> durchführt.
-// * Kann nicht mit <<Indirekter-Fernkampf,indirektem Fernkampf>> genutzt werden.
-
-// |===
+  condition: [
+    - Das Modell muss sich in Feuerbereitschaft befinden.
+    - Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige #uni.lnk("Bewegung-Aktionen", alt: "Bewegungsaktion") innerhalb des #uni.lnk("Wahrnehmungsbereich", alt: "Wahrnehmungsbereichs") durchführt.
+    - Kann nicht mit #uni.lnk("Indirekter-Fernkampf", alt: "indirektem Fernkampf") genutzt werden.
+  ],
+)
 
 == Erlaubte Waffen
 #index("Fernkampf", "Erlaubte Waffen")
@@ -2302,85 +2261,77 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 == Aktionen
 <Nahkampf-Aktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Angriff(((Aktionen, Angriff)))
-// .^|WK ⊙
+#uni.action(
+  "Angriff",
+  "WK",
+  [
+    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+  ],
+)
 
-// 3+<a|Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+#uni.action(
+  "Verwegener Angriff",
+  "WK+2",
+  [
+    Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
+    Es erhält +3 auf seinen NK-Wurf.
 
-// |===
+    Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion _Gegenangriff_ an verteidigt es sich mit NK von 0.
+  ],
+)
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Verwegener Angriff(((Aktionen, Verwegener Angriff)))
-// .^|WK+2 ⊙
+#uni.action(
+  "Verteidigung",
+  "2",
+  [
+    Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
+    Es verliert sie dann automatisch.
 
-// 3+<a|
-// Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
-// Es erhält +3 auf seinen NK-Wurf.
+    Sie wird am Modell mit dem Verteidigungs-Token dargestellt:
+    #align(
+      center,
+      image("Grafiken/Token/verteidigung.svg", alt: "Verteidigung"),
+    )
 
-// Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion _Gegenangriff_ an verteidigt es sich mit NK von 0.
+    Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen #uni.lnk("Bonus für den Angreifer", alt: "Bonus") für eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung").
+    Das Modell verliert danach automatisch seine Verteidigung.
 
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Verteidigung(((Aktionen, Verteidigung)))
-// .^|2 ⊙
-
-// 3+<a|
-// Das Modell befindet sich maximal bis zum Beginn seiner nächsten Initiativephase in Verteidigung.
-// Es verliert sie dann automatisch.
-
-// Sie wird am Modell mit dem Verteidigungs-Token dargestellt: +
-// image:Grafiken/Token/verteidigung.svg[Verteidigung,40,align=center]
-
-// Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen <<Bonus für den Angreifer,Bonus>> für eine <<Bewegung-Aktionen,Angriffsbewegung>>.
-// Das Modell verliert danach automatisch seine Verteidigung.
-
-// Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
-// Misslingt dieser verliert es die Verteidigung.
-// Es muss dafür nicht getroffen werden.
-
-// .^|icon:bolt[]
-// 2+<|Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
-// Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
-
-// |===
+    Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
+    Misslingt dieser verliert es die Verteidigung.
+    Es muss dafür nicht getroffen werden.
+  ],
+  condition: [
+    Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
+    Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
+  ],
+)
 
 == Reaktionen
 <Nahkampf-Reaktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-// .^|Gegenangriff(((Reaktionen, Gegenangriff)))
-// .^|WK ⊙
+#uni.reaction(
+  "Gegenangriff",
+  "WK",
+  [
+    Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
+  ],
+  condition: [
+    Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
+  ],
+)
 
-// 3+<a|Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
+#uni.reaction(
+  "Gelegenheitsangriff",
+  "WK",
+  [
+    Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch und gilt als der Angreifer.
+    Das sich lösende Modell kämpft mit NK von 0.
+  ],
 
-// .^|icon:bolt[]
-// 2+<|Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Gelegenheitsangriff(((Reaktionen, Gelegenheitsangriff)))
-// .^|WK ⊙
-
-// 3+<a|Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch und gilt als der Angreifer.
-// Das sich lösende Modell kämpft mit NK von 0.
-
-// .^|icon:bolt[]
-// 2+<|Kann durchgeführt werden, wenn sich ein gegnerisches Modell in Basekontakt aus dem Nahkampf löst.
-
-// |===
+  condition: [
+    Kann durchgeführt werden, wenn sich ein gegnerisches Modell in Basekontakt aus dem Nahkampf löst.
+  ],
+)
 
 == Erlaubte Waffen
 #index("Nahkampf", "Erlaubte Waffen")
@@ -2397,6 +2348,7 @@ Wenn der Verteidiger über #uni.lnk("Trefferzonen") verfügt muss die getroffene
 <Nahkampf-Modifikatoren>
 
 === Bonus für den Angreifer
+<Bonus-für-den-Angreifer>
 #index("Nahkampf", "Bonus für den Angreifer")
 
 Wenn der Angreifer den Angriff durch eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
@@ -2536,39 +2488,33 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 == Aktionen
 <Tarnung-Aktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Aufklären(((Aktionen, Aufklären)))
-// .^|2+ ⊙
+#uni.action(
+  "Aufklären",
+  "2+",
+  [
+    Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
 
-// 3+<a|
-// Aufklären bezieht sich immer auf ein konkretes getarntes gegnerisches Modell.
+    Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
+    Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
-// Um ein getarntes Modell aufzuklären muss es sich im Wahrnehmungsbereich befinden und ein erfolgreicher WN-Wurf abgelegt werden, welcher um die Stufe der Tarnung erschwert ist.
-// Bei Erfolg wurde das getarnte Modell aufgeklärt.
-
-// Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
-
-// |===
+    Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
+  ],
+)
 
 == Reaktionen
 <Tarnung-Reaktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-// .^|Aufklärungsunterstützung(((Reaktionen, Aufklärungsunterstützung)))
-// .^|2 ⊙
-
-// 3+<a|Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
-
-// .^|icon:bolt[]
-// 2+<a|
-// * Kann durchgeführt werden, wenn ein eigenes Modell die Aktion _Aufklären_ ausführt.
-// * Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
-
-// |===
+#uni.reaction(
+  "Aufklärungsunterstützung",
+  "2",
+  [
+    Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
+  ],
+  condition: [
+    - Kann durchgeführt werden, wenn ein eigenes Modell die Aktion _Aufklären_ ausführt.
+    - Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
+  ],
+)
 
 = Ausrüstung
 <Ausrüstung>
@@ -2581,18 +2527,15 @@ Ausrüstung kann über #uni.lnk("Profilmodifikatoren") verfügen.
 == Aktionen
 <Ausrüstung-Aktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Ausrüstung verwenden(((Aktionen, Ausrüstung verwenden)))
-// .^|X ⊙
+#uni.action(
+  "Ausrüstung verwenden",
+  "X",
+  [
+    Das Modell verwendet einen Ausrüstungsgegenstand.
 
-// 3+<a|
-// Das Modell verwendet einen Ausrüstungsgegenstand.
-
-// Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
-
-// |===
+    Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
+  ],
+)
 
 == Regeln
 #index("Ausrüstung", "Regeln")
@@ -3004,56 +2947,49 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 == Aktionen
 <Kraft-Aktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Kraft einsetzen(((Aktionen, Kraft einsetzen)))
-// .^|X ⊙
+#uni.action(
+  "Kraft einsetzen",
+  "X",
+  [
+    Das Modell setzt eine Kraft ein.
 
-// 3+<a|
-// Das Modell setzt eine Kraft ein.
+    Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
+  ],
+)
 
-// Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
+#uni.action(
+  "Kraft beenden",
+  "1",
+  [
+    Eine eigene beliebige #uni.lnk("Kraft-Dauer", alt: "dauerhafte") Kraft die gerade im Spiel ist wird beendet.
+  ],
+)
 
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Kraft beenden(((Aktionen, Kraft beenden)))
-// .^|1 ⊙
-
-// 3+<a|Eine eigene beliebige <<Dauer,dauerhafte>> Kraft die gerade im Spiel ist wird beendet.
-
-// |===
-
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/aktion.svg[Aktion,30]
-// .^|Kraft blockieren(((Aktionen, Kraft blockieren)))
-// .^|2 ⊙
-
-// 3+<a|Das Modell versucht eine sich im Spiel befindliche Kraft zu <<Kraft blockieren, blockieren>>.
-
-// |===
+#uni.action(
+  "Kraft blockieren",
+  "2",
+  [
+    Das Modell versucht eine sich im Spiel befindliche Kraft zu #uni.lnk("Kraft blockieren", alt: "blockieren").
+  ],
+)
 
 == Reaktionen
 <Kraft-Reaktionen>
 
-// [%unbreakable%header,cols="^1,^4,^1"]
-// |===
-// .^|image:Grafiken/Allgemein/reaktion.svg[Aktion,30]
-// .^|Kraft blockieren(((Reaktionen, Kraft blockieren)))
-// .^|3 ⊙
+#uni.reaction(
+  "Kraft blockieren",
+  "3",
+  [
+    Das Modell versucht eine Kraft zu #uni.lnk("Kraft blockieren", alt: "blockieren") während ein gegnerisches Modell sie ausspielt.
+  ],
 
-// 3+<a|Das Modell versucht eine Kraft zu <<Kraft blockieren, blockieren>> während ein gegnerisches Modell sie ausspielt.
-
-// .^|icon:bolt[]
-// 2+<|Kann durchgeführt werden sobald ein gegnerisches Modell eine Kraft einsetzt.
-
-// |===
+  condition: [
+    Kann durchgeführt werden sobald ein gegnerisches Modell eine Kraft einsetzt.
+  ],
+)
 
 == Kraft blockieren
+<Kraft-blockieren>
 #index("Kräfte", "Blockieren")
 
 Nur Modelle die einer Disziplin angehören können auch Kräfte blockieren.
