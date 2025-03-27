@@ -21,6 +21,21 @@
   }
 }
 
+#let example(caption, content) = {
+  let border_size = 5pt
+  block(
+    stroke: gray,
+    radius: border_size,
+    inset: border_size,
+    figure(
+      supplement: "Beispiel",
+      kind: "Beispiel",
+      content,
+      caption: caption,
+    ),
+  )
+}
+
 #let style(doc) = [
 
   #let heading_font = "Noto Sans"
