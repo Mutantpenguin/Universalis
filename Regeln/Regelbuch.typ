@@ -2839,7 +2839,7 @@ Jede Spielmechanik die über #uni.lnk("Eigenschaften") hinaus geht sollte als Kr
 <Kraft-Auswahl>
 #index("Kräfte", "Auswahl")
 
-// Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
+Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
 Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
 
 Jeder Spieler entscheidet #uni.lnk("Vorbereiten der Gruppe", alt: "vor Spielbeginn"), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
