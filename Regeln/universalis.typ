@@ -25,6 +25,8 @@
 
   #let heading_font = "Noto Sans"
 
+  #set text(lang: "de")
+
   #set figure(supplement: "Abbildung")
 
   #set par(
