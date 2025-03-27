@@ -1,5 +1,7 @@
-#let img_aktion = image("Grafiken/Allgemein/aktion.svg", alt: "Aktion")
-#let img_reaktion = image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion")
+#import "@preview/in-dexter:0.7.0": *
+
+#let img_aktion = image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt)
+#let img_reaktion = image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion", height: 10pt)
 
 #let lnk(label_name, alt: "") = {
   let label = label(label_name.replace(" ", "-"))
@@ -34,6 +36,73 @@
     ),
     caption: caption,
   )
+}
+
+#let _activity(icon, index_parent, name, points, content, condition) = {
+  block(
+    stroke: black,
+    radius: 5pt,
+    breakable: false,
+    clip: true,
+    [
+      // header
+      #table(
+        columns: (15%, 1fr, 20%),
+        stroke: (x, y) => (
+          top: if y > 0 { black },
+          left: if x > 0 { black },
+          bottom: black,
+        ),
+        align: alignment.center,
+        table.cell(
+          align: horizon,
+          icon,
+        ),
+        table.cell(
+          align: horizon,
+          name + index(index_parent, name),
+        ),
+        table.cell(
+          align: horizon,
+          text(points + " ⊙", weight: "bold"),
+        ),
+      )
+
+      #v(0pt, weak: true)
+
+      #block(
+        inset: 5pt,
+        content,
+      )
+
+      #if condition != "" {
+        v(0pt, weak: true)
+
+        // footer
+        table(
+          columns: (15%, 1fr),
+          stroke: (x, y) => (
+            top: black,
+            left: if x > 0 { black },
+          ),
+          align: alignment.center,
+          table.cell("!"), // TODO show the correct symbol for "conditions"
+          table.cell(
+            align: left + horizon,
+            condition,
+          ),
+        )
+      }
+    ],
+  )
+}
+
+#let action(name, points, content, condition: "") = {
+  _activity(img_aktion, "Aktionen", name, points, content, condition)
+}
+
+#let reaction(name, points, content, condition: "") = {
+  _activity(img_reaktion, "Reaktionen", name, points, content, condition)
 }
 
 #let style(doc) = [
