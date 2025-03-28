@@ -2175,25 +2175,23 @@ Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Mo
 
 Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
-// [%unbreakable%header,cols="^1,^1",frame=ends]
-// |===
+#table(
+  columns: 100%,
+  align: center + horizon,
+  table.header([*Aktionen*]),
+  uni.lnk("Nahkampf-Aktionen", alt: "Angriff"),
+  uni.lnk("Nahkampf-Aktionen", alt: "Verwegener Angriff"),
+  uni.lnk("Bewegung-Aktionen", alt: "Aus Nahkampf lösen"),
+  uni.lnk("Kraft-Aktionen", alt: "Kraft einsetzen"),
+)
 
-// |Aktion
-// |Reaktion
-
-// |<<Nahkampf-Aktionen,Angriff>>
-// |<<Nahkampf-Reaktionen,Gegenangriff>>
-
-// |<<Nahkampf-Aktionen,Verwegener Angriff>>
-// |<<Nahkampf-Reaktionen,Gelegenheitsangriff>>
-
-// |<<Bewegung-Aktionen,Aus Nahkampf lösen>>
-// |
-
-// |<<Kraft-Aktionen,Kraft einsetzen>>
-// |
-
-// |===
+#table(
+  columns: 100%,
+  align: center + horizon,
+  table.header([*Reaktionen*]),
+  uni.lnk("Nahkampf-Reaktionen", alt: "Gegenangriff"),
+  uni.lnk("Nahkampf-Reaktionen", alt: "Gelegenheitsangriff"),
+)
 
 == Durchführung
 
