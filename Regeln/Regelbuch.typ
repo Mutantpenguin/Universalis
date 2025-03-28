@@ -449,44 +449,26 @@ Sie sind an folgendem Symbol zu erkennen:
 
 === Übersicht
 
-// [%unbreakable%header,cols="1,^1,^1",frame=ends]
-// |===
+#table(
+  columns: (3fr, 2fr, 2fr),
+  align: (x, y) => {
+    if x > 0 {
+      center + horizon
+    } else {
+      left + horizon
+    }
+  },
+  table.header([], [*Aktionen*], [*Reaktionen*]),
+  "Ausrüstung", ref(<Ausrüstung-Aktionen>, form: "page"), "",
+  "Bewegen", ref(<Bewegung-Aktionen>, form: "page"), ref(<Bewegung-Reaktionen>, form: "page"),
+  "Eigenschaften", ref(<Eigenschaften-Aktionen>, form: "page"), "",
+  "Fernkampf", ref(<Fernkampf-Aktionen>, form: "page"), ref(<Fernkampf-Reaktionen>, form: "page"),
+  "Kräfte", ref(<Kraft-Aktionen>, form: "page"), ref(<Kraft-Reaktionen>, form: "page"),
+  "Nahkampf", ref(<Nahkampf-Aktionen>, form: "page"), ref(<Nahkampf-Reaktionen>, form: "page"),
+  "Tarnung", ref(<Tarnung-Aktionen>, form: "page"), ref(<Tarnung-Reaktionen>, form: "page"),
+)
 
-// |
-// |Aktionen
-// |Reaktionen
-
-// |Ausrüstung
-// |image:Grafiken/Allgemein/aktion.svg[link=#Ausrüstung-Aktionen]
-// |
-
-// |Bewegen
-// |image:Grafiken/Allgemein/aktion.svg[link=#Bewegung-Aktionen]
-// |image:Grafiken/Allgemein/reaktion.svg[link=#Bewegung-Reaktionen]
-
-// |Eigenschaften
-// |image:Grafiken/Allgemein/aktion.svg[link=#Eigenschaften-Aktionen]
-// |
-
-// |Fernkampf
-// |image:Grafiken/Allgemein/aktion.svg[link=#Fernkampf-Aktionen]
-// |image:Grafiken/Allgemein/reaktion.svg[link=#Fernkampf-Reaktionen]
-
-// |Kräfte
-// |image:Grafiken/Allgemein/aktion.svg[link=#Kraft-Aktionen]
-// |image:Grafiken/Allgemein/reaktion.svg[link=#Kraft-Reaktionen]
-
-// |Nahkampf
-// |image:Grafiken/Allgemein/aktion.svg[link=#Nahkampf-Aktionen]
-// |image:Grafiken/Allgemein/reaktion.svg[link=#Nahkampf-Reaktionen]
-
-// |Tarnung
-// |image:Grafiken/Allgemein/aktion.svg[link=#Tarnung-Aktionen]
-// |image:Grafiken/Allgemein/reaktion.svg[link=#Tarnung-Reaktionen]
-
-// |===
-
-=== Sichtfeld
+== Sichtfeld
 <Sichtfeld>
 #index[Sichtfeld]
 
