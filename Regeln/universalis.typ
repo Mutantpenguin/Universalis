@@ -11,7 +11,7 @@
       let display_name = if alt.len() > 0 { alt } else { label_name }
       link(label)[#display_name]
       " ("
-      ref(label, form: "page", supplement: "Seite")
+      ref(label, form: "page")
       ")"
     } else {
       text(
