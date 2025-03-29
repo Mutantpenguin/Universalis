@@ -3082,12 +3082,10 @@ Ein eventueller TP-Verlust wird ebenfalls angewendet.
   #make-index(title: none)
 ]
 
-// [appendix]
-= Geländetypen
+= Anhang A: Geländetypen
 <Anhang-Geländetypen>
-// include::_Geländetypen.adoc[]
+#include "_Geländetypen.typ"
 
-// [appendix]
-= Objekte
+= Anhang B: Objekte
 <Anhang-Objekte>
-// include::_Objekte.adoc[]
+#include "_Objekte.typ"
