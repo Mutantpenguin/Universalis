@@ -330,20 +330,25 @@ Sie stehen für die Menge an #uni.lnk("Schadensanwendung", alt: "Schaden"), die 
 
 Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
 
-// [%unbreakable,cols="h,5",frame=ends]
-// |===
+#block(
+  breakable: false,
+  uni.table_v(
+    columns: (20%, 80%),
+    align: left + top,
 
-// |Weiss
-// |Normale Trefferpunkte
+    [*Weiss*],
+    "Normale Trefferpunkte",
 
-// |Orange
-// a|Kritische Trefferpunkte
+    [*Orange*],
+    [
+      Kritische Trefferpunkte
 
-// Sobald ein Modell nur noch über kritische Trefferpunkte verfügt, verfällt es in den <<Kritisch,kritischen Zustand>>.
+      Sobald ein Modell nur noch über kritische Trefferpunkte verfügt, verfällt es in den #uni.lnk("Kritisch", alt: "kritischen Zustand").
+    ],
+  ),
+)
 
-// |===
-
-// Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
+Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 
 == Attribute
 <Attribute>
@@ -591,22 +596,22 @@ Befreundete Modelle behindern sie nicht.
 
 Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
 
-// Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
+Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
-// [%unbreakable,cols="h,^1,^1,^1",frame=ends]
-// |===
+#uni.table_v(
+  columns: (auto, 1fr, 1fr, 1fr),
+  align: left + top,
 
-// |Typ
-// |Standard
-// |Begleiter
-// |Koloss
+  [*Modelltyp*],
+  "Standard",
+  "Begleiter",
+  "Koloss",
 
-// |Tragkraft in kg
-// |`KO²`
-// |`KO²`
-// |`( KO * 2 )²`
-
-// |===
+  [*Tragkraft in kg*],
+  $ "KO"² $,
+  $ "KO"² $,
+  $ ( "KO" * 2 ) ² $,
+)
 
 Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
 Wird er jedoch überschritten werden AGI und GK jeweils um 1 verringert.
@@ -1120,22 +1125,21 @@ Darüber hinaus erleidet es automatisch einen Treffer.
 Die Stärke des Treffers entspricht der KO des gefallenen Modells.
 Der Schaden orientiert sich ebenfalls an der KO des Modells.
 
-// [%unbreakable%header,cols="^2,^1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (2fr, 1fr),
+  align: center + top,
 
-// |Fallhöhe
-// |Schaden
+  table.header([*Fallhöhe*], [*Schaden*]),
 
-// |*bis einschliesslich* Größenprofil
-// |kein Schaden
+  [*bis einschliesslich*] + "\nGrößenprofil",
+  "kein Schaden",
 
-// |*bis einschliesslich* doppeltem Größenprofil
-// |halbe KO (abgerundet)
+  [*bis einschliesslich doppeltem*] + "\nGrößenprofil",
+  "halbe KO\n(abgerundet)",
 
-// |*größer als* doppeltes Größenprofil
-// |KO
-
-// |===
+  [*größer als doppeltes*] + "\nGrößenprofil",
+  "KO",
+)
 
 == Schnelle Bewegungen
 <Schnelle-Bewegungen>
@@ -1253,21 +1257,23 @@ Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
 Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
 
-// [%unbreakable,cols="h,4",frame=ends]
-// |===
+#uni.table_v(
+  columns: (auto, 1fr),
+  align: left + top,
 
-// |Normal
-// |Es gibt keine Einschränkungen.
+  [*Normal*],
+  "Es gibt keine Einschränkungen.",
 
-// |Schwierig
-// a|Jede Bewegungsaktion die in, aus oder durch diese Geländestück führt wird halbiert (aufgerundet).
+  [*Schwierig*],
+  [
+    Jede Bewegungsaktion die in, aus oder durch diese Geländestück führt wird halbiert (aufgerundet).
 
-// Auf Wunsch kann ein Bewegungstest abgelegt werden. Wenn er gelingt wird die Bewegung nicht halbiert, wenn er misslingt bleibt das Modell an seinem Platz, fällt, und gilt als <<Liegende Modelle,liegend>>.
+    Auf Wunsch kann ein Bewegungstest abgelegt werden. Wenn er gelingt wird die Bewegung nicht halbiert, wenn er misslingt bleibt das Modell an seinem Platz, fällt, und gilt als #uni.lnk("Liegende Modelle", alt: "liegend").
+  ],
 
-// |Unpassierbar
-// |Dieses Gelände kann nicht betreten oder durchquert werden.
-
-// |===
+  [*Unpassierbar*],
+  "Dieses Gelände kann nicht betreten oder durchquert werden.",
+)
 
 == Sichtweite
 <Sichtweite>
@@ -1361,22 +1367,20 @@ Es kann aber auch #uni.lnk("Ausrüstung") geben welche dabei hilft.
 
 Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen #uni.lnk("Schadenseffekte", alt: "Schadenseffekten") angegeben.
 
-// [%unbreakable%header,cols="^1,1,3",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, auto, 1fr),
+  align: left + top,
 
-// |Symbol
-// |Name
-// |Bedeutung
+  table.header([*Symbol*], [*Name*], [*Bedeutung*]),
 
-// |image:Grafiken/Waffe/stärke.svg[Stärke,40]
-// |Stärke
-// |erhöht die Chance beim <<Verletzungs-und-Rüstungswurf,Verletzungswurf>>
+  image("Grafiken/Waffe/stärke.svg", alt: "Stärke"),
+  "Stärke",
+  [erhöht die Chance beim #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Verletzungswurf")],
 
-// |image:Grafiken/Waffe/schaden.svg[Schaden,40]
-// |Schaden
-// |zugefügter Verlust an Trefferpunkten
-
-// |===
+  image("Grafiken/Waffe/schaden.svg", alt: "Schaden"),
+  "Schaden",
+  "zugefügter Verlust an Trefferpunkten",
+)
 
 #uni.example(image("Grafiken/Abbildungen/schadensprofil.jpg", alt: "Schadensprofil"))
 
@@ -1386,22 +1390,20 @@ Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen #un
 
 Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventuellen #uni.lnk("Schadenseffekte", alt: "Schadenseffekten") angegeben.
 
-// [%unbreakable%header,cols="^1,1,3",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, 1fr, 2fr),
+  align: left + top,
 
-// |Symbol
-// |Name
-// |Bedeutung
+  table.header([*Symbol*], [*Name*], [*Bedeutung*]),
 
-// |image:Grafiken/Rüstung/schutz.svg[Schutz,40]
-// |((Schutz))
-// |erhöht die Chance beim <<Verletzungs-und-Rüstungswurf,Rüstungswurf>>
+  image("Grafiken/Rüstung/schutz.svg", alt: "Schutz"),
+  "Schutz" + index[Schutz],
+  [erhöht die Chance beim #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Rüstungswurf")],
 
-// |image:Grafiken/Rüstung/schadensreduktion.svg[Schadensreduktion,40]
-// |((Schadensreduktion))
-// |Reduktion des Verlusts an Trefferpunkten
-
-// |===
+  image("Grafiken/Rüstung/schadensreduktion.svg", alt: "Schadensreduktion"),
+  "Schadensreduktion" + index[Schadensreduktion],
+  "Reduktion des Verlusts an Trefferpunkten",
+)
 
 #uni.example(image("Grafiken/Abbildungen/rüstungsprofil.jpg", alt: "Rüstungsprofil"))
 
@@ -1538,22 +1540,21 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 
 // Nun wird die folgende Tabelle konsultiert:
 
-// [%unbreakable%header,cols="1,3",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, 1fr),
+  align: left + top,
 
-// |Höheres Ergebnis
-// |Auswirkungen
+  table.header([*Höheres Ergebnis*], [*Auswirkungen*]),
 
-// |Verteidiger
-// |Nichts passiert.
+  "Verteidiger",
+  "Nichts passiert.",
 
-// |Gleichstand
-// |Der Verteidiger erleidet einen <<Schock>>.
+  "Gleichstand",
+  [Der Verteidiger erleidet einen #uni.lnk("Schock").],
 
-// |Angreifer
-// |Der Schaden kommt zur <<Schadensanwendung,Anwendung>>.
-
-// |===
+  "Angreifer",
+  [Der Schaden kommt zur #uni.lnk("Schadensanwendung", alt: "Anwendung").],
+)
 
 == Schadensanwendung
 <Schadensanwendung>
@@ -1587,22 +1588,28 @@ Sie können keine #uni.lnk("Aktionen und Reaktionen") ausführen.
 
 Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Tabelle:
 
-// [%unbreakable%header,cols="^1,5",frame=ends]
-// |===
 
-// |Ergebnis
-// |Auswirkung
+#uni.table_h(
+  columns: (auto, 1fr),
+  align: (x, _) => {
+    if x > 0 {
+      left + top
+    } else {
+      center + top
+    }
+  },
 
-// |1-8
-// |Das Modell erleidet einen automatischen Treffer mit dem <<Schadensprofil>> der Waffe, die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich mit seiner vollen Bewegung W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.
+  table.header([*Ergebnis*], [*Auswirkung*]),
 
-// |9-11
-// |Der Brandmarker wird vom Modell entfernt und es erleidet 1 <<Schock>>.
+  "1-8",
+  [Das Modell erleidet einen automatischen Treffer mit dem #uni.lnk("Schadensprofil") der Waffe, die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich mit seiner vollen Bewegung W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.],
 
-// |12+
-// |Der Brandmarker wird entfernt.
+  "9-11",
+  [Der Brandmarker wird vom Modell entfernt und es erleidet 1 #uni.lnk("Schock").],
 
-// |===
+  "12+",
+  "Der Brandmarker wird entfernt.",
+)
 
 === Hilfe durch befreundete Modelle
 
@@ -1667,28 +1674,27 @@ Wenn er gelingt, wird der Panikmarker entfernt.
 Sollten sich Modelle im Wahrnehmungsbereich befinden kommen folgende Modifikatoren zur Anwendung.
 Modelle in Panik werden hierbei ignoriert.
 
-// [%unbreakable%header,cols="^5,^1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, auto),
+  align: center + top,
 
-// |Typ
-// |Modifikator
+  table.header([*Typ*], [*Mod.*]),
 
-// |das gerade eliminierte befreundete Modell
-// |-3
+  "das gerade eliminierte befreundete Modell",
+  "-3",
 
-// |andere eliminierte befreundete Modelle
-// |-2
+  "andere eliminierte befreundete Modelle",
+  "-2",
 
-// |gegnerisches Modell
-// |-1
+  "gegnerisches Modell",
+  "-1",
 
-// |befreundetes Modell
-// |+1
+  "befreundetes Modell",
+  "+1",
 
-// |befreundetes Modell im Basekontakt
-// |+3
-
-// |===
+  "befreundetes Modell im Basekontakt",
+  "+3",
+)
 
 == Schock
 <Schock>
@@ -2093,25 +2099,24 @@ Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") getarnte Modelle bes
 
 Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher oder schwieriger zu treffen.
 
-// [%unbreakable%header,cols="^1,^1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (50%, 50%),
+  align: center + top,
 
-// |Typ
-// |Modifikator
+  table.header([*Größe*], [*Modifikator*]),
 
-// |kleines Ziel
-// |-1
+  "kleines Ziel",
+  "-1",
 
-// |mittleres Ziel
-// |±0
+  "mittleres Ziel",
+  "±0",
 
-// |großes Ziel
-// |+1
+  "großes Ziel",
+  "+1",
 
-// |riesiges Ziel
-// |+2
-
-// |===
+  "riesiges Ziel",
+  "+2",
+)
 
 === Deckung des Ziels
 <Deckung-des-Ziels>
@@ -2119,22 +2124,21 @@ Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher od
 
 Der durch eventuelle #uni.lnk("Deckung") angewandte Modifikator.
 
-// [%unbreakable%header,cols="^1,^1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (50%, 50%),
+  align: center + top,
 
-// |Stufe
-// |Modifikator
+  table.header([*Stufe*], [*Modifikator*]),
 
-// |weich
-// |-1
+  "weich",
+  "-1",
 
-// |hart
-// |-2
+  "hart",
+  "-2",
 
-// |massiv
-// |-3
-
-// |===
+  "massiv",
+  "-3",
+)
 
 === Unhandliche Waffen
 <Fernkampf-Unhandlich>
@@ -2294,27 +2298,28 @@ Um einen Nahkampf durchzuführen, muss die Base des angreifenden Modells die Bas
 Nun wird für beide Modelle ein vergleichender Wurf auf NK durchgeführt für den eventuelle #uni.lnk("Nahkampf-Modifikatoren", alt: "Modifikatoren") zur Anwendung kommen können.
 Der Gewinner muss eine der Auswirkungen auswählen.
 
-// [%unbreakable%header,cols="1,3",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, 1fr),
+  align: left + top,
 
-// |Gewinner
-// |Auswirkungen
+  table.header([*Gewinner*], [*Auswirkungen*]),
 
-// |Angreifer
-// a|
-// * einen <<Verletzungs-und-Rüstungswurf,Treffer>> mit der zuvor ausgewählten Nahkampfwaffe landen
-// * das verteidigende Modell <<Zurückstoßen,zurückstoßen>>
-// * eine <<Kräfte,Kraft>> mit der <<Kraft-Reichweite,Reichweite>> _Berührung_ einsetzen
+  "Angreifer",
+  [
+    - einen #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Treffer") mit der zuvor ausgewählten Nahkampfwaffe landen
+    - das verteidigende Modell #uni.lnk("Zurückstoßen", alt: "zurückstoßen")
+    - eine #uni.lnk("Disziplinen und Kräfte", alt: "Kraft") mit der #uni.lnk("Kraft-Reichweite", alt: "Reichweite") _Berührung_ einsetzen
+  ],
 
-// |Verteidiger
-// a|
-// * Das angreifende Modell <<Zurückstoßen, zurückstoßen>>.
-// * Nichts tun.
+  "Verteidiger",
+  [
+    - Das angreifende Modell #uni.lnk("Zurückstoßen", alt: "zurückstoßen").
+    - Nichts tun.
+  ],
 
-// |Gleichstand
-// |Nichts passiert.
-
-// |===
+  "Gleichstand",
+  "Nichts passiert.",
+)
 
 == Zurückstoßen
 <Zurückstoßen>
