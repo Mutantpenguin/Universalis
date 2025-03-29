@@ -1529,16 +1529,16 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 #index[Verletzungswurf]
 #index[Rüstungswurf]
 
-// Beide Spieler führen einen vergleichenden Wurf durch.
-// Der Angreifer addiert die Stärke seiner Waffe, dies wird _Verletzungswurf_ genannt.
-// Der Verteidiger addiert den Schutz seiner Rüstung, dies wird _Rüstungswurf_ genannt.
+Beide Spieler führen einen vergleichenden Wurf durch.
+Der Angreifer addiert die Stärke seiner Waffe, dies wird _Verletzungswurf_ genannt.
+Der Verteidiger addiert den Schutz seiner Rüstung, dies wird _Rüstungswurf_ genannt.
 
-// Hierbei kommen alle Schadenseffekte zur Anwendung.
+Hierbei kommen alle Schadenseffekte zur Anwendung.
 
-// Sofern der Verteidiger über keine Rüstung verfügt addiert er stattdessen seine KO.
-// Sie wird auch verwendet, falls sie höher als der Schutz der Rüstung sein sollte.
+Sofern der Verteidiger über keine Rüstung verfügt addiert er stattdessen seine KO.
+Sie wird auch verwendet, falls sie höher als der Schutz der Rüstung sein sollte.
 
-// Nun wird die folgende Tabelle konsultiert:
+Nun wird die folgende Tabelle konsultiert:
 
 #uni.table_h(
   columns: (auto, 1fr),
