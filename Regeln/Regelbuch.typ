@@ -111,19 +111,37 @@
 
 + Des weiteren werden Token für die folgenden Zustände benötigt:
 
-  #table(
+  #uni.table_h(
     columns: (30%, 70%),
     align: (center + horizon, left + horizon),
     table.header([*Symbol*], [*Bedeutung*]),
-    image("Grafiken/Token/brennen.svg", alt: "Brennen"), uni.lnk("Brennen"),
-    image("Grafiken/Token/feuerbereitschaft.svg", alt: "Feuerbereitschaft"), uni.lnk("Fernkampf-Aktionen", alt: "Feuerbereitschaft"),
-    image("Grafiken/Token/panik.svg", alt: "Panik"), uni.lnk("Panik"),
-    image("Grafiken/Token/gift.svg", alt: "Gift"), uni.lnk("Vergiftung", alt: "Gift"),
-    image("Grafiken/Token/nachladen.svg", alt: "Nachladen"), uni.lnk("Nachladen"),
-    image("Grafiken/Token/schnell.svg", alt: "Schnell"), uni.lnk("Schnelle Bewegungen", alt: "Schnelle Bewegung"),
-    image("Grafiken/Token/schock.svg", alt: "Schock"), uni.lnk("Schock"),
-    image("Grafiken/Token/tarnung.svg", alt: "Tarnung"), uni.lnk("Tarnung"),
-    image("Grafiken/Token/verteidigung.svg", alt: "Verteidigung"), uni.lnk("Nahkampf-Aktionen", alt: "Verteidigung"),
+
+    image("Grafiken/Token/brennen.svg", alt: "Brennen"),
+    uni.lnk("Brennen"),
+
+    image("Grafiken/Token/feuerbereitschaft.svg", alt: "Feuerbereitschaft"),
+    uni.lnk("Fernkampf-Aktionen", alt: "Feuerbereitschaft"),
+
+    image("Grafiken/Token/panik.svg", alt: "Panik"),
+    uni.lnk("Panik"),
+
+    image("Grafiken/Token/gift.svg", alt: "Gift"),
+    uni.lnk("Vergiftung", alt: "Gift"),
+
+    image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
+    uni.lnk("Nachladen"),
+
+    image("Grafiken/Token/schnell.svg", alt: "Schnell"),
+    uni.lnk("Schnelle Bewegungen", alt: "Schnelle Bewegung"),
+
+    image("Grafiken/Token/schock.svg", alt: "Schock"),
+    uni.lnk("Schock"),
+
+    image("Grafiken/Token/tarnung.svg", alt: "Tarnung"),
+    uni.lnk("Tarnung"),
+
+    image("Grafiken/Token/verteidigung.svg", alt: "Verteidigung"),
+    uni.lnk("Nahkampf-Aktionen", alt: "Verteidigung"),
   )
 
 Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
@@ -167,28 +185,64 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
 
 #block(
   breakable: false,
-  table(
+  uni.table_h(
     columns: (30%, 70%),
     align: (center + horizon, left + horizon),
     table.header([*Nr.*], [*Bedeutung*]),
-    "1.", [#uni.lnk("Trefferpunkte")],
-    "2.", [Name des Modells],
-    "3.", [#uni.lnk("Attribute")],
-    "4.", [#uni.lnk("Wahrnehmungsbereich")],
-    "5.", [#uni.lnk("Gefahrenbereich")],
-    "6.", [#uni.lnk("Modell-Typen", alt: "Typ des Modells")],
-    "7.", [#uni.lnk("Größenprofil")],
-    "8.", [#uni.lnk("Bewegungsart")],
-    "9.", [#uni.lnk("Geschwindigkeit")],
-    "10.", [#uni.lnk("Eigenschaften")],
-    "11.", [#uni.lnk("Waffen")],
-    "12.", [#uni.lnk("Rüstungen")],
-    "13.", [#uni.lnk("Ausrüstung")],
-    "14.", [#uni.lnk("Schadensprofil")],
-    "15.", [#uni.lnk("Rüstungsprofil")],
-    "16.", [Punkte],
-    "17.", [#uni.lnk("Disziplinen und Kräfte")],
-    "18.", [#uni.lnk("Fraktionen")],
+
+    "1.",
+    [#uni.lnk("Trefferpunkte")],
+
+    "2.",
+    [Name des Modells],
+
+    "3.",
+    [#uni.lnk("Attribute")],
+
+    "4.",
+    [#uni.lnk("Wahrnehmungsbereich")],
+
+    "5.",
+    [#uni.lnk("Gefahrenbereich")],
+
+    "6.",
+    [#uni.lnk("Modell-Typen", alt: "Typ des Modells")],
+
+    "7.",
+    [#uni.lnk("Größenprofil")],
+
+    "8.",
+    [#uni.lnk("Bewegungsart")],
+
+    "9.",
+    [#uni.lnk("Geschwindigkeit")],
+
+    "10.",
+    [#uni.lnk("Eigenschaften")],
+
+    "11.",
+    [#uni.lnk("Waffen")],
+
+    "12.",
+    [#uni.lnk("Rüstungen")],
+
+    "13.",
+    [#uni.lnk("Ausrüstung")],
+
+    "14.",
+    [#uni.lnk("Schadensprofil")],
+
+    "15.",
+    [#uni.lnk("Rüstungsprofil")],
+
+    "16.",
+    [Punkte],
+
+    "17.",
+    [#uni.lnk("Disziplinen und Kräfte")],
+
+    "18.",
+    [#uni.lnk("Fraktionen")],
   ),
 )
 
@@ -236,12 +290,21 @@ Siehe @fig-modell-typen.
 #figure(
   placement: bottom,
   scope: "parent",
-  table(
+  uni.table_h(
     columns: (10%, 20%, 50%, 20%),
     align: left + horizon,
     table.header([*Symbol*], [*Name*], [*Beschreibung*], [*Größenprofil*]),
-    image("Grafiken/Modell/Standard.svg", alt: "Standard"), "Standard", "Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.", "klein bis groß",
-    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"), [#uni.lnk("Begleiter")], "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.", "klein bis riesig",
+
+    image("Grafiken/Modell/Standard.svg", alt: "Standard"),
+    "Standard",
+    "Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.",
+    "klein bis groß",
+
+    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"),
+    [#uni.lnk("Begleiter")],
+    "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.",
+    "klein bis riesig",
+
     image("Grafiken/Modell/Koloss.svg", alt: "Koloss"),
     [#uni.lnk("Kolosse", alt: "Koloss")],
     "Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.",
@@ -290,15 +353,20 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 
 #block(
   breakable: false,
-  table(
+  uni.table_h(
     columns: (20%, 80%),
     align: (center + horizon, left + horizon),
     table.header([*Kürzel*], [*Beschreibung*]),
+
     [*AGI*] + [#index[AGI]] + [#index("Attribute", "AGI")],
     [*Agilität*] + "\nSteht für das Reaktionsvermögen des Modells. Siehe z.B. " + [#uni.lnk("Reaktionen")] + " und " + [#uni.lnk("Bewegungstest")] + ".",
 
-    [*NK*] + [#index[NK]] + [#index("Attribute", "NK")], [*Nahkampf*] + "\nStellt die Nahkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Nahkampf")] + ".",
-    [*FK*] + [#index[FK]] + [#index("Attribute", "FK")], [*Fernkampf*] + "\nStellt die Fernkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Fernkampf")] + ".",
+    [*NK*] + [#index[NK]] + [#index("Attribute", "NK")],
+    [*Nahkampf*] + "\nStellt die Nahkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Nahkampf")] + ".",
+
+    [*FK*] + [#index[FK]] + [#index("Attribute", "FK")],
+    [*Fernkampf*] + "\nStellt die Fernkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Fernkampf")] + ".",
+
     [*KO*] + [#index[KO]] + [#index("Attribute", "KO")],
     [*Konstitution*] + "\nDrückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. " + [#uni.lnk("Tragkraft")] + ".",
 
@@ -311,11 +379,16 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
 )
 
 #uni.example(
-  table(
+  uni.table_h(
     columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
     align: center + horizon,
     table.header([*AGI*], [*NK*], [*FK*], [*KO*], [*WN*], [*EH*]),
-    "4", "2", "2", "3", "3", "3",
+    "4",
+    "2",
+    "2",
+    "3",
+    "3",
+    "3",
   ),
   caption: "normaler Mensch",
 )
@@ -449,7 +522,7 @@ Sie sind an folgendem Symbol zu erkennen:
 
 === Übersicht
 
-#table(
+#uni.table_h(
   columns: (3fr, 2fr, 2fr),
   align: (x, y) => {
     if x > 0 {
@@ -459,13 +532,34 @@ Sie sind an folgendem Symbol zu erkennen:
     }
   },
   table.header([], [*Aktionen*], [*Reaktionen*]),
-  "Ausrüstung", ref(<Ausrüstung-Aktionen>, form: "page"), "",
-  "Bewegen", ref(<Bewegung-Aktionen>, form: "page"), ref(<Bewegung-Reaktionen>, form: "page"),
-  "Eigenschaften", ref(<Eigenschaften-Aktionen>, form: "page"), "",
-  "Fernkampf", ref(<Fernkampf-Aktionen>, form: "page"), ref(<Fernkampf-Reaktionen>, form: "page"),
-  "Kräfte", ref(<Kraft-Aktionen>, form: "page"), ref(<Kraft-Reaktionen>, form: "page"),
-  "Nahkampf", ref(<Nahkampf-Aktionen>, form: "page"), ref(<Nahkampf-Reaktionen>, form: "page"),
-  "Tarnung", ref(<Tarnung-Aktionen>, form: "page"), ref(<Tarnung-Reaktionen>, form: "page"),
+
+  "Ausrüstung",
+  ref(<Ausrüstung-Aktionen>, form: "page"),
+  "",
+
+  "Bewegen",
+  ref(<Bewegung-Aktionen>, form: "page"),
+  ref(<Bewegung-Reaktionen>, form: "page"),
+
+  "Eigenschaften",
+  ref(<Eigenschaften-Aktionen>, form: "page"),
+  "",
+
+  "Fernkampf",
+  ref(<Fernkampf-Aktionen>, form: "page"),
+  ref(<Fernkampf-Reaktionen>, form: "page"),
+
+  "Kräfte",
+  ref(<Kraft-Aktionen>, form: "page"),
+  ref(<Kraft-Reaktionen>, form: "page"),
+
+  "Nahkampf",
+  ref(<Nahkampf-Aktionen>, form: "page"),
+  ref(<Nahkampf-Reaktionen>, form: "page"),
+
+  "Tarnung",
+  ref(<Tarnung-Aktionen>, form: "page"),
+  ref(<Tarnung-Reaktionen>, form: "page"),
 )
 
 == Sichtfeld
@@ -2175,7 +2269,7 @@ Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Mo
 
 Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
-#table(
+#uni.table_h(
   columns: 100%,
   align: center + horizon,
   table.header([*Aktionen*]),
@@ -2185,7 +2279,7 @@ Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und R
   uni.lnk("Kraft-Aktionen", alt: "Kraft einsetzen"),
 )
 
-#table(
+#uni.table_h(
   columns: 100%,
   align: center + horizon,
   table.header([*Reaktionen*]),
