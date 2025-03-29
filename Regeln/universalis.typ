@@ -56,7 +56,7 @@
 #let _activity(icon, index_parent, name, points, content, condition) = {
   block(
     stroke: black,
-    radius: 5pt,
+    radius: 3pt,
     breakable: false,
     clip: true,
     [
