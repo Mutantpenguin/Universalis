@@ -2542,7 +2542,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 #index("Tarnung", "Vorteile")
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
-// Damit das möglich ist, müssen sie zuerst <<Aufklärung,aufgeklärt>> werden.
+Damit das möglich ist, müssen sie zuerst #uni.lnk("Aufklärung", alt: "aufgeklärt") werden.
 
 Sie können nicht durch Flächenwaffen getroffen werden.
 
