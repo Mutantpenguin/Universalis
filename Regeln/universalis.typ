@@ -3,6 +3,21 @@
 #let img_aktion = image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt)
 #let img_reaktion = image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion", height: 10pt)
 
+#let table_line_width = 0.1pt
+
+#let _base_table = table.with(
+  stroke: (x, y) => (
+    top: table_line_width,
+    bottom: table_line_width,
+    left: if x > 0 { table_line_width },
+    rest: none,
+  ),
+)
+
+#let table_h = _base_table.with(fill: (_, y) => (if y == 0 { luma(240) }))
+#let table_v = _base_table.with(fill: (x, _) => (if x == 0 { luma(240) }))
+#let table_n = _base_table
+
 #let lnk(label_name, alt: "") = {
   let label = label(label_name.replace(" ", "-"))
 
@@ -53,6 +68,7 @@
           left: if x > 0 { black },
           bottom: black,
         ),
+        fill: luma(240),
         align: alignment.center,
         table.cell(
           align: horizon,
@@ -85,6 +101,7 @@
             top: black,
             left: if x > 0 { black },
           ),
+          fill: luma(240),
           align: alignment.center,
           table.cell("!"), // TODO show the correct symbol for "conditions"
           table.cell(
@@ -163,17 +180,6 @@
   )
 
   #show link: underline
-
-  #let table_line_width = 0.1pt
-  #set table(
-    stroke: (x, y) => (
-      top: table_line_width,
-      bottom: table_line_width,
-      left: if x > 0 { table_line_width },
-      rest: none,
-    ),
-    fill: (_, y) => (if y == 0 { luma(240) }),
-  )
 
   #set text(
     font: "Noto Sans",
