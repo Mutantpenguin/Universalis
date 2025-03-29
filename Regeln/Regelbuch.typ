@@ -2474,22 +2474,21 @@ Die Stärke entspricht der Konstitution.
 Der Schaden berechnet sich durch die KO geteilt durch 3 (aufgerundet).
 Die Waffenklasse ist abhängig von der Größe des Modells.
 
-// [%unbreakable%header,cols="^1,^1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (50%, 50%),
+  align: center + top,
 
-// |Größe des Modells
-// |Waffenklasse
+  table.header([*Größe des Modells*], [*Waffenklasse*]),
 
-// |klein bis mittel
-// |I
+  "klein bis mittel",
+  "I",
 
-// |groß
-// |II
+  "groß",
+  "II",
 
-// |riesig
-// |III
-
-// |===
+  "riesig",
+  "III",
+)
 
 #uni.example(
   align(
@@ -2520,19 +2519,24 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 == Voraussetzungen
 
-// [%unbreakable%header,cols="^1,6",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, 1fr),
+  align: (x, _) => {
+    if x > 1 {
+      center + top
+    } else {
+      left + top
+    }
+  },
 
-// |Typ
-// |Voraussetzung
+  table.header([*Typ*], [*Voraussetzung*]),
 
-// |passiv
-// |Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem <<Geländestücke,Geländestück>> (welches mindestens über die gleichen Ausmaße wie das <<Größenprofil>> des Modell verfügt) befindet.
+  "passiv",
+  [Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem #uni.lnk("Geländestücke", alt: "Geländestück") (welches mindestens über die gleichen Ausmaße wie das #uni.lnk("Größenprofil") des Modell verfügt) befindet.],
 
-// |aktiv
-// |Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem <<Geländestücke,Geländestück>> befinden oder nicht.
-
-// |===
+  "aktiv",
+  [Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem #uni.lnk("Geländestücke", alt: "Geländestück") befinden oder nicht.],
+)
 
 == Vorteile
 #index("Tarnung", "Vorteile")
@@ -2885,22 +2889,42 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
   image("Grafiken/Abbildungen/kraftkarte_übersicht.svg", alt: "Aufbau Kraftkarte"),
 )
 
-// [%unbreakable,cols="1,1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (30%, 70%),
+  align: (x, _) => {
+    if x > 0 {
+      left + top
+    } else {
+      center + top
+    }
+  },
 
-// |1. Bezeichnung
-// |5. <<Kraft-TP-Verlust>>
+  table.header([*Nr.*], [*Bedeutung*]),
 
-// |2. Regeln
-// |6. <<Kraft-Ziel>>
+  "1.",
+  "Bezeichnung",
 
-// |3. <<Kraft-AP-Kosten>>
-// |7. <<Kraft-Reichweite>>
+  "2.",
+  "Regeln",
 
-// |4. <<Kraft-Attribut>>
-// |8. <<Kraft-Dauer>>
+  "3.",
+  [#uni.lnk("Kraft-AP-Kosten", alt: "AP Kosten")],
 
-// |===
+  "4.",
+  [#uni.lnk("Kraft-Attribut", alt: "Attribut")],
+
+  "5.",
+  [#uni.lnk("Kraft-TP-Verlust", alt: "TP-Verlust")],
+
+  "6.",
+  [#uni.lnk("Kraft-Ziel", alt: "Ziel")],
+
+  "7.",
+  [#uni.lnk("Kraft-Reichweite", alt: "Reichweite")],
+
+  "8.",
+  [#uni.lnk("Kraft-Dauer", alt: "Dauer")],
+)
 
 === AP-Kosten
 <Kraft-AP-Kosten>
@@ -2938,16 +2962,15 @@ Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem #uni.lnk("A
 
 Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
-// [%unbreakable%header,cols="^1,^1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (50%, 50%),
+  align: center + top,
 
-// |bei Misserfolg
-// |Automatisch
+  table.header([*bei Misserfolg*], [*Automatisch*]),
 
-// |image:Grafiken/Kraft/SchadenMisserfolg.svg[Misserfolg]
-// |image:Grafiken/Kraft/SchadenAutomatisch.svg[Automatisch]
-
-// |===
+  image("Grafiken/Kraft/SchadenMisserfolg.svg", alt: "Misserfolg"),
+  image("Grafiken/Kraft/SchadenAutomatisch.svg", alt: "Automatisch"),
+)
 
 === Ziel
 <Kraft-Ziel>
@@ -2956,25 +2979,27 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
-// [%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
-// |===
+#uni.table_h(
+  columns: (40%, 1fr),
+  align: (x, _) => {
+    if x > 0 {
+      left + top
+    } else {
+      center + top
+    }
+  },
 
-// 2+|Ziel
-// |Bedeutung
+  table.header([*Ziel*], [*Bedeutung*]),
 
-// |image:Grafiken/Kraft/ZielBereich.svg[Bereich]
-// |Bereich
-// |Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.
+  image("Grafiken/Kraft/ZielBereich.svg", alt: "Bereich") + "Bereich",
+  "Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.",
 
-// |image:Grafiken/Kraft/ZielModell.svg[Modell]
-// |Modell
-// |Die Kraft kann auf einem anderen Modell eingesetzt werden.
+  image("Grafiken/Kraft/ZielModell.svg", alt: "Modell") + "Modell",
+  "Die Kraft kann auf einem anderen Modell eingesetzt werden.",
 
-// |image:Grafiken/Kraft/ZielNutzer.svg[Nutzer]
-// |Nutzer
-// |Die Kraft kann auf dem Nutzer eingesetzt werden.
-
-// |===
+  image("Grafiken/Kraft/ZielNutzer.svg", alt: "Nutzer") + "Nutzer",
+  "Die Kraft kann auf dem Nutzer eingesetzt werden.",
+)
 
 === Reichweite
 <Kraft-Reichweite>
@@ -2982,23 +3007,28 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
 
-// [%unbreakable%header,cols="^.^1,^.^2,.^6",frame=ends]
-// |===
+#uni.table_h(
+  columns: (40%, 1fr),
+  align: (x, _) => {
+    if x > 0 {
+      left + top
+    } else {
+      center + top
+    }
+  },
 
-// 2+|Reichweite
-// |Bedeutung
+  table.header([*Reichweite*], [*Bedeutung*]),
 
-// |image:Grafiken/Kraft/ReichweiteBerührung.svg[Berührung]
-// |Berührung
-// |Für den Einsatz muss Basekontakt bestehen.
+  image("Grafiken/Kraft/ReichweiteBerührung.svg", alt: "Berührung") + "Berührung",
+  [
+    "Für den Einsatz muss Basekontakt bestehen."
 
-// Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher <<Nahkampf,Nahkampfangriff>> durchgeführt werden.
+    Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher #uni.lnk("Nahkampf", alt: "Nahkampfangriff") durchgeführt werden.
+  ],
 
-// |image:Grafiken/Kraft/ReichweiteDistanz.svg[Distanz]
-// |Distanz
-// |Die Kraft kann auf Distanz eingesetzt werden.
-
-// |===
+  image("Grafiken/Kraft/ReichweiteDistanz.svg", alt: "Distanz") + "Distanz",
+  "Die Kraft kann auf Distanz eingesetzt werden.",
+)
 
 === Dauer
 <Kraft-Dauer>
@@ -3012,16 +3042,15 @@ Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel is
 Manche Kräfte können sich auch selber beenden.
 In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.
 
-// [%unbreakable%header,cols="^1,^1",frame=ends]
-// |===
+#uni.table_h(
+  columns: (50%, 50%),
+  align: center + top,
 
-// |Sofort
-// |Dauerhaft
+  table.header([*Sofort*], [*Dauerhaft*]),
 
-// |image:Grafiken/Kraft/DauerSofort.svg[Sofort]
-// |image:Grafiken/Kraft/DauerDauerhaft.svg[Dauerhaft]
-
-// |===
+  image("Grafiken/Kraft/DauerSofort.svg", alt: "Sofort"),
+  image("Grafiken/Kraft/DauerDauerhaft.svg", alt: "Dauerhaft"),
+)
 
 == Aktionen
 <Kraft-Aktionen>
