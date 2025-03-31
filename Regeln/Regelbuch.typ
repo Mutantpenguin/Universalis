@@ -504,7 +504,7 @@ Sie sind an folgendem Symbol zu erkennen:
 
 #align(
   center,
-  uni.img_aktion,
+  uni.img.activity.aktion,
 )
 
 === Reaktionen
@@ -522,7 +522,7 @@ Sie sind an folgendem Symbol zu erkennen:
 
 #align(
   center,
-  uni.img_reaktion,
+  uni.img.activity.reaktion,
 )
 
 === Übersicht
