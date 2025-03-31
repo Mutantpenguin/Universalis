@@ -1,7 +1,11 @@
 #import "@preview/in-dexter:0.7.0": *
 
-#let img_aktion = image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt)
-#let img_reaktion = image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion", height: 10pt)
+#let img = (
+  activity: (
+    aktion: image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt),
+    reaktion: image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion", height: 10pt),
+  ),
+)
 
 #let table_line_width = 0.1pt
 
@@ -115,11 +119,11 @@
 }
 
 #let action(name, points, content, condition: "") = {
-  _activity(img_aktion, "Aktionen", name, points, content, condition)
+  _activity(img.activity.aktion, "Aktionen", name, points, content, condition)
 }
 
 #let reaction(name, points, content, condition: "") = {
-  _activity(img_reaktion, "Reaktionen", name, points, content, condition)
+  _activity(img.activity.reaktion, "Reaktionen", name, points, content, condition)
 }
 
 #let style(doc) = [
