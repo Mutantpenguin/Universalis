@@ -7,6 +7,11 @@
   ),
 )
 
+#let color = (
+  primary: rgb("#495664ff"),
+  secondary: rgb("#f8fcebff"),
+)
+
 #let table_line_width = 0.1pt
 
 #let _base_table = table.with(
