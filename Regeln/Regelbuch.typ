@@ -708,16 +708,14 @@ Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
 <Wahrnehmungsbereich>
 #index[Wahrnehmungsbereich]
 
-Der Wahrnehmungsbereich umfasst alles um ein Modell in #uni.lnk("Sichtlinie") in einem gewissen Radius.
-
-#figure(
-  image("Grafiken/Abbildungen/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich"),
-  caption: "Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.",
-)
-
-Der Radius berechnet sich dabei folgendermaßen:
+Der Wahrnehmungsbereich umfasst alles um ein Modell in #uni.lnk("Sichtlinie") in einem Radius der folgendermaßen berechnet wird:
 
 $ "Radius in Zoll" = "WN" * 2 $
+
+#figure(
+  image("Grafiken/Abbildungen/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich", width: 60%),
+  caption: "Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.",
+)
 
 Im #uni.lnk("Kritisch", alt: "Kritischen Zustand") wird der Radius des Wahrnehmungsbereichs halbiert (aufgerundet).
 
