@@ -2747,54 +2747,56 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 === Kritischer Zustand
 #index("Kolosse", "Kritischer Zustand")
 
-// [%unbreakable,cols="h,4"]
-// |===
+#uni.table_v(
+  columns: (auto, 1fr),
+  align: left + top,
 
-// |*Rumpf*
-// |Wie bei Standard Modellen. Siehe <<Kritisch,Kritischer Zustand>>.
+  [*Rumpf*],
+  [Wie bei Standard Modellen. Siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand").],
 
-// |*Seite*
-// |Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.
+  [*Seite*],
+  "Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.",
 
-// |*Bewegung*
-// |Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.
-
-// |===
+  [*Bewegung*],
+  "Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.",
+)
 
 === Verlust aller Trefferpunkte
 #index("Kolosse", "Verlust aller Trefferpunkte")
 
-// [%unbreakable,cols="h,4a"]
-// |===
+#uni.table_v(
+  columns: (auto, 1fr),
+  align: left + top,
 
-// |*Rumpf*
-// |Sinkt in sich zusammen und gilt als <<Eliminiert,eliminiert>>.
-// Ist nun ein Geländestück.
+  [*Rumpf*],
+  [
+    Sinkt in sich zusammen und gilt als #uni.lnk("Eliminiert", alt: "eliminiert").
+    Ist nun ein Geländestück.
+  ],
 
-// |*Seite*
-// |Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
-// Außerdem werden AGI und NK um 1 verringert.
+  [*Seite*],
+  [
+    Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
+    Außerdem werden AGI und NK um 1 verringert.
+  ],
 
-// |*Bewegung*
-// |
-// [%unbreakable%header,cols="^1,4",frame=ends]
-// !===
+  [*Bewegung*],
+  uni.table_h(
+    columns: (auto, 1fr),
+    align: left + top,
 
-// !W12
-// !Auswirkung
+    table.header([*W12*], [*Auswirkung*]),
 
-// !1-6
-// !Bleibt auf der Stelle stehen und kann sich noch drehen.
+    "1-6",
+    "Bleibt auf der Stelle stehen und kann sich noch drehen.",
 
-// !7-11
-// !Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.
+    "7-11",
+    "Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.",
 
-// !12
-// !Fällt um und gilt als <<Eliminiert,eliminiert>>. Ist nun ein Geländestück.
-
-// !===
-
-// |===
+    "12",
+    [Fällt um und gilt als #uni.lnk("Eliminiert", alt: "eliminiert"). Ist nun ein Geländestück.],
+  ),
+)
 
 = Begleiter
 <Begleiter>
