@@ -1780,6 +1780,16 @@ Waffen verfügen über ein #uni.lnk("Schadensprofil") und eventuelle #uni.lnk("P
 
 Weiterhin können für sie Regeln wie #uni.lnk("Indirekter-Fernkampf"), #uni.lnk("Dauerfeuer") oder #uni.lnk("Flächenwaffen", alt: "Flächenwaffe") infrage kommen.
 
+== Waffenklassen
+
+Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
+Je größer/komplexer desto höher die Waffenklasse.
+
+Waffenklassen werden mit „WK“ abgekürzt.
+WK I steht somit für Waffen der Klasse 1.
+
+Siehe #uni.lnk("Anhang-Beispiele-Waffenklassen", alt: "Anhang: Beispiele Waffenklassen").
+
 == Fernkampfwaffen
 
 Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines #uni.lnk("Reichweite", alt: "Reichweitenbandes") und einer Angabe für eventuelles #uni.lnk("Dauerfeuer").
@@ -1804,14 +1814,6 @@ Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei #
     ],
   ),
 )
-
-== Waffenklassen
-
-Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
-Je größer/komplexer desto höher die Waffenklasse.
-
-Waffenklassen werden mit „WK“ abgekürzt.
-WK I steht somit für Waffen der Klasse 1.
 
 == Additive Stärke
 
@@ -1871,73 +1873,6 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
     ],
   ),
 )
-
-== Beispiele für Waffenklassen
-
-// [%unbreakable%header,cols="^.^1,2,2",frame=ends]
-// |===
-
-// |Klasse
-// |Nahkampf
-// |Fernkampf
-
-// .4+|I
-// <|Knüppel
-// |Maschinenpistole
-
-// <|Messer
-// |Pistole
-
-// <|Schlagring
-// |Schleuder
-
-// |
-// |Wurfstern
-
-// .4+|II
-// <|Morgenstern
-// |Armbrust
-
-// <|Schwert
-// |Bogen
-
-// <|Speer
-// |Gewehr
-
-// |
-// |Speer
-
-// .4+|III
-// <|Axt
-// |Granatwerfer
-
-// <|Hellebarde
-// |Maschinengewehr
-
-// <|Vorschlaghammer
-// |
-
-// <|Zweihänder
-// |
-
-// .2+|IV
-// <|Kettensäge
-// |Panzerfaust
-
-// |
-// |Scharfschützengewehr
-
-// .3+|V
-// <|kleiner Baum
-// |Arbalest
-
-// <|Straßenschild
-// |Lafettengeschütz
-
-// |
-// |Panzerkanone
-
-// |===
 
 = Rüstungen
 <Rüstungen>
@@ -3169,3 +3104,7 @@ Ein eventueller TP-Verlust wird ebenfalls angewendet.
 = Anhang B: Objekte
 <Anhang-Objekte>
 #include "_Objekte.typ"
+
+= Anhang C: Beispiele Waffenklassen
+<Anhang-Beispiele-Waffenklassen>
+#include "_Waffenklassen.typ"
