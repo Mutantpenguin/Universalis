@@ -1,7 +1,7 @@
 #import "universalis.typ" as uni
 
 #uni.table_h(
-  columns: (1fr, 2fr),
+  columns: (auto, 1fr),
   align: left + top,
   table.header([*Objekt*], [*Beschränkungen*]),
 
@@ -33,7 +33,7 @@
   ],
   [
     #uni.table_n(
-      columns: (1fr, 2fr),
+      columns: (auto, 1fr),
       align: left + top,
       "unverschlossen",
       "-",
