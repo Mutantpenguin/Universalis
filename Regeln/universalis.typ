@@ -1,5 +1,7 @@
 #import "@preview/in-dexter:0.7.0": *
 
+#let version = "0.7.0"
+
 #let img = (
   activity: (
     aktion: image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt),
@@ -165,8 +167,12 @@
     )
     pagebreak(weak: true)
     block(
-      smallcaps(it.body),
-      below: 1.5em,
+      [
+        #smallcaps(it.body)
+        #v(5pt, weak: true)
+        #line(length: 100%)
+      ],
+      below: 1em,
     )
   }
 

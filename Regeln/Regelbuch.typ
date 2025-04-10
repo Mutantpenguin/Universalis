@@ -57,18 +57,14 @@
   scope: "parent",
   clearance: 2em,
 )[
-  #align(
-    center,
-    underline(
-      text(
-        font: "Nova Round",
-        size: 40pt,
-        title,
-      ),
-      extent: 20pt,
-      offset: 10pt,
-    ),
+  #text(
+    font: "Nova Round",
+    size: 40pt,
+    title,
   )
+  #v(10pt, weak: true)
+  #line(length: 100%, stroke: 2pt)
+  #align(right)[Version #uni.version]
 
   #v(20pt)
 
