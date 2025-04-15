@@ -1363,32 +1363,38 @@ Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüll
 
 Die folgenden Beschränkungen sind möglich, auch in Kombination.
 
-// [%unbreakable%header,cols="h,3,3",frame=ends]
-// |===
+*_Eigenschaft_*
 
-// |Art
-// |Beschränkung
-// |Beispiele
+Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
 
-// |Eigenschaft
-// |Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
-// a|
-// * _Hacking III_ um ein Terminal der Stufe III zu hacken.
-// * _Schlossknacken_ um Schlösser zu knacken.
+#uni.example(
+  align(left)[
+    - _Hacking III_ um ein Terminal der Stufe III zu hacken.
+    - _Schlossknacken_ um Schlösser zu knacken.
+  ],
+)
 
-// |Schwierigkeit
-// |<<Attributswurf>> mit optionalem Modifikator notwendig.
-// a|
-// * KO-Test um die Winde eines Falltors zu drehen.
-// * WN-2-Test um ein elektronisches Schloss kurz zu schließen.
+*_Schwierigkeit_*
 
-// |Komplex
-// |Alles ist möglich.
-// a|
-// * Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
-// * Ein konkret benanntes anderes Objekt wurde bereits benutzt.
+#uni.lnk("Attributswurf") mit optionalem Modifikator notwendig.
 
-// |===
+#uni.example(
+  align(left)[
+    - KO-Test um die Winde eines Falltors zu drehen.
+    - WN-2-Test um ein elektronisches Schloss kurz zu schließen.
+  ],
+)
+
+*_Komplex_*
+
+Alles ist möglich.
+
+#uni.example(
+  align(left)[
+    - Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
+    - Ein konkret benanntes anderes Objekt wurde bereits benutzt.
+  ],
+)
 
 = Schaden & Rüstung
 <Schaden-und-Rüstung>
