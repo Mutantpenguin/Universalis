@@ -162,7 +162,7 @@
   #show heading.where(level: 1): it => {
     set text(
       font: heading_font,
-      size: 20pt,
+      size: 22pt,
       weight: "bold",
     )
     pagebreak(weak: true)
