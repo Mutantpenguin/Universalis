@@ -1476,99 +1476,144 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 === Waffen und Rüstungen
 <Schadenseffekte-Waffen-und-Rüstungen>
 
-// [%unbreakable]
-// --
-// [%header,cols="^1,2,5",frame=ends]
-// |===
+#block(
+  breakable: false,
+  uni.table_v(
+    align: (x, _) => {
+      if x > 0 {
+        left + top
+      } else {
+        center + top
+      }
+    },
+    columns: (20%, 1fr),
 
-// |Symbol
-// |Name
-// |Auswirkungen
+    image("Grafiken/Effekt/brand.svg", alt: "Brand"),
+    [
+      *Brand*
 
-// |image:Grafiken/Effekt/brand.svg[Brand,40]
-// |Brand
-// |Wenn das Modell überlebt erhält es einen Brandmarker. Siehe <<Brennen>>.
+      Wenn das Modell überlebt erhält es einen Brandmarker. Siehe #uni.lnk("Brennen").
+    ],
 
-// |image:Grafiken/Effekt/erschütterung.svg[Erschütterung,40]
-// |Erschütterung
-// |Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    image("Grafiken/Effekt/erschütterung.svg", alt: "Erschütterung"),
+    [
+      *Erschütterung*
 
-// |image:Grafiken/Effekt/explosiv.svg[Explosiv,40]
-// |Explosiv
-// |Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.
+      Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    ],
 
-// |image:Grafiken/Effekt/giftig.svg[Giftig,40]
-// |Giftig
-// |Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe <<Vergiftung>>.
+    image("Grafiken/Effekt/explosiv.svg", alt: "Explosiv"),
+    [
+      *Explosiv*
 
-// |image:Grafiken/Effekt/panzerbrechend.svg[Panzerbrechend,40]
-// |Panzerbrechend
-// |Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).
+      Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.
+    ],
 
-// |image:Grafiken/Effekt/schrapnell.svg[Schrapnell,40]
-// |Schrapnell
-// |Boni auf den Rüstungswurf die durch <<Deckung>> oder <<Vorteile von Tarnung, Tarnung>> zustande kommen werden nicht angewendet.
+    image("Grafiken/Effekt/giftig.svg", alt: "Giftig"),
+    [
+      *Giftig*
 
-// |image:Grafiken/Effekt/wucht.svg[Wucht,40]
-// |Wucht
-// |Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+      Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe #uni.lnk("Vergiftung").
+    ],
 
-// |image:Grafiken/Effekt/zerfetzen.svg[Zerfetzen,40]
-// |Zerfetzen
-// |Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.
+    image("Grafiken/Effekt/panzerbrechend.svg", alt: "Panzerbrechend"),
+    [
+      *Panzerbrechend*
 
-// |===
-// --
+      Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).
+    ],
+
+    image("Grafiken/Effekt/schrapnell.svg", alt: "Schrapnell"),
+    [
+      *Schrapnell*
+
+      Boni auf den Rüstungswurf die durch #uni.lnk("Deckung") oder #uni.lnk("Vorteile-Tarnung", alt: "Tarnung") zustande kommen werden nicht angewendet.
+    ],
+
+    image("Grafiken/Effekt/wucht.svg", alt: "Wucht"),
+    [
+      *Wucht*
+
+      Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+    ],
+
+    image("Grafiken/Effekt/zerfetzen.svg", alt: "Zerfetzen"),
+    [
+      *Zerfetzen*
+
+      Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.
+    ],
+  ),
+)
 
 === Waffen
 <Schadenseffekte-Waffen>
 
-// [%unbreakable]
-// --
-// [%header,cols="^1,2,5",frame=ends]
-// |===
+#block(
+  breakable: false,
+  uni.table_v(
+    align: (x, _) => {
+      if x > 0 {
+        left + top
+      } else {
+        center + top
+      }
+    },
+    columns: (20%, 1fr),
 
-// |Symbol
-// |Name
-// |Auswirkungen
+    image("Grafiken/Effekt/schock.svg", alt: "Schock"),
+    [
+      *Schock*
 
-// |image:Grafiken/Effekt/schock.svg[Schock,40]
-// |Schock
-// |Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an <<Schock,Schocks>> in Höhe des Schadens.
+      Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an #uni.lnk("Schock", alt: "Schocks") in Höhe des Schadens.
+    ],
 
-// |image:Grafiken/Effekt/strukturschädigend.svg[Strukturschädigend,40]
-// |Strukturschädigend
-// |Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.
+    image("Grafiken/Effekt/strukturschädigend.svg", alt: "Strukturschädigend"),
+    [
+      *Strukturschädigend*
 
-// |===
-// --
+      Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.
+    ],
+  ),
+)
 
 === Rüstungen
 <Schadenseffekte-Rüstungen>
 
-// [%unbreakable]
-// --
-// [%header,cols="^1,2,5",frame=ends]
-// |===
+#block(
+  breakable: false,
+  uni.table_v(
+    align: (x, _) => {
+      if x > 0 {
+        left + top
+      } else {
+        center + top
+      }
+    },
+    columns: (20%, 1fr),
 
-// |Symbol
-// |Name
-// |Auswirkungen
+    image("Grafiken/Effekt/adaptiv.svg", alt: "Adaptiv"),
+    [
+      *Adaptiv*
 
-// |image:Grafiken/Effekt/adaptiv.svg[Adaptiv,40]
-// |Adaptiv
-// |Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+      Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+    ],
 
-// |image:Grafiken/Effekt/robust.svg[Robust,40]
-// |Robust
-// |Der Verteidiger darf den Angreifer zwingen den Verletzungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    image("Grafiken/Effekt/robust.svg", alt: "Robust"),
+    [
+      *Robust*
 
-// |image:Grafiken/Effekt/strukturverstärkt.svg[Strukturverstärkt,40]
-// |Strukturverstärkt
-// |Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.
+      Der Verteidiger darf den Angreifer zwingen den Verletzungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    ],
 
-// |===
-// --
+    image("Grafiken/Effekt/strukturverstärkt.svg", alt: "Strukturverstärkt"),
+    [
+      *Strukturverstärkt*
+
+      Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.
+    ],
+  ),
+)
 
 == Verletzungs- und Rüstungswurf
 <Verletzungs-und-Rüstungswurf>
@@ -2520,6 +2565,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 )
 
 == Vorteile
+<Vorteile-Tarnung>
 #index("Tarnung", "Vorteile")
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
