@@ -3092,8 +3092,8 @@ Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
 
-= Stichwortverzeichnis
 #set page(columns: 1)
+= Stichwortverzeichnis
 
 #columns(3)[
   #make-index(title: none)
