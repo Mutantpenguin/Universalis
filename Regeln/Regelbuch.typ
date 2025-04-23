@@ -57,14 +57,24 @@
   scope: "parent",
   clearance: 2em,
 )[
-  #text(
-    font: "Nova Round",
-    size: 40pt,
-    title,
+  #grid(
+    columns: (1fr, 1fr),
+    [
+      #text(
+        font: "Nova Round",
+        size: 40pt,
+        title,
+      )
+      #v(10pt, weak: true)
+      Version #uni.version
+    ],
+    align(
+      right,
+      image("../Grafiken/logo.svg", width: 30%),
+    ),
   )
   #v(10pt, weak: true)
   #line(length: 100%, stroke: 2pt)
-  #align(right)[Version #uni.version]
 
   #v(20pt)
 
