@@ -40,10 +40,16 @@
       ref(label, form: "page")
       ")"
     } else {
-      text(
-        "<LNK LABEL '" + label_name + "' NOT FOUND>",
-        weight: "bold",
+      box(
         fill: red,
+        outset: 4pt,
+        radius: 3pt,
+        stroke: luma(1),
+        text(
+          "LNK LABEL '" + label_name + "' NOT FOUND",
+          weight: "bold",
+          fill: black,
+        ),
       )
     }
   }
