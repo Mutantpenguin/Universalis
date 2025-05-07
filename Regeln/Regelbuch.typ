@@ -141,7 +141,7 @@
     ],
   )
 
-+ Für jeden Spieler mindestens 2 #uni.lnk("Modelle") und dazugehörige #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt:"Aktivierungskarten").
++ Für jeden Spieler mindestens 2 #uni.lnk("Modelle") und dazugehörige #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten").
 
 + #block(
     breakable: false,
