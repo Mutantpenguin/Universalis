@@ -2307,25 +2307,19 @@ Unter Nahkampf wird jeglicher Kampf mit einer #uni.lnk("Waffen", alt: "Waffe") v
 
 Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Modelle im Nahkampf miteinander befinden.
 
+== Einschränkungen
+
 Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
-#uni.table_h(
-  columns: 100%,
-  align: center + horizon,
-  table.header([*Aktionen*]),
-  uni.lnk("Nahkampf-Aktionen", alt: "Angriff"),
-  uni.lnk("Nahkampf-Aktionen", alt: "Verwegener Angriff"),
-  uni.lnk("Bewegung-Aktionen", alt: "Aus Nahkampf lösen"),
-  uni.lnk("Kraft-Aktionen", alt: "Kraft einsetzen"),
-)
+*Aktionen*
+- #uni.lnk("Nahkampf-Aktionen", alt: "Angriff"),
+- #uni.lnk("Nahkampf-Aktionen", alt: "Verwegener Angriff"),
+- #uni.lnk("Bewegung-Aktionen", alt: "Aus Nahkampf lösen"),
+- #uni.lnk("Kraft-Aktionen", alt: "Kraft einsetzen"),
 
-#uni.table_h(
-  columns: 100%,
-  align: center + horizon,
-  table.header([*Reaktionen*]),
-  uni.lnk("Nahkampf-Reaktionen", alt: "Gegenangriff"),
-  uni.lnk("Nahkampf-Reaktionen", alt: "Gelegenheitsangriff"),
-)
+*Reaktionen*
+- #uni.lnk("Nahkampf-Reaktionen", alt: "Gegenangriff"),
+- #uni.lnk("Nahkampf-Reaktionen", alt: "Gelegenheitsangriff"),
 
 == Durchführung
 
