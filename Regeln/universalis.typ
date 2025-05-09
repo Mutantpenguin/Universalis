@@ -176,7 +176,7 @@
       [
         #smallcaps(it.body)
         #v(5pt, weak: true)
-        #line(length: 100%)
+        #line(length: 100%, stroke: gradient.linear(black, white))
       ],
       below: 1em,
     )
@@ -188,7 +188,11 @@
       size: 12pt,
       weight: "bold",
     )
-    block(smallcaps(it.body))
+    block([
+      #smallcaps(it.body)
+      #v(5pt, weak: true)
+      #line(length: 100%, stroke: gradient.linear(luma(200), white))
+    ])
   }
 
   #show heading.where(level: 3): it => {
