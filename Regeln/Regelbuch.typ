@@ -650,19 +650,22 @@ Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon
 
 Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
-#uni.table_v(
-  columns: (auto, 1fr, 1fr, 1fr),
-  align: left + top,
+#block(
+  breakable: false,
+  uni.table_v(
+    columns: (auto, 1fr, 1fr, 1fr),
+    align: left + top,
 
-  [*Modelltyp*],
-  "Standard",
-  "Begleiter",
-  "Koloss",
+    [*Modelltyp*],
+    "Standard",
+    "Begleiter",
+    "Koloss",
 
-  [*Tragkraft in kg*],
-  $ "KO"² $,
-  $ "KO"² $,
-  $ ( "KO" * 2 ) ² $,
+    [*Tragkraft in kg*],
+    $ "KO"² $,
+    $ "KO"² $,
+    $ ( "KO" * 2 ) ² $,
+  ),
 )
 
 Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
