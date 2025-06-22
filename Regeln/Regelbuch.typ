@@ -2159,23 +2159,21 @@ Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") getarnte Modelle bes
 
 Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher oder schwieriger zu treffen.
 
-#uni.table_h(
-  columns: (50%, 50%),
-  align: center + top,
+#block(
+  breakable: false,
 
-  table.header([*Größe*], [*Modifikator*]),
+  uni.table_h(
+    columns: (auto, 1fr, 1fr, 1fr, 1fr),
+    align: (left + top, center + top, center + top, center + top, center + top),
 
-  "kleines Ziel",
-  "-1",
+    table.header([], [*klein*], [*mittel*], [*groß*], [*riesig*]),
 
-  "mittleres Ziel",
-  "±0",
-
-  "großes Ziel",
-  "+1",
-
-  "riesiges Ziel",
-  "+2",
+    [*Modifikator*],
+    "-1",
+    "±0",
+    "+1",
+    "+2",
+  ),
 )
 
 === Deckung des Ziels
