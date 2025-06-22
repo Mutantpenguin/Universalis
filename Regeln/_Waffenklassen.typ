@@ -9,7 +9,7 @@
   table.cell(
     rowspan: 4,
     align: horizon,
-    "I",
+    [*I*],
   ),
 
   "Knüppel",
@@ -27,7 +27,7 @@
   table.cell(
     rowspan: 4,
     align: horizon,
-    "II",
+    [*II*],
   ),
 
   "Morgenstern",
@@ -45,7 +45,7 @@
   table.cell(
     rowspan: 4,
     align: horizon,
-    "III",
+    [*III*],
   ),
 
   "Axt",
@@ -63,7 +63,7 @@
   table.cell(
     rowspan: 2,
     align: horizon,
-    "IV",
+    [*IV*],
   ),
 
   "Kettensäge",
@@ -75,7 +75,7 @@
   table.cell(
     rowspan: 3,
     align: horizon,
-    "V",
+    [*V*],
   ),
 
   "kleiner Baum",
