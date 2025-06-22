@@ -365,42 +365,56 @@ Siehe @fig-modell-typen.
   caption: "Modell-Typen",
 ) <fig-modell-typen>
 
-== Geschwindigkeit
-<Geschwindigkeit>
-#index[Geschwindigkeit]
+== Größenprofil
+<Größenprofil>
+#index[Größenprofil]
 
-Gibt an, wie weit sich ein Modell mit einer Aktion in Zoll bewegen kann.
-Sie wird mit GK abgekürzt.
+Modelle werden in 4 verschiedene Größenprofile gegliedert. Siehe @fig-modell-groessen.
 
-Siehe auch #uni.lnk("Bewegung").
+#figure(
+  placement: bottom,
+  scope: "parent",
+  uni.table_h(
+    columns: (10%, 10%, 1fr, 20%, 10%),
+    align: left + horizon,
+    table.header([*Symbol*], [*Name*], [*Beschreibung*], [*Base*], [*Höhe*]),
 
-== Trefferpunkte
-<Trefferpunkte>
-#index[Trefferpunkte]
+    image("Grafiken/Größe/klein.svg", alt: "Standard", height: 4%),
+    "klein",
+    "Alles kleiner als einschließlich 1m.",
+    "≤25mm",
+    "1\"",
 
-Sie stehen für die Menge an #uni.lnk("Schadensanwendung", alt: "Schaden"), die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
+    image("Grafiken/Größe/mittel.svg", alt: "Begleiter", height: 4%),
+    "mittel",
+    "Alles zwischen 1m und 2,5m.",
+    "25mm - <40mm",
+    "2\"",
 
-Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
+    image("Grafiken/Größe/groß.svg", alt: "Koloss", height: 4%),
+    "groß",
+    "Alles zwischen 2,5m und 3,5m.",
+    "40mm - <60mm",
+    "3\"",
 
-#block(
-  breakable: false,
-  uni.table_v(
-    columns: (20%, 80%),
-    align: left + top,
-
-    [*Weiss*],
-    "Normale Trefferpunkte",
-
-    [*Orange*],
-    [
-      Kritische Trefferpunkte
-
-      Sobald ein Modell nur noch über kritische Trefferpunkte verfügt, verfällt es in den #uni.lnk("Kritisch", alt: "kritischen Zustand").
-    ],
+    image("Grafiken/Größe/riesig.svg", alt: "Koloss", height: 4%),
+    "riesig",
+    "Alles höher als einschließlich 3,5m.",
+    "≥60mm",
+    "4\"",
   ),
+  caption: "Modell-Typen",
+) <fig-modell-groessen>
+
+Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
+Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht dem tatsächlichen Modell.
+
+#figure(
+  image("Grafiken/Abbildungen/größenprofil.svg", alt: "Größenprofil", width: 100%),
+  caption: "Die grauen Zylinder veranschaulichen die Größenprofile",
 )
 
-Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
+Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. #uni.lnk("Sichtlinie", alt: "Sichtlinien") keine Rolle mehr spielen.
 
 == Attribute
 <Attribute>
@@ -450,56 +464,42 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
   caption: "normaler Mensch",
 )
 
-== Größenprofil
-<Größenprofil>
-#index[Größenprofil]
+== Geschwindigkeit
+<Geschwindigkeit>
+#index[Geschwindigkeit]
 
-// Modelle werden in 4 verschiedene Größenprofile gegliedert:
+Gibt an, wie weit sich ein Modell mit einer Aktion in Zoll bewegen kann.
+Sie wird mit GK abgekürzt.
 
-// [%unbreakable%header,cols="^1,^1,^4,^2,^1",frame=ends]
-// |===
+Siehe auch #uni.lnk("Bewegung").
 
-// |Symbol
-// |Name
-// |Beschreibung
-// |Base
-// |Höhe
+== Trefferpunkte
+<Trefferpunkte>
+#index[Trefferpunkte]
 
-// |image:Grafiken/Größe/klein.svg[klein,40]
-// |klein
-// |Alles kleiner als einschließlich 1m
-// |≤25mm
-// |1"
+Sie stehen für die Menge an #uni.lnk("Schadensanwendung", alt: "Schaden"), die ein Modell erleiden kann, bevor es aus dem Spiel entfernt wird.
 
-// |image:Grafiken/Größe/mittel.svg[mittel,40]
-// |mittel
-// |Alles zwischen 1m und 2,5m.
-// |25mm - <40mm
-// |2"
+Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zwei verschiedenen Farben dargestellt:
 
-// |image:Grafiken/Größe/groß.svg[groß,40]
-// |groß
-// |Alles zwischen 2,5m und 3,5m.
-// |40mm - <60mm
-// |3"
+#block(
+  breakable: false,
+  uni.table_v(
+    columns: (20%, 80%),
+    align: left + top,
 
-// |image:Grafiken/Größe/riesig.svg[riesig,40]
-// |riesig
-// |Alles höher als einschließlich 3,5m.
-// |≥60mm
-// |4"
+    [*Weiss*],
+    "Normale Trefferpunkte",
 
-// |===
+    [*Orange*],
+    [
+      Kritische Trefferpunkte
 
-Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
-Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht dem tatsächlichen Modell.
-
-#figure(
-  image("Grafiken/Abbildungen/größenprofil.svg", alt: "Größenprofil", width: 100%),
-  caption: "Die grauen Zylinder veranschaulichen die Größenprofile",
+      Sobald ein Modell nur noch über kritische Trefferpunkte verfügt, verfällt es in den #uni.lnk("Kritisch", alt: "kritischen Zustand").
+    ],
+  ),
 )
 
-Dies bringt den Vorteil, dass es nun egal ist welche Modelle verwendet werden da überstehende Waffen, Gliedmassen etc. für bspw. #uni.lnk("Sichtlinie", alt: "Sichtlinien") keine Rolle mehr spielen.
+Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 
 == Profilmodifikatoren
 <Profilmodifikatoren>
