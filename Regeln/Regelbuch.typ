@@ -989,48 +989,55 @@ Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch 
 
 Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
 
-// [%unbreakable%header,cols="^1,1,3",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, auto, 1fr),
+  align: left + top,
 
-// |Symbol
-// |Name
-// |Bedeutung
+  table.header([], [*Name*], [*Beschreibung*]),
 
-// |image:Grafiken/Bewegung/beine.svg[Beine,40]
-// |Beine
-// a|
-// * Standard Bewegungsart für Modelle.
-// * Bietet weder spezielle Vorteile noch Nachteile.
+  image("Grafiken/Bewegung/beine.svg", alt: "Beine"),
+  "Beine",
+  [
+    Standard Bewegungsart für Modelle.
+    Bietet weder spezielle Vorteile noch Nachteile.
+  ],
 
-// |image:Grafiken/Bewegung/flug.svg[Flug,40]
-// |Flug
-// a|
-// * Ignoriert <<Passierbarkeit>> von <<Geländestücke,Geländestücken>>.
-// * In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
-// * Kann Nahkampf nur mit anderen fliegenden Modellen durchführen.
+  image("Grafiken/Bewegung/flug.svg", alt: "Flug"),
+  "Flug",
+  [
+    Ignoriert #uni.lnk("Passierbarkeit") von #uni.lnk("Geländestücke", alt: "Geländestücken").
 
-// |image:Grafiken/Bewegung/kette.svg[Kette,40]
-// |Kette
-// a|
-// * Bewegungstests für <<Passierbarkeit>> dürfen einmal wiederholt werden.
+    In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
 
-// |image:Grafiken/Bewegung/rad.svg[Rad,40]
-// |Rad
-// a|
-// * Auf dem <<Geländetypen,Geländetyp>> Straße wird die Bewegung um 50% (abgerundet) erhöht.
+    Kann Nahkampf nur mit anderen fliegenden Modellen durchführen.
+  ],
 
-// |image:Grafiken/Bewegung/schweben.svg[Schweben,40]
-// |Schweben
-// a|
-// * Ignoriert <<Passierbarkeit>> von <<Geländestücke,Geländestücken>>.
-// * Im Nahkampf wird das Modell als eine Stufe Größer behandelt. Siehe <<Größenprofil>> und <<Größenunterschiede>>.
+  image("Grafiken/Bewegung/kette.svg", alt: "Kette"),
+  "Kette",
+  [
+    Bewegungstests für #uni.lnk("Passierbarkeit") dürfen einmal wiederholt werden.
+  ],
 
-// |image:Grafiken/Bewegung/stationär.svg[Stationär,40]
-// |Stationär
-// a|
-// * Kann nicht bewegt werden.
+  image("Grafiken/Bewegung/rad.svg", alt: "Rad"),
+  "Rad",
+  [
+    Auf dem #uni.lnk("Geländetypen", alt: "Geländetyp") Straße wird die Bewegung um 50% (abgerundet) erhöht.
+  ],
 
-// |===
+  image("Grafiken/Bewegung/schweben.svg", alt: "Schweben"),
+  "Schweben",
+  [
+    Ignoriert #uni.lnk("Passierbarkeit") von #uni.lnk("Geländestücke", alt: "Geländestücken").
+
+    Im Nahkampf wird das Modell als eine Stufe Größer behandelt. Siehe #uni.lnk("Größenprofil") und #uni.lnk("Größenunterschiede").
+  ],
+
+  image("Grafiken/Bewegung/stationär.svg", alt: "Stationär"),
+  "Stationär",
+  [
+    Kann nicht bewegt werden.
+  ],
+)
 
 == Bewegungstest
 <Bewegungstest>
@@ -1258,51 +1265,45 @@ Siehe #uni.lnk("Anhang-Geländetypen", alt: "Anhang: Geländetypen") für eine �
 <Deckung>
 #index[Deckung]
 
-Deckung kommt nur im #uni.lnk("Deckung-des-Ziels", alt: "Fernkampf") zur Anwendung.
+Deckung kommt nur im Fernkampf bei #uni.lnk("Deckung-des-Ziels", alt: "FK-Würfen") und #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Rüstungswürfen") zur Anwendung.
 
-Ein Geländestück bietet Deckung wenn:
-
-- es sich zwischen dem Schützen und seinem Ziel befindet und das #uni.lnk("Größenprofil") des Ziels mindestens zur Hälfte verdeckt
-
-oder
-
-- das Ziel sich darin befindet
-
-Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben der zur Anwendung kommt, wenn das Modell das Geländestück berührt oder sich darin befindet.
+Ein Geländestück bietet Deckung wenn das Ziel sich darin befindet, oder es sich zwischen dem Schützen und seinem Ziel befindet und das #uni.lnk("Größenprofil") des Ziels mindestens zur Hälfte verdeckt.
 
 Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
-// [%unbreakable,cols="2h,3,3,3",frame=ends]
-// |===
+=== Weich
 
-// |Stufe
-// ^|weich
-// ^|hart
-// ^|massiv
+Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
+Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-// |Beschreibung
-// a|Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
+#uni.example(
+  align(
+    left,
+    "Gebüsch, Zaun, Plastik, Blech, Möbel",
+  ),
+)
 
-// Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
-// |Kann Beschuss bedingt abhalten.
-// |Ist zur direkten Abwehr von Beschuss geeignet.
+=== Hart
 
-// |Beispiele
-// |Gebüsch, Zaun, Plastik, Blech, Möbel
-// |Ziegelmauer, Holzhaus, Fässer, Kisten
-// |Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
+Kann Beschuss bedingt abhalten.
 
-// ^.^|Bonus auf Rüstungswurf
-// ^.^|-
-// ^.^|+1
-// ^.^|+2
+#uni.example(
+  align(
+    left,
+    "Ziegelmauer, Holzhaus, Fässer, Kisten",
+  ),
+)
 
-// ^.^|Modifikator im Fernkampf
-// ^.^|-1
-// ^.^|-2
-// ^.^|-3
+=== Massiv
 
-// |===
+Ist zur direkten Abwehr von Beschuss geeignet.
+
+#uni.example(
+  align(
+    left,
+    "Sandsackbarrieren, Beton, Stahl, befestigte Stellungen",
+  ),
+)
 
 == Passierbarkeit
 <Passierbarkeit>
@@ -1658,6 +1659,26 @@ Nun wird die folgende Tabelle konsultiert:
 
   "Angreifer",
   [Der Schaden kommt zur #uni.lnk("Schadensanwendung", alt: "Anwendung").],
+)
+
+=== Auswirkungen von Deckung
+
+Falls das verteidigende Modell durch Fernkampf getroffen wurde und ein #uni.lnk("Geländestücke", alt: "Geländestück") berührt oder sich darin befindet, bekommt es einen Bonus auf den Rüstungswurf durch #uni.lnk("Deckung").
+
+#block(
+  breakable: false,
+
+  uni.table_h(
+    columns: (auto, 1fr, 1fr, 1fr),
+    align: (left + top, center + top, center + top, center + top),
+
+    table.header([], [*weich*], [*mittel*], [*hart*]),
+
+    [*Rüstungswurf*],
+    "-",
+    "+1",
+    "+2",
+  ),
 )
 
 == Schadensanwendung
@@ -2138,23 +2159,21 @@ Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") getarnte Modelle bes
 
 Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher oder schwieriger zu treffen.
 
-#uni.table_h(
-  columns: (50%, 50%),
-  align: center + top,
+#block(
+  breakable: false,
 
-  table.header([*Größe*], [*Modifikator*]),
+  uni.table_h(
+    columns: (auto, 1fr, 1fr, 1fr, 1fr),
+    align: (left + top, center + top, center + top, center + top, center + top),
 
-  "kleines Ziel",
-  "-1",
+    table.header([], [*klein*], [*mittel*], [*groß*], [*riesig*]),
 
-  "mittleres Ziel",
-  "±0",
-
-  "großes Ziel",
-  "+1",
-
-  "riesiges Ziel",
-  "+2",
+    [*Modifikator*],
+    "-1",
+    "±0",
+    "+1",
+    "+2",
+  ),
 )
 
 === Deckung des Ziels
@@ -2163,20 +2182,20 @@ Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher od
 
 Der durch eventuelle #uni.lnk("Deckung") angewandte Modifikator.
 
-#uni.table_h(
-  columns: (50%, 50%),
-  align: center + top,
+#block(
+  breakable: false,
 
-  table.header([*Stufe*], [*Modifikator*]),
+  uni.table_h(
+    columns: (auto, 1fr, 1fr, 1fr),
+    align: (left + top, center + top, center + top, center + top),
 
-  "weich",
-  "-1",
+    table.header([], [*weich*], [*mittel*], [*hart*]),
 
-  "hart",
-  "-2",
-
-  "massiv",
-  "-3",
+    [*Modifikator*],
+    "-1",
+    "-2",
+    "-3",
+  ),
 )
 
 === Unhandliche Waffen
