@@ -40,10 +40,16 @@
       ref(label, form: "page")
       ")"
     } else {
-      text(
-        "<LNK LABEL '" + label_name + "' NOT FOUND>",
-        weight: "bold",
+      box(
         fill: red,
+        outset: 4pt,
+        radius: 3pt,
+        stroke: luma(1),
+        text(
+          "LNK LABEL '" + label_name + "' NOT FOUND",
+          weight: "bold",
+          fill: black,
+        ),
       )
     }
   }
@@ -162,7 +168,7 @@
   #show heading.where(level: 1): it => {
     set text(
       font: heading_font,
-      size: 20pt,
+      size: 22pt,
       weight: "bold",
     )
     pagebreak(weak: true)
@@ -170,7 +176,7 @@
       [
         #smallcaps(it.body)
         #v(5pt, weak: true)
-        #line(length: 100%)
+        #line(length: 100%, stroke: gradient.linear(black, white))
       ],
       below: 1em,
     )
@@ -182,7 +188,11 @@
       size: 12pt,
       weight: "bold",
     )
-    block(smallcaps(it.body))
+    block([
+      #smallcaps(it.body)
+      #v(5pt, weak: true)
+      #line(length: 100%, stroke: gradient.linear(luma(200), white))
+    ])
   }
 
   #show heading.where(level: 3): it => {

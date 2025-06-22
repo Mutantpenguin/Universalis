@@ -57,14 +57,24 @@
   scope: "parent",
   clearance: 2em,
 )[
-  #text(
-    font: "Nova Round",
-    size: 40pt,
-    title,
+  #grid(
+    columns: (1fr, 1fr),
+    [
+      #text(
+        font: "Nova Round",
+        size: 40pt,
+        title,
+      )
+      #v(10pt, weak: true)
+      Version #uni.version
+    ],
+    align(
+      right,
+      image("../Grafiken/logo.svg", width: 30%),
+    ),
   )
   #v(10pt, weak: true)
   #line(length: 100%, stroke: 2pt)
-  #align(right)[Version #uni.version]
 
   #v(20pt)
 
@@ -640,19 +650,22 @@ Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon
 
 Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
 
-#uni.table_v(
-  columns: (auto, 1fr, 1fr, 1fr),
-  align: left + top,
+#block(
+  breakable: false,
+  uni.table_v(
+    columns: (auto, 1fr, 1fr, 1fr),
+    align: left + top,
 
-  [*Modelltyp*],
-  "Standard",
-  "Begleiter",
-  "Koloss",
+    [*Modelltyp*],
+    "Standard",
+    "Begleiter",
+    "Koloss",
 
-  [*Tragkraft in kg*],
-  $ "KO"² $,
-  $ "KO"² $,
-  $ ( "KO" * 2 ) ² $,
+    [*Tragkraft in kg*],
+    $ "KO"² $,
+    $ "KO"² $,
+    $ ( "KO" * 2 ) ² $,
+  ),
 )
 
 Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
@@ -1370,32 +1383,38 @@ Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüll
 
 Die folgenden Beschränkungen sind möglich, auch in Kombination.
 
-// [%unbreakable%header,cols="h,3,3",frame=ends]
-// |===
+*_Eigenschaft_*
 
-// |Art
-// |Beschränkung
-// |Beispiele
+Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
 
-// |Eigenschaft
-// |Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
-// a|
-// * _Hacking III_ um ein Terminal der Stufe III zu hacken.
-// * _Schlossknacken_ um Schlösser zu knacken.
+#uni.example(
+  align(left)[
+    - _Hacking III_ um ein Terminal der Stufe III zu hacken.
+    - _Schlossknacken_ um Schlösser zu knacken.
+  ],
+)
 
-// |Schwierigkeit
-// |<<Attributswurf>> mit optionalem Modifikator notwendig.
-// a|
-// * KO-Test um die Winde eines Falltors zu drehen.
-// * WN-2-Test um ein elektronisches Schloss kurz zu schließen.
+*_Schwierigkeit_*
 
-// |Komplex
-// |Alles ist möglich.
-// a|
-// * Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
-// * Ein konkret benanntes anderes Objekt wurde bereits benutzt.
+#uni.lnk("Attributswurf") mit optionalem Modifikator notwendig.
 
-// |===
+#uni.example(
+  align(left)[
+    - KO-Test um die Winde eines Falltors zu drehen.
+    - WN-2-Test um ein elektronisches Schloss kurz zu schließen.
+  ],
+)
+
+*_Komplex_*
+
+Alles ist möglich.
+
+#uni.example(
+  align(left)[
+    - Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
+    - Ein konkret benanntes anderes Objekt wurde bereits benutzt.
+  ],
+)
 
 = Schaden & Rüstung
 <Schaden-und-Rüstung>
@@ -1477,99 +1496,144 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 === Waffen und Rüstungen
 <Schadenseffekte-Waffen-und-Rüstungen>
 
-// [%unbreakable]
-// --
-// [%header,cols="^1,2,5",frame=ends]
-// |===
+#block(
+  breakable: false,
+  uni.table_v(
+    align: (x, _) => {
+      if x > 0 {
+        left + top
+      } else {
+        center + top
+      }
+    },
+    columns: (20%, 1fr),
 
-// |Symbol
-// |Name
-// |Auswirkungen
+    image("Grafiken/Effekt/brand.svg", alt: "Brand"),
+    [
+      *Brand*
 
-// |image:Grafiken/Effekt/brand.svg[Brand,40]
-// |Brand
-// |Wenn das Modell überlebt erhält es einen Brandmarker. Siehe <<Brennen>>.
+      Wenn das Modell überlebt erhält es einen Brandmarker. Siehe #uni.lnk("Brennen").
+    ],
 
-// |image:Grafiken/Effekt/erschütterung.svg[Erschütterung,40]
-// |Erschütterung
-// |Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    image("Grafiken/Effekt/erschütterung.svg", alt: "Erschütterung"),
+    [
+      *Erschütterung*
 
-// |image:Grafiken/Effekt/explosiv.svg[Explosiv,40]
-// |Explosiv
-// |Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.
+      Der Angreifer darf den Verteidiger zwingen den Rüstungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    ],
 
-// |image:Grafiken/Effekt/giftig.svg[Giftig,40]
-// |Giftig
-// |Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe <<Vergiftung>>.
+    image("Grafiken/Effekt/explosiv.svg", alt: "Explosiv"),
+    [
+      *Explosiv*
 
-// |image:Grafiken/Effekt/panzerbrechend.svg[Panzerbrechend,40]
-// |Panzerbrechend
-// |Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).
+      Die Stärke der Waffe wird für den Verletzungswurf verdoppelt.
+    ],
 
-// |image:Grafiken/Effekt/schrapnell.svg[Schrapnell,40]
-// |Schrapnell
-// |Boni auf den Rüstungswurf die durch <<Deckung>> oder <<Vorteile von Tarnung, Tarnung>> zustande kommen werden nicht angewendet.
+    image("Grafiken/Effekt/giftig.svg", alt: "Giftig"),
+    [
+      *Giftig*
 
-// |image:Grafiken/Effekt/wucht.svg[Wucht,40]
-// |Wucht
-// |Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+      Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe #uni.lnk("Vergiftung").
+    ],
 
-// |image:Grafiken/Effekt/zerfetzen.svg[Zerfetzen,40]
-// |Zerfetzen
-// |Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.
+    image("Grafiken/Effekt/panzerbrechend.svg", alt: "Panzerbrechend"),
+    [
+      *Panzerbrechend*
 
-// |===
-// --
+      Der Schutz der Rüstung wird für den Rüstungswurf halbiert (aufgerundet).
+    ],
+
+    image("Grafiken/Effekt/schrapnell.svg", alt: "Schrapnell"),
+    [
+      *Schrapnell*
+
+      Boni auf den Rüstungswurf die durch #uni.lnk("Deckung") oder #uni.lnk("Vorteile-Tarnung", alt: "Tarnung") zustande kommen werden nicht angewendet.
+    ],
+
+    image("Grafiken/Effekt/wucht.svg", alt: "Wucht"),
+    [
+      *Wucht*
+
+      Der Verletzungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+    ],
+
+    image("Grafiken/Effekt/zerfetzen.svg", alt: "Zerfetzen"),
+    [
+      *Zerfetzen*
+
+      Wenn es zum Verlust von Trefferpunkten kommt muss der Verteidiger einen KO-Wurf ablegen. Wenn dieser misslingt wird der Verlust verdoppelt.
+    ],
+  ),
+)
 
 === Waffen
 <Schadenseffekte-Waffen>
 
-// [%unbreakable]
-// --
-// [%header,cols="^1,2,5",frame=ends]
-// |===
+#block(
+  breakable: false,
+  uni.table_v(
+    align: (x, _) => {
+      if x > 0 {
+        left + top
+      } else {
+        center + top
+      }
+    },
+    columns: (20%, 1fr),
 
-// |Symbol
-// |Name
-// |Auswirkungen
+    image("Grafiken/Effekt/schock.svg", alt: "Schock"),
+    [
+      *Schock*
 
-// |image:Grafiken/Effekt/schock.svg[Schock,40]
-// |Schock
-// |Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an <<Schock,Schocks>> in Höhe des Schadens.
+      Anstatt Trefferpunkte zu verlieren, erleidet das getroffene Modell eine Anzahl an #uni.lnk("Schock", alt: "Schocks") in Höhe des Schadens.
+    ],
 
-// |image:Grafiken/Effekt/strukturschädigend.svg[Strukturschädigend,40]
-// |Strukturschädigend
-// |Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.
+    image("Grafiken/Effekt/strukturschädigend.svg", alt: "Strukturschädigend"),
+    [
+      *Strukturschädigend*
 
-// |===
-// --
+      Waffen mit diesem Effekt fügen Modellen mit dem Effekt „Strukturverstärkt“ trotzdem den vollen Schaden zu.
+    ],
+  ),
+)
 
 === Rüstungen
 <Schadenseffekte-Rüstungen>
 
-// [%unbreakable]
-// --
-// [%header,cols="^1,2,5",frame=ends]
-// |===
+#block(
+  breakable: false,
+  uni.table_v(
+    align: (x, _) => {
+      if x > 0 {
+        left + top
+      } else {
+        center + top
+      }
+    },
+    columns: (20%, 1fr),
 
-// |Symbol
-// |Name
-// |Auswirkungen
+    image("Grafiken/Effekt/adaptiv.svg", alt: "Adaptiv"),
+    [
+      *Adaptiv*
 
-// |image:Grafiken/Effekt/adaptiv.svg[Adaptiv,40]
-// |Adaptiv
-// |Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+      Der Rüstungswurf darf einmal neu gewürfelt werden. Das neue Wurfergebnis muss verwendet werden.
+    ],
 
-// |image:Grafiken/Effekt/robust.svg[Robust,40]
-// |Robust
-// |Der Verteidiger darf den Angreifer zwingen den Verletzungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    image("Grafiken/Effekt/robust.svg", alt: "Robust"),
+    [
+      *Robust*
 
-// |image:Grafiken/Effekt/strukturverstärkt.svg[Strukturverstärkt,40]
-// |Strukturverstärkt
-// |Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.
+      Der Verteidiger darf den Angreifer zwingen den Verletzungswurf neu zu werfen, wobei das neue Wurfergebnis verwendet werden muss.
+    ],
 
-// |===
-// --
+    image("Grafiken/Effekt/strukturverstärkt.svg", alt: "Strukturverstärkt"),
+    [
+      *Strukturverstärkt*
+
+      Modelle mit diesem Effekt erhalten von Waffen immer nur den halbierten (abgerundeten) Schaden.
+    ],
+  ),
+)
 
 == Verletzungs- und Rüstungswurf
 <Verletzungs-und-Rüstungswurf>
@@ -2253,25 +2317,19 @@ Unter Nahkampf wird jeglicher Kampf mit einer #uni.lnk("Waffen", alt: "Waffe") v
 
 Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Modelle im Nahkampf miteinander befinden.
 
+== Einschränkungen
+
 Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
-#uni.table_h(
-  columns: 100%,
-  align: center + horizon,
-  table.header([*Aktionen*]),
-  uni.lnk("Nahkampf-Aktionen", alt: "Angriff"),
-  uni.lnk("Nahkampf-Aktionen", alt: "Verwegener Angriff"),
-  uni.lnk("Bewegung-Aktionen", alt: "Aus Nahkampf lösen"),
-  uni.lnk("Kraft-Aktionen", alt: "Kraft einsetzen"),
-)
+*Aktionen*
+- #uni.lnk("Nahkampf-Aktionen", alt: "Angriff"),
+- #uni.lnk("Nahkampf-Aktionen", alt: "Verwegener Angriff"),
+- #uni.lnk("Bewegung-Aktionen", alt: "Aus Nahkampf lösen"),
+- #uni.lnk("Kraft-Aktionen", alt: "Kraft einsetzen"),
 
-#uni.table_h(
-  columns: 100%,
-  align: center + horizon,
-  table.header([*Reaktionen*]),
-  uni.lnk("Nahkampf-Reaktionen", alt: "Gegenangriff"),
-  uni.lnk("Nahkampf-Reaktionen", alt: "Gelegenheitsangriff"),
-)
+*Reaktionen*
+- #uni.lnk("Nahkampf-Reaktionen", alt: "Gegenangriff"),
+- #uni.lnk("Nahkampf-Reaktionen", alt: "Gelegenheitsangriff"),
 
 == Durchführung
 
@@ -2521,6 +2579,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 )
 
 == Vorteile
+<Vorteile-Tarnung>
 #index("Tarnung", "Vorteile")
 
 Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
@@ -3093,8 +3152,8 @@ Bei Erfolg wird die Kraft blockiert.
 
 Ein eventueller TP-Verlust wird ebenfalls angewendet.
 
-= Stichwortverzeichnis
 #set page(columns: 1)
+= Stichwortverzeichnis
 
 #columns(3)[
   #make-index(title: none)
