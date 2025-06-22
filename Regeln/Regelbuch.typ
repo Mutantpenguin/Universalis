@@ -989,48 +989,55 @@ Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch 
 
 Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
 
-// [%unbreakable%header,cols="^1,1,3",frame=ends]
-// |===
+#uni.table_h(
+  columns: (auto, auto, 1fr),
+  align: left + top,
 
-// |Symbol
-// |Name
-// |Bedeutung
+  table.header([], [*Name*], [*Beschreibung*]),
 
-// |image:Grafiken/Bewegung/beine.svg[Beine,40]
-// |Beine
-// a|
-// * Standard Bewegungsart für Modelle.
-// * Bietet weder spezielle Vorteile noch Nachteile.
+  image("Grafiken/Bewegung/beine.svg", alt: "Beine"),
+  "Beine",
+  [
+    Standard Bewegungsart für Modelle.
+    Bietet weder spezielle Vorteile noch Nachteile.
+  ],
 
-// |image:Grafiken/Bewegung/flug.svg[Flug,40]
-// |Flug
-// a|
-// * Ignoriert <<Passierbarkeit>> von <<Geländestücke,Geländestücken>>.
-// * In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
-// * Kann Nahkampf nur mit anderen fliegenden Modellen durchführen.
+  image("Grafiken/Bewegung/flug.svg", alt: "Flug"),
+  "Flug",
+  [
+    Ignoriert #uni.lnk("Passierbarkeit") von #uni.lnk("Geländestücke", alt: "Geländestücken").
 
-// |image:Grafiken/Bewegung/kette.svg[Kette,40]
-// |Kette
-// a|
-// * Bewegungstests für <<Passierbarkeit>> dürfen einmal wiederholt werden.
+    In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
 
-// |image:Grafiken/Bewegung/rad.svg[Rad,40]
-// |Rad
-// a|
-// * Auf dem <<Geländetypen,Geländetyp>> Straße wird die Bewegung um 50% (abgerundet) erhöht.
+    Kann Nahkampf nur mit anderen fliegenden Modellen durchführen.
+  ],
 
-// |image:Grafiken/Bewegung/schweben.svg[Schweben,40]
-// |Schweben
-// a|
-// * Ignoriert <<Passierbarkeit>> von <<Geländestücke,Geländestücken>>.
-// * Im Nahkampf wird das Modell als eine Stufe Größer behandelt. Siehe <<Größenprofil>> und <<Größenunterschiede>>.
+  image("Grafiken/Bewegung/kette.svg", alt: "Kette"),
+  "Kette",
+  [
+    Bewegungstests für #uni.lnk("Passierbarkeit") dürfen einmal wiederholt werden.
+  ],
 
-// |image:Grafiken/Bewegung/stationär.svg[Stationär,40]
-// |Stationär
-// a|
-// * Kann nicht bewegt werden.
+  image("Grafiken/Bewegung/rad.svg", alt: "Rad"),
+  "Rad",
+  [
+    Auf dem #uni.lnk("Geländetypen", alt: "Geländetyp") Straße wird die Bewegung um 50% (abgerundet) erhöht.
+  ],
 
-// |===
+  image("Grafiken/Bewegung/schweben.svg", alt: "Schweben"),
+  "Schweben",
+  [
+    Ignoriert #uni.lnk("Passierbarkeit") von #uni.lnk("Geländestücke", alt: "Geländestücken").
+
+    Im Nahkampf wird das Modell als eine Stufe Größer behandelt. Siehe #uni.lnk("Größenprofil") und #uni.lnk("Größenunterschiede").
+  ],
+
+  image("Grafiken/Bewegung/stationär.svg", alt: "Stationär"),
+  "Stationär",
+  [
+    Kann nicht bewegt werden.
+  ],
+)
 
 == Bewegungstest
 <Bewegungstest>
