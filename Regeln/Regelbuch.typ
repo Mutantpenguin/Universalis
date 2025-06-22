@@ -1265,51 +1265,45 @@ Siehe #uni.lnk("Anhang-Geländetypen", alt: "Anhang: Geländetypen") für eine �
 <Deckung>
 #index[Deckung]
 
-Deckung kommt nur im #uni.lnk("Deckung-des-Ziels", alt: "Fernkampf") zur Anwendung.
+Deckung kommt nur im Fernkampf bei #uni.lnk("Deckung-des-Ziels", alt: "FK-Würfen") und #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Rüstungswürfen") zur Anwendung.
 
-Ein Geländestück bietet Deckung wenn:
-
-- es sich zwischen dem Schützen und seinem Ziel befindet und das #uni.lnk("Größenprofil") des Ziels mindestens zur Hälfte verdeckt
-
-oder
-
-- das Ziel sich darin befindet
-
-Sie kann im Fernkampf einen Bonus auf den Rüstungswurf geben der zur Anwendung kommt, wenn das Modell das Geländestück berührt oder sich darin befindet.
+Ein Geländestück bietet Deckung wenn das Ziel sich darin befindet, oder es sich zwischen dem Schützen und seinem Ziel befindet und das #uni.lnk("Größenprofil") des Ziels mindestens zur Hälfte verdeckt.
 
 Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
-// [%unbreakable,cols="2h,3,3,3",frame=ends]
-// |===
+=== Weich
 
-// |Stufe
-// ^|weich
-// ^|hart
-// ^|massiv
+Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
+Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-// |Beschreibung
-// a|Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
+#uni.example(
+  align(
+    left,
+    "Gebüsch, Zaun, Plastik, Blech, Möbel",
+  ),
+)
 
-// Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
-// |Kann Beschuss bedingt abhalten.
-// |Ist zur direkten Abwehr von Beschuss geeignet.
+=== Hart
 
-// |Beispiele
-// |Gebüsch, Zaun, Plastik, Blech, Möbel
-// |Ziegelmauer, Holzhaus, Fässer, Kisten
-// |Sandsackbarrieren, Beton, Stahl, befestigte Stellungen
+Kann Beschuss bedingt abhalten.
 
-// ^.^|Bonus auf Rüstungswurf
-// ^.^|-
-// ^.^|+1
-// ^.^|+2
+#uni.example(
+  align(
+    left,
+    "Ziegelmauer, Holzhaus, Fässer, Kisten",
+  ),
+)
 
-// ^.^|Modifikator im Fernkampf
-// ^.^|-1
-// ^.^|-2
-// ^.^|-3
+=== Massiv
 
-// |===
+Ist zur direkten Abwehr von Beschuss geeignet.
+
+#uni.example(
+  align(
+    left,
+    "Sandsackbarrieren, Beton, Stahl, befestigte Stellungen",
+  ),
+)
 
 == Passierbarkeit
 <Passierbarkeit>
@@ -1665,6 +1659,26 @@ Nun wird die folgende Tabelle konsultiert:
 
   "Angreifer",
   [Der Schaden kommt zur #uni.lnk("Schadensanwendung", alt: "Anwendung").],
+)
+
+=== Auswirkungen von Deckung
+
+Falls das verteidigende Modell durch Fernkampf getroffen wurde und ein #uni.lnk("Geländestücke", alt: "Geländestück") berührt oder sich darin befindet, bekommt es einen Bonus auf den Rüstungswurf durch #uni.lnk("Deckung").
+
+#block(
+  breakable: false,
+
+  uni.table_h(
+    columns: (auto, 1fr, 1fr, 1fr),
+    align: (left + top, center + top, center + top, center + top),
+
+    table.header([], [*weich*], [*mittel*], [*hart*]),
+
+    [*Rüstungswurf*],
+    "-",
+    "+1",
+    "+2",
+  ),
 )
 
 == Schadensanwendung
@@ -2170,20 +2184,20 @@ Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher od
 
 Der durch eventuelle #uni.lnk("Deckung") angewandte Modifikator.
 
-#uni.table_h(
-  columns: (50%, 50%),
-  align: center + top,
+#block(
+  breakable: false,
 
-  table.header([*Stufe*], [*Modifikator*]),
+  uni.table_h(
+    columns: (auto, 1fr, 1fr, 1fr),
+    align: (left + top, center + top, center + top, center + top),
 
-  "weich",
-  "-1",
+    table.header([], [*weich*], [*mittel*], [*hart*]),
 
-  "hart",
-  "-2",
-
-  "massiv",
-  "-3",
+    [*Modifikator*],
+    "-1",
+    "-2",
+    "-3",
+  ),
 )
 
 === Unhandliche Waffen
