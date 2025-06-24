@@ -22,9 +22,6 @@
 
     // Are we on a page that starts a chapter?
     let target = heading.where(level: 1)
-    // if query(target).any(it => it.location().page() == i) {
-    //   return align(aln)[#i]
-    // }
 
     // Find the chapter of the section we are currently in.
     let before = query(target.before(here()))
