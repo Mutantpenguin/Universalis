@@ -8,36 +8,7 @@
   columns: 2,
   numbering: "1",
   margin: (x: 1.5cm, y: 1.5cm),
-  footer: context {
-    // Get current page number.
-    let i = counter(page).at(here()).first()
-
-    // Align right for even pages and left for odd.
-    let is-odd = calc.odd(i)
-    let aln = if is-odd {
-      right
-    } else {
-      left
-    }
-
-    // Are we on a page that starts a chapter?
-    let target = heading.where(level: 1)
-
-    // Find the chapter of the section we are currently in.
-    let before = query(target.before(here()))
-    if before.len() > 0 {
-      let current = before.last()
-      let gap = 1.75em
-      let chapter = upper(text(size: 0.68em, current.body))
-      if current.numbering != none {
-        if is-odd {
-          align(aln)[#chapter #h(gap) #i]
-        } else {
-          align(aln)[#i #h(gap) #chapter]
-        }
-      }
-    }
-  },
+  footer: uni.footer,
 )
 
 #let title = "Universalis"
