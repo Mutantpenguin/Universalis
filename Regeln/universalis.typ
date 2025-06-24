@@ -172,14 +172,16 @@
       weight: "bold",
     )
     pagebreak(weak: true)
-    block(
-      [
-        #smallcaps(it.body)
-        #v(5pt, weak: true)
-        #line(length: 100%, stroke: gradient.linear(black, white))
-      ],
-      below: 1em,
-    )
+    place(
+      top,
+      float: true,
+      scope: "parent",
+      clearance: 0.7em,
+    )[
+      #smallcaps(it.body)
+      #v(5pt, weak: true)
+      #line(length: 100%, stroke: gradient.linear(black, white))
+    ]
   }
 
   #show heading.where(level: 2): it => {
