@@ -26,11 +26,11 @@
   clearance: 2em,
 )[
   #grid(
-    columns: (1fr, 1fr),
+    columns: (6fr, 1fr),
     [
       #text(
         font: "Nova Round",
-        size: 40pt,
+        size: 35pt,
         title,
       )
       #v(10pt, weak: true)
@@ -38,11 +38,11 @@
     ],
     align(
       right,
-      image("../Grafiken/logo.svg", width: 30%),
+      image("../Grafiken/logo.svg"),
     ),
   )
   #v(10pt, weak: true)
-  #line(length: 100%, stroke: 2pt)
+  #line(length: 100%, stroke: 2pt + gradient.linear(black, white))
 
   #v(20pt)
 
