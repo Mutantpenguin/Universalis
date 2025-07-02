@@ -2274,7 +2274,7 @@ Auf der #uni.lnk("Einheitenkarte") wird dies mit dem folgendem Symbol ausgewiese
 
 #align(
   center,
-  image("Grafiken/Waffe/radius.svg", alt: "Radius"),
+  image("Grafiken/Waffe/radius.svg", alt: "Radius", width: 3em),
 )
 
 Wenn bei einer Flächenwaffe der FK-Wurf misslingt, wird der gewürfelte Wert mit dem zu erreichenden verglichen.
