@@ -1,5 +1,4 @@
 {
-    "asciidoc.preview.style": ".\\\\Regeln\\\\style\\\\html-theme.css",
     "[typst]": {
         "editor.formatOnSave": true
     },
