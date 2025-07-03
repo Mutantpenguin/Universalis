@@ -1,3 +1,11 @@
 {
-    "asciidoc.preview.style": ".\\\\Regeln\\\\style\\\\html-theme.css"
+    "[typst]": {
+        "editor.formatOnSave": true
+    },
+    "tinymist.formatterMode": "typstyle",
+    "tinymist.fontPaths": [
+        "${workspaceFolder}/Fonts/"
+    ],
+    "tinymist.systemFonts": false,
+    "tinymist.formatterPrintWidth": 200
 }
