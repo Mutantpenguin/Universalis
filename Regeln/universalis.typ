@@ -6,6 +6,7 @@
   activity: (
     aktion: image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt),
     reaktion: image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion", height: 10pt),
+    bedingung: image("Grafiken/Allgemein/bedingung.svg", alt: "Bedingung", width: 20pt),
   ),
 )
 
@@ -120,7 +121,7 @@
           ),
           fill: luma(240),
           align: alignment.center,
-          table.cell("!"), // TODO show the correct symbol for "conditions"
+          table.cell(img.activity.bedingung),
           table.cell(
             align: left + horizon,
             condition,

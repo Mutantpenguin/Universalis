@@ -532,7 +532,6 @@ Sie sind an folgendem Symbol zu erkennen:
 #index[Reaktionen]
 
 Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
-Sie sind in der Regel an Bedingungen geknüpft.
 
 Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
 Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
@@ -543,6 +542,16 @@ Sie sind an folgendem Symbol zu erkennen:
 #align(
   center,
   uni.img.activity.reaktion,
+)
+
+=== Bedingungen
+
+Aktionen und Reaktionen können an Bedingungen geknüpft sein.
+Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
+
+#align(
+  center,
+  uni.img.activity.bedingung,
 )
 
 === Übersicht
