@@ -1052,6 +1052,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
     Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem #uni.lnk("Nahkampf-Aktionen", alt: "Angriff").
   ],
+  condition: [Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.],
 )
 
 #uni.action(
