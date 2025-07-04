@@ -705,7 +705,7 @@ $ "Radius in Zoll" = "WN" * 2 $
 
 Im #uni.lnk("Kritisch", alt: "Kritischen Zustand") wird der Radius des Wahrnehmungsbereichs halbiert (aufgerundet).
 
-Auf der #uni.lnk("Einheitenkarte") wird der Radius des Wahrnehmungsreich mit diesem Symbol angegeben:
+Auf der #uni.lnk("Einheitenkarte") wird der Radius des Wahrnehmungsbereichs mit diesem Symbol angegeben:
 
 #align(
   center,
