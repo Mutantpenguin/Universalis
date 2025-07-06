@@ -1061,14 +1061,17 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 #uni.action(
   "Aus Nahkampf lösen",
-  "2|3",
+  "2",
   [
     Mit dieser Aktion kann sich ein Modell aus einem #uni.lnk("Nahkampf") lösen, muss vorher aber den Test für eine #uni.lnk("Unmittelbare Bedrohung", alt: "unmittelbare Bedrohung") durchführen.
     Wenn er misslingt passiert nichts und es werden keine AP ausgegeben.
 
-    Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung, die Kosten sind allerdings um 1⊙ erhöht.
+    Wenn er gelingt bewegt es sich wie bei einer normalen Bewegung.
   ],
-  condition: "Das Modell muss sich im Nahkampf befinden.",
+  condition: [
+    - Das Modell muss sich im Nahkampf befinden.
+    - Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.
+  ],
 )
 
 #uni.action(
