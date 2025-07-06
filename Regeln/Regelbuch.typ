@@ -2119,8 +2119,8 @@ Hierdurch können auch Modelle getroffen werden zu denen keine #uni.lnk("Sichtli
   align(
     left,
     [
-      Ein gegnerische Modell wird beschossen und es hat 2 Nahkampfgegner.
-      Die Wahrscheinlichkeit, dass ein Modell getroffen wird beträgt 1/3.
+      Ein gegnerisches Modell wird beschossen und es hat 2 Nahkampfgegner.
+      Die Wahrscheinlichkeit, dass ein Modell getroffen wird, beträgt 1/3.
     ],
   ),
 )
