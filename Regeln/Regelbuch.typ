@@ -2322,6 +2322,7 @@ Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
 Unter Nahkampf wird jeglicher Kampf mit einer #uni.lnk("Waffen", alt: "Waffe") verstanden der im Basekontakt passiert.
 
 Der Basekontakt mit einem gegnerischem Modell bedeutet immer, dass sich beide Modelle im Nahkampf miteinander befinden.
+Dies kann auch unbeabsichtigt passieren, z.B. durch #uni.lnk("Zurückstoßen", alt: "zurückstoßen") oder #uni.lnk("Herunterfallen", alt: "fallen").
 
 == Einschränkungen
 
