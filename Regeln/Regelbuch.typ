@@ -75,7 +75,7 @@
   depth: 2,
 )
 
-= Was braucht man
+= Was du brauchst
 
 + Ein Universum.
 
