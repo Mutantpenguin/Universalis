@@ -2641,7 +2641,7 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
     Das unterstützte Modell erhält +1 auf seinen WN-Wurf.
   ],
   condition: [
-    - Kann durchgeführt werden, wenn ein eigenes Modell die Aktion _Aufklären_ ausführt.
+    - Kann durchgeführt werden, wenn ein befreundetes Modell die Aktion _Aufklären_ ausführt.
     - Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
   ],
 )
