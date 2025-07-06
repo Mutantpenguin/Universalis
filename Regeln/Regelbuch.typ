@@ -1867,7 +1867,7 @@ Siehe #uni.lnk("Anhang-Beispiele-Waffenklassen", alt: "Anhang: Beispiele Waffenk
 
 == Fernkampfwaffen
 
-Eine Schusswaffe verfügt zusätzlich über eine Reichweite in Form eines #uni.lnk("Reichweite", alt: "Reichweitenbandes") und einer Angabe für eventuelles #uni.lnk("Dauerfeuer").
+Eine Fernkampfwaffe verfügt zusätzlich über eine Reichweite in Form eines #uni.lnk("Reichweite", alt: "Reichweitenbandes") und einer Angabe für eventuelles #uni.lnk("Dauerfeuer").
 
 == Nahkampfwaffen
 
@@ -2004,7 +2004,7 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
   "Feuerbereitschaft",
   "2",
   [
-    Das Modell wählt eine seiner Schusswaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
+    Das Modell wählt eine seiner Fernkampfwaffen und befindet sich damit maximal bis zum Beginn seiner nächsten Initiativephase in Feuerbereitschaft.
     Es verliert sie dann automatisch.
 
     Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt:
@@ -2017,7 +2017,7 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
     Misslingt dieser verliert es die Feuerbereitschaft.
   ],
   condition: [
-    - Nur mit Schusswaffen der WK I, II und III.
+    - Nur mit Fernkampfwaffen der WK I, II und III.
     - Kann nur sinnvoll als letzte Aktion innerhalb einer Initiativephase durchgeführt werden, da jede weitere Aktion oder Reaktion die Feuerbereitschaft automatisch beendet.
   ],
 )
@@ -2061,7 +2061,7 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
   "Reaktionsfeuer",
   "WK",
   [
-    Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Schusswaffe durch und erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
+    Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Fernkampfwaffe durch und erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
 
     Das Modell verliert danach automatisch seine Feuerbereitschaft.
   ],
