@@ -3,7 +3,7 @@
 #uni.table_h(
   columns: (auto, 1fr),
   align: left + top,
-  table.header([*Objekt*], [*Beschränkungen*]),
+  table.header([*Objekt*], [*Bedingungen*]),
 
   "Hebel",
   "-",

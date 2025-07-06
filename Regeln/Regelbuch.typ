@@ -1349,11 +1349,11 @@ Siehe #uni.lnk("Anhang-Objekte", alt: "Anhang: Objekte") für eine Übersicht al
   ),
 )
 
-=== Beschränkungen von Objekten
+=== Bedingungen von Objekten
 
-Die Benutzung von Objekten kann gewissen Beschränkungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
+Die Benutzung von Objekten kann gewissen Bedingungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
 
-Die folgenden Beschränkungen sind möglich, auch in Kombination.
+Die folgenden Bedingungen sind möglich, auch in Kombination.
 
 *_Eigenschaft_*
 
