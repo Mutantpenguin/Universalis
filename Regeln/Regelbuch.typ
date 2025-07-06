@@ -591,6 +591,10 @@ Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
   ref(<Nahkampf-Aktionen>, form: "page"),
   ref(<Nahkampf-Reaktionen>, form: "page"),
 
+  "Objekte",
+  ref(<Objekt-Aktionen>, form: "page"),
+  "",
+
   "Tarnung",
   ref(<Tarnung-Aktionen>, form: "page"),
   ref(<Tarnung-Reaktionen>, form: "page"),
@@ -1083,15 +1087,6 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
   ],
 )
 
-#uni.action(
-  "Objekt benutzen",
-  "1",
-  [
-    Benutzen eines #uni.lnk("Objekte", alt: "Objekts").
-  ],
-  condition: "Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.",
-)
-
 == Reaktionen
 <Bewegung-Reaktionen>
 
@@ -1348,6 +1343,24 @@ Siehe #uni.lnk("Anhang-Objekte", alt: "Anhang: Objekte") für eine Übersicht al
     ],
   ),
 )
+
+== Aktionen
+<Objekt-Aktionen>
+
+#uni.action(
+  "Objekt benutzen",
+  "X",
+  [
+    Benutzen eines #uni.lnk("Objekte", alt: "Objekts").
+  ],
+  condition: "Kann nur in direktem Basekontakt mit einem Objekt eingesetzt werden.",
+)
+
+=== AP-Kosten
+<Objekte-AP-Kosten>
+#index("Objekte", "AP-Kosten")
+
+Wenn ein Objekt AP-Kosten hat, muss die Aktion _Objekt verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
 
 === Bedingungen von Objekten
 

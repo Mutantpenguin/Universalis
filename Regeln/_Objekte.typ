@@ -1,26 +1,32 @@
 #import "universalis.typ" as uni
 
 #uni.table_h(
-  columns: (auto, 1fr),
-  align: left + top,
-  table.header([*Objekt*], [*Bedingungen*]),
+  columns: (auto, auto, 1fr),
+  align: (left, center, left),
+  table.header([*Objekt*], [*AP-Kosten*], [*Bedingungen*]),
 
   "Hebel",
+  "2",
   "-",
 
   "Keypad",
+  "1",
   "Code bekannt",
 
   "Opferaltar",
+  "3",
   "Paraphernalien vorhanden",
 
   "Schalter",
+  "1",
   "-",
 
   "Terminal",
+  "2",
   "Code bekannt",
 
   "Torwächter",
+  "2",
   [
     - Passwort bekannt
     - Gegenstand vorhanden
@@ -31,6 +37,7 @@
 
     bspw. Tür, Truhe, Kiste, Fenster
   ],
+  "1",
   [
     #uni.table_n(
       columns: (auto, 1fr),
