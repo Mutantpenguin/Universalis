@@ -495,7 +495,7 @@ Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 Modelle verfügen über Aktionspunkte (abgekürzt als AP), die in verschiedenen Phasen des Spiels für #uni.lnk("Aktionen und Reaktionen") ausgegeben werden können.
 
 Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
-Er wird gegen einen roten W6 ausgetauscht wenn das Modell in einen #uni.lnk("Kritisch", alt: "kritischen Zustand") verfällt.
+Er wird gegen einen roten W6 ausgetauscht wenn das Modell in den #uni.lnk("Kritisch", alt: "kritischen Zustand") verfällt.
 
 Alle Modelle haben pro Runde 6 AP.
 Die einzige Ausnahme sind #uni.lnk("Begleiter") mit nur 2 AP.
@@ -1685,7 +1685,7 @@ Verfügt die Rüstung des Modells über eine Schadensreduktion, wird der Schaden
 Sinken die Trefferpunkte des Modells auf 0 oder darunter gilt es als #uni.lnk("Eliminiert", alt: "eliminiert").
 
 Falls das Modell überlebt erleidet es einen #uni.lnk("Schock").
-Wenn es ausserdem nur noch kritische #uni.lnk("Trefferpunkte") besitzt verfällt es nun in einen #uni.lnk("Kritisch", alt: "kritischen Zustand").
+Wenn es ausserdem nur noch kritische #uni.lnk("Trefferpunkte") besitzt verfällt es nun in den #uni.lnk("Kritisch", alt: "kritischen Zustand").
 
 = Zustände
 
