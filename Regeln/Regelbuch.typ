@@ -544,14 +544,14 @@ Sie sind an folgendem Symbol zu erkennen:
   uni.img.activity.reaktion,
 )
 
-=== Bedingungen
+=== Voraussetzung
 
-Aktionen und Reaktionen können an Bedingungen geknüpft sein.
+Aktionen und Reaktionen können an Voraussetzungen geknüpft sein.
 Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
 
 #align(
   center,
-  uni.img.activity.bedingung,
+  uni.img.activity.voraussetzung,
 )
 
 === Übersicht
@@ -1365,11 +1365,11 @@ Siehe #uni.lnk("Anhang-Objekte", alt: "Anhang: Objekte") für eine Übersicht al
 
 Wenn ein Objekt AP-Kosten hat, muss die Aktion _Objekt verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
 
-=== Bedingungen von Objekten
+=== Voraussetzungen von Objekten
 
-Die Benutzung von Objekten kann gewissen Bedingungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
+Die Benutzung von Objekten kann gewissen Voraussetzungen unterliegen die erfüllt sein müssen, bevor die Wirkung des Objekts in Kraft tritt.
 
-Die folgenden Bedingungen sind möglich, auch in Kombination.
+Die folgenden Voraussetzungen sind möglich, auch in Kombination.
 
 *_Eigenschaft_*
 
@@ -3111,7 +3111,7 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
   [
     Das Modell setzt eine Kraft ein.
 
-    Die dafür nötigen AP-Kosten, Bedingungen und Regeln sind auf der Karte der Kraft angegeben.
+    Die dafür nötigen AP-Kosten, Voraussetzungen und Regeln sind auf der Karte der Kraft angegeben.
   ],
 )
 

@@ -6,7 +6,7 @@
   activity: (
     aktion: image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt),
     reaktion: image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion", height: 10pt),
-    bedingung: image("Grafiken/Allgemein/bedingung.svg", alt: "Bedingung", width: 20pt),
+    voraussetzung: image("Grafiken/Allgemein/voraussetzung.svg", alt: "Voraussetzung", width: 20pt),
   ),
 )
 
@@ -121,7 +121,7 @@
           ),
           fill: luma(240),
           align: alignment.center,
-          table.cell(img.activity.bedingung),
+          table.cell(img.activity.voraussetzung),
           table.cell(
             align: left + horizon,
             condition,
