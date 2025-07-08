@@ -1400,7 +1400,7 @@ Alles ist möglich.
 #uni.example(
   align(left)[
     - Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
-    - Ein konkret benanntes anderes Objekt wurde bereits benutzt.
+    - Ein konkret benanntes anderes Objekt (z.B. ein Schalter) wurde bereits benutzt.
   ],
 )
 
