@@ -544,7 +544,7 @@ Sie sind an folgendem Symbol zu erkennen:
   uni.img.activity.reaktion,
 )
 
-=== Voraussetzung
+=== Voraussetzungen
 
 Aktionen und Reaktionen können an Voraussetzungen geknüpft sein.
 Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
