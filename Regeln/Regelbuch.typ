@@ -841,9 +841,9 @@ Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 <Aktivierungsreihenfolge>
 #index("Runden", "Reihenfolge")
 
-Die Spieler nehmen die #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten") ihrer sich noch im Spiel befindlichen Modelle und wählen verdeckt eine aus.
+Jeder Spieler nimmt die #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten") seiner sich noch im Spiel befindlichen Modelle und wählt verdeckt eine aus.
 
-Die Aktivierungskarten werden gleichzeitig aufgedeckt und für die Modelle ein vergleichender Wurf auf AGI durchgeführt.
+Die ausgewählten Aktivierungskarten aller Spieler werden gleichzeitig aufgedeckt und für die Modelle ein vergleichender Wurf auf AGI durchgeführt.
 Der Gewinner hat zuerst seine Initiativephase, danach direkt der Verlierer.
 Bei Gleichstand gewinnt das Modell mit der höheren AGI.
 Sollte auch sie identisch sein entscheidet der Zufall wer gewinnt.
