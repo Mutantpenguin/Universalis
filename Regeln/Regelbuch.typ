@@ -481,7 +481,6 @@ Modelle verfügen nicht nur über #uni.lnk("Attribute"), sondern können auch Ei
 #index("Ausstattung", "Eigenschaften")
 
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache #uni.lnk("Attribute") hinausgeht.
-Außerdem können sie über eventuelle #uni.lnk("Profilmodifikatoren") verfügen.
 
 Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disziplinen-und-Kräfte", alt: "Kraft") dargestellt werden.
 
@@ -532,8 +531,6 @@ Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausg
 
 Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
 
-Ausrüstung kann über #uni.lnk("Profilmodifikatoren") verfügen.
-
 === Aktionen
 <Ausrüstung-Aktionen>
 
@@ -573,7 +570,7 @@ Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts neben der Be
 
 Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
 
-Waffen verfügen über ein #uni.lnk("Schadensprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
+Waffen verfügen über ein #uni.lnk("Schadensprofil").
 
 Weiterhin können für sie Regeln wie #uni.lnk("Indirekter-Fernkampf"), #uni.lnk("Dauerfeuer") oder #uni.lnk("Flächenwaffen", alt: "Flächenwaffe") infrage kommen.
 
@@ -656,7 +653,7 @@ Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann e
 
 Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
 
-Rüstungen verfügen über ein #uni.lnk("Rüstungsprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
+Rüstungen verfügen über ein #uni.lnk("Rüstungsprofil").
 
 === Regeln
 #index("Rüstung", "Regeln")
