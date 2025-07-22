@@ -2115,12 +2115,6 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
 
 Im Fernkampf dürfen nur Waffen mit einem #uni.lnk("Reichweite", alt: "Reichweitenband"), nicht aber mit der Reichweite NK (=Nahkampf) verwendet werden.
 
-== Trefferzonen
-#index("Fernkampf", "Trefferzonen")
-#index("Trefferzonen", "im Fernkampf")
-
-Wenn das Ziel über #uni.lnk("Trefferzonen") verfügt muss die getroffene Trefferzone ausgewürfelt werden.
-
 == Zielauswahl
 <Zielauswahl>
 #index[Zielauswahl]
@@ -2158,6 +2152,12 @@ Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
     ],
   ),
 )
+
+== Trefferzonen
+#index("Fernkampf", "Trefferzonen")
+#index("Trefferzonen", "im Fernkampf")
+
+Wenn das Ziel über #uni.lnk("Trefferzonen") verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
 == Beschuss von Modellen im Nahkampf
 #index("Fernkampf", "Modelle im Nahkampf")
