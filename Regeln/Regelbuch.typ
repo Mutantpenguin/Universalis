@@ -486,6 +486,267 @@ Gelten dauernd und werden auf der #uni.lnk("Einheitenkarte") direkt in das Profi
 Temporäre Profilmodifikatoren sind auf der #uni.lnk("Einheitenkarte") nicht im Profil mit eingerechnet.
 Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
+= Eigenschaften
+<Eigenschaften>
+#index[Eigenschaften]
+
+Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache #uni.lnk("Attribute") hinausgeht.
+Außerdem können sie über eventuelle #uni.lnk("Profilmodifikatoren") verfügen.
+
+Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disziplinen-und-Kräfte", alt: "Kraft") dargestellt werden.
+
+== Aktionen
+<Eigenschaften-Aktionen>
+
+#uni.action(
+  "Eigenschaft anwenden",
+  "X",
+  [
+    Das Modell wendet eine Eigenschaft an.
+    Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
+  ],
+)
+
+== Regeln
+<Regeln>
+#index("Eigenschaften", "Regeln")
+
+Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
+Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
+
+Was die Eigenschaft für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
+
+Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur von der höchsten Stufe.
+
+#uni.example(
+  align(
+    left,
+    [
+      Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
+
+      In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
+    ],
+  ),
+)
+
+== Einmalnutzung
+<Eigenschaften-Einmalnutzung>
+#index("Einmalnutzung", "Eigenschaften")
+#index("Eigenschaften", "Einmalnutzung")
+
+Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
+Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
+
+Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
+
+Bei jeder Verwendung muss ein Marker gestrichen werden.
+
+#uni.example(
+  align(
+    left,
+    [
+      Für eine Regeneration die 3x verwendet werden kann.
+
+      #image("Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg", alt: "Einmalnutzung Eigenschaft")
+    ],
+  ),
+)
+
+== AP-Kosten
+<Eigenschaften-AP-Kosten>
+#index("Eigenschaften", "AP-Kosten")
+
+Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
+
+= Ausrüstung
+<Ausrüstung>
+#index[Ausrüstung]
+
+Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
+
+Ausrüstung kann über #uni.lnk("Profilmodifikatoren") verfügen.
+
+== Aktionen
+<Ausrüstung-Aktionen>
+
+#uni.action(
+  "Ausrüstung verwenden",
+  "X",
+  [
+    Das Modell verwendet einen Ausrüstungsgegenstand.
+
+    Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
+  ],
+)
+
+== Regeln
+#index("Ausrüstung", "Regeln")
+
+Jede Ausrüstung kann Regeln beinhalten.
+Wenn dem so ist, werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
+
+== AP-Kosten
+#index("Ausrüstung", "AP-Kosten")
+
+Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Verwendung notwendig.
+
+== Einmalnutzung
+#index("Einmalnutzung", "Ausrüstung")
+#index("Ausrüstung", "Einmalnutzung")
+
+Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
+
+Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet werden kann.
+
+Bei jeder Verwendung muss ein Marker gestrichen werden.
+
+#uni.example(
+  align(
+    left,
+    [
+      Für ein medizinisches Spray das 3x verwendet werden kann.
+
+      #image("Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg", alt: "Einmalnutzung Ausrüstung")
+    ],
+  ),
+)
+
+== Unhandliche Ausrüstung <Ausrüstung-Unhandlich>
+#index("Unhandlich", "Ausrüstung")
+#index("Ausrüstung", "Unhandlich")
+
+Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im #uni.lnk("Fernkampf-Unhandlich", alt: "Fernkampf") und #uni.lnk("Nahkampf-Unhandlich", alt: "Nahkampf").
+
+Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
+
+= Waffen
+<Waffen>
+
+Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
+
+Waffen verfügen über ein #uni.lnk("Schadensprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
+
+Weiterhin können für sie Regeln wie #uni.lnk("Indirekter-Fernkampf"), #uni.lnk("Dauerfeuer") oder #uni.lnk("Flächenwaffen", alt: "Flächenwaffe") infrage kommen.
+
+== Waffenklassen
+
+Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
+Je größer/komplexer desto höher die Waffenklasse.
+
+Waffenklassen werden mit „WK“ abgekürzt.
+WK I steht somit für Waffen der Klasse 1.
+
+Siehe #uni.lnk("Anhang-Beispiele-Waffenklassen", alt: "Anhang: Beispiele Waffenklassen").
+
+== Fernkampfwaffen
+
+Eine Fernkampfwaffe verfügt zusätzlich über eine Reichweite in Form eines #uni.lnk("Reichweite", alt: "Reichweitenbandes") und einer Angabe für eventuelles #uni.lnk("Dauerfeuer").
+
+== Nahkampfwaffen
+
+Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt eingesetzt werden können.
+
+== Wurfwaffen
+
+Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
+
+Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei #uni.lnk("Waffen-Unhandlich", alt: "unhandlichen") Waffen wird sie mit 0,5 multipliziert (aufgerundet).
+
+#uni.example(
+  align(
+    left,
+    [
+      Für einen Menschen mit KO von 5:
+
+      #image("Grafiken/Abbildungen/wurfwaffe.jpg", alt: "Wurfwaffe")
+    ],
+  ),
+)
+
+== Additive Stärke
+
+Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind additiv.
+Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
+
+== Unhandliche Waffen
+<Waffen-Unhandlich>
+#index("Unhandlich", "Waffen")
+#index("Waffen", "Unhandlich")
+
+Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im #uni.lnk("Fernkampf-Unhandlich", alt: "Fernkampf") und #uni.lnk("Nahkampf-Unhandlich", alt: "Nahkampf").
+
+Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
+
+#align(
+  center,
+  image("Grafiken/Waffe/unhandlich.png", alt: "unhandlich"),
+)
+
+== Nachladen
+<Nachladen>
+#index[Nachladen]
+
+Waffen die nachladen müssen besitzen das folgende Symbol.
+
+#align(
+  center,
+  image("Grafiken/Waffe/nachladen.svg", alt: "Nachladen"),
+)
+
+Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Fernkampf-Aktionen", alt: "Nachladen") durchgeführt wurde:
+
+#align(
+  center,
+  image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
+)
+
+== Einmalnutzung <Waffen-Einmalnutzung>
+#index("Einmalnutzung", "Waffen")
+#index("Waffen", "Einmalnutzung")
+
+Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
+
+Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
+
+Bei jeder Verwendung muss ein Marker gestrichen werden.
+
+#uni.example(
+  align(
+    left,
+    [
+      Für eine Granate die 4x verwendet werden kann.
+
+      #image("Grafiken/Abbildungen/einmalnutzung_waffe.jpg", alt: "Einmalnutzung Waffe")
+    ],
+  ),
+)
+
+= Rüstungen
+<Rüstungen>
+#index[Rüstungen]
+
+Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
+
+Rüstungen verfügen über ein #uni.lnk("Rüstungsprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
+
+== Regeln
+#index("Rüstung", "Regeln")
+
+Jede Rüstung kann Regeln beinhalten.
+Wenn dem so ist werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
+
+== Additiver Schutz
+
+Manche Rüstungen verfügen nicht über einen eigenen Schutzwert, sondern sind additiv.
+Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
+
+== Selbsttragend
+
+Das Gewicht von selbsttragenden Rüstungen wird für die #uni.lnk("Tragkraft") eines Modells ignoriert.
+
 = Grundregeln
 
 == Aktionspunkte
@@ -880,79 +1141,6 @@ Wenn es weitergeht, werden je Modell bis zu 3 nicht verbrauchte AP in die nächs
 Hier bietet es sich an einen W6 in der korrekten Farbe (siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand")) mit der übernommenen Menge an AP an das jeweilige Modell zu dem bereits vorhandenen dazu zu legen.
 Ein Modell kann dabei nie über mehr als 12 Aktionspunkte verfügen.
 Siehe dazu auch #uni.lnk("Aktionspunkte").
-
-= Eigenschaften
-<Eigenschaften>
-#index[Eigenschaften]
-
-Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache #uni.lnk("Attribute") hinausgeht.
-Außerdem können sie über eventuelle #uni.lnk("Profilmodifikatoren") verfügen.
-
-Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disziplinen-und-Kräfte", alt: "Kraft") dargestellt werden.
-
-== Aktionen
-<Eigenschaften-Aktionen>
-
-#uni.action(
-  "Eigenschaft anwenden",
-  "X",
-  [
-    Das Modell wendet eine Eigenschaft an.
-    Die dafür nötigen AP-Kosten sind bei der Eigenschaft angegeben.
-  ],
-)
-
-== Regeln
-<Regeln>
-#index("Eigenschaften", "Regeln")
-
-Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
-Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
-
-Was die Eigenschaft für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
-
-Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur von der höchsten Stufe.
-
-#uni.example(
-  align(
-    left,
-    [
-      Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
-
-      In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
-    ],
-  ),
-)
-
-== Einmalnutzung
-<Eigenschaften-Einmalnutzung>
-#index("Einmalnutzung", "Eigenschaften")
-#index("Eigenschaften", "Einmalnutzung")
-
-Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
-Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
-
-Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
-Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
-
-Bei jeder Verwendung muss ein Marker gestrichen werden.
-
-#uni.example(
-  align(
-    left,
-    [
-      Für eine Regeneration die 3x verwendet werden kann.
-
-      #image("Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg", alt: "Einmalnutzung Eigenschaft")
-    ],
-  ),
-)
-
-== AP-Kosten
-<Eigenschaften-AP-Kosten>
-#index("Eigenschaften", "AP-Kosten")
-
-Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
 
 = Bewegung
 <Bewegung>
@@ -1846,132 +2034,6 @@ Modelle mit Giftmarkern zählen als _vergiftet_:
 
 Zum Beginn ihrer Initiativephase entfernen sie 1 Giftmarker, und erleiden automatischen Schaden mit dem #uni.lnk("Schadensprofil") der Waffe, welche die Vergiftung verursacht hat.
 
-= Waffen
-<Waffen>
-
-Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
-
-Waffen verfügen über ein #uni.lnk("Schadensprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
-
-Weiterhin können für sie Regeln wie #uni.lnk("Indirekter-Fernkampf"), #uni.lnk("Dauerfeuer") oder #uni.lnk("Flächenwaffen", alt: "Flächenwaffe") infrage kommen.
-
-== Waffenklassen
-
-Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
-Je größer/komplexer desto höher die Waffenklasse.
-
-Waffenklassen werden mit „WK“ abgekürzt.
-WK I steht somit für Waffen der Klasse 1.
-
-Siehe #uni.lnk("Anhang-Beispiele-Waffenklassen", alt: "Anhang: Beispiele Waffenklassen").
-
-== Fernkampfwaffen
-
-Eine Fernkampfwaffe verfügt zusätzlich über eine Reichweite in Form eines #uni.lnk("Reichweite", alt: "Reichweitenbandes") und einer Angabe für eventuelles #uni.lnk("Dauerfeuer").
-
-== Nahkampfwaffen
-
-Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt eingesetzt werden können.
-
-== Wurfwaffen
-
-Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
-
-Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei #uni.lnk("Waffen-Unhandlich", alt: "unhandlichen") Waffen wird sie mit 0,5 multipliziert (aufgerundet).
-
-#uni.example(
-  align(
-    left,
-    [
-      Für einen Menschen mit KO von 5:
-
-      #image("Grafiken/Abbildungen/wurfwaffe.jpg", alt: "Wurfwaffe")
-    ],
-  ),
-)
-
-== Additive Stärke
-
-Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind additiv.
-Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
-
-== Unhandliche Waffen
-<Waffen-Unhandlich>
-#index("Unhandlich", "Waffen")
-#index("Waffen", "Unhandlich")
-
-Manche Waffen sind unhandlich und haben dadurch negative Auswirkungen im #uni.lnk("Fernkampf-Unhandlich", alt: "Fernkampf") und #uni.lnk("Nahkampf-Unhandlich", alt: "Nahkampf").
-
-Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts oben neben der Waffenklasse ausgewiesen:
-
-#align(
-  center,
-  image("Grafiken/Waffe/unhandlich.png", alt: "unhandlich"),
-)
-
-== Nachladen
-<Nachladen>
-#index[Nachladen]
-
-Waffen die nachladen müssen besitzen das folgende Symbol.
-
-#align(
-  center,
-  image("Grafiken/Waffe/nachladen.svg", alt: "Nachladen"),
-)
-
-Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Fernkampf-Aktionen", alt: "Nachladen") durchgeführt wurde:
-
-#align(
-  center,
-  image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
-)
-
-== Einmalnutzung <Waffen-Einmalnutzung>
-#index("Einmalnutzung", "Waffen")
-#index("Waffen", "Einmalnutzung")
-
-Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
-
-Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
-Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
-
-Bei jeder Verwendung muss ein Marker gestrichen werden.
-
-#uni.example(
-  align(
-    left,
-    [
-      Für eine Granate die 4x verwendet werden kann.
-
-      #image("Grafiken/Abbildungen/einmalnutzung_waffe.jpg", alt: "Einmalnutzung Waffe")
-    ],
-  ),
-)
-
-= Rüstungen
-<Rüstungen>
-#index[Rüstungen]
-
-Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
-
-Rüstungen verfügen über ein #uni.lnk("Rüstungsprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
-
-== Regeln
-#index("Rüstung", "Regeln")
-
-Jede Rüstung kann Regeln beinhalten.
-Wenn dem so ist werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
-
-== Additiver Schutz
-
-Manche Rüstungen verfügen nicht über einen eigenen Schutzwert, sondern sind additiv.
-Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
-
-== Selbsttragend
-
-Das Gewicht von selbsttragenden Rüstungen wird für die #uni.lnk("Tragkraft") eines Modells ignoriert.
-
 = Fernkampf
 <Fernkampf>
 #index[Fernkampf]
@@ -2646,68 +2708,6 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
     - Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
   ],
 )
-
-= Ausrüstung
-<Ausrüstung>
-#index[Ausrüstung]
-
-Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
-
-Ausrüstung kann über #uni.lnk("Profilmodifikatoren") verfügen.
-
-== Aktionen
-<Ausrüstung-Aktionen>
-
-#uni.action(
-  "Ausrüstung verwenden",
-  "X",
-  [
-    Das Modell verwendet einen Ausrüstungsgegenstand.
-
-    Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
-  ],
-)
-
-== Regeln
-#index("Ausrüstung", "Regeln")
-
-Jede Ausrüstung kann Regeln beinhalten.
-Wenn dem so ist, werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
-
-== AP-Kosten
-#index("Ausrüstung", "AP-Kosten")
-
-Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Verwendung notwendig.
-
-== Einmalnutzung
-#index("Einmalnutzung", "Ausrüstung")
-#index("Ausrüstung", "Einmalnutzung")
-
-Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
-
-Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
-Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet werden kann.
-
-Bei jeder Verwendung muss ein Marker gestrichen werden.
-
-#uni.example(
-  align(
-    left,
-    [
-      Für ein medizinisches Spray das 3x verwendet werden kann.
-
-      #image("Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg", alt: "Einmalnutzung Ausrüstung")
-    ],
-  ),
-)
-
-== Unhandliche Ausrüstung <Ausrüstung-Unhandlich>
-#index("Unhandlich", "Ausrüstung")
-#index("Ausrüstung", "Unhandlich")
-
-Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Auswirkungen im #uni.lnk("Fernkampf-Unhandlich", alt: "Fernkampf") und #uni.lnk("Nahkampf-Unhandlich", alt: "Nahkampf").
-
-Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
 = Kolosse
 <Kolosse>
