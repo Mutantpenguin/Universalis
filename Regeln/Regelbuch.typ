@@ -487,12 +487,15 @@ Temporäre Profilmodifikatoren sind auf der #uni.lnk("Einheitenkarte") nicht im 
 Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
 = Ausstattung
+<Ausstattung>
+#index[Ausstattung]
 
 Modelle verfügen nicht nur über #uni.lnk("Attribute"), sondern können auch Eigenschaften, Waffen, Rüstungen oder sonstige Ausrüstung haben.
 
 == Eigenschaften
 <Eigenschaften>
 #index[Eigenschaften]
+#index("Ausstattung", "Eigenschaften")
 
 Eigenschaften beschreiben alles Erlernte oder Angeborene eines Modells das über einfache #uni.lnk("Attribute") hinausgeht.
 Außerdem können sie über eventuelle #uni.lnk("Profilmodifikatoren") verfügen.
@@ -542,6 +545,7 @@ Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausg
 == Ausrüstung
 <Ausrüstung>
 #index[Ausrüstung]
+#index("Ausstattung", "Ausrüstung")
 
 Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder Rüstung passt.
 
@@ -581,6 +585,8 @@ Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts neben der Be
 
 == Waffen
 <Waffen>
+#index[Waffen]
+#index("Ausstattung", "Waffen")
 
 Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
 
@@ -663,6 +669,7 @@ Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann e
 == Rüstungen
 <Rüstungen>
 #index[Rüstungen]
+#index("Ausstattung", "Rüstungen")
 
 Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob es von dem Modell als Kleidung getragen wird, als natürlicher Schutzpanzer einfach zu ihm gehört oder wie Panzerplatten an einem Fahrzeug ein fester Bestandteil davon sind.
 
@@ -686,6 +693,7 @@ Das Gewicht von selbsttragenden Rüstungen wird für die #uni.lnk("Tragkraft") e
 == Einmalnutzung
 <Einmalnutzung>
 #index[Einmalnutzung]
+#index("Ausstattung", "Einmalnutzung")
 
 Bestimmte Eigenschaften, Waffen und Ausrüstung stehen nicht dauerhaft, sondern nur in einer begrenzten Anzahl zur Verfügung. Sie gelten nicht dauerhaft, sondern müssen bewusst eingesetzt werden.
 
