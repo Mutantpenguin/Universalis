@@ -496,14 +496,11 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disz
   ],
 )
 
-=== Regeln
-<Regeln>
-#index("Eigenschaften", "Regeln")
+=== Eigenschaftsstufen
+#index("Eigenschaften", "Stufen")
 
-Eine Eigenschaft verfügt immer über einen Namen der grob umschreibt was diese Eigenschaft umfasst.
-Ausserdem kann eine Eigenschaft über eine Stufe verfügen.
-
-Was die Eigenschaft für Auswirkungen hat und wie die Stufe zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
+Eigenschaften können über eine Stufe verfügen.
+Wie sie zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
 
 Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur von der höchsten Stufe.
 
@@ -511,7 +508,7 @@ Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur vo
   align(
     left,
     [
-      Ein normaler Mensch erhält die Eigenschaft „Bewährter Fernkämpfer II“.
+      Ein normaler Mensch erlernt die Eigenschaft „Bewährter Fernkämpfer II“.
 
       In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
     ],
@@ -543,12 +540,6 @@ Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder R�
     Die dafür nötigen AP-Kosten sind beim Ausrüstungsgegenstand angegeben.
   ],
 )
-
-=== Regeln
-#index("Ausrüstung", "Regeln")
-
-Jede Ausrüstung kann Regeln beinhalten.
-Wenn dem so ist, werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
 
 === AP-Kosten
 #index("Ausrüstung", "AP-Kosten")
@@ -655,12 +646,6 @@ Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob 
 
 Rüstungen verfügen über ein #uni.lnk("Rüstungsprofil").
 
-=== Regeln
-#index("Rüstung", "Regeln")
-
-Jede Rüstung kann Regeln beinhalten.
-Wenn dem so ist werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
-
 === Additiver Schutz
 
 Manche Rüstungen verfügen nicht über einen eigenen Schutzwert, sondern sind additiv.
@@ -669,6 +654,12 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 === Selbsttragend
 
 Das Gewicht von selbsttragenden Rüstungen wird für die #uni.lnk("Tragkraft") eines Modells ignoriert.
+
+== Sonderregeln
+#index("Ausstattung", "Sonderregeln")
+
+Jede Ausstattung kann Sonderregeln beinhalten.
+Falls sie welche hat, werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
 
 == Einmalnutzung
 <Einmalnutzung>
