@@ -473,7 +473,7 @@ Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 <Ausstattung>
 #index[Ausstattung]
 
-Modelle verfügen nicht nur über #uni.lnk("Attribute"), sondern können auch Eigenschaften, Waffen, Rüstungen oder sonstige Ausrüstung haben.
+Modelle verfügen nicht nur über #uni.lnk("Attribute"), sondern können auch Eigenschaften, Waffen, Rüstungen oder Ausrüstung haben.
 
 == Eigenschaften
 <Eigenschaften>
