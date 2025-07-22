@@ -533,30 +533,6 @@ Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur vo
   ),
 )
 
-=== Einmalnutzung
-<Eigenschaften-Einmalnutzung>
-#index("Einmalnutzung", "Eigenschaften")
-#index("Eigenschaften", "Einmalnutzung")
-
-Bestimmte Eigenschaften gelten nicht dauerhaft sondern müssen bewusst eingesetzt werden.
-Ihr Einsatz ist nur in einer begrenzten Anzahl möglich.
-
-Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft vermerkt.
-Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft noch verwendet werden kann.
-
-Bei jeder Verwendung muss ein Marker gestrichen werden.
-
-#uni.example(
-  align(
-    left,
-    [
-      Für eine Regeneration die 3x verwendet werden kann.
-
-      #image("Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg", alt: "Einmalnutzung Eigenschaft")
-    ],
-  ),
-)
-
 === AP-Kosten
 <Eigenschaften-AP-Kosten>
 #index("Eigenschaften", "AP-Kosten")
@@ -594,28 +570,6 @@ Wenn dem so ist, werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") au
 #index("Ausrüstung", "AP-Kosten")
 
 Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Verwendung notwendig.
-
-=== Einmalnutzung
-#index("Einmalnutzung", "Ausrüstung")
-#index("Ausrüstung", "Einmalnutzung")
-
-Bestimmte Ausrüstung kann nur in einer begrenzten Anzahl eingesetzt werden.
-
-Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Ausrüstung vermerkt.
-Die Anzahl an leeren Markern zeigt an, wie oft die Ausrüstung noch verwendet werden kann.
-
-Bei jeder Verwendung muss ein Marker gestrichen werden.
-
-#uni.example(
-  align(
-    left,
-    [
-      Für ein medizinisches Spray das 3x verwendet werden kann.
-
-      #image("Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg", alt: "Einmalnutzung Ausrüstung")
-    ],
-  ),
-)
 
 === Unhandliche Ausrüstung <Ausrüstung-Unhandlich>
 #index("Unhandlich", "Ausrüstung")
@@ -706,28 +660,6 @@ Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann e
   image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
 )
 
-=== Einmalnutzung <Waffen-Einmalnutzung>
-#index("Einmalnutzung", "Waffen")
-#index("Waffen", "Einmalnutzung")
-
-Bestimmte Waffen wie bspw. Speere, Granaten oder spezielle Munitionstypen können nur in einer begrenzten Anzahl eingesetzt werden.
-
-Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Waffe vermerkt.
-Die Anzahl an leeren Markern zeigt an, wie oft die Waffe noch verwendet werden kann.
-
-Bei jeder Verwendung muss ein Marker gestrichen werden.
-
-#uni.example(
-  align(
-    left,
-    [
-      Für eine Granate die 4x verwendet werden kann.
-
-      #image("Grafiken/Abbildungen/einmalnutzung_waffe.jpg", alt: "Einmalnutzung Waffe")
-    ],
-  ),
-)
-
 == Rüstungen
 <Rüstungen>
 #index[Rüstungen]
@@ -750,6 +682,50 @@ Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 === Selbsttragend
 
 Das Gewicht von selbsttragenden Rüstungen wird für die #uni.lnk("Tragkraft") eines Modells ignoriert.
+
+== Einmalnutzung
+<Einmalnutzung>
+#index[Einmalnutzung]
+
+Bestimmte Eigenschaften, Waffen und Ausrüstung stehen nicht dauerhaft, sondern nur in einer begrenzten Anzahl zur Verfügung. Sie gelten nicht dauerhaft, sondern müssen bewusst eingesetzt werden.
+
+Auf der #uni.lnk("Einheitenkarte") ist dies mit kreisförmigen Markern unmittelbar beim Namen der Eigenschaft/Waffe/Ausrüstung vermerkt.
+Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft/Waffe/Ausrüstung noch verwendet werden kann.
+
+Bei jeder Verwendung muss ein Marker gestrichen werden.
+
+#uni.example(
+  align(
+    left,
+    [
+      Regeneration die 3x verwendet werden kann
+
+      #image("Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg", alt: "Einmalnutzung Eigenschaft")
+    ],
+  ),
+)
+
+#uni.example(
+  align(
+    left,
+    [
+      3x medizinisches Spray
+
+      #image("Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg", alt: "Einmalnutzung Ausrüstung")
+    ],
+  ),
+)
+
+#uni.example(
+  align(
+    left,
+    [
+      4x einzelne Granaten
+
+      #image("Grafiken/Abbildungen/einmalnutzung_waffe.jpg", alt: "Einmalnutzung Waffe")
+    ],
+  ),
+)
 
 = Grundregeln
 
