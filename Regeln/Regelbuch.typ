@@ -469,23 +469,6 @@ Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zw
 
 Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
 
-== Profilmodifikatoren
-<Profilmodifikatoren>
-#index[Profilmodifikatoren]
-
-Manche #uni.lnk("Rüstungen", alt: "Rüstung"), #uni.lnk("Waffen", alt: "Waffe"), #uni.lnk("Ausrüstung") oder #uni.lnk("Eigenschaften", alt: "Eigenschaft") kann Auswirkungen auf das Profil eines Modells haben.
-
-Diese können entweder permanent oder temporär sein:
-
-=== Permanent
-
-Gelten dauernd und werden auf der #uni.lnk("Einheitenkarte") direkt in das Profil mit eingerechnet.
-
-=== Temporär
-
-Temporäre Profilmodifikatoren sind auf der #uni.lnk("Einheitenkarte") nicht im Profil mit eingerechnet.
-Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
-
 = Ausstattung
 <Ausstattung>
 #index[Ausstattung]
@@ -734,6 +717,22 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
     ],
   ),
 )
+
+== Profilmodifikatoren
+<Profilmodifikatoren>
+#index[Profilmodifikatoren]
+#index("Ausstattung", "Profilmodifikatoren")
+
+Ausstattung kann Auswirkungen auf das Profil eines Modells haben, die entweder permanent oder temporär sein können.
+
+=== Permanent
+
+Gelten dauernd und werden auf der #uni.lnk("Einheitenkarte") direkt in das Profil mit eingerechnet.
+
+=== Temporär
+
+Temporäre Profilmodifikatoren sind auf der #uni.lnk("Einheitenkarte") nicht im Profil mit eingerechnet.
+Sie kommen nur zur Anwendung wenn die Ausstattung aktiv verwendet wird.
 
 = Grundregeln
 
