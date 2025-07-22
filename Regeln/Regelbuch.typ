@@ -486,7 +486,11 @@ Gelten dauernd und werden auf der #uni.lnk("Einheitenkarte") direkt in das Profi
 Temporäre Profilmodifikatoren sind auf der #uni.lnk("Einheitenkarte") nicht im Profil mit eingerechnet.
 Sie kommen nur zur Anwendung wenn die Ausrüstung aktiv angewendet ist.
 
-= Eigenschaften
+= Ausstattung
+
+Modelle verfügen nicht nur über #uni.lnk("Attribute"), sondern können auch Eigenschaften, Waffen, Rüstungen oder sonstige Ausrüstung haben.
+
+== Eigenschaften
 <Eigenschaften>
 #index[Eigenschaften]
 
@@ -495,7 +499,7 @@ Außerdem können sie über eventuelle #uni.lnk("Profilmodifikatoren") verfügen
 
 Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disziplinen-und-Kräfte", alt: "Kraft") dargestellt werden.
 
-== Aktionen
+=== Aktionen
 <Eigenschaften-Aktionen>
 
 #uni.action(
@@ -507,7 +511,7 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disz
   ],
 )
 
-== Regeln
+=== Regeln
 <Regeln>
 #index("Eigenschaften", "Regeln")
 
@@ -529,7 +533,7 @@ Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur vo
   ),
 )
 
-== Einmalnutzung
+=== Einmalnutzung
 <Eigenschaften-Einmalnutzung>
 #index("Einmalnutzung", "Eigenschaften")
 #index("Eigenschaften", "Einmalnutzung")
@@ -553,13 +557,13 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
   ),
 )
 
-== AP-Kosten
+=== AP-Kosten
 <Eigenschaften-AP-Kosten>
 #index("Eigenschaften", "AP-Kosten")
 
 Wenn eine Eigenschaft AP-Kosten hat, muss die Aktion _Eigenschaft anwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Anwendung notwendig.
 
-= Ausrüstung
+== Ausrüstung
 <Ausrüstung>
 #index[Ausrüstung]
 
@@ -567,7 +571,7 @@ Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder R�
 
 Ausrüstung kann über #uni.lnk("Profilmodifikatoren") verfügen.
 
-== Aktionen
+=== Aktionen
 <Ausrüstung-Aktionen>
 
 #uni.action(
@@ -580,18 +584,18 @@ Ausrüstung kann über #uni.lnk("Profilmodifikatoren") verfügen.
   ],
 )
 
-== Regeln
+=== Regeln
 #index("Ausrüstung", "Regeln")
 
 Jede Ausrüstung kann Regeln beinhalten.
 Wenn dem so ist, werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
 
-== AP-Kosten
+=== AP-Kosten
 #index("Ausrüstung", "AP-Kosten")
 
 Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Verwendung notwendig.
 
-== Einmalnutzung
+=== Einmalnutzung
 #index("Einmalnutzung", "Ausrüstung")
 #index("Ausrüstung", "Einmalnutzung")
 
@@ -613,7 +617,7 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
   ),
 )
 
-== Unhandliche Ausrüstung <Ausrüstung-Unhandlich>
+=== Unhandliche Ausrüstung <Ausrüstung-Unhandlich>
 #index("Unhandlich", "Ausrüstung")
 #index("Ausrüstung", "Unhandlich")
 
@@ -621,7 +625,7 @@ Bestimmte Ausrüstungsgegenstände sind unhandlich und haben dadurch negative Au
 
 Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts neben der Bezeichnung der Ausrüstung ausgewiesen.
 
-= Waffen
+== Waffen
 <Waffen>
 
 Als Waffe wird alles verstanden mit dem ein Modell Schaden austeilt, egal ob es von dem Modell getragen wird, als natürliche Waffe einfach zu ihm gehört oder wie eine Kanone an einem Fahrzeug ein fester Bestandteil davon ist.
@@ -630,7 +634,7 @@ Waffen verfügen über ein #uni.lnk("Schadensprofil") und eventuelle #uni.lnk("P
 
 Weiterhin können für sie Regeln wie #uni.lnk("Indirekter-Fernkampf"), #uni.lnk("Dauerfeuer") oder #uni.lnk("Flächenwaffen", alt: "Flächenwaffe") infrage kommen.
 
-== Waffenklassen
+=== Waffenklassen
 
 Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
 Je größer/komplexer desto höher die Waffenklasse.
@@ -640,15 +644,15 @@ WK I steht somit für Waffen der Klasse 1.
 
 Siehe #uni.lnk("Anhang-Beispiele-Waffenklassen", alt: "Anhang: Beispiele Waffenklassen").
 
-== Fernkampfwaffen
+=== Fernkampfwaffen
 
 Eine Fernkampfwaffe verfügt zusätzlich über eine Reichweite in Form eines #uni.lnk("Reichweite", alt: "Reichweitenbandes") und einer Angabe für eventuelles #uni.lnk("Dauerfeuer").
 
-== Nahkampfwaffen
+=== Nahkampfwaffen
 
 Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt eingesetzt werden können.
 
-== Wurfwaffen
+=== Wurfwaffen
 
 Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
@@ -665,12 +669,12 @@ Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei #
   ),
 )
 
-== Additive Stärke
+=== Additive Stärke
 
 Manche Waffen verfügen nicht über einen eigenen Stärke-Wert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
-== Unhandliche Waffen
+=== Unhandliche Waffen
 <Waffen-Unhandlich>
 #index("Unhandlich", "Waffen")
 #index("Waffen", "Unhandlich")
@@ -684,7 +688,7 @@ Auf der #uni.lnk("Einheitenkarte") wird dies mit einer Raute rechts oben neben d
   image("Grafiken/Waffe/unhandlich.png", alt: "unhandlich"),
 )
 
-== Nachladen
+=== Nachladen
 <Nachladen>
 #index[Nachladen]
 
@@ -702,7 +706,7 @@ Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann e
   image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
 )
 
-== Einmalnutzung <Waffen-Einmalnutzung>
+=== Einmalnutzung <Waffen-Einmalnutzung>
 #index("Einmalnutzung", "Waffen")
 #index("Waffen", "Einmalnutzung")
 
@@ -724,7 +728,7 @@ Bei jeder Verwendung muss ein Marker gestrichen werden.
   ),
 )
 
-= Rüstungen
+== Rüstungen
 <Rüstungen>
 #index[Rüstungen]
 
@@ -732,18 +736,18 @@ Als Rüstung wird alles verstanden das ein Modell vor Schaden schützt, egal ob 
 
 Rüstungen verfügen über ein #uni.lnk("Rüstungsprofil") und eventuelle #uni.lnk("Profilmodifikatoren").
 
-== Regeln
+=== Regeln
 #index("Rüstung", "Regeln")
 
 Jede Rüstung kann Regeln beinhalten.
 Wenn dem so ist werden sie auf der Rückseite der #uni.lnk("Einheitenkarte") ausgegeben.
 
-== Additiver Schutz
+=== Additiver Schutz
 
 Manche Rüstungen verfügen nicht über einen eigenen Schutzwert, sondern sind additiv.
 Dies bedeutet, dass ihr Wert auf die KO des Modells aufaddiert wird.
 
-== Selbsttragend
+=== Selbsttragend
 
 Das Gewicht von selbsttragenden Rüstungen wird für die #uni.lnk("Tragkraft") eines Modells ignoriert.
 
