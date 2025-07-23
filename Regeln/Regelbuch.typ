@@ -2350,7 +2350,7 @@ Der Einschlagpunkt ist nun dort, wo diese Linie das erste #uni.lnk("Geländestü
 Wenn die Fläche die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
 Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgerundet).
 
-Wenn das getroffene Modell Deckung berührt kommt diese voll zur Geltung.
+Wenn das getroffene Modell Deckung berührt kommt diese für den #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Verteidigungswurf") voll zur Geltung.
 
 = Nahkampf
 <Nahkampf>
