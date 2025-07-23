@@ -57,17 +57,23 @@
 }
 
 #let example(content, caption: "") = {
-  figure(
-    supplement: "Beispiel",
-    kind: "Beispiel",
-    block(
-      stroke: gray,
-      radius: 5pt,
-      inset: 10pt,
-      width: 100%,
-      content,
+  block(
+    breakable: false,
+    stroke: gray + 1pt,
+    radius: 2pt,
+    inset: 0.5em,
+    width: 100%,
+    fill: luma(250),
+    figure(
+      gap: 1em,
+      supplement: [
+        #text(font: "Noto Emoji", emoji.info)
+        Beispiel
+      ],
+      kind: "Beispiel",
+      caption: caption,
+      text(size: 8pt, content),
     ),
-    caption: caption,
   )
 }
 
@@ -145,6 +151,7 @@
   #let heading_font = "Noto Sans"
 
   #set figure.caption(position: top)
+  #show figure: set align(left)
   #show figure.caption: set align(left)
   #show figure.caption: set text(style: "italic")
   #show figure.caption: set text(size: 8pt)

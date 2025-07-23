@@ -504,16 +504,11 @@ Wie sie zu behandeln ist, muss dem Regeltext der Eigenschaft entnommen werden.
 
 Ein Modell welches eine Eigenschaft in mehreren Stufen besitzt profitiert nur von der höchsten Stufe.
 
-#uni.example(
-  align(
-    left,
-    [
-      Ein normaler Mensch erlernt die Eigenschaft „Bewährter Fernkämpfer II“.
+#uni.example([
+  Ein normaler Mensch erlernt die Eigenschaft „Bewährter Fernkämpfer II“.
 
-      In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
-    ],
-  ),
-)
+  In ihr ist beschrieben, dass das Modell den FK-Wurf bis zu 2 mal wiederholen darf.
+])
 
 === AP-Kosten
 <Eigenschaften-AP-Kosten>
@@ -589,16 +584,11 @@ Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
 
 Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei #uni.lnk("Waffen-Unhandlich", alt: "unhandlichen") Waffen wird sie mit 0,5 multipliziert (aufgerundet).
 
-#uni.example(
-  align(
-    left,
-    [
-      Für einen Menschen mit KO von 5:
+#uni.example([
+  Für einen Menschen mit KO von 5:
 
-      #image("Grafiken/Abbildungen/wurfwaffe.jpg", alt: "Wurfwaffe")
-    ],
-  ),
-)
+  #image("Grafiken/Abbildungen/wurfwaffe.jpg", alt: "Wurfwaffe")
+])
 
 === Additive Stärke
 
@@ -673,38 +663,23 @@ Die Anzahl an leeren Markern zeigt an, wie oft die Eigenschaft/Waffe/Ausrüstung
 
 Bei jeder Verwendung muss ein Marker gestrichen werden.
 
-#uni.example(
-  align(
-    left,
-    [
-      Regeneration die 3x verwendet werden kann
+#uni.example([
+  Regeneration die 3x verwendet werden kann
 
-      #image("Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg", alt: "Einmalnutzung Eigenschaft")
-    ],
-  ),
-)
+  #image("Grafiken/Abbildungen/einmalnutzung_eigenschaft.jpg", alt: "Einmalnutzung Eigenschaft")
+])
 
-#uni.example(
-  align(
-    left,
-    [
-      3x medizinisches Spray
+#uni.example([
+  3x medizinisches Spray
 
-      #image("Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg", alt: "Einmalnutzung Ausrüstung")
-    ],
-  ),
-)
+  #image("Grafiken/Abbildungen/einmalnutzung_ausrüstung.jpg", alt: "Einmalnutzung Ausrüstung")
+])
 
-#uni.example(
-  align(
-    left,
-    [
-      4x einzelne Granaten
+#uni.example([
+  4x einzelne Granaten
 
-      #image("Grafiken/Abbildungen/einmalnutzung_waffe.jpg", alt: "Einmalnutzung Waffe")
-    ],
-  ),
-)
+  #image("Grafiken/Abbildungen/einmalnutzung_waffe.jpg", alt: "Einmalnutzung Waffe")
+])
 
 == Profilmodifikatoren
 <Profilmodifikatoren>
@@ -891,16 +866,11 @@ Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw
 
 Auf der #uni.lnk("Einheitenkarte") ist dies bei den Attributen bereits eingerechnet.
 
-#uni.example(
-  align(
-    left,
-    [
-      Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
+#uni.example([
+  Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
 
-      Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
-    ],
-  ),
-)
+  Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
+])
 
 == Gefahrenbereich
 <Gefahrenbereich>
@@ -1415,34 +1385,19 @@ Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
 Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-#uni.example(
-  align(
-    left,
-    "Gebüsch, Zaun, Plastik, Blech, Möbel",
-  ),
-)
+#uni.example("Gebüsch, Zaun, Plastik, Blech, Möbel")
 
 === Hart
 
 Kann Beschuss bedingt abhalten.
 
-#uni.example(
-  align(
-    left,
-    "Ziegelmauer, Holzhaus, Fässer, Kisten",
-  ),
-)
+#uni.example("Ziegelmauer, Holzhaus, Fässer, Kisten")
 
 === Massiv
 
 Ist zur direkten Abwehr von Beschuss geeignet.
 
-#uni.example(
-  align(
-    left,
-    "Sandsackbarrieren, Beton, Stahl, befestigte Stellungen",
-  ),
-)
+#uni.example("Sandsackbarrieren, Beton, Stahl, befestigte Stellungen")
 
 == Passierbarkeit
 <Passierbarkeit>
@@ -1499,16 +1454,11 @@ Was genau ein Objekt konkret ausmacht wird durch gesunden Menschenverstand, Szen
 
 Siehe #uni.lnk("Anhang-Objekte", alt: "Anhang: Objekte") für eine Übersicht allgemein nutzbarer Objekte.
 
-#uni.example(
-  align(
-    left,
-    [
-      - Türen
-      - Schalter und Hebel
-      - Computer Terminals
-    ],
-  ),
-)
+#uni.example([
+  - Türen
+  - Schalter und Hebel
+  - Computer Terminals
+])
 
 == Aktionen
 <Objekt-Aktionen>
@@ -1538,34 +1488,28 @@ Die folgenden Voraussetzungen sind möglich, auch in Kombination.
 
 Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
 
-#uni.example(
-  align(left)[
-    - _Hacking III_ um ein Terminal der Stufe III zu hacken.
-    - _Schlossknacken_ um Schlösser zu knacken.
-  ],
-)
+#uni.example([
+  - _Hacking III_ um ein Terminal der Stufe III zu hacken.
+  - _Schlossknacken_ um Schlösser zu knacken.
+])
 
 *_Schwierigkeit_*
 
 #uni.lnk("Attributswurf") mit optionalem Modifikator notwendig.
 
-#uni.example(
-  align(left)[
-    - KO-Test um die Winde eines Falltors zu drehen.
-    - WN-2-Test um ein elektronisches Schloss kurz zu schließen.
-  ],
-)
+#uni.example([
+  - KO-Test um die Winde eines Falltors zu drehen.
+  - WN-2-Test um ein elektronisches Schloss kurz zu schließen.
+])
 
 *_Komplex_*
 
 Alles ist möglich.
 
-#uni.example(
-  align(left)[
-    - Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
-    - Ein konkret benanntes anderes Objekt (z.B. ein Schalter) wurde bereits benutzt.
-  ],
-)
+#uni.example([
+  - Das Modell muss einen speziellen Gegenstand wie z.B. Schlüssel oder Keycard besitzen.
+  - Ein konkret benanntes anderes Objekt (z.B. ein Schalter) wurde bereits benutzt.
+])
 
 = Schaden & Rüstung
 <Schaden-und-Rüstung>
@@ -1633,16 +1577,11 @@ Ein Schadens- oder Rüstungsprofil kann über Effekte verfügen.
 Beim Verletzungswurf und Rüstungswurf werden alle zutreffenden Effekte des Schadensprofils und Rüstungsprofils angewendet.
 Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im Schadensprofil vorkommenden Effekt, so dass dieser nicht zur Anwendung kommt.
 
-#uni.example(
-  align(
-    left,
-    [
-      Ein Modell wird mit einer Pistole mit dem Effekt „Explosiv“ beschossen.
-      Der Angreifer dürfte nun normalerweise seine Stärke für den Verletzungswurf verdoppeln.
-      Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
-    ],
-  ),
-)
+#uni.example([
+  Ein Modell wird mit einer Pistole mit dem Effekt „Explosiv“ beschossen.
+  Der Angreifer dürfte nun normalerweise seine Stärke für den Verletzungswurf verdoppeln.
+  Ist aber in der Rüstung des Verteidigers ebenso der Effekt „Explosiv“ gelistet, kommt dieser Effekt nicht zu Geltung.
+])
 
 === Waffen und Rüstungen
 <Schadenseffekte-Waffen-und-Rüstungen>
@@ -2141,17 +2080,12 @@ Pro vollständig ausgenutztem Reichweitenband erhält ein Modell einen Malus von
 
 Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
 
-#uni.example(
-  align(
-    left,
-    [
-      Eine Pistole verfügt über den Wert 8/3.
-      Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 24".
+#uni.example([
+  Eine Pistole verfügt über den Wert 8/3.
+  Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 24".
 
-      Der FK-Wurf für ein Ziel in einer Entfernung von 6" erhält keinen Malus, bei 17" würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
-    ],
-  ),
-)
+  Der FK-Wurf für ein Ziel in einer Entfernung von 6" erhält keinen Malus, bei 17" würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+])
 
 == Trefferzonen
 #index("Fernkampf", "Trefferzonen")
@@ -2168,15 +2102,10 @@ Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zu
 
 Hierdurch können auch Modelle getroffen werden zu denen keine #uni.lnk("Sichtlinie") gezogen werden kann.
 
-#uni.example(
-  align(
-    left,
-    [
-      Ein gegnerisches Modell wird beschossen und es hat 2 Nahkampfgegner.
-      Die Wahrscheinlichkeit, dass ein Modell getroffen wird, beträgt 1/3.
-    ],
-  ),
-)
+#uni.example([
+  Ein gegnerisches Modell wird beschossen und es hat 2 Nahkampfgegner.
+  Die Wahrscheinlichkeit, dass ein Modell getroffen wird, beträgt 1/3.
+])
 
 == Beschuss von getarnten Modellen
 #index("Fernkampf", "getarnte Modelle")
@@ -2258,15 +2187,10 @@ Er ist nicht mit der Aktion #uni.lnk("Fernkampf-Reaktionen", alt: "Reaktionsfeue
 
 Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen #uni.lnk("Geländestücke") mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
 
-#uni.example(
-  align(
-    left,
-    [
-      Ein Granatwerfer hat eine Reichweite von 10/4 und somit eine maximale Reichweite von 40".
-      Die maximale Höhe für den Schuss beträgt somit 20".
-    ],
-  ),
-)
+#uni.example([
+  Ein Granatwerfer hat eine Reichweite von 10/4 und somit eine maximale Reichweite von 40".
+  Die maximale Höhe für den Schuss beträgt somit 20".
+])
 
 Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
 Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
@@ -2308,23 +2232,18 @@ Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf
 Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den FK-Wurf und +1 beim Verletzungswurf.
 Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 
-#uni.example(
-  align(
-    left,
-    [
-      Eine Maschinenpistole hat DF 3 und wird von einem Modell mit FK 5 abgefeuert.
+#uni.example([
+  Eine Maschinenpistole hat DF 3 und wird von einem Modell mit FK 5 abgefeuert.
 
-      Entweder
+  Entweder
 
-      - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
+  - Es feuert alle 4 Schuss auf ein Modell ab und erhält dadurch einen Bonus von +3 auf seinen FK-Wurf und +3 auf den anschließenden Verletzungswurf.
 
-      oder
+  oder
 
-      - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen FK-Wurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
-      Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
-    ],
-  ),
-)
+  - Es feuert jeweils 2 Schuss auf 2 verschiedene Ziele ab und erhält dadurch für beide Ziele einen Bonus von +1 auf seinen FK-Wurf (wobei sich für das zweite Ziel der Bonus durch den Zielwechsel aufhebt).
+  Der Bonus von +1 für den Verletzungswurf gilt jedoch für beide Ziele.
+])
 
 == Flächenwaffen
 <Flächenwaffen>
@@ -2574,16 +2493,11 @@ Die Waffenklasse ist abhängig von der Größe des Modells.
   "III",
 )
 
-#uni.example(
-  align(
-    left,
-    [
-      Für einen Infanteristen mit einer KO von 4.
+#uni.example([
+  Für einen Infanteristen mit einer KO von 4.
 
-      #image("Grafiken/Abbildungen/unbewaffnet.jpg", alt: "unbewaffnet")
-    ],
-  ),
-)
+  #image("Grafiken/Abbildungen/unbewaffnet.jpg", alt: "unbewaffnet")
+])
 
 = Tarnung
 <Tarnung>
@@ -2788,15 +2702,10 @@ Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus h
 
 Sie haben keine eigene Initiativephase.
 
-#uni.example(
-  align(
-    left,
-    [
-      - In einer Fantasywelt sind fliegende _Orbs_ oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
-      - Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
-    ],
-  ),
-)
+#uni.example([
+  - In einer Fantasywelt sind fliegende _Orbs_ oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
+  - Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
+])
 
 == Operatoren
 <Operatoren>
@@ -2810,16 +2719,11 @@ Seine ihm zugeordneten Begleiter werden gleichzeitig mit ihm in seiner Initiativ
 
 Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
 
-#uni.example(
-  align(
-    left,
-    [
-      - Eine Hexe hat die Eigenschaft _Vertrauter II_. Sie darf dadurch 2 zugeordnete Begleiter haben.
-      - Mit dem _R3MOTE α Fernsteuerdeck_ kann ein Straßensamurai 1 zugeordneten Begleiter haben.
-      - Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Begleiter haben.
-    ],
-  ),
-)
+#uni.example([
+  - Eine Hexe hat die Eigenschaft _Vertrauter II_. Sie darf dadurch 2 zugeordnete Begleiter haben.
+  - Mit dem _R3MOTE α Fernsteuerdeck_ kann ein Straßensamurai 1 zugeordneten Begleiter haben.
+  - Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Begleiter haben.
+])
 
 === Zuteilung
 #index("Begleiter", "Zuteilung")
@@ -2876,15 +2780,10 @@ Sie sind in sogenannten _Disziplinen_ organisiert welche die ungefähre Art der 
 
 Jede Spielmechanik die über #uni.lnk("Eigenschaften") hinaus geht sollte als Kraft dargestellt werden.
 
-#uni.example(
-  align(
-    left,
-    [
-      - In einer Fantasywelt wären _Feuermagie_ und _Eiszauberei_ eigene Disziplinen, die dann jeweils Kräfte wie _Feuerball_ und _Feuerwand_ bzw. _Eisblitz_ und _Schneesturm_ beinhalten.
-      - Bei Cyberpunk wäre eine Disziplin wie _Psychokinese_ denkbar die dann Kräfte wie _Würgegriff_ und _Schweben_ vereint.
-    ],
-  ),
-)
+#uni.example([
+  - In einer Fantasywelt wären _Feuermagie_ und _Eiszauberei_ eigene Disziplinen, die dann jeweils Kräfte wie _Feuerball_ und _Feuerwand_ bzw. _Eisblitz_ und _Schneesturm_ beinhalten.
+  - Bei Cyberpunk wäre eine Disziplin wie _Psychokinese_ denkbar die dann Kräfte wie _Würgegriff_ und _Schweben_ vereint.
+])
 
 == Auswahl
 <Kraft-Auswahl>
@@ -2895,15 +2794,10 @@ Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Diszipli
 
 Jeder Spieler entscheidet #uni.lnk("Vorbereiten der Gruppe", alt: "vor Spielbeginn"), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
 
-#uni.example(
-  align(
-    left,
-    [
-      Die Disziplin _Feuermagie_ enthält insgesamt 13 verschiedene Kräfte.
-      Magier Zordan verfügt über _Feuermagie - IV_ was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
-    ],
-  ),
-)
+#uni.example([
+  Die Disziplin _Feuermagie_ enthält insgesamt 13 verschiedene Kräfte.
+  Magier Zordan verfügt über _Feuermagie - IV_ was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
+])
 
 == Kräfte
 
@@ -2967,15 +2861,10 @@ Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher #uni.l
 Zusätzlich kann eine Schwierigkeit angegeben sein.
 Sie gibt an wie der #uni.lnk("Attributswurf") modifiziert wird.
 
-#uni.example(
-  align(
-    left,
-    [
-      - Die schwer auszuführende Kraft _Explosiver Feuerball_ ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
-      - Die simple Kraft _Levitation_ ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
-    ],
-  ),
-)
+#uni.example([
+  - Die schwer auszuführende Kraft _Explosiver Feuerball_ ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
+  - Die simple Kraft _Levitation_ ist mit `KO+3` angegeben. Der Attributswurf auf KO ist damit um 3 erleichtert.
+])
 
 === TP-Verlust
 <Kraft-TP-Verlust>
