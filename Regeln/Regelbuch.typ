@@ -1385,19 +1385,44 @@ Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
 Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
-#uni.example("Gebüsch, Zaun, Plastik, Blech, Möbel")
+#uni.example(
+  caption: "Weiche Deckung",
+  [
+    - Blech
+    - Gebüsch
+    - Möbel
+    - Plastik
+    - Zaun
+  ],
+)
 
 === Hart
 
 Kann Beschuss bedingt abhalten.
 
-#uni.example("Ziegelmauer, Holzhaus, Fässer, Kisten")
+#uni.example(
+  caption: "Harte Deckung",
+  [
+    - Fässer
+    - Holzhaus
+    - Kisten
+    - Ziegelmauer
+  ],
+)
 
 === Massiv
 
 Ist zur direkten Abwehr von Beschuss geeignet.
 
-#uni.example("Sandsackbarrieren, Beton, Stahl, befestigte Stellungen")
+#uni.example(
+  caption: "Massive Deckung",
+  [
+    - befestigte Stellungen
+    - Beton
+    - Sandsackbarrieren
+    - Stahl
+  ],
+)
 
 == Passierbarkeit
 <Passierbarkeit>
