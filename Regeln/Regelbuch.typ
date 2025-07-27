@@ -1291,8 +1291,8 @@ Bis zu einer Fallhöhe in Höhe seines #uni.lnk("Größenprofil", alt: "Größen
 Bis zur doppelten Höhe seines Größenprofils kann Schaden durch einen erfolgreichen Bewegungstest vermieden werden.
 Darüber hinaus erleidet es automatisch einen Treffer.
 
-Die Stärke des Treffers entspricht der KO des gefallenen Modells.
-Der Schaden orientiert sich ebenfalls an der KO des Modells.
+Die Stärke des Treffers ist gleich der KO des gefallenen Modells.
+Der Schaden muss der folgenden Tabelle entnommen werden.
 
 #uni.table_h(
   columns: (2fr, 1fr),
