@@ -2881,10 +2881,7 @@ Dies sind die benötigten AP um die Kraft einzusetzen.
 #index("Kräfte", "Attribut")
 
 Kräfte beziehen sich immer auf ein Attribut.
-Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher #uni.lnk("Attributswurf") gegen dieses Attribut abgelegt werden.
-
-Zusätzlich kann eine Schwierigkeit angegeben sein.
-Sie gibt an wie der #uni.lnk("Attributswurf") modifiziert wird.
+Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher #uni.lnk("Attributswurf") mit optionalem Modifikator abgelegt werden.
 
 #uni.example([
   - Die schwer auszuführende Kraft _Explosiver Feuerball_ ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
