@@ -2028,7 +2028,7 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
   "WK+2",
   [
     Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
-    Die Reichweitenbänder werden hierbei verdoppelt.
+    Die Längen des Reichweitenbands werden verdoppelt.
   ],
   condition: [
     Ist nicht in Kombination mit Dauerfeuer einsetzbar.
