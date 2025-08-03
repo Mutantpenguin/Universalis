@@ -2091,25 +2091,31 @@ Sollte sich im #uni.lnk("Gefahrenbereich") keine #uni.lnk("Unmittelbare Bedrohun
 <Reichweite>
 #index("Fernkampf", "Reichweite")
 
-Die Reichweite einer Waffe ist in Reichweitenbändern in der Form X/Y angegeben.
-X gibt dabei an, wie groß die Reichweitenbänder in Zoll sind, Y wie oft diese anwendbar sind.
+Die Reichweite einer Waffe wird in sogenannten Reichweitenbändern in der Form `X/Y` angegeben.
+`X` gibt die Länge der Reichweitenbänder in Zoll an, `Y` wie oft diese anwendbar sind.
+Bei der Notation `X/Z›Y` gibt `Z` an, dass eine Mindestreichweite existiert.
 
-Auf der #uni.lnk("Einheitenkarte") wird dies unter folgendem Symbol ausgewiesen:
+Waffen können nur im Bereich zwischen ihrer Mindestreichweite und ihrem maximalen Reichweitenband verwendet werden.
+
+Pro vollständig ausgenutztem Reichweitenband erhält ein Modell einen Malus von -1 auf seinen FK-Wurf.
+Bei Mindestreichweite wird ab dem ersten nutzbaren Reichweitenband gezählt.
+
+Auf der #uni.lnk("Einheitenkarte") wird sie unter dem folgendem Symbol ausgewiesen:
 
 #align(
   center,
   image("Grafiken/Waffe/reichweite.svg", alt: "Reichweite"),
 )
 
-Pro vollständig ausgenutztem Reichweitenband erhält ein Modell einen Malus von -1 auf seinen FK-Wurf.
-
-Eine Waffe kann nicht weiter als ihr maximales Reichweitenband verwendet werden.
+#uni.example([
+  Eine Pistole hat eine Reichweite von 8/3 (=3 Reichweitenbänder), und kommt somit auf eine maximale Reichweite von 24".
+  Der FK-Wurf für ein Ziel in 6" Entfernung erhält keinen Malus, bei 17" würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+])
 
 #uni.example([
-  Eine Pistole verfügt über den Wert 8/3.
-  Sie hat also 3 Reichweitenbänder, und kommt damit auf eine maximale Reichweite von 24".
-
-  Der FK-Wurf für ein Ziel in einer Entfernung von 6" erhält keinen Malus, bei 17" würde sich ein Malus von -2 ergeben da sich das Ziel im 3. Reichweitenband befindet.
+  Eine Mörser hat eine Reichweite von 16/2›3.
+  Seine Mindestreichweite ist somit 17".
+  Ein Ziel in 20" Entfernung bekommt keinen Malus, ab 33" gibt es einen Malus von -1.
 ])
 
 == Trefferzonen
