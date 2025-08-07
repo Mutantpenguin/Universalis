@@ -410,23 +410,47 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
     align: (center + horizon, left + horizon),
     table.header([*Kürzel*], [*Beschreibung*]),
 
-    [*AGI*] + [#index[AGI]] + [#index("Attribute", "AGI")],
-    [*Agilität*] + "\nSteht für das Reaktionsvermögen des Modells. Siehe z.B. " + [#uni.lnk("Reaktionen")] + " und " + [#uni.lnk("Bewegungstest")] + ".",
+    [*AGI* #index[AGI] #index("Attribute", "AGI")],
+    [
+      *Agilität*
+      #linebreak()
+      Steht für das Reaktionsvermögen des Modells. Siehe z.B. #uni.lnk("Reaktionen") und #uni.lnk("Bewegungstest").
+    ],
 
-    [*NK*] + [#index[NK]] + [#index("Attribute", "NK")],
-    [*Nahkampf*] + "\nStellt die Nahkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Nahkampf")] + ".",
+    [*NK* #index[NK] #index("Attribute", "NK")],
+    [
+      *Nahkampf*
+      #linebreak()
+      Stellt die Nahkampffähigkeit des Modells dar. Siehe #uni.lnk("Nahkampf").
+    ],
 
-    [*FK*] + [#index[FK]] + [#index("Attribute", "FK")],
-    [*Fernkampf*] + "\nStellt die Fernkampffähigkeit des Modells dar. Siehe " + [#uni.lnk("Fernkampf")] + ".",
+    [*FK* #index[FK] #index("Attribute", "FK")],
+    [
+      *Fernkampf*
+      #linebreak()
+      Stellt die Fernkampffähigkeit des Modells dar. Siehe #uni.lnk("Fernkampf").
+    ],
 
-    [*KO*] + [#index[KO]] + [#index("Attribute", "KO")],
-    [*Konstitution*] + "\nDrückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. " + [#uni.lnk("Tragkraft")] + ".",
+    [*KO* #index[KO] #index("Attribute", "KO")],
+    [
+      *Konstitution*
+      #linebreak()
+      Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. #uni.lnk("Tragkraft").
+    ],
 
-    [*WN*] + [#index[WN]] + [#index("Attribute", "WN")],
-    [*Wahrnehmung*] + "\nBeschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. " + [#uni.lnk("Wahrnehmungsbereich")] + " und " + [#uni.lnk("Tarnung")] + ".",
+    [*WN* #index[WN] #index("Attribute", "WN")],
+    [
+      *Wahrnehmung*
+      #linebreak()
+      Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. #uni.lnk("Wahrnehmungsbereich") und #uni.lnk("Tarnung").
+    ],
 
-    [*EH*] + [#index[EH]] + [#index("Attribute", "EH")],
-    [*Entschlossenheit*] + "\nDie Fähigkeit eines Modells, psychische oder mentale Konflikte zu bewältigen. Siehe z.B. " + [#uni.lnk("Gefahrenbereich")] + " oder " + [#uni.lnk("Panik")] + ".",
+    [*EH* #index[EH] #index("Attribute", "EH")],
+    [
+      *Entschlossenheit*
+      #linebreak()
+      Die Fähigkeit eines Modells, psychische oder mentale Konflikte zu bewältigen. Siehe z.B. #uni.lnk("Gefahrenbereich") oder #uni.lnk("Panik").
+    ],
   ),
 )
 
