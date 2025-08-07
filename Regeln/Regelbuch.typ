@@ -75,16 +75,15 @@
   depth: 2,
 )
 
-= Was du brauchst
+= Das Spiel
 
-+ Ein Universum.
+== Worum gehts eigentlich?
 
-  Wie bitte?
+TODO
 
-  Ja, ein Universum.
+== Was du brauchst
 
-  Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bisschen sollte schon existieren.
-// TODO Was ist ein Universum?
++ Ein #uni.lnk("Universum").
 
 + Ein Tisch mit einer Fläche von mindestens 36" x 36" welche für das eigentliche Spielfeld benötigt wird.
 
@@ -109,7 +108,7 @@
     ],
   )
 
-+ Für jeden Spieler mindestens 2 #uni.lnk("Modelle") und dazugehörige #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten").
++ Für jeden Spieler eine #uni.lnk("Gruppen", alt: "Gruppe") mit mindestens 2 #uni.lnk("Modelle", alt: "Modellen") und dazugehörige #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten").
 
 + #block(
     breakable: false,
@@ -166,20 +165,30 @@
 
 Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
-= Das Spiel
+== Universum
+<Universum>
 
-== Fraktionen
+Wie bitte?
+
+Ja, ein Universum.
+
+Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bisschen sollte schon existieren.
+
+// TODO Was ist ein Universum?
+
+=== Fraktionen
 <Fraktionen>
 
 Jeder Spieler entscheidet sich für eine Fraktion, mit deren Einheiten er eine Gruppe aufbauen möchte.
 
-== Gruppen
+=== Gruppen
+<Gruppen>
 
 Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr #uni.lnk("Modelle", alt: "Modellen").
 
 Jeder Spieler verfügt über genau 1 Gruppe die genau 1 #uni.lnk("Gruppenführer") beinhalten muss.
 
-== Gruppenführer
+=== Gruppenführer
 <Gruppenführer>
 
 Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
@@ -188,85 +197,11 @@ Er wird unter anderem dafür benötigt die #uni.lnk("Aufstellen-der-Modelle", al
 
 Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebenenfalls ein Stellvertreter bestimmt wird.
 
-== Einheitenkarte
-<Einheitenkarte>
-#index[Einheitenkarte]
+== Karten
 
-Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
-Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten #uni.lnk("Waffen"), #uni.lnk("Rüstungen"), #uni.lnk("Ausrüstung") und #uni.lnk("Eigenschaften").
+Zu jedem Modell werden 2 Karten benötigt:
 
-Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
-So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
-
-#align(
-  center,
-  image("Grafiken/Abbildungen/einheitenkarte_übersicht.svg", alt: "Aufbau Einheitenkarte"),
-)
-
-#block(
-  breakable: false,
-  uni.table_h(
-    columns: (30%, 70%),
-    align: (center + horizon, left + horizon),
-    table.header([*Nr.*], [*Bedeutung*]),
-
-    "1.",
-    [#uni.lnk("Trefferpunkte")],
-
-    "2.",
-    [Name des Modells],
-
-    "3.",
-    [#uni.lnk("Attribute")],
-
-    "4.",
-    [#uni.lnk("Wahrnehmungsbereich")],
-
-    "5.",
-    [#uni.lnk("Gefahrenbereich")],
-
-    "6.",
-    [#uni.lnk("Modell-Typen", alt: "Typ des Modells")],
-
-    "7.",
-    [#uni.lnk("Größenprofil")],
-
-    "8.",
-    [#uni.lnk("Bewegungsart")],
-
-    "9.",
-    [#uni.lnk("Geschwindigkeit")],
-
-    "10.",
-    [#uni.lnk("Eigenschaften")],
-
-    "11.",
-    [#uni.lnk("Waffen")],
-
-    "12.",
-    [#uni.lnk("Rüstungen")],
-
-    "13.",
-    [#uni.lnk("Ausrüstung")],
-
-    "14.",
-    [#uni.lnk("Schadensprofil")],
-
-    "15.",
-    [#uni.lnk("Rüstungsprofil")],
-
-    "16.",
-    [Punkte],
-
-    "17.",
-    [#uni.lnk("Disziplinen und Kräfte")],
-
-    "18.",
-    [#uni.lnk("Fraktionen")],
-  ),
-)
-
-== Aktivierungskarte
+=== Aktivierungskarte
 <Aktivierungskarte>
 
 Die Aktivierungskarte zu jedem Modell wird zur Bestimmung der #uni.lnk("Aktivierungsreihenfolge") verwendet.
@@ -277,6 +212,84 @@ Die Aktivierungskarte zu jedem Modell wird zur Bestimmung der #uni.lnk("Aktivier
 )
 
 Um nicht die Einheitenkarte zu Rate ziehen zu müssen wird auf ihr auch die AGI des Modells angezeigt.
+
+=== Einheitenkarte
+<Einheitenkarte>
+#index[Einheitenkarte]
+
+Die Einheitenkarte ist ein zentraler Bestandteil des Spiels und beinhaltet alle spielrelevanten Werte eines Modells.
+Auf der Rückseite beinhaltet sie außerdem eventuelle Sonderregeln der verwendeten #uni.lnk("Waffen"), #uni.lnk("Rüstungen"), #uni.lnk("Ausrüstung") und #uni.lnk("Eigenschaften").
+
+Es bietet sich an die Einheitenkarten in Klarsichthüllen unterzubringen.
+So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels können Notizen mit einem abwischbaren Stift darauf vorgenommen werden.
+
+#block(
+  breakable: false,
+  [
+    #align(
+      center,
+      image("Grafiken/Abbildungen/einheitenkarte_übersicht.svg", alt: "Aufbau Einheitenkarte"),
+    )
+    #uni.table_h(
+      columns: (30%, 70%),
+      align: (center + horizon, left + horizon),
+      table.header([*Nr.*], [*Bedeutung*]),
+
+      "1.",
+      [#uni.lnk("Trefferpunkte")],
+
+      "2.",
+      [Name des Modells],
+
+      "3.",
+      [#uni.lnk("Attribute")],
+
+      "4.",
+      [#uni.lnk("Wahrnehmungsbereich")],
+
+      "5.",
+      [#uni.lnk("Gefahrenbereich")],
+
+      "6.",
+      [#uni.lnk("Modell-Typen", alt: "Typ des Modells")],
+
+      "7.",
+      [#uni.lnk("Größenprofil")],
+
+      "8.",
+      [#uni.lnk("Bewegungsart")],
+
+      "9.",
+      [#uni.lnk("Geschwindigkeit")],
+
+      "10.",
+      [#uni.lnk("Eigenschaften")],
+
+      "11.",
+      [#uni.lnk("Waffen")],
+
+      "12.",
+      [#uni.lnk("Rüstungen")],
+
+      "13.",
+      [#uni.lnk("Ausrüstung")],
+
+      "14.",
+      [#uni.lnk("Schadensprofil")],
+
+      "15.",
+      [#uni.lnk("Rüstungsprofil")],
+
+      "16.",
+      [Punkte],
+
+      "17.",
+      [#uni.lnk("Disziplinen und Kräfte")],
+
+      "18.",
+      [#uni.lnk("Fraktionen")],
+    )],
+)
 
 = Modelle
 <Modelle>
