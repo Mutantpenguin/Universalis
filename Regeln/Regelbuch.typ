@@ -2945,7 +2945,7 @@ Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 #uni.table_h(
-  columns: (40%, 1fr),
+  columns: (auto, 1fr),
   align: (x, _) => {
     if x > 0 {
       left + top
@@ -2956,14 +2956,26 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
   table.header([*Ziel*], [*Bedeutung*]),
 
-  image("Grafiken/Kraft/ZielBereich.svg", alt: "Bereich") + "Bereich",
-  "Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.",
+  image("Grafiken/Kraft/ZielBereich.svg", alt: "Bereich"),
+  [
+    *Bereich*
+    #linebreak()
+    Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.
+  ],
 
-  image("Grafiken/Kraft/ZielModell.svg", alt: "Modell") + "Modell",
-  "Die Kraft kann auf einem anderen Modell eingesetzt werden.",
+  image("Grafiken/Kraft/ZielModell.svg", alt: "Modell"),
+  [
+    *Modell*
+    #linebreak()
+    Die Kraft kann auf einem anderen Modell eingesetzt werden.
+  ],
 
-  image("Grafiken/Kraft/ZielNutzer.svg", alt: "Nutzer") + "Nutzer",
-  "Die Kraft kann auf dem Nutzer eingesetzt werden.",
+  image("Grafiken/Kraft/ZielNutzer.svg", alt: "Nutzer"),
+  [
+    *Nutzer*
+    #linebreak()
+    Die Kraft kann auf dem Nutzer eingesetzt werden.
+  ],
 )
 
 === Reichweite
