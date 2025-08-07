@@ -2853,20 +2853,6 @@ Jede Spielmechanik die über #uni.lnk("Eigenschaften") hinaus geht sollte als Kr
   - Bei Cyberpunk wäre eine Disziplin wie _Psychokinese_ denkbar die dann Kräfte wie _Würgegriff_ und _Schweben_ vereint.
 ])
 
-== Auswahl
-<Kraft-Auswahl>
-#index("Kräfte", "Auswahl")
-
-Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
-Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
-
-Jeder Spieler entscheidet #uni.lnk("Vorbereiten der Gruppe", alt: "vor Spielbeginn"), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
-
-#uni.example([
-  Die Disziplin _Feuermagie_ enthält insgesamt 13 verschiedene Kräfte.
-  Magier Zordan verfügt über _Feuermagie - IV_ was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
-])
-
 == Kräfte
 
 Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursachten Effekte beschrieben sind.
@@ -3030,6 +3016,20 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
   image("Grafiken/Kraft/DauerSofort.svg", alt: "Sofort"),
   image("Grafiken/Kraft/DauerDauerhaft.svg", alt: "Dauerhaft"),
 )
+
+== Auswahl
+<Kraft-Auswahl>
+#index("Kräfte", "Auswahl")
+
+Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
+Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
+
+Jeder Spieler entscheidet #uni.lnk("Vorbereiten der Gruppe", alt: "vor Spielbeginn"), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
+
+#uni.example([
+  Die Disziplin _Feuermagie_ enthält insgesamt 13 verschiedene Kräfte.
+  Magier Zordan verfügt über _Feuermagie - IV_ was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
+])
 
 == Aktionen
 <Kraft-Aktionen>
