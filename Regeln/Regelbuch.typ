@@ -390,8 +390,8 @@ Modelle werden in 4 verschiedene Größenprofile gegliedert. Siehe @fig-modell-g
 Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
 Das Größenprofil eines Modells ist somit also abstrakt und entspricht nicht dem tatsächlichen Modell.
 
-#figure(
-  image("Grafiken/Abbildungen/größenprofil.svg", alt: "Größenprofil", width: 100%),
+#uni.illustration(
+  image("Grafiken/Abbildungen/größenprofil.svg", alt: "Größenprofil", width: 80%),
   caption: "Die grauen Zylinder veranschaulichen die Größenprofile",
 )
 
@@ -535,8 +535,8 @@ Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung
 Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
 Es können auch Trefferzonen getroffen werden, die nicht direkt sichtbar sind.
 
-#figure(
-  image("Grafiken/Abbildungen/trefferzonen.svg", alt: "Trefferzonen"),
+#uni.illustration(
+  image("Grafiken/Abbildungen/trefferzonen.svg", alt: "Trefferzonen", width: 60%),
   caption: "Trefferzonen Kolosse",
 )
 
@@ -1070,7 +1070,7 @@ Es ist somit egal wohin ein Modell ausgerichtet ist.
 Die Sichtlinie zu einem #uni.lnk("Modelle", alt: "Modell"), #uni.lnk("Geländestücke", alt: "Geländestück") oder #uni.lnk("Objekte", alt: "Objekt") ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
 Bei Modellen bedeutet dies, dass die Linie ihr #uni.lnk("Größenprofil") trifft.
 
-#figure(
+#uni.illustration(
   image("Grafiken/Abbildungen/sichtlinie.svg", alt: "Sichtlinie", width: 80%),
   caption: "Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.",
 )
@@ -1153,7 +1153,7 @@ Der Wahrnehmungsbereich umfasst alles um ein Modell in #uni.lnk("Sichtlinie") in
 
 $ "Radius in Zoll" = "WN" * 2 $
 
-#figure(
+#uni.illustration(
   image("Grafiken/Abbildungen/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich", width: 60%),
   caption: "Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.",
 )
@@ -1175,7 +1175,7 @@ Alle Entfernungen dürfen jederzeit gemessen werden.
 
 Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
 
-#figure(
+#uni.illustration(
   image("Grafiken/Abbildungen/entfernungen_messen.svg", alt: "Entfernungen messen", width: 80%),
   caption: "Entfernung zwischen 2 Modellen",
 )
