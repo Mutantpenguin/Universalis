@@ -56,7 +56,7 @@
   }
 }
 
-#let example(content, caption: "") = {
+#let example(body, caption: "") = {
   block(
     breakable: false,
     stroke: gray + 1pt,
@@ -72,7 +72,7 @@
       ],
       kind: "Beispiel",
       caption: caption,
-      text(size: 8pt, content),
+      text(size: 8pt, body),
     ),
   )
 }
@@ -148,16 +148,19 @@
 
 #let style(doc) = [
 
+  #set text(lang: "de")
+  #set text(region: "DE")
+
   #let heading_font = "Noto Sans"
 
-  #set figure.caption(position: top)
-  #show figure: set align(left)
-  #show figure.caption: set align(left)
   #show figure.caption: set text(style: "italic")
   #show figure.caption: set text(size: 8pt)
 
-  #set text(lang: "de")
-  #set text(region: "DE")
+  #show figure.where(kind: "Beispiel"): it => {
+    set figure.caption(position: top)
+    set align(left)
+    it
+  }
 
   #set par(
     justify: true,
