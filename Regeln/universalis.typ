@@ -77,6 +77,20 @@
   )
 }
 
+#let illustration(body, caption: "") = {
+  block(
+    width: 100%,
+    breakable: false,
+    figure(
+      gap: 1em,
+      supplement: "Abbildung",
+      kind: "Abbildung",
+      caption: caption,
+      body,
+    ),
+  )
+}
+
 #let _activity(icon, index_parent, name, points, content, condition) = {
   block(
     stroke: black,
@@ -159,6 +173,12 @@
   #show figure.where(kind: "Beispiel"): it => {
     set figure.caption(position: top)
     set align(left)
+    it
+  }
+
+  #show figure.where(kind: "Abbildung"): it => {
+    set figure.caption(position: bottom)
+    set align(center)
     it
   }
 
