@@ -413,42 +413,42 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
     [*AGI* #index[AGI] #index("Attribute", "AGI")],
     [
       *Agilität*
-      #linebreak()
+
       Steht für das Reaktionsvermögen des Modells. Siehe z.B. #uni.lnk("Reaktionen") und #uni.lnk("Bewegungstest").
     ],
 
     [*NK* #index[NK] #index("Attribute", "NK")],
     [
       *Nahkampf*
-      #linebreak()
+
       Stellt die Nahkampffähigkeit des Modells dar. Siehe #uni.lnk("Nahkampf").
     ],
 
     [*FK* #index[FK] #index("Attribute", "FK")],
     [
       *Fernkampf*
-      #linebreak()
+
       Stellt die Fernkampffähigkeit des Modells dar. Siehe #uni.lnk("Fernkampf").
     ],
 
     [*KO* #index[KO] #index("Attribute", "KO")],
     [
       *Konstitution*
-      #linebreak()
+
       Drückt nicht nur aus wie stark ein Modell, sondern auch wie widerstandsfähig es ist. Siehe z.B. #uni.lnk("Tragkraft").
     ],
 
     [*WN* #index[WN] #index("Attribute", "WN")],
     [
       *Wahrnehmung*
-      #linebreak()
+
       Beschreibt, wie gut das Modell seine Sinneswahrnehmungen verarbeiten kann. Siehe z.B. #uni.lnk("Wahrnehmungsbereich") und #uni.lnk("Tarnung").
     ],
 
     [*EH* #index[EH] #index("Attribute", "EH")],
     [
       *Entschlossenheit*
-      #linebreak()
+
       Die Fähigkeit eines Modells, psychische oder mentale Konflikte zu bewältigen. Siehe z.B. #uni.lnk("Gefahrenbereich") oder #uni.lnk("Panik").
     ],
   ),
@@ -2965,21 +2965,21 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
   image("Grafiken/Kraft/ZielBereich.svg", alt: "Bereich"),
   [
     *Bereich*
-    #linebreak()
+
     Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.
   ],
 
   image("Grafiken/Kraft/ZielModell.svg", alt: "Modell"),
   [
     *Modell*
-    #linebreak()
+
     Die Kraft kann auf einem anderen Modell eingesetzt werden.
   ],
 
   image("Grafiken/Kraft/ZielNutzer.svg", alt: "Nutzer"),
   [
     *Nutzer*
-    #linebreak()
+
     Die Kraft kann auf dem Nutzer eingesetzt werden.
   ],
 )
