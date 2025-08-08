@@ -384,7 +384,7 @@ Modelle werden in 4 verschiedene Größenprofile gegliedert. Siehe @fig-modell-g
     "≥60mm",
     "4\"",
   ),
-  caption: "Modell-Typen",
+  caption: "Größenprofile",
 ) <fig-modell-groessen>
 
 Jedes Modell wird hierbei wie ein kleiner Zylinder mit der Breite der Base und der angegebenen Höhe betrachtet.
