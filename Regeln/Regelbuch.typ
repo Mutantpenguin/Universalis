@@ -135,31 +135,31 @@ TODO
     align: (center + horizon, left + horizon),
     table.header([*Symbol*], [*Bedeutung*]),
 
-    image("Grafiken/Token/brennen.svg", alt: "Brennen"),
+    uni.display_token(uni.token.brennen),
     uni.lnk("Brennen"),
 
-    image("Grafiken/Token/feuerbereitschaft.svg", alt: "Feuerbereitschaft"),
+    uni.display_token(uni.token.feuerbereitschaft),
     uni.lnk("Fernkampf-Aktionen", alt: "Feuerbereitschaft"),
 
-    image("Grafiken/Token/panik.svg", alt: "Panik"),
+    uni.display_token(uni.token.panik),
     uni.lnk("Panik"),
 
-    image("Grafiken/Token/gift.svg", alt: "Gift"),
+    uni.display_token(uni.token.gift),
     uni.lnk("Vergiftung", alt: "Gift"),
 
-    image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
+    uni.display_token(uni.token.nachladen),
     uni.lnk("Nachladen"),
 
-    image("Grafiken/Token/schnell.svg", alt: "Schnell"),
+    uni.display_token(uni.token.schnell),
     uni.lnk("Schnelle Bewegungen", alt: "Schnelle Bewegung"),
 
-    image("Grafiken/Token/schock.svg", alt: "Schock"),
+    uni.display_token(uni.token.schock),
     uni.lnk("Schock"),
 
-    image("Grafiken/Token/tarnung.svg", alt: "Tarnung"),
+    uni.display_token(uni.token.tarnung),
     uni.lnk("Tarnung"),
 
-    image("Grafiken/Token/verteidigung.svg", alt: "Verteidigung"),
+    uni.display_token(uni.token.verteidigung),
     uni.lnk("Nahkampf-Aktionen", alt: "Verteidigung"),
   )
 
@@ -833,7 +833,7 @@ Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann e
 
 #align(
   center,
-  image("Grafiken/Token/nachladen.svg", alt: "Nachladen"),
+  uni.display_token(uni.token.nachladen),
 )
 
 == Rüstungen
@@ -1537,7 +1537,7 @@ Sie wird am Modell mit dem Schnell-Token dargestellt:
 
 #align(
   center,
-  image("Grafiken/Token/schnell.svg", alt: "schnell"),
+  uni.display_token(uni.token.schnell),
 )
 
 Zum Beginn der nächsten Initiativephase eines Modells wird der Token wieder entfernt.
@@ -2042,7 +2042,7 @@ Modelle mit einem Brandmarker gelten als _brennend_:
 
 #align(
   center,
-  image("Grafiken/Token/brennen.svg", alt: "Brennen"),
+  uni.display_token(uni.token.brennen),
 )
 
 Sie können keine #uni.lnk("Aktionen und Reaktionen") ausführen.
@@ -2115,7 +2115,7 @@ Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarke
 
 #align(
   center,
-  image("Grafiken/Token/panik.svg", alt: "Panik"),
+  uni.display_token(uni.token.panik),
 )
 
 === Auswirkungen von Panik
@@ -2167,7 +2167,7 @@ Wenn es über keine AP mehr verfügt erhält es stattdessen 1 Schock-Token:
 
 #align(
   center,
-  image("Grafiken/Token/schock.svg", alt: "Schock"),
+  uni.display_token(uni.token.schock),
 )
 
 Wenn ein Modell zum Beginn einer Runde über Schock-Token verfügt, verliert es für jeden Token 1 AP und der Token wird entfernt.
@@ -2183,7 +2183,7 @@ Modelle mit Giftmarkern zählen als _vergiftet_:
 
 #align(
   center,
-  image("Grafiken/Token/gift.svg", alt: "Gift"),
+  uni.display_token(uni.token.gift),
 )
 
 Zum Beginn ihrer Initiativephase entfernen sie 1 Giftmarker, und erleiden automatischen Schaden mit dem #uni.lnk("Schadensprofil") der Waffe, welche die Vergiftung verursacht hat.
@@ -2226,7 +2226,7 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
     Sie wird am Modell mit dem Feuerbereitschafts-Token dargestellt:
     #align(
       center,
-      image("Grafiken/Token/feuerbereitschaft.svg", alt: "Feuerbereitschaft"),
+      uni.display_token(uni.token.feuerbereitschaft),
     )
 
     Falls das Modell das Ziel irgendeiner erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
@@ -2618,7 +2618,7 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
     Sie wird am Modell mit dem Verteidigungs-Token dargestellt:
     #align(
       center,
-      image("Grafiken/Token/verteidigung.svg", alt: "Verteidigung"),
+      uni.display_token(uni.token.verteidigung),
     )
 
     Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen #uni.lnk("Bonus für den Angreifer", alt: "Bonus") für eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung").
@@ -2756,7 +2756,7 @@ Sie wird am Modell mit dem Tarnungs-Token dargestellt:
 
 #align(
   center,
-  image("Grafiken/Token/tarnung.svg", alt: "Tarnung"),
+  uni.display_token(uni.token.tarnung),
 )
 
 Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.

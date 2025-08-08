@@ -91,6 +91,54 @@
   )
 }
 
+#let token = (
+  brennen: (
+    source: "brennen.svg",
+    alt: "Brennen",
+  ),
+  feuerbereitschaft: (
+    source: "feuerbereitschaft.svg",
+    alt: "Feuerbereitschaft",
+  ),
+  panik: (
+    source: "panik.svg",
+    alt: "Panik",
+  ),
+  gift: (
+    source: "gift.svg",
+    alt: "Gift",
+  ),
+  nachladen: (
+    source: "nachladen.svg",
+    alt: "Nachladen",
+  ),
+  schnell: (
+    source: "schnell.svg",
+    alt: "Schnell",
+  ),
+  schock: (
+    source: "schock.svg",
+    alt: "Schock",
+  ),
+  tarnung: (
+    source: "tarnung.svg",
+    alt: "Tarnung",
+  ),
+  verteidigung: (
+    source: "verteidigung.svg",
+    alt: "Verteidigung",
+  ),
+)
+
+#let display_token(token, alt: "") = {
+  block(
+    radius: 0.3em,
+    stroke: luma(64) + 1pt,
+    clip: true,
+    image("Grafiken/Token/" + token.source, alt: token.alt),
+  )
+}
+
 #let _activity(icon, index_parent, name, points, content, condition) = {
   block(
     stroke: black,
