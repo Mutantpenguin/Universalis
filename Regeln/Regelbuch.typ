@@ -1460,12 +1460,12 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 #index[Springen]
 #index("Bewegung", "Springen")
 
-Ein Modell kann nicht springen, wenn es #uni.lnk("Liegende Modelle", alt: "liegt").
-
-Zwischenräume zwischen #uni.lnk("Geländestücke", alt: "Geländestücken") welche kleiner oder gleich der #uni.lnk("Geschwindigkeit") eines Modells sind können von diesem ignoriert werden.
+Zwischenräume zwischen #uni.lnk("Geländestücke", alt: "Geländestücken") welche kleiner oder gleich der #uni.lnk("Geschwindigkeit") eines Modells sind können von diesem ignoriert werden, es überspringt sie automatisch.
 
 Bei größeren Distanzen bis maximal der doppelten Geschwindigkeit muss das Modell einen #uni.lnk("Bewegungstest") ablegen.
-Wenn er misslingt #uni.lnk("Herunterfallen", alt: "fällt") das Modell herunter.
+Wenn er misslingt #uni.lnk("Herunterfallen", alt: "fällt") das Modell den Zwischenraum herunter.
+
+Ein Modell kann nicht springen, wenn es #uni.lnk("Liegende Modelle", alt: "liegt").
 
 == Vertikale Bewegung
 <Vertikale-Bewegung>
