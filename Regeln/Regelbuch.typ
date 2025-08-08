@@ -333,15 +333,15 @@ Siehe @fig-modell-typen.
     "Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.",
     "klein bis groß",
 
-    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"),
-    [#uni.lnk("Begleiter")],
-    "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.",
-    "klein bis riesig",
-
     image("Grafiken/Modell/Koloss.svg", alt: "Koloss"),
     [#uni.lnk("Kolosse", alt: "Koloss")],
     "Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.",
     "groß bis riesig",
+
+    image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"),
+    [#uni.lnk("Begleiter")],
+    "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.",
+    "klein bis riesig",
   ),
   caption: "Modell-Typen",
 ) <fig-modell-typen>
@@ -505,6 +505,178 @@ Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zw
 )
 
 Die maximale Menge an Trefferpunkten eines Modells liegt bei 20.
+
+= Kolosse
+<Kolosse>
+#index[Kolosse]
+
+Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 6 Meter haben und deren Gewicht bei 1,5 Tonnen erst anfängt.
+
+Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
+
+== Fern- und Nahkampf
+#index("Kolosse", "Fern- und Nahkampf")
+
+Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
+
+== Geländeausnutzung
+
+Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Standard-Modelle an diese anschmiegen können.
+
+Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
+
+== Trefferzonen
+<Trefferzonen>
+#index[Trefferzonen]
+#index("Kolosse", "Trefferzonen")
+
+Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung unterteilt.
+
+Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
+Es können auch Trefferzonen getroffen werden, die nicht direkt sichtbar sind.
+
+#figure(
+  image("Grafiken/Abbildungen/trefferzonen.svg", alt: "Trefferzonen"),
+  caption: "Trefferzonen Kolosse",
+)
+
+Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
+
+Trefferpunkte werden nur für den Rumpf festgelegt.
+Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
+
+=== Kritischer Zustand
+#index("Kolosse", "Kritischer Zustand")
+
+#uni.table_v(
+  columns: (auto, 1fr),
+  align: left + top,
+
+  [*Rumpf*],
+  [Wie bei Standard Modellen. Siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand").],
+
+  [*Seite*],
+  "Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.",
+
+  [*Bewegung*],
+  "Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.",
+)
+
+=== Verlust aller Trefferpunkte
+#index("Kolosse", "Verlust aller Trefferpunkte")
+
+#uni.table_v(
+  columns: (auto, 1fr),
+  align: left + top,
+
+  [*Rumpf*],
+  [
+    Sinkt in sich zusammen und gilt als #uni.lnk("Eliminiert", alt: "eliminiert").
+    Ist nun ein Geländestück.
+  ],
+
+  [*Seite*],
+  [
+    Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
+    Außerdem werden AGI und NK um 1 verringert.
+  ],
+
+  [*Bewegung*],
+  uni.table_h(
+    columns: (auto, 1fr),
+    align: left + top,
+
+    table.header([*W12*], [*Auswirkung*]),
+
+    "1-6",
+    "Bleibt auf der Stelle stehen und kann sich noch drehen.",
+
+    "7-11",
+    "Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.",
+
+    "12",
+    [Fällt um und gilt als #uni.lnk("Eliminiert", alt: "eliminiert"). Ist nun ein Geländestück.],
+  ),
+)
+
+= Begleiter
+<Begleiter>
+#index[Begleiter]
+
+Unter Begleitern wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
+Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen #uni.lnk("Operatoren", alt: "Operator").
+
+Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Begleiter gelten.
+
+Sie haben keine eigene Initiativephase.
+
+#uni.example([
+  - In einer Fantasywelt sind fliegende _Orbs_ oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
+  - Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
+])
+
+== Operatoren
+<Operatoren>
+#index[Operatoren]
+#index("Begleiter", "Operatoren")
+
+Unter Operatoren versteht man alle Modelle denen ein Begleiter zugeordnet werden kann.
+Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Begleiter ihm zugeordnet werden können.
+
+Seine ihm zugeordneten Begleiter werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
+
+Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
+
+#uni.example([
+  - Eine Hexe hat die Eigenschaft _Vertrauter II_. Sie darf dadurch 2 zugeordnete Begleiter haben.
+  - Mit dem _R3MOTE α Fernsteuerdeck_ kann ein Straßensamurai 1 zugeordneten Begleiter haben.
+  - Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Begleiter haben.
+])
+
+=== Zuteilung
+#index("Begleiter", "Zuteilung")
+
+Begleiter können und müssen immer genau einem Operator zugeteilt sein.
+Dies geschieht #uni.lnk("Vorbereiten der Gruppe", alt: "vor dem Spiel") und kann währenddessen nicht geändert werden.
+
+== Begleiter ohne Operator
+#index("Begleiter", "ohne Operator")
+
+Begleiter, deren Operator #uni.lnk("Eliminiert", alt: "eliminiert") wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
+
+== Aktionspunkte
+#index("Begleiter", "Aktionspunkte")
+
+Jeder Begleiter verfügt über 2 AP.
+Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
+
+== Attribute
+#index("Begleiter", "Attribute")
+
+Begleiter verfügen nicht über die Attribute AGI, NK, FK und EH.
+Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
+
+== Gefahrenbereich
+#index("Begleiter", "Gefahrenbereich")
+
+Da sie über keine EH verfügen haben sie auch keinen eigenen #uni.lnk("Gefahrenbereich").
+Daraus ergibt sich, dass eine #uni.lnk("Unmittelbare Bedrohung", alt: "unmittelbare Bedrohung") für sie nicht existiert.
+Sie müssen aber, wenn möglich, aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
+
+== Schock
+#index("Begleiter", "Schock")
+
+#uni.lnk("Schock", alt: "Schocks") funktionieren grundsätzlich wie bei allen anderen Modellen.
+
+Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Begleitern zu entfernen.
+
+== Eliminierung
+#index("Begleiter", "Eliminierung")
+
+Sobald ein Begleiter #uni.lnk("Eliminiert", alt: "eliminiert") wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
+
+Der Operator muss einen EH-Test ablegen.
+Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Begleiters.
 
 = Ausstattung
 <Ausstattung>
@@ -2671,178 +2843,6 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
     - Das aufzuklärende Modell muss sich im Wahrnehmungsbereich befinden.
   ],
 )
-
-= Kolosse
-<Kolosse>
-#index[Kolosse]
-
-Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 6 Meter haben und deren Gewicht bei 1,5 Tonnen erst anfängt.
-
-Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
-
-== Fern- und Nahkampf
-#index("Kolosse", "Fern- und Nahkampf")
-
-Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
-
-== Geländeausnutzung
-
-Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Standard-Modelle an diese anschmiegen können.
-
-Aufgrund ihrer Größe können sie allerdings keine normal großen Türen benutzen oder normale Gebäude betreten.
-
-== Trefferzonen
-<Trefferzonen>
-#index[Trefferzonen]
-#index("Kolosse", "Trefferzonen")
-
-Kolosse werden in die Trefferzonen Rumpf, Linke Seite, Rechte Seite und Bewegung unterteilt.
-
-Welche Trefferzone im Fernkampf und Nahkampf getroffen wird, muss mit 1W12 festgestellt werden.
-Es können auch Trefferzonen getroffen werden, die nicht direkt sichtbar sind.
-
-#figure(
-  image("Grafiken/Abbildungen/trefferzonen.svg", alt: "Trefferzonen"),
-  caption: "Trefferzonen Kolosse",
-)
-
-Jede Trefferzone verfügt über eine eigene Anzahl an Trefferpunkten und Auswirkungen wenn diese in den kritischen Zustand oder auf 0 sinken.
-
-Trefferpunkte werden nur für den Rumpf festgelegt.
-Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch mit 2/3 des Rumpfes (aufgerundet).
-
-=== Kritischer Zustand
-#index("Kolosse", "Kritischer Zustand")
-
-#uni.table_v(
-  columns: (auto, 1fr),
-  align: left + top,
-
-  [*Rumpf*],
-  [Wie bei Standard Modellen. Siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand").],
-
-  [*Seite*],
-  "Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.",
-
-  [*Bewegung*],
-  "Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.",
-)
-
-=== Verlust aller Trefferpunkte
-#index("Kolosse", "Verlust aller Trefferpunkte")
-
-#uni.table_v(
-  columns: (auto, 1fr),
-  align: left + top,
-
-  [*Rumpf*],
-  [
-    Sinkt in sich zusammen und gilt als #uni.lnk("Eliminiert", alt: "eliminiert").
-    Ist nun ein Geländestück.
-  ],
-
-  [*Seite*],
-  [
-    Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
-    Außerdem werden AGI und NK um 1 verringert.
-  ],
-
-  [*Bewegung*],
-  uni.table_h(
-    columns: (auto, 1fr),
-    align: left + top,
-
-    table.header([*W12*], [*Auswirkung*]),
-
-    "1-6",
-    "Bleibt auf der Stelle stehen und kann sich noch drehen.",
-
-    "7-11",
-    "Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.",
-
-    "12",
-    [Fällt um und gilt als #uni.lnk("Eliminiert", alt: "eliminiert"). Ist nun ein Geländestück.],
-  ),
-)
-
-= Begleiter
-<Begleiter>
-#index[Begleiter]
-
-Unter Begleitern wird alles verstanden das in irgendeiner Weise ferngesteuert ist.
-Sie haben keinen eigenen Willen und die Steuerung erfolgt ausschließlich durch einen #uni.lnk("Operatoren", alt: "Operator").
-
-Das unterscheidet sie von z.B. Robotern die auch aus eigener Initiative heraus handeln können und somit nicht als Begleiter gelten.
-
-Sie haben keine eigene Initiativephase.
-
-#uni.example([
-  - In einer Fantasywelt sind fliegende _Orbs_ oder die Vetrauten einer Hexe wie z.B. eine Katze oder Eule denkbar.
-  - Bei Science Fiction oder heutzutage zählt alles vom ferngesteuerten Auto bis zum Quadcopter dazu.
-])
-
-== Operatoren
-<Operatoren>
-#index[Operatoren]
-#index("Begleiter", "Operatoren")
-
-Unter Operatoren versteht man alle Modelle denen ein Begleiter zugeordnet werden kann.
-Dabei entscheiden die Ausrüstung und Eigenschaften eines Modells, ob und wie viele Begleiter ihm zugeordnet werden können.
-
-Seine ihm zugeordneten Begleiter werden gleichzeitig mit ihm in seiner Initiativephase aktiv.
-
-Eigenschaften eines Operators werden nur auf ihn selber angewendet, es sei denn eine Eigenschaft sagt explizit etwas anderes aus.
-
-#uni.example([
-  - Eine Hexe hat die Eigenschaft _Vertrauter II_. Sie darf dadurch 2 zugeordnete Begleiter haben.
-  - Mit dem _R3MOTE α Fernsteuerdeck_ kann ein Straßensamurai 1 zugeordneten Begleiter haben.
-  - Ein Prospektor verfügt über 3 _Lenk-Module_ für seinen Anzug und kann damit 3 zugeordnete Begleiter haben.
-])
-
-=== Zuteilung
-#index("Begleiter", "Zuteilung")
-
-Begleiter können und müssen immer genau einem Operator zugeteilt sein.
-Dies geschieht #uni.lnk("Vorbereiten der Gruppe", alt: "vor dem Spiel") und kann währenddessen nicht geändert werden.
-
-== Begleiter ohne Operator
-#index("Begleiter", "ohne Operator")
-
-Begleiter, deren Operator #uni.lnk("Eliminiert", alt: "eliminiert") wurde oder der nicht mehr auf dem Spielfeld präsent ist, verbleiben an Ort und Stelle.
-
-== Aktionspunkte
-#index("Begleiter", "Aktionspunkte")
-
-Jeder Begleiter verfügt über 2 AP.
-Für sie können weitere AP verwendet werden indem die AP des zugeordneten Operators ausgegeben werden.
-
-== Attribute
-#index("Begleiter", "Attribute")
-
-Begleiter verfügen nicht über die Attribute AGI, NK, FK und EH.
-Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
-
-== Gefahrenbereich
-#index("Begleiter", "Gefahrenbereich")
-
-Da sie über keine EH verfügen haben sie auch keinen eigenen #uni.lnk("Gefahrenbereich").
-Daraus ergibt sich, dass eine #uni.lnk("Unmittelbare Bedrohung", alt: "unmittelbare Bedrohung") für sie nicht existiert.
-Sie müssen aber, wenn möglich, aktiv werden um gegen eine unmittelbare Bedrohung ihres Operators aktiv zu werden.
-
-== Schock
-#index("Begleiter", "Schock")
-
-#uni.lnk("Schock", alt: "Schocks") funktionieren grundsätzlich wie bei allen anderen Modellen.
-
-Die einzige Besonderheit besteht darin, dass der Operator zum Beginn einer Runde seine eigenen AP ausgeben kann um eventuelle Schock-Token von seinen ihm zugeordneten Begleitern zu entfernen.
-
-== Eliminierung
-#index("Begleiter", "Eliminierung")
-
-Sobald ein Begleiter #uni.lnk("Eliminiert", alt: "eliminiert") wurde, kommt es zu einer Rückkopplung auf den Operator, welche ihm Schaden zufügen kann.
-
-Der Operator muss einen EH-Test ablegen.
-Misslingt dieser, verliert er automatisch Trefferpunkte in Höhe der halben (abgerundeten) KO des Begleiters.
 
 = Disziplinen & Kräfte
 <Disziplinen-und-Kräfte>
