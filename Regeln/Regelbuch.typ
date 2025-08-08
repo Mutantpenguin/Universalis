@@ -1141,21 +1141,23 @@ Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch 
 Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich bewegen kann.
 
 #uni.table_h(
-  columns: (auto, auto, 1fr),
+  columns: (auto, 1fr),
   align: left + top,
 
-  table.header([], [*Name*], [*Beschreibung*]),
+  table.header([], [*Beschreibung*]),
 
   image("Grafiken/Bewegung/beine.svg", alt: "Beine"),
-  "Beine",
   [
+    *Beine*
+
     Standard Bewegungsart für Modelle.
     Bietet weder spezielle Vorteile noch Nachteile.
   ],
 
   image("Grafiken/Bewegung/flug.svg", alt: "Flug"),
-  "Flug",
   [
+    *Flug*
+
     Ignoriert #uni.lnk("Passierbarkeit") von #uni.lnk("Geländestücke", alt: "Geländestücken").
 
     In jeder Runde muss als erste Aktion immer eine volle Bewegung in Blickrichtung ausgeführt werden.
@@ -1164,28 +1166,32 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
   ],
 
   image("Grafiken/Bewegung/kette.svg", alt: "Kette"),
-  "Kette",
   [
+    *Kette*
+
     Bewegungstests für #uni.lnk("Passierbarkeit") dürfen einmal wiederholt werden.
   ],
 
   image("Grafiken/Bewegung/rad.svg", alt: "Rad"),
-  "Rad",
   [
+    *Rad*
+
     Auf dem #uni.lnk("Geländetypen", alt: "Geländetyp") Straße wird die Bewegung um 50% (abgerundet) erhöht.
   ],
 
   image("Grafiken/Bewegung/schweben.svg", alt: "Schweben"),
-  "Schweben",
   [
+    *Schweben*
+
     Ignoriert #uni.lnk("Passierbarkeit") von #uni.lnk("Geländestücke", alt: "Geländestücken").
 
     Im Nahkampf wird das Modell als eine Stufe Größer behandelt. Siehe #uni.lnk("Größenprofil") und #uni.lnk("Größenunterschiede").
   ],
 
   image("Grafiken/Bewegung/stationär.svg", alt: "Stationär"),
-  "Stationär",
   [
+    *Stationär*
+
     Kann nicht bewegt werden.
   ],
 )
