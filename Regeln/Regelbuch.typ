@@ -269,7 +269,7 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
       [#uni.lnk("Waffen")],
 
       "12.",
-      [#uni.lnk("Rüstungen")],
+      [#uni.lnk("Rüstungen", alt: "Rüstung")],
 
       "13.",
       [#uni.lnk("Ausrüstung")],
@@ -284,10 +284,10 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
       [Punkte],
 
       "17.",
-      [#uni.lnk("Disziplinen und Kräfte")],
+      [#uni.lnk("Disziplinen und Kräfte", alt: "Disziplinen")],
 
       "18.",
-      [#uni.lnk("Fraktionen")],
+      [#uni.lnk("Fraktionen", alt: "Fraktion")],
     )],
 )
 
