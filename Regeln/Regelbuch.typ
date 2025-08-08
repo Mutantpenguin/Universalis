@@ -736,6 +736,42 @@ Sie kommen nur zur Anwendung wenn die Ausstattung aktiv verwendet wird.
 
 = Grundregeln
 
+== Würfelwürfe
+<Würfelwürfe>
+#index[Würfelwürfe]
+
+Es werden nur W12 verwendet.
+
+Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
+
+Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
+
+=== Attributswurf
+<Attributswurf>
+#index[Attributswurf]
+
+Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
+So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
+
+Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
+Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
+
+Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
+
+Der Wurf wird mit 1W12 durchgeführt.
+Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
+
+=== Vergleichender Wurf
+<Vergleichender-Wurf>
+#index[Vergleichender Wurf]
+
+Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
+
+Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
+Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
+
+Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
+
 == Aktionspunkte
 <Aktionspunkte>
 #index[Aktionspunkte]
@@ -971,42 +1007,6 @@ Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
   image("Grafiken/Abbildungen/entfernungen_messen.svg", alt: "Entfernungen messen", width: 80%),
   caption: "Entfernung zwischen 2 Modellen",
 )
-
-== Würfelwürfe
-<Würfelwürfe>
-#index[Würfelwürfe]
-
-Es werden nur W12 verwendet.
-
-Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
-
-Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
-
-=== Attributswurf
-<Attributswurf>
-#index[Attributswurf]
-
-Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
-So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
-
-Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
-Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
-
-Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
-
-Der Wurf wird mit 1W12 durchgeführt.
-Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
-
-=== Vergleichender Wurf
-<Vergleichender-Wurf>
-#index[Vergleichender Wurf]
-
-Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
-
-Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
-Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
-
-Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
 
 = Spielablauf
 <Spielablauf>
