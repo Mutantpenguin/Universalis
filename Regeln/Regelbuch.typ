@@ -2890,7 +2890,7 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
   table.header([*Nr.*], [*Bedeutung*]),
 
   "1.",
-  "Bezeichnung",
+  [Bezeichnung und #uni.lnk("Kraft-Stufe", alt: "Stufe")],
 
   "2.",
   "Regeln",
@@ -2913,6 +2913,12 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
   "8.",
   [#uni.lnk("Kraft-Dauer", alt: "Dauer")],
 )
+
+=== Stufe
+<Kraft-Stufe>
+#index("Kräfte", "Stufe")
+
+Die Stufe der Kraft.
 
 === AP-Kosten
 <Kraft-AP-Kosten>
@@ -3048,14 +3054,16 @@ In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet
 <Kraft-Auswahl>
 #index("Kräfte", "Auswahl")
 
-Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
-Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch die Stufe begrenzt, über die es in der entsprechenden Disziplin verfügt.
-
 Jeder Spieler entscheidet #uni.lnk("Vorbereiten der Gruppe", alt: "vor Spielbeginn"), welche Kräfte seine Modelle mit in das aktuelle Spiel nehmen.
+
+Sobald ein Modell einer Disziplin angehört, hat es grundsätzlich Zugriff auf alle darin enthaltenen Kräfte.
+Die maximale Anzahl an verschiedenen Kräften, die ein Modell aus einer Disziplin mit in ein Spiel hinein nehmen kann, wird durch den Rang begrenzt, über den es in der entsprechenden Disziplin verfügt.
+Die Summe der Stufen aller ausgewählten Kräfte darf dabei nicht höher als sein Rang in der Disziplin sein.
 
 #uni.example([
   Die Disziplin _Feuermagie_ enthält insgesamt 13 verschiedene Kräfte.
-  Magier Zordan verfügt über _Feuermagie - IV_ was ihn dazu berechtigt, 4 verschiedene Kräfte aus dieser Disziplin mit ins Spiel zu nehmen.
+  Magier Zordan verfügt über _Feuermagie - III_ was ihn dazu berechtigt, z.B. _Feuerball_ (Stufe 2) und _Hitzeschild_ (Stufe 1) zu wählen.
+  Er dürfte anstelle von _Hitzeschild_ nicht _Flammenpeitsche_ (Stufe 2) wählen.
 ])
 
 == Aktionen
