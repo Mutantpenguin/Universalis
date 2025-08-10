@@ -1374,6 +1374,15 @@ Jedes Modell hat eine Bewegungsart welche vorgibt, wie es sich grundsätzlich be
 
 Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen durchgeführt werden.
 
+== Bewegung messen
+
+Bewegung wird an der Vorderkante in Bewegungsrichtung gemessen.
+
+#uni.illustration(
+  image("Grafiken/Abbildungen/bewegung_messen.svg", alt: "Bewegung messen", width: 60%),
+  caption: "Bewegung messen",
+)
+
 == Aktionen
 <Bewegung-Aktionen>
 
