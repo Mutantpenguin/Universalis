@@ -1376,7 +1376,7 @@ Der Bewegungstest besteht aus einem AGI-Wurf und muss in bestimmten Situationen 
 
 == Bewegung messen
 
-Bewegung wird an der Vorderkante in Bewegungsrichtung gemessen.
+Bewegung wird an der Vorderkante der Base in Bewegungsrichtung gemessen.
 
 #uni.illustration(
   image("Grafiken/Abbildungen/bewegung_messen.svg", alt: "Bewegung messen", width: 60%),
