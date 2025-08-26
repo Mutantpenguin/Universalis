@@ -291,6 +291,280 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
     )],
 )
 
+= Grundregeln
+
+== Würfelwürfe
+<Würfelwürfe>
+#index[Würfelwürfe]
+
+Es werden nur W12 verwendet.
+
+Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
+
+Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
+
+=== Attributswurf
+<Attributswurf>
+#index[Attributswurf]
+
+Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
+So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
+
+Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
+Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
+
+Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
+
+Der Wurf wird mit 1W12 durchgeführt.
+Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
+
+=== Vergleichender Wurf
+<Vergleichender-Wurf>
+#index[Vergleichender Wurf]
+
+Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
+
+Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
+Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
+
+Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
+
+== Aktionspunkte
+<Aktionspunkte>
+#index[Aktionspunkte]
+
+Modelle verfügen über Aktionspunkte (abgekürzt als AP), die in verschiedenen Phasen des Spiels für #uni.lnk("Aktionen und Reaktionen") ausgegeben werden können.
+
+Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
+Er wird gegen einen roten W6 ausgetauscht wenn das Modell in den #uni.lnk("Kritisch", alt: "kritischen Zustand") verfällt.
+
+Alle Modelle haben pro Runde 6 AP.
+Die einzige Ausnahme sind #uni.lnk("Begleiter") mit nur 2 AP.
+
+*Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
+
+== Aktionen und Reaktionen
+<Aktionen-und-Reaktionen>
+
+Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
+
+Sie dürfen von jedem Modell durchgeführt werden sofern die nötigen Voraussetzungen erfüllt sind wie bspw. das Vorhandensein von „Händen“ um eine Waffe abzufeuern und so weiter.
+Hier ist der gesunde Menschenverstand gefragt.
+
+Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
+Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten mit dem Zeichen ⊙ angegeben.
+
+=== Aktionen
+<Aktionen>
+#index[Aktionen]
+
+Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
+Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
+
+Sie sind an folgendem Symbol zu erkennen:
+
+#align(
+  center,
+  uni.img.activity.aktion,
+)
+
+=== Reaktionen
+<Reaktionen>
+#index[Reaktionen]
+
+Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
+
+Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
+Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
+Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
+
+Sie sind an folgendem Symbol zu erkennen:
+
+#align(
+  center,
+  uni.img.activity.reaktion,
+)
+
+=== Voraussetzungen
+
+Aktionen und Reaktionen können an Voraussetzungen geknüpft sein.
+Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
+
+#align(
+  center,
+  uni.img.activity.voraussetzung,
+)
+
+=== Übersicht
+
+#uni.table_h(
+  columns: (3fr, 2fr, 2fr),
+  align: (x, y) => {
+    if x > 0 {
+      center + horizon
+    } else {
+      left + horizon
+    }
+  },
+  table.header([], [*Aktionen*], [*Reaktionen*]),
+
+  "Ausrüstung",
+  ref(<Ausrüstung-Aktionen>, form: "page"),
+  "",
+
+  "Bewegen",
+  ref(<Bewegung-Aktionen>, form: "page"),
+  ref(<Bewegung-Reaktionen>, form: "page"),
+
+  "Eigenschaften",
+  ref(<Eigenschaften-Aktionen>, form: "page"),
+  "",
+
+  "Fernkampf",
+  ref(<Fernkampf-Aktionen>, form: "page"),
+  ref(<Fernkampf-Reaktionen>, form: "page"),
+
+  "Kräfte",
+  ref(<Kraft-Aktionen>, form: "page"),
+  ref(<Kraft-Reaktionen>, form: "page"),
+
+  "Nahkampf",
+  ref(<Nahkampf-Aktionen>, form: "page"),
+  ref(<Nahkampf-Reaktionen>, form: "page"),
+
+  "Objekte",
+  ref(<Objekt-Aktionen>, form: "page"),
+  "",
+
+  "Tarnung",
+  ref(<Tarnung-Aktionen>, form: "page"),
+  ref(<Tarnung-Reaktionen>, form: "page"),
+)
+
+== Sichtfeld
+<Sichtfeld>
+#index[Sichtfeld]
+
+Jedes Modell hat ein Sichtfeld von 360°.
+Es ist somit egal wohin ein Modell ausgerichtet ist.
+
+== Sichtlinie
+<Sichtlinie>
+#index[Sichtlinie]
+
+Die Sichtlinie zu einem #uni.lnk("Modelle", alt: "Modell"), #uni.lnk("Geländestücke", alt: "Geländestück") oder #uni.lnk("Objekte", alt: "Objekt") ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
+Bei Modellen bedeutet dies, dass die Linie ihr #uni.lnk("Größenprofil") trifft.
+
+#uni.illustration(
+  image("Grafiken/Abbildungen/sichtlinie.svg", alt: "Sichtlinie", width: 80%),
+  caption: "Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.",
+)
+
+Sichtlinien können durch #uni.lnk("Sichtweite") eingeschränkt sein.
+Befreundete Modelle behindern sie nicht.
+
+
+== Tragkraft
+<Tragkraft>
+#index[Tragkraft]
+
+Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
+
+Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
+
+#block(
+  breakable: false,
+  uni.table_v(
+    columns: (auto, 1fr, 1fr, 1fr),
+    align: left + top,
+
+    [*Modelltyp*],
+    "Standard",
+    "Begleiter",
+    "Koloss",
+
+    [*Tragkraft in kg*],
+    $ "KO"² $,
+    $ "KO"² $,
+    $ ( "KO" * 2 ) ² $,
+  ),
+)
+
+Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
+Wird er jedoch überschritten werden AGI und GK jeweils um 1 verringert.
+Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw.
+
+Auf der #uni.lnk("Einheitenkarte") ist dies bei den Attributen bereits eingerechnet.
+
+#uni.example([
+  Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
+
+  Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
+])
+
+== Gefahrenbereich
+<Gefahrenbereich>
+#index[Gefahrenbereich]
+
+Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren muss.
+Der Radius in Zoll berechnet sich, indem die EH von 12 abgezogen und der Wert halbiert wird:
+
+$ "Radius in Zoll" = (12 - "EH") / 2 $
+
+Auf der #uni.lnk("Einheitenkarte") wird der Gefahrenbereich mit diesem Symbol angegeben:
+
+#align(
+  center,
+  image("Grafiken/Modell/gefahrenbereich.svg", alt: "Gefahrenbereich"),
+)
+
+=== Unmittelbare Bedrohung
+<Unmittelbare-Bedrohung>
+#index[Unmittelbare Bedrohung]
+
+Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird _Unmittelbare Bedrohung_ genannt.
+Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch unmittelbare Bedrohungen.
+
+Möchte das Modell eine unmittelbare Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
+Misslingt dieser Test muss ein Angriff gegen die unmittelbare Bedrohung erfolgen, egal ob per #uni.lnk("Nahkampf"), #uni.lnk("Fernkampf"), #uni.lnk("Ausrüstung"), #uni.lnk("Eigenschaften") oder #uni.lnk("Disziplinen-und-Kräfte", alt: "Kräften").
+
+Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
+
+== Wahrnehmungsbereich
+<Wahrnehmungsbereich>
+#index[Wahrnehmungsbereich]
+
+Der Wahrnehmungsbereich umfasst alles um ein Modell in #uni.lnk("Sichtlinie") in einem Radius der folgendermaßen berechnet wird:
+
+$ "Radius in Zoll" = "WN" * 2 $
+
+#uni.illustration(
+  image("Grafiken/Abbildungen/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich", width: 60%),
+  caption: "Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.",
+)
+
+Im #uni.lnk("Kritisch", alt: "Kritischen Zustand") wird der Radius des Wahrnehmungsbereichs halbiert (aufgerundet).
+
+Auf der #uni.lnk("Einheitenkarte") wird der Radius des Wahrnehmungsbereichs mit diesem Symbol angegeben:
+
+#align(
+  center,
+  image("Grafiken/Modell/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich"),
+)
+
+== Entfernungen messen
+<Entfernungen-messen>
+#index[Entfernungen messen]
+
+Alle Entfernungen dürfen jederzeit gemessen werden.
+
+Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
+
+#uni.illustration(
+  image("Grafiken/Abbildungen/entfernungen_messen.svg", alt: "Entfernungen messen", width: 80%),
+  caption: "Entfernung zwischen 2 Modellen",
+)
+
 = Modelle
 <Modelle>
 
@@ -905,280 +1179,6 @@ Gelten dauernd und werden auf der #uni.lnk("Einheitenkarte") direkt in das Profi
 
 Temporäre Profilmodifikatoren sind auf der #uni.lnk("Einheitenkarte") nicht im Profil mit eingerechnet.
 Sie kommen nur zur Anwendung wenn die Ausstattung aktiv verwendet wird.
-
-= Grundregeln
-
-== Würfelwürfe
-<Würfelwürfe>
-#index[Würfelwürfe]
-
-Es werden nur W12 verwendet.
-
-Vom Tisch gefallene Würfel zählen nicht, und müssen erneut gewürfelt werden.
-
-Grundsätzlich werden die folgenden beiden Arten von Würfen unterschieden:
-
-=== Attributswurf
-<Attributswurf>
-#index[Attributswurf]
-
-Attributswürfe werden in der Form [Attributskürzel]-Wurf angegeben.
-So wird bspw. für einen Attributswurf auf Konstitution nur „KO-Wurf“ geschrieben.
-
-Es wird immer der aktuelle Attributswert genommen der auch gegebenenfalls durch Effekte im Spiel modifiziert wurde.
-Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu erreichende Wert je nach Situation noch zusätzlich variieren.
-
-Sollte ein zu erreichender Wert kleiner/gleich 0 sein, entfällt der Wurf und gilt als Misserfolg.
-
-Der Wurf wird mit 1W12 durchgeführt.
-Sofern das Ergebnis unter/gleich dem Wert liegt ist es ein Erfolg, ansonsten ein Misserfolg.
-
-=== Vergleichender Wurf
-<Vergleichender-Wurf>
-#index[Vergleichender Wurf]
-
-Bei einem vergleichendem Wurf wird für 2 konkurrierende Modelle jeweils 1W12 gewürfelt und jeweils ein Wert hinzuaddiert.
-
-Abhängig von der Situation werden verschiedene Werte hinzuaddiert, durchaus auch unterschiedliche Werte je Modell.
-Abhängig von verschiedenen Eigenschaften, Boni und bestimmten Regeln kann der zu addierende Wert je nach Situation noch zusätzlich variieren.
-
-Das Modell mit dem höheren Ergebnis gewinnt den Wurf.
-
-== Aktionspunkte
-<Aktionspunkte>
-#index[Aktionspunkte]
-
-Modelle verfügen über Aktionspunkte (abgekürzt als AP), die in verschiedenen Phasen des Spiels für #uni.lnk("Aktionen und Reaktionen") ausgegeben werden können.
-
-Neben jedes Modell muss ein weißer W6 gelegt werden der die aktuell noch verfügbaren Aktionspunkte anzeigt.
-Er wird gegen einen roten W6 ausgetauscht wenn das Modell in den #uni.lnk("Kritisch", alt: "kritischen Zustand") verfällt.
-
-Alle Modelle haben pro Runde 6 AP.
-Die einzige Ausnahme sind #uni.lnk("Begleiter") mit nur 2 AP.
-
-*Ein Modell kann nie über mehr als 12 Aktionspunkte verfügen, egal durch welche Spielmechanik oder Ausrüstung hervorgerufen.*
-
-== Aktionen und Reaktionen
-<Aktionen-und-Reaktionen>
-
-Aktionen und Reaktionen beschreiben die Tätigkeiten, die von Modellen ausgeführt werden können.
-
-Sie dürfen von jedem Modell durchgeführt werden sofern die nötigen Voraussetzungen erfüllt sind wie bspw. das Vorhandensein von „Händen“ um eine Waffe abzufeuern und so weiter.
-Hier ist der gesunde Menschenverstand gefragt.
-
-Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
-Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten mit dem Zeichen ⊙ angegeben.
-
-=== Aktionen
-<Aktionen>
-#index[Aktionen]
-
-Aktionen können immer von einem Modell ausgeführt werden, wenn es sich gerade in der eigenen Initiativephase befindet.
-Bis auf wenige Ausnahmen können Aktionen beliebig aneinander gereiht und kombiniert werden.
-
-Sie sind an folgendem Symbol zu erkennen:
-
-#align(
-  center,
-  uni.img.activity.aktion,
-)
-
-=== Reaktionen
-<Reaktionen>
-#index[Reaktionen]
-
-Wenn eine Reaktion durchgeführt werden soll, kann dies nur als Antwort auf eine Aktion eines anderen Modells in dessen Initiativephase geschehen.
-
-Um eine Reaktion durchzuführen muss ein Modell über Aktionspunkte verfügen.
-Dies ist unabhängig davon, ob das Modell in dieser Runde bereits eine Initiativephase hatte, oder diese noch stattfindet.
-Um auf Aktionen zu reagieren, die nach der Initiativephase der aktuellen Runde stattfinden, müssen also Aktionspunkte aufbewahrt werden.
-
-Sie sind an folgendem Symbol zu erkennen:
-
-#align(
-  center,
-  uni.img.activity.reaktion,
-)
-
-=== Voraussetzungen
-
-Aktionen und Reaktionen können an Voraussetzungen geknüpft sein.
-Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
-
-#align(
-  center,
-  uni.img.activity.voraussetzung,
-)
-
-=== Übersicht
-
-#uni.table_h(
-  columns: (3fr, 2fr, 2fr),
-  align: (x, y) => {
-    if x > 0 {
-      center + horizon
-    } else {
-      left + horizon
-    }
-  },
-  table.header([], [*Aktionen*], [*Reaktionen*]),
-
-  "Ausrüstung",
-  ref(<Ausrüstung-Aktionen>, form: "page"),
-  "",
-
-  "Bewegen",
-  ref(<Bewegung-Aktionen>, form: "page"),
-  ref(<Bewegung-Reaktionen>, form: "page"),
-
-  "Eigenschaften",
-  ref(<Eigenschaften-Aktionen>, form: "page"),
-  "",
-
-  "Fernkampf",
-  ref(<Fernkampf-Aktionen>, form: "page"),
-  ref(<Fernkampf-Reaktionen>, form: "page"),
-
-  "Kräfte",
-  ref(<Kraft-Aktionen>, form: "page"),
-  ref(<Kraft-Reaktionen>, form: "page"),
-
-  "Nahkampf",
-  ref(<Nahkampf-Aktionen>, form: "page"),
-  ref(<Nahkampf-Reaktionen>, form: "page"),
-
-  "Objekte",
-  ref(<Objekt-Aktionen>, form: "page"),
-  "",
-
-  "Tarnung",
-  ref(<Tarnung-Aktionen>, form: "page"),
-  ref(<Tarnung-Reaktionen>, form: "page"),
-)
-
-== Sichtfeld
-<Sichtfeld>
-#index[Sichtfeld]
-
-Jedes Modell hat ein Sichtfeld von 360°.
-Es ist somit egal wohin ein Modell ausgerichtet ist.
-
-== Sichtlinie
-<Sichtlinie>
-#index[Sichtlinie]
-
-Die Sichtlinie zu einem #uni.lnk("Modelle", alt: "Modell"), #uni.lnk("Geländestücke", alt: "Geländestück") oder #uni.lnk("Objekte", alt: "Objekt") ist gegeben, wenn es möglich ist eine gerade und nicht unterbrochene Linie zu ihm zu ziehen.
-Bei Modellen bedeutet dies, dass die Linie ihr #uni.lnk("Größenprofil") trifft.
-
-#uni.illustration(
-  image("Grafiken/Abbildungen/sichtlinie.svg", alt: "Sichtlinie", width: 80%),
-  caption: "Die Linie trifft nicht das Modell selbst, aber sein Größenprofil. Es kann somit eine Sichtlinie zu ihm gezogen werden.",
-)
-
-Sichtlinien können durch #uni.lnk("Sichtweite") eingeschränkt sein.
-Befreundete Modelle behindern sie nicht.
-
-
-== Tragkraft
-<Tragkraft>
-#index[Tragkraft]
-
-Jedes Modell kann nur eine gewisse Menge an Ausrüstung tragen, ohne, dass davon AGI und GK negativ beeinflusst werden.
-
-Für verschiedene Modelltypen wird die in Kilogramm angegebene Tragkraft dabei unterschiedlich berechnet.
-
-#block(
-  breakable: false,
-  uni.table_v(
-    columns: (auto, 1fr, 1fr, 1fr),
-    align: left + top,
-
-    [*Modelltyp*],
-    "Standard",
-    "Begleiter",
-    "Koloss",
-
-    [*Tragkraft in kg*],
-    $ "KO"² $,
-    $ "KO"² $,
-    $ ( "KO" * 2 ) ² $,
-  ),
-)
-
-Bis zu diesem Wert erleidet das Modell keine negativen Auswirkungen.
-Wird er jedoch überschritten werden AGI und GK jeweils um 1 verringert.
-Wird er um das doppelte überschritten, werden beide um jeweils 2 verringert usw.
-
-Auf der #uni.lnk("Einheitenkarte") ist dies bei den Attributen bereits eingerechnet.
-
-#uni.example([
-  Ein Modell hat eine KO von 5 und damit eine Tragkraft von 25kg.
-
-  Ab einer Belastung von über 25kg werden die genannten Attribute um jeweils 1 verringert, über 50kg um jeweils 2, über 75kg um jeweils 3 usw.
-])
-
-== Gefahrenbereich
-<Gefahrenbereich>
-#index[Gefahrenbereich]
-
-Der Gefahrenbereich beschreibt den Umkreis um ein Modell, in dem es auf gegnerische Modelle reagieren muss.
-Der Radius in Zoll berechnet sich, indem die EH von 12 abgezogen und der Wert halbiert wird:
-
-$ "Radius in Zoll" = (12 - "EH") / 2 $
-
-Auf der #uni.lnk("Einheitenkarte") wird der Gefahrenbereich mit diesem Symbol angegeben:
-
-#align(
-  center,
-  image("Grafiken/Modell/gefahrenbereich.svg", alt: "Gefahrenbereich"),
-)
-
-=== Unmittelbare Bedrohung
-<Unmittelbare-Bedrohung>
-#index[Unmittelbare Bedrohung]
-
-Ein gegnerisches Modell, welches sich zum Beginn der eigenen Initiativephase innerhalb des Gefahrenbereichs am nächsten zum eigenen Modell aufhält, wird _Unmittelbare Bedrohung_ genannt.
-Sollten sich gegnerische Modelle im Basekontakt befinden sind sie, losgelöst von dem Radius des Gefahrenbereichs, automatisch unmittelbare Bedrohungen.
-
-Möchte das Modell eine unmittelbare Bedrohung ignorieren, muss es dafür einen erfolgreichen EH-Test durchführen.
-Misslingt dieser Test muss ein Angriff gegen die unmittelbare Bedrohung erfolgen, egal ob per #uni.lnk("Nahkampf"), #uni.lnk("Fernkampf"), #uni.lnk("Ausrüstung"), #uni.lnk("Eigenschaften") oder #uni.lnk("Disziplinen-und-Kräfte", alt: "Kräften").
-
-Pro Initiativephase ist nur maximal 1 Versuch erlaubt und notwendig.
-
-== Wahrnehmungsbereich
-<Wahrnehmungsbereich>
-#index[Wahrnehmungsbereich]
-
-Der Wahrnehmungsbereich umfasst alles um ein Modell in #uni.lnk("Sichtlinie") in einem Radius der folgendermaßen berechnet wird:
-
-$ "Radius in Zoll" = "WN" * 2 $
-
-#uni.illustration(
-  image("Grafiken/Abbildungen/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich", width: 60%),
-  caption: "Wahrnehmungsbereich, welcher durch Bäume eingeschränkt wird.",
-)
-
-Im #uni.lnk("Kritisch", alt: "Kritischen Zustand") wird der Radius des Wahrnehmungsbereichs halbiert (aufgerundet).
-
-Auf der #uni.lnk("Einheitenkarte") wird der Radius des Wahrnehmungsbereichs mit diesem Symbol angegeben:
-
-#align(
-  center,
-  image("Grafiken/Modell/wahrnehmungsbereich.svg", alt: "Wahrnehmungsbereich"),
-)
-
-== Entfernungen messen
-<Entfernungen-messen>
-#index[Entfernungen messen]
-
-Alle Entfernungen dürfen jederzeit gemessen werden.
-
-Die Entfernungen zwischen Modellen werden von den Rändern der Bases gemessen.
-
-#uni.illustration(
-  image("Grafiken/Abbildungen/entfernungen_messen.svg", alt: "Entfernungen messen", width: 80%),
-  caption: "Entfernung zwischen 2 Modellen",
-)
 
 = Spielablauf
 <Spielablauf>
