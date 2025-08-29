@@ -33,7 +33,7 @@
   [schwierig],
   [hart],
   [-],
-  [Deckung wirkt nur gegen Beschuss von außerhalb.],
+  [Deckung wirkt nur gegen Fernkampf von außerhalb.],
 
   [Ruine],
   [schwierig],

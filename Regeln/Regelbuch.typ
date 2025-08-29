@@ -1521,7 +1521,7 @@ Es wird dabei zwischen 3 verschiedenen Stufen von Deckungen unterschieden:
 
 === Weich
 
-Alles was eigentlich nicht zur Abwehr von Beschuss geeignet ist.
+Alles was eigentlich nicht zur Abwehr von Fernkampf geeignet ist.
 Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
 #uni.example(
@@ -1537,7 +1537,7 @@ Dazu zählen auch befreundete Modelle die mindestens eine Stufe größer sind.
 
 === Hart
 
-Kann Beschuss bedingt abhalten.
+Kann Fernkampf bedingt abhalten.
 
 #uni.example(
   caption: "Harte Deckung",
@@ -1551,7 +1551,7 @@ Kann Beschuss bedingt abhalten.
 
 === Massiv
 
-Ist zur direkten Abwehr von Beschuss geeignet.
+Ist zur direkten Abwehr von Fernkampf geeignet.
 
 #uni.example(
   caption: "Massive Deckung",
@@ -1674,7 +1674,7 @@ Alles ist möglich.
 #index[Rüstung]
 
 Verschiedene Spielmechaniken erzeugen Schaden.
-Dies kann ein Modell sein das ein anderes Modell #uni.lnk("Fernkampf", alt: "beschießt") oder im #uni.lnk("Nahkampf") angreift oder auch Effekte die im Spiel auftreten.
+Dies kann ein Modell sein das ein anderes Modell im #uni.lnk("Fernkampf") oder #uni.lnk("Nahkampf") angreift oder auch Effekte die im Spiel auftreten.
 
 Schaden wird in erster Linie mit #uni.lnk("Rüstungen", alt: "Rüstung") abgewehrt.
 Es kann aber auch #uni.lnk("Ausrüstung") geben welche dabei hilft.
@@ -2141,7 +2141,7 @@ Im Fernkampf dürfen nur Waffen mit einem #uni.lnk("Reichweite", alt: "Reichweit
 <Zielauswahl>
 #index[Zielauswahl]
 
-Damit ein Ziel beschossen werden kann muss eine #uni.lnk("Sichtlinie") zu ihm gezogen werden können.
+Damit ein Ziel im Fernkampf angegriffen werden kann muss eine #uni.lnk("Sichtlinie") zu ihm gezogen werden können.
 
 Sollte sich im #uni.lnk("Gefahrenbereich") keine #uni.lnk("Unmittelbare Bedrohung", alt: "unmittelbare Bedrohung") befinden (welche bekämpft werden müsste), kann das Ziel frei gewählt werden.
 
@@ -2182,10 +2182,10 @@ Auf der #uni.lnk("Einheitenkarte") wird sie unter dem folgendem Symbol ausgewies
 
 Wenn das Ziel über #uni.lnk("Trefferzonen") verfügt muss die getroffene Trefferzone ausgewürfelt werden.
 
-== Beschuss von Modellen im Nahkampf
+== Fernkampf gegen Modelle im Nahkampf
 #index("Fernkampf", "Modelle im Nahkampf")
 
-Modelle die sich im Nahkampf befinden dürfen beschossen werden.
+Modelle die sich im #uni.lnk("Nahkampf") befinden dürfen mit Fernkampf angegriffen werden.
 
 Ob das Modell oder eines seiner Nahkampfgegner getroffen wird entscheidet der Zufall wobei die Wahrscheinlichkeit für jedes Modell identisch ist.
 
@@ -2196,10 +2196,10 @@ Hierdurch können auch Modelle getroffen werden zu denen keine #uni.lnk("Sichtli
   Die Wahrscheinlichkeit, dass ein Modell getroffen wird, beträgt 1/3.
 ])
 
-== Beschuss von getarnten Modellen
+== Fernkampf gegen getarnte Modellen
 #index("Fernkampf", "getarnte Modelle")
 
-Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") getarnte Modelle beschossen werden.
+Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") getarnte Modelle im Fernkampf angegriffen werden.
 
 == Modifikatoren <Fernkampf-Modifikatoren>
 
@@ -2252,7 +2252,7 @@ Der durch eventuelle #uni.lnk("Deckung") angewandte Modifikator.
 #index("Unhandlich", "Waffen im Fernkampf")
 #index("Fernkampf", "Unhandliche Waffen")
 
-Sie erhalten bei Beschuss von kleinen und mittleren Zielen einen Malus von -3 auf den FK-Wurf.
+Sie erhalten bei Fernkampf gegen kleine und mittlere Ziele einen Malus von -3 auf den FK-Wurf.
 
 === Liegender Schütze
 #index("Fernkampf", "Liegender Schütze")
@@ -2270,7 +2270,7 @@ Auf Ziele, welche sich in #uni.lnk("Schnelle Bewegungen", alt: "schneller Bewegu
 #index[Indirekter Fernkampf]
 #index("Fernkampf", "Indirekt")
 
-Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld beschossen werden der durch das Modell nicht einsehbar ist.
+Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld angegriffen werden, der durch das Modell nicht einsehbar ist.
 
 Er ist nicht mit der Aktion #uni.lnk("Fernkampf-Reaktionen", alt: "Reaktionsfeuer") kombinierbar.
 
@@ -2282,7 +2282,7 @@ Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen #uni.lnk("G
 ])
 
 Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
-Sofern der beschossene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
+Sofern der angegriffene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
 Weitere Mali durch Deckung kommen nicht zur Geltung.
 
 Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in massiver Deckung befinden.
@@ -2564,7 +2564,7 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 <Vorteile-Tarnung>
 #index("Tarnung", "Vorteile")
 
-Getarnte Modelle können weder beschossen noch im Nahkampf angegriffen werden.
+Getarnte Modelle können weder mit Fernkampf noch Nahkampf angegriffen werden.
 Damit das möglich ist, müssen sie zuerst #uni.lnk("Aufklärung", alt: "aufgeklärt") werden.
 
 Sie können nicht durch Flächenwaffen getroffen werden.
@@ -2582,7 +2582,7 @@ Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
 #index[Aufklärung]
 #index("Tarnung", "Aufklärung")
 
-Aufgeklärte Modelle können normal beschossen oder im Nahkampf angegriffen werden.
+Aufgeklärte Modelle können mit Fernkampf oder Nahkampf angegriffen werden.
 
 Sie gelten solange als aufgeklärt bis sie 2 volle Bewegungsaktionen durchgeführt haben.
 Danach wird ihre Tarnung automatisch wiederhergestellt sofern die Voraussetzungen dafür erfüllt sind.

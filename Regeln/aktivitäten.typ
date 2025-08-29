@@ -199,7 +199,7 @@
         Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen #uni.lnk("Bonus für den Angreifer", alt: "Bonus") für eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung").
         Das Modell verliert danach automatisch seine Verteidigung.
 
-        Wenn das Modell beschossen wird oder Ziel einer Kraft ist muss es einen EH-Test ablegen.
+        Wenn das Modell das Ziel von Fernkampf oder einer Kraft ist muss es einen EH-Test ablegen.
         Misslingt dieser verliert es die Verteidigung.
         Es muss dafür nicht getroffen werden.
       ],
@@ -240,7 +240,7 @@
 #let reactions = (
   bewegung: (
     (
-      name: [Beschuss Ausweichen],
+      name: [Fernkampf Ausweichen],
       points: [1],
       content: [
         Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
@@ -264,7 +264,7 @@
       ],
       condition: [
         - Das Modell muss sich in Feuerbereitschaft befinden.
-        - Der Beschuss darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige #uni.lnk("Bewegung-Aktionen", alt: "Bewegungsaktion") innerhalb des #uni.lnk("Wahrnehmungsbereich", alt: "Wahrnehmungsbereichs") durchführt.
+        - Der Fernkampf darf nur auf ein gegnerisches Modell gerichtet sein, welches eine beliebige #uni.lnk("Bewegung-Aktionen", alt: "Bewegungsaktion") innerhalb des #uni.lnk("Wahrnehmungsbereich", alt: "Wahrnehmungsbereichs") durchführt.
         - Kann nicht mit #uni.lnk("Indirekter-Fernkampf", alt: "indirektem Fernkampf") genutzt werden.
       ],
     ),
