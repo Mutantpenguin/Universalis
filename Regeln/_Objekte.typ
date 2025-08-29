@@ -3,7 +3,7 @@
 #uni.table_h(
   columns: (auto, auto, 1fr),
   align: (left, center, left),
-  table.header([*Objekt*], [*AP-Kosten*], [*Voraussetzungen*]),
+  table.header([*Objekt*], [*AP*], [*Voraussetzungen*]),
 
   [Hebel],
   [2],
