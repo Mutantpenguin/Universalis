@@ -200,12 +200,34 @@
   )
 }
 
-#let action(name, points, content, condition: "") = {
+#let _action(name, points, content, condition: "") = {
   _activity(img.activity.aktion, "Aktionen", name, points, content, condition)
 }
 
-#let reaction(name, points, content, condition: "") = {
+#let _reaction(name, points, content, condition: "") = {
   _activity(img.activity.reaktion, "Reaktionen", name, points, content, condition)
+}
+
+#let actions(action_array) = {
+  for a in action_array {
+    _action(
+      a.name,
+      a.points,
+      a.content,
+      condition: a.at("condition", default: ""),
+    )
+  }
+}
+
+#let reactions(reaction_array) = {
+  for a in reaction_array {
+    _reaction(
+      a.name,
+      a.points,
+      a.content,
+      condition: a.at("condition", default: ""),
+    )
+  }
 }
 
 #let style(doc) = [
