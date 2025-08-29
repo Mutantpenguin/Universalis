@@ -2667,6 +2667,7 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
 #index("Kräfte", "Stufe")
 
 Die Stufe der Kraft.
+Sie wird in "Sternen" angegeben.
 
 === AP-Kosten
 <Kraft-AP-Kosten>
