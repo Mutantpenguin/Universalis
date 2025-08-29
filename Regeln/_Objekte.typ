@@ -37,7 +37,7 @@
 
     bspw. Tür, Truhe, Kiste, Fenster
   ],
-  [1],
+  [2],
   [
     #uni.table_n(
       columns: (auto, 1fr),
