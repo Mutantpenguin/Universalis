@@ -307,6 +307,15 @@
     block(smallcaps(it.body))
   }
 
+  #show heading.where(level: 4): it => {
+    set text(
+      font: heading_font,
+      size: 10pt,
+      weight: "bold",
+    )
+    block(emph(smallcaps(it.body)))
+  }
+
   #doc
 ]
 
