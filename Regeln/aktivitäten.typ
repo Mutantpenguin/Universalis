@@ -14,13 +14,6 @@
   ),
   bewegung: (
     (
-      name: [Drehen],
-      points: [0],
-      content: [
-        Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
-      ],
-    ),
-    (
       name: [Normale Bewegung],
       points: [1|2],
       content: [
@@ -28,6 +21,27 @@
         Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es #uni.lnk("Liegende Modelle", alt: "liegt").
 
         Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 1" eingehalten werden.
+      ],
+    ),
+    (
+      name: [Drehen],
+      points: [0],
+      content: [
+        Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
+      ],
+    ),
+    (
+      name: [Hinlegen],
+      points: [1],
+      content: [
+        Das Modell gilt als #uni.lnk("Liegende Modelle", alt: "liegend").
+      ],
+    ),
+    (
+      name: [Aufstehen],
+      points: [1],
+      content: [
+        Das Modell gilt als stehend.
       ],
     ),
     (
@@ -54,20 +68,6 @@
       condition: [
         - Das Modell muss sich im Nahkampf befinden.
         - Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.
-      ],
-    ),
-    (
-      name: [Hinlegen],
-      points: [1],
-      content: [
-        Das Modell gilt als #uni.lnk("Liegende Modelle", alt: "liegend").
-      ],
-    ),
-    (
-      name: [Aufstehen],
-      points: [1],
-      content: [
-        Das Modell gilt als stehend.
       ],
     ),
   ),
