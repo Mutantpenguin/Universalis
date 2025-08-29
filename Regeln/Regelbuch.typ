@@ -1641,7 +1641,7 @@ Die Benutzung von Objekten kann gewissen Voraussetzungen unterliegen die erfüll
 
 Die folgenden Voraussetzungen sind möglich, auch in Kombination.
 
-*_Eigenschaft_*
+==== Eigenschaft
 
 Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
 
@@ -1650,7 +1650,7 @@ Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
   - _Schlossknacken_ um Schlösser zu knacken.
 ])
 
-*_Schwierigkeit_*
+==== Schwierigkeit
 
 #uni.lnk("Attributswurf") mit optionalem Modifikator notwendig.
 
@@ -1659,7 +1659,7 @@ Das Modell muss eine bestimmte Eigenschaft oder Mindeststufe darin besitzen.
   - WN-2-Test um ein elektronisches Schloss kurz zu schließen.
 ])
 
-*_Komplex_*
+==== Komplex
 
 Alles ist möglich.
 
