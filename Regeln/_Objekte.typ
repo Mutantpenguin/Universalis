@@ -5,28 +5,28 @@
   align: (left, center, left),
   table.header([*Objekt*], [*AP-Kosten*], [*Voraussetzungen*]),
 
-  "Hebel",
-  "2",
-  "-",
+  [Hebel],
+  [2],
+  [-],
 
-  "Keypad",
-  "1",
-  "Code bekannt",
+  [Keypad],
+  [1],
+  [Code bekannt],
 
-  "Opferaltar",
-  "3",
-  "Paraphernalien vorhanden",
+  [Opferaltar],
+  [3],
+  [Paraphernalien vorhanden],
 
-  "Schalter",
-  "1",
-  "-",
+  [Schalter],
+  [1],
+  [-],
 
-  "Terminal",
-  "2",
-  "Code bekannt",
+  [Terminal],
+  [2],
+  [Code bekannt],
 
-  "Torwächter",
-  "2",
+  [Torwächter],
+  [2],
   [
     - Passwort bekannt
     - Gegenstand vorhanden
@@ -37,19 +37,19 @@
 
     bspw. Tür, Truhe, Kiste, Fenster
   ],
-  "1",
+  [1],
   [
     #uni.table_n(
       columns: (auto, 1fr),
       align: left + top,
-      "unverschlossen",
-      "-",
-      "verschlossen",
-      "Schlüssel/Keycard vorhanden / KO-2",
-      "verschlossen, befestigt",
-      "Schlüssel/Keycard vorhanden / KO-4",
-      "verschlossen, gepanzert",
-      "Schlüssel/Keycard vorhanden / KO-6",
+      [unverschlossen],
+      [-],
+      [verschlossen],
+      [Schlüssel/Keycard vorhanden / KO-2],
+      [verschlossen, befestigt],
+      [Schlüssel/Keycard vorhanden / KO-4],
+      [verschlossen, gepanzert],
+      [Schlüssel/Keycard vorhanden / KO-6],
     )
   ],
 )
