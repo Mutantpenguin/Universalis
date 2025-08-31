@@ -2425,7 +2425,7 @@ Diese Bewegung kostet keine AP.
 
 Dabei kommen die folgenden Ausnahmen zur Anwendung:
 
-- Die Bewegung muss in gerade Linie erfolgen.
+- Die Bewegung muss in gerader Linie erfolgen.
 - Das Modell darf dadurch in Basekontakt mit anderen gegnerischen Modellen bewegt werden.
 - Wenn es über eine Kante bewegt wird #uni.lnk("Herunterfallen", alt: "fällt") es herunter.
 
