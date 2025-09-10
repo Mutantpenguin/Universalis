@@ -789,11 +789,6 @@ Unter ihnen werden in der Regel Einheiten verstanden die eine Größe von 4 bis 
 
 Egal ob Mech, Riese oder Ungetüm: es handelt sich dabei um große und starke Kreaturen die Schaden austeilen und einstecken können als wären sie ein Panzer.
 
-== Fern- und Nahkampf
-#index("Kolosse", "Fern- und Nahkampf")
-
-Im Fern- und Nahkampf kostet sie jede Aktion 1⊙ weniger wenn sie eine Waffe der Klasse 4 oder 5 einsetzen.
-
 == Geländeausnutzung
 
 Durch ihre Beweglichkeit profitieren Kolosse ganz normal von Deckung, da sie sich genau wie Standard-Modelle an diese anschmiegen können.
