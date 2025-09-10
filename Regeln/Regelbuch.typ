@@ -826,10 +826,10 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
   [Wie bei Standard Modellen. Siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand").],
 
   [*Seite*],
-  "Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.",
+  [Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.],
 
   [*Bewegung*],
-  "Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.",
+  [Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.],
 )
 
 === Verlust aller Trefferpunkte
@@ -858,11 +858,11 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 
     table.header([*W12*], [*Auswirkung*]),
 
-    "1-6",
-    "Bleibt auf der Stelle stehen und kann sich noch drehen.",
+    [1-6],
+    [Bleibt auf der Stelle stehen und kann sich noch drehen.],
 
-    "7-11",
-    "Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.",
+    [7-11],
+    [Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.],
 
     "12",
     [Fällt um und gilt als #uni.lnk("Eliminiert", alt: "eliminiert"). Ist nun ein Geländestück.],
