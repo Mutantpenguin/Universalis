@@ -818,54 +818,60 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
 === Kritischer Zustand
 #index("Kolosse", "Kritischer Zustand")
 
-#uni.table_v(
-  columns: (auto, 1fr),
-  align: left + top,
+#block(
+  breakable: false,
+  uni.table_v(
+    columns: (auto, 1fr),
+    align: left + top,
 
-  [*Rumpf*],
-  [Wie bei Standard Modellen. Siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand").],
+    [*Rumpf*],
+    [Wie bei Standard Modellen. Siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand").],
 
-  [*Seite*],
-  [Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.],
+    [*Seite*],
+    [Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.],
 
-  [*Bewegung*],
-  [Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.],
+    [*Bewegung*],
+    [Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.],
+  ),
 )
 
 === Verlust aller Trefferpunkte
 #index("Kolosse", "Verlust aller Trefferpunkte")
 
-#uni.table_v(
-  columns: (auto, 1fr),
-  align: left + top,
-
-  [*Rumpf*],
-  [
-    Sinkt in sich zusammen und gilt als #uni.lnk("Eliminiert", alt: "eliminiert").
-    Ist nun ein Geländestück.
-  ],
-
-  [*Seite*],
-  [
-    Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
-    Außerdem werden AGI und NK um 1 verringert.
-  ],
-
-  [*Bewegung*],
-  uni.table_h(
+#block(
+  breakable: false,
+  uni.table_v(
     columns: (auto, 1fr),
     align: left + top,
 
-    table.header([*W12*], [*Auswirkung*]),
+    [*Rumpf*],
+    [
+      Sinkt in sich zusammen und gilt als #uni.lnk("Eliminiert", alt: "eliminiert").
+      Ist nun ein Geländestück.
+    ],
 
-    [1-6],
-    [Bleibt auf der Stelle stehen und kann sich noch drehen.],
+    [*Seite*],
+    [
+      Die Seite wird zerstört und dort getragene Waffen können nicht mehr verwendet werden.
+      Außerdem werden AGI und NK um 1 verringert.
+    ],
 
-    [7-11],
-    [Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.],
+    [*Bewegung*],
+    uni.table_h(
+      columns: (auto, 1fr),
+      align: left + top,
 
-    "12",
-    [Fällt um und gilt als #uni.lnk("Eliminiert", alt: "eliminiert"). Ist nun ein Geländestück.],
+      table.header([*W12*], [*Auswirkung*]),
+
+      [1-6],
+      [Bleibt auf der Stelle stehen und kann sich noch drehen.],
+
+      [7-11],
+      [Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.],
+
+      "12",
+      [Fällt um und gilt als #uni.lnk("Eliminiert", alt: "eliminiert"). Ist nun ein Geländestück.],
+    ),
   ),
 )
 
