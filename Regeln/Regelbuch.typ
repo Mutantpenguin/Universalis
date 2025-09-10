@@ -828,7 +828,7 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
     [Wie bei Standard Modellen. Siehe #uni.lnk("Kritisch", alt: "Kritischer Zustand").],
 
     [*Seite*],
-    [Sowohl im Fernkampf als auch Nahkampf -1 auf den jeweiligen Wurf für jede Seite im kritischen Zustand.],
+    [NK und FK um 1 verringert für jede Seite im kritischen Zustand.],
 
     [*Bewegung*],
     [Muss für jede Bewegung einen erfolgreichen KO-Wurf ablegen.],
