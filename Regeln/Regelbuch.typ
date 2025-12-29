@@ -1011,7 +1011,8 @@ Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder R�
 
 Wenn Ausrüstung AP-Kosten hat, muss die Aktion _Ausrüstung verwenden_ ausgeführt werden um sie zu benutzen. Ansonsten ist keine Aktion für die Verwendung notwendig.
 
-=== Unhandliche Ausrüstung <Ausrüstung-Unhandlich>
+=== Unhandliche Ausrüstung
+<Ausrüstung-Unhandlich>
 #index("Unhandlich", "Ausrüstung")
 #index("Ausrüstung", "Unhandlich")
 
@@ -1479,7 +1480,8 @@ Kleine Modelle werden dadurch nicht noch kleiner.
 
 Um darzustellen, dass ein Modell liegt, wird es auf den Bauch gelegt.
 
-= Gelände <Gelände>
+= Gelände
+<Gelände>
 #index[Gelände]
 
 Alles was sich auf dem Spielfeld befindet, und kein Modell eines Spielers ist, wird als #uni.lnk("Geländestücke", alt: "Geländestück") oder #uni.lnk("Objekte", alt: "Objekt") bezeichnet.
@@ -2202,7 +2204,8 @@ Hierdurch können auch Modelle getroffen werden zu denen keine #uni.lnk("Sichtli
 
 Es können nur #uni.lnk("Aufklärung", alt: "aufgeklärte") getarnte Modelle im Fernkampf angegriffen werden.
 
-== Modifikatoren <Fernkampf-Modifikatoren>
+== Modifikatoren
+<Fernkampf-Modifikatoren>
 
 === Größe des Ziels
 #index("Fernkampf", "Größe des Ziels")
