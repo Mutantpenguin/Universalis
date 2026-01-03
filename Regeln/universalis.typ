@@ -232,8 +232,12 @@
 
 #let style(doc) = [
 
-  #set text(lang: "de")
-  #set text(region: "DE")
+  #set text(
+    font: "Noto Sans",
+    size: 10pt,
+    lang: "de",
+    region: "DE",
+  )
 
   #let heading_font = "Noto Sans"
 
@@ -258,11 +262,6 @@
   )
 
   #show link: underline
-
-  #set text(
-    font: "Noto Sans",
-    size: 10pt,
-  )
 
   #set heading(numbering: "1.1")
 
