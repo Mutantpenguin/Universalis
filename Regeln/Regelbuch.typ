@@ -972,7 +972,7 @@ Jede Spielmechanik die über Eigenschaften hinaus geht sollte als #uni.lnk("Disz
 === Aktionen
 <Eigenschaften-Aktionen>
 
-#uni.actions(activities.actions.eigenschaften)
+#uni.actions(activities.action_groups.eigenschaften)
 
 === Eigenschaftsstufen
 #index("Eigenschaften", "Stufen")
@@ -1004,7 +1004,7 @@ Jedes Modell kann Ausrüstung besitzen die nicht in die Kategorien Waffe oder R�
 === Aktionen
 <Ausrüstung-Aktionen>
 
-#uni.actions(activities.actions.ausrüstung)
+#uni.actions(activities.action_groups.ausrüstung)
 
 === AP-Kosten
 #index("Ausrüstung", "AP-Kosten")
@@ -1374,12 +1374,12 @@ Bewegung wird an der Vorderkante der Base in Bewegungsrichtung gemessen.
 == Aktionen
 <Bewegung-Aktionen>
 
-#uni.actions(activities.actions.bewegung)
+#uni.actions(activities.action_groups.bewegung)
 
 == Reaktionen
 <Bewegung-Reaktionen>
 
-#uni.reactions(activities.reactions.bewegung)
+#uni.reactions(activities.reaction_groups.bewegung)
 
 == Springen
 <Springen>
@@ -1630,7 +1630,7 @@ Siehe #uni.lnk("Anhang-Objekte", alt: "Anhang: Objekte") für eine Übersicht al
 == Aktionen
 <Objekt-Aktionen>
 
-#uni.actions(activities.actions.objekte)
+#uni.actions(activities.action_groups.objekte)
 
 === AP-Kosten
 <Objekte-AP-Kosten>
@@ -2128,12 +2128,12 @@ Bei Erfolg wurde das Ziel getroffen und ein Treffer gelandet der zu einem #uni.l
 == Aktionen
 <Fernkampf-Aktionen>
 
-#uni.actions(activities.actions.fernkampf)
+#uni.actions(activities.action_groups.fernkampf)
 
 == Reaktionen
 <Fernkampf-Reaktionen>
 
-#uni.reactions(activities.reactions.fernkampf)
+#uni.reactions(activities.reaction_groups.fernkampf)
 
 == Erlaubte Waffen
 #index("Fernkampf", "Erlaubte Waffen")
@@ -2436,12 +2436,12 @@ Dabei kommen die folgenden Ausnahmen zur Anwendung:
 == Aktionen
 <Nahkampf-Aktionen>
 
-#uni.actions(activities.actions.nahkampf)
+#uni.actions(activities.action_groups.nahkampf)
 
 == Reaktionen
 <Nahkampf-Reaktionen>
 
-#uni.reactions(activities.reactions.nahkampf)
+#uni.reactions(activities.reaction_groups.nahkampf)
 
 == Erlaubte Waffen
 #index("Nahkampf", "Erlaubte Waffen")
@@ -2598,12 +2598,12 @@ Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ au
 == Aktionen
 <Tarnung-Aktionen>
 
-#uni.actions(activities.actions.tarnung)
+#uni.actions(activities.action_groups.tarnung)
 
 == Reaktionen
 <Tarnung-Reaktionen>
 
-#uni.reactions(activities.reactions.tarnung)
+#uni.reactions(activities.reaction_groups.tarnung)
 
 = Disziplinen & Kräfte
 <Disziplinen-und-Kräfte>
@@ -2822,12 +2822,12 @@ Die Summe der Stufen aller ausgewählten Kräfte darf dabei nicht höher als sei
 == Aktionen
 <Kraft-Aktionen>
 
-#uni.actions(activities.actions.kräfte)
+#uni.actions(activities.action_groups.kräfte)
 
 == Reaktionen
 <Kraft-Reaktionen>
 
-#uni.reactions(activities.reactions.kräfte)
+#uni.reactions(activities.reaction_groups.kräfte)
 
 == Kraft blockieren
 <Kraft-blockieren>

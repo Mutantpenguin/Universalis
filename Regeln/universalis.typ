@@ -208,24 +208,24 @@
   _activity(img.activity.reaktion, "Reaktionen", name, points, content, condition)
 }
 
-#let actions(action_array) = {
-  for a in action_array {
+#let actions(action_group) = {
+  for action in action_group.actions {
     _action(
-      a.name,
-      a.points,
-      a.content,
-      condition: a.at("condition", default: ""),
+      action.name,
+      action.points,
+      action.content,
+      condition: action.at("condition", default: ""),
     )
   }
 }
 
-#let reactions(reaction_array) = {
-  for a in reaction_array {
+#let reactions(reaction_group) = {
+  for reaction in reaction_group.reactions {
     _reaction(
-      a.name,
-      a.points,
-      a.content,
-      condition: a.at("condition", default: ""),
+      reaction.name,
+      reaction.points,
+      reaction.content,
+      condition: reaction.at("condition", default: ""),
     )
   }
 }
