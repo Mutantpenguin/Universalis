@@ -2117,7 +2117,7 @@ Unter Fernkampf wird jeglicher Kampf mit einer #uni.lnk("Waffen", alt: "Waffe") 
 
 == Durchführung
 
-Um einen Fernkampf durchzuführen muss zunächst geprüft werden ob eine #uni.lnk("Sichtlinie") zum gewählten Ziel existiert.
+Um einen Fernkampf durchzuführen muss zunächst geprüft werden, ob eine #uni.lnk("Sichtlinie") zum gewählten Ziel existiert.
 
 Danach muss eine konkrete Waffe ausgewählt werden um mit ihrem #uni.lnk("Reichweite", alt: "Reichweitenband") den FK-Modifikator zu bestimmen bzw. ob das Ziel überhaupt in Reichweite ist.
 
@@ -2279,7 +2279,7 @@ Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld angegriffe
 
 Er ist nicht mit der Aktion #uni.lnk("Fernkampf-Reaktionen", alt: "Reaktionsfeuer") kombinierbar.
 
-Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen #uni.lnk("Geländestücke") mehr als die halbe maximale Reichweite der Waffe beträgt hat der Schuss keine Wirkung.
+Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen #uni.lnk("Geländestücke") mehr als die halbe maximale Reichweite der Waffe beträgt, hat der Schuss keine Wirkung.
 
 #uni.example([
   Ein Granatwerfer hat eine Reichweite von 10/4 und somit eine maximale Reichweite von 40".
@@ -2290,7 +2290,7 @@ Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von #modifik
 Sofern der angegriffene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von #modifikatoren.fernkampf.indirekt.sichtbar_befreundet angewendet.
 Weitere Mali durch Deckung kommen nicht zur Geltung.
 
-Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in massiver Deckung befinden.
+Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt, als ob sie sich in massiver Deckung befinden.
 
 Waffen, welche für indirekten Fernkampf eingesetzt werden können, besitzen das folgende Symbol.
 
@@ -2344,7 +2344,7 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 #index[Flächenwaffen]
 #index("Fernkampf", "Flächenwaffe")
 
-Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
+Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung, die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
 
 Auf der #uni.lnk("Einheitenkarte") wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in Zoll angibt.
 

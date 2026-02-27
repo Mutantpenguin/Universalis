@@ -115,7 +115,7 @@
           )
 
           Falls das Modell das Ziel irgendeiner erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
-          Misslingt dieser verliert es die Feuerbereitschaft.
+          Misslingt dieser, verliert es die Feuerbereitschaft.
         ],
         condition: [
           - Nur mit Fernkampfwaffen der WK I, II und III.
