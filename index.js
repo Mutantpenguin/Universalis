@@ -8,7 +8,9 @@ window.onload = function () {
     $.get(repoUrlRules, function (data) {
         document.getElementById('beta_version_rules').innerHTML = data.tag_name;
 
-        if (data.tag_name === currentVersionRules) {
+        if (data.tag_name > currentVersionRules) {
+            document.getElementById('alert_beta_version').classList.remove("d-none");
+        } else {
             document.getElementById('alert_beta_version').classList.add("d-none");
         }
     });
