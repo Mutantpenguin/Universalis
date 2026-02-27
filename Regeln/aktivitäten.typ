@@ -3,7 +3,7 @@
 #let action_groups = (
   ausrüstung: (
     name: [Ausrüstung],
-    actions: (
+    activities: (
       (
         name: [Ausrüstung verwenden],
         points: [X],
@@ -17,7 +17,7 @@
   ),
   bewegung: (
     name: [Bewegung],
-    actions: (
+    activities: (
       (
         name: [Normale Bewegung],
         points: [1|2],
@@ -79,7 +79,7 @@
   ),
   eigenschaften: (
     name: [Eigenschaften],
-    actions: (
+    activities: (
       (
         name: [Eigenschaft anwenden],
         points: [X],
@@ -92,7 +92,7 @@
   ),
   fernkampf: (
     name: [Fernkampf],
-    actions: (
+    activities: (
       (
         name: [Normaler Schuss],
         points: [WK+1],
@@ -154,7 +154,7 @@
   ),
   kräfte: (
     name: [Kräfte],
-    actions: (
+    activities: (
       (
         name: [Kraft einsetzen],
         points: [X],
@@ -182,7 +182,7 @@
   ),
   nahkampf: (
     name: [Nahkampf],
-    actions: (
+    activities: (
       (
         name: [Angriff],
         points: [WK],
@@ -229,7 +229,7 @@
   ),
   objekte: (
     name: [Objekte],
-    actions: (
+    activities: (
       (
         name: [Objekt benutzen],
         points: [X],
@@ -244,7 +244,7 @@
   ),
   tarnung: (
     name: [Tarnung],
-    actions: (
+    activities: (
       (
         name: [Aufklären],
         points: [2+],
@@ -264,7 +264,7 @@
 #let reaction_groups = (
   bewegung: (
     name: [Bewegung],
-    reactions: (
+    activities: (
       (
         name: [Fernkampf Ausweichen],
         points: [1],
@@ -282,7 +282,7 @@
   ),
   fernkampf: (
     name: [Fernkampf],
-    reactions: (
+    activities: (
       (
         name: [Reaktionsfeuer],
         points: [WK],
@@ -301,7 +301,7 @@
   ),
   kräfte: (
     name: [Kräfte],
-    reactions: (
+    activities: (
       (
         name: [Kraft blockieren],
         points: [3],
@@ -316,7 +316,7 @@
   ),
   nahkampf: (
     name: [Nahkampf],
-    reactions: (
+    activities: (
       (
         name: [Gegenangriff],
         points: [WK],
@@ -342,7 +342,7 @@
   ),
   tarnung: (
     name: [Tarnung],
-    reactions: (
+    activities: (
       (
         name: [Aufklärungsunterstützung],
         points: [2],

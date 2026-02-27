@@ -209,7 +209,7 @@
 }
 
 #let actions(action_group) = {
-  for action in action_group.actions {
+  for action in action_group.activities {
     _action(
       action.name,
       action.points,
@@ -220,7 +220,7 @@
 }
 
 #let reactions(reaction_group) = {
-  for reaction in reaction_group.reactions {
+  for reaction in reaction_group.activities {
     _reaction(
       reaction.name,
       reaction.points,
