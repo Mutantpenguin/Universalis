@@ -2344,7 +2344,7 @@ Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 #index[Flächenwaffen]
 #index("Fernkampf", "Flächenwaffe")
 
-Flächenwaffen erzeugen an ihrem Einschlagpunkt eine Flächenwirkung, die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
+Flächenwaffen erzeugen an ihrem Einschlagspunkt eine Flächenwirkung, die im jeweiligen Waffenprofil angegeben ist und eine kreisrunde Fläche beschreibt.
 
 Auf der #uni.lnk("Einheitenkarte") wird dies mit dem folgendem Symbol ausgewiesen, wobei die Zahl den Radius in Zoll angibt.
 
@@ -2353,17 +2353,21 @@ Auf der #uni.lnk("Einheitenkarte") wird dies mit dem folgendem Symbol ausgewiese
   image("Grafiken/Waffe/radius.svg", alt: "Radius", width: 3em),
 )
 
+=== Abweichung
+
 Wenn bei einer Flächenwaffe der FK-Wurf misslingt, wird der gewürfelte Wert mit dem zu erreichenden verglichen.
-Die Differenz in Zoll gibt an, wie weit der Einschlagpunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
+Die Differenz in Zoll gibt an, wie weit der Einschlagspunkt in zufälliger Richtung vom eigentlichen Zielort entfernt platziert wird.
 Die maximale Entfernung ist dabei die Hälfte (abgerundet) der geschossenen Distanz.
 
-Sollte der Schütze den neuen Ort nicht einsehen können, muss von ihm aus eine gerade Linie dorthin gezogen werden.
-Der Einschlagpunkt ist nun dort, wo diese Linie das erste #uni.lnk("Geländestücke", alt: "Geländestück") oder das erste Modell kreuzt.
+Wenn die verwendete Waffe weder eine Wurfwaffe ist noch indirekt abgefeuert wurde und der Schütze den neuen Ort nicht einsehen kann, muss von ihm aus eine gerade Linie dorthin gezogen werden.
+Der Einschlagpsunkt ist nun dort, wo diese Linie das erste Modell oder #uni.lnk("Geländestücke", alt: "Geländestück") kreuzt.
 
-Wenn die Fläche die Base eines Modells vollständig bedeckt, oder sich vollständig innerhalb der Fläche der Base befindet, wird das entsprechende Modell normal getroffen.
+=== Getroffene Modelle
+
+Wenn die Fläche die Base eines Modells vollständig bedeckt, oder die Fläche sich vollständig innerhalb der Base befindet, wird das entsprechende Modell getroffen.
 Ist nur eine teilweise Überlappung vorhanden wird der Schaden halbiert (aufgerundet).
 
-Wenn das getroffene Modell Deckung berührt kommt diese für den #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Verteidigungswurf") voll zur Geltung.
+Wenn das getroffene Modell Deckung berührt, kommt diese für den #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Verteidigungswurf") voll zur Geltung.
 
 = Nahkampf
 <Nahkampf>
