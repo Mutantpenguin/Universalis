@@ -2292,7 +2292,7 @@ Weitere Mali durch Deckung kommen nicht zur Geltung.
 
 Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in massiver Deckung befinden.
 
-Waffen welche für indirekten Fernkampf eingesetzt werden können besitzen das folgende Symbol.
+Waffen, welche für indirekten Fernkampf eingesetzt werden können, besitzen das folgende Symbol.
 
 #align(
   center,
