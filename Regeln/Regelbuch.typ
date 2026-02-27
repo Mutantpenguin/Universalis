@@ -2474,7 +2474,10 @@ Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt
 #index("Nahkampf", "Tarnung")
 #index("Tarnung", "Nahkampf")
 
-Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von #modifikatoren.nahkampf.getarnt auf seinen NK-Wurf.
+Passiv getarnte Modelle erhalten bei einer #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") für die erste Runde einen zusätzlichen Bonus von #modifikatoren.nahkampf.getarnt auf ihren NK-Wurf.
+
+Aktiv getarnte Modelle erhalten einen dauerhaften Bonus von #modifikatoren.nahkampf.getarnt auf ihren NK-Wurf.
+
 
 === Unhandliche Waffen und Ausrüstung
 <Nahkampf-Unhandlich>
@@ -2542,7 +2545,7 @@ Sie wird am Modell mit dem Tarnungs-Token dargestellt:
   uni.display_token(uni.token.tarnung),
 )
 
-Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Voraussetzungen erfüllt sind.
+Sofern alle Voraussetzungen erfüllt sind beginnen getarnte Modelle das Spiel automatisch als getarnt.
 
 == Voraussetzungen
 
@@ -2571,30 +2574,31 @@ Getarnte Modelle beginnen das Spiel automatisch als getarnt sofern alle Vorausse
 
 Getarnte Modelle können weder mit Fernkampf noch Nahkampf angegriffen werden.
 Damit das möglich ist, müssen sie zuerst #uni.lnk("Aufklärung", alt: "aufgeklärt") werden.
-
 Sie können nicht durch Flächenwaffen getroffen werden.
 
-Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
+=== Passive Tarnung
 
-=== Besondere Vorteile von aktiver Tarnung
+Wenn ein passiv getarntes Modell eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") durchführt, erhält es für die erste Runde einen zusätzlichen Bonus von #modifikatoren.nahkampf.getarnt auf seinen NK-Wurf.
 
-Modelle mit aktiver Tarnung erhalten einen Bonus von +1 auf ihren Rüstungswurf wenn sie aufgeklärt sind.
+=== Aktive Tarnung
 
-Im Nahkampf erhalten sie einen zusätzlichen Bonus von +1 auf ihren NK-Wurf.
+Im Nahkampf erhalten aktiv getarnte Modelle einen dauerhaften Bonus von #modifikatoren.nahkampf.getarnt auf ihren NK-Wurf.
+
+Zusätzlich erhalten sie einen dauerhaften Bonus von +1 auf ihren Rüstungswurf.
 
 == Aufklärung
 <Aufklärung>
 #index[Aufklärung]
 #index("Tarnung", "Aufklärung")
 
-Aufgeklärte Modelle können mit Fernkampf oder Nahkampf angegriffen werden.
-
-Sie gelten solange als aufgeklärt bis sie 2 volle Bewegungsaktionen durchgeführt haben.
-Danach wird ihre Tarnung automatisch wiederhergestellt sofern die Voraussetzungen dafür erfüllt sind.
-
 Wenn ein getarntes Modell einen Angriff einleitet oder eine Fernkampfwaffe abfeuert wird es automatisch aufgeklärt.
 
 Um ein getarntes Modell gezielt aufzuklären muss die Aktion „Aufklären“ ausgeführt werden.
+
+Aufgeklärte Modelle können mit Fernkampf oder Nahkampf angegriffen werden.
+
+Sie gelten solange als aufgeklärt, bis sie 2 volle Bewegungsaktionen durchgeführt haben.
+Sofern alle Voraussetzungen erfüllt sind, wird ihre Tarnung danach automatisch wiederhergestellt.
 
 == Aktionen
 <Tarnung-Aktionen>
