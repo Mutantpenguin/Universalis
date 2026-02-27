@@ -1255,7 +1255,7 @@ Die gerade aufgedeckten Aktivierungskarten werden nun beiseite gelegt.
 
 Dies passiert solange, bis ein Spieler keine Aktivierungskarten mehr hat. Der andere Spieler aktiviert nun etwaige weitere Modelle in beliebiger Reihenfolge.
 
-== Initiativephasen
+=== Initiativephasen
 <Initiativephasen>
 #index[Initiativephasen]
 #index("Runden", "Initiativephase")
@@ -1270,7 +1270,7 @@ Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet we
 + eventuelle #uni.lnk("Vergiftung") kommt zur Anwendung
 + eventuelles #uni.lnk("Brennen") kommt zur Anwendung
 
-== Rundenende
+=== Rundenende
 <Rundenende>
 #index("Runden", "Ende")
 
