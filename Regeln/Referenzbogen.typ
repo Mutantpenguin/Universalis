@@ -1,5 +1,6 @@
 #import "universalis.typ" as uni
 #import "aktivitäten.typ" as activities
+#import "modifikatoren.typ" as modifikatoren
 
 #show: uni.style
 
@@ -139,48 +140,48 @@
       table.cell(colspan: 3, [*Deckung*]),
       table.cell([]),
       table.cell([weich]),
-      table.cell([-1]),
+      table.cell(modifikatoren.fernkampf.deckung.weich),
       table.cell([]),
       table.cell([hart]),
-      table.cell([-2]),
+      table.cell(modifikatoren.fernkampf.deckung.hart),
       table.cell([]),
       table.cell([massiv]),
-      table.cell([-3]),
+      table.cell(modifikatoren.fernkampf.deckung.massiv),
 
       table.cell(colspan: 2, [*Gezielter Schuss*]),
-      table.cell([+2]),
+      table.cell(modifikatoren.fernkampf.gezielter_schuss),
 
       table.cell(colspan: 3, [*Größe*]),
       table.cell([]),
       table.cell([klein]),
-      table.cell([-1]),
+      table.cell(modifikatoren.fernkampf.größe.klein),
       table.cell([]),
       table.cell([mittel]),
-      table.cell([±0]),
+      table.cell(modifikatoren.fernkampf.größe.mittel),
       table.cell([]),
       table.cell([groß]),
-      table.cell([+1]),
+      table.cell(modifikatoren.fernkampf.größe.groß),
       table.cell([]),
       table.cell([riesig]),
-      table.cell([+2]),
+      table.cell(modifikatoren.fernkampf.größe.riesig),
 
       table.cell(colspan: 2, [*Indirekt*]),
-      table.cell([-5/-3]),
+      table.cell([#modifikatoren.fernkampf.indirekt.standard/#modifikatoren.fernkampf.indirekt.sichtbar_befreundet]),
 
       table.cell(colspan: 2, [*Liegender Schütze*]),
-      table.cell([+2]),
+      table.cell(modifikatoren.fernkampf.liegender_schütze),
 
       table.cell(colspan: 2, [*Reaktionsfeuer*]),
-      table.cell([-1]),
+      table.cell(modifikatoren.fernkampf.reaktionsfeuer),
 
       table.cell(colspan: 2, [*Schnelle Bewegung*]),
-      table.cell([-2]),
+      table.cell(modifikatoren.fernkampf.schnelle_bewegung),
 
       table.cell(colspan: 2, [*Schnellschuss*]),
-      table.cell([-2]),
+      table.cell(modifikatoren.fernkampf.schnellschuss),
 
       table.cell(colspan: 2, [*Unhandliche Waffe*]),
-      table.cell([-3]),
+      table.cell(modifikatoren.fernkampf.unhandliche_waffe),
     )
   ],
 )
@@ -195,20 +196,20 @@
       ),
       align: (left, left, center),
 
-      table.cell(colspan: 2, [*Aktive Tarnung*]),
-      table.cell([+2]),
-
       table.cell(colspan: 2, [*Angriffsbewegung*]),
-      table.cell([+2]),
+      table.cell(modifikatoren.nahkampf.angriffsbewegung),
+
+      table.cell(colspan: 2, [*Getarnt*]),
+      table.cell(modifikatoren.nahkampf.getarnt),
 
       table.cell(colspan: 2, [*Größenunterschied*]),
-      table.cell([+2/Stufe]),
+      table.cell([#modifikatoren.nahkampf.größenunterschied/Stufe]),
 
       table.cell(colspan: 2, [*Multiple Gegner*]),
-      table.cell([+2/Modell]),
+      table.cell([#modifikatoren.nahkampf.multiple_gegner/Modell]),
 
       table.cell(colspan: 2, [*Unhandliche Ausrüstung*]),
-      table.cell([-3]),
+      table.cell(modifikatoren.nahkampf.unhandliche_ausrüstung),
     )
   ],
 )

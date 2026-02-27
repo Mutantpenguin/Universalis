@@ -1,6 +1,7 @@
 #import "@preview/in-dexter:0.7.0": *
 #import "universalis.typ" as uni
 #import "aktivitäten.typ" as activities
+#import "modifikatoren.typ" as modifikatoren
 
 #show: uni.style
 
@@ -2222,10 +2223,10 @@ Je nach #uni.lnk("Größenprofil", alt: "Größe") des Ziels ist es einfacher od
     table.header([], [*klein*], [*mittel*], [*groß*], [*riesig*]),
 
     [*Modifikator*],
-    "-1",
-    "±0",
-    "+1",
-    "+2",
+    modifikatoren.fernkampf.größe.klein,
+    modifikatoren.fernkampf.größe.mittel,
+    modifikatoren.fernkampf.größe.groß,
+    modifikatoren.fernkampf.größe.riesig,
   ),
 )
 
@@ -2245,9 +2246,9 @@ Der durch eventuelle #uni.lnk("Deckung") angewandte Modifikator.
     table.header([], [*weich*], [*mittel*], [*hart*]),
 
     [*Modifikator*],
-    "-1",
-    "-2",
-    "-3",
+    modifikatoren.fernkampf.deckung.weich,
+    modifikatoren.fernkampf.deckung.hart,
+    modifikatoren.fernkampf.deckung.massiv,
   ),
 )
 
@@ -2256,18 +2257,18 @@ Der durch eventuelle #uni.lnk("Deckung") angewandte Modifikator.
 #index("Unhandlich", "Waffen im Fernkampf")
 #index("Fernkampf", "Unhandliche Waffen")
 
-Sie erhalten bei Fernkampf gegen kleine und mittlere Ziele einen Malus von -3 auf den FK-Wurf.
+Sie erhalten bei Fernkampf gegen kleine und mittlere Ziele einen Malus von #modifikatoren.fernkampf.unhandliche_waffe auf den FK-Wurf.
 
 === Liegender Schütze
 #index("Fernkampf", "Liegender Schütze")
 
-Liegende Schützen erhalten +2 auf den FK-Wurf.
+Liegende Schützen erhalten #modifikatoren.fernkampf.liegender_schütze auf den FK-Wurf.
 
 === Schnelle Bewegungen des Ziels
 <Schnelle-Bewegungen-des-Ziels>
 #index("Fernkampf", "Schnelle Bewegungen des Ziels")
 
-Auf Ziele, welche sich in #uni.lnk("Schnelle Bewegungen", alt: "schneller Bewegung") befinden, gibt es einen Malus von -2 auf den FK-Wurf.
+Auf Ziele, welche sich in #uni.lnk("Schnelle Bewegungen", alt: "schneller Bewegung") befinden, gibt es einen Malus von #modifikatoren.fernkampf.schnelle_bewegung auf den FK-Wurf.
 
 == Indirekter Fernkampf
 <Indirekter-Fernkampf>
@@ -2285,8 +2286,8 @@ Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen #uni.lnk("G
   Die maximale Höhe für den Schuss beträgt somit 20".
 ])
 
-Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von -5.
-Sofern der angegriffene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von -3 angewendet.
+Der Trefferwurf für indirekten Fernkampf erhält immer einen Malus von #modifikatoren.fernkampf.indirekt.standard.
+Sofern der angegriffene Punkt durch ein befreundetes Modell einsehbar ist wird nur ein Malus von #modifikatoren.fernkampf.indirekt.sichtbar_befreundet angewendet.
 Weitere Mali durch Deckung kommen nicht zur Geltung.
 
 Die Rüstungswürfe dadurch getroffener Modelle werden immer so behandelt als ob sie sich in massiver Deckung befinden.
@@ -2461,33 +2462,33 @@ Wenn der Verteidiger über #uni.lnk("Trefferzonen") verfügt muss die getroffene
 <Bonus-für-den-Angreifer>
 #index("Nahkampf", "Bonus für den Angreifer")
 
-Wenn der Angreifer den Angriff durch eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") einleitet, erhält er einen Bonus von +2 auf seinen NK-Wurf.
+Wenn der Angreifer den Angriff durch eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") einleitet, erhält er einen Bonus von #modifikatoren.nahkampf.angriffsbewegung auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
 === Multiple Gegner
 #index("Nahkampf", "Multiple Gegner")
 
-Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von +2 auf den eigenen NK-Wurf.
+Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt, gibt es einen Bonus von #modifikatoren.nahkampf.multiple_gegner auf den eigenen NK-Wurf.
 
 === Tarnung
 #index("Nahkampf", "Tarnung")
 #index("Tarnung", "Nahkampf")
 
-Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von +2 auf seinen NK-Wurf.
+Wenn ein getarntes Modell einen Angriff einleitet erhält es für die erste Runde einen Bonus von #modifikatoren.nahkampf.getarnt auf seinen NK-Wurf.
 
 === Unhandliche Waffen und Ausrüstung
 <Nahkampf-Unhandlich>
 #index("Unhandlich", "Waffen und Ausrüstung im Nahkampf")
 #index("Nahkampf", "Unhandliche Waffen und Ausrüstung")
 
-Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von -3.
+Wenn ein Modell mindestens eine unhandliche Waffe oder anderen Ausrüstungsgegenstand trägt, erleidet es im Nahkampf einen Malus von #modifikatoren.nahkampf.unhandliche_ausrüstung.
 
 === Größenunterschiede
 <Größenunterschiede>
 #index[Größenunterschiede]
 #index("Nahkampf", "Größenunterschiede")
 
-Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von +2 auf seinen NK-Wurf für jede Stufe des Unterschieds.
+Sollte eines der beteiligten Modelle größer als sein Gegenüber sein, erhält es einen Bonus von #modifikatoren.nahkampf.größenunterschied auf seinen NK-Wurf für jede Stufe des Unterschieds.
 
 Siehe auch #uni.lnk("Größenprofil") und #uni.lnk("Liegende Modelle", alt: "liegende Modelle").
 

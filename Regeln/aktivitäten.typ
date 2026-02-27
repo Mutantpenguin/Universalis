@@ -1,4 +1,5 @@
 #import "universalis.typ" as uni
+#import "modifikatoren.typ" as modifikatoren
 
 #let action_groups = (
   ausrüstung: (
@@ -125,7 +126,7 @@
         name: [Gezielter Schuss],
         points: [WK+2],
         content: [
-          Das Modell führt einen Fernkampf durch und erhält +2 auf seinen FK-Wurf.
+          Das Modell führt einen Fernkampf durch und erhält #modifikatoren.fernkampf.gezielter_schuss auf seinen FK-Wurf.
           Die Längen des Reichweitenbands werden verdoppelt.
         ],
         condition: [
@@ -136,7 +137,7 @@
         name: [Schnellschuss],
         points: [WK],
         content: [
-          Das Modell führt einen Fernkampf durch und erhält -2 auf seinen FK-Wurf.
+          Das Modell führt einen Fernkampf durch und erhält #modifikatoren.fernkampf.schnellschuss auf seinen FK-Wurf.
         ],
       ),
       (
@@ -287,7 +288,7 @@
         name: [Reaktionsfeuer],
         points: [WK],
         content: [
-          Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Fernkampfwaffe durch und erhält einen zusätzlichen Malus von -1 auf seinen FK-Wurf.
+          Das Modell führt einen Fernkampf mit der bei der Einnahme der Feuerbereitschaft gewählten Fernkampfwaffe durch und erhält einen zusätzlichen Malus von #modifikatoren.fernkampf.reaktionsfeuer auf seinen FK-Wurf.
 
           Das Modell verliert danach automatisch seine Feuerbereitschaft.
         ],
