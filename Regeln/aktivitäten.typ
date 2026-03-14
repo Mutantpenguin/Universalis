@@ -140,17 +140,6 @@
           Das Modell führt einen Fernkampf durch und erhält #modifikatoren.fernkampf.schnellschuss auf seinen FK-Wurf.
         ],
       ),
-      (
-        name: [Nachladen],
-        points: [WK],
-        content: [
-          Die dafür nötigen AP-Kosten entsprechen der WK der Waffe für die der Token gilt.
-          Der Token wird danach vom Modell entfernt.
-        ],
-        condition: [
-          Diese Aktion kann nur von Modellen mit einem #uni.lnk("Nachladen", alt: "Nachlade-Token") durchgeführt werden.
-        ],
-      ),
     ),
   ),
   kräfte: (
@@ -256,6 +245,22 @@
           Bei Erfolg wurde das getarnte Modell aufgeklärt.
 
           Pro zusätzlich eingesetztem AP kann der WN-Wurf um 1 erleichtert werden.
+        ],
+      ),
+    ),
+  ),
+  waffen: (
+    name: [Waffen],
+    activities: (
+      (
+        name: [Nachladen],
+        points: [WK],
+        content: [
+          Der Nachlade-Token wird vom Modell entfernt.
+          Die dafür nötigen AP-Kosten entsprechen der WK der Waffe, für die der Token gilt.
+        ],
+        condition: [
+          Diese Aktion kann nur von Modellen mit einem #uni.lnk("Nachladen", alt: "Nachlade-Token") durchgeführt werden.
         ],
       ),
     ),

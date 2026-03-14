@@ -1032,6 +1032,11 @@ Waffen verfügen über ein #uni.lnk("Schadensprofil").
 
 Weiterhin können für sie Regeln wie #uni.lnk("Indirekter-Fernkampf"), #uni.lnk("Dauerfeuer") oder #uni.lnk("Flächenwaffen", alt: "Flächenwaffe") infrage kommen.
 
+=== Aktionen
+<Waffen-Aktionen>
+
+#uni.actions(activities.action_groups.waffen)
+
 === Waffenklassen
 
 Durch Waffenklassen wird unterschieden wie groß eine Waffe bzw. wie komplex sie zu bedienen ist.
@@ -1090,7 +1095,7 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
   image("Grafiken/Waffe/nachladen.svg", alt: "Nachladen"),
 )
 
-Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Fernkampf-Aktionen", alt: "Nachladen") durchgeführt wurde:
+Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Waffen-Aktionen", alt: "Nachladen") durchgeführt wurde:
 
 #align(
   center,
