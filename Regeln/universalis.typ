@@ -267,7 +267,7 @@
 
   #show heading.where(level: 1): it => {
     set text(
-      font: heading_font,
+      font: "Nova Round",
       size: 22pt,
       weight: "bold",
     )
@@ -278,9 +278,16 @@
       scope: "parent",
       clearance: 0.7em,
     )[
-      #smallcaps(it.body)
+      #upper(it.body)
       #v(5pt, weak: true)
-      #line(length: 100%, stroke: gradient.linear(black, white))
+      #line(
+        length: 100%,
+        stroke: (
+          paint: gradient.linear(black, white),
+          thickness: 3pt,
+          cap: "round",
+        ),
+      )
     ]
   }
 
@@ -293,7 +300,14 @@
     block([
       #smallcaps(it.body)
       #v(5pt, weak: true)
-      #line(length: 100%, stroke: gradient.linear(luma(200), white))
+      #line(
+        length: 100%,
+        stroke: (
+          paint: gradient.linear(luma(200), white),
+          thickness: 1pt,
+          cap: "round",
+        ),
+      )
     ])
   }
 
