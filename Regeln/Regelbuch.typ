@@ -1052,9 +1052,7 @@ Sie verfügen über kein Reichweitenband, da sie nur in direktem Basekontakt ein
 
 === Wurfwaffen
 
-Ihre Reichweite wird berechnet, die Anzahl an Bändern ist dabei aber immer 3.
-
-Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells, bei #uni.lnk("Waffen-Unhandlich", alt: "unhandlichen") Waffen wird sie mit 0,5 multipliziert (aufgerundet).
+Die Länge der Reichweitenbänder entspricht der KO des werfendes Modells.
 
 #uni.example([
   Für einen Menschen mit KO von 5:
