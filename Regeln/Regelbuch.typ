@@ -2321,9 +2321,9 @@ Auf der #uni.lnk("Einheitenkarte") wird dies mit den folgenden Symbolen ausgewie
 )
 
 Schüsse können dementsprechend auf 1 bis 5 Ziele aufgeteilt werden, wobei sich jedes Ziel bis zu maximal 1" vom letzten Ziel befinden darf.
-Jeder Wechsel des Ziels führt zu einem kumulativen Malus von -1 auf den FK-Wurf.
+Jeder Wechsel des Ziels führt zu einem kumulativen Malus von #modifikatoren.fernkampf.dauerfeuer.malus auf den FK-Wurf.
 
-Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von +1 auf den FK-Wurf und +1 beim Verletzungswurf.
+Falls mehrere Schüsse einem Ziel zugeteilt werden, gibt jeder Schuss nach dem Ersten einen Bonus von #modifikatoren.fernkampf.dauerfeuer.bonus auf den FK-Wurf und #modifikatoren.fernkampf.dauerfeuer.bonus beim Verletzungswurf.
 Es wird also nur 1 Schuss, dafür aber mit den beschriebenen Boni ausgewürfelt.
 
 #uni.example([

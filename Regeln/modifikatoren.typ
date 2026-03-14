@@ -1,4 +1,8 @@
 #let fernkampf = (
+  dauerfeuer: (
+    bonus: [+1],
+    malus: [-1],
+  ),
   deckung: (
     weich: [-1],
     hart: [-2],

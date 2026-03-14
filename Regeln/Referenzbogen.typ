@@ -137,6 +137,14 @@
       ),
       align: (left, left, center),
 
+      table.cell(colspan: 3, [*Dauerfeuer*]),
+      table.cell([]),
+      table.cell([je Schuss]),
+      table.cell(modifikatoren.fernkampf.dauerfeuer.bonus),
+      table.cell([]),
+      table.cell([Zielwechsel]),
+      table.cell(modifikatoren.fernkampf.dauerfeuer.malus),
+
       table.cell(colspan: 3, [*Deckung*]),
       table.cell([]),
       table.cell([weich]),
