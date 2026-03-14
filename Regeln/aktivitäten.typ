@@ -198,7 +198,7 @@
           Das Modell führt mit einem anderen Modell einen Nahkampf durch und gilt als der Angreifer.
           Es erhält +3 auf seinen NK-Wurf.
 
-          Sollte es den Nahkampf verlieren und der Gegner wendet die Reaktion _Gegenangriff_ an verteidigt es sich mit NK von 0.
+          Sollte es den Nahkampf verlieren, und der Gegner wendet die Reaktion _Gegenangriff_ an, verteidigt es sich mit NK von 0.
         ],
       ),
       (
@@ -322,7 +322,7 @@
         name: [Gegenangriff],
         points: [WK],
         content: [
-          Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch und gilt als der Angreifer.
+          Das Modell führt mit dem Modell auf welches reagiert wurde einen Nahkampf durch, und gilt als der Angreifer.
         ],
         condition: [
           Kann nur unmittelbar nach einem Nahkampf durch den Verteidiger durchgeführt werden.
@@ -332,7 +332,7 @@
         name: [Gelegenheitsangriff],
         points: [WK],
         content: [
-          Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch und gilt als der Angreifer.
+          Das Modell führt mit dem sich aus dem Nahkampf lösenden Modell einen Nahkampf durch, und gilt als der Angreifer.
           Das sich lösende Modell kämpft mit NK von 0.
         ],
         condition: [
