@@ -141,7 +141,7 @@ TODO
     uni.lnk("Brennen"),
 
     uni.display_token(uni.token.feuerbereitschaft),
-    uni.lnk("Fernkampf-Aktionen", alt: "Feuerbereitschaft"),
+    uni.lnk("Aktionen/Feuerbereitschaft", alt: "Feuerbereitschaft"),
 
     uni.display_token(uni.token.panik),
     uni.lnk("Panik"),
@@ -162,7 +162,7 @@ TODO
     uni.lnk("Tarnung"),
 
     uni.display_token(uni.token.verteidigung),
-    uni.lnk("Nahkampf-Aktionen", alt: "Verteidigung"),
+    uni.lnk("Aktionen/Verteidigung", alt: "Verteidigung"),
   )
 
 Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
@@ -1095,7 +1095,7 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
   image("Grafiken/Waffe/nachladen.svg", alt: "Nachladen"),
 )
 
-Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Waffen-Aktionen", alt: "Nachladen") durchgeführt wurde:
+Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Aktionen/Nachladen", alt: "Nachladen") durchgeführt wurde:
 
 #align(
   center,
@@ -1270,7 +1270,7 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hat
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-+ eventuelle Token für #uni.lnk("Schnelle Bewegungen", alt: "schnelle Bewegung"), #uni.lnk("Nahkampf-Aktionen", alt: "Verteidigung") oder #uni.lnk("Fernkampf-Aktionen", alt: "Feuerbereitschaft") werden entfernt
++ eventuelle Token für #uni.lnk("Schnelle Bewegungen", alt: "schnelle Bewegung"), #uni.lnk("Aktionen/Verteidigung", alt: "Verteidigung") oder #uni.lnk("Aktionen/Feuerbereitschaft", alt: "Feuerbereitschaft") werden entfernt
 + eventuelle #uni.lnk("Vergiftung") kommt zur Anwendung
 + eventuelles #uni.lnk("Brennen") kommt zur Anwendung
 
@@ -2280,7 +2280,7 @@ Auf Ziele, welche sich in #uni.lnk("Schnelle Bewegungen", alt: "schneller Bewegu
 
 Bei indirektem Fernkampf kann ein Punkt oder Modell auf dem Spielfeld angegriffen werden, der durch das Modell nicht einsehbar ist.
 
-Er ist nicht mit der Aktion #uni.lnk("Fernkampf-Reaktionen", alt: "Reaktionsfeuer") kombinierbar.
+Er ist nicht mit der Reaktion #uni.lnk("Reaktionen/Reaktionsfeuer", alt: "Reaktionsfeuer") kombinierbar.
 
 Falls die Höhe der zwischen dem Schützen und dem Ziel befindlichen #uni.lnk("Geländestücke") mehr als die halbe maximale Reichweite der Waffe beträgt, hat der Schuss keine Wirkung.
 
@@ -2386,14 +2386,14 @@ Dies kann auch unbeabsichtigt passieren, z.B. durch #uni.lnk("Zurückstoßen", a
 Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und Reaktionen erlaubt:
 
 *Aktionen*
-- #uni.lnk("Nahkampf-Aktionen", alt: "Angriff"),
-- #uni.lnk("Nahkampf-Aktionen", alt: "Verwegener Angriff"),
-- #uni.lnk("Bewegung-Aktionen", alt: "Aus Nahkampf lösen"),
-- #uni.lnk("Kraft-Aktionen", alt: "Kraft einsetzen"),
+- #uni.lnk("Aktionen/Angriff", alt: "Angriff"),
+- #uni.lnk("Aktionen/Verwegener Angriff", alt: "Verwegener Angriff"),
+- #uni.lnk("Aktionen/Aus-Nahkampf-lösen", alt: "Aus Nahkampf lösen"),
+- #uni.lnk("Aktionen/Kraft-einsetzen", alt: "Kraft einsetzen"),
 
 *Reaktionen*
-- #uni.lnk("Nahkampf-Reaktionen", alt: "Gegenangriff"),
-- #uni.lnk("Nahkampf-Reaktionen", alt: "Gelegenheitsangriff"),
+- #uni.lnk("Reaktionen/Gegenangriff", alt: "Gegenangriff"),
+- #uni.lnk("Reaktionen/Gelegenheitsangriff", alt: "Gelegenheitsangriff"),
 
 == Durchführung
 
@@ -2432,7 +2432,7 @@ Der Gewinner muss eine der Auswirkungen auswählen.
 
 Modelle können nur dann zurückgestoßen werden wenn ihr #uni.lnk("Größenprofil") gleich oder kleiner des stoßenden Modells ist.
 
-Ein Modell zurück zu stoßen bedeutet, mit ihm eine #uni.lnk("Bewegung-Aktionen", alt: "Bewegungsaktion") durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
+Ein Modell zurück zu stoßen bedeutet, mit ihm eine #uni.lnk("Aktionen/Normale-Bewegung", alt: "normale Bewegung") durchzuführen welche vom Spieler des Nahkampfgegners kontrolliert wird.
 Diese Bewegung kostet keine AP.
 
 Dabei kommen die folgenden Ausnahmen zur Anwendung:
@@ -2469,7 +2469,7 @@ Wenn der Verteidiger über #uni.lnk("Trefferzonen") verfügt muss die getroffene
 <Bonus-für-den-Angreifer>
 #index("Nahkampf", "Bonus für den Angreifer")
 
-Wenn der Angreifer den Angriff durch eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") einleitet, erhält er einen Bonus von #modifikatoren.nahkampf.angriffsbewegung auf seinen NK-Wurf.
+Wenn der Angreifer den Angriff durch eine #uni.lnk("Aktionen/Angriffsbewegung", alt: "Angriffsbewegung") einleitet, erhält er einen Bonus von #modifikatoren.nahkampf.angriffsbewegung auf seinen NK-Wurf.
 Dies gilt nur wenn der Verteidiger sich nicht in Verteidigung befindet.
 
 === Multiple Gegner
@@ -2481,7 +2481,7 @@ Für jedes befreundete Modell welches die Base des gegnerischen Modells berührt
 #index("Nahkampf", "Tarnung")
 #index("Tarnung", "Nahkampf")
 
-Passiv getarnte Modelle erhalten bei einer #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") für die erste Runde einen zusätzlichen Bonus von #modifikatoren.nahkampf.getarnt auf ihren NK-Wurf.
+Passiv getarnte Modelle erhalten bei einer #uni.lnk("Aktionen/Angriffsbewegung", alt: "Angriffsbewegung") für die erste Runde einen zusätzlichen Bonus von #modifikatoren.nahkampf.getarnt auf ihren NK-Wurf.
 
 Aktiv getarnte Modelle erhalten einen dauerhaften Bonus von #modifikatoren.nahkampf.getarnt auf ihren NK-Wurf.
 
@@ -2585,7 +2585,7 @@ Sie können nicht durch Flächenwaffen getroffen werden.
 
 === Passive Tarnung
 
-Wenn ein passiv getarntes Modell eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung") durchführt, erhält es für die erste Runde einen zusätzlichen Bonus von #modifikatoren.nahkampf.getarnt auf seinen NK-Wurf.
+Wenn ein passiv getarntes Modell eine #uni.lnk("Aktionen/Angriffsbewegung", alt: "Angriffsbewegung") durchführt, erhält es für die erste Runde einen zusätzlichen Bonus von #modifikatoren.nahkampf.getarnt auf seinen NK-Wurf.
 
 === Aktive Tarnung
 

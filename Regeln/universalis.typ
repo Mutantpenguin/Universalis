@@ -139,7 +139,7 @@
   )
 }
 
-#let _activity(icon, index_parent, name, points, content, condition) = {
+#let _activity(icon, type, name, points, content, condition) = {
   block(
     stroke: black,
     radius: 3pt,
@@ -162,7 +162,7 @@
         ),
         table.cell(
           align: horizon,
-          name + index(index_parent, name),
+          [#name #index(type, name) #label(str(type) + "/" + name.text.replace(" ", "-"))],
         ),
         table.cell(
           align: horizon,

@@ -56,7 +56,7 @@
         content: [
           Die Angriffsbewegung funktioniert wie eine ganz normale Bewegung, ihre Kosten entsprechen aber der Waffenklasse der zu verwendenden Nahkampfwaffe. Die eigentliche Bewegung ist somit kostenlos.
 
-          Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem #uni.lnk("Nahkampf-Aktionen", alt: "Angriff").
+          Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem #uni.lnk("Aktionen/Angriff", alt: "Angriff").
         ],
         condition: [
           Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.
@@ -203,7 +203,7 @@
             uni.display_token(uni.token.verteidigung),
           )
 
-          Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen #uni.lnk("Bonus für den Angreifer", alt: "Bonus") für eine #uni.lnk("Bewegung-Aktionen", alt: "Angriffsbewegung").
+          Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen #uni.lnk("Bonus für den Angreifer", alt: "Bonus") für eine #uni.lnk("Aktionen/Angriffsbewegung", alt: "Angriffsbewegung").
           Das Modell verliert danach automatisch seine Verteidigung.
 
           Wenn das Modell das Ziel von Fernkampf oder einer Kraft ist muss es einen EH-Test ablegen.
