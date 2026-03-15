@@ -211,7 +211,7 @@
           Es muss dafür nicht getroffen werden.
         ],
         condition: [
-          Kann sinnvoll nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
+          Kann nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
           Jede weitere Aktion oder Reaktion beendet die Verteidigung automatisch.
         ],
       ),
