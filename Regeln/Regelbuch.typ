@@ -1306,6 +1306,8 @@ Mehrere aufeinander folgende Bewegungsaktionen können jedoch zu einer durchgehe
 
 Der Zielpunkt einer einzelnen oder auch durchgehenden Bewegungsaktion muss noch vor der Bewegung festgelegt werden, damit der sich aus der Entfernung ergebende Modifikator für etwaige Reaktionen bestimmt werden kann.
 
+Drehungen sind keine Aktion und Modelle dürfen daher jederzeit gedreht werden.
+
 == Bewegungsart
 <Bewegungsart>
 

@@ -30,13 +30,6 @@
         ],
       ),
       (
-        name: [Drehen],
-        points: [0],
-        content: [
-          Kostet keine AP, zählt aber dennoch als eine eigene Aktion.
-        ],
-      ),
-      (
         name: [Hinlegen],
         points: [1],
         content: [
