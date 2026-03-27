@@ -155,7 +155,7 @@
           left: if x > 0 { black },
           bottom: black,
         ),
-        fill: luma(240),
+        fill: color.primary,
         align: alignment.center,
         table.cell(
           align: horizon,
@@ -163,11 +163,11 @@
         ),
         table.cell(
           align: horizon,
-          [#name #index(type, name) #label(str(type) + "/" + name.text.replace(" ", "-"))],
+          [#text(name, weight: "bold", fill: color.secondary) #index(type, name) #label(str(type) + "/" + name.text.replace(" ", "-"))],
         ),
         table.cell(
           align: horizon,
-          text(points + " " + symbols.activity.ap, weight: "bold"),
+          text(points + " " + symbols.activity.ap, weight: "bold", fill: color.secondary),
         ),
       )
 
