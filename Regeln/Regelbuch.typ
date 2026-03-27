@@ -44,7 +44,14 @@
     ),
   )
   #v(10pt, weak: true)
-  #line(length: 100%, stroke: 2pt + gradient.linear(black, white))
+  #line(
+    length: 100%,
+    stroke: (
+      paint: gradient.linear(uni.color.primary, white),
+      thickness: 2pt,
+      cap: "round",
+    ),
+  )
 
   #v(20pt)
 

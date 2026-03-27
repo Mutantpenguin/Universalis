@@ -284,7 +284,7 @@
       #line(
         length: 100%,
         stroke: (
-          paint: gradient.linear(black, white),
+          paint: gradient.linear(color.primary, white),
           thickness: 3pt,
           cap: "round",
         ),
@@ -304,7 +304,7 @@
       #line(
         length: 100%,
         stroke: (
-          paint: gradient.linear(luma(200), white),
+          paint: gradient.linear(color.primary, white),
           thickness: 1pt,
           cap: "round",
         ),
