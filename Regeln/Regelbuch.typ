@@ -2397,7 +2397,6 @@ Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und R
 - #uni.lnk("Aktionen/Angriff", alt: "Angriff"),
 - #uni.lnk("Aktionen/Verwegener Angriff", alt: "Verwegener Angriff"),
 - #uni.lnk("Aktionen/Aus-Nahkampf-lösen", alt: "Aus Nahkampf lösen"),
-- #uni.lnk("Aktionen/Kraft-fokussieren", alt: "Kraft fokussieren"),
 
 *Reaktionen*
 - #uni.lnk("Reaktionen/Gegenangriff", alt: "Gegenangriff"),
