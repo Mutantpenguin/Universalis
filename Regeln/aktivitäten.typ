@@ -260,24 +260,6 @@
 )
 
 #let reaction_groups = (
-  bewegung: (
-    name: [Bewegung],
-    activities: (
-      (
-        name: [Fernkampf Ausweichen],
-        points: [1],
-        content: [
-          Wenn das Modell einen vergleichenden Wurf auf AGI gewinnt erhält der Schütze -1 auf seinen FK-Wurf.
-        ],
-        condition: [
-          - Kann von einem Modell durchgeführt werden, welches Ziel eines Fernkampfangriffs ist.
-            Der Schütze muss sich im #uni.lnk("Wahrnehmungsbereich") befinden.
-          - Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.
-          - Nur bevor der Schütze seinen FK-Wurf durchführt.
-        ],
-      ),
-    ),
-  ),
   fernkampf: (
     name: [Fernkampf],
     activities: (

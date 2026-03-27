@@ -423,7 +423,7 @@ Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
 
   "Bewegen",
   ref(<Bewegung-Aktionen>, form: "page"),
-  ref(<Bewegung-Reaktionen>, form: "page"),
+  "",
 
   "Eigenschaften",
   ref(<Eigenschaften-Aktionen>, form: "page"),
@@ -1385,11 +1385,6 @@ Bewegung wird an der Vorderkante der Base in Bewegungsrichtung gemessen.
 <Bewegung-Aktionen>
 
 #uni.actions(activities.action_groups.bewegung)
-
-== Reaktionen
-<Bewegung-Reaktionen>
-
-#uni.reactions(activities.reaction_groups.bewegung)
 
 == Springen
 <Springen>
