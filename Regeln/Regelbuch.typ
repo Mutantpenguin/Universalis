@@ -867,17 +867,14 @@ Für Bewegung und Linke/Rechte Seite berechnet sich der Wert jeweils automatisch
     [*Bewegung*],
     uni.table_h(
       columns: (auto, 1fr),
-      align: left + top,
+      align: (center, left),
 
       table.header([*W12*], [*Auswirkung*]),
 
-      [1-6],
-      [Bleibt auf der Stelle stehen und kann sich noch drehen.],
+      [1-9],
+      [Bleibt auf der Stelle stehen.],
 
-      [7-11],
-      [Bleibt auf der Stelle stehen und kann sich nicht mehr drehen.],
-
-      "12",
+      [10-12],
       [Fällt um und gilt als #uni.lnk("Eliminiert", alt: "eliminiert"). Ist nun ein Geländestück.],
     ),
   ),
