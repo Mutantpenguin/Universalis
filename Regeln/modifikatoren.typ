@@ -20,7 +20,7 @@
     sichtbar_befreundet: -3,
   ),
   liegender_schütze: [+2],
-  reaktionsfeuer: [-1],
+  reaktionsfeuer: [-2],
   schnelle_bewegung: [-2],
   schnellschuss: [-2],
   unhandliche_waffe: [-3],
