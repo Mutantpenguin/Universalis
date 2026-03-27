@@ -4,6 +4,7 @@
 
 #let img = (
   activity: (
+    ap: text("⊙", font: "Noto Sans Symbols 2"),
     aktion: image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt),
     reaktion: image("Grafiken/Allgemein/reaktion.svg", alt: "Reaktion", height: 10pt),
     voraussetzung: image("Grafiken/Allgemein/voraussetzung.svg", alt: "Voraussetzung", width: 20pt),
@@ -166,7 +167,7 @@
         ),
         table.cell(
           align: horizon,
-          text(points + " ⊙", weight: "bold"),
+          text(points + " " + img.activity.ap, weight: "bold"),
         ),
       )
 

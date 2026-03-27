@@ -354,7 +354,7 @@ Sie dürfen von jedem Modell durchgeführt werden sofern die nötigen Voraussetz
 Hier ist der gesunde Menschenverstand gefragt.
 
 Ein Modell kann in jeder Runde nur so lange Aktionen und Reaktionen ausführen bis seine Aktionspunkte verbraucht sind.
-Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten mit dem Zeichen ⊙ angegeben.
+Bei jeder Aktion und Reaktion sind die entsprechenden Kosten an Aktionspunkten mit dem Zeichen #uni.img.activity.ap angegeben.
 
 === Aktionen
 <Aktionen>

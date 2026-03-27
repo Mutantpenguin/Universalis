@@ -24,7 +24,7 @@
         points: [1|2],
         content: [
           Das Modell bewegt sich entsprechend seiner GK.
-          Die AP-Kosten sind 1⊙ falls das Modell steht und 2⊙ falls es #uni.lnk("Liegende Modelle", alt: "liegt").
+          Die AP-Kosten sind 1#uni.img.activity.ap falls das Modell steht und 2#uni.img.activity.ap falls es #uni.lnk("Liegende Modelle", alt: "liegt").
 
           Die Bewegung darf niemals in Basekontakt mit einem gegnerischem Modell enden, es muss immer ein Abstand von mindestens 1" eingehalten werden.
         ],
