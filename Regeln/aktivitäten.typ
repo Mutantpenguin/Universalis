@@ -158,7 +158,7 @@
         name: [Kraft beenden],
         points: [1],
         content: [
-          Eine eigene beliebige #uni.lnk("Kraft-Dauer", alt: "dauerhafte") Kraft die gerade im Spiel ist wird beendet.
+          Eine beliebige eigene #uni.lnk("Kraft-Dauer", alt: "permanente") Kraft wird beendet.
         ],
       ),
       (

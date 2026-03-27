@@ -2820,7 +2820,7 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
 <Kraft-Dauer>
 #index("Kräfte", "Dauer")
 
-Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
+Kräfte entfalten ihre Wirkung entweder sofort oder bleiben permanent im Spiel.
 
 #uni.table_n(
   columns: (20%, 1fr),
@@ -2839,11 +2839,11 @@ Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
     Wirkt sofort und entfaltet ihre Wirkung direkt nach dem Einsatz.
   ],
 
-  image("Grafiken/Kraft/DauerDauerhaft.svg", alt: "Dauerhaft"),
+  image("Grafiken/Kraft/DauerPermanent.svg", alt: "Permanent"),
   [
-    *Dauerhaft*
+    *Permanent*
 
-    Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
+    Jede permanent im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
     Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
 
     Manche Kräfte können sich auch selber beenden.
