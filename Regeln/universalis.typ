@@ -15,13 +15,13 @@
   secondary: rgb("#f8fcebff"),
 )
 
-#let table_line_width = 0.1pt
+#let _table_line_width = 0.1pt
 
 #let _base_table = table.with(
   stroke: (x, y) => (
-    top: table_line_width,
-    bottom: table_line_width,
-    left: if x > 0 { table_line_width },
+    top: _table_line_width,
+    bottom: _table_line_width,
+    left: if x > 0 { _table_line_width },
     rest: none,
   ),
 )
