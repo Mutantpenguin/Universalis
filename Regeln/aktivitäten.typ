@@ -35,12 +35,18 @@
         content: [
           Das Modell gilt als #uni.lnk("Liegende Modelle", alt: "liegend").
         ],
+        condition: [
+          Das Modell darf nicht #uni.lnk("Liegende Modelle", alt: "liegen").
+        ],
       ),
       (
         name: [Aufstehen],
         points: [2],
         content: [
           Das Modell gilt als stehend.
+        ],
+        condition: [
+          Das Modell muss #uni.lnk("Liegende Modelle", alt: "liegen").
         ],
       ),
       (
@@ -52,7 +58,7 @@
           Wenn sie in einem Basekontakt mit einem gegnerischen Modell endet wird sie automatisch zu einem #uni.lnk("Aktionen/Angriff", alt: "Angriff").
         ],
         condition: [
-          Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.
+          Das Modell darf nicht #uni.lnk("Liegende Modelle", alt: "liegen").
         ],
       ),
       (
@@ -66,7 +72,7 @@
         ],
         condition: [
           - Das Modell muss sich im Nahkampf befinden.
-          - Nicht bei #uni.lnk("Liegende Modelle", alt: "liegenden") Modellen.
+          - Das Modell darf nicht #uni.lnk("Liegende Modelle", alt: "liegen").
         ],
       ),
     ),
@@ -252,7 +258,7 @@
           Die dafür nötigen AP-Kosten entsprechen der WK der Waffe, für die der Token gilt.
         ],
         condition: [
-          Diese Aktion kann nur von Modellen mit einem #uni.lnk("Nachladen", alt: "Nachlade-Token") durchgeführt werden.
+          Das Modell muss einen #uni.lnk("Nachladen", alt: "Nachlade-Token") haben.
         ],
       ),
     ),
