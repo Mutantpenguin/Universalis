@@ -38,7 +38,7 @@
       ),
       (
         name: [Aufstehen],
-        points: [1],
+        points: [2],
         content: [
           Das Modell gilt als stehend.
         ],
