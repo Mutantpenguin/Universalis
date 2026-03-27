@@ -2397,7 +2397,7 @@ Während des Nahkampfes sind für beide Modelle nur die folgenden Aktionen und R
 - #uni.lnk("Aktionen/Angriff", alt: "Angriff"),
 - #uni.lnk("Aktionen/Verwegener Angriff", alt: "Verwegener Angriff"),
 - #uni.lnk("Aktionen/Aus-Nahkampf-lösen", alt: "Aus Nahkampf lösen"),
-- #uni.lnk("Aktionen/Kraft-einsetzen", alt: "Kraft einsetzen"),
+- #uni.lnk("Aktionen/Kraft-fokussieren", alt: "Kraft fokussieren"),
 
 *Reaktionen*
 - #uni.lnk("Reaktionen/Gegenangriff", alt: "Gegenangriff"),
@@ -2420,7 +2420,7 @@ Der Gewinner muss eine der Auswirkungen auswählen.
   [
     - einen #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Treffer") mit der zuvor ausgewählten Nahkampfwaffe landen
     - das verteidigende Modell #uni.lnk("Zurückstoßen", alt: "zurückstoßen")
-    - eine #uni.lnk("Disziplinen und Kräfte", alt: "Kraft") mit der #uni.lnk("Kraft-Reichweite", alt: "Reichweite") _Berührung_ einsetzen
+    - eine #uni.lnk("Disziplinen und Kräfte", alt: "Kraft") mit der #uni.lnk("Kraft-Reichweite", alt: "Reichweite") _Kontakt_ fokussieren
   ],
 
   "Verteidiger",
@@ -2697,14 +2697,14 @@ Sie wird in "Sternen" angegeben.
 <Kraft-AP-Kosten>
 #index("Kräfte", "AP-Kosten")
 
-Dies sind die benötigten AP um die Kraft einzusetzen.
+Dies sind die benötigten AP um die Kraft zu fokussieren.
 
 === Attribut
 <Kraft-Attribut>
 #index("Kräfte", "Attribut")
 
 Kräfte beziehen sich immer auf ein Attribut.
-Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher #uni.lnk("Attributswurf") mit optionalem Modifikator abgelegt werden.
+Sobald eine Kraft fokussiert werden soll, muss zunächst ein erfolgreicher #uni.lnk("Attributswurf") mit optionalem Modifikator abgelegt werden.
 
 #uni.example([
   - Die schwer auszuführende Kraft _Explosiver Feuerball_ ist mit `FK-4` angegeben. Der Attributswurf auf FK ist damit um 4 erschwert.
@@ -2740,7 +2740,7 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
   [
     *Immer*
 
-    Der Verlust an TP passiert beim Einsatz automatisch.
+    Der Verlust an TP passiert beim Fokussieren automatisch.
   ],
 )
 
@@ -2761,25 +2761,25 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
     }
   },
 
-  image("Grafiken/Kraft/ZielBereich.svg", alt: "Bereich"),
+  image("Grafiken/Kraft/ZielBeliebig.svg", alt: "Bereich"),
   [
-    *Bereich*
+    *Beliebig*
 
-    Die Kraft kann an einer beliebigen Stelle des Spielfelds eingesetzt werden.
+    Die Kraft kann auf eine beliebige Stelle des Spielfelds fokussiert werden.
   ],
 
   image("Grafiken/Kraft/ZielModell.svg", alt: "Modell"),
   [
     *Modell*
 
-    Die Kraft kann auf einem anderen Modell eingesetzt werden.
+    Die Kraft kann auf ein anderes Modell fokussiert werden.
   ],
 
-  image("Grafiken/Kraft/ZielNutzer.svg", alt: "Nutzer"),
+  image("Grafiken/Kraft/ZielAnwender.svg", alt: "Anwender"),
   [
-    *Nutzer*
+    *Anwender*
 
-    Die Kraft kann auf dem Nutzer eingesetzt werden.
+    Die Kraft kann auf den Anwender fokussiert werden.
   ],
 )
 
@@ -2787,7 +2787,7 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 <Kraft-Reichweite>
 #index("Kräfte", "Reichweite")
 
-Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
+Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz fokussiert werden kann.
 
 #uni.table_n(
   columns: (20%, 1fr),
@@ -2799,9 +2799,9 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
     }
   },
 
-  image("Grafiken/Kraft/ReichweiteBerührung.svg", alt: "Berührung"),
+  image("Grafiken/Kraft/ReichweiteKontakt.svg", alt: "Kontakt"),
   [
-    *Berührung*
+    *Kontakt*
 
     Für den Einsatz muss Basekontakt bestehen.
 
@@ -2812,7 +2812,7 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
   [
     *Distanz*
 
-    Die Kraft kann auf Distanz eingesetzt werden.
+    Die Kraft kann auf Distanz fokussiert werden.
   ],
 )
 
@@ -2843,8 +2843,10 @@ Kräfte entfalten ihre Wirkung entweder sofort oder bleiben permanent im Spiel.
   [
     *Permanent*
 
-    Jede permanent im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
-    Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
+    Die Kraft verbleibt permanent im Spiel.
+    Ihre Karte wird währenddessen offen auf den Spieltisch gelegt.
+
+    Jede permanent im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut fokussiert werden kann.
 
     Manche Kräfte können sich auch selber beenden.
     In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.

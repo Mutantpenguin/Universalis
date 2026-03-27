@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.375mm"
+   height="9.375mm"
+   viewBox="0 0 9.375 9.375"
+   version="1.1"
+   id="svg9630"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="ZielAnwender.svg"
+   inkscape:export-filename="ZielAnwender.png"
+   inkscape:export-xdpi="406.39999"
+   inkscape:export-ydpi="406.39999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9632"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="12.799776"
+     inkscape:cx="27.695797"
+     inkscape:cy="17.461243"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs9627" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-94.863725,-83.949471)">
+    <circle
+       style="fill:#000000;stroke:none;stroke-width:1.12215;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers;stop-color:#000000"
+       id="circle20"
+       cx="99.551216"
+       cy="88.636856"
+       r="1.6502221" />
+    <path
+       id="rect1"
+       style="fill:none;stroke:#000000;stroke-width:0.732782;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="m 98.573415,85.703518 0.97782,-0.97782 0.977815,0.977818 m 1.95563,1.955637 0.97781,0.977817 -0.97781,0.97782 m -1.95564,1.955636 -0.977805,0.977818 -0.97782,-0.977818 m -1.95564,-1.955637 -0.97782,-0.977817 0.97782,-0.977819"
+       sodipodi:nodetypes="cccccccccccc" />
+  </g>
+</svg>

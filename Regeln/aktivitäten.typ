@@ -146,7 +146,7 @@
     name: [Kräfte],
     activities: (
       (
-        name: [Kraft einsetzen],
+        name: [Kraft fokussieren],
         points: [X],
         content: [
           Das Modell setzt eine Kraft ein.
@@ -315,7 +315,7 @@
           Das Modell versucht eine Kraft zu #uni.lnk("Kraft blockieren", alt: "blockieren") während ein gegnerisches Modell sie ausspielt.
         ],
         condition: [
-          Kann durchgeführt werden sobald ein gegnerisches Modell eine Kraft einsetzt.
+          Kann durchgeführt werden, sobald ein gegnerisches Modell eine Kraft fokussiert.
         ],
       ),
     ),
