@@ -107,7 +107,7 @@
             uni.display_token(uni.token.feuerbereitschaft),
           )
 
-          Falls das Modell das Ziel irgendeiner erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird muss es einen EH-Test ablegen.
+          Falls das Modell das Ziel einer erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird, muss es einen EH-Test ablegen.
           Misslingt dieser, verliert es die Feuerbereitschaft.
         ],
         condition: [
@@ -199,9 +199,8 @@
           Wenn es in einen Nahkampf verwickelt wird bekommt der Angreifer keinen eventuellen #uni.lnk("Bonus für den Angreifer", alt: "Bonus") für eine #uni.lnk("Aktionen/Angriffsbewegung", alt: "Angriffsbewegung").
           Das Modell verliert danach automatisch seine Verteidigung.
 
-          Wenn das Modell das Ziel von Fernkampf oder einer Kraft ist muss es einen EH-Test ablegen.
-          Misslingt dieser verliert es die Verteidigung.
-          Es muss dafür nicht getroffen werden.
+          Falls das Modell das Ziel einer erfolgreichen Aktion oder Reaktion eines gegnerischen Modells wird, muss es einen EH-Test ablegen.
+          Misslingt dieser, verliert es die Verteidigung.
         ],
         condition: [
           Kann nur als letzte Aktion innerhalb einer Initiativephase durchgeführt werden.
