@@ -588,11 +588,11 @@ Diese können sowohl angeboren als auch antrainiert sein.
 
 Dazu gehören:
 
-+ #uni.lnk("Modell-Typen")
-+ #uni.lnk("Geschwindigkeit")
-+ #uni.lnk("Trefferpunkte")
-+ #uni.lnk("Attribute")
-+ #uni.lnk("Größenprofil")
+- #uni.lnk("Modell-Typen")
+- #uni.lnk("Größenprofil")
+- #uni.lnk("Attribute")
+- #uni.lnk("Geschwindigkeit")
+- #uni.lnk("Trefferpunkte")
 
 == Modell-Typen
 <Modell-Typen>
