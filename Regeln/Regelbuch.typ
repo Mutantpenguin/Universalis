@@ -2717,18 +2717,31 @@ Sobald eine Kraft eingesetzt werden soll muss zunächst ein erfolgreicher #uni.l
 
 Bei manchen Kräften kann es bei deren Einsatz zum Verlust von TP kommen.
 
-Hierbei wird unterschieden ob der Verlust an TP nur bei misslungenem #uni.lnk("Attributswurf") oder bei jedem Einsatz automatisch passiert.
-
 Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
-#uni.table_h(
-  columns: (50%, 50%),
-  align: center + top,
-
-  table.header([*bei Misserfolg*], [*Automatisch*]),
+#uni.table_n(
+  columns: (20%, 1fr),
+  align: (x, _) => {
+    if x > 0 {
+      left + top
+    } else {
+      center + top
+    }
+  },
 
   image("Grafiken/Kraft/SchadenMisserfolg.svg", alt: "Misserfolg"),
+  [
+    *bei Misserfolg*
+
+    Der Verlust an TP passiert nur bei misslungenem #uni.lnk("Attributswurf") .
+  ],
+
   image("Grafiken/Kraft/SchadenAutomatisch.svg", alt: "Automatisch"),
+  [
+    *Immer*
+
+    Der Verlust an TP passiert beim Einsatz automatisch.
+  ],
 )
 
 === Ziel
@@ -2738,8 +2751,8 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 Für jede Kraft ist definiert, was als ihr Ziel ausgewählt werden kann.
 Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
-#uni.table_h(
-  columns: (auto, 1fr),
+#uni.table_n(
+  columns: (20%, 1fr),
   align: (x, _) => {
     if x > 0 {
       left + top
@@ -2747,8 +2760,6 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
       center + top
     }
   },
-
-  table.header([*Ziel*], [*Bedeutung*]),
 
   image("Grafiken/Kraft/ZielBereich.svg", alt: "Bereich"),
   [
@@ -2778,8 +2789,8 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden muss oder die Kraft auf Distanz eingesetzt werden kann.
 
-#uni.table_h(
-  columns: (40%, 1fr),
+#uni.table_n(
+  columns: (20%, 1fr),
   align: (x, _) => {
     if x > 0 {
       left + top
@@ -2788,17 +2799,21 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
     }
   },
 
-  table.header([*Reichweite*], [*Bedeutung*]),
-
-  image("Grafiken/Kraft/ReichweiteBerührung.svg", alt: "Berührung") + "Berührung",
+  image("Grafiken/Kraft/ReichweiteBerührung.svg", alt: "Berührung"),
   [
-    "Für den Einsatz muss Basekontakt bestehen."
+    *Berührung*
+
+    Für den Einsatz muss Basekontakt bestehen.
 
     Bei gegnerischen Modellen muss zusätzlich vorher ein erfolgreicher #uni.lnk("Nahkampf", alt: "Nahkampfangriff") durchgeführt werden.
   ],
 
-  image("Grafiken/Kraft/ReichweiteDistanz.svg", alt: "Distanz") + "Distanz",
-  "Die Kraft kann auf Distanz eingesetzt werden.",
+  image("Grafiken/Kraft/ReichweiteDistanz.svg", alt: "Distanz"),
+  [
+    *Distanz*
+
+    Die Kraft kann auf Distanz eingesetzt werden.
+  ],
 )
 
 === Dauer
@@ -2807,20 +2822,33 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
 
 Kräfte entfalten ihre Wirkung entweder sofort oder bleiben dauerhaft im Spiel.
 
-Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
-Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
-
-Manche Kräfte können sich auch selber beenden.
-In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.
-
-#uni.table_h(
-  columns: (50%, 50%),
-  align: center + top,
-
-  table.header([*Sofort*], [*Dauerhaft*]),
+#uni.table_n(
+  columns: (20%, 1fr),
+  align: (x, _) => {
+    if x > 0 {
+      left + top
+    } else {
+      center + top
+    }
+  },
 
   image("Grafiken/Kraft/DauerSofort.svg", alt: "Sofort"),
+  [
+    *Sofort*
+
+    Wirkt sofort und entfaltet ihre Wirkung direkt nach dem Einsatz.
+  ],
+
   image("Grafiken/Kraft/DauerDauerhaft.svg", alt: "Dauerhaft"),
+  [
+    *Dauerhaft*
+
+    Jede dauerhaft im Spiel bleibende Kraft muss aktiv beendet werden bevor sie erneut eingesetzt werden kann.
+    Die Karte der Kraft wird offen auf den Spieltisch gelegt solange sie im Spiel ist.
+
+    Manche Kräfte können sich auch selber beenden.
+    In diesem Fall haben sie eine Bedingung die angibt, wann sie automatisch beendet werden.
+  ],
 )
 
 == Auswahl
