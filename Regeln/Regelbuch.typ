@@ -2162,6 +2162,7 @@ Sollte sich im #uni.lnk("Gefahrenbereich") keine #uni.lnk("Unmittelbare Bedrohun
 == Reichweite
 <Reichweite>
 #index("Fernkampf", "Reichweite")
+#index[Reichweitenbänder]
 
 Die Reichweite einer Waffe wird in sogenannten Reichweitenbändern in der Form `X/Y` angegeben.
 `X` gibt die Länge der Reichweitenbänder in Zoll an, `Y` wie oft diese anwendbar sind.
