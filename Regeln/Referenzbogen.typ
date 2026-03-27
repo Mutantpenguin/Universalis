@@ -99,13 +99,13 @@
 }
 
 #sheet_activities(
-  uni.img.activity.aktion,
+  uni.symbols.activity.aktion,
   [AP-Kosten Aktionen],
   activities.action_groups,
 )
 
 #sheet_activities(
-  uni.img.activity.reaktion,
+  uni.symbols.activity.reaktion,
   [AP-Kosten Reaktionen],
   activities.reaction_groups,
 )

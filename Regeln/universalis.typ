@@ -2,7 +2,7 @@
 
 #let version = "0.8.0"
 
-#let img = (
+#let symbols = (
   activity: (
     ap: text("⊙", font: "Noto Sans Symbols 2"),
     aktion: image("Grafiken/Allgemein/aktion.svg", alt: "Aktion", height: 10pt),
@@ -167,7 +167,7 @@
         ),
         table.cell(
           align: horizon,
-          text(points + " " + img.activity.ap, weight: "bold"),
+          text(points + " " + symbols.activity.ap, weight: "bold"),
         ),
       )
 
@@ -190,7 +190,7 @@
           ),
           fill: luma(240),
           align: alignment.center,
-          table.cell(img.activity.voraussetzung),
+          table.cell(symbols.activity.voraussetzung),
           table.cell(
             align: left + horizon,
             condition,
@@ -202,11 +202,11 @@
 }
 
 #let _action(name, points, content, condition: "") = {
-  _activity(img.activity.aktion, "Aktionen", name, points, content, condition)
+  _activity(symbols.activity.aktion, "Aktionen", name, points, content, condition)
 }
 
 #let _reaction(name, points, content, condition: "") = {
-  _activity(img.activity.reaktion, "Reaktionen", name, points, content, condition)
+  _activity(symbols.activity.reaktion, "Reaktionen", name, points, content, condition)
 }
 
 #let actions(action_group) = {
