@@ -181,9 +181,9 @@ Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf de
 - Wie bitte?
 - Ja, ein Universum.
 
-Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bisschen sollte schon existieren.
-
 Ein Universum ist eine Sammlung von Fraktionen, Modellen, Waffen, Rüstungen, Ausrüstungsgegenständen, Eigenschaften, Disziplinen und Kräften, die zusammen im Spiel verwendet werden können.
+
+Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bisschen sollte schon existieren.
 
 Dabei ist es völlig egal ob es sich um ein bereits existierendes Universum handelt oder ob Ihr Euer eigenes Universum erschafft.
 
