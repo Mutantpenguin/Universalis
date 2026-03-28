@@ -86,10 +86,6 @@
 
 = Das Spiel
 
-== Worum gehts eigentlich?
-
-TODO
-
 == Was du brauchst
 
 + Ein #uni.lnk("Universum").
@@ -137,43 +133,48 @@ TODO
     ],
   )
 
-+ Des weiteren werden Token für die folgenden Zustände benötigt:
++ #block(
+    breakable: false,
+    [
+      Des weiteren werden Token für die folgenden Zustände benötigt:
 
-  #uni.table_h(
-    columns: (30%, 70%),
-    align: (center + horizon, left + horizon),
+      #uni.table_h(
+        columns: (30%, 70%),
+        align: (center + horizon, left + horizon),
 
-    table.header([*Symbol*], [*Bedeutung*]),
+        table.header([*Symbol*], [*Bedeutung*]),
 
-    uni.display_token(uni.token.brennen),
-    uni.lnk("Brennen"),
+        uni.display_token(uni.token.brennen),
+        uni.lnk("Brennen"),
 
-    uni.display_token(uni.token.feuerbereitschaft),
-    uni.lnk("Aktionen/Feuerbereitschaft", alt: "Feuerbereitschaft"),
+        uni.display_token(uni.token.feuerbereitschaft),
+        uni.lnk("Aktionen/Feuerbereitschaft", alt: "Feuerbereitschaft"),
 
-    uni.display_token(uni.token.panik),
-    uni.lnk("Panik"),
+        uni.display_token(uni.token.panik),
+        uni.lnk("Panik"),
 
-    uni.display_token(uni.token.gift),
-    uni.lnk("Vergiftung", alt: "Gift"),
+        uni.display_token(uni.token.gift),
+        uni.lnk("Vergiftung", alt: "Gift"),
 
-    uni.display_token(uni.token.nachladen),
-    uni.lnk("Nachladen"),
+        uni.display_token(uni.token.nachladen),
+        uni.lnk("Nachladen"),
 
-    uni.display_token(uni.token.schnell),
-    uni.lnk("Schnelle Bewegungen", alt: "Schnelle Bewegung"),
+        uni.display_token(uni.token.schnell),
+        uni.lnk("Schnelle Bewegungen", alt: "Schnelle Bewegung"),
 
-    uni.display_token(uni.token.schock),
-    uni.lnk("Schock"),
+        uni.display_token(uni.token.schock),
+        uni.lnk("Schock"),
 
-    uni.display_token(uni.token.tarnung),
-    uni.lnk("Tarnung"),
+        uni.display_token(uni.token.tarnung),
+        uni.lnk("Tarnung"),
 
-    uni.display_token(uni.token.verteidigung),
-    uni.lnk("Aktionen/Verteidigung", alt: "Verteidigung"),
+        uni.display_token(uni.token.verteidigung),
+        uni.lnk("Aktionen/Verteidigung", alt: "Verteidigung"),
+      )
+
+      Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
+    ],
   )
-
-Die einzelnen Zustände werden in ihren entsprechenden Abschnitten im Verlauf der Regeln erläutert.
 
 == Universum
 <Universum>
