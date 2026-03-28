@@ -2754,7 +2754,7 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
     }
   },
 
-  image("Grafiken/Kraft/ZielBeliebig.svg", alt: "Bereich"),
+  image("Grafiken/Kraft/ZielBeliebig.svg", alt: "Beliebig"),
   [
     *Beliebig*
 
