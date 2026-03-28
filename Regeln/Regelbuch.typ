@@ -117,7 +117,7 @@ TODO
     ],
   )
 
-+ Für jeden Spieler eine #uni.lnk("Gruppen", alt: "Gruppe") mit mindestens 2 #uni.lnk("Modelle", alt: "Modellen") und dazugehörige #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten").
++ Für jeden Spieler eine #uni.lnk("Gruppen", alt: "Gruppe") und die dazugehörigen #uni.lnk("Einheitenkarte", alt: "Einheiten-") und #uni.lnk("Aktivierungskarte", alt: "Aktivierungskarten").
 
 + #block(
     breakable: false,
@@ -187,26 +187,19 @@ Es muss nicht unbedingt ein großes oder komplettes Universum sein, aber ein bis
 
 Dabei ist es völlig egal ob es sich um ein bereits existierendes Universum handelt oder ob Ihr Euer eigenes Universum erschafft.
 
-=== Fraktionen
-<Fraktionen>
-
-Jeder Spieler entscheidet sich für eine Fraktion, mit deren Einheiten er eine Gruppe aufbauen möchte.
-
-=== Gruppen
+== Gruppen
 <Gruppen>
 
-Eine Gruppe wird immer für genau eine Fraktion aufgestellt und besteht aus 2 oder mehr #uni.lnk("Modelle", alt: "Modellen").
+Alle an einem Spiel beteililgten Gruppen müssen aus demselben Universum stammen.
+Sofern Ihr nichts anderes vereinbart habt, sollten sie ungefähr gleich stark sein.
 
-Jeder Spieler verfügt über genau 1 Gruppe die genau 1 #uni.lnk("Gruppenführer") beinhalten muss.
+Jeder Spieler kontrolliert seine eigene Gruppe, die aus mindestens  2 #uni.lnk("Modelle", alt: "Modellen") bestehen und genau 1 #uni.lnk("Anführer") beinhalten muss.
 
-=== Gruppenführer
-<Gruppenführer>
+=== Anführer
+<Anführer>
 
-Genau ein Modell jeder Gruppe muss der Gruppenführer sein.
-
+Genau ein Modell jeder Gruppe muss ihr Anführer sein.
 Er wird unter anderem dafür benötigt die #uni.lnk("Aufstellen-der-Modelle", alt: "Aufstellungsreihenfolge") zu bestimmen.
-
-Jede Fraktion hat ihre eigene Regelung wer der Gruppenführer ist und wie gegebenenfalls ein Stellvertreter bestimmt wird.
 
 == Karten
 
@@ -242,7 +235,7 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
       image("Grafiken/Abbildungen/einheitenkarte_übersicht.svg", alt: "Aufbau Einheitenkarte"),
     )
     #uni.table_h(
-      columns: (30%, 70%),
+      columns: (25%, 1fr),
       align: (center + horizon, left + horizon),
 
       table.header([*Nr.*], [*Bedeutung*]),
@@ -299,7 +292,7 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
       uni.lnk("Disziplinen und Kräfte", alt: "Disziplinen"),
 
       [18.],
-      uni.lnk("Fraktionen", alt: "Fraktion"),
+      [Symbol der zugehörigen Fraktion],
     )
   ],
 )
@@ -1225,7 +1218,7 @@ Bevor die Modelle aufgestellt werden muss eine Gruppe noch verschiedene Vorberei
 <Aufstellen-der-Modelle>
 #index[Aufstellen der Modelle]
 
-Beide Spieler führen einen vergleichenden Wurf auf die EH des jeweiligen Gruppenführers durch.
+Beide Spieler führen einen vergleichenden Wurf auf die EH ihres #uni.lnk("Anführer", alt: "Anführers") durch.
 Bei Gleichstand gewinnt das Modell mit der höheren EH.
 Sollte sie identisch sein entscheidet der Zufall wer gewinnt.
 
