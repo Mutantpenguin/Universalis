@@ -142,6 +142,7 @@ TODO
   #uni.table_h(
     columns: (30%, 70%),
     align: (center + horizon, left + horizon),
+
     table.header([*Symbol*], [*Bedeutung*]),
 
     uni.display_token(uni.token.brennen),
@@ -242,62 +243,64 @@ So ist gewährleistet, dass sie nicht kaputt gehen und während des Spiels könn
     #uni.table_h(
       columns: (30%, 70%),
       align: (center + horizon, left + horizon),
+
       table.header([*Nr.*], [*Bedeutung*]),
 
-      "1.",
-      [#uni.lnk("Trefferpunkte")],
+      [1.],
+      uni.lnk("Trefferpunkte"),
 
-      "2.",
+      [2.],
       [Name des Modells],
 
-      "3.",
-      [#uni.lnk("Attribute")],
+      [3.],
+      uni.lnk("Attribute"),
 
-      "4.",
-      [#uni.lnk("Wahrnehmungsbereich")],
+      [4.],
+      uni.lnk("Wahrnehmungsbereich"),
 
-      "5.",
-      [#uni.lnk("Gefahrenbereich")],
+      [5.],
+      uni.lnk("Gefahrenbereich"),
 
-      "6.",
-      [#uni.lnk("Modell-Typen", alt: "Typ des Modells")],
+      [6.],
+      uni.lnk("Modell-Typen", alt: "Typ des Modells"),
 
-      "7.",
-      [#uni.lnk("Größenprofil")],
+      [7.],
+      uni.lnk("Größenprofil"),
 
-      "8.",
-      [#uni.lnk("Bewegungsart")],
+      [8.],
+      uni.lnk("Bewegungsart"),
 
-      "9.",
-      [#uni.lnk("Geschwindigkeit")],
+      [9.],
+      uni.lnk("Geschwindigkeit"),
 
-      "10.",
-      [#uni.lnk("Eigenschaften")],
+      [10.],
+      uni.lnk("Eigenschaften"),
 
-      "11.",
-      [#uni.lnk("Waffen")],
+      [11.],
+      uni.lnk("Waffen"),
 
-      "12.",
-      [#uni.lnk("Rüstungen", alt: "Rüstung")],
+      [12.],
+      uni.lnk("Rüstungen", alt: "Rüstung"),
 
-      "13.",
-      [#uni.lnk("Ausrüstung")],
+      [13.],
+      uni.lnk("Ausrüstung"),
 
-      "14.",
-      [#uni.lnk("Schadensprofil")],
+      [14.],
+      uni.lnk("Schadensprofil"),
 
-      "15.",
-      [#uni.lnk("Rüstungsprofil")],
+      [15.],
+      uni.lnk("Rüstungsprofil"),
 
-      "16.",
+      [16.],
       [Punkte],
 
-      "17.",
-      [#uni.lnk("Disziplinen und Kräfte", alt: "Disziplinen")],
+      [17.],
+      uni.lnk("Disziplinen und Kräfte", alt: "Disziplinen"),
 
-      "18.",
-      [#uni.lnk("Fraktionen", alt: "Fraktion")],
-    )],
+      [18.],
+      uni.lnk("Fraktionen", alt: "Fraktion"),
+    )
+  ],
 )
 
 = Grundregeln
@@ -408,44 +411,39 @@ Wenn das der Fall, werden sie mit dem folgendem Symbol gekennzeichnet.
 
 #uni.table_h(
   columns: (3fr, 2fr, 2fr),
-  align: (x, y) => {
-    if x > 0 {
-      center + horizon
-    } else {
-      left + horizon
-    }
-  },
+  align: (left + horizon, center + horizon, center + horizon),
+
   table.header([], [*Aktionen*], [*Reaktionen*]),
 
-  "Ausrüstung",
+  [Ausrüstung],
   ref(<Ausrüstung-Aktionen>, form: "page"),
-  "",
+  [],
 
-  "Bewegen",
+  [Bewegen],
   ref(<Bewegung-Aktionen>, form: "page"),
-  "",
+  [],
 
-  "Eigenschaften",
+  [Eigenschaften],
   ref(<Eigenschaften-Aktionen>, form: "page"),
-  "",
+  [],
 
-  "Fernkampf",
+  [Fernkampf],
   ref(<Fernkampf-Aktionen>, form: "page"),
   ref(<Fernkampf-Reaktionen>, form: "page"),
 
-  "Kräfte",
+  [Kräfte],
   ref(<Kraft-Aktionen>, form: "page"),
   ref(<Kraft-Reaktionen>, form: "page"),
 
-  "Nahkampf",
+  [Nahkampf],
   ref(<Nahkampf-Aktionen>, form: "page"),
   ref(<Nahkampf-Reaktionen>, form: "page"),
 
-  "Objekte",
+  [Objekte],
   ref(<Objekt-Aktionen>, form: "page"),
-  "",
+  [],
 
-  "Tarnung",
+  [Tarnung],
   ref(<Tarnung-Aktionen>, form: "page"),
   ref(<Tarnung-Reaktionen>, form: "page"),
 )
@@ -609,22 +607,23 @@ Siehe @fig-modell-typen.
   uni.table_h(
     columns: (10%, 20%, 50%, 20%),
     align: left + horizon,
+
     table.header([*Symbol*], [*Name*], [*Beschreibung*], [*Größenprofil*]),
 
     image("Grafiken/Modell/Standard.svg", alt: "Standard"),
-    "Standard",
-    "Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.",
-    "klein bis groß",
+    [Standard],
+    [Umfasst alles von normalen Soldaten bis hin zu gepanzerten Anzügen.],
+    [klein bis groß],
 
     image("Grafiken/Modell/Koloss.svg", alt: "Koloss"),
     [#uni.lnk("Kolosse", alt: "Koloss")],
-    "Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.",
-    "groß bis riesig",
+    [Sind unter Anderem große servounterstützte Panzeranzüge oder große biologische Kreaturen.],
+    [groß bis riesig],
 
     image("Grafiken/Modell/Begleiter.svg", alt: "Begleiter"),
     [#uni.lnk("Begleiter")],
-    "Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.",
-    "klein bis riesig",
+    [Umschreibt alle Modelle die durch ein anderes Modell ferngesteuert werden.],
+    [klein bis riesig],
   ),
   caption: "Modell-Typen",
 ) <fig-modell-typen>
@@ -641,31 +640,32 @@ Modelle werden in 4 verschiedene Größenprofile gegliedert. Siehe @fig-modell-g
   uni.table_h(
     columns: (10%, 10%, 1fr, 20%, 10%),
     align: left + horizon,
+
     table.header([*Symbol*], [*Name*], [*Beschreibung*], [*Base*], [*Höhe*]),
 
     image("Grafiken/Größe/klein.svg", alt: "Standard", height: 4%),
-    "klein",
-    "Alles kleiner als einschließlich 1m.",
-    "≤25mm",
-    "1\"",
+    [klein],
+    [Alles kleiner als einschließlich 1m.],
+    [≤25mm],
+    [1\"],
 
     image("Grafiken/Größe/mittel.svg", alt: "Begleiter", height: 4%),
-    "mittel",
-    "Alles zwischen 1m und 2,5m.",
-    "25mm - <40mm",
-    "2\"",
+    [mittel],
+    [Alles zwischen 1m und 2,5m.],
+    [25mm - \<40mm],
+    [2\"],
 
     image("Grafiken/Größe/groß.svg", alt: "Koloss", height: 4%),
-    "groß",
-    "Alles zwischen 2,5m und 3,5m.",
-    "40mm - <60mm",
-    "3\"",
+    [groß],
+    [Alles zwischen 2,5m und 3,5m.],
+    [40mm - \<60mm],
+    [3\"],
 
     image("Grafiken/Größe/riesig.svg", alt: "Koloss", height: 4%),
-    "riesig",
-    "Alles höher als einschließlich 3,5m.",
-    "≥60mm",
-    "4\"",
+    [riesig],
+    [Alles höher als einschließlich 3,5m.],
+    [≥60mm],
+    [4\"],
   ),
   caption: "Größenprofile",
 ) <fig-modell-groessen>
@@ -691,6 +691,7 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
   uni.table_h(
     columns: (20%, 80%),
     align: (center + horizon, left + horizon),
+
     table.header([*Kürzel*], [*Beschreibung*]),
 
     [*AGI* #index[AGI] #index("Attribute", "AGI")],
@@ -741,13 +742,15 @@ Jedes Modell verfügt über einen festen Satz an Attributen.
   uni.table_h(
     columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
     align: center + horizon,
+
     table.header([*AGI*], [*NK*], [*FK*], [*KO*], [*WN*], [*EH*]),
-    "4",
-    "2",
-    "2",
-    "3",
-    "3",
-    "3",
+
+    [4],
+    [2],
+    [2],
+    [3],
+    [3],
+    [3],
   ),
   caption: "normaler Mensch",
 )
@@ -776,7 +779,7 @@ Auf der #uni.lnk("Einheitenkarte") werden die Trefferpunkte als Kreise und in zw
     align: left + top,
 
     [*Weiss*],
-    "Normale Trefferpunkte",
+    [Normale Trefferpunkte],
 
     [*Orange*],
     [
@@ -1442,18 +1445,34 @@ Der Schaden muss der folgenden Tabelle entnommen werden.
 
 #uni.table_h(
   columns: (2fr, 1fr),
-  align: center + top,
+  align: center + horizon,
 
   table.header([*Fallhöhe*], [*Schaden*]),
 
-  [*bis einschliesslich*] + "\nGrößenprofil",
-  "kein Schaden",
+  [
+    *bis einschliesslich*
+    #linebreak()
+    Größenprofil
+  ],
+  [kein Schaden],
 
-  [*bis einschliesslich doppeltem*] + "\nGrößenprofil",
-  "halbe KO\n(abgerundet)",
+  [
+    *bis einschliesslich doppeltem*
+    #linebreak()
+    Größenprofil
+  ],
+  [
+    halbe KO
+    #linebreak()
+    (abgerundet)
+  ],
 
-  [*größer als doppeltes*] + "\nGrößenprofil",
-  "KO",
+  [
+    *größer als doppeltes*
+    #linebreak()
+    Größenprofil
+  ],
+  [KO],
 )
 
 == Schnelle Bewegungen
@@ -1582,7 +1601,7 @@ Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
   align: left + top,
 
   [*Normal*],
-  "Es gibt keine Einschränkungen.",
+  [Es gibt keine Einschränkungen.],
 
   [*Schwierig*],
   [
@@ -1592,7 +1611,7 @@ Passierbarkeit von Gelände wird in 3 verschiedene Arten unterschieden.
   ],
 
   [*Unpassierbar*],
-  "Dieses Gelände kann nicht betreten oder durchquert werden.",
+  [Dieses Gelände kann nicht betreten oder durchquert werden.],
 )
 
 == Sichtweite
@@ -1695,17 +1714,17 @@ Ein Schadensprofil wird immer durch die Stärke, den Schaden und eventuellen #un
 
 #uni.table_h(
   columns: (auto, auto, 1fr),
-  align: left + top,
+  align: (center + horizon, left + horizon, left + horizon),
 
   table.header([*Symbol*], [*Name*], [*Bedeutung*]),
 
   image("Grafiken/Waffe/stärke.svg", alt: "Stärke"),
-  "Stärke",
+  [Stärke #index[Stärke]],
   [erhöht die Chance beim #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Verletzungswurf")],
 
   image("Grafiken/Waffe/schaden.svg", alt: "Schaden"),
-  "Schaden",
-  "zugefügter Verlust an Trefferpunkten",
+  [Schaden #index[Schaden]],
+  [zugefügter Verlust an Trefferpunkten],
 )
 
 #uni.example(image("Grafiken/Abbildungen/schadensprofil.jpg", alt: "Schadensprofil"))
@@ -1718,17 +1737,17 @@ Rüstungsprofile werden immer mit ihrem Schutz, der Schadensreduktion und eventu
 
 #uni.table_h(
   columns: (auto, 1fr, 2fr),
-  align: left + top,
+  align: (center + horizon, left + horizon, left + horizon),
 
   table.header([*Symbol*], [*Name*], [*Bedeutung*]),
 
   image("Grafiken/Rüstung/schutz.svg", alt: "Schutz"),
-  "Schutz" + index[Schutz],
+  [Schutz #index[Schutz]],
   [erhöht die Chance beim #uni.lnk("Verletzungs-und-Rüstungswurf", alt: "Rüstungswurf")],
 
   image("Grafiken/Rüstung/schadensreduktion.svg", alt: "Schadensreduktion"),
-  "Schadensreduktion" + index[Schadensreduktion],
-  "Reduktion des Verlusts an Trefferpunkten",
+  [Schadensreduktion #index[Schadensreduktion]],
+  [Reduktion des Verlusts an Trefferpunkten],
 )
 
 #uni.example(image("Grafiken/Abbildungen/rüstungsprofil.jpg", alt: "Rüstungsprofil"))
@@ -1754,13 +1773,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 #block(
   breakable: false,
   uni.table_v(
-    align: (x, _) => {
-      if x > 0 {
-        left + top
-      } else {
-        center + top
-      }
-    },
+    align: (center + top, left + top),
     columns: (20%, 1fr),
 
     image("Grafiken/Effekt/brand.svg", alt: "Brand"),
@@ -1827,13 +1840,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 #block(
   breakable: false,
   uni.table_v(
-    align: (x, _) => {
-      if x > 0 {
-        left + top
-      } else {
-        center + top
-      }
-    },
+    align: (center + top, left + top),
     columns: (20%, 1fr),
 
     image("Grafiken/Effekt/schock.svg", alt: "Schock"),
@@ -1858,13 +1865,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
 #block(
   breakable: false,
   uni.table_v(
-    align: (x, _) => {
-      if x > 0 {
-        left + top
-      } else {
-        center + top
-      }
-    },
+    align: (center + top, left + top),
     columns: (20%, 1fr),
 
     image("Grafiken/Effekt/adaptiv.svg", alt: "Adaptiv"),
@@ -1912,13 +1913,13 @@ Nun wird die folgende Tabelle konsultiert:
 
   table.header([*Höheres Ergebnis*], [*Auswirkungen*]),
 
-  "Verteidiger",
-  "Nichts passiert.",
+  [Verteidiger],
+  [Nichts passiert.],
 
-  "Gleichstand",
+  [Gleichstand],
   [Der Verteidiger erleidet einen #uni.lnk("Schock").],
 
-  "Angreifer",
+  [Angreifer],
   [Der Schaden kommt zur #uni.lnk("Schadensanwendung", alt: "Anwendung").],
 )
 
@@ -1936,9 +1937,9 @@ Falls das verteidigende Modell durch Fernkampf getroffen wurde und ein #uni.lnk(
     table.header([], [*weich*], [*mittel*], [*hart*]),
 
     [*Rüstungswurf*],
-    "-",
-    "+1",
-    "+2",
+    [-],
+    [+1],
+    [+2],
   ),
 )
 
@@ -1974,27 +1975,20 @@ Sie können keine #uni.lnk("Aktionen und Reaktionen") ausführen.
 
 Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Tabelle:
 
-
 #uni.table_h(
   columns: (auto, 1fr),
-  align: (x, _) => {
-    if x > 0 {
-      left + top
-    } else {
-      center + top
-    }
-  },
+  align: (center + top, left + top),
 
   table.header([*Ergebnis*], [*Auswirkung*]),
 
-  "1-8",
+  [1-8],
   [Das Modell erleidet einen automatischen Treffer mit dem #uni.lnk("Schadensprofil") der Waffe, die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich mit seiner vollen Bewegung W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.],
 
-  "9-11",
+  [9-11],
   [Der Brandmarker wird vom Modell entfernt und es erleidet 1 #uni.lnk("Schock").],
 
-  "12+",
-  "Der Brandmarker wird entfernt.",
+  [12+],
+  [Der Brandmarker wird entfernt.],
 )
 
 === Hilfe durch befreundete Modelle
@@ -2066,20 +2060,20 @@ Modelle in Panik werden hierbei ignoriert.
 
   table.header([*Typ*], [*Mod.*]),
 
-  "das gerade eliminierte befreundete Modell",
-  "-3",
+  [das gerade eliminierte befreundete Modell],
+  [-3],
 
-  "andere eliminierte befreundete Modelle",
-  "-2",
+  [andere eliminierte befreundete Modelle],
+  [-2],
 
-  "gegnerisches Modell",
-  "-1",
+  [gegnerisches Modell],
+  [-1],
 
-  "befreundetes Modell",
-  "+1",
+  [befreundetes Modell],
+  [+1],
 
-  "befreundetes Modell im Basekontakt",
-  "+3",
+  [befreundetes Modell im Basekontakt],
+  [+3"],
 )
 
 == Schock
@@ -2523,14 +2517,14 @@ Die Waffenklasse ist abhängig von der Größe des Modells.
 
   table.header([*Größe des Modells*], [*Waffenklasse*]),
 
-  "klein bis mittel",
-  "I",
+  [klein bis mittel],
+  [I],
 
-  "groß",
-  "II",
+  [groß],
+  [II],
 
-  "riesig",
-  "III",
+  [riesig],
+  [III],
 )
 
 #uni.example([
@@ -2559,20 +2553,14 @@ Sofern alle Voraussetzungen erfüllt sind beginnen getarnte Modelle das Spiel au
 
 #uni.table_h(
   columns: (auto, 1fr),
-  align: (x, _) => {
-    if x > 1 {
-      center + top
-    } else {
-      left + top
-    }
-  },
+  align: (center + top, left + top),
 
   table.header([*Typ*], [*Voraussetzung*]),
 
-  "passiv",
+  [passiv],
   [Die Tarnung kann nur aktiviert werden, wenn sich das Modell in Basekontakt mit einem #uni.lnk("Geländestücke", alt: "Geländestück") (welches mindestens über die gleichen Ausmaße wie das #uni.lnk("Größenprofil") des Modell verfügt) befindet.],
 
-  "aktiv",
+  [aktiv],
   [Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem #uni.lnk("Geländestücke", alt: "Geländestück") befinden oder nicht.],
 )
 
@@ -2643,40 +2631,34 @@ Jede Kraft wird durch eine Karte repräsentiert, auf der die durch sie verursach
 )
 
 #uni.table_h(
-  columns: (30%, 70%),
-  align: (x, _) => {
-    if x > 0 {
-      left + top
-    } else {
-      center + top
-    }
-  },
+  columns: (20%, 1fr),
+  align: (center + top, left + top),
 
   table.header([*Nr.*], [*Bedeutung*]),
 
-  "1.",
+  [1.],
   [Bezeichnung und #uni.lnk("Kraft-Stufe", alt: "Stufe")],
 
-  "2.",
-  "Regeln",
+  [2.],
+  [Regeln],
 
-  "3.",
-  [#uni.lnk("Kraft-AP-Kosten", alt: "AP Kosten")],
+  [3.],
+  uni.lnk("Kraft-AP-Kosten", alt: "AP Kosten"),
 
-  "4.",
-  [#uni.lnk("Kraft-Attribut", alt: "Attribut")],
+  [4.],
+  uni.lnk("Kraft-Attribut", alt: "Attribut"),
 
-  "5.",
-  [#uni.lnk("Kraft-TP-Verlust", alt: "TP-Verlust")],
+  [5.],
+  uni.lnk("Kraft-TP-Verlust", alt: "TP-Verlust"),
 
-  "6.",
-  [#uni.lnk("Kraft-Ziel", alt: "Ziel")],
+  [6.],
+  uni.lnk("Kraft-Ziel", alt: "Ziel"),
 
-  "7.",
-  [#uni.lnk("Kraft-Reichweite", alt: "Reichweite")],
+  [7.],
+  uni.lnk("Kraft-Reichweite", alt: "Reichweite"),
 
-  "8.",
-  [#uni.lnk("Kraft-Dauer", alt: "Dauer")],
+  [8.],
+  uni.lnk("Kraft-Dauer", alt: "Dauer"),
 )
 
 === Stufe
@@ -2714,13 +2696,7 @@ Die Zahl im Symbol gibt an, wie viele TP das Modell verliert.
 
 #uni.table_n(
   columns: (20%, 1fr),
-  align: (x, _) => {
-    if x > 0 {
-      left + top
-    } else {
-      center + top
-    }
-  },
+  align: (center + top, left + top),
 
   image("Grafiken/Kraft/SchadenMisserfolg.svg", alt: "Misserfolg"),
   [
@@ -2746,13 +2722,7 @@ Dabei wird zwischen 3 verschiedenen Zielen unterschieden.
 
 #uni.table_n(
   columns: (20%, 1fr),
-  align: (x, _) => {
-    if x > 0 {
-      left + top
-    } else {
-      center + top
-    }
-  },
+  align: (center + top, left + top),
 
   image("Grafiken/Kraft/ZielBeliebig.svg", alt: "Beliebig"),
   [
@@ -2784,13 +2754,7 @@ Die Reichweite einer Kraft legt fest, ob das Ziel einer Kraft berührt werden mu
 
 #uni.table_n(
   columns: (20%, 1fr),
-  align: (x, _) => {
-    if x > 0 {
-      left + top
-    } else {
-      center + top
-    }
-  },
+  align: (center + top, left + top),
 
   image("Grafiken/Kraft/ReichweiteKontakt.svg", alt: "Kontakt"),
   [
@@ -2817,13 +2781,7 @@ Kräfte entfalten ihre Wirkung entweder sofort oder bleiben permanent im Spiel.
 
 #uni.table_n(
   columns: (20%, 1fr),
-  align: (x, _) => {
-    if x > 0 {
-      left + top
-    } else {
-      center + top
-    }
-  },
+  align: (center + top, left + top),
 
   image("Grafiken/Kraft/DauerSofort.svg", alt: "Sofort"),
   [
