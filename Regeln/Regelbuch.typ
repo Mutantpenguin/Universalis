@@ -2542,8 +2542,6 @@ Sie wird am Modell mit dem Tarnungs-Token dargestellt:
   uni.display_token(uni.token.tarnung),
 )
 
-Sofern alle Voraussetzungen erfüllt sind beginnen getarnte Modelle das Spiel automatisch als getarnt.
-
 == Voraussetzungen
 
 #uni.table_h(
@@ -2558,6 +2556,8 @@ Sofern alle Voraussetzungen erfüllt sind beginnen getarnte Modelle das Spiel au
   [aktiv],
   [Aktiv getarnte Modelle können ihre Tarnung überall aktivieren, losgelöst davon, ob sie sich an einem #uni.lnk("Geländestücke", alt: "Geländestück") befinden oder nicht.],
 )
+
+Sofern alle Voraussetzungen erfüllt sind beginnen getarnte Modelle das Spiel automatisch als getarnt.
 
 == Vorteile
 <Vorteile-Tarnung>
