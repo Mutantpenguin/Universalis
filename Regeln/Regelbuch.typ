@@ -2073,7 +2073,7 @@ Modelle in Panik werden hierbei ignoriert.
   [+1],
 
   [befreundetes Modell im Basekontakt],
-  [+3"],
+  [+3],
 )
 
 == Schock
