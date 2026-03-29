@@ -1097,7 +1097,7 @@ Waffen die nachladen müssen besitzen das folgende Symbol.
   image("Grafiken/Waffe/nachladen.svg", alt: "Nachladen"),
 )
 
-Nach jedem Einsatz bekommt der Träger einen Nachlademarker und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Aktionen/Nachladen", alt: "Nachladen") durchgeführt wurde:
+Nach jedem Einsatz bekommt der Träger einen Nachlade-Token und die Waffe kann erst wieder verwendet werden wenn für sie die Aktion #uni.lnk("Aktionen/Nachladen", alt: "Nachladen") durchgeführt wurde:
 
 #align(
   center,
@@ -1775,7 +1775,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
     [
       *Brand*
 
-      Wenn das Modell überlebt erhält es einen Brandmarker. Siehe #uni.lnk("Brennen").
+      Wenn das Modell überlebt erhält es einen Brand-Token. Siehe #uni.lnk("Brennen").
     ],
 
     image("Grafiken/Effekt/erschütterung.svg", alt: "Erschütterung"),
@@ -1796,7 +1796,7 @@ Ein im Rüstungsprofil enthaltener Effekt neutralisiert dabei einen eventuell im
     [
       *Giftig*
 
-      Wenn das Modell überlebt erhält es zusätzlich Giftmarker in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe #uni.lnk("Vergiftung").
+      Wenn das Modell überlebt erhält es zusätzlich Gift-Token in Höhe der halben Differenz (aufgerundet) beim Verletzungs- und Rüstungswurf. Siehe #uni.lnk("Vergiftung").
     ],
 
     image("Grafiken/Effekt/panzerbrechend.svg", alt: "Panzerbrechend"),
@@ -1959,7 +1959,7 @@ Modelle können sich durch verschiedene Spielmechaniken in einem Zustand befinde
 #index[Brennen]
 #index("Zustände", "Brennen")
 
-Modelle mit einem Brandmarker gelten als _brennend_:
+Modelle mit einem Brand-Token gelten als _brennend_:
 
 #align(
   center,
@@ -1980,10 +1980,10 @@ Zum Beginn jeder ihrer Initiativephasen testen sie mit 1W12 auf der folgenden Ta
   [Das Modell erleidet einen automatischen Treffer mit dem #uni.lnk("Schadensprofil") der Waffe, die das Modell in Brand gesetzt hat. Falls es ihn überlebt bewegt es sich mit seiner vollen Bewegung W6 mal in eine zufällige Richtung und gibt dafür ganz normal AP aus.],
 
   [9-11],
-  [Der Brandmarker wird vom Modell entfernt und es erleidet 1 #uni.lnk("Schock").],
+  [Der Brand-Token wird vom Modell entfernt und es erleidet 1 #uni.lnk("Schock").],
 
   [12+],
-  [Der Brandmarker wird entfernt.],
+  [Der Brand-Token wird entfernt.],
 )
 
 === Hilfe durch befreundete Modelle
@@ -2025,7 +2025,7 @@ Würde dies ein weiteres mal passieren erleidet es stattdessen 1 #uni.lnk("Schoc
 #index("Zustände", "Panik")
 
 Um zu testen ob ein Modell in Panik verfällt muss es einen Paniktest in Form eines EH-Tests absolvieren.
-Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panikmarker.
+Wenn dieser misslingt verfällt das Modell in Panik und bekommt einen Panik-Token.
 
 #align(
   center,
@@ -2042,7 +2042,7 @@ Sie ignorieren Gefahren, nutzen aber das Gelände entsprechend ihrer #uni.lnk("B
 Das heißt, sie springen in ihrer Panik nicht sinnlos von Gebäuden etc.
 
 Am Ende ihrer Initiativephase kann für sie ein erneuter Paniktest durchgeführt werden.
-Wenn er gelingt, wird der Panikmarker entfernt.
+Wenn er gelingt, wird der Panik-Token entfernt.
 
 === Modifikatoren
 
@@ -2093,14 +2093,14 @@ Sollten noch Schock-Token übrig sein und das Modell verfügt über keine AP meh
 #index[Vergiftung]
 #index("Zustände", "Vergiftung")
 
-Modelle mit Giftmarkern zählen als _vergiftet_:
+Modelle mit Gift-Token zählen als _vergiftet_:
 
 #align(
   center,
   uni.display_token(uni.token.gift),
 )
 
-Zum Beginn ihrer Initiativephase entfernen sie 1 Giftmarker, und erleiden automatischen Schaden mit dem #uni.lnk("Schadensprofil") der Waffe, welche die Vergiftung verursacht hat.
+Zum Beginn ihrer Initiativephase entfernen sie 1 Gift-Token, und erleiden automatischen Schaden mit dem #uni.lnk("Schadensprofil") der Waffe, welche die Vergiftung verursacht hat.
 
 = Fernkampf
 <Fernkampf>
