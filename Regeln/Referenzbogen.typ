@@ -115,15 +115,15 @@
   [
     #sheet_heading([Rundenbeginn])
 
-    - Die AP jedes Modells werden wieder aufgefüllt.
-      Die nicht verbrauchten und bereits halbierten AP aus der Vorrunde werden addiert.
-    - Modelle mit Schock-Token verlieren automatisch pro Token 1 AP.
+    + Die AP jedes Modells werden wieder aufgefüllt.
+      Bis zu 3 nicht verbrauchte AP aus der Vorrunde werden addiert.
+    + Modelle mit Schock-Token verlieren automatisch pro Token 1 AP.
 
     #sheet_heading([Initiativephase])
 
-    - Token für schnelle Bewegung, Verteidigung oder Feuerbereitschaft entfernen.
-    - Vergiftung anwenden.
-    - Brennen anwenden.
+    + Token für schnelle Bewegung, Verteidigung oder Feuerbereitschaft werden entfernt.
+    + Vergiftung kommt zur Anwendung.
+    + Brennen kommt zur Anwendung.
   ],
 )
 

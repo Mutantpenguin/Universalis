@@ -1241,10 +1241,10 @@ Die Runde ist erst dann beendet, wenn jedes Modell seine Initiativephase durchge
 
 Zum Beginn einer Runde müssen folgende Punkte beachtet werden:
 
-- Die AP jedes Modells werden wieder aufgefüllt.
++ Die AP jedes Modells werden wieder aufgefüllt.
   Bis zu 3 nicht verbrauchte AP aus der Vorrunde werden addiert.
   Siehe auch Rundenende.
-- Modelle mit #uni.lnk("Schock", alt: "Schock-Token") verlieren automatisch pro Token 1 AP.
++ Modelle mit #uni.lnk("Schock", alt: "Schock-Token") verlieren automatisch pro Token 1 AP.
 
 === Aktivierungsreihenfolge
 <Aktivierungsreihenfolge>
@@ -1272,9 +1272,9 @@ Zusätzlich können andere Modelle, egal ob sie bereits ihre Initiativephase hat
 
 Zum Beginn der Initiativephase eines Modells müssen folgende Punkte beachtet werden:
 
-+ eventuelle Token für #uni.lnk("Schnelle Bewegungen", alt: "schnelle Bewegung"), #uni.lnk("Aktionen/Verteidigung", alt: "Verteidigung") oder #uni.lnk("Aktionen/Feuerbereitschaft", alt: "Feuerbereitschaft") werden entfernt
-+ eventuelle #uni.lnk("Vergiftung") kommt zur Anwendung
-+ eventuelles #uni.lnk("Brennen") kommt zur Anwendung
++ Token für #uni.lnk("Schnelle Bewegungen", alt: "schnelle Bewegung"), #uni.lnk("Aktionen/Verteidigung", alt: "Verteidigung") oder #uni.lnk("Aktionen/Feuerbereitschaft", alt: "Feuerbereitschaft") werden entfernt.
++ #uni.lnk("Vergiftung") kommt zur Anwendung.
++ #uni.lnk("Brennen") kommt zur Anwendung.
 
 === Rundenende
 <Rundenende>
