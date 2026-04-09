@@ -11,6 +11,8 @@
   ),
 )
 
+#let main_font = "Nova Round"
+
 #let color = (
   primary: rgb("#495664ff"),
   secondary: rgb("#f8fcebff"),
@@ -268,7 +270,7 @@
 
   #show heading.where(level: 1): it => {
     set text(
-      font: "Nova Round",
+      font: main_font,
       size: 22pt,
       weight: "bold",
     )

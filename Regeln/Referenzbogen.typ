@@ -15,7 +15,7 @@
     radius: 3pt,
     fill: uni.color.primary,
     text(
-      font: "Nova Round",
+      font: uni.main_font,
       size: 20pt,
       fill: uni.color.secondary,
       align(
@@ -44,7 +44,7 @@
           text(
             titel,
             size: 14pt,
-            font: "Nova Round",
+            font: uni.main_font,
             fill: uni.color.secondary,
           ),
         ),

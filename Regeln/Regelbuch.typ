@@ -31,7 +31,7 @@
     columns: (6fr, 1fr),
     [
       #text(
-        font: "Nova Round",
+        font: uni.main_font,
         size: 35pt,
         title,
       )
