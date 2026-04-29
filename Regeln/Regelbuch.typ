@@ -934,6 +934,11 @@ Für sie können weitere AP verwendet werden indem die AP des zugeordneten Opera
 
 Begleiter verfügen nicht über die Attribute AGI, NK, FK und EH.
 Jeder Wurf auf eines dieser Attribute verwendet immer die Attribute des zugeordneten Operators.
+Sie können jedoch nach oben oder unten modifiziert werden.
+
+#uni.example([
+  Ein Begleiter mit einem Modifikator von +1 auf FK und einem Operator mit einem FK von 3 würde für alle FK-Würfe einen Wert von 4 verwenden.
+])
 
 == Gefahrenbereich
 #index("Begleiter", "Gefahrenbereich")
