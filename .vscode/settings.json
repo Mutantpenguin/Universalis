@@ -2,10 +2,10 @@
     "[typst]": {
         "editor.formatOnSave": true
     },
-    "tinymist.formatterMode": "typstyle",
     "tinymist.fontPaths": [
         "${workspaceFolder}/Fonts/"
     ],
-    "tinymist.systemFonts": false,
-    "tinymist.formatterPrintWidth": 200
+    "tinymist.formatterMode": "typstyle",
+    "tinymist.formatterPrintWidth": 200,
+    "tinymist.systemFonts": false
 }
