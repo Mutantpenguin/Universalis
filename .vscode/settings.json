@@ -2,6 +2,7 @@
     "[typst]": {
         "editor.formatOnSave": true
     },
+    "conventionalCommits.promptScopes": false,
     "tinymist.fontPaths": [
         "${workspaceFolder}/Fonts/"
     ],

@@ -1,6 +1,7 @@
 {
 	"recommendations": [
 		"exodiusstudios.comment-anchors",
-		"myriad-dreamin.tinymist"
-	],
+		"myriad-dreamin.tinymist",
+		"vivaxy.vscode-conventional-commits"
+	]
 }
