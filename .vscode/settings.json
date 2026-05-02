@@ -3,6 +3,10 @@
         "editor.formatOnSave": true
     },
     "conventionalCommits.promptScopes": false,
+    "git.branchProtection": [
+        "master"
+    ],
+    "git.branchProtectionPrompt": "alwaysCommitToNewBranch",
     "tinymist.fontPaths": [
         "${workspaceFolder}/Fonts/"
     ],
