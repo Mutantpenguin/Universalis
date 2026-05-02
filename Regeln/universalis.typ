@@ -11,7 +11,7 @@
   ),
 )
 
-#let main_font = "Nova Round"
+#let main_font = "Nova Flat"
 
 #let color = (
   primary: rgb("#495664ff"),
@@ -272,7 +272,6 @@
     set text(
       font: main_font,
       size: 22pt,
-      weight: "bold",
     )
     pagebreak(weak: true)
     place(
